@@ -1,157 +1,72 @@
-# qwen35-streaming
+# qwen35-streaming-2b
 
-基于 Qwen3.5-0.8B 官方权重和原始模型实现的流式视频理解实验。
+基于 **Qwen/Qwen3.5-2B 官方权重**的流式视频理解协作仓库，运行目标是 Linux GPU/超算集群。
 
-当前阶段：Qwen3.5-0.8B 文件视频流式原型已完成本轮工程收尾验证，本分支整合低帧率修复并申请合入 main；后续进入 2B 兼容性与质量验证。可选记忆仍保留实验身份，未进行 SFT，尚未实现无限历史或默认缓存裁剪。
+继承 [qwen35-streaming](https://github.com/wshy531/qwen35-streaming) 主线提交 `c32a5951622dc6ce9e7e770b457af77cca7a883d`（已合并 PR #6），保留原作者提交与 0.8B 实验记录。
+**当前是 2B 初始化与接口适配阶段，尚未完成 2B 真实权重 GPU 验证。** 旧记录中的数值与识别结果属于 0.8B，不代表 2B 效果。
 
-## 当前进度（2026-10-15）
+2026-10-16 本机 CPU 检查：**209 项通过，0 失败/错误/跳过**。使用 2B 官方处理器及微型随机模型，未下载 2B 权重；[机器可读摘要](reports/bootstrap-2b/cpu_summary.json)与[测试输出](reports/bootstrap-2b/cpu_console.txt)。Linux CI 结果以 GitHub Actions 为准。
 
-[PR #1](https://github.com/wshy531/qwen35-streaming/pull/1)、[PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 和文档 PR #4 已合入 `main`；本轮从 `6ed58af` 整合修复并完成验收，详见 [0.8B 收尾报告](experiments/36tar/streaming-learning/CLOSEOUT_08B.md)。本分支合并后，修复才进入 main。
-
-- **文件视频流式原型已可用**：顺序采样，成对编码新增帧，续接注意力 KV、卷积和递归状态；问答在独立缓存分支生成，不写回视频主历史。
-- **运行与展示已接入**：支持文件快速重放、按视频 PTS 墙钟播放、单最新帧槽及丢帧统计，网页显示画面、回答、时间和 reset。达到主状态容量限额时重置，并明确显示新的记忆起点。
-- **已有真实权重验证**：保留同输入原/流式对照、文件来源和约两分钟的重复短片压力结果。后者接入 112 个采样帧、36 次问答、19 次 reset，没有丢帧；它是有限重复播放，不能代表自然长视频或无限期稳定。
-- **历史记忆仍在实验阶段**：有界 RGB 帧库、投影特征、事件代表、ToMe 式合并/森林和严格时间查询是显式可选路径或独立诊断；没有统一升级为默认方案，也没有证明总体识别能力提升。
-
-活动实现与运行说明见 [流式实验 README](experiments/36tar/streaming-learning/README.md)；阶段记录见 [实验总纲](experiments/36tar/streaming-learning/实验总纲.md)，候选结果见 [后续实验索引](experiments/36tar/streaming-learning/FOLLOWUP_EXPERIMENTS.md)、[森林效果分析](experiments/36tar/streaming-learning/FOREST_RUNTIME_ANALYSIS.md) 和 [第二素材验证](experiments/36tar/streaming-learning/SECOND_FILE_VALIDATION.md)。实验总纲中的旧路径和阶段描述是交付快照，不是本机目录约定。
-
-本分支已整合 [PR #3](https://github.com/wshy531/qwen35-streaming/pull/3) 的低帧率修复与文本证据，并在当前源码重新完成 **195 项完整回归 + 15 项时间记忆契约**。UCF101 三视频/六上下文的原与流式生成 Token 一致，问答主缓存保持不变；通用 8 帧/reset 与 0.2 FPS 稀疏文件 GPU 入口均通过。本轮 4 次模型载入、14 次问答；俯卧撑/剃须动作符合视频，篮球未识别出扣篮。完整原答、失败记录和复现步骤见收尾报告，不将六组样例当正式准确率。
-
-2026-10-16：本分支已进一步完整整合 PR #5 的十组历史读取诊断，并修复文本证据恢复工具的解压限额；重新通过 **218 项CPU测试**。统一由 PR #6 交付，新增候选未升级默认；详见 [整合审核与证据](experiments/36tar/streaming-learning/PR_INTEGRATION_20261016.md)。
-
-## 仓库结构
+## 开发入口
 
 ```text
-qwen35_local/                  根目录原始模型/配置基线
-scripts/smoke_test.py           根目录官方权重文字/单图验证
-tests/                         根目录源码迁移对照测试
+qwen35_local/                      原始模型实现，用于官方基线
+scripts/prepare_model.py            固定版本下载 / 离线完整性校验
+scripts/smoke_test.py               2B 文本 / 单图基线
+scripts/run_cpu_checks.py           CPU 小模型回归，不加载预训练权重
+scripts/run_2b_video.py             2B 预检 / FP32 文件流式运行
+requirements-cluster.txt            集群 Python 依赖
+docs/CLUSTER.md                     完整部署、运行与结果回收步骤
+CONTRIBUTING.md                     分支、PR 和证据约定
 experiments/36tar/streaming-learning/
-  code/qwen35-streaming/        实验中的只读原始基线
-  code/qwen35-streaming-s4/     当前活动流式实现
-  scripts/run_video_demo.py    通用视频演示启动器
-  scripts/run_live_demo.py     独立文件/可选摄像头来源启动器
-  diagnostics/                 显式候选和独立对照实验
-  runs/                        固定运行记录与小型文本证据
-third_party/                   上游许可证、提交及源码哈希
-requirements.txt               根目录固定核心依赖
-THIRD_PARTY_NOTICES.md          来源和修改说明
+  code/qwen35-streaming/            旧原始实现对照
+  code/qwen35-streaming-s4/         活动流式实现，开发主要在这里
+  实验总纲.md                      统一进度记录（包含历史）
 ```
 
-源码来自 Transformers **v5.3.0**，提交
-`aad13b87ed59f2afcfaebc985f403301887a35fc`。公共加载、生成、处理器等功能由
-Transformers 提供；模型及视觉/语言子模块来自本仓库。没有复制整个 Transformers。
-模型权重单独下载，不提交到 GitHub。
+没有复制整个 Transformers。模型源码固定源自 Transformers v5.3.0，许可与来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。模型权重、视频、环境和下载缓存不提交 Git。
 
-流式开发应修改 `experiments/36tar/streaming-learning/code/qwen35-streaming-s4`，从其中的本地模型类加载；根目录 `qwen35_local` 保留作原始参考。`runs/**/source_snapshot` 是证据，不是开发入口。
+## 集群快速开始
 
-## Windows / RTX 4060 环境
+以下命令在 Bash 中运行。安装和下载在允许联网的节点进行；**推理只在已分配的 GPU 计算资源中运行**。
 
-建议 Python 3.11。以下命令在仓库根目录执行，无需激活虚拟环境。
-CUDA wheel 需要兼容的 NVIDIA 驱动；用 `nvidia-smi` 查看驱动与显存。
+```bash
+git clone https://github.com/wshy531/qwen35-streaming-2b.git
+cd qwen35-streaming-2b
+git switch -c yourname/2b-baseline
+python3.11 -m venv .venv
+source .venv/bin/activate
+# 示例 CUDA wheel；先按集群驱动/管理员要求选择兼容构建。
+python -m pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu126
+python -m pip install -r requirements-cluster.txt
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu126
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m pip install av==16.1.0 psutil==7.2.2 numpy==2.4.6
-.\.venv\Scripts\python.exe -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
+export HF_HOME="$PWD/.cache/huggingface"
+export MODEL_DIR="$PWD/models/Qwen3.5-2B"
+python scripts/prepare_model.py --model-dir "$MODEL_DIR"
+python scripts/run_cpu_checks.py --model-dir "$MODEL_DIR"
 ```
 
-CUDA 检查应输出 `True`。如果已经在这个虚拟环境中装过 CPU 版 PyTorch，
-先用同一 CUDA 安装命令加 `--force-reinstall` 替换它。
-Linux 下将 Python 路径替换为 `.venv/bin/python`。
+模型固定在官方 revision `15852e8c16360a2fea060d615a32b45270f8a8fc`，完整下载生成 `DOWNLOAD_MANIFEST.json`；离线节点可以直接使用校验后的完整目录。
 
-仅做 CPU 代码验证时，将上面的 `cu126` 换成 `cpu`，不要据此估计 GPU 性能。
-初始验证不依赖 FlashAttention、FLA 等额外编译扩展；后续按需要单独引入。
+申请 GPU 后，先做原版短输入验证，再运行相同输入的两阶段流式入口：
 
-本机已配置的开发环境位于 `D:\AI_project\qwen35-streaming\.venv`：Python 3.11.7、torch 2.10.0+cu126、torchvision 0.25.0+cu126、Transformers 5.3.0、PyAV 16.1.0。RTX 4060 Laptop 已通过实际 CUDA 运算和真实模型运行；独立 UCF101 FP32 测试的 allocated 显存峰值约 3.28 GiB，不是所有配置的显存保证。模型目录为 `D:\AI_project\models\Qwen3.5-0.8B`；其他机器需要自行准备环境与权重。
-
-实验锁文件来自协作者的 Python 3.12 环境，其中 NumPy 2.5.2 不适用于 Python 3.11；本机使用 2.4.6。不要在 Python 3.11 上直接安装整份历史锁文件。
-
-## 验证本地实现（无需下载权重）
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```bash
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+python -m scripts.smoke_test --model "$MODEL_DIR" --dtype float32
+export VIDEO=/absolute/path/to/short-video.mp4
+python scripts/run_2b_video.py --stage preflight --model-dir "$MODEL_DIR" --video "$VIDEO" --out outputs/2b-preflight-01
+python scripts/run_2b_video.py --stage gpu --model-dir "$MODEL_DIR" --video "$VIDEO" --preflight outputs/2b-preflight-01 --out outputs/2b-gpu-01
 ```
 
-测试使用同一组随机小模型参数，比较上游与本地实现的文字、合成图像/视频
-logits、增量文本缓存，并检查从上游保存的检查点加载到本地类。
-这些测试只检查源码迁移正确性，不能代表 0.8B 官方权重的理解能力、显存或速度。
+每次使用新输出目录。预检与 GPU 的源码、模型文件、视频和参数必须一致；CPU 预检只证明接口与调度契约，回答没有语义意义。GPU 输出包括 `summary.json`、`events.jsonl` 和 `viewer.html`，下载 HTML 可离线查看。
 
-初始化验证（2026-10-09）：Windows / Python 3.11.7 / PyTorch 2.10.0 CPU，
-上述 3 项 unittest 全部通过。这是根目录原始实现的历史迁移验证；当前流式实现及真实权重实验位于实验目录，不能用这 3 项代替流式验收。当前本机环境已安装 CUDA PyTorch 和官方权重。
+流式入口先沿用 FP32，不提前启用尚未验证的 BF16 混合状态路径。默认有限运行：1 FPS、最多 8 帧、每答最多 16 tokens、上下文 288 tokens、600 秒总超时；容量耗尽会明确 reset。资源门槛是预检保护，不是实测显存需求或性能承诺。详见 [集群说明](docs/CLUSTER.md)。
 
-## 使用官方权重（首次运行会下载）
+## 多人协作与下一步
 
-```powershell
-.\.venv\Scripts\python.exe -m scripts.smoke_test
-.\.venv\Scripts\python.exe -m scripts.smoke_test --image "D:\images\example.jpg" --prompt "请描述这张图片。"
-```
+- 从最新 `main` 建个人功能分支，通过 PR 合并，不直接往主线堆实验。
+- 优先顺序：集群环境 → 官方 2B 基线 → 原版/流式同输入对照 → 真实视频质量 → 精度与性能优化。
+- 历史读取、帧库和压缩候选保留为实验，不默认开启；本轮不加入 SFT。
+- 每次记录模型 revision、代码 commit、命令、输入哈希、环境和失败信息，区分 CPU 检查与真实 GPU 结果。
 
-脚本默认 CUDA、非思考模式、最多生成 64 tokens；图像缩至不超过 336×336，
-处理器再按模型要求处理。它打印并校验模型、视觉和语言子模块的源码路径，
-三者必须指向 `qwen35_local`。运行后显示模型 revision 和峰值已分配显存。
-默认官方权重 revision 固定为 `2fc06364715b967f1860aea9cf38778875588b17`。
-可用 `--model` 指定本地权重目录，或用 `--revision <模型提交SHA>` 覆盖权重版本。
-下载缓存由 Hugging Face 管理，也可设置 `HF_HOME`。
-
-## 运行流式视频演示
-
-以下在仓库根目录的 PowerShell 中运行。先进入自己的开发分支；GPU 演示入口会拒绝 `main`、`master` 和 detached HEAD。模型资产须包含经过校验的 `DOWNLOAD_MANIFEST.json`，视频不随仓库上传；将路径换成本机文件。
-
-```powershell
-git switch -c my/video-demo
-$RepoRoot = (Get-Location).Path
-$Python = Join-Path $RepoRoot '.venv\Scripts\python.exe'
-Set-Location (Join-Path $RepoRoot 'experiments\36tar\streaming-learning')
-$common = @('--model-dir', 'D:/AI_project/models/Qwen3.5-0.8B',
-            '--video', 'D:/videos/example.mp4',
-            '--question', 'Describe what is happening in the video.',
-            '--fps', '1', '--duration', '8', '--max-frames', '8',
-            '--answer-tokens', '16', '--first-qa-frames', '4', '--qa-every', '4',
-            '--max-tokens', '288', '--wall-seconds', '180')
-& $Python scripts/run_video_demo.py --stage preflight @common --out runs/my_video_cpu_01
-& $Python scripts/run_video_demo.py --stage gpu @common --preflight runs/my_video_cpu_01 --ui-port 8765 --out runs/my_video_gpu_01
-```
-
-CPU 预检通过后再运行 GPU；预检使用随机微型模型，不代表理解能力。两阶段必须使用相同输入和参数，输出目录每次使用新名称。源码、视频或模型资产改变后需要重新预检；GPU 还会检查系统 RAM、空闲显存和计算预算。
-
-运行时打开 `http://127.0.0.1:8765/` 查看画面与回答；结束后查看输出目录中的 `viewer.html`、`summary.json` 和 `events.jsonl`。默认 `--playback fast`，按源时间播放可用 `--playback clock`，修改后须重新生成预检。
-
-独立来源、重复播放和可选历史查询的参数见 [详细运行说明](experiments/36tar/streaming-learning/README.md)。严格时间特征查询是独立候选，见 [文件入口及验收](experiments/36tar/streaming-learning/TIME_FILE_ENTRY.md)。
-
-## 当前限制
-
-- 主混合状态 reset 会丢弃其历史；可选外部证据另外限额和淘汰，不能当作无限记忆或默认 KV 裁剪。
-- 取回正确的帧、正常 EOS 和状态隔离通过，不代表回答正确。猫/鸟误认、动作遗漏及无动物画面仍答狗等失败保留；当前没有正式视频基准准确率或训练外泛化结论。
-- 多数验证采用固定 FP32 路径，历史 BF16 差异仍保留；不能从安装环境支持 BF16 推断续接数值验证已通过。
-- 物理摄像头尚未实测，端到端提速、自然长视频和长期服务稳定性尚未确证；没有进行 SFT 或更换官方权重。
-
-## 修改方式
-
-- 根据工作目标使用根目录基线或活动流式实现的 `qwen35_local`，不使用 AutoModel 自动选择上游实现。
-- 修改缓存可从 `Qwen3_5DynamicCache` 入手；注意同时存在 attention KV 和递归状态。
-- 当前模型/配置文件独立维护，不运行上游 modular 代码生成器覆盖它们。
-- 未修改时应与固定版本上游保持一致；架构改动后保留原始基线并补充针对性测试。
-- 不直接修改 `.venv/Lib/site-packages`。不要单独升级 Transformers 而不复核本地代码。
-
-## 工作计划
-
-- [x] 建立官方权重基线并保存固定样例的能力与失败记录
-- [x] 加入视频读取、抽帧、时间戳和滑窗问答
-- [x] 实现文件视频增量续接、问答隔离、有界 reset 和可视化演示
-- [x] 完成有限墙钟播放、过载及重复短片的延迟/显存/状态验证
-- [x] 开始外部记忆、事件代表、视觉 Token 合并和时间查询的独立对照
-- [x] 在本收尾分支整合低帧率修复与真实数据证据，并完成当前源码验收
-- [ ] 审核并合并本收尾 PR 到 main
-- [ ] 开始 Qwen3.5-2B 官方配置兼容性、基线和同输入流式对照
-- [ ] 用更多独立素材区分基座识别、证据读取和压缩损失
-- [ ] 根据对照证据决定 KV/递归状态及记忆候选是否升级默认
-- [ ] 验证自然长视频、实际摄像头和更长运行的稳定性
-- [ ] 构建流式数据并进行 SFT
-
-## 来源
-
-- [官方权重](https://huggingface.co/Qwen/Qwen3.5-0.8B)
-- [原始实现](https://github.com/huggingface/transformers/tree/v5.3.0/src/transformers/models/qwen3_5)
-- [第三方许可证及修改记录](THIRD_PARTY_NOTICES.md)
+[协作约定](CONTRIBUTING.md) · [继承来源](docs/PROVENANCE.md) · [0.8B 历史 README](README_08B.md)

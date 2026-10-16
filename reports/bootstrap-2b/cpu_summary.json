@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "source_main": "c32a5951622dc6ce9e7e770b457af77cca7a883d",
+  "command": "python scripts/run_cpu_checks.py --model-dir .cache/processor-2b",
+  "model": "Qwen/Qwen3.5-2B",
+  "processor_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "processor_files": [
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7755,
+      "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 2908,
+      "sha256": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "expected_lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16709,
+      "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "expected_lfs_sha256": null
+    }
+  ],
+  "python": "3.11.7",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "torch": "2.10.0+cu126",
+    "torchvision": "0.25.0+cu126",
+    "transformers": "5.3.0",
+    "accelerate": "1.12.0",
+    "Pillow": "12.1.1",
+    "av": "16.1.0",
+    "psutil": "7.2.2",
+    "numpy": "2.4.6"
+  },
+  "suites": {
+    "root": 3,
+    "original": 12,
+    "streaming": 186,
+    "restore_tools": 8
+  },
+  "tests": 209,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "gpu_runs": 0,
+  "pretrained_2b_weights_downloaded": false,
+  "cluster_validated": false,
+  "scope": "Tiny random CPU weights with official 2B processor; not pretrained quality or Linux/GPU validation",
+  "excluded": "15 independent historical temporal/time-file diagnostic contracts were not rerun in this bootstrap suite.",
+  "tested_runtime_commit": "53a8e6300200821eff7122dd1e1142b36eccf5c8",
+  "console_normalization": "Line endings normalized to LF and trailing whitespace removed; original console retained in ignored local outputs."
+}
