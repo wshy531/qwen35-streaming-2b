@@ -45,7 +45,8 @@ def budget(args):
     return {"model_loads":1,"frames_max":args.max_frames,"vision_forwards_max":pairs+history_queries,
             "questions_max":pairs+history_queries,"language_forwards_max":pairs * (2 + args.answer_tokens + 1)+history_queries*(args.answer_tokens+4),
             "generated_tokens_max":(pairs+history_queries) * args.answer_tokens,"history_tokens_max":args.max_tokens-96-args.answer_tokens,
-            "wall_seconds":args.wall_seconds,"free_gpu_gib_min":5.5,"available_ram_gib_min":3,
+            "wall_seconds":args.wall_seconds,"free_gpu_gib_min":getattr(args,"min_free_gpu_gib",5.5),
+            "available_ram_gib_min":getattr(args,"min_free_ram_gib",3),
             "precision":"fp32_ieee_math","resize":"letterbox","video_logits":"none","qa_logits":"last",
             "playback":getattr(args,"playback","fast"),"queue_capacity":1,
             "consumer_delay_seconds":getattr(args,"consumer_delay_seconds",0.),
@@ -325,14 +326,12 @@ def gpu(args):
     free,total = torch.cuda.mem_get_info()
     guard = {"gpu_free_bytes":free,"gpu_total_bytes":total,"ram_available_bytes":psutil.virtual_memory().available}
     write_json(args.out/"resource_precheck.json",guard)
-    if free < 5.5*2**30 or guard["ram_available_bytes"] < 3*2**30:
+    limits = budget(args)
+    if free < limits["free_gpu_gib_min"]*2**30 or guard["ram_available_bytes"] < limits["available_ram_gib_min"]*2**30:
         raise RuntimeError("Resource guard refused model load")
     start = time.perf_counter()
     model = Qwen3_5ForConditionalGeneration.from_pretrained(args.model_dir,local_files_only=True,
-        dtype=torch.bfloat16,attn_implementation="sdpa").to("cuda").eval()
-    if torch.cuda.mem_get_info()[0] < 2*2**30:
-        raise RuntimeError("Insufficient room for FP32 conversion")
-    model.float()
+        dtype=torch.float32,attn_implementation="sdpa").to("cuda").eval()
     torch.cuda.reset_peak_memory_stats()
     processor = AutoProcessor.from_pretrained(args.model_dir,local_files_only=True)
     report = replay(model,processor,args,proof["schedule"],proof["source_fingerprint"])
@@ -358,6 +357,8 @@ def main(argv=None):
     parser.add_argument("--consumer-delay-seconds",type=float,default=0.,help="Explicit clock-mode overload injection, not a performance setting")
     parser.add_argument("--max-tokens",type=int,default=320)
     parser.add_argument("--wall-seconds",type=int,default=600)
+    parser.add_argument("--min-free-gpu-gib",type=float,default=5.5)
+    parser.add_argument("--min-free-ram-gib",type=float,default=3.)
     parser.add_argument("--allow-branch",action="append",default=[])
     parser.add_argument("--ui-port",type=int,default=-1,help="-1 disables live view, 0 uses a free loopback port")
     parser.add_argument("--out",type=Path,required=True)
@@ -368,6 +369,8 @@ def main(argv=None):
     parser.add_argument("--history-question",default="Describe the visible subject and action in these retained historical frames.")
     parser.add_argument("--history-query-after",type=float,help="Run all preset history queries once after encoded PTS reaches this time; default is after EOF")
     args = parser.parse_args(argv)
+    if any(not math.isfinite(v) or v <= 0 for v in (args.min_free_gpu_gib,args.min_free_ram_gib)):
+        parser.error("Resource floors must be finite and positive")
     if (not 1 <= args.memory_every_pairs <= 64 or len(args.history_time) > 8 or
         any(not math.isfinite(t) or t < 0 for t in args.history_time) or
         (args.history_time and not args.remember_history)):

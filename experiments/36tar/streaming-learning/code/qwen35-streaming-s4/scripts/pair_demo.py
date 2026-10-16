@@ -13,6 +13,7 @@ from transformers import AutoProcessor
 
 from scripts.baseline import PROJECT, REPO, REVISION, provenance, write_json, file_hash, cache_measure
 from scripts.online_experiment import Q1
+from scripts.model_assets import verify_assets
 from streaming.demo import PairDemo
 from streaming.online import OnlinePairSession
 from streaming.window import read_packets
@@ -121,15 +122,6 @@ def replay(model, processor, video, out, proof=None):
     report["cleanup"] = cleanup
     write_json(out / "pair_demo_summary.json", report)
     return report
-
-
-def verify_assets(model_dir):
-    manifest = json.loads((model_dir / "DOWNLOAD_MANIFEST.json").read_text(encoding="utf-8-sig"))
-    assert manifest["revision"] == REVISION and len(manifest["files"]) == 10
-    for item in manifest["files"]:
-        path = model_dir / item["name"]
-        assert path.stat().st_size == item["bytes"] and file_hash(path) == item["sha256"].lower()
-    return manifest
 
 
 def preflight(out, args):

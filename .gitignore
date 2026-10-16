@@ -221,6 +221,8 @@ __marimo__/
 
 # Local model weights, media and experiment outputs
 checkpoints/
+models/
+*.safetensors.*
 outputs/
 data/
 *.safetensors

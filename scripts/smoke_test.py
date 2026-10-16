@@ -12,22 +12,23 @@ from qwen35_local import Qwen3_5ForConditionalGeneration
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", default="Qwen/Qwen3.5-0.8B")
+    parser.add_argument("--model", default="Qwen/Qwen3.5-2B")
     parser.add_argument("--revision", default=None, help="Override the pinned official model revision")
     parser.add_argument("--image", type=Path)
     parser.add_argument("--prompt", default="请用一句话介绍你自己。")
     parser.add_argument("--device", choices=["cuda", "cpu"], default="cuda")
     parser.add_argument("--max-new-tokens", type=int, default=64)
+    parser.add_argument("--dtype", choices=["float32", "bfloat16"], default="float32")
     args = parser.parse_args()
     revision = args.revision
     if revision is None and args.model == "Qwen/Qwen3.5-0.8B":
         revision = "2fc06364715b967f1860aea9cf38778875588b17"
+    if revision is None and args.model == "Qwen/Qwen3.5-2B":
+        revision = "15852e8c16360a2fea060d615a32b45270f8a8fc"
     if args.device == "cuda" and not torch.cuda.is_available():
         parser.error("CUDA is unavailable. Install CUDA PyTorch, or use --device cpu (slow).")
     processor = AutoProcessor.from_pretrained(args.model, revision=revision)
-    dtype = torch.float32 if args.device == "cpu" else (
-        torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
-    )
+    dtype = getattr(torch, args.dtype)
     model = Qwen3_5ForConditionalGeneration.from_pretrained(
         args.model, revision=revision, dtype=dtype, attn_implementation="sdpa"
     ).to(args.device).eval()
