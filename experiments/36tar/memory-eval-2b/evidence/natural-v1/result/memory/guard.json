@@ -1,0 +1,7 @@
+{
+  "free_gpu_bytes": 84654620672,
+  "free_ram_bytes": 669430972416,
+  "job": "217141",
+  "source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/repo/experiments/36tar/streaming-learning/code/qwen35-streaming-s4/qwen35_local/modeling_qwen3_5.py",
+  "source_sha256": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611"
+}

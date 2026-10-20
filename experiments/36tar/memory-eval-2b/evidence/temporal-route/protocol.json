@@ -1,0 +1,53 @@
+{
+  "status": "single_fixed_candidate_before_new_outputs",
+  "candidate": "R0_lexical_temporal_gate",
+  "questions": 171,
+  "videos": 67,
+  "new_sources": {
+    "temporal_route.py": "cc9c5d59d15d016d4f6404a7c55318a2ad4edc45c1f6c54ba5927781303b38d4",
+    "evaluate_route.py": "3883221ccc87c833d5ff7297cc440fbbf1b6d228a80039166b74ed752ba26455"
+  },
+  "base_source_lock_sha256": "1f5882709479f9b46ae3f56add7c2a27e8f4cb49e4b35cb70a04534cf5c6cd0a",
+  "requests_sha256": "7b3a55413ef6ba171cfd6c3359a0eb41747e4ca5c640ca051658874eeb731286",
+  "arms": [
+    "all_memory",
+    "long_only",
+    "recent4",
+    "temporal_route"
+  ],
+  "storage": "unchanged M2 forest384 with fixed threshold, no new event representation",
+  "read_caps": {
+    "all_memory": 384,
+    "long_only": 192,
+    "recent4": 192,
+    "temporal_route": 384
+  },
+  "fallback": "if no long nodes, read all available bank",
+  "regex": "\\b(?:before|after|earlier|initially|first)\\b|\\bat (?:the )?start\\b|\\b(?:at|in) (?:the )?beginning\\b|\\bin (?:the )?middle\\b",
+  "temporal_cue_counts_before_outputs": {
+    "public74": 33,
+    "open47": 25,
+    "new50": 29
+  },
+  "inputs": "original question only for routing; final original full question/options unchanged",
+  "maximum_answers": 684,
+  "maximum_generated_tokens": 5472,
+  "maximum_real_model_loads": 1,
+  "CPU_context_checks": 684,
+  "worker_seconds": 1200,
+  "deadline_UTC": "2026-10-20T06:11:50+00:00",
+  "precision": "float32",
+  "resources": {
+    "GPU": 1,
+    "CPU": 4,
+    "RAM_GiB": 24,
+    "Slurm_minutes": 25,
+    "comment": "gx_llm",
+    "partition": "g078t",
+    "requeue": false
+  },
+  "analysis": "per-cohort and F/T primary; strict and leading-format separate; pairs vs all_memory/recent4/M0; cluster bootstrap; all_memory full-ID replay; no prompt/regex/threshold tuning",
+  "data_status": "171 already-open comparison questions, not independent final holdout",
+  "stop": "one candidate round, no second routing rule or rescue prompt in this window",
+  "limitations": "Lexical cue is not semantic event localization. Before/after may require recent evidence. Reduced read budget is explicit, not equal actual Token count."
+}

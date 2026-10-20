@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "records": 684,
+  "generated_tokens": 1443,
+  "model_loads": 1,
+  "seconds": 292.78131454996765,
+  "peak_allocated_bytes": 8964622336,
+  "query_bank_isolation": true,
+  "protocol_sha256": "aa667f03e7f13032ed1d2b530b1fc0e48c98e3ef10a67b761c8a97b79e12a828"
+}

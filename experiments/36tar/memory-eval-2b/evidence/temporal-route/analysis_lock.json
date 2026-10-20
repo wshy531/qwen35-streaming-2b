@@ -1,0 +1,24 @@
+{
+  "source_sha256": "2b2fe686c0ebf5c45bb1e030fb98da527c6952a516fb461545d996d3d8fe85a4",
+  "scorer_sha256": "819ce7c12102fb6d01d2664456afacf1a6ce6b7aa6ce62410a96e60052cea63e",
+  "cohorts": [
+    "public74",
+    "open47",
+    "new50"
+  ],
+  "FT_primary": true,
+  "C_secondary": true,
+  "strict_primary": true,
+  "leading_choice_format_diagnostic": true,
+  "pairwise_references": [
+    "all_memory",
+    "recent4",
+    "M0"
+  ],
+  "bootstrap_replicates": 2000,
+  "seed": 20261020,
+  "unit": "conservative source group",
+  "all_memory_full_ID_replay_required": true,
+  "routing_input_and_output_branch_agreement": true,
+  "stop": "one candidate, no revised regex or rescue after scoring"
+}

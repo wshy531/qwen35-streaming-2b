@@ -1,0 +1,54 @@
+[
+  {
+    "path": "result/completed.json",
+    "sha256": "70ac49861f34951a37f57055b34dc6a3b7653526a98bf3d5eaeb58d504b0fe8a"
+  },
+  {
+    "path": "result/banks.json",
+    "sha256": "b7c990945a5053e10bfd70f83d5bc8c369760e6033c745c72e30b53154cc25c9"
+  },
+  {
+    "path": "result/guard.json",
+    "sha256": "79631933ceb7f3adca3afc50e0897355290df373f3c5e1b3f7cb83f82d7fd0c3"
+  },
+  {
+    "path": "result/loaded.json",
+    "sha256": "ffecc1ff1300f05efbbb67d5bba3b09a8ecdf129107199edf5fbaf0dabc7473c"
+  },
+  {
+    "path": "result/predictions.jsonl",
+    "sha256": "ddf2068ad252355ebd11d8275f7256813dc49b017dd85cb47e4983857a8dab15"
+  },
+  {
+    "path": "result/routing_traces.json",
+    "sha256": "19c414176f5524393b1ee49979f981c691eaf8bc6cec434b3c82eeb65ae73742"
+  },
+  {
+    "path": "input/submission_result.json",
+    "sha256": "d79231bbf363c290ef7b8509c535d9e500300681b42695db03ccc039d1d7f7ff"
+  },
+  {
+    "path": "input/slurm-217146.out",
+    "sha256": "fe29f267262248a523d31e71b8901bec0171fcb79eaec4394df6f3a487ce2dd6"
+  },
+  {
+    "path": "input/protocol.json",
+    "sha256": "aa667f03e7f13032ed1d2b530b1fc0e48c98e3ef10a67b761c8a97b79e12a828"
+  },
+  {
+    "path": "input/submission_attempt.json",
+    "sha256": "dd4647e59faf5dd619ce478a975b141c076ac214b4fad0e4eec407365124335a"
+  },
+  {
+    "path": "input/cpu_preflight.json",
+    "sha256": "ada5a3a8a61e00db2d42c8cdfabd8849b7ab4d2d4bbaf57dd61fb21e3b6dab73"
+  },
+  {
+    "path": "input/slurm-217146.err",
+    "sha256": "ad9cd6b13c8e2a2526c92e4606e55755402ddaff7bfef9088d054a48bce673a2"
+  },
+  {
+    "path": "input/cpu.log",
+    "sha256": "d3462196831921e56a6aaed624552031ac65f0a1850cc64e04e9773db41c4a50"
+  }
+]

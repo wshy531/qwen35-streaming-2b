@@ -1,0 +1,53 @@
+{
+  "status": "prospective_admission_protocol_not_acquired_not_evaluated",
+  "scope": "T independent source validation after candidate freeze",
+  "target_source_candidates": 40,
+  "target_original_questions": 120,
+  "sample_size_is_not_a_power_guarantee": true,
+  "exclude_sources": "all124 previously acquired file identities and related source groups; reject known duplicate/household overlap",
+  "sampling": {
+    "fps": 1,
+    "canvas": [
+      192,
+      256
+    ],
+    "resize": "letterbox",
+    "causal_prefix_only": true,
+    "temporal_pairing": true,
+    "max_generated_tokens": 8
+  },
+  "question_roles": [
+    "recent visible observation control",
+    "early brief observable event outside recent8pairs",
+    "observable cross-event order or visually supported cause"
+  ],
+  "role_targets": "aim for coverage; never force three questions if evidence is ambiguous",
+  "pressure_definition": "processed pair count and evidence age relative to actual recent8 span, not clip duration alone",
+  "blind_admission": "annotator sees original question and pixels, no candidate or reference answers",
+  "mandatory_fields": [
+    "canonical_source_and_parent",
+    "exact_input_pts_and_RGB_hash",
+    "question_options_official_label",
+    "evidence_interval",
+    "late_repetition_or_context_cues",
+    "visibility_under_fixed_input",
+    "admission_or_exclusion_reason",
+    "reviewer_and_second_review_status"
+  ],
+  "second_review": "request collaborator review of all main historical evidence intervals and ambiguous items; no messages sent automatically",
+  "no_model_conditioned_exclusion": true,
+  "necessity_controls": "separately label old-evidence removal/controlled replacement diagnostics, never treat author intervals as necessity proof",
+  "reporting": [
+    "all supported admitted questions, including full-reference failures",
+    "F/T primary and C secondary",
+    "strict/content/format separate",
+    "source-cluster paired corrections/losses and intervals",
+    "recent regressions",
+    "storage and inference costs"
+  ],
+  "model_outputs_opened_only_after_candidate_and_protocol_freeze": true,
+  "unseen_means_new_sources_for_this_project_not_proven_absent_from_pretraining": true,
+  "capacity": 384,
+  "download_authorization": "separate concrete origin/bytes/time budget before any new acquisition",
+  "stop": "one source-qualification pass with ambiguities preserved; report real eligible count and deficits instead of lowering criteria"
+}

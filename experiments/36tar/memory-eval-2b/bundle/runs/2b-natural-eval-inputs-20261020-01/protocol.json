@@ -1,0 +1,63 @@
+{
+  "status": "locked_before_2B_natural_answers",
+  "model_id": "Qwen/Qwen3.5-2B",
+  "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "questions": 171,
+  "videos": 67,
+  "cohorts": [
+    {
+      "cohort": "public74",
+      "source_requests": "runs/08b_frozen74_compare_20261019_01/requests.json",
+      "source_sha256": "0a47f2dcf885db1ec536a0b95ccd0b7a694233e9ed5b08f5e69913a62ce0d3f3",
+      "questions": 74
+    },
+    {
+      "cohort": "open47",
+      "source_requests": "runs/08b_holdout47_compare_20261019_01/requests.json",
+      "source_sha256": "008cd39762f17fa955aad587917c2d3d4037027573d57c04e9b2dbf8d30af318",
+      "questions": 47
+    },
+    {
+      "cohort": "new50",
+      "source_requests": "runs/08b_question_readout_new24_20261019_01/requests.json",
+      "source_sha256": "3a804ee7272b9e29c3559cdc6aeefafb4d24ce2936febd6cb800d910e088400a",
+      "questions": 50
+    }
+  ],
+  "request_sha256": "7b3a55413ef6ba171cfd6c3359a0eb41747e4ca5c640ca051658874eeb731286",
+  "precision": "float32",
+  "canvas": [
+    192,
+    256
+  ],
+  "max_new_tokens": 8,
+  "native_context_ceiling": 3072,
+  "memory_context_ceiling": 8192,
+  "candidate_visual_ceiling": 384,
+  "arms": {
+    "native": [
+      "native_original"
+    ],
+    "memory": [
+      "full_pairwise_reference",
+      "M0",
+      "M1",
+      "M2",
+      "text_only"
+    ]
+  },
+  "maximum_answers": 1026,
+  "maximum_generated_tokens": 8208,
+  "maximum_pretrained_loads": 2,
+  "worker_seconds": 1800,
+  "allocated_GPU_ceiling_GiB": 24,
+  "preload_free_RAM_GiB": 12,
+  "preload_free_GPU_GiB": 16,
+  "deadline_UTC": "2026-10-20T06:11:50+00:00",
+  "stop": "fixed rules, no prompt/threshold sweeps, preserve all errors; engineering retries separately recorded",
+  "not_independent_unseen_holdout": true,
+  "forest_threshold": 0.047536224126815796,
+  "forest_threshold_transfer_not_optimized_for_2B": true,
+  "full_reference_cache_separate_from_candidate_storage": true,
+  "media_bytes": 387461651
+}

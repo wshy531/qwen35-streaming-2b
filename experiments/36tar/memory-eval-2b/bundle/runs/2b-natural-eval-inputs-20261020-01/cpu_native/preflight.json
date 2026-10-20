@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "stage": "native",
+  "questions_checked": 171,
+  "sources_pixels_equal": 67,
+  "frames_checked": 2766,
+  "max_native_tokens": 2628,
+  "finite_tiny_generation": true,
+  "pretrained_loads": 0,
+  "protocol_sha256": "16b62a996a2cb9a849d2c12c21d9bef830a7c60bf6897b26089b3717c6915e41",
+  "source_lock_sha256": "1f5882709479f9b46ae3f56add7c2a27e8f4cb49e4b35cb70a04534cf5c6cd0a",
+  "identity": {
+    "original_model_sha256": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "stream_model_sha256": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "online_sha256": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "hybrid_sha256": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525"
+  }
+}

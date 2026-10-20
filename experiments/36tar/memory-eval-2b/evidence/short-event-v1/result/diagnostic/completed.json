@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "stage": "diagnostic",
+  "records": 45,
+  "generated_tokens": 104,
+  "model_loads": 1,
+  "seconds": 33.17508621211164,
+  "peak_allocated_bytes": 8962662400,
+  "query_bank_isolation": true,
+  "protocol_sha256": "ac2ea6c1839caaa59e89c44fa89ea4ae6c1774794a1a2822abbcf679d1821f3f"
+}

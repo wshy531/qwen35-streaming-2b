@@ -1,0 +1,14 @@
+{
+  "source_sha256": "5ae7e24ba01b661b73fc8a433ba3767e3af43a0d2383c3019674e2f8e551fc43",
+  "scorer_rows_sha256": "819ce7c12102fb6d01d2664456afacf1a6ce6b7aa6ce62410a96e60052cea63e",
+  "comparisons": [
+    "old_full -> old_merged",
+    "old_full -> old_full_recent4",
+    "old_merged -> old_merged_recent4",
+    "recent4 -> old_full_recent4",
+    "recent4 -> old_merged_recent4"
+  ],
+  "all9_including_base_failures": true,
+  "no_bootstrap_claim_for_6_related_sources": true,
+  "scope": "case diagnosis, no global capability superiority, manual old windows are not automatic retrieval"
+}

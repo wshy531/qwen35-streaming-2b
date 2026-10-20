@@ -1,0 +1,1 @@
+{"tests":7,"passed":2,"errors":5,"failure":"ValueError: Visual Block required","cause":"new callers supplied forest Node where existing append requires feature Block","pretrained_loads":0,"GPU_submissions":0,"repair":"convert complete Node to original feature Block at all append callsites; keep existing append contract"}

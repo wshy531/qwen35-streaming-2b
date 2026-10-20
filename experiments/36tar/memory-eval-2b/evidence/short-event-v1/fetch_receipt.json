@@ -1,0 +1,125 @@
+{
+  "files": [
+    {
+      "path": "result/diagnostic/completed.json",
+      "bytes": 307,
+      "sha256": "993bbd352b4447e94054d58e8cbaa28a84ac3c6533781f69eeb76a4bb35c9986"
+    },
+    {
+      "path": "result/diagnostic/loaded.json",
+      "bytes": 55,
+      "sha256": "0f3614c96546a9869fd3604205471f36b0bb4504f06e4b93804ca85580c87ce9"
+    },
+    {
+      "path": "result/diagnostic/predictions.jsonl",
+      "bytes": 76603,
+      "sha256": "61fe8b8ca65e485cb5413e452da77c753c81a7e7a724133d31ecf5d51abce2d3"
+    },
+    {
+      "path": "result/diagnostic/timelines.json",
+      "bytes": 180876,
+      "sha256": "d5d406ed5d64ef25ad2b9ae51d9e557447e87ab858edee67241d35b993198d44"
+    },
+    {
+      "path": "result/main/completed.json",
+      "bytes": 304,
+      "sha256": "c7344cd6c99fb6b8e7cbed2c712570483c5568a23073ca3ed1c4be6d5d72d9c1"
+    },
+    {
+      "path": "result/main/loaded.json",
+      "bytes": 54,
+      "sha256": "a0822a173c92f9c9b3e549f6dfe71fabdf06f408df2e15eec353b554d0348161"
+    },
+    {
+      "path": "result/main/predictions.jsonl",
+      "bytes": 3446882,
+      "sha256": "c4404286be6a09be0cbc84228f2fc0a9e61feb90445552b8466bd87e4684f660"
+    },
+    {
+      "path": "result/main/timelines.json",
+      "bytes": 1801790,
+      "sha256": "48fd5f3c475225b14627c65d37f8561ec2e794bb956ef84a7f7904c0b93d9e90"
+    },
+    {
+      "path": "input/authorization.json",
+      "bytes": 543,
+      "sha256": "a521e7a3c3113b2d9d563e15749727a1c937623fd6e2b330b72b05a69c30f7a9"
+    },
+    {
+      "path": "input/baseline_timelines.json",
+      "bytes": 1406656,
+      "sha256": "c38b72255ead5902ee5ceacf8cac837fe269335aadbec58d6d758f58084fdc4a"
+    },
+    {
+      "path": "input/cpu.log",
+      "bytes": 310,
+      "sha256": "2340340bb30416c00e17fcc95773fcf8fed15dc4a3c88f6c083751dadaa02f87"
+    },
+    {
+      "path": "input/cpu_attempt01.log",
+      "bytes": 1277,
+      "sha256": "8504be691333e7aa53a99af511c0d477a8f220892f78dcd9be820d170585053d"
+    },
+    {
+      "path": "input/cpu_preflight.json",
+      "bytes": 340246,
+      "sha256": "6843038614f3b34a37c330e5d19c601deb83edb92d314f93f0f656a3ebecf100"
+    },
+    {
+      "path": "input/dependency_lock.json",
+      "bytes": 1652,
+      "sha256": "1f5882709479f9b46ae3f56add7c2a27e8f4cb49e4b35cb70a04534cf5c6cd0a"
+    },
+    {
+      "path": "input/diagnostic_requests.json",
+      "bytes": 116598,
+      "sha256": "e3445b59de45500b8171e38a6a87f23fd08d1bb36ecb433a181ac134730e8e32"
+    },
+    {
+      "path": "input/engineering_dependency_fix01/dependency_lock.json",
+      "bytes": 2956,
+      "sha256": "98a915111a425ce7f93b6ffeba07aecfa6f1a66bc019083d1ace88d03b6dd08f"
+    },
+    {
+      "path": "input/engineering_dependency_fix01/protocol.json",
+      "bytes": 2488,
+      "sha256": "e3eec5e605d5a0391c934bca18147a6ddc98397185d9ff30bd6ee3f8b7b20de3"
+    },
+    {
+      "path": "input/engineering_dependency_fix01/source_lock.json",
+      "bytes": 864,
+      "sha256": "ab890b0740e42dbd6fb00d55637bc386a14bef8f2655208fcd3b74d2181da3e3"
+    },
+    {
+      "path": "input/protocol.json",
+      "bytes": 2488,
+      "sha256": "ac2ea6c1839caaa59e89c44fa89ea4ae6c1774794a1a2822abbcf679d1821f3f"
+    },
+    {
+      "path": "input/requests.json",
+      "bytes": 1293395,
+      "sha256": "7b3a55413ef6ba171cfd6c3359a0eb41747e4ca5c640ca051658874eeb731286"
+    },
+    {
+      "path": "input/slurm-217160.log",
+      "bytes": 64182,
+      "sha256": "66e2dfcf5ed3aec3947d815121f1e17ee5ad9c0e8ce68af3414d5b3c8e3df2d4"
+    },
+    {
+      "path": "input/source_lock.json",
+      "bytes": 864,
+      "sha256": "3d03daa8cd32d05c69587423a724a7db77674875b2c82cdc102eb8ba02a82694"
+    },
+    {
+      "path": "input/submission_attempt.json",
+      "bytes": 489,
+      "sha256": "7b60ea7520bb87c227a7bc52c5812dee65c27620a427e6079ac3ddd222a6e57f"
+    },
+    {
+      "path": "input/submission_result.json",
+      "bytes": 1902,
+      "sha256": "d3a0ae2263d5c09cd2685ece1165427970d642786d92e6cb5978a1adf0f4a9b9"
+    }
+  ],
+  "total_bytes": 8743781
+}

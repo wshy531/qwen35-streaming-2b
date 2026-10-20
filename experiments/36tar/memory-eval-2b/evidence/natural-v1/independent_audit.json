@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "independent_strict_correct": {
+    "native_original": 107,
+    "full_pairwise_reference": 107,
+    "M0": 106,
+    "M1": 100,
+    "M2": 107,
+    "text_only": 66
+  },
+  "format_errors": {
+    "native_original": 0,
+    "full_pairwise_reference": 0,
+    "M0": 0,
+    "M1": 0,
+    "M2": 1,
+    "text_only": 0
+  },
+  "predictions": 1026,
+  "generated_tokens": 2055,
+  "distinct_ids": 171,
+  "timelines": 67,
+  "source_locks_passed": true,
+  "model_source_and_manifest_identity_bound": true,
+  "input_protocol_exactly_matches_local": true,
+  "input_frame_hashes_equal_across_arms": true,
+  "cpu_native_questions": 171,
+  "cpu_native_frames": 2766,
+  "max_native_input_tokens": 2628,
+  "scope": "independent count/identity/budget audit; runtime bank hashes are logged checks, tensors not re-exported"
+}

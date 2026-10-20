@@ -1,0 +1,4049 @@
+[
+  {
+    "id": "nextgqa:val:10030609934:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:10030609934",
+    "relative_media_path": "media/nextgqa/1011/10030609934.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the person holding the camera signal to the toy car in the middle of the video",
+    "options": [
+      "ring a bell",
+      "turning the wheel",
+      "laser pointer",
+      "point at toy cars",
+      "raise up board"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        20.0,
+        23.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:10030609934:1",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:10030609934",
+    "relative_media_path": "media/nextgqa/1011/10030609934.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why was the boy at the brown table near the stairs at the beginning of the video",
+    "options": [
+      "wanted to lie down",
+      "dancing",
+      "to touch the sandals",
+      "get on sofa",
+      "bending down to look at ground"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        2.8,
+        7.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:10030609934:2",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:10030609934",
+    "relative_media_path": "media/nextgqa/1011/10030609934.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the boy do after he approached the grey seat in the middle of the video",
+    "options": [
+      "moved the car on the table",
+      "look at what he is pointing",
+      "catch baby",
+      "walk to the box",
+      "play with soil"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        16.7,
+        20.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:13919236672:6",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "shared_home_14012319794_13919236672",
+    "relative_media_path": "media/nextgqa/1052/13919236672.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do after she turned around herself at the beginning of the video",
+    "options": [
+      "swing her leg",
+      "put on her shoulder",
+      "get out of car",
+      "pick up something",
+      "adjust scarf"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        12.3,
+        17.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:13919236672:9",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "shared_home_14012319794_13919236672",
+    "relative_media_path": "media/nextgqa/1052/13919236672.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the girl do after approaching the red box in the middle",
+    "options": [
+      "look down at baby",
+      "drags the box out",
+      "put glass cups away",
+      "walk away",
+      "put in her mouth"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        45.5,
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:13919236672:5",
+    "cohort": "new50",
+    "stratum": "C",
+    "source_group_id": "shared_home_14012319794_13919236672",
+    "relative_media_path": "media/nextgqa/1052/13919236672.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the girl continue looking down while holding the blue toy at the end of the video",
+    "options": [
+      "she drops the food",
+      "make face",
+      "carry girl down stairs",
+      "talk to girl",
+      "pick up green object"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        103.2,
+        106.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:14012319794:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "shared_home_14012319794_13919236672",
+    "relative_media_path": "media/nextgqa/1018/14012319794.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do after she got the flag",
+    "options": [
+      "put down her club",
+      "stand up",
+      "stomp her foot",
+      "walks away",
+      "run around the room"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        70.7,
+        80.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:14012319794:2",
+    "cohort": "new50",
+    "stratum": "C",
+    "source_group_id": "shared_home_14012319794_13919236672",
+    "relative_media_path": "media/nextgqa/1018/14012319794.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the little girl take out the bottle of syrup from the cupboard near the end of the video",
+    "options": [
+      "feed insects",
+      "take snack out",
+      "opening box",
+      "acting tool",
+      "want to drink"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        113.3,
+        125
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2435633172:4",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:2435633172",
+    "relative_media_path": "media/nextgqa/0040/2435633172.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why was the pig sticking its mouth down at the start",
+    "options": [
+      "getting fur shaved",
+      "tease the dog",
+      "eat",
+      "playing with dog",
+      "playing with it by biting"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.8,
+        7.8
+      ],
+      [
+        10.4,
+        15.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2435633172:2",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:2435633172",
+    "relative_media_path": "media/nextgqa/0040/2435633172.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the pig do when it reached the rock",
+    "options": [
+      "rub its body",
+      "playing with orange toy",
+      "pick up food with mouth",
+      "play with toy with mouth",
+      "walk to rock"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        44.5,
+        52.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2503404966:5",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:2503404966",
+    "relative_media_path": "media/nextgqa/1023/2503404966.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do after reaching the darker side of the room at the end",
+    "options": [
+      "hold s the rod",
+      "climb up",
+      "pick something up",
+      "enters a room",
+      "stop for awhile"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        22.0,
+        23.6
+      ],
+      [
+        24.7,
+        28.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2503404966:1",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2503404966",
+    "relative_media_path": "media/nextgqa/1023/2503404966.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the boy holding on to the handles of the toy",
+    "options": [
+      "steer it",
+      "cleaning it",
+      "dismantle it",
+      "paint it green",
+      "polish it"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        3.6
+      ],
+      [
+        7.7,
+        24.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2559262403:4",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:2559262403",
+    "relative_media_path": "media/nextgqa/1000/2559262403.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how do the pugs drink water from the bowl",
+    "options": [
+      "with straw",
+      "by spoon",
+      "with their tongues",
+      "used its tail",
+      "roll around"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        10.4,
+        12.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2599937944:0",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:2599937944",
+    "relative_media_path": "media/nextgqa/0021/2599937944.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the guy in black suspend above the rushing waters",
+    "options": [
+      "swing",
+      "rope",
+      "bridge side",
+      "rubber float",
+      "rubber hose"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.0,
+        8.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2599937944:1",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2599937944",
+    "relative_media_path": "media/nextgqa/0021/2599937944.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the guy in black suspending above the rushing waters",
+    "options": [
+      "pose for the camera",
+      "prepare to jump",
+      "water activity",
+      "riding a yacht",
+      "catching fish"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        8.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2599937944:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2599937944",
+    "relative_media_path": "media/nextgqa/0021/2599937944.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why was the guy in black holding to the rope",
+    "options": [
+      "rock climbing",
+      "bounce over running water",
+      "pulling a log",
+      "prepration for hike",
+      "protect from the wind"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.0,
+        7.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2599937944:5",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:2599937944",
+    "relative_media_path": "media/nextgqa/0021/2599937944.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the 3 ladies react when watching the man in black",
+    "options": [
+      "point at him",
+      "smiling",
+      "covered his face in embarrassment",
+      "hold his hand",
+      "hold chopsticks to his tongue"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.4,
+        6.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2824317018:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2824317018",
+    "relative_media_path": "media/nextgqa/1124/2824317018.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the boy reach out his hand to the man at the beginning of the video",
+    "options": [
+      "pick up the stick",
+      "talking",
+      "get food",
+      "tired",
+      "pick up the present"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        1.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2824317018:6",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2824317018",
+    "relative_media_path": "media/nextgqa/1124/2824317018.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the boy push the girl in blue s hand away when she offered him some food",
+    "options": [
+      "take food from",
+      "follow",
+      "prevent baby from touching",
+      "does not want food",
+      "find boy funny"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        44.5,
+        49.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:7",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the girl do after the woman opens the cap",
+    "options": [
+      "take the music script",
+      "jumps up",
+      "hands over the remote",
+      "walks away",
+      "look closer"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        22.8,
+        51.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the girl in white hold a rod",
+    "options": [
+      "fishing",
+      "to hit the fly",
+      "make food",
+      "play with baby",
+      "hit the drum"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        16.7,
+        51.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:3",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the lady seated near the girl",
+    "options": [
+      "pose for camera",
+      "feed the boy",
+      "recording the girl",
+      "adjusting her hairtie",
+      "assisting in preparing the food"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        13.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:4",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the lady in flower skirt shift to the left of the girl in white in the middle",
+    "options": [
+      "talk to man in cyan",
+      "take a bottle",
+      "place the scoop",
+      "take a towel",
+      "to open the cover"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        17.9,
+        26.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:5",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man do after the girl finishes spreading the batter",
+    "options": [
+      "show his fist",
+      "throw the bat and run off",
+      "close the lid",
+      "raised her hand",
+      "looks up"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.1,
+        9.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:2868183184:8",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:2868183184",
+    "relative_media_path": "media/nextgqa/1099/2868183184.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the man guide the girl while she is cooking",
+    "options": [
+      "wipe with tissue",
+      "walk",
+      "use hand gestures",
+      "kneel on floor",
+      "use fork"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        5.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3046900922:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:3046900922",
+    "relative_media_path": "media/nextgqa/1162/3046900922.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the man sweep the pile of leaves away",
+    "options": [
+      "using the pump",
+      "with a shovel",
+      "hold onto the side of board",
+      "run towards the wall",
+      "swinging the boy"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        4.1,
+        12.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3046900922:3",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:3046900922",
+    "relative_media_path": "media/nextgqa/1162/3046900922.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the man swing the child left to right after the pile of leaves is dismantled",
+    "options": [
+      "get his attention",
+      "continue playing",
+      "getting ready",
+      "access the fruits",
+      "scared get hit"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        7.9,
+        12.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3046900922:7",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:3046900922",
+    "relative_media_path": "media/nextgqa/1162/3046900922.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the child do after being placed on the ground",
+    "options": [
+      "pat the chair",
+      "walked away",
+      "jumping near the adult s knee",
+      "rise right arm",
+      "lie on the ground"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        12.5,
+        17.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3066064005:5",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3066064005",
+    "relative_media_path": "media/nextgqa/1010/3066064005.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the woman in black signal place to sit for the lady in red at the beginning",
+    "options": [
+      "called out to her",
+      "stood and wait in front of the seat",
+      "point her finger",
+      "shouted at her",
+      "walked towards her"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.7,
+        2.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3066064005:7",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:3066064005",
+    "relative_media_path": "media/nextgqa/1010/3066064005.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the lady in red do after the woman in black points her finger",
+    "options": [
+      "looked down",
+      "move body",
+      "gesture to red cloth",
+      "walk over",
+      "point also"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        1.7,
+        7.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3066064005:0",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:3066064005",
+    "relative_media_path": "media/nextgqa/1010/3066064005.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what is the dining table surrounded by",
+    "options": [
+      "dogs and cats",
+      "flowers",
+      "posters as decorations",
+      "gifts",
+      "controllers and buttons"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        11.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3066064005:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3066064005",
+    "relative_media_path": "media/nextgqa/1010/3066064005.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are the women pulling out the chairs at the dining table",
+    "options": [
+      "want to sit",
+      "playing together",
+      "to celebrate",
+      "celebrate birthday",
+      "let kids sit"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        12.4,
+        24.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3066064005:8",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3066064005",
+    "relative_media_path": "media/nextgqa/1010/3066064005.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the woman in black open the lid of the bowl on the table",
+    "options": [
+      "eat",
+      "ready to eat",
+      "ordered by customer",
+      "listening to lady in black",
+      "read book"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        8.3,
+        10.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3112351937:4",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3112351937",
+    "relative_media_path": "media/nextgqa/1122/3112351937.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is there something in the shirtless man s mouth",
+    "options": [
+      "get oxygen",
+      "got water in it",
+      "torchlight",
+      "towel",
+      "eating"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        1.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3112351937:6",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:3112351937",
+    "relative_media_path": "media/nextgqa/1122/3112351937.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the shirtless man do after the man with the flippers put his arm around him at the middle of the video",
+    "options": [
+      "singing away from the microphone",
+      "clap his hands",
+      "put down ball",
+      "kiss baby",
+      "do the same thing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        3.9,
+        6.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3112351937:5",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3112351937",
+    "relative_media_path": "media/nextgqa/1122/3112351937.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are there so many bubbles",
+    "options": [
+      "display",
+      "many fish",
+      "for baby to play",
+      "breathing",
+      "blowing soap bubbles"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.0,
+        7.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3124551255:6",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3124551255",
+    "relative_media_path": "media/nextgqa/1102/3124551255.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do after putting his hand into the mouth of toy at the start",
+    "options": [
+      "sit down",
+      "laugh",
+      "play with toy",
+      "put into his mouth",
+      "put hand inside the toy"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        6.0,
+        8.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3321261856:3",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:3321261856",
+    "relative_media_path": "media/nextgqa/1101/3321261856.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do as the cat was checking the bait in the middle of the video",
+    "options": [
+      "cry",
+      "caress the cat",
+      "skip and look around",
+      "cycle forward",
+      "smile"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        12.1,
+        15.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3321261856:7",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:3321261856",
+    "relative_media_path": "media/nextgqa/1101/3321261856.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the golden cat do after standing at the side of the wall for a while",
+    "options": [
+      "walks across",
+      "pet cat more",
+      "lick mouth",
+      "sat down",
+      "cleans the toilet bowl"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        11.0,
+        25.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3477387686:5",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:3477387686",
+    "relative_media_path": "media/nextgqa/1017/3477387686.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the girl show affection to the dog in the beginning of the video",
+    "options": [
+      "punched the dog",
+      "caressing for dog",
+      "put toy into doll s mouth",
+      "throws him up and down",
+      "kicks the dog"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.1,
+        3.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3477387686:4",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3477387686",
+    "relative_media_path": "media/nextgqa/1017/3477387686.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the dog do after the girl puts her palm out",
+    "options": [
+      "climb onto girl",
+      "jumped",
+      "place paw on her palm",
+      "kiss her",
+      "walk away"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        12.1,
+        15.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3477387686:6",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:3477387686",
+    "relative_media_path": "media/nextgqa/1017/3477387686.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the girl show affection to the dog at the end of the video",
+    "options": [
+      "make a sad face",
+      "kiss dog",
+      "caress its neck",
+      "turns it round and round",
+      "rubs the dog"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        61.0,
+        64.3
+      ],
+      [
+        64.3,
+        66.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3846475848:4",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3846475848",
+    "relative_media_path": "media/nextgqa/0048/3846475848.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man do after cleaning one side of the ferret",
+    "options": [
+      "walk to baby",
+      "enters a room",
+      "lift ferret up",
+      "close the bottle",
+      "keep tools in cabinet"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        2.3,
+        6.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3846475848:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3846475848",
+    "relative_media_path": "media/nextgqa/0048/3846475848.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man do after finishing cleaning the ferret",
+    "options": [
+      "hold the microphone",
+      "put his hand in front of camera",
+      "keep tools in cabinet",
+      "use towel dry ferret",
+      "rock baby"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        17.5,
+        24.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3846475848:7",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3846475848",
+    "relative_media_path": "media/nextgqa/0048/3846475848.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man do after the ferret attempts to run away",
+    "options": [
+      "use towel cover it",
+      "follow baby",
+      "swing his body",
+      "go near the dog",
+      "watch baby play"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        24.7,
+        71
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851913128:4",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:3851913128",
+    "relative_media_path": "media/nextgqa/0085/3851913128.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the guy in red give instructions to others underwater",
+    "options": [
+      "using string",
+      "jump from pool edge",
+      "use float",
+      "paddle",
+      "hand signals"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        2.2,
+        4.4
+      ],
+      [
+        10.8,
+        22.1
+      ],
+      [
+        23.2,
+        32.6
+      ],
+      [
+        50.9,
+        53.6
+      ],
+      [
+        59.6,
+        74.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851913128:1",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:3851913128",
+    "relative_media_path": "media/nextgqa/0085/3851913128.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the guy in red then put his goggles back",
+    "options": [
+      "guide the route to take",
+      "dancing to music",
+      "acknowledge",
+      "continue watching the show",
+      "show another action"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        50.7,
+        58.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851913128:5",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:3851913128",
+    "relative_media_path": "media/nextgqa/0085/3851913128.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the guy in red do after doing some hand gestures in the middle of the video",
+    "options": [
+      "takes off his goggles",
+      "zoom into the baby",
+      "caress the girl s haed",
+      "sit down",
+      "pick up shower head"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        23.2,
+        35.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851961428:8",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3851961428",
+    "relative_media_path": "media/nextgqa/0058/3851961428.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the boy do after he took out the goggles",
+    "options": [
+      "smile",
+      "no reaction",
+      "spray out horizontally",
+      "get up",
+      "on his lap"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        2.7,
+        8.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851961428:2",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3851961428",
+    "relative_media_path": "media/nextgqa/0058/3851961428.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the man in red do after he saw the boy in blue struggle",
+    "options": [
+      "get up",
+      "slap his hand on the floor",
+      "gets up and wipe his hands",
+      "help him",
+      "walk off"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        6.1,
+        11.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3851961428:10",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:3851961428",
+    "relative_media_path": "media/nextgqa/0058/3851961428.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the person on the most right do after he did a gesture to the man in red",
+    "options": [
+      "smiles in the camera",
+      "take photos",
+      "grab his shoulders",
+      "take out goggles",
+      "roast coffee"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        38.5,
+        46.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3963997053:1",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:3963997053",
+    "relative_media_path": "media/nextgqa/1103/3963997053.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are there two men standing at the center istand and holding on to their cameras",
+    "options": [
+      "finished performing",
+      "cleaning camera lens",
+      "recording",
+      "playing game",
+      "taking photo of dog"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        7.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3963997053:5",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:3963997053",
+    "relative_media_path": "media/nextgqa/1103/3963997053.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man wearing cap backwards do when the car approaches him",
+    "options": [
+      "look at the red car",
+      "raise his hand",
+      "squat down",
+      "no reaction",
+      "touch his head"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        5.9,
+        7.9
+      ],
+      [
+        9.8,
+        10.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:3963997053:4",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:3963997053",
+    "relative_media_path": "media/nextgqa/1103/3963997053.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are there fences separating the audiences from the car",
+    "options": [
+      "protecting the elephants",
+      "seperate animals",
+      "prevent dust",
+      "mark out area to drive",
+      "keep the horse in"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        11.5,
+        19
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4013751996:5",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:4013751996",
+    "relative_media_path": "media/nextgqa/1021/4013751996.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the girl stop the toy bicycle",
+    "options": [
+      "put feet on the ground",
+      "arrive at wall",
+      "pedal",
+      "point her boards to make triangle",
+      "baby seat"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        2.7,
+        4.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4013751996:3",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:4013751996",
+    "relative_media_path": "media/nextgqa/1021/4013751996.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does nt the girl need to paddle at the beginning",
+    "options": [
+      "going down a slope",
+      "pick up leash",
+      "washing her hands",
+      "to take the food",
+      "to have fun"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        4.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4147398280:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4147398280",
+    "relative_media_path": "media/nextgqa/1104/4147398280.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the boy strategise where to turn next",
+    "options": [
+      "look all around the rubik once",
+      "ask for help",
+      "guided by the video",
+      "refer to instruction manual",
+      "looks at his script"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        12.2,
+        14.8
+      ],
+      [
+        45.8,
+        48.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4147398280:7",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4147398280",
+    "relative_media_path": "media/nextgqa/1104/4147398280.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do after managing to solve one face of the rubik",
+    "options": [
+      "walks towards the camera",
+      "shakes the box",
+      "hit the ball",
+      "dancing and jumping",
+      "twist it again"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        30.3,
+        35.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4251505427:6",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:4251505427",
+    "relative_media_path": "media/nextgqa/1203/4251505427.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the child with beanie do after pointing 1 finger up at the start",
+    "options": [
+      "go closer to camera",
+      "touch white object",
+      "put chin on table",
+      "hit the toy",
+      "takes them out"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        4.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:0",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the person interact with the cat",
+    "options": [
+      "touch television screen",
+      "with two front paws",
+      "caress it",
+      "hold it",
+      "chase the tail of the toy"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.2,
+        26.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the cat follow the movement of the person s hand",
+    "options": [
+      "to scratch",
+      "stay stable",
+      "show affect",
+      "brush the hair away",
+      "to catch his hand"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.2,
+        26.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:3",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the cat move away after biting the person s index finger",
+    "options": [
+      "to remove water from his body",
+      "hold the toy tightly",
+      "licking",
+      "sleepy",
+      "the person rolls him away"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        2.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:4",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the person do after shaking the body of the cat at the start",
+    "options": [
+      "place cat on carpet",
+      "move to other cat",
+      "move hand away",
+      "jump off",
+      "drink water"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.7,
+        4.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:5",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the cat do after the person moves his hand left and right at the start",
+    "options": [
+      "swipe person hand away",
+      "push it",
+      "lick the hand",
+      "try to catch the hand",
+      "smells him"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        1.1,
+        9.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:6",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the cat do after the person puts his finger into its mouth in the middle",
+    "options": [
+      "bite it",
+      "rubs against him",
+      "bring it down",
+      "closed it eyes",
+      "sit up"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        9.0,
+        12.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4276006683:8",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4276006683",
+    "relative_media_path": "media/nextgqa/1201/4276006683.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the cat do after pushing the finger of the person at the end",
+    "options": [
+      "lick the ears",
+      "run towards the camera",
+      "leave the bed",
+      "ran away",
+      "push it"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        25.2,
+        26.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4336654741:6",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:4336654741",
+    "relative_media_path": "media/nextgqa/1015/4336654741.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the baby do after holding the arm of the lady in the middle",
+    "options": [
+      "kiss the baby",
+      "wear pants",
+      "put on keyboard",
+      "push trolley",
+      "smile"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        12.2,
+        20.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4372494989:3",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:4372494989",
+    "relative_media_path": "media/nextgqa/1110/4372494989.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the man in red attempt to teach the child about how to pray",
+    "options": [
+      "hold his hands",
+      "show him a video",
+      "dance with him",
+      "read to him",
+      "talk and nod"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        9.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4372494989:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:4372494989",
+    "relative_media_path": "media/nextgqa/1110/4372494989.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man do after standing up",
+    "options": [
+      "pray and bow",
+      "dancing to rhythm",
+      "push the float",
+      "jump",
+      "dance battle"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        13.8,
+        21.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4488066715:4",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:4488066715",
+    "relative_media_path": "media/nextgqa/1150/4488066715.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the adult react when the baby tries to touch the bowl with his other hand",
+    "options": [
+      "shouted for help",
+      "takes a tissue",
+      "pull hand away",
+      "give him a ball",
+      "playing with baby"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.7,
+        4.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4488066715:0",
+    "cohort": "new50",
+    "stratum": "C",
+    "source_group_id": "vidor:4488066715",
+    "relative_media_path": "media/nextgqa/1150/4488066715.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the baby hold on to the whisk",
+    "options": [
+      "learn dancing",
+      "teething",
+      "look at something",
+      "avoid falling off swing",
+      "playing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.4,
+        82.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4516967897:4",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:4516967897",
+    "relative_media_path": "media/nextgqa/1110/4516967897.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what were the two ladies doing before they started talking at the start of the video",
+    "options": [
+      "hanging clothes",
+      "scratch her head",
+      "kiss her",
+      "nodding",
+      "staring at the fountain"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.2,
+        12.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4740074365:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:4740074365",
+    "relative_media_path": "media/nextgqa/0101/4740074365.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the bridegroom show affection to the bride",
+    "options": [
+      "kiss the bride",
+      "feed her a cake",
+      "carries and strokes it",
+      "rub the bride",
+      "hug from behind"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        14.9,
+        17.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4838113006:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4838113006",
+    "relative_media_path": "media/nextgqa/1000/4838113006.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the lady in grey shifting the bells from one table to another",
+    "options": [
+      "making funny faces",
+      "pass to boy to play",
+      "singing a birthday song",
+      "tie knots",
+      "performing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        19.5,
+        44.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4838113006:7",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4838113006",
+    "relative_media_path": "media/nextgqa/1000/4838113006.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the lady do after reaching table b from table a",
+    "options": [
+      "walk forward",
+      "smiles",
+      "hands over the remote",
+      "looks forward",
+      "squat down"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        37.6,
+        39.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:5",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the three ladies pose for a picture",
+    "options": [
+      "put arms around each other",
+      "carry him to sit on ledge",
+      "climb onto a tree",
+      "lean against the bench",
+      "look upwards"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        11.9,
+        13.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the lady in yellow stretch her arms out at the start",
+    "options": [
+      "record for later use",
+      "hold baby",
+      "pose for picture",
+      "want to pet the brown dog",
+      "snacks to eat"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        4.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:1",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the two other ladies do after the lady in yellow stretch her arms out at the start",
+    "options": [
+      "sit down",
+      "grab her",
+      "put arms around each other",
+      "hold baby s waist",
+      "pointing and laughing"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        1.5,
+        4.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:2",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the lady in yellow do with her arms after laughing when they finished posing",
+    "options": [
+      "cycle away",
+      "look at camera turn around",
+      "raise her hand up and down",
+      "rub baby s face with a cloth",
+      "look at camera"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        14.2,
+        16.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:3",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what do the three ladies do after posing together",
+    "options": [
+      "laugh",
+      "move closely to the camera",
+      "get off stage",
+      "start dancing",
+      "stand in a line"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        13.5,
+        18.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:4",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did three of them stand next to each other again at the end of the video",
+    "options": [
+      "hand gesture for cutting",
+      "take something",
+      "stop baby from going too deep",
+      "restless",
+      "pose for photo"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        20.1,
+        21.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4859057828:6",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4859057828",
+    "relative_media_path": "media/nextgqa/1014/4859057828.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the lady in jacket walk towards the two ladies at the start",
+    "options": [
+      "to take a picture with them",
+      "guide her dance move",
+      "help girl stir",
+      "speaking to the audience",
+      "listen to man"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.0,
+        3.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4882821564:4",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:4882821564",
+    "relative_media_path": "media/nextgqa/1104/4882821564.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the boy react when he entered the room at the start",
+    "options": [
+      "dance",
+      "run",
+      "stretch his hand out",
+      "smile",
+      "walk close to it and look"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        2.2,
+        4.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4882821564:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:4882821564",
+    "relative_media_path": "media/nextgqa/1104/4882821564.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the woman do after the boy walked towards her with a present",
+    "options": [
+      "stand still in front",
+      "bend down and talk to him",
+      "walk to the sofa",
+      "flip the pages",
+      "lift up the boy"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        20.5,
+        24.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4882821564:3",
+    "cohort": "new50",
+    "stratum": "C",
+    "source_group_id": "vidor:4882821564",
+    "relative_media_path": "media/nextgqa/1104/4882821564.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the boy return to the christmas tree after unwrapping one present",
+    "options": [
+      "blow the candles",
+      "decorate the tree",
+      "wants to continue unwrapping",
+      "look at the tree",
+      "put the wrapper aside"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        85.1,
+        88.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4925211209:3",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:4925211209",
+    "relative_media_path": "media/nextgqa/1000/4925211209.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the crane move around at first before stabilizing",
+    "options": [
+      "play with them",
+      "run together",
+      "adjust to correct position",
+      "prepare to jump",
+      "lady kicks the horse"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        6.2
+      ],
+      [
+        28.3,
+        31.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4925211209:4",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:4925211209",
+    "relative_media_path": "media/nextgqa/1000/4925211209.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is there a large truck at the end of the video",
+    "options": [
+      "show game",
+      "make different sounds",
+      "campsite",
+      "pull the fishing rod",
+      "to carry the men"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        28.2,
+        31.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4984417707:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4984417707",
+    "relative_media_path": "media/nextgqa/1018/4984417707.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the elephant near the goal kick its leg near the end of the video",
+    "options": [
+      "kick towards the dog",
+      "keep balance in water",
+      "stunt",
+      "trying to kick ball",
+      "remove the dirt"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        10.1,
+        14.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:4984417707:7",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:4984417707",
+    "relative_media_path": "media/nextgqa/1018/4984417707.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the ball not go inside the goal net near the end",
+    "options": [
+      "adjust to comfortable position to hit",
+      "put it in a better place",
+      "other elephant saved it",
+      "boy kicked it",
+      "done playing"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        11.0,
+        14.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5333075105:3",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:5333075105",
+    "relative_media_path": "media/nextgqa/0084/5333075105.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the man supported himself as he moved through the think snow",
+    "options": [
+      "stick",
+      "jacket",
+      "snowmobile dig through",
+      "skiing",
+      "balance"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        7.6,
+        35.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5333075105:11",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:5333075105",
+    "relative_media_path": "media/nextgqa/0084/5333075105.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the man do after he reached the cameraman",
+    "options": [
+      "play with toy",
+      "inspect wings",
+      "stop",
+      "move to the side",
+      "pick up something"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        33.6,
+        39.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5349969207:4",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:5349969207",
+    "relative_media_path": "media/nextgqa/0049/5349969207.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the brown dog do after it lie on the floor at the end of the video",
+    "options": [
+      "get up",
+      "bite toy and shake head",
+      "get close to the brown dog",
+      "resting",
+      "walks forward"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        35.4,
+        37.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5429688959:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:5429688959",
+    "relative_media_path": "media/nextgqa/1015/5429688959.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the singer make his voice amplified",
+    "options": [
+      "loudspeaker",
+      "using his hands",
+      "computer",
+      "shouting",
+      "microphone"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.1,
+        44.9
+      ],
+      [
+        54.9,
+        82.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5429688959:1",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:5429688959",
+    "relative_media_path": "media/nextgqa/1015/5429688959.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the lighting at the back keep changing",
+    "options": [
+      "the lights are spoilt",
+      "disco lights",
+      "man blew them off",
+      "camera taking photos",
+      "part of stage setup"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.4,
+        45.0
+      ],
+      [
+        54.9,
+        82.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5429688959:3",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:5429688959",
+    "relative_media_path": "media/nextgqa/1015/5429688959.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the singer move away from the microphone and look down at the end of the video",
+    "options": [
+      "finish singing",
+      "pick up ball",
+      "attract audience",
+      "lure dog with treats",
+      "hit by microphone"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        79.5,
+        83
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5498331490:6",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:5498331490",
+    "relative_media_path": "media/nextgqa/0050/5498331490.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the cat do after sitting on the toilet bowl for a while at the start",
+    "options": [
+      "cleans the toilet bowl",
+      "throw spoon",
+      "licked the face",
+      "jump down",
+      "retaliate"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        18.5,
+        89.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5498331490:7",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5498331490",
+    "relative_media_path": "media/nextgqa/0050/5498331490.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the cat do with its two front paws on the toile bowl in the second half of the video",
+    "options": [
+      "raise its head",
+      "cleans the toilet bowl",
+      "tap the cushion it was on",
+      "move out sofa",
+      "watch the brown cat"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        63.9,
+        89.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5521781780:0",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:5521781780",
+    "relative_media_path": "media/nextgqa/1103/5521781780.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man in grey do after taking a photo of the first structure at the start",
+    "options": [
+      "enter the room",
+      "take picture of the wall",
+      "wave",
+      "examine the object",
+      "pointed at the camera"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        6.4,
+        14.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5521781780:3",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5521781780",
+    "relative_media_path": "media/nextgqa/1103/5521781780.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man in grey hold in his hands while he was walking around",
+    "options": [
+      "camera",
+      "book",
+      "spoon",
+      "chair",
+      "racket"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        5.6,
+        8.0
+      ],
+      [
+        11.8,
+        14.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5521781780:7",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5521781780",
+    "relative_media_path": "media/nextgqa/1103/5521781780.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what activity is being carried out by the group of people",
+    "options": [
+      "playing soccer",
+      "cooking",
+      "snow sledging",
+      "site visit",
+      "skiing"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        6.0,
+        88.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5667931404:4",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:5667931404",
+    "relative_media_path": "media/nextgqa/1103/5667931404.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the baby bend down again after picking up a big rock",
+    "options": [
+      "too steep",
+      "pick another smaller rock",
+      "his body supported by harness",
+      "sit properly on slide",
+      "for support"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.6,
+        5.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5667931404:6",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:5667931404",
+    "relative_media_path": "media/nextgqa/1103/5667931404.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do after picking up the rocks",
+    "options": [
+      "walk away",
+      "sing",
+      "keep peeking at dog",
+      "dancing",
+      "lean and look forward"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        5.1,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5702201498:3",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:5702201498",
+    "relative_media_path": "media/nextgqa/1202/5702201498.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the man lying down",
+    "options": [
+      "play with rabbit",
+      "to play with the baby",
+      "stretching",
+      "resting",
+      "enjoying the sea breeze"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.1,
+        10.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5801184682:3",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:5801184682",
+    "relative_media_path": "media/nextgqa/1102/5801184682.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the person attract the cat s attention after putting it on the floor",
+    "options": [
+      "look at the hand",
+      "touch the toy with its paws",
+      "excited to get it",
+      "with the string",
+      "tap the floor using hand"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        24.2,
+        29.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5801184682:4",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:5801184682",
+    "relative_media_path": "media/nextgqa/1102/5801184682.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the cat attack the human s hands after it was put on the floor",
+    "options": [
+      "run away from white cat",
+      "to check cat is comfortable",
+      "defend itself",
+      "want to get away",
+      "playing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        24.2,
+        37.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5801184682:6",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:5801184682",
+    "relative_media_path": "media/nextgqa/1102/5801184682.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the human do when the cat bit the hands",
+    "options": [
+      "look at bird",
+      "push it",
+      "play with cat",
+      "stand still",
+      "rubs against him"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        25.4,
+        67
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5875535585:0",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5875535585",
+    "relative_media_path": "media/nextgqa/1100/5875535585.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man singing do with the microphone stand at the start while singing",
+    "options": [
+      "put it aside",
+      "hold microphone stand",
+      "kick the stand away",
+      "sway along with music",
+      "shake his body vigorously"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.6,
+        9.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5875535585:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:5875535585",
+    "relative_media_path": "media/nextgqa/1100/5875535585.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the man in black do after he lets go of the mic stand at the start",
+    "options": [
+      "goes to the front",
+      "continue running awhile",
+      "clap",
+      "pass to man in blue",
+      "look through pockets"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        7.7,
+        18.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5875535585:4",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5875535585",
+    "relative_media_path": "media/nextgqa/1100/5875535585.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the guitarist in red do with his head constantly while he is playing the guitar",
+    "options": [
+      "lean against the wall",
+      "touch his head",
+      "rotate in circle",
+      "lean backwards",
+      "swing his head"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.7,
+        74.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5945172741:1",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:5945172741",
+    "relative_media_path": "media/nextgqa/1155/5945172741.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the man do when the child climbed up and approached him",
+    "options": [
+      "touch her cheek with palm",
+      "go behind the purple pillar",
+      "hi-five",
+      "play with toy",
+      "talk"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.0,
+        1.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5945172741:7",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:5945172741",
+    "relative_media_path": "media/nextgqa/1155/5945172741.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the man show affection to the girl when he held her",
+    "options": [
+      "caress her hairs",
+      "kiss her",
+      "play with baby",
+      "lady point towards it",
+      "pat her back"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        8.7,
+        14.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:5945172741:4",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:5945172741",
+    "relative_media_path": "media/nextgqa/1155/5945172741.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do after she got off the bed near the end",
+    "options": [
+      "adjust hair band",
+      "pick up the pillow",
+      "lift her legs",
+      "leaves the room",
+      "sit down"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        41.7,
+        63.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6078524411:5",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:6078524411",
+    "relative_media_path": "media/nextgqa/1150/6078524411.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the baby play with the paper",
+    "options": [
+      "bite it",
+      "tear it",
+      "hit against the table",
+      "throw on the ground",
+      "throw into air"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        21.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6078524411:8",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:6078524411",
+    "relative_media_path": "media/nextgqa/1150/6078524411.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do with the toy on the table",
+    "options": [
+      "bite it",
+      "pass to man",
+      "throw it on ground",
+      "put on his head",
+      "bring it up and down"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        21.4
+      ],
+      [
+        49.6,
+        55.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6078524411:2",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:6078524411",
+    "relative_media_path": "media/nextgqa/1150/6078524411.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the baby do after playing by himself for a while",
+    "options": [
+      "starts crying",
+      "stop moving",
+      "playing with sofa",
+      "bored and sleepy",
+      "move his head around"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        21.4,
+        83.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6163877860:5",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:6163877860",
+    "relative_media_path": "media/nextgqa/1025/6163877860.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the baby move around the sofa",
+    "options": [
+      "man carried him",
+      "using a baby chair",
+      "bounce up and down",
+      "roll around",
+      "crawl"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        3.9,
+        9.5
+      ],
+      [
+        20.6,
+        22.5
+      ],
+      [
+        33.3,
+        41.3
+      ],
+      [
+        52.7,
+        56.2
+      ],
+      [
+        65.1,
+        69.5
+      ],
+      [
+        78.5,
+        86.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6163877860:0",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:6163877860",
+    "relative_media_path": "media/nextgqa/1025/6163877860.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the baby remove her socks",
+    "options": [
+      "react to him",
+      "finished eating",
+      "playing with it",
+      "wants attention",
+      "to see what she took"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        3.1,
+        54.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6163877860:6",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:6163877860",
+    "relative_media_path": "media/nextgqa/1025/6163877860.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why was the baby without socks eventually",
+    "options": [
+      "to get to somewhere",
+      "put it down on the table",
+      "its hot inside",
+      "start swimming",
+      "baby took it off"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        3.9
+      ],
+      [
+        12.7,
+        15.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6201488511:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:6201488511",
+    "relative_media_path": "media/nextgqa/1028/6201488511.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the lady wipe her sweat off her face",
+    "options": [
+      "someone wiped her face",
+      "with a tissue",
+      "use a hair band",
+      "use a towel",
+      "with her own hand"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        70.6,
+        74.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6201488511:4",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:6201488511",
+    "relative_media_path": "media/nextgqa/1028/6201488511.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the lady do after she put her hand above her eyes in the middle of the video",
+    "options": [
+      "smiles at the baby",
+      "turned behind",
+      "looks round",
+      "looked at camera",
+      "smiles"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        30.4,
+        32.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6329077812:9",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:6329077812",
+    "relative_media_path": "media/nextgqa/0058/6329077812.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the lady do after cleaning the baby s mouth",
+    "options": [
+      "clean baby s feet",
+      "look into the camera",
+      "spits out food",
+      "take off bib",
+      "continue feeding"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        49.5,
+        61
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6443512089:5",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:6443512089",
+    "relative_media_path": "media/nextgqa/1101/6443512089.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the child change the pace of his movement into",
+    "options": [
+      "waddles up and down",
+      "stop continuously",
+      "no change",
+      "slower",
+      "faster"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        42.3,
+        48.0
+      ],
+      [
+        54.1,
+        59.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6592821115:1",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6592821115",
+    "relative_media_path": "media/nextgqa/1002/6592821115.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the woman try to remove baby s grip off her finger",
+    "options": [
+      "baby was hurting her",
+      "to push baby",
+      "to get up",
+      "to feed baby more food",
+      "to make baby stand independently"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        53.4,
+        64.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6592821115:11",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:6592821115",
+    "relative_media_path": "media/nextgqa/1002/6592821115.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the adult with a ring do when the baby in polkadot it approaching her",
+    "options": [
+      "reach hand out",
+      "hit baby",
+      "pass toy to baby",
+      "push baby",
+      "cover baby with towel"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        50.8,
+        59.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6592821115:6",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:6592821115",
+    "relative_media_path": "media/nextgqa/1002/6592821115.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the woman in grey do after she clapped her hand",
+    "options": [
+      "smile and hug",
+      "put the cup on her mouth",
+      "open her arms wide",
+      "raises her hands",
+      "carry the baby"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        17.1,
+        38.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6618792571:1",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:6618792571",
+    "relative_media_path": "media/nextgqa/1120/6618792571.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the adult hold onto the handle of the toy as the baby is exploring the features",
+    "options": [
+      "stabilize toy car",
+      "pull bike",
+      "to show baby features",
+      "tying a rope",
+      "controlling bicycle"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        3.7,
+        19.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6618792571:4",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:6618792571",
+    "relative_media_path": "media/nextgqa/1120/6618792571.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why was the girl on the floor in the middle of the video",
+    "options": [
+      "changed her mind",
+      "to take toy on floor",
+      "lose interest in lady",
+      "to climb up ladder",
+      "drag the red box"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        30.9,
+        38.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6618792571:6",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:6618792571",
+    "relative_media_path": "media/nextgqa/1120/6618792571.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do after she sat on the floor in the middle of the video",
+    "options": [
+      "carry baby up",
+      "lift up spoon",
+      "crawls",
+      "try standing again",
+      "turned behind"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        40.4,
+        46.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6618792571:8",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:6618792571",
+    "relative_media_path": "media/nextgqa/1120/6618792571.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do after she knocked herself into the beanbag",
+    "options": [
+      "laugh",
+      "sits down",
+      "pick it up again",
+      "hold a cross sign",
+      "puts it back"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        48.8,
+        56.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6879924118:2",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6879924118",
+    "relative_media_path": "media/nextgqa/0083/6879924118.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are there so many cones nicely placed on the grass",
+    "options": [
+      "swept by the flood",
+      "camping trip",
+      "marking for position",
+      "baby is playing",
+      "someone s birthday"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        14.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6879924118:4",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6879924118",
+    "relative_media_path": "media/nextgqa/0083/6879924118.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the man in black pants standing in front of the people",
+    "options": [
+      "relaxed",
+      "feel accomplished",
+      "playing the guitar",
+      "singing",
+      "speak to them"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        15.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6879924118:1",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6879924118",
+    "relative_media_path": "media/nextgqa/0083/6879924118.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why are there three man standing in a line on the field",
+    "options": [
+      "to perform",
+      "stroke the dog",
+      "listen to the man speaking",
+      "defender",
+      "prevent it from falling"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        6.5,
+        16
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6898821807:3",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6898821807",
+    "relative_media_path": "media/nextgqa/1120/6898821807.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the boy touching the cheek of the baby with his own cheek in the middle of the video",
+    "options": [
+      "wants to eat his food",
+      "to cover baby face",
+      "protect the baby from falling",
+      "playing for fun",
+      "feel temperature"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        8.8,
+        12.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6898821807:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:6898821807",
+    "relative_media_path": "media/nextgqa/1120/6898821807.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the boy do when he realises the baby is crying",
+    "options": [
+      "shake his body",
+      "walk off",
+      "puts his face next to baby",
+      "run away",
+      "show toy to baby"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        6.4,
+        11.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6964124866:4",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:6964124866",
+    "relative_media_path": "media/nextgqa/1100/6964124866.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the person direct the child attention s towards a picture",
+    "options": [
+      "point to the picture",
+      "put it in front of child",
+      "shine light on it",
+      "bite it",
+      "touch the child"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        9.3,
+        14.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:6964124866:2",
+    "cohort": "open47",
+    "stratum": "C",
+    "source_group_id": "vidor:6964124866",
+    "relative_media_path": "media/nextgqa/1100/6964124866.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the child pick up some cards with numbers and letters on them",
+    "options": [
+      "pass to adult",
+      "posing for photo",
+      "playing with dog",
+      "bite it",
+      "playing with cards"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        1.2,
+        14.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7330294814:7",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:7330294814",
+    "relative_media_path": "media/nextgqa/1000/7330294814.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the lady in white do after sitting on the couch at the start",
+    "options": [
+      "show baby a soft toy",
+      "rolls",
+      "play with baby",
+      "look down at its body then turn back",
+      "cross legs"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        7.7,
+        9.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7330294814:0",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:7330294814",
+    "relative_media_path": "media/nextgqa/1000/7330294814.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what is the baby in yellow doing on the floor",
+    "options": [
+      "fell down",
+      "rolling around",
+      "crawling",
+      "clapping",
+      "playing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        2.6
+      ],
+      [
+        2.7,
+        8.9
+      ],
+      [
+        9.8,
+        17.0
+      ],
+      [
+        22.1,
+        29.8
+      ],
+      [
+        30.4,
+        32.2
+      ],
+      [
+        51.4,
+        76.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7442562474:1",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:7442562474",
+    "relative_media_path": "media/nextgqa/1020/7442562474.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how do the kittens interact with each other",
+    "options": [
+      "hit and bite",
+      "gently caress",
+      "chase each other",
+      "feed water and hug the doll",
+      "chase the tail of the toy"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        2.3,
+        5.1
+      ],
+      [
+        8.5,
+        20.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7442562474:5",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:7442562474",
+    "relative_media_path": "media/nextgqa/1020/7442562474.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the brown cat turn around and face his back on the bed in the middle",
+    "options": [
+      "touch the paper inside",
+      "put properly",
+      "getting ready to shower",
+      "just woke up",
+      "playing with white cat"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        9.6,
+        10.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7442562474:7",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:7442562474",
+    "relative_media_path": "media/nextgqa/1020/7442562474.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the brown cat hold onto the white cat nearing the end",
+    "options": [
+      "hold white cat s head",
+      "bite white cat s neck",
+      "hold collar",
+      "hold white cat tail",
+      "hold leash"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        15.6,
+        17.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7442562474:8",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:7442562474",
+    "relative_media_path": "media/nextgqa/1020/7442562474.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the white cat have one paw over the brown cat at the start",
+    "options": [
+      "hitting the brown cat",
+      "licking the brown cat",
+      "scared",
+      "no space to put the paw",
+      "resting the paw"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.0,
+        2.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7728559968:7",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:7728559968",
+    "relative_media_path": "media/nextgqa/1019/7728559968.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how do the kittens try to grab hold of each other",
+    "options": [
+      "nail down their heads",
+      "arms and legs",
+      "jump over one another",
+      "attack the neck",
+      "tug the collar"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.1,
+        17.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7728559968:8",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "vidor:7728559968",
+    "relative_media_path": "media/nextgqa/1019/7728559968.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what do the kittens do after sitting up at the end",
+    "options": [
+      "crawls away",
+      "rubs against him",
+      "try to bite",
+      "look around",
+      "lady s leg"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        41.5,
+        49
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7771650716:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:7771650716",
+    "relative_media_path": "media/nextgqa/1021/7771650716.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the man in white show affection to the grey dog in the middle of the video",
+    "options": [
+      "lift dog up and down",
+      "hugs the dog tightly",
+      "cuddle to sleep",
+      "rubs the dog",
+      "change his collar"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        31.0,
+        42.9
+      ],
+      [
+        57.9,
+        60
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:7771650716:0",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:7771650716",
+    "relative_media_path": "media/nextgqa/1021/7771650716.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what is the person in pink shorts doing when the man in white is playing with dog",
+    "options": [
+      "clean the backyard",
+      "close the car door",
+      "stand and watch",
+      "clean the car",
+      "follow the man"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.2,
+        8.1
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8224492254:0",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8224492254",
+    "relative_media_path": "media/nextgqa/1120/8224492254.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the baby open his mouth at the start",
+    "options": [
+      "brushing teeth",
+      "wants to bite the sandwich",
+      "eat the food",
+      "check for teeth stains",
+      "yawn"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.1,
+        3.2
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8277866423:8",
+    "cohort": "open47",
+    "stratum": "F",
+    "source_group_id": "vidor:8277866423",
+    "relative_media_path": "media/nextgqa/1008/8277866423.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the brown dog show that it is scared of the black dog",
+    "options": [
+      "move backwards",
+      "sibling",
+      "fix the bunker",
+      "paw and bark",
+      "grab something"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        7.0,
+        10.3
+      ],
+      [
+        16.1,
+        18.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8428551576:7",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:8428551576",
+    "relative_media_path": "media/nextgqa/1009/8428551576.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the baby listen to the ipod",
+    "options": [
+      "swipe off the person s hand",
+      "put ipod next to ear",
+      "wireless earplugs",
+      "puts in her mouth",
+      "headphones"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        17.7,
+        21.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8428551576:8",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:8428551576",
+    "relative_media_path": "media/nextgqa/1009/8428551576.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the baby reach for the two metal pans",
+    "options": [
+      "jump over",
+      "roll over",
+      "crawl over",
+      "adult passed to him",
+      "lean forward"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        66.5,
+        70.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8428551576:9",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:8428551576",
+    "relative_media_path": "media/nextgqa/1009/8428551576.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what does the baby do after grabbing the two metal pans",
+    "options": [
+      "clap",
+      "play with them",
+      "stick out tongue",
+      "places the vacuum upright",
+      "pushes it"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        81.9,
+        89.7
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8457210773:3",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:8457210773",
+    "relative_media_path": "media/nextgqa/1008/8457210773.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the brown dog react when playing with the black dog at the start",
+    "options": [
+      "barked back",
+      "jump again",
+      "jumps down",
+      "bite dog",
+      "faces brown dog"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        2.8,
+        6.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8457210773:5",
+    "cohort": "new50",
+    "stratum": "T",
+    "source_group_id": "vidor:8457210773",
+    "relative_media_path": "media/nextgqa/1008/8457210773.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the brown dog do after the black dog with red collar walked past in the middle",
+    "options": [
+      "smell its head",
+      "get up slightly",
+      "mount the black dog",
+      "sits down",
+      "lovingly"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        46.5,
+        50.8
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8457210773:8",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:8457210773",
+    "relative_media_path": "media/nextgqa/1008/8457210773.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how did the brown dog play with the black dog",
+    "options": [
+      "play a ball",
+      "chase",
+      "caress",
+      "hug",
+      "bite"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        2.4,
+        23.4
+      ],
+      [
+        26.3,
+        36.1
+      ],
+      [
+        44.6,
+        53.5
+      ],
+      [
+        63.9,
+        70.3
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8547321641:8",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:8547321641",
+    "relative_media_path": "media/nextgqa/1101/8547321641.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the baby do after he walked up to the camera",
+    "options": [
+      "rock chair",
+      "take the toy",
+      "walk to the sea",
+      "tried to touch camera",
+      "stares at camera"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        3.1,
+        6.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8547321641:9",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:8547321641",
+    "relative_media_path": "media/nextgqa/1101/8547321641.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the man do after the baby walked towards the sea at the end of the video",
+    "options": [
+      "throw mickey",
+      "turn the camera to face him",
+      "follow him",
+      "holds the rope on his shoulder",
+      "climbed onto the bounce house"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        6.5,
+        10.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:8",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the lady in pink wait for the girl in blue",
+    "options": [
+      "stood and wait in front",
+      "in the car",
+      "stand behind her",
+      "come close to the baby",
+      "stretch out hand"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        7.6,
+        9.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:2",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why does the lady in pink stand in front of the child in blue",
+    "options": [
+      "show love",
+      "sunny weather outside",
+      "waiting for the child",
+      "protect child from dog",
+      "waiting for the pan"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        5.1,
+        12.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:5",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "who walked pass the kid when he stopped at the road",
+    "options": [
+      "lady in jeans",
+      "the black dog",
+      "older man",
+      "boy in red",
+      "man in shorts"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        1.2,
+        7.4
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:1",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the child in blue move the bicycle across the path",
+    "options": [
+      "carried by lady",
+      "pedal wheels",
+      "with both hands",
+      "cycle",
+      "pushing with her legs"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        4.9,
+        11.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:3",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the child in blue communicate to the lady in pink",
+    "options": [
+      "pushes it",
+      "drawing on paper",
+      "kiss hand",
+      "hand gesture",
+      "hold her arms tight"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        7.5,
+        12.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:4",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the lady do after the girl point in front of her near the end",
+    "options": [
+      "hi-five",
+      "repeat the pose",
+      "turn to look",
+      "walk away",
+      "cook"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        9.2,
+        12.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:6",
+    "cohort": "public74",
+    "stratum": "C",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the girl in blue stop and turn around at the start",
+    "options": [
+      "pour ingredient in",
+      "scared",
+      "waiting for the lady",
+      "take out vegetables",
+      "dance"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:7",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why did the girl in blue stretch her right hand out at the end of the video",
+    "options": [
+      "to slide from left to right",
+      "using mouse",
+      "hand gesture",
+      "dancing",
+      "support baby"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        9.4,
+        11.9
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:10",
+    "cohort": "public74",
+    "stratum": "T",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the lady do after she stopped walking in the middle of the video",
+    "options": [
+      "answer the phone",
+      "turn to look at kid",
+      "touch her feet",
+      "pick up something",
+      "start claping"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        6.5,
+        10.0
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8594314852:11",
+    "cohort": "public74",
+    "stratum": "F",
+    "source_group_id": "vidor:8594314852",
+    "relative_media_path": "media/nextgqa/0030/8594314852.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "what did the girl do when she stopped at the end of the video",
+    "options": [
+      "touch baby",
+      "point behind the camera",
+      "point her front",
+      "touch baby lips",
+      "yawn"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        8.7,
+        12.6
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8797589693:6",
+    "cohort": "new50",
+    "stratum": "F",
+    "source_group_id": "vidor:8797589693",
+    "relative_media_path": "media/nextgqa/1008/8797589693.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "how does the man in black signal the man in blue to take a seat at the start",
+    "options": [
+      "clap his hand",
+      "pull chair out",
+      "shake his hand",
+      "nod his head",
+      "gestures towards a chair"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        11.2,
+        14.5
+      ]
+    ]
+  },
+  {
+    "id": "nextgqa:val:8797589693:8",
+    "cohort": "new50",
+    "stratum": "C",
+    "source_group_id": "vidor:8797589693",
+    "relative_media_path": "media/nextgqa/1008/8797589693.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "why is the lady in white holding a phone at the end",
+    "options": [
+      "check message",
+      "speaking on phone",
+      "anwer a call",
+      "filming the event",
+      "playing phone game"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        80.6,
+        89.8
+      ]
+    ]
+  },
+  {
+    "id": "ovo:593",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "charades:DGMDT",
+    "relative_media_path": "media/ovo/star/DGMDT.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "Which object did the person put down before they held the phone/camera?",
+    "options": [
+      "The medicine.",
+      "The shoe.",
+      "The bag.",
+      "The food."
+    ],
+    "answer_index": 2,
+    "evidence_intervals": null
+  },
+  {
+    "id": "ovo:619",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "charades:DHFA6",
+    "relative_media_path": "media/ovo/star/DHFA6.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "What did the person do to the box before sitting on the sofa/couch?",
+    "options": [
+      "Washed.",
+      "Closed.",
+      "Put down.",
+      "Opened."
+    ],
+    "answer_index": 2,
+    "evidence_intervals": null
+  },
+  {
+    "id": "ovo:590",
+    "cohort": "open47",
+    "stratum": "T",
+    "source_group_id": "charades:RAQNI",
+    "relative_media_path": "media/ovo/star/RAQNI.mp4",
+    "status": "admitted_and_opened_in_2B171",
+    "question": "What happened before the person put down the clothes?",
+    "options": [
+      "Put down the clothes.",
+      "Tidied up the blanket.",
+      "Took the blanket.",
+      "Washed the cup/glass/bottle."
+    ],
+    "answer_index": 1,
+    "evidence_intervals": null
+  }
+]

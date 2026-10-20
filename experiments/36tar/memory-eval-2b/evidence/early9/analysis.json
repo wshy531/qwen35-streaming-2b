@@ -1,0 +1,403 @@
+{
+  "status": "complete",
+  "questions": 9,
+  "sources": 6,
+  "correct": {
+    "old_full": 5,
+    "old_merged": 2,
+    "old_full_recent4": 3,
+    "old_merged_recent4": 3,
+    "recent4": 4,
+    "text_only": 2,
+    "full_replay": 3
+  },
+  "formats": {
+    "old_full": {
+      "ok": 9
+    },
+    "old_merged": {
+      "ok": 5,
+      "format_error": 4
+    },
+    "old_full_recent4": {
+      "ok": 9
+    },
+    "old_merged_recent4": {
+      "ok": 9
+    },
+    "recent4": {
+      "ok": 9
+    },
+    "text_only": {
+      "ok": 9
+    },
+    "full_replay": {
+      "ok": 9
+    }
+  },
+  "comparisons": {
+    "old_full -> old_merged": {
+      "both_wrong": 4,
+      "new_loss": 3,
+      "retained_correct": 2
+    },
+    "old_full -> old_full_recent4": {
+      "both_wrong": 4,
+      "retained_correct": 3,
+      "new_loss": 2
+    },
+    "old_merged -> old_merged_recent4": {
+      "both_wrong": 6,
+      "correction": 1,
+      "retained_correct": 2
+    },
+    "recent4 -> old_full_recent4": {
+      "both_wrong": 5,
+      "retained_correct": 3,
+      "new_loss": 1
+    },
+    "recent4 -> old_merged_recent4": {
+      "both_wrong": 5,
+      "retained_correct": 3,
+      "new_loss": 1
+    }
+  },
+  "replay_generated_IDs_equal": {
+    "full_replay": 9,
+    "text_only": 9
+  },
+  "details": [
+    {
+      "id": "nextgqa:val:4838113006:7",
+      "question": "what does the lady do after reaching table b from table a",
+      "official_answer": "squat down",
+      "cells": {
+        "old_full": {
+          "text": "A",
+          "correct": false
+        },
+        "old_merged": {
+          "text": "C",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "A",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "text_only": {
+          "text": "C",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "A",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:2868183184:5",
+      "question": "what does the man do after the girl finishes spreading the batter",
+      "official_answer": "close the lid",
+      "cells": {
+        "old_full": {
+          "text": "C",
+          "correct": true
+        },
+        "old_merged": {
+          "text": "C. close the lid",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "C",
+          "correct": true
+        },
+        "old_merged_recent4": {
+          "text": "C",
+          "correct": true
+        },
+        "recent4": {
+          "text": "C",
+          "correct": true
+        },
+        "text_only": {
+          "text": "B",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "C",
+          "correct": true
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:6618792571:6",
+      "question": "what did the girl do after she sat on the floor in the middle of the video",
+      "official_answer": "crawls",
+      "cells": {
+        "old_full": {
+          "text": "C",
+          "correct": true
+        },
+        "old_merged": {
+          "text": "C. crawls",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "D",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "D",
+          "correct": false
+        },
+        "recent4": {
+          "text": "D",
+          "correct": false
+        },
+        "text_only": {
+          "text": "A",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "D",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:6618792571:8",
+      "question": "what did the girl do after she knocked herself into the beanbag",
+      "official_answer": "sits down",
+      "cells": {
+        "old_full": {
+          "text": "B",
+          "correct": true
+        },
+        "old_merged": {
+          "text": "B. sits down",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "text_only": {
+          "text": "C",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "C",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:10030609934:8",
+      "question": "how did the person holding the camera signal to the toy car in the middle of the video",
+      "official_answer": "point at toy cars",
+      "cells": {
+        "old_full": {
+          "text": "B",
+          "correct": false
+        },
+        "old_merged": {
+          "text": "C. laser pointer",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "recent4": {
+          "text": "D",
+          "correct": true
+        },
+        "text_only": {
+          "text": "C",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "D",
+          "correct": true
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:10030609934:1",
+      "question": "why was the boy at the brown table near the stairs at the beginning of the video",
+      "official_answer": "bending down to look at ground",
+      "cells": {
+        "old_full": {
+          "text": "C",
+          "correct": false
+        },
+        "old_merged": {
+          "text": "C",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "recent4": {
+          "text": "C",
+          "correct": false
+        },
+        "text_only": {
+          "text": "C",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "C",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:10030609934:2",
+      "question": "what did the boy do after he approached the grey seat in the middle of the video",
+      "official_answer": "moved the car on the table",
+      "cells": {
+        "old_full": {
+          "text": "B",
+          "correct": false
+        },
+        "old_merged": {
+          "text": "B",
+          "correct": false
+        },
+        "old_full_recent4": {
+          "text": "B",
+          "correct": false
+        },
+        "old_merged_recent4": {
+          "text": "B",
+          "correct": false
+        },
+        "recent4": {
+          "text": "B",
+          "correct": false
+        },
+        "text_only": {
+          "text": "B",
+          "correct": false
+        },
+        "full_replay": {
+          "text": "B",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:2435633172:2",
+      "question": "what did the pig do when it reached the rock",
+      "official_answer": "rub its body",
+      "cells": {
+        "old_full": {
+          "text": "A",
+          "correct": true
+        },
+        "old_merged": {
+          "text": "A",
+          "correct": true
+        },
+        "old_full_recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "old_merged_recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "text_only": {
+          "text": "A",
+          "correct": true
+        },
+        "full_replay": {
+          "text": "E",
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "nextgqa:val:4013751996:5",
+      "question": "how does the girl stop the toy bicycle",
+      "official_answer": "put feet on the ground",
+      "cells": {
+        "old_full": {
+          "text": "A",
+          "correct": true
+        },
+        "old_merged": {
+          "text": "A",
+          "correct": true
+        },
+        "old_full_recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "old_merged_recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "recent4": {
+          "text": "A",
+          "correct": true
+        },
+        "text_only": {
+          "text": "A",
+          "correct": true
+        },
+        "full_replay": {
+          "text": "A",
+          "correct": true
+        }
+      }
+    }
+  ],
+  "execution": {
+    "status": "complete",
+    "records": 63,
+    "generated_tokens": 139,
+    "model_loads": 1,
+    "seconds": 41.44544998393394,
+    "peak_allocated_bytes": 9133640704,
+    "query_bank_isolation": true,
+    "protocol_sha256": "abd47d5140016525b69d0891222c6399afa9783e8586d4310d6ce41a9e8731f5"
+  },
+  "limitations": [
+    "9 related diagnostic questions on6 already-open sources, not an accuracy benchmark.",
+    "Old window manually specified from full-prefix review, not automatic retrieval.",
+    "Compression changes feature values, surviving positions, labels and Token count together.",
+    "Recent-only can answer by priors or persistent cues; correctness alone does not prove history reliance.",
+    "All preselected cases retained including originally unanswerable inputs; no window/prompt revision."
+  ]
+}

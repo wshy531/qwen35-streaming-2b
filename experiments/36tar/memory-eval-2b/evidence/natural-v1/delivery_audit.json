@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "jobs": {
+    "217141": {
+      "predictions": 1026,
+      "generated_tokens": 2055,
+      "strict_correct": {
+        "native_original": 107,
+        "full_pairwise_reference": 107,
+        "M0": 106,
+        "M1": 100,
+        "M2": 107,
+        "text_only": 66
+      },
+      "leading_choice_diagnostic": {
+        "native_original": 107,
+        "full_pairwise_reference": 107,
+        "M0": 106,
+        "M1": 100,
+        "M2": 108,
+        "text_only": 66
+      },
+      "format_errors": {
+        "native_original": 0,
+        "full_pairwise_reference": 0,
+        "M0": 0,
+        "M1": 0,
+        "M2": 1,
+        "text_only": 0
+      },
+      "model_loads": 2,
+      "protocol_sha256": "16b62a996a2cb9a849d2c12c21d9bef830a7c60bf6897b26089b3717c6915e41"
+    },
+    "217145": {
+      "predictions": 63,
+      "generated_tokens": 139,
+      "strict_correct": {
+        "old_full": 5,
+        "old_merged": 2,
+        "old_full_recent4": 3,
+        "old_merged_recent4": 3,
+        "recent4": 4,
+        "text_only": 2,
+        "full_replay": 3
+      },
+      "leading_choice_diagnostic": {
+        "old_full": 5,
+        "old_merged": 5,
+        "old_full_recent4": 3,
+        "old_merged_recent4": 3,
+        "recent4": 4,
+        "text_only": 2,
+        "full_replay": 3
+      },
+      "format_errors": {
+        "old_full": 0,
+        "old_merged": 4,
+        "old_full_recent4": 0,
+        "old_merged_recent4": 0,
+        "recent4": 0,
+        "text_only": 0,
+        "full_replay": 0
+      },
+      "model_loads": 1,
+      "protocol_sha256": "abd47d5140016525b69d0891222c6399afa9783e8586d4310d6ce41a9e8731f5"
+    },
+    "217146": {
+      "predictions": 684,
+      "generated_tokens": 1443,
+      "strict_correct": {
+        "all_memory": 107,
+        "long_only": 92,
+        "recent4": 104,
+        "temporal_route": 99
+      },
+      "leading_choice_diagnostic": {
+        "all_memory": 108,
+        "long_only": 96,
+        "recent4": 104,
+        "temporal_route": 101
+      },
+      "format_errors": {
+        "all_memory": 1,
+        "long_only": 11,
+        "recent4": 0,
+        "temporal_route": 8
+      },
+      "model_loads": 1,
+      "protocol_sha256": "aa667f03e7f13032ed1d2b530b1fc0e48c98e3ef10a67b761c8a97b79e12a828"
+    }
+  },
+  "unique_questions": 171,
+  "actual_answers": 1773,
+  "generated_tokens": 3637,
+  "actual_pretrained_loads": 4,
+  "source_locks_unchanged": true,
+  "identical_M2_banks_and_event_traces": 67,
+  "routing_real_inputs_and_generation_matches": 171,
+  "cue_triggered": 87,
+  "curation_sources": 20,
+  "curation_questions": 25,
+  "curation_pages": 60,
+  "curation_RGB_frames": 1169,
+  "remote_fetch_all_SHA256_equal": true,
+  "scope": "independent parsing/counts/data/protocol/branch/bank-metadata audit; full tensors were checked at runtime, not exported here"
+}

@@ -1,0 +1,20 @@
+{
+  "questions": 171,
+  "videos": 67,
+  "strata": {
+    "F": 58,
+    "C": 53,
+    "T": 60
+  },
+  "evidence_coverage": {
+    "all_by_time_span": 64,
+    "none_by_time_span": 71,
+    "partial_by_time_span": 33,
+    "unknown": 3
+  },
+  "pressure_questions": 144,
+  "requests_unchanged": true,
+  "note": "JSON serialization may differ; all request objects verified identical",
+  "actual_pretrained_loads": 0,
+  "actual_GPU_submissions": 0
+}
