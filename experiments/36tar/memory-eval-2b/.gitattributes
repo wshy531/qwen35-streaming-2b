@@ -1,0 +1,7 @@
+# Preserve immutable run evidence and source-lock bytes, including historical whitespace.
+* -text whitespace=cr-at-eol
+bundle/** -whitespace
+evidence/** -whitespace
+catalog/** -whitespace
+records/** -whitespace
+reports/** -whitespace

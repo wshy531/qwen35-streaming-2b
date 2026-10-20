@@ -1,0 +1,145 @@
+{
+  "status": "passed",
+  "job_id": "217135",
+  "method": "local NumPy reload of all24 saved FP32 initial logit vectors and direct record/identity comparison",
+  "matched_cases": 8,
+  "matched_generated_ids_same": 8,
+  "native_generated_ids_same": 8,
+  "max_matched_first_logit_abs_error": 6.389617919921875e-05,
+  "runtime_unchanged_main_state_records": 8,
+  "main_state_scope": "checked runtime flags and pinned executing source; full before/after cache tensors not downloaded",
+  "actual_answers": 24,
+  "generated_tokens": 381,
+  "answers_at16_token_cap": 21,
+  "real_pretrained_loads": 2,
+  "peak_GPU_allocated_bytes": {
+    "original": 8919295488,
+    "stream": 8933703680
+  },
+  "inference_loop_seconds": {
+    "original": 18.23703270801343,
+    "stream": 7.629939256934449
+  },
+  "guards": {
+    "original": {
+      "free_gpu_bytes": 84654620672,
+      "total_gpu_bytes": 85095874560,
+      "available_ram_bytes": 756815917056,
+      "slurm_job_id": "217135"
+    },
+    "stream": {
+      "free_gpu_bytes": 84654620672,
+      "total_gpu_bytes": 85095874560,
+      "available_ram_bytes": 759813898240,
+      "slurm_job_id": "217135"
+    }
+  },
+  "results": [
+    {
+      "source": "cross_task/0mnuAqJCg5c.mp4",
+      "prefix_frames": 2,
+      "max_abs_error": 3.504753112792969e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 3.504753112792969e-05,
+      "native_answer": "A young girl in a yellow apron stands in a kitchen, smiling at the",
+      "stream_answer": "A young girl in a yellow apron stands in a kitchen, smiling at the"
+    },
+    {
+      "source": "cross_task/0mnuAqJCg5c.mp4",
+      "prefix_frames": 4,
+      "max_abs_error": 4.76837158203125e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 0.00013780593872070312,
+      "native_answer": "A young girl wearing a yellow apron is standing in a kitchen with a cutting",
+      "stream_answer": "A young girl wearing a yellow apron is standing in a kitchen with a cutting"
+    },
+    {
+      "source": "cross_task/3kIs5YyLd_M.mp4",
+      "prefix_frames": 2,
+      "max_abs_error": 5.53131103515625e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 5.53131103515625e-05,
+      "native_answer": "A woman is pouring a red liquid from a bottle into a blue bowl on a",
+      "stream_answer": "A woman is pouring a red liquid from a bottle into a blue bowl on a"
+    },
+    {
+      "source": "cross_task/3kIs5YyLd_M.mp4",
+      "prefix_frames": 4,
+      "max_abs_error": 4.1484832763671875e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 5.7697296142578125e-05,
+      "native_answer": "Two women are in a kitchen, one is pouring a sauce from a bottle onto",
+      "stream_answer": "Two women are in a kitchen, one is pouring a sauce from a bottle onto"
+    },
+    {
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "prefix_frames": 2,
+      "max_abs_error": 6.389617919921875e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 6.389617919921875e-05,
+      "native_answer": "The video shows a store aisle with shelves stocked with various products, including electronics and",
+      "stream_answer": "The video shows a store aisle with shelves stocked with various products, including electronics and"
+    },
+    {
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "prefix_frames": 4,
+      "max_abs_error": 3.4332275390625e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 0.0001506805419921875,
+      "native_answer": "The camera pans around a store aisle, showing various products on display.",
+      "stream_answer": "The camera pans around a store aisle, showing various products on display."
+    },
+    {
+      "source": "Ego4D/clips/17bb68e6-328e-428d-8f1c-9fbf8b2471f2.mp4",
+      "prefix_frames": 2,
+      "max_abs_error": 4.673004150390625e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 4.673004150390625e-05,
+      "native_answer": "The scene shows a dining area with a wooden table and white chairs. On the",
+      "stream_answer": "The scene shows a dining area with a wooden table and white chairs. On the"
+    },
+    {
+      "source": "Ego4D/clips/17bb68e6-328e-428d-8f1c-9fbf8b2471f2.mp4",
+      "prefix_frames": 4,
+      "max_abs_error": 4.7206878662109375e-05,
+      "numerical_tolerance_pass": true,
+      "matched_generated_same": true,
+      "native_generated_same": true,
+      "native_input_ids_same": true,
+      "runtime_main_state_comparison_unchanged": true,
+      "native_logit_max_abs_error": 5.53131103515625e-05,
+      "native_answer": "The camera pans around a dining room with a wooden table and white chairs. There",
+      "stream_answer": "The camera pans around a dining room with a wooden table and white chairs. There"
+    }
+  ],
+  "new_GPU_or_model_execution_in_this_audit": 0,
+  "limits": "Four old OVO sources, two/four frames only; no long-memory/reset/compression/semantic accuracy or throughput claim. Original has16 answers, stream8, so loop times are not a matched speed comparison."
+}

@@ -1,0 +1,9 @@
+*.mp4
+*.safetensors
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.env
+.secrets/
+materialized/

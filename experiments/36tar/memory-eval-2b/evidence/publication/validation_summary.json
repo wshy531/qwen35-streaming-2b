@@ -1,0 +1,8 @@
+{
+  "repository_CPU_tests": 209,
+  "new_memory_contracts": 7,
+  "all_passed": true,
+  "first_two_repository_attempts": "sandbox temporary-file and localhost socket restrictions; failures retained; unchanged tests passed with scoped execution",
+  "pretrained_loads": 0,
+  "publication_GPU_submissions": 0
+}

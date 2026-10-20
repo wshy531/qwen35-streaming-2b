@@ -1,0 +1,44 @@
+{
+  "video_files": 124,
+  "candidate_questions": 385,
+  "evaluated_video_files": 67,
+  "evaluated_questions": 171,
+  "total_media_bytes": 2267748022,
+  "cohorts": {
+    "open47": 47,
+    "new50": 50,
+    "public74": 74
+  },
+  "original_splits": {
+    "development": {
+      "videos": 20,
+      "questions": 46
+    },
+    "comparison": {
+      "videos": 40,
+      "questions": 173
+    },
+    "original_holdout": {
+      "videos": 40,
+      "questions": 94
+    },
+    "new24": {
+      "videos": 24,
+      "questions": 72
+    }
+  },
+  "independent_filming_sessions_proven": false,
+  "frozen_candidate_status_fields_may_be_historical": true,
+  "current_admission": "evaluated171_catalog.json identifies actual natural-video comparison; other candidates remain development, supplemental or ambiguous; not all385 qualified",
+  "media_transport": "shared cluster directory, not Git blobs",
+  "provenance": [
+    {
+      "path": "runs/natural_eval_v2_20261019_01/candidate_manifest_v2_313.json",
+      "sha256": "2df1d03bce7f5c21fac3ce3aae9226a1abe546d88a19b12b5fd7e5e2e24ea2e2"
+    },
+    {
+      "path": "runs/memory_task_alignment_20261019_01/new24_sources72_METADATA_ONLY.json",
+      "sha256": "0d976398a8111dbe0b2b5a8e3d1e0d9e1392fccda3c50480ebff99d5b2166ee1"
+    }
+  ]
+}

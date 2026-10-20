@@ -1,0 +1,15 @@
+{
+  "status": "fixed_before_new_full_prefix_visual_review",
+  "questions": 25,
+  "sources": 20,
+  "original_pending_sha256": "88b9ab7d99f68846a609b8104406478c12ed36a51f048662a25b738520160f78",
+  "requests_sha256": "7b3a55413ef6ba171cfd6c3359a0eb41747e4ca5c640ca051658874eeb731286",
+  "input_identity": "existing1FPS actual RGB/PTS, all sampled prefix frames, no annotation-driven frame selection",
+  "pagesize": 24,
+  "max_disk_bytes": 104857600,
+  "seconds": 300,
+  "one_full_prefix_review": true,
+  "old_necessity_proven": false,
+  "old_08B_outputs_already_open_but_not_used_for_curation": true,
+  "new_2B_answers_not_opened_for_curation": true
+}

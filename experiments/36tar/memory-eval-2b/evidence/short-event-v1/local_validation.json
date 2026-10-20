@@ -1,0 +1,8 @@
+{
+  "AST": true,
+  "source_lock": true,
+  "analysis_aggregation_smoke": true,
+  "policy_contracts": 7,
+  "pretrained_loads": 0,
+  "GPU_submissions": 0
+}

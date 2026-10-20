@@ -1,0 +1,12 @@
+test_2b_width_and_input_rejection (__main__.Contracts.test_2b_width_and_input_rejection) ... ok
+test_export_owns_storage_and_past_snapshots_survive (__main__.Contracts.test_export_owns_storage_and_past_snapshots_survive) ... ok
+test_forced_seals_and_budget_at_each_write (__main__.Contracts.test_forced_seals_and_budget_at_each_write) ... ok
+test_prespecified_content_and_format_are_distinct (__main__.Contracts.test_prespecified_content_and_format_are_distinct) ... ok
+test_reservoir_is_bounded_reproducible_and_keeps_recent (__main__.Contracts.test_reservoir_is_bounded_reproducible_and_keeps_recent) ... ok
+test_true_boundaries_remain_effective (__main__.Contracts.test_true_boundaries_remain_effective) ... ok
+test_unbounded_candidate_replays_existing_m2 (__main__.Contracts.test_unbounded_candidate_replays_existing_m2) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.367s
+
+OK

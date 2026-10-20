@@ -1,0 +1,83 @@
+{
+  "public74": {
+    "old_strict": {
+      "questions": 74,
+      "videos": 21,
+      "correct": 41,
+      "micro_accuracy": 0.5540540540540541,
+      "video_macro_accuracy": 0.5695011337868481,
+      "answered": 70,
+      "answered_only_accuracy": 0.5857142857142857,
+      "statuses": {
+        "ok": 70,
+        "format_error": 4
+      }
+    },
+    "old_leading_format_diagnostic": {
+      "questions": 74,
+      "videos": 21,
+      "correct": 42,
+      "micro_accuracy": 0.5675675675675675,
+      "video_macro_accuracy": 0.5814058956916099,
+      "answered": 74,
+      "answered_only_accuracy": 0.5675675675675675,
+      "statuses": {
+        "ok": 74
+      }
+    }
+  },
+  "open47": {
+    "old_strict": {
+      "questions": 47,
+      "videos": 24,
+      "correct": 24,
+      "micro_accuracy": 0.5106382978723404,
+      "video_macro_accuracy": 0.4930555555555556,
+      "answered": 43,
+      "answered_only_accuracy": 0.5581395348837209,
+      "statuses": {
+        "ok": 43,
+        "format_error": 4
+      }
+    },
+    "old_leading_format_diagnostic": {
+      "questions": 47,
+      "videos": 24,
+      "correct": 26,
+      "micro_accuracy": 0.5531914893617021,
+      "video_macro_accuracy": 0.5347222222222222,
+      "answered": 47,
+      "answered_only_accuracy": 0.5531914893617021,
+      "statuses": {
+        "ok": 47
+      }
+    }
+  },
+  "new50": {
+    "old_strict": {
+      "questions": 50,
+      "videos": 21,
+      "correct": 15,
+      "micro_accuracy": 0.3,
+      "video_macro_accuracy": 0.30317460317460315,
+      "answered": 34,
+      "answered_only_accuracy": 0.4411764705882353,
+      "statuses": {
+        "ok": 34,
+        "format_error": 16
+      }
+    },
+    "old_leading_format_diagnostic": {
+      "questions": 50,
+      "videos": 21,
+      "correct": 23,
+      "micro_accuracy": 0.46,
+      "video_macro_accuracy": 0.5190476190476191,
+      "answered": 50,
+      "answered_only_accuracy": 0.46,
+      "statuses": {
+        "ok": 50
+      }
+    }
+  }
+}

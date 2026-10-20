@@ -1,0 +1,13 @@
+{
+  "source_sha256": "cf98469ce0d93c48164237bd56a930d2f37f63d49b2589fa5902d4003eb67f33",
+  "scorer_sha256": "819ce7c12102fb6d01d2664456afacf1a6ce6b7aa6ce62410a96e60052cea63e",
+  "questions": 171,
+  "FT": 118,
+  "C": 53,
+  "strict_primary": true,
+  "leading_choice_only_format_diagnostic": true,
+  "seed": 20261020,
+  "bootstrap_replicates": 2000,
+  "unit": "conservative source group",
+  "analysis": "cohorts separately; FT primary and C secondary; paired corrections/loss vs recent/full/text; no significance-driven extra runs; fixed 0.8B cross-model matched arms only"
+}

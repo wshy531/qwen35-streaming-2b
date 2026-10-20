@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "stage": "memory",
+  "records": 855,
+  "generated_tokens": 1713,
+  "actual_pair_encodings": 1402,
+  "model_loads": 1,
+  "seconds": 433.73338859481737,
+  "peak_allocated_bytes": 9133927936,
+  "peak_reserved_bytes": 9187622912,
+  "peak_sampled_RSS_bytes": 2384093184,
+  "query_bank_isolation": true,
+  "protocol_sha256": "16b62a996a2cb9a849d2c12c21d9bef830a7c60bf6897b26089b3717c6915e41"
+}

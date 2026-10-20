@@ -1,0 +1,36 @@
+{
+  "status": "posthoc_format_review_not_replacement_primary_score",
+  "strict": {
+    "old_full": 5,
+    "old_merged": 2,
+    "old_full_recent4": 3,
+    "old_merged_recent4": 3,
+    "recent4": 4,
+    "text_only": 2,
+    "full_replay": 3
+  },
+  "all_three_A_to_B_losses": [
+    {
+      "id": "nextgqa:val:2868183184:5",
+      "text": "C. close the lid",
+      "official_answer": "close the lid",
+      "interpretation": "correct initial option plus correct explanation, strict-format loss"
+    },
+    {
+      "id": "nextgqa:val:6618792571:6",
+      "text": "C. crawls",
+      "official_answer": "crawls",
+      "interpretation": "correct initial option plus correct explanation, strict-format loss"
+    },
+    {
+      "id": "nextgqa:val:6618792571:8",
+      "text": "B. sits down",
+      "official_answer": "sits down",
+      "interpretation": "correct initial option plus correct explanation, strict-format loss"
+    }
+  ],
+  "old_merged_leading_choice_correct": 5,
+  "old_full_correct": 5,
+  "no_additional_semantic_failure_observed_in_this_9case_control": true,
+  "limits": "Not proof of lossless compression; four initially wrong cases and compressed position/labels remain."
+}

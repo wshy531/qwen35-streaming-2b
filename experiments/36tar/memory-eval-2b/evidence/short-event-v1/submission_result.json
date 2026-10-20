@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "stdout": "217160\n",
+  "stderr": "",
+  "arguments": [
+    "sbatch",
+    "--parsable",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-short-event-v1/run_eval.sh"
+  ],
+  "script_sha256": "4cbe065f7b0fd5b6b92d3e7d7feb3601902a5697e966ca81d8368decd4cf90af",
+  "job_id": "217160",
+  "allocation": "JobId=217160 JobName=36tar-b02-cap4\n   UserId=u2025010462(507005) GroupId=u2025010462(507005) MCS_label=N/A\n   Priority=100 Nice=0 Account=u2025010462 QOS=normal\n   JobState=PENDING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   DerivedExitCode=0:0\n   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A\n   SubmitTime=2026-10-20T14:26:42 EligibleTime=2026-10-20T14:26:42\n   AccrueTime=Unknown\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-20T14:26:42 Scheduler=Main\n   Partition=g078t AllocNode:Sid=workstation:1239085\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1-1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*\n   TRES=cpu=4,mem=24G,node=1,billing=4,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=4 MinMemoryNode=24G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-short-event-v1/run_eval.sh\n   WorkDir=/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar\n   Comment=gx_llm \n   StdErr=/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-short-event-inputs-20261020-01/slurm-217160.log\n   StdIn=/dev/null\n   StdOut=/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-short-event-inputs-20261020-01/slurm-217160.log\n   Power=\n   TresPerNode=gres:gpu:1\n   \n\n"
+}

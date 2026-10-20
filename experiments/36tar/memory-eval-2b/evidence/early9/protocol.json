@@ -1,0 +1,38 @@
+{
+  "status": "posthoc_targeted_diagnostic_fixed_before_its_answers",
+  "questions": 9,
+  "videos": 6,
+  "request_sha256": "e3445b59de45500b8171e38a6a87f23fd08d1bb36ecb433a181ac134730e8e32",
+  "driver_sha256": "ccb02ddfd8267c43524f0d8d519408ecfda7816695aaf6fbeb4ef05cd557c65f",
+  "base_source_lock_sha256": "1f5882709479f9b46ae3f56add7c2a27e8f4cb49e4b35cb70a04534cf5c6cd0a",
+  "curation_lock_sha256": "676ac02a9cd230b1ed96237461131c645e5f8f35da5d178b6ad6962f298b401d",
+  "arms": [
+    "old_full",
+    "old_merged",
+    "old_full_recent4",
+    "old_merged_recent4",
+    "recent4",
+    "text_only",
+    "full_replay"
+  ],
+  "old_raw_pairs": 4,
+  "old_raw_visual_tokens": 192,
+  "old_merged_visual_tokens": 48,
+  "recent_pairs": 4,
+  "maximum_answers": 63,
+  "maximum_generated_tokens": 504,
+  "maximum_real_loads": 1,
+  "worker_seconds": 600,
+  "deadline_UTC": "2026-10-20T06:11:50+00:00",
+  "precision": "float32",
+  "canvas": [
+    192,
+    256
+  ],
+  "max_new_tokens": 8,
+  "manual_old_window": "fixed from full-prefix visual witnesses; not automatic retrieval or a deployable selector",
+  "compression": "existing ToMe within=True and compressed position/label heuristic; not feature-value-only attribution",
+  "analysis": "All9 including base errors; A/B compression-layout effect; A/C and B/D recent interference; recent4 removal control; full/text replay identity; no prompt/window sweeps",
+  "selection_bias_note": "All9 content-qualified before opening2B scores; this diagnostic designed after base scores, not held-out evaluation",
+  "stop": "one fixed real-model round, retain every failure"
+}

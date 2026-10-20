@@ -1,0 +1,22 @@
+{
+  "status": "full_fixed_sample_prefix_review_complete",
+  "sources": 20,
+  "questions": 25,
+  "pages": 60,
+  "frames": 1169,
+  "content_verdicts": {
+    "supported": 22,
+    "ambiguous": 3
+  },
+  "memory_characters": {
+    "past_with_late_cue": 13,
+    "past_not_repeated_in_sample": 9,
+    "answer_not_visible": 2,
+    "temporal_relation_ambiguous": 1
+  },
+  "old_evidence_necessity_proven": 0,
+  "original_171_scoring_unchanged": true,
+  "model_answers_not_used_for_review": true,
+  "single_assistant_review": true,
+  "late_cue_is_not_necessarily_inside_M0_window": true
+}
