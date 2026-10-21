@@ -1,0 +1,45 @@
+{
+  "217796": {
+    "args": [
+      "sacct",
+      "-j",
+      "217796",
+      "--parsable2",
+      "--format=JobIDRaw,JobName,State,ExitCode,Elapsed,AllocCPUS,ReqMem,AllocTRES%120"
+    ],
+    "scheduler_row": "217796|wsy-2b-replay|COMPLETED|0:0|00:06:49|4|24G|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+    "source_log_name": "cpu-release-20261021-gpu-watch-7.json",
+    "source_log_sha256": "3de3d5225feb2a84642d2c27e9f27152707e71c676b62c5955439f6b83ce265c",
+    "scope": "Previously collected reply; no new scheduler query"
+  },
+  "217852": {
+    "args": [
+      "sacct",
+      "-X",
+      "-n",
+      "-P",
+      "-j",
+      "217852",
+      "--format=JobIDRaw,JobName,State,ExitCode,Elapsed,AllocCPUS,ReqMem,AllocTRES%180"
+    ],
+    "scheduler_row": "217852|wsy-long-compare|COMPLETED|0:0|00:11:22|4|24G|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+    "source_log_name": "cpu-release-20261021-long-video-gpu-watch-02.json",
+    "source_log_sha256": "e89dc5775cfc4916747e212552e1b1fafec091558def440c29209433b5ffadf7",
+    "scope": "Previously collected reply; no new scheduler query"
+  },
+  "217845": {
+    "args": [
+      "sacct",
+      "-X",
+      "-n",
+      "-P",
+      "-j",
+      "217845",
+      "--format=JobIDRaw,JobName,State,ExitCode,Elapsed,AllocCPUS,ReqMem,AllocTRES%180"
+    ],
+    "scheduler_row": "217845|wsy-ls-compare|COMPLETED|0:0|00:09:55|4|24G|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+    "source_log_name": "cpu-release-20261021-ls-gpu-watch-02.json",
+    "source_log_sha256": "078e742a462f67ef58d2596f8cd701e9cb961646c731238bfacbf9284296570d",
+    "scope": "Previously collected reply; no new scheduler query"
+  }
+}

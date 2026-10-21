@@ -1,0 +1,5 @@
+{
+  "stage": "preflight",
+  "error": "Traceback (most recent call last):\n  File \"/home/share/czy/wsy/projects/online-memory-2b-20261021-01/experiments/wshy/online_memory_2b/runner.py\", line 420, in main\n    cpu(run)\n  File \"/home/share/czy/wsy/projects/online-memory-2b-20261021-01/experiments/wshy/online_memory_2b/runner.py\", line 67, in cpu\n    raise RuntimeError('inherited CPU regressions failed; see ' + str(inherited_log))\nRuntimeError: inherited CPU regressions failed; see /home/share/czy/wsy/runs/online-memory-2b-preflight-20261021-02/cpu/inherited.txt\n",
+  "successful_completion": false
+}

@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "pretrained_loads": 1,
+  "main_answers": 1026,
+  "probe_answers": 120,
+  "generated_tokens": 2303,
+  "source_pairs_encoded": 1402,
+  "visual_forward_calls": 1402,
+  "peak_combined_bank_bytes": 15806976,
+  "peak_RSS_bytes": 6230835200,
+  "peak_GPU_allocated": 8964157440,
+  "peak_GPU_reserved": 9017753600,
+  "stage_seconds": {
+    "decode": 94.32770526059903,
+    "encode": 36.56827173521742,
+    "update": 60.794000239809975,
+    "answer": 353.0942482405808
+  },
+  "seconds": 588.4133630660363,
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "protocol_sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811",
+  "preflight_sha256": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7",
+  "reset_checks": 335,
+  "all_QA_banks_unchanged": true,
+  "output_sha256": {
+    "predictions.jsonl": "e17448d97ae6e9f3c5385dc73699013969807afab24871f7f0a877b5fa68c24c",
+    "probes.jsonl": "9d18ad4750fa3f1d9875612b706056ddfc73a2406df216c25db9aba0562b5ec7",
+    "events.jsonl": "76820a2a50f33fda7f6ca6d225fdbd30660d2bc9e099ea0986a62a9eda00ee68"
+  },
+  "scope": "external bounded visual memory; fresh language cache for each answer"
+}

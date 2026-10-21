@@ -1,4 +1,5 @@
 """Same state contracts under the optional token-recurrent reference path."""
+import gc
 import tempfile
 from pathlib import Path
 
@@ -32,8 +33,13 @@ class RecurrentReferenceTests(MixedStateTests):
     def test_rule_config_survives_checkpoint(self):
         with tempfile.TemporaryDirectory() as directory:
             self.model.save_pretrained(directory)
-            loaded = Qwen3_5ForConditionalGeneration.from_pretrained(Path(directory),attn_implementation="eager")
-            self.assertTrue(loaded.config.text_config.streaming_recurrent_reference)
-            for layer in loaded.model.language_model.layers:
-                if layer.layer_type == "linear_attention":
-                    self.assertTrue(layer.linear_attn.experimental_recurrent_reference)
+            loaded = layer = None
+            try:
+                loaded = Qwen3_5ForConditionalGeneration.from_pretrained(Path(directory),attn_implementation="eager")
+                self.assertTrue(loaded.config.text_config.streaming_recurrent_reference)
+                for layer in loaded.model.language_model.layers:
+                    if layer.layer_type == "linear_attention":
+                        self.assertTrue(layer.linear_attn.experimental_recurrent_reference)
+            finally:
+                loaded = layer = None
+                gc.collect()

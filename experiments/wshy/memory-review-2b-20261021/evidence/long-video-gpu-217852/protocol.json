@@ -1,0 +1,55 @@
+{
+  "schema": "long-video-external-memory-2b-cpu-v1",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "arms": [
+    "M0",
+    "M2",
+    "M2_A06",
+    "LS_shared384_v1",
+    "reservoir4",
+    "text_only"
+  ],
+  "sources": 6,
+  "questions": 34,
+  "source_sampled_frames": 2853,
+  "last_query_horizon_frames": 2726,
+  "source_pairs_to_encode": 1360,
+  "planned_GPU_answers": 204,
+  "planned_GPU_generated_tokens_max": 1632,
+  "max_new_tokens": 8,
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "precision": "float32",
+  "visual_tokens_per_policy": 384,
+  "context_tokens": 8192,
+  "question_suffix_max": 128,
+  "runtime": "bounded external vision; fresh language state each question",
+  "stop": "after last query per source; no query or EOF padding",
+  "opened_development_not_holdout": true,
+  "independent_content_review": "pending",
+  "CPU_pretrained_loads": 0,
+  "CPU_tiny_queries": 2,
+  "CPU_tiny_answers": 12,
+  "run_path": "/home/share/czy/wsy/runs/long-video-memory-2b-preflight-20261021-01",
+  "write_root": "/home/share/czy/wsy",
+  "model": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/models/Qwen3.5-2B",
+  "resource_root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+  "model_manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525",
+  "deployment": {
+    "commit": "bf14b753d17f73142ae67e0c337d7936e16b4cbe",
+    "branch": "wshy/2b-long-short-memory",
+    "worktree_status": "M experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_local_model.py\n M experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_recurrent_reference.py\n M experiments/36tar/streaming-learning/code/qwen35-streaming/tests/test_local_model.py\n M tests/test_local_model.py\n?? experiments/wshy/\n?? scripts/audit_2b_long_stream.py\n?? scripts/run_2b_long_video_eval.py\n?? scripts/run_2b_memory_eval.py",
+    "repo": "/home/share/czy/wsy/projects/long-video-memory-2b-20261021-01"
+  },
+  "created_UTC": "2026-10-21T05:56:22.503781+00:00",
+  "input_hashes": {
+    "requests.json": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77",
+    "sources.json": "b0db31454c2b48817d86f88c5796bb76f612ece4a7786f24456eb025617c7f78",
+    "snapshots.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9",
+    "scoring_ONLY.json": "255067a9da5dd4d83a30a706c9ac4aabb8d52f423e8302aaeb073df0a125672d",
+    "receipt.json": "e2ff5799bb6358076cbaa3c70c5552df2d88973ffab7986e6c99bcb4d11af321",
+    "source_lock.json": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf"
+  }
+}

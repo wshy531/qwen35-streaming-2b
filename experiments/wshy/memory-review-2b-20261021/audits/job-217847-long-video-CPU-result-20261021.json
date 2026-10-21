@@ -1,0 +1,128 @@
+{
+  "status": "long_video_CPU_preflight_independently_verified",
+  "job_id": 217847,
+  "slurm_state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed": "00:10:58",
+  "allocated_TRES": "billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+  "inherited_discovered": 209,
+  "inherited_passed": 208,
+  "platform_NA": [
+    {
+      "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+      "reason": "Windows owner-handle guard",
+      "classification": "not_applicable_on_linux"
+    }
+  ],
+  "contracts": {
+    "online_memory_2b/tests": 28,
+    "online_memory_2b/tests_a06": 16,
+    "online_memory_2b/tests_ls": 25,
+    "long_stream_audit/tests": 8,
+    "long_video_2b/tests": 26
+  },
+  "total_discovered": 312,
+  "total_applicable_passed": 311,
+  "real_media": 6,
+  "sampled_frames": 2726,
+  "complete_pair_callbacks": 1360,
+  "actual_visual_model_forwards": 0,
+  "query_snapshots_matched": 34,
+  "complete_question_suffix_max": 100,
+  "tiny_answers": [
+    {
+      "id": "tiny:0",
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "text_only",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "real_pretrained_loads": 0,
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "independent_video_content_review": "pending",
+  "long_video_accuracy_evaluated": false,
+  "protocol_sha256": "8be5247cda450094883b8da2e8fcd8931ce1aedc728a54087fbc43dcc54c4517",
+  "preflight_sha256": "99f8f388252f32e8316baed93461ce910699d879084cfccc343939ccba388b40",
+  "source_lock_sha256": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf",
+  "artifacts_sha256": {
+    "cpu/actual_query_checks.json": "b438c4b209324ce1b2da3ae847276bb945b6e120d952ce83ff10562fcdb2fd78",
+    "cpu/inherited.txt": "7cd64a8f574a92d6adf9b0a61fca8ed6d6ece2bc71939585bc96956ee3912a85",
+    "cpu/long_stream_audit_tests.txt": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350",
+    "cpu/long_video_2b_tests.txt": "80ea52d200cd2cec7af3c1663372a01b2a306783a38608b62123698b1b5b1272",
+    "cpu/online_memory_2b_tests.txt": "9ab34c81e9915130cd435b52405d05510d5277d28c2427b0ffe9d1f4a85f6ce4",
+    "cpu/online_memory_2b_tests_a06.txt": "a1ab7ab46b2a11fc32f8a909f84cda1be61c258217edfd239a5db677107b5b79",
+    "cpu/online_memory_2b_tests_ls.txt": "449c6d79cc8735e691058b71944511b5e8ba163471138fe7c0835a00dee05876",
+    "cpu/preflight.json": "99f8f388252f32e8316baed93461ce910699d879084cfccc343939ccba388b40",
+    "job_logs/long-video-cpu-20261021-01-217847.err": "f9a08ad390c7686f0e21f4cac08e967111f2a5bbcd0c3ea155fe14b6efdb4eed",
+    "job_logs/long-video-cpu-20261021-01-217847.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "protocol.json": "8be5247cda450094883b8da2e8fcd8931ce1aedc728a54087fbc43dcc54c4517",
+    "receipt.json": "e2ff5799bb6358076cbaa3c70c5552df2d88973ffab7986e6c99bcb4d11af321",
+    "requests.json": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77",
+    "scoring_ONLY.json": "255067a9da5dd4d83a30a706c9ac4aabb8d52f423e8302aaeb073df0a125672d",
+    "snapshots.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9",
+    "source_lock.json": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf",
+    "sources.json": "b0db31454c2b48817d86f88c5796bb76f612ece4a7786f24456eb025617c7f78"
+  }
+}

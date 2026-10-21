@@ -1,0 +1,86 @@
+{
+  "status": "publication_copy_local_contracts",
+  "success": true,
+  "suites": [
+    {
+      "suite": "root_model",
+      "discovered": 3,
+      "passed": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 25.98400000000038
+    },
+    {
+      "suite": "online",
+      "discovered": 28,
+      "passed": 27,
+      "failures": [],
+      "errors": [],
+      "skipped": [
+        {
+          "test": "test_existing_symlink_cannot_redirect_output_outside_boundary (test_safety.DeploymentContracts.test_existing_symlink_cannot_redirect_output_outside_boundary)",
+          "reason": "cluster contract uses POSIX symlink creation"
+        }
+      ],
+      "success": true,
+      "seconds": 31.29699999999866
+    },
+    {
+      "suite": "A06",
+      "discovered": 16,
+      "passed": 16,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 23.48400000000038
+    },
+    {
+      "suite": "LS",
+      "discovered": 25,
+      "passed": 25,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 43.48500000000058
+    },
+    {
+      "suite": "audit",
+      "discovered": 8,
+      "passed": 8,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 0.030999999999039574
+    },
+    {
+      "suite": "long_video",
+      "discovered": 26,
+      "passed": 26,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 3.0780000000013388
+    },
+    {
+      "suite": "GPU_extension",
+      "discovered": 22,
+      "passed": 22,
+      "failures": [],
+      "errors": [],
+      "skipped": [],
+      "success": true,
+      "seconds": 15.296999999998661
+    }
+  ],
+  "real_2B_weight_loads": 0,
+  "cluster_connections": 0,
+  "GPU_submissions": 0,
+  "CUDA_initialized": false,
+  "scope": "125 new synthetic contracts and three root random-model contracts; not the full inherited209, real RGB/PTS or capability rerun"
+}

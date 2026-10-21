@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "protocol_sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811",
+  "inherited_receipt_sha256": "19301505b6f56d9020fe4f4b67cfde7b20031f4614f3f9f5006d89e61552dec5",
+  "inherited_log_sha256": "dbc68444ec7fd5680028f75be69318aeb5bf26f4671dceb65997b7968ceb124f",
+  "inherited_tests": 208,
+  "inherited_tests_discovered": 209,
+  "inherited_tests_skipped": 1,
+  "inherited_platform_skips": [
+    {
+      "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+      "reason": "Windows owner-handle guard",
+      "classification": "not_applicable_on_linux"
+    }
+  ],
+  "contract_tests": 28,
+  "contracts_log_sha256": "94b01a98c4ba62d13aa0bdb6e89022ff49419f52a133e0241e8eb31626c8d0cb",
+  "source_lock_sha256": "d6e817be5cc7ea9a7b2a9a1f5da77edc1c04f1d1979f260b8421ffdea726d83f",
+  "model_manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525",
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "source_frames_checked": 2766,
+  "source_pairs_checked": 1402,
+  "suffix_questions_checked": 171,
+  "max_suffix_tokens": 78,
+  "tiny_answers": [
+    {
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "pretrained_loads": 0,
+  "media_files_checked": 67
+}

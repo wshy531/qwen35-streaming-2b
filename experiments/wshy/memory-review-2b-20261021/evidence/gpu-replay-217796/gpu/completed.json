@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "pretrained_loads": 1,
+  "main_answers": 684,
+  "probe_answers": 72,
+  "generated_tokens": 1515,
+  "source_pairs_encoded": 1402,
+  "visual_forward_calls": 1402,
+  "peak_combined_bank_bytes": 9477632,
+  "peak_RSS_bytes": 6240296960,
+  "peak_GPU_allocated": 8964157440,
+  "peak_GPU_reserved": 9017753600,
+  "stage_seconds": {
+    "decode": 93.76089087082073,
+    "encode": 36.02235911018215,
+    "update": 32.51971008069813,
+    "answer": 206.95891405595466
+  },
+  "seconds": 401.70658389502205,
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "protocol_sha256": "b0bffa554a577bdb4a23955e2243806ea566617a48de6deef65c81622526120c",
+  "preflight_sha256": "82245da1cb685f7b4e9e1772be500458ad12da1e04decbf6d3a81d3d3f05cc28",
+  "reset_checks": 201,
+  "all_QA_banks_unchanged": true,
+  "scope": "external bounded visual memory; fresh language cache for each answer"
+}

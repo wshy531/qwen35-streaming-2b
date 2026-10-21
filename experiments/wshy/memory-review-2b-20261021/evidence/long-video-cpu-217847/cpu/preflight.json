@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "pretrained_loads": 0,
+  "protocol_sha256": "8be5247cda450094883b8da2e8fcd8931ce1aedc728a54087fbc43dcc54c4517",
+  "source_lock_sha256": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf",
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "inherited": {
+    "suite_counts": [
+      3,
+      12,
+      186,
+      8
+    ],
+    "tests_discovered": 209,
+    "tests_run": 208,
+    "tests_skipped": 1,
+    "platform_skips": [
+      {
+        "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+        "reason": "Windows owner-handle guard",
+        "classification": "not_applicable_on_linux"
+      }
+    ]
+  },
+  "inherited_log_sha256": "7cd64a8f574a92d6adf9b0a61fca8ed6d6ece2bc71939585bc96956ee3912a85",
+  "suites": {
+    "online_memory_2b/tests": {
+      "tests": 28,
+      "sha256": "9ab34c81e9915130cd435b52405d05510d5277d28c2427b0ffe9d1f4a85f6ce4",
+      "file": "online_memory_2b_tests.txt"
+    },
+    "online_memory_2b/tests_a06": {
+      "tests": 16,
+      "sha256": "a1ab7ab46b2a11fc32f8a909f84cda1be61c258217edfd239a5db677107b5b79",
+      "file": "online_memory_2b_tests_a06.txt"
+    },
+    "online_memory_2b/tests_ls": {
+      "tests": 25,
+      "sha256": "449c6d79cc8735e691058b71944511b5e8ba163471138fe7c0835a00dee05876",
+      "file": "online_memory_2b_tests_ls.txt"
+    },
+    "long_stream_audit/tests": {
+      "tests": 8,
+      "sha256": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350",
+      "file": "long_stream_audit_tests.txt"
+    },
+    "long_video_2b/tests": {
+      "tests": 26,
+      "sha256": "80ea52d200cd2cec7af3c1663372a01b2a306783a38608b62123698b1b5b1272",
+      "file": "long_video_2b_tests.txt"
+    }
+  },
+  "sources_RGB_PTS_checked": 6,
+  "sampled_frames": 2726,
+  "pair_callbacks": 1360,
+  "actual_visual_model_forwards": 0,
+  "queries_checked": 34,
+  "max_suffix_tokens": 100,
+  "actual_query_checks_sha256": "b438c4b209324ce1b2da3ae847276bb945b6e120d952ce83ff10562fcdb2fd78",
+  "tiny": {
+    "queries": 2,
+    "sampled_frames": 24,
+    "encoded_pairs": 12,
+    "unmatched_final_frame": 0,
+    "query_padding": false,
+    "answers": 12,
+    "generated_tokens": 96,
+    "reset_checks": 5,
+    "model_loads_by_adapter": 0,
+    "all_QA_banks_unchanged": true
+  },
+  "tiny_answers": [
+    {
+      "id": "tiny:0",
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "id": "tiny:0",
+      "arm": "text_only",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "id": "tiny:1",
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "independent_video_content_review": "pending",
+  "long_video_accuracy_evaluated": false
+}

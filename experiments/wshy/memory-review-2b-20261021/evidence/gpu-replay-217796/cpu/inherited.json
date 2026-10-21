@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "suite_counts": [
+    3,
+    12,
+    186,
+    8
+  ],
+  "tests_discovered": 209,
+  "tests_run": 208,
+  "tests_skipped": 1,
+  "platform_skips": [
+    {
+      "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+      "reason": "Windows owner-handle guard",
+      "classification": "not_applicable_on_linux"
+    }
+  ],
+  "source_lock_sha256": "f7771e3a674ded8112bc6c65d2f1b10296d44dca47a8adba65b928b9fb28ce1e",
+  "log_sha256": "2d55caf68d08bac864212d4f21a14b5e9f83c010d576a84a2b597c406a649d14"
+}

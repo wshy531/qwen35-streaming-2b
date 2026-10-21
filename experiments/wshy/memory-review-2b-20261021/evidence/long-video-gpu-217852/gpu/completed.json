@@ -1,0 +1,119 @@
+{
+  "status": "complete",
+  "pretrained_loads": 1,
+  "main_answers": 204,
+  "generated_tokens": 413,
+  "source_pairs_encoded": 1360,
+  "visual_forward_calls": 1360,
+  "reset_checks": 30,
+  "all_QA_banks_unchanged": true,
+  "sources": [
+    {
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "queries": 5,
+      "sampled_frames": 439,
+      "encoded_pairs": 219,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 30,
+      "generated_tokens": 60,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    },
+    {
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "queries": 5,
+      "sampled_frames": 471,
+      "encoded_pairs": 235,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 30,
+      "generated_tokens": 60,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    },
+    {
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "queries": 5,
+      "sampled_frames": 451,
+      "encoded_pairs": 225,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 30,
+      "generated_tokens": 60,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    },
+    {
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "queries": 9,
+      "sampled_frames": 473,
+      "encoded_pairs": 236,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 54,
+      "generated_tokens": 108,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    },
+    {
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "queries": 5,
+      "sampled_frames": 441,
+      "encoded_pairs": 220,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 30,
+      "generated_tokens": 60,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    },
+    {
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "queries": 5,
+      "sampled_frames": 451,
+      "encoded_pairs": 225,
+      "unmatched_final_frame": 1,
+      "query_padding": false,
+      "answers": 30,
+      "generated_tokens": 65,
+      "reset_checks": 5,
+      "model_loads_by_adapter": 0,
+      "all_QA_banks_unchanged": true
+    }
+  ],
+  "peak_combined_bank_bytes": 15806976,
+  "peak_RSS_bytes": 6166646784,
+  "peak_GPU_allocated": 8964926464,
+  "peak_GPU_reserved": 8998879232,
+  "seconds": 654.6671936889179,
+  "stage_seconds": {
+    "decode": 417.66567422566004,
+    "encode": 37.21835064305924,
+    "answer": 59.391798498807475
+  },
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "GPU_protocol_sha256": "94b9c2e72075fc0f8dab61621ee234e2b61f86871daf4fddca864a2d5f2748d4",
+  "CPU_preflight_sha256": "99f8f388252f32e8316baed93461ce910699d879084cfccc343939ccba388b40",
+  "extension_contract_log_sha256": "00e4f07cf19f67ce5500dec844493f9c0b0c3b1530dc5a855780ad375ae3b04d",
+  "extension_contract_tests": 22,
+  "output_sha256": {
+    "predictions.jsonl": "06b0c4d81580cf4b4da0df31d59a1b83e12344f95480b262a8820542b55cee30",
+    "events.jsonl": "ef15de373eaef922af4f6e43320bcfb3af1444559f73c8744d818bac58fe130b"
+  },
+  "independent_content_review": "pending",
+  "historical_answer_identity_claim": false
+}

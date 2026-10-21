@@ -1,0 +1,98 @@
+{
+  "schema": "online-memory-2b-v2",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "arms": [
+    "M0",
+    "M2",
+    "reservoir4",
+    "text_only"
+  ],
+  "questions": 171,
+  "sources": 67,
+  "main_answers": 684,
+  "maximum_answers": 756,
+  "maximum_generated_tokens": 6048,
+  "max_new_tokens": 8,
+  "pretrained_loads": 1,
+  "gpu_seconds": 2550,
+  "slurm_minutes": 45,
+  "cpus": 4,
+  "memory_GiB": 24,
+  "min_free_GPU_GiB": 16,
+  "min_free_RAM_GiB": 12,
+  "max_allocated_GPU_GiB": 24,
+  "max_RSS_GiB": 20,
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "threshold": 0.047536224126815796,
+  "precision": "float32",
+  "context_tokens": 8192,
+  "visual_tokens_per_policy": 384,
+  "opened_development_not_holdout": true,
+  "runtime": "external visual bank; fresh language cache per question",
+  "run_nonce": "b71a224b8008f83ae9de57fca823839c",
+  "deployment": {
+    "commit": "bf14b753d17f73142ae67e0c337d7936e16b4cbe",
+    "branch": "wshy/2b-online-memory",
+    "worktree_status": "?? experiments/wshy/\n?? scripts/audit_2b_long_stream.py\n?? scripts/run_2b_memory_eval.py",
+    "repo": "/home/share/czy/wsy/projects/online-memory-2b-20261021-01"
+  },
+  "write_root": "/home/share/czy/wsy",
+  "created_UTC": "2026-10-20T17:11:33.247981+00:00",
+  "run_path": "/home/share/czy/wsy/runs/online-memory-2b-preflight-20261021-02",
+  "model": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/models/Qwen3.5-2B",
+  "dataset": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/data/2b-memory-eval-20261020",
+  "model_manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525",
+  "checkpoints": {
+    "03f2f6257e2ae2bde982e12a69ca08ff4a8ced5f5587239e09a8de395e3bd30e": [
+      4,
+      8,
+      23
+    ],
+    "074c2ab5bac43f9343ced82979c53cf532ac5c9facd824a7536d4d484fbec19e": [
+      4,
+      8,
+      20
+    ],
+    "0a3ffc014e8095ba4341dec3b9e3bdccd0a0042040c75605d2f599d8ac6ae417": [
+      4,
+      8,
+      16
+    ],
+    "0a79503e5963ca8ffbe73d9a7fde2b4fa2c94adcd997f0d692a0b5d9133ef5d7": [
+      4,
+      8,
+      14
+    ],
+    "0c4e86f6f7af136cbd9f37e0b59dd25cb7cc5ffe0984f52810b3acc93f871875": [
+      4,
+      8,
+      38
+    ],
+    "0d4ca6e4ce050c48cc67faee86372d9f66c69f9fc8852ce9a506d2e4c94c4849": [
+      4,
+      8,
+      30
+    ],
+    "0f4d12940e9896f4a1985e0d8f27afdce76fa8ed7f324511bb8dbf680819aad6": [
+      4,
+      8,
+      10
+    ],
+    "100bec0a3c1f091c714869d25651f80273f4905d86fe73d8c98b5612cf0165d1": [
+      4,
+      8,
+      10
+    ]
+  },
+  "probe_answers": 72,
+  "input_hashes": {
+    "requests.json": "768fdd266657e7eefaa50d8289d76855af998b9a12cbe6eb35fe3a83688728bd",
+    "media.json": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2",
+    "scoring_ONLY.json": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de",
+    "expected_predictions.json": "cac37ea59724424e8de5bee299462447638e7e7c59be815296e21ba1ea17d53b",
+    "source_lock.json": "02e2d60f0abed22b3b4f94bb7b199b9fb84db2ddda358d44526e992e84563bd5"
+  }
+}

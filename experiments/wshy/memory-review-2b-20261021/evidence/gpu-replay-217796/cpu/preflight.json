@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "protocol_sha256": "b0bffa554a577bdb4a23955e2243806ea566617a48de6deef65c81622526120c",
+  "inherited_receipt_sha256": "8e012e68835df143162bd3fea89a6952ed031f449a152ffb5cbbede6bf5813dd",
+  "inherited_log_sha256": "2d55caf68d08bac864212d4f21a14b5e9f83c010d576a84a2b597c406a649d14",
+  "inherited_tests": 208,
+  "inherited_tests_discovered": 209,
+  "inherited_tests_skipped": 1,
+  "inherited_platform_skips": [
+    {
+      "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+      "reason": "Windows owner-handle guard",
+      "classification": "not_applicable_on_linux"
+    }
+  ],
+  "contract_tests": 28,
+  "contracts_log_sha256": "650e83e4e243414f148f3925faafb7e62daa883eaab38a8a00446e02363c6ab0",
+  "source_lock_sha256": "f7771e3a674ded8112bc6c65d2f1b10296d44dca47a8adba65b928b9fb28ce1e",
+  "model_manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525",
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "source_frames_checked": 2766,
+  "source_pairs_checked": 1402,
+  "suffix_questions_checked": 171,
+  "max_suffix_tokens": 78,
+  "tiny_answers": [
+    {
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "pretrained_loads": 0,
+  "media_files_checked": 67
+}

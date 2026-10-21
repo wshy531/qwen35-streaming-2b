@@ -1,0 +1,33 @@
+test_decoder_yields_before_next_pair_and_never_reads_after_prefix (test_contracts.InputContracts.test_decoder_yields_before_next_pair_and_never_reads_after_prefix) ... ok
+test_paths_refuse_escape_and_cross_platform_paths (test_contracts.InputContracts.test_paths_refuse_escape_and_cross_platform_paths) ... ok
+test_requests_reject_future_duplicate_and_labels (test_contracts.InputContracts.test_requests_reject_future_duplicate_and_labels) ... ok
+test_2b_width_and_m2_boundary_replay (test_contracts.SessionContracts.test_2b_width_and_m2_boundary_replay) ... ok
+test_ask_isolation_and_continuation_match_never_asked (test_contracts.SessionContracts.test_ask_isolation_and_continuation_match_never_asked) ... ok
+test_exact_frozen_policy_replay_at_many_prefixes (test_contracts.SessionContracts.test_exact_frozen_policy_replay_at_many_prefixes) ... ok
+test_export_cannot_alias_persistent_storage (test_contracts.SessionContracts.test_export_cannot_alias_persistent_storage) ... ok
+test_invalid_append_is_atomic (test_contracts.SessionContracts.test_invalid_append_is_atomic) ... ok
+test_long_sequences_remain_bounded_without_hidden_feature_history (test_contracts.SessionContracts.test_long_sequences_remain_bounded_without_hidden_feature_history) ... ok
+test_nonfinite_and_overlapping_timestamps_rejected (test_contracts.SessionContracts.test_nonfinite_and_overlapping_timestamps_rejected) ... ok
+test_odd_tail_is_terminal_until_reset (test_contracts.SessionContracts.test_odd_tail_is_terminal_until_reset) ... ok
+test_persistent_bank_mutation_invalidates_session (test_contracts.SessionContracts.test_persistent_bank_mutation_invalidates_session) ... ok
+test_question_cannot_silently_change_reservoir_rng (test_contracts.SessionContracts.test_question_cannot_silently_change_reservoir_rng) ... ok
+test_readout_exception_preserves_bank (test_contracts.SessionContracts.test_readout_exception_preserves_bank) ... ok
+test_readout_input_mutation_detected_and_bank_preserved (test_contracts.SessionContracts.test_readout_input_mutation_detected_and_bank_preserved) ... ok
+test_reservoir_replays_fixed_seed_and_recent_pairs (test_contracts.SessionContracts.test_reservoir_replays_fixed_seed_and_recent_pairs) ... ok
+test_reset_and_close_release_all_policy_state (test_contracts.SessionContracts.test_reset_and_close_release_all_policy_state) ... ok
+test_cache_configuration_overrides_external_defaults (test_safety.DeploymentContracts.test_cache_configuration_overrides_external_defaults) ... ok
+test_containment_rejects_root_and_relative_parent_escape (test_safety.DeploymentContracts.test_containment_rejects_root_and_relative_parent_escape) ... ok
+test_existing_symlink_cannot_redirect_output_outside_boundary (test_safety.DeploymentContracts.test_existing_symlink_cannot_redirect_output_outside_boundary) ... ok
+test_output_refuses_parent_escape_before_creating_any_file (test_safety.DeploymentContracts.test_output_refuses_parent_escape_before_creating_any_file) ... ok
+test_fresh_readout_can_leave_rng_and_position_unchanged (test_safety.ReadoutStateContracts.test_fresh_readout_can_leave_rng_and_position_unchanged) ... ok
+test_readout_position_mutation_is_rejected (test_safety.ReadoutStateContracts.test_readout_position_mutation_is_rejected) ... ok
+test_readout_rng_mutation_is_rejected (test_safety.ReadoutStateContracts.test_readout_rng_mutation_is_rejected) ... ok
+test_all_four_successful_suites_are_required (test_safety.RegressionReceiptContracts.test_all_four_successful_suites_are_required) ... ok
+test_modified_log_cannot_reuse_a_successful_receipt (test_safety.RegressionReceiptContracts.test_modified_log_cannot_reuse_a_successful_receipt) ... ok
+test_receipt_cannot_be_reused_after_source_drift (test_safety.RegressionReceiptContracts.test_receipt_cannot_be_reused_after_source_drift) ... ok
+test_receipt_totals_are_checked_even_if_its_hash_is_recomputed (test_safety.RegressionReceiptContracts.test_receipt_totals_are_checked_even_if_its_hash_is_recomputed) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 15.173s
+
+OK

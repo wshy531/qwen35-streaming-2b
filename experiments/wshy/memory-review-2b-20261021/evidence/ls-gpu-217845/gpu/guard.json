@@ -1,0 +1,8 @@
+{
+  "free_GPU_bytes": 84654620672,
+  "free_RAM_bytes": 944691617792,
+  "job": "217845",
+  "gpu": "NVIDIA A800-SXM4-80GB",
+  "protocol_sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811",
+  "preflight_sha256": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7"
+}

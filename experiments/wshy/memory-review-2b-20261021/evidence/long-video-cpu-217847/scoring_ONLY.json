@@ -1,0 +1,499 @@
+[
+  {
+    "id": "ovo:66",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "At refrigerator versus inside refrigerator overlap; placement completion is also near query.",
+    "limitations": "Keep original alternatives; no scoring repair.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:67",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      330,
+      331
+    ],
+    "reason": "Long wrap carton is on the refrigerator door shelf before retrieval.",
+    "limitations": "Retrieval occurs later; location itself is visible before committed cutoff.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:68",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      273,
+      274,
+      275
+    ],
+    "reason": "Red round floor cushion visible in furnished living area beyond kitchen.",
+    "limitations": "Room category uses visible context, not full floorplan knowledge.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:69",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      273,
+      275,
+      277
+    ],
+    "reason": "The onion is held within and removed from the clear bag.",
+    "limitations": "Same event as131, correlated question rather than independent event.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:70",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Specific spatula pickup/location not established in viewed prefix pages.",
+    "limitations": "Do not infer cabinet source from generic kitchen layout.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:71",
+    "label_index": 3,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Multiple transfers visible; exactly four scoops not independently established by this review.",
+    "limitations": "Do not rewrite official count or infer it from the answer.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:72",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      405,
+      408
+    ],
+    "reason": "Pink towel used on hands near sink before411s.",
+    "limitations": "Near-query evidence; not long-memory necessity.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:73",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      318,
+      322,
+      325
+    ],
+    "reason": "Drawer opens and a dark serving spoon is taken and used on food.",
+    "limitations": "Spoon remains in kitchen context later; witness age is not necessity.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:102",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      339,
+      340,
+      341
+    ],
+    "reason": "Metal shopping cart is adjacent to Duracell battery display.",
+    "limitations": "Direct recent evidence despite a query after5min.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:103",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      395,
+      430
+    ],
+    "reason": "Blue shopping basket visible while moving through store.",
+    "limitations": "Basket is repeatedly visible, not necessary early memory.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:104",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Toy-rack and shelf options overlap; exact alien-box identity unresolved at input resolution.",
+    "limitations": "No label correction or model-conditioned exclusion.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:105",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Shelf versus toy-rack distinction and exact robot identity not sufficiently established.",
+    "limitations": "Closely related location options retained.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:106",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Floor and ground options overlap for the container placement.",
+    "limitations": "Physical position can be seen but unique MC answer is ambiguous.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:107",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Repeated mortar scooping; exact five count not independently verified here.",
+    "limitations": "Requires separate count audit, not declared official-label error.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:108",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      200,
+      300,
+      320
+    ],
+    "reason": "Grey mortar/cement is transferred from bucket during panel plastering.",
+    "limitations": "Material inferred with construction context; repeats near query.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:109",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Exact scraper source versus adjacent cabinet/workbench not resolved.",
+    "limitations": "No automatic cabinet answer from room context.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:130",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Discarded package/food identity cannot be verified as beef sauce at current canvas.",
+    "limitations": "Do not claim incorrect official annotation.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:131",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      273,
+      275,
+      277
+    ],
+    "reason": "Onion is removed from clear plastic bag.",
+    "limitations": "Direct recent transition.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:132",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      371,
+      372,
+      373
+    ],
+    "reason": "Onion is carried into the open fridge/door-shelf area.",
+    "limitations": "Release appears later; only object entering the fridge is claimed.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:133",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "not_established_at_committed_cutoff",
+    "declared_witness_times": [],
+    "reason": "Pan lid retrieval becomes clear around472-473s, while paired observation at query472 ends471s.",
+    "limitations": "Do not use future frames or shift original query; report pairing/timing limitation.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:144",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      125,
+      130
+    ],
+    "reason": "Nearby sedan in parking area is white.",
+    "limitations": "Several white vehicles occur; target follows local query context.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:145",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      192,
+      193
+    ],
+    "reason": "Blue trash bins are beside entrance doors.",
+    "limitations": "Committed cutoff193s; pending194s frame is not used.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:146",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      208,
+      209,
+      210
+    ],
+    "reason": "Wearer looks down and black upper clothing is visible.",
+    "limitations": "Direct near-query view.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:147",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Beside trashcan and beside dustbin are synonymous options.",
+    "limitations": "Duplicate semantic answers retained, not forced into strict unique choice.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:180",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "ambiguous",
+    "declared_witness_times": [],
+    "reason": "Drawer is visible but exact blue screwdriver identity is unresolved at59s.",
+    "limitations": "Location plausibility alone is insufficient.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:181",
+    "label_index": 0,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      241,
+      242,
+      243
+    ],
+    "reason": "Black basin is lowered onto blue drum and released.",
+    "limitations": "Near-query placement, not old evidence.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:182",
+    "label_index": 1,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      357,
+      358,
+      359
+    ],
+    "reason": "Metal tool is accessed from opened tool drawer before moving to mower.",
+    "limitations": "Fine tool name not separately certified; drawer location is visible.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "ovo:183",
+    "label_index": 2,
+    "label_origin": "exactly_matched_official_metadata",
+    "declared_admission": "supported",
+    "declared_witness_times": [
+      408,
+      409,
+      410
+    ],
+    "reason": "Wrench is selected among wrenches in the open drawer.",
+    "limitations": "Current/very recent evidence.",
+    "admission_provenance": "literal_declaration_in_record_review.py; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:01",
+    "label_index": 2,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      206,
+      209,
+      211,
+      226,
+      228
+    ],
+    "reason": "Wrap taken from upper cupboard and used before refrigerator opens.",
+    "limitations": "Two earlier transitions; all overview pages seen, but necessity still needs intervention.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "label_index": 0,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      45,
+      50,
+      339,
+      341
+    ],
+    "reason": "Toy inspection precedes the later battery-display/cart scene.",
+    "limitations": "Box identity is generic, not the ambiguous alien/robot label.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "label_index": 3,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      20,
+      115,
+      200
+    ],
+    "reason": "Orange mixer work precedes blue-bucket handling and subsequent panel application.",
+    "limitations": "Tool/workflow context could help guessing; keep text-only control and do not claim necessity.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "label_index": 1,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      20,
+      48,
+      54,
+      60,
+      70
+    ],
+    "reason": "Yellow pepper strips precede green pepper strips; cabbage is later.",
+    "limitations": "Vegetables remain visible later, but their order requires earlier sequence evidence.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "label_index": 0,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      60,
+      62,
+      65,
+      70
+    ],
+    "reason": "Red cloth is taken from drawer and used before the later blue cloth.",
+    "limitations": "Scene has many red objects; answer dependence must be checked, not inferred from gap.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "label_index": 2,
+    "label_origin": "single_assistant_manual_source_declaration",
+    "declared_admission": "manual_single_reviewer_candidate",
+    "declared_witness_times": [
+      4,
+      5,
+      7
+    ],
+    "reason": "Red fire hydrant is next to the pedestrian-crossing pole before entering the store.",
+    "limitations": "Small object at this canvas; cross-source reuse and text priors need controls.",
+    "admission_provenance": "literal_declaration; original_ledger_missing",
+    "independent_review": "pending",
+    "confirmed_accuracy_eligible": false
+  }
+]

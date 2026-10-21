@@ -1,0 +1,8 @@
+test_image_and_video_logits (test_local_model.LocalModelTests.test_image_and_video_logits) ... ok
+test_local_modules_and_checkpoint_roundtrip (test_local_model.LocalModelTests.test_local_modules_and_checkpoint_roundtrip) ... ok
+test_text_logits_and_incremental_cache (test_local_model.LocalModelTests.test_text_logits_and_incremental_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.573s
+
+OK

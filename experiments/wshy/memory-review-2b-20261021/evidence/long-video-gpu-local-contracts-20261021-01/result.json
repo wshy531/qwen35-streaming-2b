@@ -1,0 +1,26 @@
+{
+  "status": "local_GPU_extension_contracts_only",
+  "success": true,
+  "discovered": 20,
+  "passed": 20,
+  "failures": [],
+  "errors": [],
+  "skips": [],
+  "CPU217847_source_unchanged": true,
+  "CPU217847_locked_files": 141,
+  "drift": [],
+  "extension_sha256": {
+    "experiments/wshy/long_video_gpu_2b/__init__.py": "c3a67bfe9fc956afe716adfbbb0bed19953911dc699da188d4c695ee6f7c73de",
+    "experiments/wshy/long_video_gpu_2b/gates.py": "2692bb261d30a1dd3fa6d51a7a63b89957b9e136d443c8d828e00869d3c8355d",
+    "experiments/wshy/long_video_gpu_2b/scoring.py": "764d4d5a10614dec761a088948a1b94bd43b0ec9703edd1e413663f5430bd200",
+    "experiments/wshy/long_video_gpu_2b/tests/test_gpu_contracts.py": "2f0e5a9321b0b0d10a96f8893451531fc11929cd09030ce425f2a45c210a2656",
+    "experiments/wshy/long_video_gpu_2b/worker.py": "9c28fd143a70bcd1aaf82ff72c5f9fe8c2796400f6e7bf614f00cd7fc9e8ff7b",
+    "scripts/run_2b_long_video_gpu.py": "3030e6d8961274a482a19886161ce4c8e94502d5fa7695bddbc2fcd7722b4952"
+  },
+  "CPU_proof_automatically_extended": false,
+  "weight_loads": 0,
+  "GPU_executions": 0,
+  "cluster_connections": 0,
+  "submitted_jobs": 0,
+  "scope": "budget, proof binding, query identity and frozen scoring using fixtures; no model capability"
+}

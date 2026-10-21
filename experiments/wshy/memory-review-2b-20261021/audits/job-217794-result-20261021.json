@@ -1,0 +1,83 @@
+{
+  "job_id": 217794,
+  "status": "CPU_preflight_passed",
+  "slurm_state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed": "00:03:25",
+  "actual_allocation": {
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPU_execution": false
+  },
+  "inherited": {
+    "discovered": 209,
+    "passed": 208,
+    "platform_not_applicable": [
+      {
+        "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+        "reason": "Windows owner-handle guard",
+        "classification": "not_applicable_on_linux"
+      }
+    ]
+  },
+  "online_contracts_passed": 28,
+  "audit_contracts_passed": 8,
+  "sources_RGB_PTS_checked": 67,
+  "real_sampled_frames": 2766,
+  "frame_pairs": 1402,
+  "full_questions_checked": 171,
+  "max_suffix_tokens": 78,
+  "tiny_random_QA": [
+    {
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "real_pretrained_loads": 0,
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "verified_input_hashes": true,
+  "local_source_matches_execution": true,
+  "preflight_sha256": "82245da1cb685f7b4e9e1772be500458ad12da1e04decbf6d3a81d3d3f05cc28",
+  "collected_file_sha256": {
+    "expected_predictions.json": "cac37ea59724424e8de5bee299462447638e7e7c59be815296e21ba1ea17d53b",
+    "media.json": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2",
+    "protocol.json": "b0bffa554a577bdb4a23955e2243806ea566617a48de6deef65c81622526120c",
+    "requests.json": "768fdd266657e7eefaa50d8289d76855af998b9a12cbe6eb35fe3a83688728bd",
+    "scoring_ONLY.json": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de",
+    "source_lock.json": "f7771e3a674ded8112bc6c65d2f1b10296d44dca47a8adba65b928b9fb28ce1e",
+    "cpu/contracts.txt": "650e83e4e243414f148f3925faafb7e62daa883eaab38a8a00446e02363c6ab0",
+    "cpu/inherited.json": "8e012e68835df143162bd3fea89a6952ed031f449a152ffb5cbbede6bf5813dd",
+    "cpu/inherited.txt": "2d55caf68d08bac864212d4f21a14b5e9f83c010d576a84a2b597c406a649d14",
+    "cpu/long_stream_audit_contracts.txt": "1ac5914252570553c902c92c2cfa7d37cd43404095619549a0da3ce8cd1a5624",
+    "cpu/preflight.json": "82245da1cb685f7b4e9e1772be500458ad12da1e04decbf6d3a81d3d3f05cc28"
+  },
+  "prior_failed_jobs_preserved": [
+    217790,
+    217792
+  ],
+  "real_model_GPU_replay_executed": false,
+  "ability_improvement_established": false
+}
