@@ -1,0 +1,13 @@
+test_human_review_queue_excludes_predictions_and_original_labels (test_audit.AuditContracts.test_human_review_queue_excludes_predictions_and_original_labels) ... ok
+test_incomplete_or_mismatched_baseline_replay_is_rejected (test_audit.AuditContracts.test_incomplete_or_mismatched_baseline_replay_is_rejected) ... ok
+test_invalid_and_duplicate_labels_are_rejected (test_audit.AuditContracts.test_invalid_and_duplicate_labels_are_rejected) ... ok
+test_label_requires_matching_request_identity (test_audit.AuditContracts.test_label_requires_matching_request_identity) ... ok
+test_missing_pair_is_rejected (test_audit.AuditContracts.test_missing_pair_is_rejected) ... ok
+test_strict_and_leading_choice_are_kept_separate (test_audit.AuditContracts.test_strict_and_leading_choice_are_kept_separate) ... ok
+test_token_budget_violation_and_duplicate_question_are_rejected (test_audit.AuditContracts.test_token_budget_violation_and_duplicate_question_are_rejected) ... ok
+test_unknown_truth_and_unparseable_answer_are_not_counted_as_correct (test_audit.AuditContracts.test_unknown_truth_and_unparseable_answer_are_not_counted_as_correct) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.008s
+
+OK

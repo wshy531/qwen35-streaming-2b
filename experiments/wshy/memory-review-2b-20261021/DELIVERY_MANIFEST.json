@@ -1,0 +1,890 @@
+{
+  "schema": "wshy-memory-publication-v1",
+  "files": {
+    "experiments/36tar/streaming-learning/code/qwen35-streaming/tests/test_local_model.py": {
+      "bytes": 4674,
+      "sha256": "64a51fc76954b2c29809a0a01ca137da8282eccb61c9ec51b537b5445636bd68"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_local_model.py": {
+      "bytes": 4674,
+      "sha256": "64a51fc76954b2c29809a0a01ca137da8282eccb61c9ec51b537b5445636bd68"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_recurrent_reference.py": {
+      "bytes": 2197,
+      "sha256": "f33eba85bd638b3493a14d227b6c0aeb145b3bf080e614ce9acd3ec101516eb3"
+    },
+    "experiments/36tar/streaming-learning/实验总纲.md": {
+      "bytes": 337358,
+      "sha256": "36b964657f1c6f235a1ddd6a72a8ff97b86f3bbd26e23b841575f9c643a57a5c"
+    },
+    "experiments/wshy/.gitattributes": {
+      "bytes": 29,
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d"
+    },
+    "experiments/wshy/long_stream_audit/__init__.py": {
+      "bytes": 74,
+      "sha256": "59f51ed1871d44ccda8322b79036da4667ee5aa39bae7d247810369094608d01"
+    },
+    "experiments/wshy/long_stream_audit/audit.py": {
+      "bytes": 9819,
+      "sha256": "99d25c1b0f86e3f99b779d52713709c59d011c102e7ee62b0dd3ba3abac531dc"
+    },
+    "experiments/wshy/long_stream_audit/README.md": {
+      "bytes": 1310,
+      "sha256": "bb65d3d23558a4a57f87dd7375e15a7e92201c7c0bc135b999d0a8831b4b24f7"
+    },
+    "experiments/wshy/long_stream_audit/tests/test_audit.py": {
+      "bytes": 5213,
+      "sha256": "993620925d7c53d7a3f2269fac27bba365fec6f72b5294a5726017a2b853cf3e"
+    },
+    "experiments/wshy/long_video_2b/__init__.py": {
+      "bytes": 75,
+      "sha256": "a752aaa96a6409144101a114f55bf9de8da21e3a3d9aa07710ae4daf02b6fb9b"
+    },
+    "experiments/wshy/long_video_2b/driver.py": {
+      "bytes": 3232,
+      "sha256": "b454ef4bd4451a7c716d9c3e2397ed850aca195a7f16418b78b2d27a71ad481f"
+    },
+    "experiments/wshy/long_video_2b/protocol.py": {
+      "bytes": 4474,
+      "sha256": "4f2a1467054b79164366ddb849421d7b72fef09701858bcec2ceb6f0c007d6ec"
+    },
+    "experiments/wshy/long_video_2b/README.md": {
+      "bytes": 1839,
+      "sha256": "0838813d1910c021a4e3c9f19e28d4e316256d099a008c961cadce4b05fde057"
+    },
+    "experiments/wshy/long_video_2b/runner.py": {
+      "bytes": 11934,
+      "sha256": "74cc3b8c89457f97478e51fe9a0fff45c2b45be2f2dbf7f1f265293e6cd92c92"
+    },
+    "experiments/wshy/long_video_2b/scheduler.py": {
+      "bytes": 6562,
+      "sha256": "36fec8c12c393c0a5d7efb2c1c1a3def4b5f8dfff4d25d1c42b6c25533363318"
+    },
+    "experiments/wshy/long_video_2b/tests/test_continuous.py": {
+      "bytes": 16430,
+      "sha256": "a8bcaea7d10f36ae15acd8d0bfa3ae162d308f63b5008fe796c1234fc4a16fd8"
+    },
+    "experiments/wshy/long_video_gpu_2b/__init__.py": {
+      "bytes": 87,
+      "sha256": "c3a67bfe9fc956afe716adfbbb0bed19953911dc699da188d4c695ee6f7c73de"
+    },
+    "experiments/wshy/long_video_gpu_2b/gates.py": {
+      "bytes": 5470,
+      "sha256": "6119067f20c93757180e2695be4062bcaf243dc552370e3c9667678cfaa43a48"
+    },
+    "experiments/wshy/long_video_gpu_2b/README.md": {
+      "bytes": 1502,
+      "sha256": "eba21427d64f292b014465507d164cb6f51db36aa84bcb3b79aa41c2b8f43ab5"
+    },
+    "experiments/wshy/long_video_gpu_2b/scoring.py": {
+      "bytes": 6932,
+      "sha256": "764d4d5a10614dec761a088948a1b94bd43b0ec9703edd1e413663f5430bd200"
+    },
+    "experiments/wshy/long_video_gpu_2b/tests/test_gpu_contracts.py": {
+      "bytes": 18874,
+      "sha256": "7ddef7a83845bc45e090d5722db28108926d325ebab318f6d4db7b297a26a246"
+    },
+    "experiments/wshy/long_video_gpu_2b/worker.py": {
+      "bytes": 10735,
+      "sha256": "9c28fd143a70bcd1aaf82ff72c5f9fe8c2796400f6e7bf614f00cd7fc9e8ff7b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/.gitignore": {
+      "bytes": 7,
+      "sha256": "e027cf8ebf80d6dcdacced8a4dbd1c440e2436fb1868ec851db4061cb67bb787"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217790-result-20261021.json": {
+      "bytes": 1142,
+      "sha256": "ea4a97a23f793921c1168aa403a5c0388ce78feb08d250c37ee80f757fb9e926"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217792-result-20261021.json": {
+      "bytes": 888,
+      "sha256": "f387e1b6ceebc53a1b3b117d9aee7959677d87346c440bd32439c5a929c7ae2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217794-result-20261021.json": {
+      "bytes": 2833,
+      "sha256": "221aeb8a071fb99738feac8116968ad51c76ae6aa4b5c2675d0404f8b508c945"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217796-result-20261021.json": {
+      "bytes": 3754,
+      "sha256": "7e725ba4d5d33cfdaa8e7318f0948363039ae4336420894e2e362c337f9c0545"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217843-LS-CPU-result-20261021.json": {
+      "bytes": 3512,
+      "sha256": "f0ec92da26b0517dab72565d99d4955f467d6606b24d78608d3346b605c39002"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217845-LS-GPU-result-20261021.json": {
+      "bytes": 74715,
+      "sha256": "2c8b87412dc4c828e5ddc5cc2db3d46c9bada6a52892e45cc25c1021e15710b6"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217845-LS-tradeoffs-20261021.json": {
+      "bytes": 72089,
+      "sha256": "bf775d57ff36641dac77bd084e5fff29da68f918e045211bbca09765954af92b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217847-long-video-CPU-result-20261021.json": {
+      "bytes": 4457,
+      "sha256": "813f07266c321685561e035595552cd61f73b412103a978b079c23e5c962b10a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217852-long-video-GPU-result-20261021.json.gz": {
+      "bytes": 14095,
+      "sha256": "528a72dd2143c5b1eddb3dd173a0d90fbf611cf0558467d28a235156adb1c675"
+    },
+    "experiments/wshy/memory-review-2b-20261021/audits/job-217852-long-video-structure-20261021.json": {
+      "bytes": 25376,
+      "sha256": "ddc3f7729cb82acaa39155b6829c99dd5e313d4659e226dedde2d27f7541083e"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/cpu/inherited.txt": {
+      "bytes": 2477,
+      "sha256": "461ade33d5fa5803bcb3d43a3de0550528aba19ae05cf01daabd2e3797a0659d"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/preflight_failure.json": {
+      "bytes": 612,
+      "sha256": "dd21d61e5b7deb31db2e36e25bc5e13198d1ad7d6719f91700eef867a695e7e5"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/protocol.json": {
+      "bytes": 3011,
+      "sha256": "3d99b540342ab780b01714416dfefea44d570c433771cc4bc8b9d85fd4e048b5"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217790/source_lock.json": {
+      "bytes": 19634,
+      "sha256": "02e2d60f0abed22b3b4f94bb7b199b9fb84db2ddda358d44526e992e84563bd5"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/cpu/inherited.txt": {
+      "bytes": 36799,
+      "sha256": "92cf09c914fb3cd6c3f4d3511656b02d96f9e17da27217aadcc454bb3fa73544"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/preflight_failure.json": {
+      "bytes": 853,
+      "sha256": "e896b069301a2144551a3068e0fbd4449bccce1fdaa00284f30b19509485321b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/protocol.json": {
+      "bytes": 3324,
+      "sha256": "aa392efe0464064bfe7e427f6135d13686e461400cd071559fe86f2c850b229f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217792/source_lock.json": {
+      "bytes": 19634,
+      "sha256": "650b5566d24a327c4495ea2ca65a2e86e4ab095dc90b1d60e41dfab9ea2bf384"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/cpu/contracts.txt": {
+      "bytes": 4082,
+      "sha256": "650e83e4e243414f148f3925faafb7e62daa883eaab38a8a00446e02363c6ab0"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/cpu/inherited.json": {
+      "bytes": 553,
+      "sha256": "8e012e68835df143162bd3fea89a6952ed031f449a152ffb5cbbede6bf5813dd"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/cpu/inherited.txt": {
+      "bytes": 36800,
+      "sha256": "2d55caf68d08bac864212d4f21a14b5e9f83c010d576a84a2b597c406a649d14"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/cpu/long_stream_audit_contracts.txt": {
+      "bytes": 1234,
+      "sha256": "1ac5914252570553c902c92c2cfa7d37cd43404095619549a0da3ce8cd1a5624"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/cpu/preflight.json": {
+      "bytes": 1644,
+      "sha256": "82245da1cb685f7b4e9e1772be500458ad12da1e04decbf6d3a81d3d3f05cc28"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/protocol.json": {
+      "bytes": 3321,
+      "sha256": "b0bffa554a577bdb4a23955e2243806ea566617a48de6deef65c81622526120c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/cpu-release-217794/source_lock.json": {
+      "bytes": 19634,
+      "sha256": "f7771e3a674ded8112bc6c65d2f1b10296d44dca47a8adba65b928b9fb28ce1e"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/cpu/contracts.txt": {
+      "bytes": 4082,
+      "sha256": "650e83e4e243414f148f3925faafb7e62daa883eaab38a8a00446e02363c6ab0"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/cpu/inherited.json": {
+      "bytes": 553,
+      "sha256": "8e012e68835df143162bd3fea89a6952ed031f449a152ffb5cbbede6bf5813dd"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/cpu/inherited.txt": {
+      "bytes": 36800,
+      "sha256": "2d55caf68d08bac864212d4f21a14b5e9f83c010d576a84a2b597c406a649d14"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/cpu/long_stream_audit_contracts.txt": {
+      "bytes": 1234,
+      "sha256": "1ac5914252570553c902c92c2cfa7d37cd43404095619549a0da3ce8cd1a5624"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/cpu/preflight.json": {
+      "bytes": 1644,
+      "sha256": "82245da1cb685f7b4e9e1772be500458ad12da1e04decbf6d3a81d3d3f05cc28"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/completed.json": {
+      "bytes": 1110,
+      "sha256": "94950f4f926721e95774ef6cf0b997cbd1e295b38da6b03d6a037e930daad011"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/events.jsonl.gz": {
+      "bytes": 436879,
+      "sha256": "87d24c50a1b6561a7216400d2a99a39a1e42b8f994bef91a24cd2ed37e17474a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/guard.json": {
+      "bytes": 302,
+      "sha256": "bd0f481a8887973e690093e96bb4b2dc9c9a2ade52749b47293207d0014066d6"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/load_started.json": {
+      "bytes": 36,
+      "sha256": "4ba43eabb14c3fddae98ea5b5d0dc6bf36537ecbaf1ec89aac9d031a9ac5e2b2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/loaded.json": {
+      "bytes": 61,
+      "sha256": "f303f1ce9a22c16d4009eaa2e707555f0381d5e82abf4cc66e72f87eb907d935"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/predictions.jsonl.gz": {
+      "bytes": 73425,
+      "sha256": "7637caf54136faeaf8a389b4a4e5d7dcd158a94a4a5e2dfe219d7138b901216b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/gpu/probes.jsonl.gz": {
+      "bytes": 9292,
+      "sha256": "56541c1fc26b1c4d1adc55efbf34d3c8a602658503312afdee9d6f9c50940884"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/protocol.json": {
+      "bytes": 3321,
+      "sha256": "b0bffa554a577bdb4a23955e2243806ea566617a48de6deef65c81622526120c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/score/details.json.gz": {
+      "bytes": 5063,
+      "sha256": "b1a02b37000a283448132a2740fc2102c064b3e264b58e58dc4838abab6c422c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/score/review_without_predictions.json.gz": {
+      "bytes": 154392,
+      "sha256": "4b0533a219a9c2de1feca6e350fa09336f379317fba55e8890959f861e71ff58"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/score/summary.json": {
+      "bytes": 10699,
+      "sha256": "cb044a201de9ffd1494280b80d927af3b7750b883108ca2a333814cf01da4d39"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/gpu-replay-217796/source_lock.json": {
+      "bytes": 19634,
+      "sha256": "f7771e3a674ded8112bc6c65d2f1b10296d44dca47a8adba65b928b9fb28ce1e"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/actual_query_checks.json": {
+      "bytes": 9536,
+      "sha256": "b438c4b209324ce1b2da3ae847276bb945b6e120d952ce83ff10562fcdb2fd78"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/inherited.txt": {
+      "bytes": 36816,
+      "sha256": "7cd64a8f574a92d6adf9b0a61fca8ed6d6ece2bc71939585bc96956ee3912a85"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/long_stream_audit_tests.txt": {
+      "bytes": 1234,
+      "sha256": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/long_video_2b_tests.txt": {
+      "bytes": 4402,
+      "sha256": "80ea52d200cd2cec7af3c1663372a01b2a306783a38608b62123698b1b5b1272"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/online_memory_2b_tests.txt": {
+      "bytes": 4082,
+      "sha256": "9ab34c81e9915130cd435b52405d05510d5277d28c2427b0ffe9d1f4a85f6ce4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/online_memory_2b_tests_a06.txt": {
+      "bytes": 2262,
+      "sha256": "a1ab7ab46b2a11fc32f8a909f84cda1be61c258217edfd239a5db677107b5b79"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/online_memory_2b_tests_ls.txt": {
+      "bytes": 3999,
+      "sha256": "449c6d79cc8735e691058b71944511b5e8ba163471138fe7c0835a00dee05876"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/cpu/preflight.json": {
+      "bytes": 3587,
+      "sha256": "99f8f388252f32e8316baed93461ce910699d879084cfccc343939ccba388b40"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/job_logs/long-video-cpu-20261021-01-217847.err": {
+      "bytes": 251,
+      "sha256": "f9a08ad390c7686f0e21f4cac08e967111f2a5bbcd0c3ea155fe14b6efdb4eed"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/job_logs/long-video-cpu-20261021-01-217847.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/protocol.json": {
+      "bytes": 2589,
+      "sha256": "8be5247cda450094883b8da2e8fcd8931ce1aedc728a54087fbc43dcc54c4517"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/receipt.json": {
+      "bytes": 1978,
+      "sha256": "e2ff5799bb6358076cbaa3c70c5552df2d88973ffab7986e6c99bcb4d11af321"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/requests.json": {
+      "bytes": 12510,
+      "sha256": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/scoring_ONLY.json": {
+      "bytes": 18781,
+      "sha256": "255067a9da5dd4d83a30a706c9ac4aabb8d52f423e8302aaeb073df0a125672d"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/snapshots.json": {
+      "bytes": 17331,
+      "sha256": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/source_lock.json": {
+      "bytes": 21083,
+      "sha256": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-cpu-217847/sources.json.gz": {
+      "bytes": 134772,
+      "sha256": "c63b842f9e7caf19c1e1259010f1c75ba63e99f03ed346d9553fb421b864894c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/actual_query_checks.json": {
+      "bytes": 9536,
+      "sha256": "b438c4b209324ce1b2da3ae847276bb945b6e120d952ce83ff10562fcdb2fd78"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/inherited.txt": {
+      "bytes": 36816,
+      "sha256": "7cd64a8f574a92d6adf9b0a61fca8ed6d6ece2bc71939585bc96956ee3912a85"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/long_stream_audit_tests.txt": {
+      "bytes": 1234,
+      "sha256": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/long_video_2b_tests.txt": {
+      "bytes": 4402,
+      "sha256": "80ea52d200cd2cec7af3c1663372a01b2a306783a38608b62123698b1b5b1272"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/online_memory_2b_tests.txt": {
+      "bytes": 4082,
+      "sha256": "9ab34c81e9915130cd435b52405d05510d5277d28c2427b0ffe9d1f4a85f6ce4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/online_memory_2b_tests_a06.txt": {
+      "bytes": 2262,
+      "sha256": "a1ab7ab46b2a11fc32f8a909f84cda1be61c258217edfd239a5db677107b5b79"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/online_memory_2b_tests_ls.txt": {
+      "bytes": 3999,
+      "sha256": "449c6d79cc8735e691058b71944511b5e8ba163471138fe7c0835a00dee05876"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/cpu/preflight.json": {
+      "bytes": 3587,
+      "sha256": "99f8f388252f32e8316baed93461ce910699d879084cfccc343939ccba388b40"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/completed.json": {
+      "bytes": 3703,
+      "sha256": "fe6b4bb64a496c714c5caa63be87e447c6717d5a38613b890cf2e47b3493eac8"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/events.jsonl.gz": {
+      "bytes": 686737,
+      "sha256": "9bd71bc962559383a026593697b0c4b1a76130ed4048d9de1a7acaf4f8751ecb"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/extension_contracts.txt": {
+      "bytes": 4005,
+      "sha256": "00e4f07cf19f67ce5500dec844493f9c0b0c3b1530dc5a855780ad375ae3b04d"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/guard.json": {
+      "bytes": 268,
+      "sha256": "0b74b48edbbc3b2f9d18041ca14e903f2aac654f8251e0060535a2499312afac"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/load_started.json": {
+      "bytes": 64,
+      "sha256": "5749eb09bd121c75e8c78df0012a400cc61a1b338c03f11bdee668e5e612f253"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/loaded.json": {
+      "bytes": 61,
+      "sha256": "8c4ad7be21eefa6f5061a3ec84541d0ab0ae12ea69e78aa2c6688a4b341ccd22"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu/predictions.jsonl.gz": {
+      "bytes": 43121,
+      "sha256": "548d794849f4ea90b382a1ed56a101889648e342860750f50bbe922bbe54e3c1"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/gpu_protocol.json": {
+      "bytes": 4005,
+      "sha256": "94b9c2e72075fc0f8dab61621ee234e2b61f86871daf4fddca864a2d5f2748d4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/job_logs/long-video-gpu-20261021-01-217852.err": {
+      "bytes": 706,
+      "sha256": "4fa9ab60e9b9b0a8a08159bc696f4c79c8da25fdd2985fc2ec7456350afbd862"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/job_logs/long-video-gpu-20261021-01-217852.log": {
+      "bytes": 478,
+      "sha256": "25307b35da4877d659308a27a2a7651279d47506a9e1d7be65aca385943b41b4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/protocol.json": {
+      "bytes": 2589,
+      "sha256": "8be5247cda450094883b8da2e8fcd8931ce1aedc728a54087fbc43dcc54c4517"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/receipt.json": {
+      "bytes": 1978,
+      "sha256": "e2ff5799bb6358076cbaa3c70c5552df2d88973ffab7986e6c99bcb4d11af321"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/requests.json": {
+      "bytes": 12510,
+      "sha256": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/score/details.json": {
+      "bytes": 114543,
+      "sha256": "40c91ae01c01a90414e24b42e145bf464e1a08305ed733a7000f64d87eb36939"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/score/review_without_predictions.json": {
+      "bytes": 17914,
+      "sha256": "ab991c7bf58f1c297350167a6eb3d59fadc850c120ef6c4c94dfe690b8cc49df"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/score/summary.json": {
+      "bytes": 51414,
+      "sha256": "431dea86d2d4e3cf76f223ac89ac5a873c7b0b4b034e100f774cffbfb646bbf4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/scoring_ONLY.json": {
+      "bytes": 18781,
+      "sha256": "255067a9da5dd4d83a30a706c9ac4aabb8d52f423e8302aaeb073df0a125672d"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/snapshots.json": {
+      "bytes": 17331,
+      "sha256": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/source_lock.json": {
+      "bytes": 21083,
+      "sha256": "0b71c6f7ed3d9c0f0d4b1ffb92cee8fd1fd8b08cd0df5aa842583014205baddf"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-217852/sources.json.gz": {
+      "bytes": 134772,
+      "sha256": "c63b842f9e7caf19c1e1259010f1c75ba63e99f03ed346d9553fb421b864894c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-01/contracts.txt": {
+      "bytes": 3220,
+      "sha256": "da0ee51dbd3f051e3d2fad8e46208c8885224dd87684507b3a09a275a6ffa22e"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-01/result.json": {
+      "bytes": 1270,
+      "sha256": "533ca2eee4c07eb6ace8507a3f9df2783012712be334300808523bd1d6648abb"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-02/contracts.txt": {
+      "bytes": 4861,
+      "sha256": "3c5765047d48ebab03ddfa7c6c79faa776db3128562db655f8b515de947aed19"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-02/result.json": {
+      "bytes": 2511,
+      "sha256": "c749bdad55e49500750da0805ead39c98b058e924ed50c632e32185f176f577a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-03/contracts.txt": {
+      "bytes": 3555,
+      "sha256": "e471c2b7c21377e520390946c14c60a258f5fe5c498ac02cb50a633383608574"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/long-video-gpu-local-contracts-20261021-03/result.json": {
+      "bytes": 1270,
+      "sha256": "68a5366de69055896f169afd870c86d17e2dd7b60bad7c65e417b9181cdfbd9c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/comparison_contracts.json": {
+      "bytes": 479,
+      "sha256": "171c78abb276d95ee95534ec1b0858823c7b449d8a3d48c89fb4ce40c9ba4284"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/contracts.txt": {
+      "bytes": 4082,
+      "sha256": "94b01a98c4ba62d13aa0bdb6e89022ff49419f52a133e0241e8eb31626c8d0cb"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/inherited.json": {
+      "bytes": 553,
+      "sha256": "19301505b6f56d9020fe4f4b67cfde7b20031f4614f3f9f5006d89e61552dec5"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/inherited.txt": {
+      "bytes": 36816,
+      "sha256": "dbc68444ec7fd5680028f75be69318aeb5bf26f4671dceb65997b7968ceb124f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/long_stream_audit_contracts.txt": {
+      "bytes": 1234,
+      "sha256": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/preflight.json": {
+      "bytes": 1767,
+      "sha256": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/tests_a06.txt": {
+      "bytes": 2262,
+      "sha256": "1f9a1bb1a3985ac98a8fa659a724258ed8dac026ebba1249ed17cdceb5f9e1b1"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/cpu/tests_ls.txt": {
+      "bytes": 3999,
+      "sha256": "4c0f1bc6c97869108833f92cec669b12e3f79822d37bdb6061eef9071394acd4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/job_logs/long-short-cpu-20261021-01-217843.err": {
+      "bytes": 251,
+      "sha256": "f9a08ad390c7686f0e21f4cac08e967111f2a5bbcd0c3ea155fe14b6efdb4eed"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/job_logs/long-short-cpu-20261021-01-217843.log": {
+      "bytes": 156,
+      "sha256": "1c4eb595a7f376d0187e53f9e3d3cc47166615aa30ca11568c8fa919604637e2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/protocol.json": {
+      "bytes": 3384,
+      "sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-cpu-217843/source_lock.json": {
+      "bytes": 20270,
+      "sha256": "d6e817be5cc7ea9a7b2a9a1f5da77edc1c04f1d1979f260b8421ffdea726d83f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/comparison_contracts.json": {
+      "bytes": 479,
+      "sha256": "171c78abb276d95ee95534ec1b0858823c7b449d8a3d48c89fb4ce40c9ba4284"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/contracts.txt": {
+      "bytes": 4082,
+      "sha256": "94b01a98c4ba62d13aa0bdb6e89022ff49419f52a133e0241e8eb31626c8d0cb"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/inherited.json": {
+      "bytes": 553,
+      "sha256": "19301505b6f56d9020fe4f4b67cfde7b20031f4614f3f9f5006d89e61552dec5"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/inherited.txt": {
+      "bytes": 36816,
+      "sha256": "dbc68444ec7fd5680028f75be69318aeb5bf26f4671dceb65997b7968ceb124f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/long_stream_audit_contracts.txt": {
+      "bytes": 1234,
+      "sha256": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/preflight.json": {
+      "bytes": 1767,
+      "sha256": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/tests_a06.txt": {
+      "bytes": 2262,
+      "sha256": "1f9a1bb1a3985ac98a8fa659a724258ed8dac026ebba1249ed17cdceb5f9e1b1"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/cpu/tests_ls.txt": {
+      "bytes": 3999,
+      "sha256": "4c0f1bc6c97869108833f92cec669b12e3f79822d37bdb6061eef9071394acd4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/expected_predictions.json.gz": {
+      "bytes": 79488,
+      "sha256": "b9a8efbdafc87af2a1d6dcf0eb2426208140870218551480fea72c1afb7a3281"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/completed.json": {
+      "bytes": 1406,
+      "sha256": "d59e8a09d132dcef0713cbed3c76021f9dc8236b7a9fa75a8d474ce5cec8d5a6"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/events.jsonl.gz": {
+      "bytes": 664516,
+      "sha256": "dc2c40b2c1957fb9ea2b1960febbd3faf2621edf110d0f719a93aa6c8fa5ffeb"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/guard.json": {
+      "bytes": 302,
+      "sha256": "646467aeb0cbdf5f3d63ed9780a90c9ce4d7dd973f0dc89490e6ec76521c4674"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/load_started.json": {
+      "bytes": 36,
+      "sha256": "4ba43eabb14c3fddae98ea5b5d0dc6bf36537ecbaf1ec89aac9d031a9ac5e2b2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/loaded.json": {
+      "bytes": 60,
+      "sha256": "93b55f19261b5f7584af6dff40c3ad3a21d4dc5ad1bbd7cbec6f074727898f6d"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/predictions.jsonl.gz": {
+      "bytes": 101152,
+      "sha256": "16e0371ed996d639d17234cca44d82b03a6a82075fe5640c6640b8090ad5f2d8"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/gpu/probes.jsonl.gz": {
+      "bytes": 12086,
+      "sha256": "3c23d39f324ccdea4304b6552b3ed89ed9defc662139baf8422461d631b2be6b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/job_logs/long-short-gpu-20261021-01-217845.err": {
+      "bytes": 706,
+      "sha256": "57d5c63d38bbfcea31318f45d8e7ed6a05b687d6e3a21d5f9782478a1a2378a4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/job_logs/long-short-gpu-20261021-01-217845.log": {
+      "bytes": 9557,
+      "sha256": "d0663bdcb482dd0838e6df58e5e5d677ebb75da55707ff01ceb38090ad8562bc"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/media.json": {
+      "bytes": 48175,
+      "sha256": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/protocol.json": {
+      "bytes": 3384,
+      "sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/requests.json.gz": {
+      "bytes": 154752,
+      "sha256": "704bdd47de2a2e5242204e0200ce9af792445326f611c98ae6fe4b922e39da2a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/score/details.json.gz": {
+      "bytes": 6927,
+      "sha256": "bf357a3141cbd1a1bceec61732107cfa782409128b73c39a21a439e2e3178f9b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/score/review_without_predictions.json.gz": {
+      "bytes": 154392,
+      "sha256": "4b0533a219a9c2de1feca6e350fa09336f379317fba55e8890959f861e71ff58"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/score/summary.json": {
+      "bytes": 40898,
+      "sha256": "6aa022a3ab7ca512b50765b9ea9bc397d03248d82cc2cf70e63c9258579a66db"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/scoring_ONLY.json": {
+      "bytes": 99438,
+      "sha256": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de"
+    },
+    "experiments/wshy/memory-review-2b-20261021/evidence/ls-gpu-217845/source_lock.json": {
+      "bytes": 20270,
+      "sha256": "d6e817be5cc7ea9a7b2a9a1f5da77edc1c04f1d1979f260b8421ffdea726d83f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/EVIDENCE_MANIFEST.json": {
+      "bytes": 61645,
+      "sha256": "8aea29d9c6abd0f2b656afe766df2d687fb5cc9c6cfdd185e984a30b4fa3605b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/analyze_long_video_structure.py": {
+      "bytes": 3393,
+      "sha256": "c6c6f5eefa29e775f40a4e29faf4981123058c6e1b33bf5eab6c08dc568a1ea0"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/analyze_ls_gpu.py": {
+      "bytes": 7301,
+      "sha256": "7a908bfd462899494c589e3653feb3ffbf22e10d0483a896611d495faa6924df"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/audit_gpu_replay.py": {
+      "bytes": 10307,
+      "sha256": "34e4e01dea1e96eaf40714333955e7895f50455eaabbd95625d1c546d662f919"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/audit_long_video_cpu.py": {
+      "bytes": 6496,
+      "sha256": "41639f2db2233769ac12a66c17911c4af37fc96427d852af863d487f93d2105b"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/audit_long_video_gpu.py": {
+      "bytes": 18504,
+      "sha256": "8ed94fd8dbfb16c972a5503508cba4fe88f2c3412f2722f176f7b0c1ddfa569e"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/audit_ls_cpu.py": {
+      "bytes": 5219,
+      "sha256": "ca2598fd4e2c2df4ed7343425934c8974855300a0c9bf9057e4efeb107d2088f"
+    },
+    "experiments/wshy/memory-review-2b-20261021/historical_tools/audit_ls_gpu.py": {
+      "bytes": 14937,
+      "sha256": "274e1dc6bf89b6623b2d11b53919eac7d6ae59c618d3b6940026239974d98a47"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/A06.txt": {
+      "bytes": 2283,
+      "sha256": "e8bce063d75341150e35e94c7066f087a39d2bf1283f55a36b31f3b550fdd0f7"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/audit.txt": {
+      "bytes": 1247,
+      "sha256": "a2c5952d8f10e5703f6fab4900d37efd6ce56f5e922697586b7d1285368167bd"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/GPU_extension.txt": {
+      "bytes": 3555,
+      "sha256": "21b4dd55cd80eb597cf4efa6e4e5ac836b63123e708d41366880f95fbf91e4d6"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/long_video.txt": {
+      "bytes": 4433,
+      "sha256": "59c51368daf00e6013ea381a0339434841109ec7493058a06c89136c499fd301"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/LS.txt": {
+      "bytes": 4029,
+      "sha256": "f8f63d0fcf6d04446ec2a6dc0035f7d5f4a11d306aef9b2b003e0c827119d9cf"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/online.txt": {
+      "bytes": 4179,
+      "sha256": "d53526328875522809dfc6bc4fb21c2fa7686104d27db531bbcf326591bd6d8a"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/result.json": {
+      "bytes": 2125,
+      "sha256": "eb0622f02e3fca1233510ff6223c4f68c4bd7cfafb57ddcda8e48efdfc5e6552"
+    },
+    "experiments/wshy/memory-review-2b-20261021/publication/root_model.txt": {
+      "bytes": 454,
+      "sha256": "8098bdcbdd78906ba22eb59d04725fe9b5a03b3b2442dba1a79828df4b037ef4"
+    },
+    "experiments/wshy/memory-review-2b-20261021/PUBLICATION_CONTEXT.json": {
+      "bytes": 472,
+      "sha256": "5496085ac61a50432dff7bda7876abff9ffb4ae7ea7fec9c55193bf8db9406d7"
+    },
+    "experiments/wshy/memory-review-2b-20261021/README.md": {
+      "bytes": 4942,
+      "sha256": "1e7ed6a6569b2d8deb9c79715eaa085c8d2093283a6a5ccec77d6c21cdd34efe"
+    },
+    "experiments/wshy/memory-review-2b-20261021/RESULTS.md": {
+      "bytes": 11314,
+      "sha256": "be839ae365fe62ae24695b1c1336f504880fc008789a278d08c0a605eb0795fa"
+    },
+    "experiments/wshy/memory-review-2b-20261021/SLURM_RECEIPTS.json": {
+      "bytes": 1646,
+      "sha256": "27005a6731b715e40f9894f21f430b0343744d32f22418129f567ec904749ca2"
+    },
+    "experiments/wshy/memory-review-2b-20261021/SOURCE_BINDINGS.json": {
+      "bytes": 766,
+      "sha256": "87241741ecd7083ee11e28505e596cf88da5fb3cfa6a8268a66e076f29c5721c"
+    },
+    "experiments/wshy/memory-review-2b-20261021/verify_delivery.py": {
+      "bytes": 16028,
+      "sha256": "041f7bd2a7e2db24986295e171551052974f5f14b9d10fcda6e580b53f90365b"
+    },
+    "experiments/wshy/online_memory_2b/__init__.py": {
+      "bytes": 84,
+      "sha256": "c8f28a045f01f414cd425157a10e2bf8d46240d5de060eb25366c5a7438b1db2"
+    },
+    "experiments/wshy/online_memory_2b/a06.py": {
+      "bytes": 2221,
+      "sha256": "76745b5188b1bf8488fa7e8bdafaea5c2e9ed8e9383a431fa124c6868a701311"
+    },
+    "experiments/wshy/online_memory_2b/cluster_cpu.sh": {
+      "bytes": 2288,
+      "sha256": "4519d732610e34a20d2e885fce39b441823b60e9a10cf7061d5c9ce456b4f05a"
+    },
+    "experiments/wshy/online_memory_2b/cluster_gpu.sh": {
+      "bytes": 708,
+      "sha256": "9681010860146636dadf17c684938efbd5d1ec3a504eaeb9ddd947b66a1fec74"
+    },
+    "experiments/wshy/online_memory_2b/frozen.py": {
+      "bytes": 2614,
+      "sha256": "0d7e4f16210f0b917edd0a18362a4fe93e069e2d83ebe3612c28a110725bdcbc"
+    },
+    "experiments/wshy/online_memory_2b/isolation.py": {
+      "bytes": 3187,
+      "sha256": "34a0d8373a4efb6c069287ab0afed421a8730b023e512966d5463b4b22d7c433"
+    },
+    "experiments/wshy/online_memory_2b/protocol.py": {
+      "bytes": 11587,
+      "sha256": "a069439e955e62aad41f3b6caa963a16b91a7e14964307862cdbde5c6d04cf45"
+    },
+    "experiments/wshy/online_memory_2b/README.md": {
+      "bytes": 3365,
+      "sha256": "d55c6cba1bdfa351c2d878a702995f1d1833fa60f64ddfa89dd2934b8d070656"
+    },
+    "experiments/wshy/online_memory_2b/receipts.py": {
+      "bytes": 3075,
+      "sha256": "bce417517e59b975bb50d13694844d5a8e5e7fdef332b1e94effcc5b07316e75"
+    },
+    "experiments/wshy/online_memory_2b/runner.py": {
+      "bytes": 29294,
+      "sha256": "29e03a159ada58f65cf589f3cb15078d7503aec321a860102cacffa935ab0659"
+    },
+    "experiments/wshy/online_memory_2b/session.py": {
+      "bytes": 8466,
+      "sha256": "845f7c7aedf0510f21a944b4b80f14e8348d8aa60bb6bd6737170c6a562b8153"
+    },
+    "experiments/wshy/online_memory_2b/shared.py": {
+      "bytes": 3803,
+      "sha256": "519d9395e5f4bd77a4e0b071fbb087f5589c278a092855e996b24ce3a9cdb7f4"
+    },
+    "experiments/wshy/online_memory_2b/stream.py": {
+      "bytes": 2291,
+      "sha256": "e91ffd174543ac20599f964ae9f924bf517a0fec1a5685e2be0c3478987c9f71"
+    },
+    "experiments/wshy/online_memory_2b/tests/test_contracts.py": {
+      "bytes": 10378,
+      "sha256": "4e16771ebde05becd49690a1e4bda6eb4ec60e6440cdcd409c5cbc7dd313abfb"
+    },
+    "experiments/wshy/online_memory_2b/tests/test_safety.py": {
+      "bytes": 7407,
+      "sha256": "35c472b9ead80d4259ae70b3f54eef005b50f379e28d19b158f06efd0bcbbe3e"
+    },
+    "experiments/wshy/online_memory_2b/tests_a06/fixtures/provenance.json": {
+      "bytes": 3321,
+      "sha256": "ccd9e13763979a044f902ede6a4995ffb2b6044a42cc79ec2c1b6b2fe798143c"
+    },
+    "experiments/wshy/online_memory_2b/tests_a06/fixtures/upstream_policy.py": {
+      "bytes": 2407,
+      "sha256": "4404e3feae920f0d26f4296718274dda328c8ff41a8d82287d636617fab28bae"
+    },
+    "experiments/wshy/online_memory_2b/tests_a06/test_a06.py": {
+      "bytes": 12220,
+      "sha256": "3db44c51b915986a8edc0116071f5a4ebabc8400d897ad1189afc3983e2e158b"
+    },
+    "experiments/wshy/online_memory_2b/tests_ls/test_shared.py": {
+      "bytes": 18709,
+      "sha256": "11dcfd136f246eca741d1430739a22e81a78954baebfe7226265ee90bdc73eb7"
+    },
+    "README.md": {
+      "bytes": 6552,
+      "sha256": "dbb531b7068d5894d2ad2f5faec74bde57e005836db6e07ad0f015b8713798ee"
+    },
+    "scripts/audit_2b_long_stream.py": {
+      "bytes": 382,
+      "sha256": "2073bd2d8f28f29e37f61f7878f2f88fef1a4279b86bfd52ae0c4531bc09e7e0"
+    },
+    "scripts/run_2b_long_video_eval.py": {
+      "bytes": 384,
+      "sha256": "c9e5ef987323dfc769cf017638e25bf65454b61241cabd969827b9843448598f"
+    },
+    "scripts/run_2b_long_video_gpu.py": {
+      "bytes": 1216,
+      "sha256": "3030e6d8961274a482a19886161ce4c8e94502d5fa7695bddbc2fcd7722b4952"
+    },
+    "scripts/run_2b_memory_eval.py": {
+      "bytes": 397,
+      "sha256": "e095cb6493eb7e66c0c7f27bc5be79f6bb223e0c1708ec7c36689c72589c966d"
+    },
+    "tests/test_local_model.py": {
+      "bytes": 4674,
+      "sha256": "64a51fc76954b2c29809a0a01ca137da8282eccb61c9ec51b537b5445636bd68"
+    }
+  },
+  "excluded_self": "DELIVERY_MANIFEST.json"
+}

@@ -1,0 +1,88 @@
+{
+  "job_id": 217843,
+  "status": "CPU_preflight_independently_verified",
+  "slurm_state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed": "00:04:19",
+  "allocated_TRES": "billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+  "inherited_discovered": 209,
+  "inherited_passed": 208,
+  "platform_not_applicable": [
+    {
+      "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+      "reason": "Windows owner-handle guard",
+      "classification": "not_applicable_on_linux"
+    }
+  ],
+  "online_passed": 28,
+  "A06_passed": 16,
+  "LS_passed": 25,
+  "audit_passed": 8,
+  "total_discovered": 286,
+  "total_applicable_passed": 285,
+  "sources_RGB_PTS_checked": 67,
+  "sampled_frames": 2766,
+  "frame_pairs": 1402,
+  "complete_questions_checked": 171,
+  "maximum_question_suffix_tokens": 78,
+  "tiny_random_QA": [
+    {
+      "arm": "M0",
+      "generated": 8
+    },
+    {
+      "arm": "M2",
+      "generated": 8
+    },
+    {
+      "arm": "M2_A06",
+      "generated": 8
+    },
+    {
+      "arm": "LS_shared384_v1",
+      "generated": 8
+    },
+    {
+      "arm": "reservoir4",
+      "generated": 8
+    },
+    {
+      "arm": "text_only",
+      "generated": 8
+    }
+  ],
+  "real_2B_weight_loads": 0,
+  "protocol_sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811",
+  "preflight_sha256": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7",
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "source_matches_local": true,
+  "artifacts_sha256": {
+    "cpu/comparison_contracts.json": "171c78abb276d95ee95534ec1b0858823c7b449d8a3d48c89fb4ce40c9ba4284",
+    "cpu/contracts.txt": "94b01a98c4ba62d13aa0bdb6e89022ff49419f52a133e0241e8eb31626c8d0cb",
+    "cpu/inherited.json": "19301505b6f56d9020fe4f4b67cfde7b20031f4614f3f9f5006d89e61552dec5",
+    "cpu/inherited.txt": "dbc68444ec7fd5680028f75be69318aeb5bf26f4671dceb65997b7968ceb124f",
+    "cpu/long_stream_audit_contracts.txt": "e5e51de3f52010221f36e0bfc0834bf32cdb095feaa17855662706dd1de05350",
+    "cpu/preflight.json": "34ea01170c75195b2e96675825fab02eb4087686c73d0e11b52a669d2e5980b7",
+    "cpu/tests_a06.txt": "1f9a1bb1a3985ac98a8fa659a724258ed8dac026ebba1249ed17cdceb5f9e1b1",
+    "cpu/tests_ls.txt": "4c0f1bc6c97869108833f92cec669b12e3f79822d37bdb6061eef9071394acd4",
+    "expected_predictions.json": "cac37ea59724424e8de5bee299462447638e7e7c59be815296e21ba1ea17d53b",
+    "job_logs/long-short-cpu-20261021-01-217843.err": "f9a08ad390c7686f0e21f4cac08e967111f2a5bbcd0c3ea155fe14b6efdb4eed",
+    "job_logs/long-short-cpu-20261021-01-217843.log": "1c4eb595a7f376d0187e53f9e3d3cc47166615aa30ca11568c8fa919604637e2",
+    "media.json": "083657f79fd6fdaedbdd6ab32c4a8825d5b0e1b291daea120bddbee95a9cafe2",
+    "protocol.json": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811",
+    "requests.json": "768fdd266657e7eefaa50d8289d76855af998b9a12cbe6eb35fe3a83688728bd",
+    "scoring_ONLY.json": "d47ccd2e8cc21415dd4401ba99fe20a5323c25a818ff2836e39aa4d9b18e15de",
+    "source_lock.json": "d6e817be5cc7ea9a7b2a9a1f5da77edc1c04f1d1979f260b8421ffdea726d83f"
+  },
+  "GPU_capability_evaluation_executed": false,
+  "accuracy_gain_established": false,
+  "long_video_34_inputs_preflighted": false
+}

@@ -1,0 +1,28 @@
+{
+  "job_id": 217792,
+  "state": "FAILED",
+  "exit_code": "1:0",
+  "seconds": 85,
+  "inherited": {
+    "discovered": 209,
+    "passed": 208,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  "platform_skip": {
+    "test": "test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies",
+    "reason": "Windows owner-handle guard",
+    "suite": 3
+  },
+  "failure": "new receipt gate rejected pre-existing Windows-only skip on Linux",
+  "prior_checkpoint_cleanup_error_recurred": false,
+  "new_contract_tests_run": 0,
+  "RGB_PTS_verification_run": false,
+  "tiny_QA_run": 0,
+  "real_pretrained_loads": 0,
+  "recheck_submitted": false,
+  "log_sha256": "92cf09c914fb3cd6c3f4d3511656b02d96f9e17da27217aadcc454bb3fa73544",
+  "local_static_report": "local-static-20261021-04.json",
+  "next_plan": "online-memory-2b-preflight-20261021-04.json"
+}

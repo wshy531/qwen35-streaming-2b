@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "suites": {
+    "tests_a06": {
+      "tests": 16,
+      "sha256": "1f9a1bb1a3985ac98a8fa659a724258ed8dac026ebba1249ed17cdceb5f9e1b1"
+    },
+    "tests_ls": {
+      "tests": 25,
+      "sha256": "4c0f1bc6c97869108833f92cec669b12e3f79822d37bdb6061eef9071394acd4"
+    }
+  },
+  "source_lock_sha256": "d6e817be5cc7ea9a7b2a9a1f5da77edc1c04f1d1979f260b8421ffdea726d83f",
+  "protocol_sha256": "8e46bbe5957e4767f2498dbe463e9a2256f6dc8f13d25faf4d5c9cd4c8fa9811"
+}

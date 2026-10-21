@@ -1,0 +1,2 @@
+CPU preflight: job=217843 reserved_GPUs=4 CUDA_VISIBLE_DEVICES=empty pretrained_loads=0
+{"stage": "cpu", "status": "passed", "frames": 2766, "pairs": 1402}

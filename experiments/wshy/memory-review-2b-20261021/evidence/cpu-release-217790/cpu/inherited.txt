@@ -1,0 +1,31 @@
+CPU suite: /home/share/czy/wsy/projects/online-memory-2b-20261021-01/tests
+test_image_and_video_logits (test_local_model.LocalModelTests.test_image_and_video_logits) ... The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+ok
+test_local_modules_and_checkpoint_roundtrip (test_local_model.LocalModelTests.test_local_modules_and_checkpoint_roundtrip) ... Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 13.27it/s]
+Loading weights:   0%|          | 0/49 [00:00<?, ?it/s]Loading weights: 100%|██████████| 49/49 [00:00<00:00, 3632.59it/s]
+ERROR
+test_text_logits_and_incremental_cache (test_local_model.LocalModelTests.test_text_logits_and_incremental_cache) ... ok
+
+======================================================================
+ERROR: test_local_modules_and_checkpoint_roundtrip (test_local_model.LocalModelTests.test_local_modules_and_checkpoint_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/share/czy/wsy/projects/online-memory-2b-20261021-01/tests/test_local_model.py", line 49, in test_local_modules_and_checkpoint_roundtrip
+    with tempfile.TemporaryDirectory() as directory:
+  File "/usr/lib64/python3.11/tempfile.py", line 943, in __exit__
+    self.cleanup()
+  File "/usr/lib64/python3.11/tempfile.py", line 947, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "/usr/lib64/python3.11/tempfile.py", line 929, in _rmtree
+    _shutil.rmtree(name, onerror=onerror)
+  File "/usr/lib64/python3.11/shutil.py", line 763, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib64/python3.11/shutil.py", line 761, in rmtree
+    os.rmdir(path, dir_fd=dir_fd)
+OSError: [Errno 39] Directory not empty: '/home/share/czy/wsy/cache/online-memory-2b/tmp/tmpy98vey51'
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.848s
+
+FAILED (errors=1)

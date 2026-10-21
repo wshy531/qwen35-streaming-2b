@@ -1,0 +1,5 @@
+{
+  "stage": "preflight",
+  "error": "Traceback (most recent call last):\n  File \"/home/share/czy/wsy/projects/online-memory-2b-20261021-01/experiments/wshy/online_memory_2b/runner.py\", line 420, in main\n    cpu(run)\n  File \"/home/share/czy/wsy/projects/online-memory-2b-20261021-01/experiments/wshy/online_memory_2b/runner.py\", line 68, in cpu\n    counts = successful_counts(inherited_log.read_text(encoding='utf-8'), INHERITED_COUNTS)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/share/czy/wsy/projects/online-memory-2b-20261021-01/experiments/wshy/online_memory_2b/receipts.py\", line 13, in successful_counts\n    raise ValueError('incomplete, skipped or failed unittest suites')\nValueError: incomplete, skipped or failed unittest suites\n",
+  "successful_completion": false
+}

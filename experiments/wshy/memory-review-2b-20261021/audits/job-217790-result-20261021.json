@@ -1,0 +1,39 @@
+{
+  "job_id": 217790,
+  "state": "FAILED",
+  "exit_code": "1:0",
+  "elapsed_seconds": 34,
+  "actual_allocation": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "limit_minutes": 30
+  },
+  "test_execution": {
+    "run": 3,
+    "passed": 2,
+    "errors": 1,
+    "inherited209_complete": false,
+    "online28_run": 0,
+    "audit8_run": 0,
+    "RGB_PTS_sources_checked": 0,
+    "full_question_suffixes_checked": 0,
+    "tiny_QA_run": 0
+  },
+  "prepare_completed": true,
+  "real_pretrained_loads": 0,
+  "cause_observed": "TemporaryDirectory cleanup raised Errno39 after checkpoint roundtrip assertions",
+  "NFS_confirmed": true,
+  "likely_mechanism": "checkpoint-backed tensor references alive at directory cleanup; not yet confirmed by rerun",
+  "local_fix": {
+    "files": 4,
+    "all_assertions_and_tolerances_preserved_by_AST": true,
+    "static_report": "local-static-20261021-03.json",
+    "runtime_validated": false
+  },
+  "recheck_plan": "online-memory-2b-preflight-20261021-03.json",
+  "resubmitted": false,
+  "control_tool_AST_files": 14
+}

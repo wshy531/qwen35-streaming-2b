@@ -1,0 +1,10 @@
+{
+  "development_base": "bf14b753d17f73142ae67e0c337d7936e16b4cbe",
+  "publication_base": "df83acb7441b3d035d621616348c2568343a39df",
+  "branch": "wshy/2b-online-memory-review-20261021",
+  "original_workspace_preserved": true,
+  "default_model_changed": false,
+  "candidate_default_enabled": false,
+  "publication_scope": "Existing completed experiments only; no new cluster operations, real2B inference, training or data download",
+  "prior_workspaces_read_only": true
+}

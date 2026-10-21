@@ -1,0 +1,2249 @@
+{
+  "questions": 34,
+  "main_answers": 204,
+  "tables": {
+    "original28_raw_labels": {
+      "M0": {
+        "questions": 28,
+        "strict_correct": 14,
+        "content_correct": 14,
+        "format_compliant": 28
+      },
+      "M2": {
+        "questions": 28,
+        "strict_correct": 12,
+        "content_correct": 13,
+        "format_compliant": 27
+      },
+      "M2_A06": {
+        "questions": 28,
+        "strict_correct": 14,
+        "content_correct": 15,
+        "format_compliant": 27
+      },
+      "LS_shared384_v1": {
+        "questions": 28,
+        "strict_correct": 16,
+        "content_correct": 16,
+        "format_compliant": 28
+      },
+      "reservoir4": {
+        "questions": 28,
+        "strict_correct": 16,
+        "content_correct": 16,
+        "format_compliant": 28
+      },
+      "text_only": {
+        "questions": 28,
+        "strict_correct": 12,
+        "content_correct": 12,
+        "format_compliant": 28
+      }
+    },
+    "historical_supported16": {
+      "M0": {
+        "questions": 16,
+        "strict_correct": 10,
+        "content_correct": 10,
+        "format_compliant": 16
+      },
+      "M2": {
+        "questions": 16,
+        "strict_correct": 8,
+        "content_correct": 9,
+        "format_compliant": 15
+      },
+      "M2_A06": {
+        "questions": 16,
+        "strict_correct": 10,
+        "content_correct": 11,
+        "format_compliant": 15
+      },
+      "LS_shared384_v1": {
+        "questions": 16,
+        "strict_correct": 12,
+        "content_correct": 12,
+        "format_compliant": 16
+      },
+      "reservoir4": {
+        "questions": 16,
+        "strict_correct": 12,
+        "content_correct": 12,
+        "format_compliant": 16
+      },
+      "text_only": {
+        "questions": 16,
+        "strict_correct": 8,
+        "content_correct": 8,
+        "format_compliant": 16
+      }
+    },
+    "historical_ambiguous11": {
+      "M0": {
+        "questions": 11,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 11
+      },
+      "M2": {
+        "questions": 11,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 11
+      },
+      "M2_A06": {
+        "questions": 11,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 11
+      },
+      "LS_shared384_v1": {
+        "questions": 11,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 11
+      },
+      "reservoir4": {
+        "questions": 11,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 11
+      },
+      "text_only": {
+        "questions": 11,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 11
+      }
+    },
+    "historical_cutoff1": {
+      "M0": {
+        "questions": 1,
+        "strict_correct": 0,
+        "content_correct": 0,
+        "format_compliant": 1
+      },
+      "M2": {
+        "questions": 1,
+        "strict_correct": 0,
+        "content_correct": 0,
+        "format_compliant": 1
+      },
+      "M2_A06": {
+        "questions": 1,
+        "strict_correct": 0,
+        "content_correct": 0,
+        "format_compliant": 1
+      },
+      "LS_shared384_v1": {
+        "questions": 1,
+        "strict_correct": 0,
+        "content_correct": 0,
+        "format_compliant": 1
+      },
+      "reservoir4": {
+        "questions": 1,
+        "strict_correct": 0,
+        "content_correct": 0,
+        "format_compliant": 1
+      },
+      "text_only": {
+        "questions": 1,
+        "strict_correct": 1,
+        "content_correct": 1,
+        "format_compliant": 1
+      }
+    },
+    "manual6_source_declared": {
+      "M0": {
+        "questions": 6,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 6
+      },
+      "M2": {
+        "questions": 6,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 6
+      },
+      "M2_A06": {
+        "questions": 6,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 6
+      },
+      "LS_shared384_v1": {
+        "questions": 6,
+        "strict_correct": 4,
+        "content_correct": 4,
+        "format_compliant": 6
+      },
+      "reservoir4": {
+        "questions": 6,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 6
+      },
+      "text_only": {
+        "questions": 6,
+        "strict_correct": 3,
+        "content_correct": 3,
+        "format_compliant": 6
+      }
+    }
+  },
+  "paired_comparisons": {
+    "original28_raw_labels": {
+      "M0": {
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": -1
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 1
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 2
+          }
+        }
+      },
+      "M2": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [],
+            "net": 1
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 4
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 3
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 4
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 3
+          }
+        }
+      },
+      "M2_A06": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -1
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -2
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 1
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 1
+          }
+        }
+      },
+      "reservoir4": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -2
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "net": -4
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -3
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:146"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": -1
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": 0
+          }
+        }
+      }
+    },
+    "historical_supported16": {
+      "M0": {
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": -1
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 1
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [
+              "ovo:108"
+            ],
+            "net": 2
+          }
+        }
+      },
+      "M2": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [],
+            "net": 1
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 2
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 4
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 3
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "new_losses": [],
+            "net": 4
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "new_losses": [],
+            "net": 3
+          }
+        }
+      },
+      "M2_A06": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -1
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:67",
+              "ovo:183"
+            ],
+            "net": -2
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 1
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:146"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "new_losses": [
+              "ovo:67"
+            ],
+            "net": 1
+          }
+        }
+      },
+      "reservoir4": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -2
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183",
+              "ovo:146"
+            ],
+            "net": -4
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:183"
+            ],
+            "net": -3
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:67"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131",
+              "ovo:146"
+            ],
+            "net": -2
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:67"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": -1
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "ovo:108",
+              "ovo:69"
+            ],
+            "new_losses": [
+              "ovo:102",
+              "ovo:131"
+            ],
+            "net": 0
+          }
+        }
+      }
+    },
+    "historical_ambiguous11": {
+      "M0": {
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "M2": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "M2_A06": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "reservoir4": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      }
+    },
+    "historical_cutoff1": {
+      "M0": {
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "M2": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "M2_A06": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      },
+      "reservoir4": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        }
+      }
+    },
+    "manual6_source_declared": {
+      "M0": {
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          }
+        }
+      },
+      "M2": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          }
+        }
+      },
+      "M2_A06": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [],
+            "new_losses": [],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:02"
+            ],
+            "new_losses": [],
+            "net": 1
+          }
+        },
+        "reservoir4": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:03"
+            ],
+            "new_losses": [
+              "local_longstream_v1:04"
+            ],
+            "net": 0
+          }
+        }
+      },
+      "reservoir4": {
+        "M0": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          }
+        },
+        "M2": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          }
+        },
+        "M2_A06": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 0
+          }
+        },
+        "LS_shared384_v1": {
+          "strict_correct": {
+            "corrections": [
+              "local_longstream_v1:02",
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 1
+          },
+          "content_correct": {
+            "corrections": [
+              "local_longstream_v1:02",
+              "local_longstream_v1:04"
+            ],
+            "new_losses": [
+              "local_longstream_v1:03"
+            ],
+            "net": 1
+          }
+        }
+      }
+    }
+  },
+  "per_source": {
+    "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 4,
+          "strict_correct": 1
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 2,
+          "strict_correct": 1
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 2,
+          "strict_correct": 0
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 1
+        }
+      }
+    },
+    "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 4,
+          "strict_correct": 3
+        },
+        "text_only": {
+          "questions": 4,
+          "strict_correct": 1
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 2,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 2,
+          "strict_correct": 1
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 2,
+          "strict_correct": 1
+        },
+        "text_only": {
+          "questions": 2,
+          "strict_correct": 0
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 1
+        }
+      }
+    },
+    "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 4,
+          "strict_correct": 3
+        },
+        "M2": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 4,
+          "strict_correct": 3
+        },
+        "reservoir4": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 4,
+          "strict_correct": 1
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 0
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 3,
+          "strict_correct": 1
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 0
+        }
+      }
+    },
+    "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 8,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 8,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 8,
+          "strict_correct": 3
+        },
+        "LS_shared384_v1": {
+          "questions": 8,
+          "strict_correct": 3
+        },
+        "reservoir4": {
+          "questions": 8,
+          "strict_correct": 3
+        },
+        "text_only": {
+          "questions": 8,
+          "strict_correct": 5
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 5,
+          "strict_correct": 2
+        },
+        "M2": {
+          "questions": 5,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 5,
+          "strict_correct": 3
+        },
+        "LS_shared384_v1": {
+          "questions": 5,
+          "strict_correct": 3
+        },
+        "reservoir4": {
+          "questions": 5,
+          "strict_correct": 3
+        },
+        "text_only": {
+          "questions": 5,
+          "strict_correct": 3
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 2,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 2,
+          "strict_correct": 1
+        }
+      },
+      "historical_cutoff1": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 1
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 1
+        }
+      }
+    },
+    "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 4,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 4,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 4,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 4,
+          "strict_correct": 1
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 3,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 3,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "reservoir4": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "text_only": {
+          "questions": 3,
+          "strict_correct": 1
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 0
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 0
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 0
+        }
+      }
+    },
+    "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4": {
+      "original28_raw_labels": {
+        "M0": {
+          "questions": 4,
+          "strict_correct": 4
+        },
+        "M2": {
+          "questions": 4,
+          "strict_correct": 3
+        },
+        "M2_A06": {
+          "questions": 4,
+          "strict_correct": 3
+        },
+        "LS_shared384_v1": {
+          "questions": 4,
+          "strict_correct": 4
+        },
+        "reservoir4": {
+          "questions": 4,
+          "strict_correct": 4
+        },
+        "text_only": {
+          "questions": 4,
+          "strict_correct": 3
+        }
+      },
+      "historical_supported16": {
+        "M0": {
+          "questions": 3,
+          "strict_correct": 3
+        },
+        "M2": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "M2_A06": {
+          "questions": 3,
+          "strict_correct": 2
+        },
+        "LS_shared384_v1": {
+          "questions": 3,
+          "strict_correct": 3
+        },
+        "reservoir4": {
+          "questions": 3,
+          "strict_correct": 3
+        },
+        "text_only": {
+          "questions": 3,
+          "strict_correct": 2
+        }
+      },
+      "historical_ambiguous11": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 1
+        }
+      },
+      "manual6_source_declared": {
+        "M0": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "M2_A06": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "LS_shared384_v1": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "reservoir4": {
+          "questions": 1,
+          "strict_correct": 1
+        },
+        "text_only": {
+          "questions": 1,
+          "strict_correct": 0
+        }
+      }
+    }
+  },
+  "confirmed_accuracy": null,
+  "confirmed_accuracy_denominator": 0,
+  "score_interpretation": "frozen strict/leading option parser against labels; no human semantic judgment",
+  "original_admission": "historical source declarations; original content ledger missing",
+  "manual_labels": "single-assistant source declarations; independent review pending",
+  "independent_holdout": false,
+  "human_review": "pending",
+  "stable_ability_improvement_established": false,
+  "GPU_protocol_sha256": "94b9c2e72075fc0f8dab61621ee234e2b61f86871daf4fddca864a2d5f2748d4",
+  "completed_sha256": "fe6b4bb64a496c714c5caa63be87e447c6717d5a38613b890cf2e47b3493eac8",
+  "raw_output_hashes": {
+    "predictions.jsonl": "06b0c4d81580cf4b4da0df31d59a1b83e12344f95480b262a8820542b55cee30",
+    "events.jsonl": "ef15de373eaef922af4f6e43320bcfb3af1444559f73c8744d818bac58fe130b"
+  },
+  "scope": "raw label and historical admission strata, never pooled confirmed accuracy"
+}

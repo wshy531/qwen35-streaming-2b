@@ -1,0 +1,762 @@
+{
+  "job_id": 217852,
+  "audit_sha256": "a9da19da63f2279fe7297fb1aaee6b60dbf9831a1d2555401da870d6be44331d",
+  "LS_capacity_schedule_verified_at_all_actual_prefixes": true,
+  "LS_first_merge_pair_1based": {
+    "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4": 9,
+    "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4": 9,
+    "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4": 9,
+    "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4": 9,
+    "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4": 9,
+    "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4": 9
+  },
+  "structures": {
+    "M2": {
+      "queries": 34,
+      "median_query_max_depth": 27.0,
+      "maximum_query_depth": 47,
+      "median_query_max_node_span_pairs": 81.0,
+      "total_within_merges": 669,
+      "total_cross_merges": 643,
+      "per_query": [
+        {
+          "id": "ovo:70",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 292,
+          "max_depth": 25,
+          "max_node_span_pairs": 57
+        },
+        {
+          "id": "ovo:71",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 346,
+          "max_depth": 32,
+          "max_node_span_pairs": 102
+        },
+        {
+          "id": "ovo:72",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 411,
+          "max_depth": 32,
+          "max_node_span_pairs": 102
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 430.0,
+          "max_depth": 32,
+          "max_node_span_pairs": 102
+        },
+        {
+          "id": "ovo:73",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 438,
+          "max_depth": 33,
+          "max_node_span_pairs": 102
+        },
+        {
+          "id": "ovo:104",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 51,
+          "max_depth": 5,
+          "max_node_span_pairs": 8
+        },
+        {
+          "id": "ovo:105",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 81,
+          "max_depth": 9,
+          "max_node_span_pairs": 14
+        },
+        {
+          "id": "ovo:102",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 341,
+          "max_depth": 35,
+          "max_node_span_pairs": 63
+        },
+        {
+          "id": "ovo:103",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 439,
+          "max_depth": 47,
+          "max_node_span_pairs": 104
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 470.0,
+          "max_depth": 47,
+          "max_node_span_pairs": 104
+        },
+        {
+          "id": "ovo:106",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 192,
+          "max_depth": 15,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "ovo:107",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 251,
+          "max_depth": 18,
+          "max_node_span_pairs": 87
+        },
+        {
+          "id": "ovo:108",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 322,
+          "max_depth": 30,
+          "max_node_span_pairs": 87
+        },
+        {
+          "id": "ovo:109",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 394,
+          "max_depth": 33,
+          "max_node_span_pairs": 112
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 40,
+          "max_node_span_pairs": 112
+        },
+        {
+          "id": "ovo:130",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 240,
+          "max_depth": 17,
+          "max_node_span_pairs": 53
+        },
+        {
+          "id": "ovo:131",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 277,
+          "max_depth": 23,
+          "max_node_span_pairs": 53
+        },
+        {
+          "id": "ovo:68",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 23,
+          "max_node_span_pairs": 53
+        },
+        {
+          "id": "ovo:69",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 23,
+          "max_node_span_pairs": 53
+        },
+        {
+          "id": "ovo:67",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 332,
+          "max_depth": 24,
+          "max_node_span_pairs": 81
+        },
+        {
+          "id": "ovo:66",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 373,
+          "max_depth": 24,
+          "max_node_span_pairs": 81
+        },
+        {
+          "id": "ovo:132",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 374,
+          "max_depth": 24,
+          "max_node_span_pairs": 81
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 460.0,
+          "max_depth": 28,
+          "max_node_span_pairs": 136
+        },
+        {
+          "id": "ovo:133",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 472,
+          "max_depth": 28,
+          "max_node_span_pairs": 136
+        },
+        {
+          "id": "ovo:180",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 59,
+          "max_depth": 7,
+          "max_node_span_pairs": 13
+        },
+        {
+          "id": "ovo:181",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 243,
+          "max_depth": 31,
+          "max_node_span_pairs": 71
+        },
+        {
+          "id": "ovo:182",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 360,
+          "max_depth": 32,
+          "max_node_span_pairs": 76
+        },
+        {
+          "id": "ovo:183",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 411,
+          "max_depth": 33,
+          "max_node_span_pairs": 121
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 440.0,
+          "max_depth": 33,
+          "max_node_span_pairs": 121
+        },
+        {
+          "id": "ovo:144",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 132,
+          "max_depth": 16,
+          "max_node_span_pairs": 31
+        },
+        {
+          "id": "ovo:145",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 194,
+          "max_depth": 25,
+          "max_node_span_pairs": 56
+        },
+        {
+          "id": "ovo:147",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 196,
+          "max_depth": 25,
+          "max_node_span_pairs": 56
+        },
+        {
+          "id": "ovo:146",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 211,
+          "max_depth": 26,
+          "max_node_span_pairs": 65
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 31,
+          "max_node_span_pairs": 111
+        }
+      ]
+    },
+    "M2_A06": {
+      "queries": 34,
+      "median_query_max_depth": 17.0,
+      "maximum_query_depth": 26,
+      "median_query_max_node_span_pairs": 102.5,
+      "total_within_merges": 669,
+      "total_cross_merges": 643,
+      "per_query": [
+        {
+          "id": "ovo:70",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 292,
+          "max_depth": 13,
+          "max_node_span_pairs": 104
+        },
+        {
+          "id": "ovo:71",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 346,
+          "max_depth": 14,
+          "max_node_span_pairs": 124
+        },
+        {
+          "id": "ovo:72",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 411,
+          "max_depth": 15,
+          "max_node_span_pairs": 143
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 430.0,
+          "max_depth": 16,
+          "max_node_span_pairs": 177
+        },
+        {
+          "id": "ovo:73",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 438,
+          "max_depth": 16,
+          "max_node_span_pairs": 177
+        },
+        {
+          "id": "ovo:104",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 51,
+          "max_depth": 4,
+          "max_node_span_pairs": 11
+        },
+        {
+          "id": "ovo:105",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 81,
+          "max_depth": 6,
+          "max_node_span_pairs": 22
+        },
+        {
+          "id": "ovo:102",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 341,
+          "max_depth": 14,
+          "max_node_span_pairs": 126
+        },
+        {
+          "id": "ovo:103",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 439,
+          "max_depth": 16,
+          "max_node_span_pairs": 177
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 470.0,
+          "max_depth": 17,
+          "max_node_span_pairs": 198
+        },
+        {
+          "id": "ovo:106",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 192,
+          "max_depth": 13,
+          "max_node_span_pairs": 50
+        },
+        {
+          "id": "ovo:107",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 251,
+          "max_depth": 15,
+          "max_node_span_pairs": 101
+        },
+        {
+          "id": "ovo:108",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 322,
+          "max_depth": 16,
+          "max_node_span_pairs": 120
+        },
+        {
+          "id": "ovo:109",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 394,
+          "max_depth": 17,
+          "max_node_span_pairs": 147
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 18,
+          "max_node_span_pairs": 171
+        },
+        {
+          "id": "ovo:130",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 240,
+          "max_depth": 17,
+          "max_node_span_pairs": 63
+        },
+        {
+          "id": "ovo:131",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 277,
+          "max_depth": 17,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "ovo:68",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 17,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "ovo:69",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 17,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "ovo:67",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 332,
+          "max_depth": 18,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "ovo:66",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 373,
+          "max_depth": 18,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "ovo:132",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 374,
+          "max_depth": 18,
+          "max_node_span_pairs": 98
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 460.0,
+          "max_depth": 20,
+          "max_node_span_pairs": 190
+        },
+        {
+          "id": "ovo:133",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 472,
+          "max_depth": 20,
+          "max_node_span_pairs": 190
+        },
+        {
+          "id": "ovo:180",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 59,
+          "max_depth": 4,
+          "max_node_span_pairs": 11
+        },
+        {
+          "id": "ovo:181",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 243,
+          "max_depth": 15,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "ovo:182",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 360,
+          "max_depth": 17,
+          "max_node_span_pairs": 134
+        },
+        {
+          "id": "ovo:183",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 411,
+          "max_depth": 18,
+          "max_node_span_pairs": 171
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 440.0,
+          "max_depth": 18,
+          "max_node_span_pairs": 171
+        },
+        {
+          "id": "ovo:144",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 132,
+          "max_depth": 14,
+          "max_node_span_pairs": 38
+        },
+        {
+          "id": "ovo:145",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 194,
+          "max_depth": 24,
+          "max_node_span_pairs": 38
+        },
+        {
+          "id": "ovo:147",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 196,
+          "max_depth": 24,
+          "max_node_span_pairs": 38
+        },
+        {
+          "id": "ovo:146",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 211,
+          "max_depth": 24,
+          "max_node_span_pairs": 60
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 26,
+          "max_node_span_pairs": 118
+        }
+      ]
+    },
+    "LS_shared384_v1": {
+      "queries": 34,
+      "median_query_max_depth": 33.5,
+      "maximum_query_depth": 60,
+      "median_query_max_node_span_pairs": 61.0,
+      "total_within_merges": 158,
+      "total_cross_merges": 1154,
+      "per_query": [
+        {
+          "id": "ovo:70",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 292,
+          "max_depth": 29,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "ovo:71",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 346,
+          "max_depth": 32,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "ovo:72",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 411,
+          "max_depth": 47,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 430.0,
+          "max_depth": 56,
+          "max_node_span_pairs": 62
+        },
+        {
+          "id": "ovo:73",
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "query_time_s": 438,
+          "max_depth": 59,
+          "max_node_span_pairs": 92
+        },
+        {
+          "id": "ovo:104",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 51,
+          "max_depth": 5,
+          "max_node_span_pairs": 6
+        },
+        {
+          "id": "ovo:105",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 81,
+          "max_depth": 8,
+          "max_node_span_pairs": 13
+        },
+        {
+          "id": "ovo:102",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 341,
+          "max_depth": 35,
+          "max_node_span_pairs": 55
+        },
+        {
+          "id": "ovo:103",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 439,
+          "max_depth": 57,
+          "max_node_span_pairs": 106
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "query_time_s": 470.0,
+          "max_depth": 57,
+          "max_node_span_pairs": 106
+        },
+        {
+          "id": "ovo:106",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 192,
+          "max_depth": 16,
+          "max_node_span_pairs": 56
+        },
+        {
+          "id": "ovo:107",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 251,
+          "max_depth": 18,
+          "max_node_span_pairs": 56
+        },
+        {
+          "id": "ovo:108",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 322,
+          "max_depth": 33,
+          "max_node_span_pairs": 86
+        },
+        {
+          "id": "ovo:109",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 394,
+          "max_depth": 41,
+          "max_node_span_pairs": 86
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 41,
+          "max_node_span_pairs": 86
+        },
+        {
+          "id": "ovo:130",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 240,
+          "max_depth": 25,
+          "max_node_span_pairs": 58
+        },
+        {
+          "id": "ovo:131",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 277,
+          "max_depth": 25,
+          "max_node_span_pairs": 58
+        },
+        {
+          "id": "ovo:68",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 25,
+          "max_node_span_pairs": 58
+        },
+        {
+          "id": "ovo:69",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 278,
+          "max_depth": 25,
+          "max_node_span_pairs": 58
+        },
+        {
+          "id": "ovo:67",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 332,
+          "max_depth": 34,
+          "max_node_span_pairs": 88
+        },
+        {
+          "id": "ovo:66",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 373,
+          "max_depth": 34,
+          "max_node_span_pairs": 88
+        },
+        {
+          "id": "ovo:132",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 374,
+          "max_depth": 34,
+          "max_node_span_pairs": 88
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 460.0,
+          "max_depth": 38,
+          "max_node_span_pairs": 88
+        },
+        {
+          "id": "ovo:133",
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "query_time_s": 472,
+          "max_depth": 43,
+          "max_node_span_pairs": 88
+        },
+        {
+          "id": "ovo:180",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 59,
+          "max_depth": 7,
+          "max_node_span_pairs": 11
+        },
+        {
+          "id": "ovo:181",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 243,
+          "max_depth": 31,
+          "max_node_span_pairs": 60
+        },
+        {
+          "id": "ovo:182",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 360,
+          "max_depth": 38,
+          "max_node_span_pairs": 60
+        },
+        {
+          "id": "ovo:183",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 411,
+          "max_depth": 50,
+          "max_node_span_pairs": 60
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "query_time_s": 440.0,
+          "max_depth": 60,
+          "max_node_span_pairs": 91
+        },
+        {
+          "id": "ovo:144",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 132,
+          "max_depth": 19,
+          "max_node_span_pairs": 20
+        },
+        {
+          "id": "ovo:145",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 194,
+          "max_depth": 26,
+          "max_node_span_pairs": 32
+        },
+        {
+          "id": "ovo:147",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 196,
+          "max_depth": 27,
+          "max_node_span_pairs": 32
+        },
+        {
+          "id": "ovo:146",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 211,
+          "max_depth": 31,
+          "max_node_span_pairs": 34
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "query_time_s": 450.0,
+          "max_depth": 54,
+          "max_node_span_pairs": 124
+        }
+      ]
+    }
+  },
+  "interpretation": "34 correlated query snapshots across6 reused sources; descriptive only",
+  "depth_or_span_proves_readability": false,
+  "algorithm_change_this_analysis": false
+}

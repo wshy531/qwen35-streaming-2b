@@ -1,0 +1,27 @@
+test_each_excess_resource_and_nonfinite_time_is_rejected (test_gpu_contracts.BudgetContracts.test_each_excess_resource_and_nonfinite_time_is_rejected) ... ok
+test_empty_excess_invalid_tokens_are_rejected_without_advancing (test_gpu_contracts.BudgetContracts.test_empty_excess_invalid_tokens_are_rejected_without_advancing) ... ok
+test_exact_maximum_grid_and_token_budget_is_allowed (test_gpu_contracts.BudgetContracts.test_exact_maximum_grid_and_token_budget_is_allowed) ... ok
+test_exact_resource_bounds_are_allowed (test_gpu_contracts.BudgetContracts.test_exact_resource_bounds_are_allowed) ... ok
+test_nontext_result_is_rejected (test_gpu_contracts.BudgetContracts.test_nontext_result_is_rejected) ... ok
+test_failed_new_contracts_stop_before_model_loading (test_gpu_contracts.MockWorkerContracts.test_failed_new_contracts_stop_before_model_loading) ... ok
+test_mocked_worker_completes_fixed_grid_hashes_and_refuses_reload (test_gpu_contracts.MockWorkerContracts.test_mocked_worker_completes_fixed_grid_hashes_and_refuses_reload) ... ok
+test_changed_pair_pending_frame_hash_or_padding_is_rejected (test_gpu_contracts.QueryGateContracts.test_changed_pair_pending_frame_hash_or_padding_is_rejected) ... ok
+test_verified_query_prefix_is_accepted (test_gpu_contracts.QueryGateContracts.test_verified_query_prefix_is_accepted) ... ok
+test_complete_groups_keep_expected_denominators (test_gpu_contracts.ScoringContracts.test_complete_groups_keep_expected_denominators) ... ok
+test_failed_answer_is_rejected_without_partial_score (test_gpu_contracts.ScoringContracts.test_failed_answer_is_rejected_without_partial_score) ... ok
+test_invalid_truth_or_changed_admission_cannot_silently_change_denominator (test_gpu_contracts.ScoringContracts.test_invalid_truth_or_changed_admission_cannot_silently_change_denominator) ... ok
+test_manual_declared_results_remain_separate_from_original_labels (test_gpu_contracts.ScoringContracts.test_manual_declared_results_remain_separate_from_original_labels) ... ok
+test_missing_or_duplicate_answer_and_missing_label_are_rejected (test_gpu_contracts.ScoringContracts.test_missing_or_duplicate_answer_and_missing_label_are_rejected) ... ok
+test_paired_corrections_and_losses_are_kept_even_when_net_zero (test_gpu_contracts.ScoringContracts.test_paired_corrections_and_losses_are_kept_even_when_net_zero) ... ok
+test_review_queue_excludes_answers_truths_and_predictions (test_gpu_contracts.ScoringContracts.test_review_queue_excludes_answers_truths_and_predictions) ... ok
+test_strict_and_leading_scores_are_separate_without_prompt_repair (test_gpu_contracts.ScoringContracts.test_strict_and_leading_scores_are_separate_without_prompt_repair) ... ok
+test_changed_arm_budget_or_cpu_identity_is_rejected (test_gpu_contracts.SpecContracts.test_changed_arm_budget_or_cpu_identity_is_rejected) ... ok
+test_changed_extension_or_missing_regression_log_is_rejected (test_gpu_contracts.SpecContracts.test_changed_extension_or_missing_regression_log_is_rejected) ... ok
+test_complete_cpu_bound_extension_is_accepted (test_gpu_contracts.SpecContracts.test_complete_cpu_bound_extension_is_accepted) ... ok
+test_external_protocol_path_is_rejected (test_gpu_contracts.SpecContracts.test_external_protocol_path_is_rejected) ... ok
+test_modified_cpu_proof_even_with_recomputed_artifact_hash_is_rejected (test_gpu_contracts.SpecContracts.test_modified_cpu_proof_even_with_recomputed_artifact_hash_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 16.539s
+
+OK

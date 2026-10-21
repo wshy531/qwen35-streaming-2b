@@ -1,0 +1,22 @@
+{
+  "gpu-replay-217796": {
+    "source_lock_entries": 129,
+    "current_source_mismatches": [
+      "experiments/wshy/online_memory_2b/cluster_cpu.sh",
+      "experiments/wshy/online_memory_2b/protocol.py",
+      "experiments/wshy/online_memory_2b/runner.py",
+      "experiments/wshy/online_memory_2b/session.py"
+    ],
+    "meaning": "Historical earlier run; these four files were subsequently extended, so its source lock is not proof of the final code"
+  },
+  "ls-gpu-217845": {
+    "source_lock_entries": 134,
+    "current_source_mismatches": [],
+    "meaning": "Current final code matches this run"
+  },
+  "long-video-gpu-217852": {
+    "source_lock_entries": 141,
+    "current_source_mismatches": [],
+    "meaning": "Current final code matches this run"
+  }
+}

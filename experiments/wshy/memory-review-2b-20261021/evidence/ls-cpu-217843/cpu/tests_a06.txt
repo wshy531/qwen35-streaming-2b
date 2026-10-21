@@ -1,0 +1,21 @@
+test_512_pair_storage_mass_and_provenance_bounds_without_archive (test_a06.A06Contracts.test_512_pair_storage_mass_and_provenance_bounds_without_archive) ... ok
+test_answers_do_not_change_continuation_or_torch_RNG (test_a06.A06Contracts.test_answers_do_not_change_continuation_or_torch_RNG) ... ok
+test_candidate_does_not_enter_default_replay_protocol (test_a06.A06Contracts.test_candidate_does_not_enter_default_replay_protocol) ... ok
+test_cost_then_index_resolve_equal_depth (test_a06.A06Contracts.test_cost_then_index_resolve_equal_depth) ... ok
+test_depth_priority_can_override_original_cost (test_a06.A06Contracts.test_depth_priority_can_override_original_cost) ... ok
+test_descriptor_and_selection_counter_mutations_are_detected (test_a06.A06Contracts.test_descriptor_and_selection_counter_mutations_are_detected) ... ok
+test_every_prefix_matches_exact_upstream_and_original_selector_matches_M2 (test_a06.A06Contracts.test_every_prefix_matches_exact_upstream_and_original_selector_matches_M2) ... ok
+test_export_and_reader_input_mutation_do_not_change_bank (test_a06.A06Contracts.test_export_and_reader_input_mutation_do_not_change_bank) ... ok
+test_invalid_direct_event_flag_is_atomic (test_a06.A06Contracts.test_invalid_direct_event_flag_is_atomic) ... ok
+test_invalid_pairs_rejected_before_mutation (test_a06.A06Contracts.test_invalid_pairs_rejected_before_mutation) ... ok
+test_no_closed_overflow_is_bitwise_frozen_M2 (test_a06.A06Contracts.test_no_closed_overflow_is_bitwise_frozen_M2) ... ok
+test_odd_tail_reset_and_close_release_all_A06_state (test_a06.A06Contracts.test_odd_tail_reset_and_close_release_all_A06_state) ... ok
+test_reader_exception_preserves_state (test_a06.A06Contracts.test_reader_exception_preserves_state) ... ok
+test_real_2b_feature_width_counts_descriptor_and_budget (test_a06.A06Contracts.test_real_2b_feature_width_counts_descriptor_and_budget) ... ok
+test_session_uses_same_detector_flags_and_matches_upstream (test_a06.A06Contracts.test_session_uses_same_detector_flags_and_matches_upstream) ... ok
+test_upstream_bytes_and_provenance_are_locked (test_a06.A06Contracts.test_upstream_bytes_and_provenance_are_locked) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 13.343s
+
+OK
