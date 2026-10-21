@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "stage": "native",
+  "contexts": 34,
+  "tiny_answers": 1,
+  "actual_sampled_frames": 16,
+  "seconds": 25.111170748248696,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "protocol_sha256": "a573dfa85b6dbc7de456eae208d2ed9f8762932efe6080edb0ab66666a8beef6",
+  "local_proof_sha256": "88f07e8f48b623c371a7931c5d6f789ef2aed5f7401aa97acc72c02ced8f6f87"
+}

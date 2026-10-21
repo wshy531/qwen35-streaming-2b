@@ -1,0 +1,37 @@
+{
+  "status": "paused_by_user_before_video_download_or_GPU",
+  "approval_date_client": "2026-10-21",
+  "user_approval": "批准",
+  "total_GPU_seconds_cap": 28800,
+  "GPU_count": 1,
+  "GPU": "A80080GB",
+  "partition": "g078t",
+  "comment": "gx_llm",
+  "CPUs": 4,
+  "host_memory_GiB": 32,
+  "scope": "4 natural recording-day sequences, fixed768 recent/reservoir/M2,96 target questions, causal replay, no training or sweep",
+  "proposed_allocation_seconds": {
+    "preflight": 900,
+    "source_jobs": [
+      5400,
+      5400,
+      5400,
+      5400
+    ],
+    "fixed_controls": 2700,
+    "unallocated_reserve": 3600
+  },
+  "jobs": [],
+  "GPU_seconds_used": 0,
+  "GPU_seconds_reserved_for_submitted_jobs": 0,
+  "before_each_submission": "bind protocol/input/source lock, pass CPU interface, announce exact script/output/resources; reserve requested walltime under cumulative cap",
+  "after_each_job": "record sacct allocated elapsed*GPU count including failed attempts; unknown result retains full reservation",
+  "automatic_retries": false,
+  "download_approved": false,
+  "download_manifest_sha256": "35740277f9940d56b8b540341e6a2f1eb44d34559fd8130240bfd0a158e844c5",
+  "pause_date_client": "2026-10-21",
+  "pause_reason": "user will discuss with collaborator; current work to PR only",
+  "automatic_resume": false,
+  "historical_approved_GPU_seconds_cap": 28800,
+  "active_GPU_submission_allowed": false
+}

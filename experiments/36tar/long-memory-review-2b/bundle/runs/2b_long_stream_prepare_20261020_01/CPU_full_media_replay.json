@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "sources": [
+    {
+      "answers": 5,
+      "pairs": 226,
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "peak_RGB_buffers": 2
+    },
+    {
+      "answers": 5,
+      "pairs": 240,
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "peak_RGB_buffers": 2
+    },
+    {
+      "answers": 5,
+      "pairs": 240,
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "peak_RGB_buffers": 2
+    },
+    {
+      "answers": 9,
+      "pairs": 240,
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "peak_RGB_buffers": 2
+    },
+    {
+      "answers": 5,
+      "pairs": 240,
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "peak_RGB_buffers": 2
+    },
+    {
+      "answers": 5,
+      "pairs": 240,
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "peak_RGB_buffers": 2
+    }
+  ],
+  "answers": 34,
+  "events": 1466,
+  "callback_events": 34,
+  "peak_process_RSS_bytes": 72998912,
+  "seconds": 235.42199999999866,
+  "full_real_media_decoded": true,
+  "all_sampled_RGB_and_committed_prefix_hashes_match": true,
+  "pretrained_model_loads": 0,
+  "random_model_loads": 0,
+  "GPU_jobs": 0,
+  "limitation": "fake observer; not pretrained capability or wall-clock playback"
+}

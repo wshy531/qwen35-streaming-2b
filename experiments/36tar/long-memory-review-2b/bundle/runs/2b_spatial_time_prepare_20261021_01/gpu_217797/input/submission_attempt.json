@@ -1,0 +1,26 @@
+{
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-%j.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-%j.err"
+  ],
+  "stdin_script": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-spatial-time-v1/run_eval.sh",
+  "original_script_sha256": "cf8da206fd15208d74ea51f9b2b55a418f71282af2131f82bb60e39be3c110a3",
+  "submitted_script_sha256": "b2ece4bce0b01c66ce759c5ee6fadc23edbe2327ff96ed713e2f6692b0550ba3",
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-A04-spatial",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=00:30:00",
+    "#SBATCH --no-requeue"
+  ],
+  "environment_overrides": {},
+  "UTC": "2026-10-20T17:53:14.558752+00:00",
+  "no_auto_retry": true
+}

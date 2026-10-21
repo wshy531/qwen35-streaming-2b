@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "remote_files_SHA_equal": 22,
+  "independently_recomputed_answers": 170,
+  "question_labels_unchanged": true,
+  "preregistered_primary_scorer_unchanged": true,
+  "protocol_sha256": "a573dfa85b6dbc7de456eae208d2ed9f8762932efe6080edb0ab66666a8beef6",
+  "all_runtime_input_bytes_match_remote": true,
+  "Slurm_completed_0_0": true,
+  "queue_empty": true,
+  "GPU_resources_released": true,
+  "new_GPU_submissions": 1,
+  "pretrained_loads": 2,
+  "answers": 170,
+  "generated_tokens": 354,
+  "source_AST_count": 28,
+  "analysis_outputs_sha256": {
+    "strict_results.json": "62b761d6432b35745e00565157d32a253c70d56a597e08c7679f02156da5a286",
+    "runtime_audit.json": "aac9067300dd970785dbaea6495123931a91f4080c0b791b1e9fca95f1a6680e",
+    "explanatory_diagnostics.json": "d9c84b02dff9944db4c3b4704331c3163aa189efb1b21a1792ba66d3f79a7bcd"
+  },
+  "result_report_sha256": "2317bbfa77374b4ef561f77ca7cc79733347c23e4585f4ef64cd397029cd8321"
+}

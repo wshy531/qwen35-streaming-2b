@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_consumer_failure_stops_producer (test_clock_input.Tests.test_consumer_failure_stops_producer) ... ok\ntest_deadlines_with_overload_and_multiple_due_questions (test_clock_input.Tests.test_deadlines_with_overload_and_multiple_due_questions) ... ok\ntest_query_before_pair_and_after_producer_eof (test_clock_input.Tests.test_query_before_pair_and_after_producer_eof) ... ok\ntest_source_error_propagates_and_closes (test_clock_input.Tests.test_source_error_propagates_and_closes) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.239s\n\nOK\n"
+}

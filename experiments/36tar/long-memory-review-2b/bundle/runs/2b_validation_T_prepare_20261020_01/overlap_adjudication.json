@@ -1,0 +1,35 @@
+{
+  "status": "single_assistant_visual_adjudication_complete_for_flagged_pairs",
+  "exact_frame": {
+    "source": "1164/3960291106",
+    "pts_s": 0.0,
+    "verdict": "uniform_black_frame_not_duplicate_content",
+    "rgb_sha256": "8123c216413f82bbaa0339c27a43d9822c2a043e20662b27c97874429b996e9a"
+  },
+  "weak_pairs": [
+    {
+      "a": "1010/7308042410",
+      "b": "1202/5702201498",
+      "verdict": "different_visible_content",
+      "evidence": "pottery vs person and dog on sofa",
+      "old_comparison_image": "parent_screen_old5702201498.png",
+      "old_comparison_sha256": "27f88082b145b33836ef1740fd652289d885642cab58c6f202d784c5b55de684"
+    },
+    {
+      "a": "1007/4857781123",
+      "b": "1015/6754608321",
+      "verdict": "different_visible_content",
+      "evidence": "dog by shoes/red bag vs girl and infant on couch"
+    },
+    {
+      "a": "1102/7536230796",
+      "b": "1017/8493226484",
+      "verdict": "different_visible_content",
+      "evidence": "toddler TV/red-toy scene vs woman tipping child on lap; no matching scene"
+    }
+  ],
+  "rejected_as_old_duplicate_sources": 0,
+  "filming_session_independence_proven": false,
+  "automatic_hash_candidates_not_treated_as_identity_proof": true,
+  "second_reviewer": "not_performed"
+}

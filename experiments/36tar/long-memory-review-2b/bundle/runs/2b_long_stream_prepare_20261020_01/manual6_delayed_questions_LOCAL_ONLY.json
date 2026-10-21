@@ -1,0 +1,272 @@
+[
+  {
+    "id": "local_longstream_v1:01",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "question": "Which happened first: taking plastic wrap from the upper cupboard or opening the refrigerator?",
+    "options": [
+      "Opening the refrigerator before taking the wrap",
+      "Neither action occurred",
+      "Taking the wrap before opening the refrigerator",
+      "Only opening the refrigerator occurred"
+    ],
+    "answer_index": 2,
+    "query_time_s": 430.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 6180,
+        "pts_s": 206.0,
+        "rgb_sha256": "09df980a8357d269dab244a64466b51095979808c2024bb1fa634036e5126e57"
+      },
+      {
+        "frame_id": 6270,
+        "pts_s": 209.0,
+        "rgb_sha256": "31e3ea8c1d0ac8e01515dfe80ec7779918b4c6e803c1a0ed5c456f7bd25663ee"
+      },
+      {
+        "frame_id": 6330,
+        "pts_s": 211.0,
+        "rgb_sha256": "9ee1d2a75a72b23927ab8ae21edef90f5fad75e442781780fb76a05003af28e0"
+      },
+      {
+        "frame_id": 6780,
+        "pts_s": 226.0,
+        "rgb_sha256": "cc6cf47a09b732016bd5d9aa84a51c248c3888c163bf52d0edc47e113a68f656"
+      },
+      {
+        "frame_id": 6840,
+        "pts_s": 228.0,
+        "rgb_sha256": "197871d7ea4fa75277e4106320c19660eb2e91ba5a70b65910ba6d5e47e8f160"
+      }
+    ],
+    "witness_gap_s": 202.0,
+    "reason": "Wrap taken from upper cupboard and used before refrigerator opens.",
+    "limitations": "Two earlier transitions; all overview pages seen, but necessity still needs intervention.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "question": "Which order did the wearer follow in the store?",
+    "options": [
+      "Inspecting boxed toys before passing the Duracell battery display",
+      "Passing the Duracell display before inspecting boxed toys",
+      "Inspecting boxed toys without ever passing a battery display",
+      "Passing a battery display without ever inspecting boxed toys"
+    ],
+    "answer_index": 0,
+    "query_time_s": 470.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 1350,
+        "pts_s": 45.0,
+        "rgb_sha256": "78aa39efa4f48a1237ef60cf4bde739fcaa4345b5ffb24a038d21d9db5eb5c2c"
+      },
+      {
+        "frame_id": 1500,
+        "pts_s": 50.0,
+        "rgb_sha256": "c7f1466d071466acf8cdc9c0c0b3ce4b55e80e6e62d60a44e81a4cabb55123d5"
+      },
+      {
+        "frame_id": 10170,
+        "pts_s": 339.0,
+        "rgb_sha256": "3b9edacb30310ff9c3e7b3d593818393f0b0409448a8f83f3703734c30468ca6"
+      },
+      {
+        "frame_id": 10230,
+        "pts_s": 341.0,
+        "rgb_sha256": "993855619863f4c78829aac2879149f6355aa0e62198ff3f01dd675cbfa8e5be"
+      }
+    ],
+    "witness_gap_s": 129.0,
+    "reason": "Toy inspection precedes the later battery-display/cart scene.",
+    "limitations": "Box identity is generic, not the ambiguous alien/robot label.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "question": "Which sequence of activities was shown earlier in this clip?",
+    "options": [
+      "Applying mortar to a panel, handling blue buckets, using the orange mixer",
+      "Using the orange mixer, applying mortar to a panel, handling blue buckets",
+      "Handling blue buckets, using the orange mixer, applying mortar to a panel",
+      "Using the orange mixer, handling blue buckets, applying mortar to a panel"
+    ],
+    "answer_index": 3,
+    "query_time_s": 450.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 600,
+        "pts_s": 20.0,
+        "rgb_sha256": "c4fa8b4bf84d5da3e3919877adf5b2c0bc3371012b25465c4278f589fcc8b583"
+      },
+      {
+        "frame_id": 3450,
+        "pts_s": 115.0,
+        "rgb_sha256": "98e61dc5f1bb25d8ab162f34951f836a14152ecd227182ce4513bc0a8c8bb3a3"
+      },
+      {
+        "frame_id": 6000,
+        "pts_s": 200.0,
+        "rgb_sha256": "32df1decb0ae999ea59f5450255ffbe51b0fe89e3a6b0348ef2e2fe92e580ed2"
+      }
+    ],
+    "witness_gap_s": 250.0,
+    "reason": "Orange mixer work precedes blue-bucket handling and subsequent panel application.",
+    "limitations": "Tool/workflow context could help guessing; keep text-only control and do not claim necessity.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "question": "After cutting the yellow pepper into strips, which ingredient was cut into strips next?",
+    "options": [
+      "Cabbage",
+      "Green pepper",
+      "Onion",
+      "Carrot"
+    ],
+    "answer_index": 1,
+    "query_time_s": 460.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 600,
+        "pts_s": 20.0,
+        "rgb_sha256": "53de6ffdcbf41f1692d1d29aa81473c24c5f2c3a8c4425314022536acbcb4db3"
+      },
+      {
+        "frame_id": 1440,
+        "pts_s": 48.0,
+        "rgb_sha256": "4a615fee2e26415659f74b88f1c53a634c2ca29278a2774fce14909b5318852e"
+      },
+      {
+        "frame_id": 1620,
+        "pts_s": 54.0,
+        "rgb_sha256": "62777e1a30b9f352a15c22014eb26c66d9c2783b8caeba24c2910d28ed45d154"
+      },
+      {
+        "frame_id": 1800,
+        "pts_s": 60.0,
+        "rgb_sha256": "9f7c92c0d0ed5b22af3d34711a4fea2fa8d2aa52e7c299401a2e9ce3e790630a"
+      },
+      {
+        "frame_id": 2100,
+        "pts_s": 70.0,
+        "rgb_sha256": "f3646563ae1e79dfca7497cc6576cedafb9aca975efc513a2d15d81a90c7a350"
+      }
+    ],
+    "witness_gap_s": 390.0,
+    "reason": "Yellow pepper strips precede green pepper strips; cabbage is later.",
+    "limitations": "Vegetables remain visible later, but their order requires earlier sequence evidence.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "question": "What color was the first cloth taken out of the tool drawer and used for wiping?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "answer_index": 0,
+    "query_time_s": 440.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 1800,
+        "pts_s": 60.0,
+        "rgb_sha256": "12d8f49eb4a10a0c96c0ac2fcd87a511cd04677c8e1c6da26b6b1b850a83646c"
+      },
+      {
+        "frame_id": 1860,
+        "pts_s": 62.0,
+        "rgb_sha256": "24f299dbdcc09f6e8665419cc5f19aa036b0f122794eb6a65b40e114f64722a1"
+      },
+      {
+        "frame_id": 1950,
+        "pts_s": 65.0,
+        "rgb_sha256": "2d015e019dfbd8f70bed89516c84423fb680c547a356f5f6ed2bbb924d551523"
+      },
+      {
+        "frame_id": 2100,
+        "pts_s": 70.0,
+        "rgb_sha256": "5a234b2734acb0d316b5497bdb88c4f093ef99b7b4fe70b447bb76e5d7f357ed"
+      }
+    ],
+    "witness_gap_s": 370.0,
+    "reason": "Red cloth is taken from drawer and used before the later blue cloth.",
+    "limitations": "Scene has many red objects; answer dependence must be checked, not inferred from gap.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "question": "At the initial road crossing, what small roadside fixture stood beside the pedestrian button pole?",
+    "options": [
+      "Parking meter",
+      "Bicycle rack",
+      "Fire hydrant",
+      "Public trash bin"
+    ],
+    "answer_index": 2,
+    "query_time_s": 450.0,
+    "annotation_origin": "new_manual_single_assistant_NOT_official_OVO",
+    "split": "development_integration_NOT_unseen_holdout",
+    "witnesses": [
+      {
+        "frame_id": 120,
+        "pts_s": 4.0,
+        "rgb_sha256": "c5162c8eadc744eb985a8c5101bf8874dd039a24f09562d32592e4f2c1de2d4a"
+      },
+      {
+        "frame_id": 150,
+        "pts_s": 5.0,
+        "rgb_sha256": "2880050f85844429b33d877a26099452a894f5143e34d0773cd5704f219cf836"
+      },
+      {
+        "frame_id": 210,
+        "pts_s": 7.0,
+        "rgb_sha256": "9ceb10dc1994609ca73a3bcf9dd03fe1a708b5bd4983945bb094f3666e609c34"
+      }
+    ],
+    "witness_gap_s": 443.0,
+    "reason": "Red fire hydrant is next to the pedestrian-crossing pole before entering the store.",
+    "limitations": "Small object at this canvas; cross-source reuse and text priors need controls.",
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "original_OVO_questions_unchanged": true
+  }
+]

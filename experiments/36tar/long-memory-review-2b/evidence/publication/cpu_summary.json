@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "total": 209,
+  "suites": [
+    3,
+    12,
+    186,
+    8
+  ],
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "GPU_submissions": 0,
+  "pretrained_loads": 0,
+  "offline": true,
+  "source_log": "repository_cpu_checks_final.log",
+  "engineering_attempts": 3,
+  "initial_failures": [
+    "sandbox_temp_write_denied",
+    "sandbox_loopback_socket_denied"
+  ]
+}

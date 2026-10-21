@@ -1,0 +1,32 @@
+[
+  {
+    "id": "local_longstream_v1:01",
+    "answer_index": 2,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "answer_index": 0,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "answer_index": 3,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "answer_index": 1,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "answer_index": 0,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "answer_index": 2,
+    "origin": "new_manual_single_assistant_NOT_official_OVO"
+  }
+]

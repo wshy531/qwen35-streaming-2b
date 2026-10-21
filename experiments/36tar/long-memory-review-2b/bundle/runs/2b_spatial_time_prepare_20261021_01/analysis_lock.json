@@ -1,0 +1,7 @@
+{
+  "runs/2b_spatial_time_prepare_20261021_01/analyze_fixed.py": "ba588a30e1a8c2a90c6758000ea12fb8394030d2393b6942625d3f0de4108ce5",
+  "runs/2b_spatial_time_prepare_20261021_01/audit_completed.py": "7cb0d0b15d93a4b22a5f7e7d7e8b62986ea38f1af3939ddb19e61592ae9057f4",
+  "runs/2b_spatial_time_prepare_20261021_01/analyze_witness_allocation.py": "4acf37729e507c02c42a387f9ec8847b78cacac51d40e31a5eba6bbe53b18298",
+  "experiments/2b-natural-eval-v1/score_memory_eval.py": "60585fde02978c240db51dd44f3870fdf8a864143cb8cdd16ef8d95e84d7e378",
+  "runs/2b_long_stream_prepare_20261020_01/stream_labels34_LOCAL_ONLY.json": "503e54327338684ea3f263699386576049af8b289ec8a9736a92bf5676cf4e9e"
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "ovo:70",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:71",
+    "answer_index": 3,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:72",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:73",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:104",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:105",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:102",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:103",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:106",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:107",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:108",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:109",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:130",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:131",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:68",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:69",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:67",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:66",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:132",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:133",
+    "answer_index": 0,
+    "verdict": "not_established_at_committed_cutoff",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:180",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:181",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:182",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:183",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:144",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:145",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:147",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "ovo:146",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:01",
+    "answer_index": 2,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "answer_index": 0,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "answer_index": 3,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "answer_index": 1,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "answer_index": 0,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "answer_index": 2,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "independent_regex_recomputed": 170,
+  "old_baseline_IDs_matched": 68,
+  "strict_results_SHA256": "4f98c6633155991a0ae40e9bb6aad56ccc09173544bfb0d44d38fa9edacd707a",
+  "witness_audit_SHA256": "eb041ea0987cf20e67d6a4634ced15368a6fc17a19dc2624a4693d310002ca6b"
+}

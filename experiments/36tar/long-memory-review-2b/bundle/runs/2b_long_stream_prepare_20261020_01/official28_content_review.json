@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "ovo:70",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "original": {
+      "id": 70,
+      "task": "EPM",
+      "video": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "realtime": 292,
+      "question": "Where did  I pick the spatula?",
+      "answer": "from the cupboard",
+      "options": [
+        "from the hanging cabinet",
+        "from the drawer",
+        "from the cupboard",
+        "from the refrigerator"
+      ],
+      "gt": 2
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Specific spatula pickup/location not established in viewed prefix pages.",
+    "limitations": "Do not infer cabinet source from generic kitchen layout.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:70",
+      "query_time_s": 292,
+      "received_frames": 293,
+      "committed_pairs": 146,
+      "committed_through_s": 291.0,
+      "pending_frame_id": 8760,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "5377f0588a31afd9c07ee7bbf7856c06a1f844c107a4607f6c13869bf91a7e24",
+      "last_committed_frame_id": 8730
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:71",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "original": {
+      "id": 71,
+      "task": "EPM",
+      "video": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "realtime": 346,
+      "question": "How much food did I put in the bowl?",
+      "answer": "four spoons",
+      "options": [
+        "one spoon",
+        "two spoons",
+        "three spoons",
+        "four spoons"
+      ],
+      "gt": 3
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Multiple transfers visible; exactly four scoops not independently established by this review.",
+    "limitations": "Do not rewrite official count or infer it from the answer.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:71",
+      "query_time_s": 346,
+      "received_frames": 347,
+      "committed_pairs": 173,
+      "committed_through_s": 345.0,
+      "pending_frame_id": 10380,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "114e75c9f207ceeed91ffddd2e9a7e938e40d8093b3c66f8f0ef057eedfec18b",
+      "last_committed_frame_id": 10350
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:72",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "original": {
+      "id": 72,
+      "task": "EPM",
+      "video": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "realtime": 411,
+      "question": "What color is the towel I wiped hands with?",
+      "answer": "pink",
+      "options": [
+        "white",
+        "pink",
+        "blue",
+        "green"
+      ],
+      "gt": 1
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 12150,
+        "pts_s": 405.0,
+        "rgb_sha256": "4f6fd9c332a39bbbf323d2ba3078f158cdbcb57fadacef18df99159ae348bce8"
+      },
+      {
+        "frame_id": 12240,
+        "pts_s": 408.0,
+        "rgb_sha256": "27b2b11b6180a2e5b96ecd8db90b2adb4e128894ed58b8ea56a14cf21b3e323d"
+      }
+    ],
+    "reason": "Pink towel used on hands near sink before411s.",
+    "limitations": "Near-query evidence; not long-memory necessity.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:72",
+      "query_time_s": 411,
+      "received_frames": 412,
+      "committed_pairs": 206,
+      "committed_through_s": 411.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "be66659949293986cd375d67617cd4a42ba7a12fbc1f732e96d3b1f94ca6028f",
+      "last_committed_frame_id": 12330
+    },
+    "witness_gap_s": 3.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:73",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "original": {
+      "id": 73,
+      "task": "EPM",
+      "video": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "realtime": 438,
+      "question": "What did I pick from the drawer?",
+      "answer": "spoon",
+      "options": [
+        "chopstick",
+        "spoon",
+        "fork",
+        "spatula"
+      ],
+      "gt": 1
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 9540,
+        "pts_s": 318.0,
+        "rgb_sha256": "948de857b41a810c957c8bab0df6baa5f1371442e5f3a99dcbf00ebe45cb61fb"
+      },
+      {
+        "frame_id": 9660,
+        "pts_s": 322.0,
+        "rgb_sha256": "d1c3e8657245f9ff8da23809c284621826a19783f72b339036165f74fd9e9bbb"
+      },
+      {
+        "frame_id": 9750,
+        "pts_s": 325.0,
+        "rgb_sha256": "671483aa5abf5d000fe9247836e9803729d5010103847215203721f8e74fe1d4"
+      }
+    ],
+    "reason": "Drawer opens and a dark serving spoon is taken and used on food.",
+    "limitations": "Spoon remains in kitchen context later; witness age is not necessity.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:73",
+      "query_time_s": 438,
+      "received_frames": 439,
+      "committed_pairs": 219,
+      "committed_through_s": 437.0,
+      "pending_frame_id": 13140,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "2fdc6c59912b0c3224c34a99b8837299cb44307c577606f5bec12dabb06970ae",
+      "last_committed_frame_id": 13110
+    },
+    "witness_gap_s": 113.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:104",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "original": {
+      "id": 104,
+      "task": "EPM",
+      "video": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "realtime": 51,
+      "question": "Where did I put the alien toy box?",
+      "answer": "At the toy rack",
+      "options": [
+        "On the floor",
+        "At the toy rack",
+        "In the shopping basket",
+        "On the shelf"
+      ],
+      "gt": 1
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Toy-rack and shelf options overlap; exact alien-box identity unresolved at input resolution.",
+    "limitations": "No label correction or model-conditioned exclusion.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:104",
+      "query_time_s": 51,
+      "received_frames": 52,
+      "committed_pairs": 26,
+      "committed_through_s": 51.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "35e5dcb0f2f73fe84676e40b2526c8b9be1ff27e274c140435f4f9ec0fae0c2d",
+      "last_committed_frame_id": 1530
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:105",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "original": {
+      "id": 105,
+      "task": "EPM",
+      "video": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "realtime": 81,
+      "question": "Where did i put the white robot toy",
+      "answer": "In the shelf",
+      "options": [
+        "On the toy rack",
+        "On the floor",
+        "In the shelf",
+        "In the shopping basket"
+      ],
+      "gt": 2
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Shelf versus toy-rack distinction and exact robot identity not sufficiently established.",
+    "limitations": "Closely related location options retained.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:105",
+      "query_time_s": 81,
+      "received_frames": 82,
+      "committed_pairs": 41,
+      "committed_through_s": 81.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "9ed8c62d3787edc3e64860ee682ee89209b59c1eb768d7041586159ab6b45c6c",
+      "last_committed_frame_id": 2430
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:102",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "original": {
+      "id": 102,
+      "task": "EPM",
+      "video": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "realtime": 341,
+      "question": "Where s shopping cart?",
+      "answer": "Beside Duracell",
+      "options": [
+        "Beside the checkout",
+        "Next to the toys",
+        "Beside Duracell",
+        "Near the book section"
+      ],
+      "gt": 2
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 10170,
+        "pts_s": 339.0,
+        "rgb_sha256": "3b9edacb30310ff9c3e7b3d593818393f0b0409448a8f83f3703734c30468ca6"
+      },
+      {
+        "frame_id": 10200,
+        "pts_s": 340.0,
+        "rgb_sha256": "9fd11341c145ffde3eb831990e975926ef424c049f5d80cf6bafa7f9b638b8bb"
+      },
+      {
+        "frame_id": 10230,
+        "pts_s": 341.0,
+        "rgb_sha256": "993855619863f4c78829aac2879149f6355aa0e62198ff3f01dd675cbfa8e5be"
+      }
+    ],
+    "reason": "Metal shopping cart is adjacent to Duracell battery display.",
+    "limitations": "Direct recent evidence despite a query after5min.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:102",
+      "query_time_s": 341,
+      "received_frames": 342,
+      "committed_pairs": 171,
+      "committed_through_s": 341.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "1d34922309b41b97d3e4db3bd8c42748afd29eea8986c9eb09e93fa0be5b03aa",
+      "last_committed_frame_id": 10230
+    },
+    "witness_gap_s": 0.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:103",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "original": {
+      "id": 103,
+      "task": "EPM",
+      "video": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "realtime": 439,
+      "question": "What color is the shopping basket?",
+      "answer": "Blue",
+      "options": [
+        "Red",
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "gt": 2
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 11850,
+        "pts_s": 395.0,
+        "rgb_sha256": "554942fbbb0dbf5fb4de7d7eb21fca3fd1975038a5b52ef209893022c36e531e"
+      },
+      {
+        "frame_id": 12900,
+        "pts_s": 430.0,
+        "rgb_sha256": "a2ca630d41b273d190a378436ea007dd97811e541fd6c41e5026f67432948f3d"
+      }
+    ],
+    "reason": "Blue shopping basket visible while moving through store.",
+    "limitations": "Basket is repeatedly visible, not necessary early memory.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:103",
+      "query_time_s": 439,
+      "received_frames": 440,
+      "committed_pairs": 220,
+      "committed_through_s": 439.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "b1eb1ad86835a58ebe6153c89514297b4f820adfb6137abc0fcd67f3ad217eb7",
+      "last_committed_frame_id": 13170
+    },
+    "witness_gap_s": 9.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:106",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "original": {
+      "id": 106,
+      "task": "EPM",
+      "video": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "realtime": 192,
+      "question": "Where was the container after I moved it?",
+      "answer": "at the floor",
+      "options": [
+        "at the floor",
+        "at the table",
+        "at the ground",
+        "at the cabinet"
+      ],
+      "gt": 0
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Floor and ground options overlap for the container placement.",
+    "limitations": "Physical position can be seen but unique MC answer is ambiguous.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:106",
+      "query_time_s": 192,
+      "received_frames": 193,
+      "committed_pairs": 96,
+      "committed_through_s": 191.0,
+      "pending_frame_id": 5760,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "dda39edf461493935e22eedcf440e0acc037089bf7071ac30770149e0531b518",
+      "last_committed_frame_id": 5730
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:107",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "original": {
+      "id": 107,
+      "task": "EPM",
+      "video": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "realtime": 251,
+      "question": "How many times did I scoop cement from the container?",
+      "answer": "five times",
+      "options": [
+        "three times",
+        "four times",
+        "five times",
+        "six times"
+      ],
+      "gt": 2
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Repeated mortar scooping; exact five count not independently verified here.",
+    "limitations": "Requires separate count audit, not declared official-label error.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:107",
+      "query_time_s": 251,
+      "received_frames": 252,
+      "committed_pairs": 126,
+      "committed_through_s": 251.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "14b6208e1909581cd3ededb29e3630eb2a24dc075453947c663e8ce6c0f0a581",
+      "last_committed_frame_id": 7530
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:108",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "original": {
+      "id": 108,
+      "task": "EPM",
+      "video": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "realtime": 322,
+      "question": "What did I put in the container?",
+      "answer": "cement",
+      "options": [
+        "cement",
+        "water",
+        "mud",
+        "garbage"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 6000,
+        "pts_s": 200.0,
+        "rgb_sha256": "32df1decb0ae999ea59f5450255ffbe51b0fe89e3a6b0348ef2e2fe92e580ed2"
+      },
+      {
+        "frame_id": 9000,
+        "pts_s": 300.0,
+        "rgb_sha256": "cee406934838276af5d68742275c9e4b59fe31c60b47f475d4279bdd1945fb97"
+      },
+      {
+        "frame_id": 9600,
+        "pts_s": 320.0,
+        "rgb_sha256": "37f532e40f65c3842caf2fed18b0e361ee31e46eced4255e8e655d5cd1344989"
+      }
+    ],
+    "reason": "Grey mortar/cement is transferred from bucket during panel plastering.",
+    "limitations": "Material inferred with construction context; repeats near query.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:108",
+      "query_time_s": 322,
+      "received_frames": 323,
+      "committed_pairs": 161,
+      "committed_through_s": 321.0,
+      "pending_frame_id": 9660,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "b923dcf0b66114e44acbc78d5545caa63bf955bbf1510a9dc54d6a714017c7b6",
+      "last_committed_frame_id": 9630
+    },
+    "witness_gap_s": 2.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:109",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "original": {
+      "id": 109,
+      "task": "EPM",
+      "video": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "realtime": 394,
+      "question": "Where was the scraper before I picked it?",
+      "answer": "hanging the cabinet",
+      "options": [
+        "hanging the cabinet",
+        "on the table",
+        "at the ground",
+        "in the bucket"
+      ],
+      "gt": 0
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Exact scraper source versus adjacent cabinet/workbench not resolved.",
+    "limitations": "No automatic cabinet answer from room context.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:109",
+      "query_time_s": 394,
+      "received_frames": 395,
+      "committed_pairs": 197,
+      "committed_through_s": 393.0,
+      "pending_frame_id": 11820,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "f8e677f154c322b363f2410718496155aed8293561f36360ecb1aea7f0c74361",
+      "last_committed_frame_id": 11790
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:130",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 130,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 240,
+      "question": "What did I put in the dust bin?",
+      "answer": "beef sauce",
+      "options": [
+        "beef sauce",
+        "tomato",
+        "garlic"
+      ],
+      "gt": 0
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Discarded package/food identity cannot be verified as beef sauce at current canvas.",
+    "limitations": "Do not claim incorrect official annotation.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:130",
+      "query_time_s": 240,
+      "received_frames": 241,
+      "committed_pairs": 120,
+      "committed_through_s": 239.0,
+      "pending_frame_id": 7200,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "6c28fa5636866a3e6a7657a7d335e230a8440d450c3c755bcba276620090e3b6",
+      "last_committed_frame_id": 7170
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:131",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 131,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 277,
+      "question": "What did I remove from the plastic bag?",
+      "answer": "onion",
+      "options": [
+        "onion",
+        "green pepper",
+        "cabbage"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 8190,
+        "pts_s": 273.0,
+        "rgb_sha256": "59dfb88eaa040eec58e00fa99e5de6ca2c1b2d1fbba47f23534bd7c5f379612e"
+      },
+      {
+        "frame_id": 8250,
+        "pts_s": 275.0,
+        "rgb_sha256": "3da6d0af96186ed1880a59ee83a644278d5b16ddd2c6edbfbeac65105f7acd70"
+      },
+      {
+        "frame_id": 8310,
+        "pts_s": 277.0,
+        "rgb_sha256": "aed0e86a31e2062a29c9fc1a9aca361a6589f05354f55d4078306f5b6ba7f051"
+      }
+    ],
+    "reason": "Onion is removed from clear plastic bag.",
+    "limitations": "Direct recent transition.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:131",
+      "query_time_s": 277,
+      "received_frames": 278,
+      "committed_pairs": 139,
+      "committed_through_s": 277.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc",
+      "last_committed_frame_id": 8310
+    },
+    "witness_gap_s": 0.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:68",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 68,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 278,
+      "question": "Where is the red floor pillow?",
+      "answer": "at the living room",
+      "options": [
+        "at the living room",
+        "in the bedroom",
+        "in the kitchen",
+        "in the bathroom"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 8190,
+        "pts_s": 273.0,
+        "rgb_sha256": "59dfb88eaa040eec58e00fa99e5de6ca2c1b2d1fbba47f23534bd7c5f379612e"
+      },
+      {
+        "frame_id": 8220,
+        "pts_s": 274.0,
+        "rgb_sha256": "5f2e39ad299b3f003cba8f35f189b84ac3a4a9face7743bed78f3a1042bedc6d"
+      },
+      {
+        "frame_id": 8250,
+        "pts_s": 275.0,
+        "rgb_sha256": "3da6d0af96186ed1880a59ee83a644278d5b16ddd2c6edbfbeac65105f7acd70"
+      }
+    ],
+    "reason": "Red round floor cushion visible in furnished living area beyond kitchen.",
+    "limitations": "Room category uses visible context, not full floorplan knowledge.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:68",
+      "query_time_s": 278,
+      "received_frames": 279,
+      "committed_pairs": 139,
+      "committed_through_s": 277.0,
+      "pending_frame_id": 8340,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc",
+      "last_committed_frame_id": 8310
+    },
+    "witness_gap_s": 3.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:69",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 69,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 278,
+      "question": "Where was the onion before I picked it?",
+      "answer": "nylon",
+      "options": [
+        "nylon",
+        "in the cabinet",
+        "inside the refrigerator",
+        "on the counter"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 8190,
+        "pts_s": 273.0,
+        "rgb_sha256": "59dfb88eaa040eec58e00fa99e5de6ca2c1b2d1fbba47f23534bd7c5f379612e"
+      },
+      {
+        "frame_id": 8250,
+        "pts_s": 275.0,
+        "rgb_sha256": "3da6d0af96186ed1880a59ee83a644278d5b16ddd2c6edbfbeac65105f7acd70"
+      },
+      {
+        "frame_id": 8310,
+        "pts_s": 277.0,
+        "rgb_sha256": "aed0e86a31e2062a29c9fc1a9aca361a6589f05354f55d4078306f5b6ba7f051"
+      }
+    ],
+    "reason": "The onion is held within and removed from the clear bag.",
+    "limitations": "Same event as131, correlated question rather than independent event.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:69",
+      "query_time_s": 278,
+      "received_frames": 279,
+      "committed_pairs": 139,
+      "committed_through_s": 277.0,
+      "pending_frame_id": 8340,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc",
+      "last_committed_frame_id": 8310
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:67",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 67,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 332,
+      "question": "Where was the plastic wrap before I picked it?",
+      "answer": "at the door of refrigerator",
+      "options": [
+        "at the door of refrigerator",
+        "on the counter",
+        "inside the refrigerator",
+        "in the cabinet"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 9900,
+        "pts_s": 330.0,
+        "rgb_sha256": "2c98e0c77141a6a44fb92d360e00e84281f0186f8f917f7a5d48edad4fbc9323"
+      },
+      {
+        "frame_id": 9930,
+        "pts_s": 331.0,
+        "rgb_sha256": "e5ae53e73e76a17c6e967e3137ae4e80e38b39cf83089152359a8341789f307d"
+      }
+    ],
+    "reason": "Long wrap carton is on the refrigerator door shelf before retrieval.",
+    "limitations": "Retrieval occurs later; location itself is visible before committed cutoff.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:67",
+      "query_time_s": 332,
+      "received_frames": 333,
+      "committed_pairs": 166,
+      "committed_through_s": 331.0,
+      "pending_frame_id": 9960,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "b332458519bebcee837cb9ba41a97dd9f6fe4d698a53495d32f6fd85c812052b",
+      "last_committed_frame_id": 9930
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:66",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 66,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 373,
+      "question": "Where did I put the remaining onions?",
+      "answer": "at the refrigerator",
+      "options": [
+        "on the counter",
+        "at the refrigerator",
+        "inside the refrigerator",
+        "in the cabinet"
+      ],
+      "gt": 1
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "At refrigerator versus inside refrigerator overlap; placement completion is also near query.",
+    "limitations": "Keep original alternatives; no scoring repair.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:66",
+      "query_time_s": 373,
+      "received_frames": 374,
+      "committed_pairs": 187,
+      "committed_through_s": 373.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "5b58da8804090ead7f216df02b8a04b6ce795c6dc469161772b7d420051d14b4",
+      "last_committed_frame_id": 11190
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:132",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 132,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 374,
+      "question": "What did I put in the fridge?",
+      "answer": "onion",
+      "options": [
+        "onion",
+        "green pepper",
+        "cabbage"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 11130,
+        "pts_s": 371.0,
+        "rgb_sha256": "98fff34513bd5a3ec3fbecd2ee1e865a5a68d2c7c66f26a7ebd0f05182bc6259"
+      },
+      {
+        "frame_id": 11160,
+        "pts_s": 372.0,
+        "rgb_sha256": "8897bb6adc30bba5488032fbf8dcef258248d49f853987fdef2c9f535becb3af"
+      },
+      {
+        "frame_id": 11190,
+        "pts_s": 373.0,
+        "rgb_sha256": "fee286c2d6442b2d668c1a2bb442153671266cdbcd3a545365ade913e82aa443"
+      }
+    ],
+    "reason": "Onion is carried into the open fridge/door-shelf area.",
+    "limitations": "Release appears later; only object entering the fridge is claimed.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:132",
+      "query_time_s": 374,
+      "received_frames": 375,
+      "committed_pairs": 187,
+      "committed_through_s": 373.0,
+      "pending_frame_id": 11220,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "5b58da8804090ead7f216df02b8a04b6ce795c6dc469161772b7d420051d14b4",
+      "last_committed_frame_id": 11190
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:133",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "original": {
+      "id": 133,
+      "task": "EPM",
+      "video": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "realtime": 472,
+      "question": "What did I pick from the drawer?",
+      "answer": "pan lid",
+      "options": [
+        "pan lid",
+        "spatula",
+        "chopsticks"
+      ],
+      "gt": 0
+    },
+    "verdict": "not_established_at_committed_cutoff",
+    "witnesses": [],
+    "reason": "Pan lid retrieval becomes clear around472-473s, while paired observation at query472 ends471s.",
+    "limitations": "Do not use future frames or shift original query; report pairing/timing limitation.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:133",
+      "query_time_s": 472,
+      "received_frames": 473,
+      "committed_pairs": 236,
+      "committed_through_s": 471.0,
+      "pending_frame_id": 14160,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "a9cf6907f8045071d125e11aafe4dd53c03024c665498a4a23d3477ce2508d5f",
+      "last_committed_frame_id": 14130
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:180",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "original": {
+      "id": 180,
+      "task": "EPM",
+      "video": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "realtime": 59,
+      "question": "Where was the blue screwdriver?",
+      "answer": "inside the drawer",
+      "options": [
+        "on the toolbox",
+        "inside the drawer",
+        "beside the toolbox",
+        "near the red drum"
+      ],
+      "gt": 1
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Drawer is visible but exact blue screwdriver identity is unresolved at59s.",
+    "limitations": "Location plausibility alone is insufficient.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:180",
+      "query_time_s": 59,
+      "received_frames": 60,
+      "committed_pairs": 30,
+      "committed_through_s": 59.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "9bc60b381d8719e3a94d3f4f93576d821333a55ca47814b37f3fb3492eb885ab",
+      "last_committed_frame_id": 1770
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:181",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "original": {
+      "id": 181,
+      "task": "EPM",
+      "video": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "realtime": 243,
+      "question": "Where did I put the black basin?",
+      "answer": "in top of blue drum",
+      "options": [
+        "in top of blue drum",
+        "on the floor",
+        "inside the drawer",
+        "under the blue drum"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 7230,
+        "pts_s": 241.0,
+        "rgb_sha256": "3ff8cf9b11a0e35cf3cd2b2b0ddb123a9442be48301a06b93b6506f01b3c84f8"
+      },
+      {
+        "frame_id": 7260,
+        "pts_s": 242.0,
+        "rgb_sha256": "7808040f43af1e718bc0c04521a3d004e917a4c869c25bf28136296d8e426c4a"
+      },
+      {
+        "frame_id": 7290,
+        "pts_s": 243.0,
+        "rgb_sha256": "8305e5d63c967fc5401fda37fd6d128f715faff8ba7296314a820cde0521f9b5"
+      }
+    ],
+    "reason": "Black basin is lowered onto blue drum and released.",
+    "limitations": "Near-query placement, not old evidence.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:181",
+      "query_time_s": 243,
+      "received_frames": 244,
+      "committed_pairs": 122,
+      "committed_through_s": 243.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "c17babc886dcdcc13c843a70d356d52dca57913476acbb78186ee5c3aabff073",
+      "last_committed_frame_id": 7290
+    },
+    "witness_gap_s": 0.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:182",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "original": {
+      "id": 182,
+      "task": "EPM",
+      "video": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "realtime": 360,
+      "question": "where was the grey soldering gun before I picked it?",
+      "answer": "inside the drawer",
+      "options": [
+        "on the floor",
+        "inside the drawer",
+        "on the toolbox",
+        "under the toolbox"
+      ],
+      "gt": 1
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 10710,
+        "pts_s": 357.0,
+        "rgb_sha256": "59f2cf852edcf5db17a6072084b46553c3fcbc021eecabd7913ee9f5863fddb7"
+      },
+      {
+        "frame_id": 10740,
+        "pts_s": 358.0,
+        "rgb_sha256": "6229daba08c3ec1315b76e16b4037dcf815f3585a020bfa70bcaeb2369678566"
+      },
+      {
+        "frame_id": 10770,
+        "pts_s": 359.0,
+        "rgb_sha256": "158c33a8ac13a766c9bb0452ae40ad10e9fad9b04ba665e391fc518a005321b3"
+      }
+    ],
+    "reason": "Metal tool is accessed from opened tool drawer before moving to mower.",
+    "limitations": "Fine tool name not separately certified; drawer location is visible.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:182",
+      "query_time_s": 360,
+      "received_frames": 361,
+      "committed_pairs": 180,
+      "committed_through_s": 359.0,
+      "pending_frame_id": 10800,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "a879341ba576d66c06d6c46dca6afcf905ffc296188c21da6c4eac4441df5390",
+      "last_committed_frame_id": 10770
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:183",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "original": {
+      "id": 183,
+      "task": "EPM",
+      "video": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "realtime": 411,
+      "question": "Where was the wrench before I picked it?",
+      "answer": "inside the drawer",
+      "options": [
+        "on the toolbox",
+        "on the floor",
+        "inside the drawer",
+        "under the toolbox"
+      ],
+      "gt": 2
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 12240,
+        "pts_s": 408.0,
+        "rgb_sha256": "2af9f84ecc9e31cc1cfd5fc42db43ae8aa0062ce261885046317c4fa34400778"
+      },
+      {
+        "frame_id": 12270,
+        "pts_s": 409.0,
+        "rgb_sha256": "f2c290cc9724da16bb08d5af62adae6353a719cc5d79f752e15dac8b3411583d"
+      },
+      {
+        "frame_id": 12300,
+        "pts_s": 410.0,
+        "rgb_sha256": "e67ec8a19e243dbfe33d98c0f988725f71332792af8d7847905a4206eecc63d7"
+      }
+    ],
+    "reason": "Wrench is selected among wrenches in the open drawer.",
+    "limitations": "Current/very recent evidence.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:183",
+      "query_time_s": 411,
+      "received_frames": 412,
+      "committed_pairs": 206,
+      "committed_through_s": 411.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "d42687fed02d6f23644d6ae55758667afdd0247a66cb2b99f5f328350b1c5cec",
+      "last_committed_frame_id": 12330
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:144",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "original": {
+      "id": 144,
+      "task": "EPM",
+      "video": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "realtime": 132,
+      "question": "What color is the car?",
+      "answer": "white",
+      "options": [
+        "blue",
+        "white",
+        "black"
+      ],
+      "gt": 1
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 3750,
+        "pts_s": 125.0,
+        "rgb_sha256": "e58bc6701977e24da4124edae7dd1ab04659fec9f755d5b1dcf6e8fd5807f617"
+      },
+      {
+        "frame_id": 3900,
+        "pts_s": 130.0,
+        "rgb_sha256": "f4a278012f39ee810182743fb4671cbcac7f5affab25af22aac400db3073f994"
+      }
+    ],
+    "reason": "Nearby sedan in parking area is white.",
+    "limitations": "Several white vehicles occur; target follows local query context.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:144",
+      "query_time_s": 132,
+      "received_frames": 133,
+      "committed_pairs": 66,
+      "committed_through_s": 131.0,
+      "pending_frame_id": 3960,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "3448d08f5b8b97c66b41b0efaece4b4ec3040ed90d417a1a15f13e7c5d826aa4",
+      "last_committed_frame_id": 3930
+    },
+    "witness_gap_s": 2.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:145",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "original": {
+      "id": 145,
+      "task": "EPM",
+      "video": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "realtime": 194,
+      "question": "Where is the dust bin?",
+      "answer": "beside the door",
+      "options": [
+        "beside the door",
+        "beside the tissue paper",
+        "in the middle of the store"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 5760,
+        "pts_s": 192.0,
+        "rgb_sha256": "e4328caa4f15d47a7ac0e760027a6b3c859789536af15816e1c7416709a5f6e4"
+      },
+      {
+        "frame_id": 5790,
+        "pts_s": 193.0,
+        "rgb_sha256": "9291ff00d4aa1817d7b0e8ad7454f6c98ff41b1562c03e4851addf6fc20ce5bb"
+      }
+    ],
+    "reason": "Blue trash bins are beside entrance doors.",
+    "limitations": "Committed cutoff193s; pending194s frame is not used.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:145",
+      "query_time_s": 194,
+      "received_frames": 195,
+      "committed_pairs": 97,
+      "committed_through_s": 193.0,
+      "pending_frame_id": 5820,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "46263fd8a776d701a49d6a89bad5095e6340a4c73e8dbe81175a85e304a1ec72",
+      "last_committed_frame_id": 5790
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:147",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "original": {
+      "id": 147,
+      "task": "EPM",
+      "video": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "realtime": 196,
+      "question": "Where is the tissue paper?",
+      "answer": "beside the trashcan",
+      "options": [
+        "beside the trashcan",
+        "beside the dustbin",
+        "next to the door"
+      ],
+      "gt": 0
+    },
+    "verdict": "ambiguous",
+    "witnesses": [],
+    "reason": "Beside trashcan and beside dustbin are synonymous options.",
+    "limitations": "Duplicate semantic answers retained, not forced into strict unique choice.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:147",
+      "query_time_s": 196,
+      "received_frames": 197,
+      "committed_pairs": 98,
+      "committed_through_s": 195.0,
+      "pending_frame_id": 5880,
+      "observation_age_s": 1.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "c51bc2b471c00e69a5f4d4d4c81c91dbd8209ff744a1bf53d8a2ca99d6e60ddc",
+      "last_committed_frame_id": 5850
+    },
+    "witness_gap_s": null,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  },
+  {
+    "id": "ovo:146",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "original": {
+      "id": 146,
+      "task": "EPM",
+      "video": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "realtime": 211,
+      "question": "What color is my my shirt",
+      "answer": "black",
+      "options": [
+        "black",
+        "red",
+        "white"
+      ],
+      "gt": 0
+    },
+    "verdict": "supported",
+    "witnesses": [
+      {
+        "frame_id": 6240,
+        "pts_s": 208.0,
+        "rgb_sha256": "7c462d96d7c364b8a9da8ec90007e5c4d48b255c3da063932e33983b4f876a56"
+      },
+      {
+        "frame_id": 6270,
+        "pts_s": 209.0,
+        "rgb_sha256": "639ebb855b832edcce4005f382946dc6d4aa713616c25991daad5cdad7bdb2aa"
+      },
+      {
+        "frame_id": 6300,
+        "pts_s": 210.0,
+        "rgb_sha256": "2ab87be31cf5ef43d32fa60723d1469aca1808c4734ac72feaac3738e7f40035"
+      }
+    ],
+    "reason": "Wearer looks down and black upper clothing is visible.",
+    "limitations": "Direct near-query view.",
+    "query_snapshot": {
+      "kind": "query",
+      "query_id": "ovo:146",
+      "query_time_s": 211,
+      "received_frames": 212,
+      "committed_pairs": 106,
+      "committed_through_s": 211.0,
+      "pending_frame_id": null,
+      "observation_age_s": 0.0,
+      "pair_policy": "complete_pair_only_no_query_padding",
+      "no_visible_pair": false,
+      "committed_frames_sha256": "5705c9125b9d3f999f863f09b2f815896f0c86e4e0d62cb383de6bb5f186e890",
+      "last_committed_frame_id": 6330
+    },
+    "witness_gap_s": 1.0,
+    "old_evidence_necessity_proven": false,
+    "model_outputs_used": false,
+    "reviewer": "single_assistant_overview_and_listed_dense_pages",
+    "second_review": false
+  }
+]

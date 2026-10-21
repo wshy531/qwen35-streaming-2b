@@ -1,0 +1,29 @@
+{
+  "files": 173,
+  "bytes": 2511435395,
+  "groups": {
+    "baseline_synthetic": {
+      "files": 3,
+      "bytes": 9167
+    },
+    "natural_commons_v1": {
+      "files": 1,
+      "bytes": 243583
+    },
+    "stability_synthetic": {
+      "files": 3,
+      "bytes": 108556
+    },
+    "window_synthetic": {
+      "files": 2,
+      "bytes": 22366
+    },
+    "2b-memory-eval": {
+      "files": 164,
+      "bytes": 2511051723
+    }
+  },
+  "new_EgoLife_directory_exists": false,
+  "new_EgoLife_files": 0,
+  "new_download_attempt_exists": false
+}

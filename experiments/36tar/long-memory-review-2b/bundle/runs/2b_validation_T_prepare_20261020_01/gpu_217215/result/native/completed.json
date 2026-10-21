@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "stage": "native",
+  "records": 98,
+  "generated_tokens": 196,
+  "seconds": 159.5006473888643,
+  "model_loads": 1,
+  "peak_allocated_bytes": 11688952832,
+  "protocol_sha256": "2c737c12bd104da5d726a7009d84affcd5220cd9db3246152aa5ffd79f4cc9c5",
+  "no_truncation": true,
+  "query_bank_isolation": true
+}

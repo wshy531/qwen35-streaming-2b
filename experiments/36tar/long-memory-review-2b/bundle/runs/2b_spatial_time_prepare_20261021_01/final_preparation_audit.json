@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "protocol_sha256": "f823fb5196c668f19c94de2cddd7641e970f1ee0d80908d947d0e19530079b07",
+  "runtime_files": 100,
+  "local_and_remote_CPU_bound": true,
+  "deployed_files": 17,
+  "deployed_bytes": 748346,
+  "gzip_fixtures_lossless": true,
+  "actually_reviewed_overviews": 14,
+  "new_questions": 0,
+  "AST_files": 11,
+  "GPU_jobs": 0,
+  "prewritten_analysis_sha256": "ba588a30e1a8c2a90c6758000ea12fb8394030d2393b6942625d3f0de4108ce5",
+  "labels_sha256": "503e54327338684ea3f263699386576049af8b289ec8a9736a92bf5676cf4e9e",
+  "parser_sha256": "60585fde02978c240db51dd44f3870fdf8a864143cb8cdd16ef8d95e84d7e378"
+}

@@ -1,0 +1,16 @@
+{
+  "exit_code": 0,
+  "stdout": "217215\n",
+  "stderr": "",
+  "arguments": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-validation-T-v1/run_eval.sh"
+  ],
+  "scheduler_environment_overrides": {},
+  "job_id": "217215",
+  "allocation": "JobId=217215 JobName=2b-validation-T\n   UserId=u2025010462(507005) GroupId=u2025010462(507005) MCS_label=N/A\n   Priority=100 Nice=0 Account=u2025010462 QOS=normal\n   JobState=PENDING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   DerivedExitCode=0:0\n   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A\n   SubmitTime=2026-10-20T18:01:26 EligibleTime=2026-10-20T18:01:26\n   AccrueTime=Unknown\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-20T18:01:26 Scheduler=Main\n   Partition=g078t AllocNode:Sid=workstation:1745229\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1-1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*\n   TRES=cpu=4,mem=24G,node=1,billing=4,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=4 MinMemoryNode=24G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-validation-T-v1/run_eval.sh\n   WorkDir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar\n   Comment=gx_llm \n   StdErr=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-217215.err\n   StdIn=/dev/null\n   StdOut=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-217215.log\n   Power=\n   TresPerNode=gres:gpu:1\n   \n\n"
+}

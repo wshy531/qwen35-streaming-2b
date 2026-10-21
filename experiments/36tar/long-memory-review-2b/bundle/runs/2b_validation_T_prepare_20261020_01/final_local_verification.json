@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "job_id": "217215",
+  "retrieved_SHA_files": 20,
+  "retrieved_bytes": 2596838,
+  "frozen_runtime_files": 21,
+  "frozen_analysis_files": 4,
+  "records": 784,
+  "independent_strict_scores": {
+    "B02_cap4": 52,
+    "M0": 50,
+    "M1": 49,
+    "M2": 53,
+    "full_pairwise_reference": 57,
+    "native_original": 57,
+    "reservoir4": 49,
+    "text_only": 29
+  },
+  "generated_tokens": 1577,
+  "automatic_retries": 0,
+  "scope": "No new model calls; current evidence identity and independent all-row tally"
+}

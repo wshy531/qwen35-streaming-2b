@@ -1,0 +1,29 @@
+{
+  "exit_code": 0,
+  "stdout": "217776\n",
+  "stderr": "",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-%j.log",
+    "--error",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-long-stream-v1/run_eval_v2.sh"
+  ],
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-long-stream",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=01:00:00",
+    "#SBATCH --no-requeue"
+  ],
+  "environment_overrides": {},
+  "job_id": "217776",
+  "scontrol": "JobId=217776 JobName=2b-long-stream\n   UserId=u2025010462(507005) GroupId=u2025010462(507005) MCS_label=N/A\n   Priority=100 Nice=0 Account=u2025010462 QOS=normal\n   JobState=PENDING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   DerivedExitCode=0:0\n   RunTime=00:00:00 TimeLimit=01:00:00 TimeMin=N/A\n   SubmitTime=2026-10-20T21:12:53 EligibleTime=2026-10-20T21:12:53\n   AccrueTime=Unknown\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-20T21:12:53 Scheduler=Main\n   Partition=g078t AllocNode:Sid=workstation:2222061\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1-1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*\n   TRES=cpu=4,mem=24G,node=1,billing=4,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=4 MinMemoryNode=24G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-long-stream-v1/run_eval_v2.sh\n   WorkDir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar\n   Comment=gx_llm \n   StdErr=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-217776.err\n   StdIn=/dev/null\n   StdOut=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-217776.log\n   Power=\n   TresPerNode=gres:gpu:1\n   \n\n"
+}

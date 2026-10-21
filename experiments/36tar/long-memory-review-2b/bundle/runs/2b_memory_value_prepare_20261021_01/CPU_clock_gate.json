@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "official_clock_equal_cases": 12,
+  "recording_gap_not_paired": true,
+  "question_does_not_read_pending_or_future": true,
+  "odd_tail_discarded": true,
+  "duplicate_and_past_query_rejected": true,
+  "official_source_sha256": "4f5e996fc545fd639e116e861e4c023ced71c8cabd03ef3791d7119652821615",
+  "clock_format": "HHMMSSFF, FF is frame index at actual media fps, not centiseconds",
+  "limitations": "only arithmetic/scheduler contracts; actual media FPS/PTS and question evidence still pending",
+  "GPU_jobs": 0
+}

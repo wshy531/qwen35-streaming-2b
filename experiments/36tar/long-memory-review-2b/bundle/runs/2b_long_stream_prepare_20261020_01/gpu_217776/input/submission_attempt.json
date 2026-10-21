@@ -1,0 +1,25 @@
+{
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-%j.log",
+    "--error",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-long-stream-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-long-stream-v1/run_eval_v2.sh"
+  ],
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-long-stream",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=01:00:00",
+    "#SBATCH --no-requeue"
+  ],
+  "environment_overrides": {},
+  "automatic_retries": 0
+}

@@ -1,0 +1,49 @@
+{
+  "status": "planning_estimate_NOT_GPU_authorization",
+  "basis_job": 217797,
+  "observed_seconds": 724.4134330959059,
+  "observed_pairs": 1426,
+  "observed_answers": 170,
+  "observed_peak_GPU_allocated_GiB": 8.443643569946289,
+  "observed_amortized_seconds_per_pair": 0.5080038100251795,
+  "assumptions": [
+    "same FP32 2B and1FPS192x256",
+    "fixed-size banks and shared visual encoding",
+    "four bounded policies at one chosen budget",
+    "observed throughput includes five banks and170 answers; not an isolated compute benchmark",
+    "pilot two4h actual-observed sessions24 queries; formal20x4h160 queries are targets not acquired data"
+  ],
+  "pilot_linear_GPU_hours": 2.032015240100718,
+  "pilot_planning_GPU_hours": [
+    3,
+    4
+  ],
+  "formal_linear_GPU_hours": 20.32015240100718,
+  "formal_planning_GPU_hours": [
+    30,
+    50
+  ],
+  "pilot_wallclock1x_min_GPU_hours": 8,
+  "pilot_wallclock1x_planning_GPU_hours": [
+    8,
+    10
+  ],
+  "GPU_count": 1,
+  "GPU_model": "A80080GiB",
+  "CPUs": [
+    4,
+    8
+  ],
+  "host_memory_GiB": 32,
+  "bounded_stream_planning_GPU_allocated_headroom_GiB": [
+    16,
+    24
+  ],
+  "exclusions": [
+    "no guarantee full-prefix FP32 reference fits A800 at long contexts",
+    "full-prefix reference requires staged resource preflight and separate bound",
+    "no training or sweeps",
+    "queue waiting/data acquisition/annotation not GPU time",
+    "no edge device efficiency claim"
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "status": "fixed_all784_records_analyzed",
+  "tables": {
+    "all": {
+      "native_original": {
+        "questions": 98,
+        "content_correct": 57,
+        "strict_correct": 57,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 98,
+        "content_correct": 57,
+        "strict_correct": 57,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "M0": {
+        "questions": 98,
+        "content_correct": 50,
+        "strict_correct": 50,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "M1": {
+        "questions": 98,
+        "content_correct": 49,
+        "strict_correct": 49,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "M2": {
+        "questions": 98,
+        "content_correct": 53,
+        "strict_correct": 53,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "B02_cap4": {
+        "questions": 98,
+        "content_correct": 52,
+        "strict_correct": 52,
+        "format_compliant": 97,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "reservoir4": {
+        "questions": 98,
+        "content_correct": 49,
+        "strict_correct": 49,
+        "format_compliant": 97,
+        "status_counts": {
+          "ok": 98
+        }
+      },
+      "text_only": {
+        "questions": 98,
+        "content_correct": 29,
+        "strict_correct": 29,
+        "format_compliant": 98,
+        "status_counts": {
+          "ok": 98
+        }
+      }
+    },
+    "FT": {
+      "native_original": {
+        "questions": 91,
+        "content_correct": 53,
+        "strict_correct": 53,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 91,
+        "content_correct": 53,
+        "strict_correct": 53,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "M0": {
+        "questions": 91,
+        "content_correct": 46,
+        "strict_correct": 46,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "M1": {
+        "questions": 91,
+        "content_correct": 45,
+        "strict_correct": 45,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "M2": {
+        "questions": 91,
+        "content_correct": 49,
+        "strict_correct": 49,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "B02_cap4": {
+        "questions": 91,
+        "content_correct": 49,
+        "strict_correct": 49,
+        "format_compliant": 90,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "reservoir4": {
+        "questions": 91,
+        "content_correct": 45,
+        "strict_correct": 45,
+        "format_compliant": 90,
+        "status_counts": {
+          "ok": 91
+        }
+      },
+      "text_only": {
+        "questions": 91,
+        "content_correct": 26,
+        "strict_correct": 26,
+        "format_compliant": 91,
+        "status_counts": {
+          "ok": 91
+        }
+      }
+    },
+    "C": {
+      "native_original": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "M0": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "M1": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "M2": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "B02_cap4": {
+        "questions": 7,
+        "content_correct": 3,
+        "strict_correct": 3,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "reservoir4": {
+        "questions": 7,
+        "content_correct": 4,
+        "strict_correct": 4,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      },
+      "text_only": {
+        "questions": 7,
+        "content_correct": 3,
+        "strict_correct": 3,
+        "format_compliant": 7,
+        "status_counts": {
+          "ok": 7
+        }
+      }
+    },
+    "early_role": {
+      "native_original": {
+        "questions": 31,
+        "content_correct": 21,
+        "strict_correct": 21,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 31,
+        "content_correct": 21,
+        "strict_correct": 21,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "M0": {
+        "questions": 31,
+        "content_correct": 13,
+        "strict_correct": 13,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "M1": {
+        "questions": 31,
+        "content_correct": 14,
+        "strict_correct": 14,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "M2": {
+        "questions": 31,
+        "content_correct": 14,
+        "strict_correct": 14,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "B02_cap4": {
+        "questions": 31,
+        "content_correct": 15,
+        "strict_correct": 15,
+        "format_compliant": 30,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "reservoir4": {
+        "questions": 31,
+        "content_correct": 15,
+        "strict_correct": 15,
+        "format_compliant": 30,
+        "status_counts": {
+          "ok": 31
+        }
+      },
+      "text_only": {
+        "questions": 31,
+        "content_correct": 10,
+        "strict_correct": 10,
+        "format_compliant": 31,
+        "status_counts": {
+          "ok": 31
+        }
+      }
+    },
+    "recent_role": {
+      "native_original": {
+        "questions": 33,
+        "content_correct": 18,
+        "strict_correct": 18,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 33,
+        "content_correct": 18,
+        "strict_correct": 18,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "M0": {
+        "questions": 33,
+        "content_correct": 19,
+        "strict_correct": 19,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "M1": {
+        "questions": 33,
+        "content_correct": 20,
+        "strict_correct": 20,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "M2": {
+        "questions": 33,
+        "content_correct": 21,
+        "strict_correct": 21,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "B02_cap4": {
+        "questions": 33,
+        "content_correct": 19,
+        "strict_correct": 19,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "reservoir4": {
+        "questions": 33,
+        "content_correct": 18,
+        "strict_correct": 18,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      },
+      "text_only": {
+        "questions": 33,
+        "content_correct": 7,
+        "strict_correct": 7,
+        "format_compliant": 33,
+        "status_counts": {
+          "ok": 33
+        }
+      }
+    },
+    "no_late_same_action": {
+      "native_original": {
+        "questions": 15,
+        "content_correct": 7,
+        "strict_correct": 7,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "full_pairwise_reference": {
+        "questions": 15,
+        "content_correct": 7,
+        "strict_correct": 7,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "M0": {
+        "questions": 15,
+        "content_correct": 6,
+        "strict_correct": 6,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "M1": {
+        "questions": 15,
+        "content_correct": 5,
+        "strict_correct": 5,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "M2": {
+        "questions": 15,
+        "content_correct": 6,
+        "strict_correct": 6,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "B02_cap4": {
+        "questions": 15,
+        "content_correct": 7,
+        "strict_correct": 7,
+        "format_compliant": 14,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "reservoir4": {
+        "questions": 15,
+        "content_correct": 6,
+        "strict_correct": 6,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      },
+      "text_only": {
+        "questions": 15,
+        "content_correct": 7,
+        "strict_correct": 7,
+        "format_compliant": 15,
+        "status_counts": {
+          "ok": 15
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "all": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 98,
+        "source_groups": 39,
+        "corrections": 8,
+        "new_losses": 5,
+        "net_correct": 3,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.041237113402061855,
+          0.10416666666666667
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 98,
+        "source_groups": 39,
+        "corrections": 2,
+        "new_losses": 3,
+        "net_correct": -1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.057692307692307696,
+          0.031914893617021274
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 98,
+        "source_groups": 39,
+        "corrections": 2,
+        "new_losses": 3,
+        "net_correct": -1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.05319148936170213,
+          0.03225806451612903
+        ]
+      }
+    ],
+    "FT": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 91,
+        "source_groups": 38,
+        "corrections": 8,
+        "new_losses": 5,
+        "net_correct": 3,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.04395604395604396,
+          0.10989010989010989
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 91,
+        "source_groups": 38,
+        "corrections": 2,
+        "new_losses": 2,
+        "net_correct": 0,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.043478260869565216,
+          0.044444444444444446
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 91,
+        "source_groups": 38,
+        "corrections": 2,
+        "new_losses": 3,
+        "net_correct": -1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.061855670103092786,
+          0.03529411764705882
+        ]
+      }
+    ],
+    "C": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 7,
+        "source_groups": 7,
+        "corrections": 0,
+        "new_losses": 0,
+        "net_correct": 0,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 7,
+        "source_groups": 7,
+        "corrections": 0,
+        "new_losses": 1,
+        "net_correct": -1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.42857142857142855,
+          0.0
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 7,
+        "source_groups": 7,
+        "corrections": 0,
+        "new_losses": 0,
+        "net_correct": 0,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "early_role": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 31,
+        "source_groups": 31,
+        "corrections": 2,
+        "new_losses": 1,
+        "net_correct": 1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.06451612903225806,
+          0.12903225806451613
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 31,
+        "source_groups": 31,
+        "corrections": 1,
+        "new_losses": 0,
+        "net_correct": 1,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.0967741935483871
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 31,
+        "source_groups": 31,
+        "corrections": 2,
+        "new_losses": 0,
+        "net_correct": 2,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.16129032258064516
+        ]
+      }
+    ],
+    "recent_role": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 33,
+        "source_groups": 33,
+        "corrections": 4,
+        "new_losses": 2,
+        "net_correct": 2,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.09090909090909091,
+          0.21212121212121213
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 33,
+        "source_groups": 33,
+        "corrections": 0,
+        "new_losses": 2,
+        "net_correct": -2,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.15151515151515152,
+          0.0
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 33,
+        "source_groups": 33,
+        "corrections": 0,
+        "new_losses": 1,
+        "net_correct": -1,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.09090909090909091,
+          0.0
+        ]
+      }
+    ],
+    "no_late_same_action": [
+      {
+        "reference": "M0",
+        "candidate": "M2",
+        "questions": 15,
+        "source_groups": 12,
+        "corrections": 1,
+        "new_losses": 1,
+        "net_correct": 0,
+        "descriptive95percent_source_bootstrap_difference": [
+          -0.16666666666666666,
+          0.21428571428571427
+        ]
+      },
+      {
+        "reference": "M2",
+        "candidate": "B02_cap4",
+        "questions": 15,
+        "source_groups": 12,
+        "corrections": 1,
+        "new_losses": 0,
+        "net_correct": 1,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.1875
+        ]
+      },
+      {
+        "reference": "M0",
+        "candidate": "reservoir4",
+        "questions": 15,
+        "source_groups": 12,
+        "corrections": 0,
+        "new_losses": 0,
+        "net_correct": 0,
+        "descriptive95percent_source_bootstrap_difference": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "native_full_generated_ID_matches": 98,
+  "native_full_total": 98,
+  "raw_questions": 119,
+  "content_supported": 98,
+  "other21_retained": true,
+  "independent_second_review": false,
+  "source_sha256": "cc61d468c285fc08e35ca82a114ab39ecf17bbbcaeeaf6f49424a7dc20c08e28",
+  "scorer_rows_sha256": "1a3ca6c1b980dad280fa993da5eeff46bbc406e3fec69b8281ab0db62436ce2b",
+  "prospective_analysis_protocol_sha256": "73505302916a1e25e015eb28f66404f5435e4d54abe9a395e4865644586dd8c8",
+  "limitations": [
+    "source-ID groups not proven independent filming",
+    "single seed reservoir",
+    "C only7 questions,180s source only1 C question",
+    "no late same action does not prove necessary old memory",
+    "source-bootstrap intervals descriptive, no power or multiple-test significance guarantee",
+    "fixed arm order and single pass timing not a speed benchmark"
+  ]
+}

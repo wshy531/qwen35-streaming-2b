@@ -1,0 +1,52 @@
+{
+  "status": "fixed_T_comparison_CPU_preflight_pending_GPU_NOT_authorized",
+  "questions": 98,
+  "sources": 39,
+  "arms": {
+    "native": [
+      "native_original"
+    ],
+    "memory": [
+      "full_pairwise_reference",
+      "M0",
+      "M1",
+      "M2",
+      "B02_cap4",
+      "reservoir4",
+      "text_only"
+    ]
+  },
+  "maximum_answers": 784,
+  "maximum_generated_tokens": 6272,
+  "max_new_tokens": 8,
+  "maximum_model_loads": 2,
+  "common_full_context_tokens": 8192,
+  "common_full_visual_tokens": 6144,
+  "candidate_visual_tokens": 384,
+  "original_native_guard3072_replaced_by_explicit8192_in_new_adapter_only": true,
+  "no_truncation": true,
+  "sampling_fps": 1,
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "precision": "float32",
+  "fixed_threshold": 0.047536224126815796,
+  "B02_cap_pairs": 4,
+  "reservoir_seed": 20261020,
+  "worker_seconds": 1500,
+  "slurm_minutes": 60,
+  "gpus": 1,
+  "cpus": 4,
+  "memory_GiB": 24,
+  "partition": "g078t",
+  "comment": "gx_llm",
+  "automatic_retries": 0,
+  "requests_sha256": "7f4180425289f3bd83cdf188fe24d0b3ec8491132fa6d50820fdc2ed028d05ca",
+  "runtime_lock_sha256": "9aae6e3c345ec9dde38b29d02ce17cfe1a02e5e23978b27ca5fa71fe9c60e3f5",
+  "local_qualification_sha256": "95b1c8f1a09845dbc86cc9984817b2b0a4f50ca2f390526aa0328ff251de6350",
+  "local_analysis_protocol_sha256": "73505302916a1e25e015eb28f66404f5435e4d54abe9a395e4865644586dd8c8",
+  "no_labels_or_intervals_in_worker": true,
+  "stop": "one fixed new-source comparison, no parameter/prompt search",
+  "limits": "single-assistant review, one180s C-only source, indirect late cues; not proven old-evidence necessity"
+}

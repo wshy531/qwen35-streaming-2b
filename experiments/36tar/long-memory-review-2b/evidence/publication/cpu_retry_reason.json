@@ -1,0 +1,6 @@
+{
+  "initial_attempt": "failed before completing root3 tests",
+  "reason": "Windows sandbox temporary-directory PermissionError during checkpoint roundtrip; not numerical/model error",
+  "change": "TEMP and TMP explicitly set to new directory inside authorized workspace",
+  "GPU": 0
+}

@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_duplicate_and_out_of_order_input_rejected (test_online_bank.IncrementalBankTests.test_duplicate_and_out_of_order_input_rejected) ... ok\ntest_no_evicted_source_payload_survives_in_recent_window (test_online_bank.IncrementalBankTests.test_no_evicted_source_payload_survives_in_recent_window) ... ok\ntest_query_exports_do_not_mutate_bank_then_input_continues (test_online_bank.IncrementalBankTests.test_query_exports_do_not_mutate_bank_then_input_continues) ... ok\ntest_same_frozen_policy_at_multiple_queries (test_online_bank.IncrementalBankTests.test_same_frozen_policy_at_multiple_queries) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.953s\n\nOK\n",
+  "model_loads": 0,
+  "GPU_jobs": 0
+}

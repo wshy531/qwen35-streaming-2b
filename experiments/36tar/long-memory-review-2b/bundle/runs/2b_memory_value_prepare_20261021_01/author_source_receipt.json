@@ -1,0 +1,26 @@
+[
+  {
+    "path": "EgoRAG/README.md",
+    "revision": "7a97157908757cc898c26835b718653055ecc5f5",
+    "bytes": 5494,
+    "sha256": "9a93e7b448f92edcb9c217542df61ba1c95514fc913a9f9dd263ac3cebf4f93e"
+  },
+  {
+    "path": "EgoRAG/egorag/utils/util.py",
+    "revision": "7a97157908757cc898c26835b718653055ecc5f5",
+    "bytes": 9093,
+    "sha256": "4f5e996fc545fd639e116e861e4c023ced71c8cabd03ef3791d7119652821615"
+  },
+  {
+    "path": "EgoRAG/create_database.py",
+    "revision": "7a97157908757cc898c26835b718653055ecc5f5",
+    "bytes": 1320,
+    "sha256": "5c12a5a97b48f754dae23c62ce981841a5def182d2d7f1bf2ae66ee7dcad4435"
+  },
+  {
+    "path": "EgoRAG/main.py",
+    "revision": "7a97157908757cc898c26835b718653055ecc5f5",
+    "bytes": 9143,
+    "sha256": "14aadddbb42a118876a402cca038b1d0591566e8318c94065e816a3d970cd36f"
+  }
+]

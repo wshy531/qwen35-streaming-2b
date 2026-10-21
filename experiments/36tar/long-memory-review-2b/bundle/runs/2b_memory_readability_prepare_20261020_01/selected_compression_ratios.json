@@ -1,0 +1,44 @@
+[
+  {
+    "id": "local_longstream_v1:01",
+    "raw_pairs": 56,
+    "raw_visual_tokens": 2688,
+    "compressed_visual_tokens": 48,
+    "ratio": 56.0
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "raw_pairs": 185,
+    "raw_visual_tokens": 8880,
+    "compressed_visual_tokens": 96,
+    "ratio": 92.5
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "raw_pairs": 112,
+    "raw_visual_tokens": 5376,
+    "compressed_visual_tokens": 48,
+    "ratio": 112.0
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "raw_pairs": 136,
+    "raw_visual_tokens": 6528,
+    "compressed_visual_tokens": 48,
+    "ratio": 136.0
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "raw_pairs": 121,
+    "raw_visual_tokens": 5808,
+    "compressed_visual_tokens": 48,
+    "ratio": 121.0
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "raw_pairs": 111,
+    "raw_visual_tokens": 5328,
+    "compressed_visual_tokens": 48,
+    "ratio": 111.0
+  }
+]

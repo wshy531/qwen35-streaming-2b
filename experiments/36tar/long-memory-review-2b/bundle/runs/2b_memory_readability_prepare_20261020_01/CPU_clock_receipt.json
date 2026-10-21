@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "actual_source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+  "conditions": 3,
+  "short_contracts": 4,
+  "actual_sample_publications": 30,
+  "fake_answers": 8,
+  "tiny_answers": 3,
+  "random_tiny_instances": 1,
+  "pretrained_model_loads": 0,
+  "GPU_jobs": 0,
+  "no_future_PTS_in_queries": true,
+  "producer_continues_during_QA": true,
+  "source_fingerprint_unchanged_under_QA_pressure": true,
+  "source_threads_joined": true,
+  "seconds": 45.96899999999732,
+  "sources_sha256": {
+    "publish\\qwen35-streaming-2b\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "experiments\\2b-long-stream-v1\\replay.py": "22b9ee70d3162f24023127d7d80d95a4a868b5a9dee3f3a178dbb81b202992fb",
+    "experiments\\2b-memory-readability-v1\\clock_input.py": "a5ec238487e0dd208f95204b9879631293eb2d3a80336c8cbd3aa12acbc88530",
+    "experiments\\2b-memory-readability-v1\\cpu_clock.py": "81d6bf7df4196e268f4cf3a84db39b63ac0389f274de90e960f416510cbb9b6d",
+    "experiments\\2b-memory-readability-v1\\test_clock_input.py": "9e734c566db8fc29acc5fc703067b37420de044a1c0cb7df0d34dbeabdfafb96"
+  },
+  "limitations": [
+    "12sec/6sec engineering checks, not eight-minute pretrained inference",
+    "normal/pressure uses fake observer, random tiny does not measure capability",
+    "wall-clock runs can drop different frames, not common-input accuracy comparison"
+  ]
+}

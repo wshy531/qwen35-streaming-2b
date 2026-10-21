@@ -1,0 +1,1129 @@
+{
+  "rows": [
+    {
+      "id": "local_longstream_v1:01",
+      "witness_pair_indices": [
+        103,
+        104,
+        105,
+        113,
+        114
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            103,
+            104,
+            105,
+            113,
+            114
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:01",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 102,
+              "last": 157,
+              "depth": 32,
+              "groups": 33,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 2013.0,
+              "max_mass_fraction": 0.7488839030265808
+            }
+          ],
+          "covered_witness_pairs": [
+            103,
+            104,
+            105,
+            113,
+            114
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 56,
+          "answer": {
+            "id": "local_longstream_v1:01",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            103,
+            104,
+            105,
+            113,
+            114
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:01",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 93,
+              "last": 116,
+              "depth": 8,
+              "groups": 14,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 433.0,
+              "max_mass_fraction": 0.3758680522441864
+            }
+          ],
+          "covered_witness_pairs": [
+            103,
+            104,
+            105,
+            113,
+            114
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 24,
+          "answer": {
+            "id": "local_longstream_v1:01",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 88,
+              "last": 114,
+              "depth": 9,
+              "groups": 17,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1023.0,
+              "max_mass_fraction": 0.7893518805503845
+            }
+          ],
+          "covered_witness_pairs": [
+            103,
+            104,
+            105,
+            113,
+            114
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 24,
+          "covered_source_pairs": 27,
+          "answer": {
+            "id": "local_longstream_v1:01",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "witness_pair_indices": [
+        22,
+        25,
+        169,
+        170
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            22,
+            25,
+            169,
+            170
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:02",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 103,
+              "depth": 30,
+              "groups": 76,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 1839.0,
+              "max_mass_fraction": 0.36838942766189575
+            },
+            {
+              "first": 104,
+              "last": 184,
+              "depth": 47,
+              "groups": 48,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 3100.0,
+              "max_mass_fraction": 0.797325074672699
+            }
+          ],
+          "covered_witness_pairs": [
+            22,
+            25,
+            169,
+            170
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 96,
+          "covered_source_pairs": 185,
+          "answer": {
+            "id": "local_longstream_v1:02",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            22,
+            25,
+            169,
+            170
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:02",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 21,
+              "last": 45,
+              "depth": 7,
+              "groups": 22,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 170.0,
+              "max_mass_fraction": 0.14166666567325592
+            },
+            {
+              "first": 159,
+              "last": 174,
+              "depth": 10,
+              "groups": 10,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 455.0,
+              "max_mass_fraction": 0.5924479365348816
+            }
+          ],
+          "covered_witness_pairs": [
+            22,
+            25,
+            169,
+            170
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 96,
+          "covered_source_pairs": 41,
+          "answer": {
+            "id": "local_longstream_v1:02",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 51,
+              "depth": 8,
+              "groups": 40,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1106.0,
+              "max_mass_fraction": 0.4431089758872986
+            },
+            {
+              "first": 126,
+              "last": 174,
+              "depth": 15,
+              "groups": 27,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1869.0,
+              "max_mass_fraction": 0.7946428656578064
+            }
+          ],
+          "covered_witness_pairs": [
+            22,
+            25,
+            169,
+            170
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 101,
+          "answer": {
+            "id": "local_longstream_v1:02",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "witness_pair_indices": [
+        10,
+        57,
+        100
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            10,
+            57,
+            100
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:03",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+            "text": "A",
+            "predicted_index": 0,
+            "truth": 3,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              32,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 111,
+              "depth": 19,
+              "groups": 45,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 4679.0,
+              "max_mass_fraction": 0.8703497052192688
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            57,
+            100
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 112,
+          "answer": {
+            "id": "local_longstream_v1:03",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+            "text": "A",
+            "predicted_index": 0,
+            "truth": 3,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              32,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            10,
+            57,
+            100
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:03",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+            "text": "D",
+            "predicted_index": 3,
+            "truth": 3,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              35,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 51,
+              "depth": 15,
+              "groups": 11,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 1343.0,
+              "max_mass_fraction": 0.5380609035491943
+            },
+            {
+              "first": 52,
+              "last": 81,
+              "depth": 7,
+              "groups": 12,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 714.0,
+              "max_mass_fraction": 0.4958333373069763
+            },
+            {
+              "first": 96,
+              "last": 110,
+              "depth": 5,
+              "groups": 12,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 332.0,
+              "max_mass_fraction": 0.4611110985279083
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            57,
+            100
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 144,
+          "covered_source_pairs": 97,
+          "answer": {
+            "id": "local_longstream_v1:03",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+            "text": "A",
+            "predicted_index": 0,
+            "truth": 3,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              32,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 93,
+              "depth": 16,
+              "groups": 31,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 3157.0,
+              "max_mass_fraction": 0.6996897459030151
+            },
+            {
+              "first": 94,
+              "last": 126,
+              "depth": 9,
+              "groups": 26,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1359.0,
+              "max_mass_fraction": 0.8579545617103577
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            57,
+            100
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 127,
+          "answer": {
+            "id": "local_longstream_v1:03",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+            "text": "A",
+            "predicted_index": 0,
+            "truth": 3,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              32,
+              248046
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "witness_pair_indices": [
+        10,
+        24,
+        27,
+        30,
+        35
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            10,
+            24,
+            27,
+            30,
+            35
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:04",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 1,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 135,
+              "depth": 25,
+              "groups": 43,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 1640.0,
+              "max_mass_fraction": 0.2512255012989044
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            24,
+            27,
+            30,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 136,
+          "answer": {
+            "id": "local_longstream_v1:04",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 1,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            10,
+            24,
+            27,
+            30,
+            35
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:04",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 1,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 38,
+              "depth": 11,
+              "groups": 13,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 709.0,
+              "max_mass_fraction": 0.3787393271923065
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            24,
+            27,
+            30,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 39,
+          "answer": {
+            "id": "local_longstream_v1:04",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 1,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 38,
+              "depth": 11,
+              "groups": 13,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1410.0,
+              "max_mass_fraction": 0.7532051205635071
+            }
+          ],
+          "covered_witness_pairs": [
+            10,
+            24,
+            27,
+            30,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 24,
+          "covered_source_pairs": 39,
+          "answer": {
+            "id": "local_longstream_v1:04",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 1,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "witness_pair_indices": [
+        30,
+        31,
+        32,
+        35
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            30,
+            31,
+            32,
+            35
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:05",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+            "text": "D",
+            "predicted_index": 3,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              35,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 120,
+              "depth": 33,
+              "groups": 55,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 4559.0,
+              "max_mass_fraction": 0.7849518060684204
+            }
+          ],
+          "covered_witness_pairs": [
+            30,
+            31,
+            32,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 121,
+          "answer": {
+            "id": "local_longstream_v1:05",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+            "text": "D",
+            "predicted_index": 3,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              35,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            30,
+            31,
+            32,
+            35
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:05",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+            "text": "D",
+            "predicted_index": 3,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              35,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 19,
+              "last": 33,
+              "depth": 6,
+              "groups": 11,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 174.0,
+              "max_mass_fraction": 0.24166665971279144
+            },
+            {
+              "first": 34,
+              "last": 79,
+              "depth": 18,
+              "groups": 12,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 1078.0,
+              "max_mass_fraction": 0.4882246255874634
+            }
+          ],
+          "covered_witness_pairs": [
+            30,
+            31,
+            32,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 96,
+          "covered_source_pairs": 61,
+          "answer": {
+            "id": "local_longstream_v1:05",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 33,
+              "depth": 8,
+              "groups": 27,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1308.0,
+              "max_mass_fraction": 0.8014705777168274
+            },
+            {
+              "first": 34,
+              "last": 123,
+              "depth": 18,
+              "groups": 30,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1940.0,
+              "max_mass_fraction": 0.44907405972480774
+            }
+          ],
+          "covered_witness_pairs": [
+            30,
+            31,
+            32,
+            35
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 124,
+          "answer": {
+            "id": "local_longstream_v1:05",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+            "text": "B",
+            "predicted_index": 1,
+            "truth": 0,
+            "correct": false,
+            "status": "ok",
+            "generated_ids": [
+              33,
+              248046
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "witness_pair_indices": [
+        2,
+        3
+      ],
+      "arms": {
+        "M0_384": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            2,
+            3
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:06",
+            "arm": "M0_384",
+            "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M2_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 110,
+              "depth": 28,
+              "groups": 29,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 3516.0,
+              "max_mass_fraction": 0.6599099040031433
+            }
+          ],
+          "covered_witness_pairs": [
+            2,
+            3
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 111,
+          "answer": {
+            "id": "local_longstream_v1:06",
+            "arm": "M2_384",
+            "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M0_768": {
+          "selected_nodes": [],
+          "covered_witness_pairs": [],
+          "missing_witness_pairs": [
+            2,
+            3
+          ],
+          "selected_tokens": 0,
+          "covered_source_pairs": 0,
+          "answer": {
+            "id": "local_longstream_v1:06",
+            "arm": "M0_768",
+            "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "M2_768": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 22,
+              "depth": 10,
+              "groups": 8,
+              "tokens": 48,
+              "exact_pair": false,
+              "max_token_mass": 480.0,
+              "max_mass_fraction": 0.43478259444236755
+            }
+          ],
+          "covered_witness_pairs": [
+            2,
+            3
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 48,
+          "covered_source_pairs": 23,
+          "answer": {
+            "id": "local_longstream_v1:06",
+            "arm": "M2_768",
+            "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        },
+        "S24_384": {
+          "selected_nodes": [
+            {
+              "first": 0,
+              "last": 37,
+              "depth": 11,
+              "groups": 14,
+              "tokens": 24,
+              "exact_pair": false,
+              "max_token_mass": 1213.0,
+              "max_mass_fraction": 0.6650219559669495
+            }
+          ],
+          "covered_witness_pairs": [
+            2,
+            3
+          ],
+          "missing_witness_pairs": [],
+          "selected_tokens": 24,
+          "covered_source_pairs": 38,
+          "answer": {
+            "id": "local_longstream_v1:06",
+            "arm": "S24_384",
+            "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+            "text": "C",
+            "predicted_index": 2,
+            "truth": 2,
+            "correct": true,
+            "status": "ok",
+            "generated_ids": [
+              34,
+              248046
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "all6_preserved": true,
+  "model_calls": 0,
+  "limitations": [
+    "manual provenance lookup not automatic retrieval",
+    "mass is source contribution count, not attention/information loss",
+    "more separate roots or less mass concentration not sufficient proof of readable event order"
+  ]
+}

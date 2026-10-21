@@ -1,0 +1,60 @@
+{
+  "content_supported": 98,
+  "raw": 119,
+  "ambiguous": 20,
+  "unsupported": 1,
+  "source_count": 39,
+  "FT": 91,
+  "strata": {
+    "T": 67,
+    "F": 24,
+    "C": 7
+  },
+  "memory_characters": {
+    "past_with_late_cue": 37,
+    "recent": 46,
+    "past_not_repeated_in_sample": 15
+  },
+  "roles": {
+    "early_brief_observation_PROXY": 31,
+    "recent_observation_PROXY": 33,
+    "order_or_visible_cause_PENDING_REVIEW": 33,
+    "long_duration_supplement_PENDING_REVIEW": 1
+  },
+  "early_role_without_late_repetition": [
+    "nextgqa:val:2885091387:5",
+    "nextgqa:val:3026084730:1",
+    "nextgqa:val:3960291106:6",
+    "nextgqa:val:4955723618:1",
+    "nextgqa:val:6233408665:1",
+    "nextgqa:val:6300775954:8",
+    "nextgqa:val:7416295940:6",
+    "nextgqa:val:7536230796:4",
+    "nextgqa:val:8563398032:5"
+  ],
+  "all_supported_without_late_repetition": [
+    "nextgqa:val:12392885583:4",
+    "nextgqa:val:2834146886:8",
+    "nextgqa:val:2885091387:5",
+    "nextgqa:val:3026084730:1",
+    "nextgqa:val:3026084730:9",
+    "nextgqa:val:3960291106:6",
+    "nextgqa:val:4635309062:11",
+    "nextgqa:val:4955723618:1",
+    "nextgqa:val:4955723618:6",
+    "nextgqa:val:6233408665:1",
+    "nextgqa:val:6300775954:8",
+    "nextgqa:val:7416295940:6",
+    "nextgqa:val:7416295940:2",
+    "nextgqa:val:7536230796:4",
+    "nextgqa:val:8563398032:5"
+  ],
+  "recent8_coverage": {
+    "none_by_time_span": 49,
+    "all_by_time_span": 42,
+    "partial_by_time_span": 7
+  },
+  "maximum_answers": 784,
+  "maximum_generated_tokens": 6272,
+  "model_predictions": 0
+}

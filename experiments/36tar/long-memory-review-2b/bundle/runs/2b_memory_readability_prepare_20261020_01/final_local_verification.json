@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "strict_counts_independently_recomputed": {
+    "A_raw_old": 5,
+    "B_compressed_old": 3,
+    "C_raw_old_recent": 5,
+    "D_compressed_old_recent": 3,
+    "E_full_pairwise": 6,
+    "F_bank_reproduction": 3
+  },
+  "A_C_all6_generated_IDs_same": true,
+  "B_D_F_all6_generated_IDs_same": true,
+  "Python_AST_files": 15,
+  "GPU_jobs_added_by_verification": 0,
+  "report_SHA256": "400c7b6be8624285d620cdb0a7f6923088ee0237c352490b6519d6dad61d0bc2",
+  "archive_SHA256": "d12050a1afceb8be8bb5d4d7b463ce3cbf4a17d01ad07d1d3d2352013de93cbb"
+}

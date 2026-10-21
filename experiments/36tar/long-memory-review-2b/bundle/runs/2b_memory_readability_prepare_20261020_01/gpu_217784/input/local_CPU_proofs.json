@@ -1,0 +1,326 @@
+{
+  "CPU_clock_contracts.json": {
+    "sha256": "9bcdcb8f9fce3665d10246aae8dc20c4c9473d898a2f2145db9480775f183ab4",
+    "proof": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_consumer_failure_stops_producer (test_clock_input.Tests.test_consumer_failure_stops_producer) ... ok\ntest_deadlines_with_overload_and_multiple_due_questions (test_clock_input.Tests.test_deadlines_with_overload_and_multiple_due_questions) ... ok\ntest_query_before_pair_and_after_producer_eof (test_clock_input.Tests.test_query_before_pair_and_after_producer_eof) ... ok\ntest_source_error_propagates_and_closes (test_clock_input.Tests.test_source_error_propagates_and_closes) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.239s\n\nOK\n"
+    }
+  },
+  "CPU_clock_receipt.json": {
+    "sha256": "e832fbb07724db01b39b1bf407966a55e49869a3ae93017874dcc033a2be9bef",
+    "proof": {
+      "status": "passed",
+      "actual_source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "conditions": 3,
+      "short_contracts": 4,
+      "actual_sample_publications": 30,
+      "fake_answers": 8,
+      "tiny_answers": 3,
+      "random_tiny_instances": 1,
+      "pretrained_model_loads": 0,
+      "GPU_jobs": 0,
+      "no_future_PTS_in_queries": true,
+      "producer_continues_during_QA": true,
+      "source_fingerprint_unchanged_under_QA_pressure": true,
+      "source_threads_joined": true,
+      "seconds": 45.96899999999732,
+      "sources_sha256": {
+        "publish\\qwen35-streaming-2b\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+        "experiments\\2b-long-stream-v1\\replay.py": "22b9ee70d3162f24023127d7d80d95a4a868b5a9dee3f3a178dbb81b202992fb",
+        "experiments\\2b-memory-readability-v1\\clock_input.py": "a5ec238487e0dd208f95204b9879631293eb2d3a80336c8cbd3aa12acbc88530",
+        "experiments\\2b-memory-readability-v1\\cpu_clock.py": "81d6bf7df4196e268f4cf3a84db39b63ac0389f274de90e960f416510cbb9b6d",
+        "experiments\\2b-memory-readability-v1\\test_clock_input.py": "9e734c566db8fc29acc5fc703067b37420de044a1c0cb7df0d34dbeabdfafb96"
+      },
+      "limitations": [
+        "12sec/6sec engineering checks, not eight-minute pretrained inference",
+        "normal/pressure uses fake observer, random tiny does not measure capability",
+        "wall-clock runs can drop different frames, not common-input accuracy comparison"
+      ]
+    }
+  },
+  "CPU_diagnostic_contexts36.json": {
+    "sha256": "7f503b42263ac3f0c3396e07b411d25a501e0c5762f985e497c5dc1a7b85dd32",
+    "proof": {
+      "status": "passed",
+      "contexts": [
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "A_raw_old",
+          "input_tokens": 3322,
+          "visual_tokens": 2688,
+          "nodes": 56
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "B_compressed_old",
+          "input_tokens": 141,
+          "visual_tokens": 48,
+          "nodes": 1
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 3554,
+          "visual_tokens": 2880,
+          "nodes": 60
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 373,
+          "visual_tokens": 240,
+          "nodes": 5
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "E_full_pairwise",
+          "input_tokens": 12489,
+          "visual_tokens": 10320,
+          "nodes": 215
+        },
+        {
+          "id": "local_longstream_v1:01",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 563,
+          "visual_tokens": 384,
+          "nodes": 8
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "A_raw_old",
+          "input_tokens": 10764,
+          "visual_tokens": 8880,
+          "nodes": 185
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "B_compressed_old",
+          "input_tokens": 221,
+          "visual_tokens": 96,
+          "nodes": 2
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 10996,
+          "visual_tokens": 9072,
+          "nodes": 189
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 453,
+          "visual_tokens": 288,
+          "nodes": 6
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "E_full_pairwise",
+          "input_tokens": 13664,
+          "visual_tokens": 11280,
+          "nodes": 235
+        },
+        {
+          "id": "local_longstream_v1:02",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 578,
+          "visual_tokens": 384,
+          "nodes": 8
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "A_raw_old",
+          "input_tokens": 6544,
+          "visual_tokens": 5376,
+          "nodes": 112
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "B_compressed_old",
+          "input_tokens": 168,
+          "visual_tokens": 48,
+          "nodes": 1
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 6776,
+          "visual_tokens": 5568,
+          "nodes": 116
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 400,
+          "visual_tokens": 240,
+          "nodes": 5
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "E_full_pairwise",
+          "input_tokens": 13098,
+          "visual_tokens": 10800,
+          "nodes": 225
+        },
+        {
+          "id": "local_longstream_v1:03",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 592,
+          "visual_tokens": 384,
+          "nodes": 8
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "A_raw_old",
+          "input_tokens": 7892,
+          "visual_tokens": 6528,
+          "nodes": 136
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "B_compressed_old",
+          "input_tokens": 124,
+          "visual_tokens": 48,
+          "nodes": 1
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 8124,
+          "visual_tokens": 6720,
+          "nodes": 140
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 356,
+          "visual_tokens": 240,
+          "nodes": 5
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "E_full_pairwise",
+          "input_tokens": 13344,
+          "visual_tokens": 11040,
+          "nodes": 230
+        },
+        {
+          "id": "local_longstream_v1:04",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 548,
+          "visual_tokens": 384,
+          "nodes": 8
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "A_raw_old",
+          "input_tokens": 7020,
+          "visual_tokens": 5808,
+          "nodes": 121
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "B_compressed_old",
+          "input_tokens": 122,
+          "visual_tokens": 48,
+          "nodes": 1
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 7252,
+          "visual_tokens": 6000,
+          "nodes": 125
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 354,
+          "visual_tokens": 240,
+          "nodes": 5
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "E_full_pairwise",
+          "input_tokens": 12762,
+          "visual_tokens": 10560,
+          "nodes": 220
+        },
+        {
+          "id": "local_longstream_v1:05",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 555,
+          "visual_tokens": 384,
+          "nodes": 8
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "A_raw_old",
+          "input_tokens": 6446,
+          "visual_tokens": 5328,
+          "nodes": 111
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "B_compressed_old",
+          "input_tokens": 128,
+          "visual_tokens": 48,
+          "nodes": 1
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "C_raw_old_recent",
+          "input_tokens": 6678,
+          "visual_tokens": 5520,
+          "nodes": 115
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "D_compressed_old_recent",
+          "input_tokens": 360,
+          "visual_tokens": 240,
+          "nodes": 5
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "E_full_pairwise",
+          "input_tokens": 13058,
+          "visual_tokens": 10800,
+          "nodes": 225
+        },
+        {
+          "id": "local_longstream_v1:06",
+          "arm": "F_bank_reproduction",
+          "input_tokens": 561,
+          "visual_tokens": 384,
+          "nodes": 8
+        }
+      ],
+      "maximum_input_tokens": 13664,
+      "maximum_visual_tokens": 11280,
+      "short_reader_matches_frozen_greedy": true,
+      "all_context_nodes_unchanged": true,
+      "C_D_recent_features_bitwise_equal": true,
+      "pretrained_model_loads": 0,
+      "GPU_jobs": 0,
+      "random_tiny_instances": 1,
+      "peak_observed_RSS_bytes": 826658816,
+      "seconds": 14.85899999999674,
+      "source_sha256": {
+        "clock_input.py": "a5ec238487e0dd208f95204b9879631293eb2d3a80336c8cbd3aa12acbc88530",
+        "cpu_clock.py": "81d6bf7df4196e268f4cf3a84db39b63ac0389f274de90e960f416510cbb9b6d",
+        "cpu_diagnostic.py": "d757a1807ec1ad2d3413c16dc620055dd4f9e5dcc27bbe98c494b3376dc9ee21",
+        "diagnostic.py": "9f794e399d0d29ebe0a71dabe651eeeb6b3416da3f0895e17a31d4b110a69178",
+        "evaluate.py": "c00d41dd460e818b8ffec118983b0db1695860457069f23457bd8ae49579fc51",
+        "prepare.py": "52ade1657bd8c9e31da1205abc7a8fac4c03a79f1a6e1a9d7deb5dca9043071e",
+        "test_clock_input.py": "9e734c566db8fc29acc5fc703067b37420de044a1c0cb7df0d34dbeabdfafb96"
+      },
+      "limitations": [
+        "synthetic32-wide feature layouts, not captured2048-wide bank semantics",
+        "long contexts constructed only; one short random forward",
+        "manual node selection is an oracle diagnostic"
+      ]
+    }
+  }
+}

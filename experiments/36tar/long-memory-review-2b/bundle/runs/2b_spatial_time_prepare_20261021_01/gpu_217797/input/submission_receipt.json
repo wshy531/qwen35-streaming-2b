@@ -1,0 +1,41 @@
+{
+  "returncode": 0,
+  "stdout": "217797\n",
+  "stderr": "",
+  "attempt": {
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-%j.log",
+      "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-%j.err"
+    ],
+    "stdin_script": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-spatial-time-v1/run_eval.sh",
+    "original_script_sha256": "cf8da206fd15208d74ea51f9b2b55a418f71282af2131f82bb60e39be3c110a3",
+    "submitted_script_sha256": "b2ece4bce0b01c66ce759c5ee6fadc23edbe2327ff96ed713e2f6692b0550ba3",
+    "SBATCH_lines": [
+      "#SBATCH --job-name=2b-A04-spatial",
+      "#SBATCH --partition=g078t",
+      "#SBATCH --comment=gx_llm",
+      "#SBATCH --nodes=1",
+      "#SBATCH --ntasks=1",
+      "#SBATCH --cpus-per-task=4",
+      "#SBATCH --gres=gpu:1",
+      "#SBATCH --mem=24G",
+      "#SBATCH --time=00:30:00",
+      "#SBATCH --no-requeue"
+    ],
+    "environment_overrides": {},
+    "UTC": "2026-10-20T17:53:14.558752+00:00",
+    "no_auto_retry": true
+  },
+  "inspection": {
+    "project": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "user": "u2025010462",
+    "host": "workstation",
+    "queue_before": "",
+    "disk": "Filesystem                                Size  Used Avail Use% Mounted on\n192.168.84.210:/eaas/groups/g900001/home  6.2P  711T  5.5P  12% /home\n"
+  },
+  "job_id": "217797",
+  "scontrol": "JobId=217797 JobName=2b-A04-spatial\n   UserId=u2025010462(507005) GroupId=u2025010462(507005) MCS_label=N/A\n   Priority=100 Nice=0 Account=u2025010462 QOS=normal\n   JobState=PENDING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   DerivedExitCode=0:0\n   RunTime=00:00:00 TimeLimit=00:30:00 TimeMin=N/A\n   SubmitTime=2026-10-21T01:53:14 EligibleTime=2026-10-21T01:53:14\n   AccrueTime=Unknown\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-21T01:53:14 Scheduler=Main\n   Partition=g078t AllocNode:Sid=workstation:2836347\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1-1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*\n   TRES=cpu=4,mem=24G,node=1,billing=4,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=4 MinMemoryNode=24G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=(null)\n   WorkDir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar\n   Comment=gx_llm \n   StdErr=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-217797.err\n   StdIn=/dev/null\n   StdOut=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A04-217797.log\n   Power=\n   TresPerNode=gres:gpu:1\n   \n\n",
+  "scontrol_stderr": ""
+}

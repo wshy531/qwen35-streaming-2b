@@ -1,0 +1,146 @@
+{
+  "status": "audited_saved_real_tensors",
+  "nodes": [
+    {
+      "id": "local_longstream_v1:01",
+      "node_index": 1,
+      "is_closed_root": true,
+      "first": 102,
+      "last": 157,
+      "pairs": 56,
+      "depth": 32,
+      "groups": 33,
+      "mass_sum": 2688.0,
+      "max_token_mass": 2013.0,
+      "max_token_mass_fraction": 0.7488839030265808,
+      "surviving_destination_pair_count": 11,
+      "coordinate_min_max": [
+        145,
+        157
+      ],
+      "snapshot_sha256": "2f8d0292fde8f3a64ac7a81e027eb2acff065b88f62d9ac0dba1bd8ce91638e5"
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "node_index": 0,
+      "is_closed_root": true,
+      "first": 0,
+      "last": 103,
+      "pairs": 104,
+      "depth": 30,
+      "groups": 76,
+      "mass_sum": 4992.0,
+      "max_token_mass": 1839.0,
+      "max_token_mass_fraction": 0.36838942766189575,
+      "surviving_destination_pair_count": 20,
+      "coordinate_min_max": [
+        5,
+        103
+      ],
+      "snapshot_sha256": "173471ae524f558d83b25732ccd848a853e6c9821165c95d7b97447a6b0af620"
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "node_index": 1,
+      "is_closed_root": true,
+      "first": 104,
+      "last": 184,
+      "pairs": 81,
+      "depth": 47,
+      "groups": 48,
+      "mass_sum": 3888.0,
+      "max_token_mass": 3100.0,
+      "max_token_mass_fraction": 0.797325074672699,
+      "surviving_destination_pair_count": 10,
+      "coordinate_min_max": [
+        174,
+        184
+      ],
+      "snapshot_sha256": "173471ae524f558d83b25732ccd848a853e6c9821165c95d7b97447a6b0af620"
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "node_index": 0,
+      "is_closed_root": true,
+      "first": 0,
+      "last": 111,
+      "pairs": 112,
+      "depth": 19,
+      "groups": 45,
+      "mass_sum": 5376.0,
+      "max_token_mass": 4679.0,
+      "max_token_mass_fraction": 0.8703497052192688,
+      "surviving_destination_pair_count": 21,
+      "coordinate_min_max": [
+        8,
+        111
+      ],
+      "snapshot_sha256": "134c6feb2ed52f5b8cb65d2514c396131c3a96d9e667cff03525a9e694d43456"
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "node_index": 0,
+      "is_closed_root": true,
+      "first": 0,
+      "last": 135,
+      "pairs": 136,
+      "depth": 25,
+      "groups": 43,
+      "mass_sum": 6528.0,
+      "max_token_mass": 1640.0,
+      "max_token_mass_fraction": 0.2512255012989044,
+      "surviving_destination_pair_count": 25,
+      "coordinate_min_max": [
+        2,
+        135
+      ],
+      "snapshot_sha256": "55130d27ed14baeaa22447459e07a735a985623e63e863daaeef4260f9b33ad5"
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "node_index": 0,
+      "is_closed_root": true,
+      "first": 0,
+      "last": 120,
+      "pairs": 121,
+      "depth": 33,
+      "groups": 55,
+      "mass_sum": 5808.0,
+      "max_token_mass": 4559.0,
+      "max_token_mass_fraction": 0.7849518060684204,
+      "surviving_destination_pair_count": 26,
+      "coordinate_min_max": [
+        2,
+        120
+      ],
+      "snapshot_sha256": "0a2dab60d3b2a2a71b8a6ba35a6323055da92a99e3ce4f820f51710945c5f10e"
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "node_index": 0,
+      "is_closed_root": true,
+      "first": 0,
+      "last": 110,
+      "pairs": 111,
+      "depth": 28,
+      "groups": 29,
+      "mass_sum": 5328.0,
+      "max_token_mass": 3516.0,
+      "max_token_mass_fraction": 0.6599099040031433,
+      "surviving_destination_pair_count": 27,
+      "coordinate_min_max": [
+        4,
+        110
+      ],
+      "snapshot_sha256": "12fea6e814a8f26833b0c2e037f7ff2b8a2805fb4320a3c297e8e797309c3a03"
+    }
+  ],
+  "GPU_jobs": 0,
+  "pretrained_loads": 0,
+  "limits": [
+    "mass is original-token contribution count, NOT attention or semantic importance",
+    "concentrated mass also occurs in correct cases; not sufficient cause",
+    "surviving source positions are anchors, not complete support of averaged content",
+    "depth and mass are descriptive; no new model answer or causal isolation"
+  ]
+}

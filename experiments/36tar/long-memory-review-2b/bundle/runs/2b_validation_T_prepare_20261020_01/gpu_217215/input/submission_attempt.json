@@ -1,0 +1,14 @@
+{
+  "arguments": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-validation-T-v1/run_eval.sh"
+  ],
+  "command": "sbatch --parsable --chdir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar --output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.log --error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-validation-T-inputs-20261020-01/slurm-%j.err /home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-validation-T-v1/run_eval.sh",
+  "script_sha256": "0b3255e36ec7866aeec4e66d5a3a31ffd24382f46ed6c43c229441f9390a4cad",
+  "protocol_sha256": "2c737c12bd104da5d726a7009d84affcd5220cd9db3246152aa5ffd79f4cc9c5",
+  "maximum_attempts": 1
+}

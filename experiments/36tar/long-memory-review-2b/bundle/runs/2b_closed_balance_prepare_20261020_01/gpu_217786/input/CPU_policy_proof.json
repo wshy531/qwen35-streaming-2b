@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "sha256": "167ea4528b12e33e569695595a9c47bf1b5efda6240fa7d1c4cca0bc85e5e94c",
+  "pairs": 1426,
+  "source_sha256": {
+    "audit_nodes.py": "52b628e21824bff0c7c8b3fe7758ebdf7c03aea49a0afd6e53269cc461865179",
+    "cpu_contract.py": "01f03d4c5bf2c53ba6888e2c99d0d08982535f28f0e35a7cd207f8c30b02318f",
+    "policy.py": "4404e3feae920f0d26f4296718274dda328c8ff41a8d82287d636617fab28bae"
+  },
+  "features": "synthetic32; not capability evidence"
+}
