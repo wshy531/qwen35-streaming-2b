@@ -1,0 +1,71 @@
+{
+  "source_date": "2026-10-21",
+  "policy_sha256": "4404e3feae920f0d26f4296718274dda328c8ff41a8d82287d636617fab28bae",
+  "source_path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/policy.py",
+  "snapshot_files": [
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/audit_nodes.py",
+      "bytes": 2745,
+      "sha256": "52b628e21824bff0c7c8b3fe7758ebdf7c03aea49a0afd6e53269cc461865179",
+      "modified_ns": 1792508231838974000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/check_compare.py",
+      "bytes": 3735,
+      "sha256": "d55b668f8ea38f3dcae7467ee5396b5d53ff7ce84529a13a9742fc604e6d7fbe",
+      "modified_ns": 1792508231846633000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/cpu_contract.py",
+      "bytes": 5183,
+      "sha256": "01f03d4c5bf2c53ba6888e2c99d0d08982535f28f0e35a7cd207f8c30b02318f",
+      "modified_ns": 1792508231852358000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/evaluate_compare.py",
+      "bytes": 4885,
+      "sha256": "42de872d2840123c22b503091c93405f930d93bf84d93523f384fb0618293a30",
+      "modified_ns": 1792508231858040000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/freeze_compare.py",
+      "bytes": 3356,
+      "sha256": "5d5f47cb5fb0e52fd4e4c3e3cfe872973687db601c647b410bcf650530a5856b",
+      "modified_ns": 1792508231864349000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/observer_compare.py",
+      "bytes": 2728,
+      "sha256": "9bb95e9c74000c38d00edc02ad0621ca3a9dbb7a27f659fd7b5e8b6c9d2d3220",
+      "modified_ns": 1792508231871977000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/policy.py",
+      "bytes": 2407,
+      "sha256": "4404e3feae920f0d26f4296718274dda328c8ff41a8d82287d636617fab28bae",
+      "modified_ns": 1792508231877702000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/run_eval.sh",
+      "bytes": 742,
+      "sha256": "3acc2b7f7a2ad9f864f47a2187c9bade0314a7f30752d8a43f7a2186aa74064c",
+      "modified_ns": 1792508231885927000
+    },
+    {
+      "path": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/transport.py",
+      "bytes": 4858,
+      "sha256": "47f5426c61410c087d32374c9390f981c93f858aa49655b8ff2b237810cc3c34",
+      "modified_ns": 1792508231894400000
+    }
+  ],
+  "SSH_receipt_sha256": "ecf6e2f0cbbc6750791b3c7ca0d74c90737a0dc38e891e65a0bce800131f0085",
+  "source_read_complete": true,
+  "source_matches_previous_A06": true,
+  "inspection_exit_code": 1,
+  "commit": null,
+  "commit_limitation": "Final git log failed: experiment base directory is not a Git repository. No retry.",
+  "cluster_writes": 0,
+  "submitted_jobs": 0,
+  "model_loads": 0,
+  "fixture_role": "Exact upstream bytes; test oracle only, never imported by production code."
+}
