@@ -1,0 +1,104 @@
+{
+  "snapshot": "2026-10-21",
+  "files": {
+    ".gitattributes": {
+      "bytes": 55,
+      "sha256": "712201be2b18891e63ecec371cb9726dd4ca2036d16537d08bb5ab2eed54527b"
+    },
+    ".gitignore": {
+      "bytes": 54,
+      "sha256": "e5c81a3d69c001c04ff869e3aaeef0fe62a72ea580b8fd91e29867ca9c495986"
+    },
+    "catalog/legacy_checks15.json": {
+      "bytes": 5903,
+      "sha256": "dd5341ed4a09909effff7c7305173be6cd45d1c83ee286467c272edc78af5b0d"
+    },
+    "catalog/MANIFEST.json": {
+      "bytes": 2004,
+      "sha256": "0fa2b5fbcdae4c040eefd246b5a8e27132f0e64454cc508d926583e1e6ed75f9"
+    },
+    "catalog/media.json": {
+      "bytes": 204549,
+      "sha256": "c7001c920cc569f6e2969925181828073e14c470650afa57a5e8a8c41a456661"
+    },
+    "catalog/planned1920_NOT_DOWNLOADED.json": {
+      "bytes": 921296,
+      "sha256": "b64b6f0c2488ba715542a8202b1c14e286e1ab18682abd02cb934a38da6fa5b0"
+    },
+    "catalog/provenance.json": {
+      "bytes": 3789,
+      "sha256": "783ebd3ba02b8b6917b1534e74a68c6d9ba3d4dcfb8fd6c6835880e12cdc49a1"
+    },
+    "catalog/questions.json": {
+      "bytes": 706917,
+      "sha256": "302e1c8a0683979d211c73b6703b48b7de5019ff2a227de60c84d4d58e793f66"
+    },
+    "catalog/releases.json": {
+      "bytes": 72334,
+      "sha256": "50323310d36aa09402ecfd68272af8639405e290e1ba30c41931ef191930fe0d"
+    },
+    "catalog/summary.json": {
+      "bytes": 4297,
+      "sha256": "4abc77476989647d44ae7c551847e4e18f8cf5b4c8193b37bc8bc73cccb0772a"
+    },
+    "catalog/tools/build_dataset_catalog.py": {
+      "bytes": 18389,
+      "sha256": "9a1b296e620f19e46e80887f1e85bd746f4f680433adcf9edef0f01e7896bbac"
+    },
+    "catalog/tools/write_dataset_catalog_report.py": {
+      "bytes": 16238,
+      "sha256": "667626cfdc9e18f2973b64e9c6b2e7626456e6d3c0cc1df2cb758f99aabdc9a3"
+    },
+    "catalog/verify_catalog.py": {
+      "bytes": 5119,
+      "sha256": "e8a7fe453c8aeb7f7d7c5d0ed324f758c5beb63f4f86b7de85d4efa8ea832aca"
+    },
+    "catalog/数据集总目录.md": {
+      "bytes": 10550,
+      "sha256": "79705c90ff772a7e81bc0e3f8a16e72458198c4807832f46649c63f35f516d49"
+    },
+    "catalog/视频清单.md": {
+      "bytes": 44628,
+      "sha256": "fe5975f1c743884fb6c69ebb9377e8e29abb27a997191666ee99604248ce82ea"
+    },
+    "catalog/题目清单.md": {
+      "bytes": 87791,
+      "sha256": "2038dae23c717ae3056b8a18cab900b74a6670e09f300b99340fcf896012d260"
+    },
+    "evidence/cluster_final_verification.json": {
+      "bytes": 150,
+      "sha256": "2c454b7b040ef0faf861fb63425dfa39822a483ef96ca5edb67ebf3f035e744b"
+    },
+    "evidence/cluster_inventory.json": {
+      "bytes": 31137,
+      "sha256": "5462fed975524a07346deda41366f044a858b74a510d6a5f33b307df9821a7f2"
+    },
+    "evidence/cpu_summary.json": {
+      "bytes": 215,
+      "sha256": "ceeb057fa2c532cf6faa252d3b9f4837f28eb6de919ce2eb2bbc0de96dfc8aa0"
+    },
+    "evidence/local_verification.json": {
+      "bytes": 285,
+      "sha256": "3f92ef2e8849f32b0362c948e49dae172e0a4c97f9d37161b10981dda584b3bc"
+    },
+    "evidence/repository_cpu_checks.log": {
+      "bytes": 36990,
+      "sha256": "8b227bbab0151d57ba5cc6777c0ed03e9b74b2926ba5b36b15c9c08c9de5168d"
+    },
+    "evidence/transfer_plan.json": {
+      "bytes": 21206,
+      "sha256": "f68e0e787fdb2d878eada886b73803bc4c7d2784d3ee4c540b014bd5278674b7"
+    },
+    "evidence/transfer_receipt.json": {
+      "bytes": 232,
+      "sha256": "161413c5203d04ae4e8676da1a30459edb5b9098128767232a0aa5459e57ebb3"
+    },
+    "README.md": {
+      "bytes": 1879,
+      "sha256": "6ccd10ad81bcef2eaaec4f60e5762a8eac0e10efbbb790655d820b0376cf9b83"
+    }
+  },
+  "cluster_catalog": "data/catalog-20261021",
+  "GPU_submissions": 0,
+  "new_downloads": 0
+}

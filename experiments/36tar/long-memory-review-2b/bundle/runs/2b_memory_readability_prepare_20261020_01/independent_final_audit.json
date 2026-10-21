@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "all36_unique_answers": true,
+  "callbacks_match_all_generated_IDs": true,
+  "raw_bank_snapshots": 6,
+  "snapshots_compressed_bytes": 17588617,
+  "snapshot_tensor_bytes": 18938880,
+  "snapshot_arrays_finite_mass_conserved_and_source_coords_valid": true,
+  "input_protocol_authorization_CPU_and91_runtime_locks_valid": true,
+  "analysis_source_and_labels_unchanged": true,
+  "queue_empty": true,
+  "raw_feature_archive_peak_bytes": 92721600,
+  "diagnostic_archive_NOT_candidate_memory": true,
+  "completed": {
+    "status": "complete",
+    "answers": 36,
+    "generated_tokens": 72,
+    "visual_encodings": 1350,
+    "pretrained_loads": 1,
+    "seconds": 524.7635605749674,
+    "peak_RSS_observed_bytes": 2463547392,
+    "peak_GPU_allocated_bytes": 10086989824,
+    "protocol_sha256": "4276c11bb71646fdf20748247c0b1dfa513df4dc42033d6c794b784525ae2537",
+    "candidate_default_unchanged": true,
+    "wallclock_test": false
+  },
+  "sacct": "217784|COMPLETED|0:0|00:08:56|4|24G||gpu1\n217784.batch|COMPLETED|0:0|00:08:56|4||1882104K|gpu1\n217784.extern|COMPLETED|0:0|00:08:56|4||132K|gpu1\n"
+}

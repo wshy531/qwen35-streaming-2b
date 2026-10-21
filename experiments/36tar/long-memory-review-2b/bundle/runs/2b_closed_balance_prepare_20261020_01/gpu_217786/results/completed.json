@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "answers": 102,
+  "generated_tokens": 208,
+  "visual_encodings": 1426,
+  "pretrained_loads": 1,
+  "shared_main_resets": 41,
+  "seconds": 690.1506312701385,
+  "peak_RSS_observed_bytes": 2336575488,
+  "peak_GPU_allocated_bytes": 9033070080,
+  "protocol_sha256": "9c4b512830407208fc98d2f478a5c3575add8be2a0e68eb3c20f0c8910ef17d8",
+  "default_unchanged": true,
+  "wallclock": false,
+  "no_full_history_feature_archive": true,
+  "shared_process_timing_NOT_per_arm_speed_claim": true
+}

@@ -1,0 +1,29 @@
+{
+  "subject_days": [
+    [
+      "A1_JAKE",
+      "DAY1"
+    ],
+    [
+      "A2_ALICE",
+      "DAY2"
+    ],
+    [
+      "A3_TASHA",
+      "DAY3"
+    ],
+    [
+      "A4_LUCIA",
+      "DAY4"
+    ]
+  ],
+  "revision": "143fb319be7aa5ae210c936bf4f0f3a86092afb0",
+  "files_each": 480,
+  "rule": "first480 chronological MP4 per preselected subject/day; no content/output selection",
+  "scope": "metadata only; nominal4h needs actual durations/PTS and gap admission",
+  "network_cap_bytes": 4194304,
+  "network_seconds": 120,
+  "requests_max": 6,
+  "no_retry": true,
+  "GPU_jobs": 0
+}

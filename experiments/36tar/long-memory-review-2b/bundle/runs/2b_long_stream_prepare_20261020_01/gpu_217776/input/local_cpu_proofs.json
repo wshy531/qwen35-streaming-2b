@@ -1,0 +1,12 @@
+{
+  "native_passed": true,
+  "memory_passed": true,
+  "native_proof_sha256": "e106e9e8e98b47956e932d26a6a1d6ed3b757860f13dd0dff5fc75d8d2f34ef0",
+  "memory_proof_sha256": "9e7829b7c14121e6dbee166dd53f0a25991e755b593109de546804fe2696344b",
+  "media_proof_sha256": "24ffc511f528793179bafad49c039d09161fee412a6bfde174ed891553726c98",
+  "scopes": {
+    "native": "34 full native pixel/layout checks; six short full/chunk bitwise equal; one tiny original callback",
+    "memory": "24 actual pair encodings; six isolated tiny query branches;102 layouts; final34 metadata dispatch",
+    "media": "2853 actual PTS/RGB frames and34 committed-prefix checks with fake observer; no pretrained model"
+  }
+}

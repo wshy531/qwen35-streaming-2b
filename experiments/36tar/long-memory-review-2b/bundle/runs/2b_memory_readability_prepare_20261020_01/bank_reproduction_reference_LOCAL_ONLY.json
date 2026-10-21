@@ -1,0 +1,56 @@
+[
+  {
+    "id": "local_longstream_v1:01",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      34,
+      248046
+    ],
+    "text": "C"
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      33,
+      248046
+    ],
+    "text": "B"
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      32,
+      248046
+    ],
+    "text": "A"
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      33,
+      248046
+    ],
+    "text": "B"
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      35,
+      248046
+    ],
+    "text": "D"
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "arm": "F_bank_reproduction",
+    "generated_ids": [
+      34,
+      248046
+    ],
+    "text": "C"
+  }
+]

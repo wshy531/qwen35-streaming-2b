@@ -1,0 +1,2 @@
+# Only this frozen delivery's audited text logs override the repository log rule.
+!*.log

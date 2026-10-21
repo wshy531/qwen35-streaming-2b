@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_bad_time_or_order_is_rejected (test_schedule.CausalSchedule.test_bad_time_or_order_is_rejected) ... ok\ntest_continue_after_two_questions_without_replay (test_schedule.CausalSchedule.test_continue_after_two_questions_without_replay) ... ok\ntest_frame_at_exact_query_time_precedes_question (test_schedule.CausalSchedule.test_frame_at_exact_query_time_precedes_question) ... ok\ntest_initial_question_and_eof_tail_are_explicit (test_schedule.CausalSchedule.test_initial_question_and_eof_tail_are_explicit) ... ok\ntest_lazy_source_is_not_materialized (test_schedule.CausalSchedule.test_lazy_source_is_not_materialized) ... ok\ntest_odd_pending_does_not_use_next_frame (test_schedule.CausalSchedule.test_odd_pending_does_not_use_next_frame) ... ok\ntest_same_timestamp_questions_share_observation (test_schedule.CausalSchedule.test_same_timestamp_questions_share_observation) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.000s\n\nOK\n",
+  "model_loads": 0,
+  "GPU_jobs": 0,
+  "scope": "scheduler only, no model/media backend integration"
+}

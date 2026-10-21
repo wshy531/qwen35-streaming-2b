@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "sha256": "28290aaa9030748c3e6289f9b9d0da4713b99d59a93007aa359f0f55ef1691ea",
+  "pairs": 1426,
+  "executed_policy_sha256": {
+    "policy.py": "0c65e75bcd0377acfc86fa422df4ac9819cbd16cdf020cb058bb9f94079e3f83",
+    "cpu_contract.py": "6faf3d28bca5ec91b91a1e2dc737f77d67c89be2bad09162f5fc35fad9377971"
+  },
+  "features": "synthetic32; not real2B capability evidence"
+}

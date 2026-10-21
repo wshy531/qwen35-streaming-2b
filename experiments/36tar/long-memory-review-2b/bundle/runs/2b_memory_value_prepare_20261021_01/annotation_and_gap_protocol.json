@@ -1,0 +1,35 @@
+{
+  "status": "annotation_protocol_no_admitted_questions",
+  "sources": 4,
+  "target_questions": 96,
+  "per_source": {
+    "old_event": 8,
+    "order_state": 6,
+    "recent": 6,
+    "old_current": 4
+  },
+  "input": "physical clips chronologically ordered with actual PTS and HHMMSSFF frame-index clock; record gaps; no invented missing frames",
+  "gaps": "all4 selected days have stop-recording gaps; not4 uncut videos; never infer unobserved events or current object state across an unseen interval",
+  "pair_rule": "1FPS actual samples, no pairing across >1.5s sample gap; pending is not evidence; per-query committed cutoff",
+  "labels": "before candidate output, actual crop hashes and witness time; ambiguous/base-unreadable retained separately",
+  "no_future_questions_or_labels_to_writer": true,
+  "no_audio_or_transcript_as_input": true,
+  "full_reference": "only predeclared feasible prefixes; full declared-capacity overflow not scored as wrong; raw local witness only diagnostic",
+  "actual_qualified_sources": 0,
+  "actual_qualified_questions": 0,
+  "GPU_jobs": 0,
+  "required_row_fields": [
+    "id",
+    "subject",
+    "day",
+    "query_time_s",
+    "question",
+    "options",
+    "answer_index",
+    "type",
+    "witness_frame_ids_and_SHA",
+    "witness_end_before_cutoff",
+    "recording_gap_caveat",
+    "adjudication"
+  ]
+}

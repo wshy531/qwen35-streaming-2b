@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "stage": "native",
+  "contexts": 98,
+  "tiny_answers": 1,
+  "actual_pixel_equal_sources": 39,
+  "max_input_tokens": 5233,
+  "seconds": 84.01168534904718,
+  "pretrained_model_loads": 0,
+  "protocol_sha256": "2c737c12bd104da5d726a7009d84affcd5220cd9db3246152aa5ffd79f4cc9c5",
+  "runtime_lock_sha256": "9aae6e3c345ec9dde38b29d02ce17cfe1a02e5e23978b27ca5fa71fe9c60e3f5"
+}

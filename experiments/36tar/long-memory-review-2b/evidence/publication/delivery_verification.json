@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "files": 298,
+  "repository_dependencies_checked": 44,
+  "results": {
+    "T_98_strict": {
+      "native_original": 57,
+      "full_pairwise_reference": 57,
+      "M0": 50,
+      "M1": 49,
+      "M2": 53,
+      "B02_cap4": 52,
+      "reservoir4": 49,
+      "text_only": 29
+    },
+    "long_34": {
+      "all28": {
+        "native": 12,
+        "main_only": 14,
+        "M0": 14,
+        "M2": 12,
+        "text_only": 12
+      },
+      "supported16": {
+        "native": 7,
+        "main_only": 10,
+        "M0": 10,
+        "M2": 8,
+        "text_only": 8
+      },
+      "manual6": {
+        "native": 6,
+        "main_only": 4,
+        "M0": 3,
+        "M2": 3,
+        "text_only": 3
+      }
+    },
+    "A06_34": {
+      "all28": {
+        "M0": 14,
+        "M2": 12,
+        "A06": 14
+      },
+      "supported16": {
+        "M0": 10,
+        "M2": 8,
+        "A06": 10
+      },
+      "manual6": {
+        "M0": 3,
+        "M2": 3,
+        "A06": 3
+      }
+    },
+    "A04_34": {
+      "all28": {
+        "M0_384": 14,
+        "M2_384": 12,
+        "M0_768": 15,
+        "M2_768": 15,
+        "S24_384": 12
+      },
+      "supported16": {
+        "M0_384": 10,
+        "M2_384": 8,
+        "M0_768": 11,
+        "M2_768": 10,
+        "S24_384": 8
+      },
+      "manual6": {
+        "M0_384": 3,
+        "M2_384": 3,
+        "M0_768": 4,
+        "M2_768": 3,
+        "S24_384": 3
+      }
+    },
+    "readability_6": {
+      "A_raw_old": 5,
+      "B_compressed_old": 3,
+      "C_raw_old_recent": 5,
+      "D_compressed_old_recent": 3,
+      "E_full_pairwise": 6,
+      "F_bank_reproduction": 3
+    },
+    "status": "paused_by_user_no_new_download_or_GPU",
+    "raw_answers_rescored": 1262
+  },
+  "pretrained_loads": 0,
+  "GPU_submissions": 0,
+  "note": "Historical answers rescored; not a new model experiment"
+}

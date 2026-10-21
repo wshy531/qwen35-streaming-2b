@@ -1,0 +1,3044 @@
+{
+  "summary": {
+    "official_all28": {
+      "scores": {
+        "native": {
+          "correct": 12,
+          "total": 28,
+          "missing": 0,
+          "format_errors": 3
+        },
+        "main_only": {
+          "correct": 14,
+          "total": 28,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M0": {
+          "correct": 14,
+          "total": 28,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 12,
+          "total": 28,
+          "missing": 0,
+          "format_errors": 1
+        },
+        "text_only": {
+          "correct": 12,
+          "total": 28,
+          "missing": 0,
+          "format_errors": 0
+        }
+      },
+      "paired": {
+        "M2_vs_M0": {
+          "corrections": [],
+          "losses": [
+            "ovo:108",
+            "ovo:146"
+          ]
+        },
+        "M2_vs_native": {
+          "corrections": [
+            "ovo:73",
+            "ovo:68",
+            "ovo:147"
+          ],
+          "losses": [
+            "ovo:70",
+            "ovo:105",
+            "ovo:183"
+          ]
+        },
+        "M0_vs_native": {
+          "corrections": [
+            "ovo:73",
+            "ovo:108",
+            "ovo:68",
+            "ovo:147",
+            "ovo:146"
+          ],
+          "losses": [
+            "ovo:70",
+            "ovo:105",
+            "ovo:183"
+          ]
+        },
+        "M2_vs_text_only": {
+          "corrections": [
+            "ovo:73",
+            "ovo:104",
+            "ovo:103",
+            "ovo:106",
+            "ovo:68",
+            "ovo:144"
+          ],
+          "losses": [
+            "ovo:102",
+            "ovo:130",
+            "ovo:131",
+            "ovo:67",
+            "ovo:133",
+            "ovo:146"
+          ]
+        },
+        "M2_vs_main_only": {
+          "corrections": [],
+          "losses": [
+            "ovo:183",
+            "ovo:146"
+          ]
+        }
+      },
+      "per_source": {
+        "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 4
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 4
+          },
+          "M0": {
+            "correct": 2,
+            "total": 4
+          },
+          "M2": {
+            "correct": 2,
+            "total": 4
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 4
+          }
+        },
+        "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4": {
+          "native": {
+            "correct": 3,
+            "total": 4
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 4
+          },
+          "M0": {
+            "correct": 2,
+            "total": 4
+          },
+          "M2": {
+            "correct": 2,
+            "total": 4
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 4
+          }
+        },
+        "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 4
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 4
+          },
+          "M0": {
+            "correct": 3,
+            "total": 4
+          },
+          "M2": {
+            "correct": 2,
+            "total": 4
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 4
+          }
+        },
+        "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 8
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 8
+          },
+          "M0": {
+            "correct": 2,
+            "total": 8
+          },
+          "M2": {
+            "correct": 2,
+            "total": 8
+          },
+          "text_only": {
+            "correct": 5,
+            "total": 8
+          }
+        },
+        "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 4
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 4
+          },
+          "M0": {
+            "correct": 1,
+            "total": 4
+          },
+          "M2": {
+            "correct": 1,
+            "total": 4
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 4
+          }
+        },
+        "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 4
+          },
+          "main_only": {
+            "correct": 4,
+            "total": 4
+          },
+          "M0": {
+            "correct": 4,
+            "total": 4
+          },
+          "M2": {
+            "correct": 3,
+            "total": 4
+          },
+          "text_only": {
+            "correct": 3,
+            "total": 4
+          }
+        }
+      }
+    },
+    "official_supported16": {
+      "scores": {
+        "native": {
+          "correct": 7,
+          "total": 16,
+          "missing": 0,
+          "format_errors": 3
+        },
+        "main_only": {
+          "correct": 10,
+          "total": 16,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M0": {
+          "correct": 10,
+          "total": 16,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 8,
+          "total": 16,
+          "missing": 0,
+          "format_errors": 1
+        },
+        "text_only": {
+          "correct": 8,
+          "total": 16,
+          "missing": 0,
+          "format_errors": 0
+        }
+      },
+      "paired": {
+        "M2_vs_M0": {
+          "corrections": [],
+          "losses": [
+            "ovo:108",
+            "ovo:146"
+          ]
+        },
+        "M2_vs_native": {
+          "corrections": [
+            "ovo:73",
+            "ovo:68"
+          ],
+          "losses": [
+            "ovo:183"
+          ]
+        },
+        "M0_vs_native": {
+          "corrections": [
+            "ovo:73",
+            "ovo:108",
+            "ovo:68",
+            "ovo:146"
+          ],
+          "losses": [
+            "ovo:183"
+          ]
+        },
+        "M2_vs_text_only": {
+          "corrections": [
+            "ovo:73",
+            "ovo:103",
+            "ovo:68",
+            "ovo:144"
+          ],
+          "losses": [
+            "ovo:102",
+            "ovo:131",
+            "ovo:67",
+            "ovo:146"
+          ]
+        },
+        "M2_vs_main_only": {
+          "corrections": [],
+          "losses": [
+            "ovo:183",
+            "ovo:146"
+          ]
+        }
+      },
+      "per_source": {
+        "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 2
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 2
+          },
+          "M0": {
+            "correct": 2,
+            "total": 2
+          },
+          "M2": {
+            "correct": 2,
+            "total": 2
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 2
+          }
+        },
+        "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 2
+          },
+          "main_only": {
+            "correct": 1,
+            "total": 2
+          },
+          "M0": {
+            "correct": 1,
+            "total": 2
+          },
+          "M2": {
+            "correct": 1,
+            "total": 2
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 2
+          }
+        },
+        "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4": {
+          "native": {
+            "correct": 0,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 0,
+            "total": 1
+          },
+          "M0": {
+            "correct": 1,
+            "total": 1
+          },
+          "M2": {
+            "correct": 0,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 0,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 5
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 5
+          },
+          "M0": {
+            "correct": 2,
+            "total": 5
+          },
+          "M2": {
+            "correct": 2,
+            "total": 5
+          },
+          "text_only": {
+            "correct": 3,
+            "total": 5
+          }
+        },
+        "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 3
+          },
+          "main_only": {
+            "correct": 2,
+            "total": 3
+          },
+          "M0": {
+            "correct": 1,
+            "total": 3
+          },
+          "M2": {
+            "correct": 1,
+            "total": 3
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 3
+          }
+        },
+        "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4": {
+          "native": {
+            "correct": 2,
+            "total": 3
+          },
+          "main_only": {
+            "correct": 3,
+            "total": 3
+          },
+          "M0": {
+            "correct": 3,
+            "total": 3
+          },
+          "M2": {
+            "correct": 2,
+            "total": 3
+          },
+          "text_only": {
+            "correct": 2,
+            "total": 3
+          }
+        }
+      }
+    },
+    "manual_development6": {
+      "scores": {
+        "native": {
+          "correct": 6,
+          "total": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "main_only": {
+          "correct": 4,
+          "total": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M0": {
+          "correct": 3,
+          "total": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 3,
+          "total": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "text_only": {
+          "correct": 3,
+          "total": 6,
+          "missing": 0,
+          "format_errors": 0
+        }
+      },
+      "paired": {
+        "M2_vs_M0": {
+          "corrections": [],
+          "losses": []
+        },
+        "M2_vs_native": {
+          "corrections": [],
+          "losses": [
+            "local_longstream_v1:02",
+            "local_longstream_v1:03",
+            "local_longstream_v1:05"
+          ]
+        },
+        "M0_vs_native": {
+          "corrections": [],
+          "losses": [
+            "local_longstream_v1:02",
+            "local_longstream_v1:03",
+            "local_longstream_v1:05"
+          ]
+        },
+        "M2_vs_text_only": {
+          "corrections": [
+            "local_longstream_v1:06"
+          ],
+          "losses": [
+            "local_longstream_v1:02"
+          ]
+        },
+        "M2_vs_main_only": {
+          "corrections": [],
+          "losses": [
+            "local_longstream_v1:03"
+          ]
+        }
+      },
+      "per_source": {
+        "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 1,
+            "total": 1
+          },
+          "M0": {
+            "correct": 1,
+            "total": 1
+          },
+          "M2": {
+            "correct": 1,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 0,
+            "total": 1
+          },
+          "M0": {
+            "correct": 0,
+            "total": 1
+          },
+          "M2": {
+            "correct": 0,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 1,
+            "total": 1
+          },
+          "M0": {
+            "correct": 0,
+            "total": 1
+          },
+          "M2": {
+            "correct": 0,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 0,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 1,
+            "total": 1
+          },
+          "M0": {
+            "correct": 1,
+            "total": 1
+          },
+          "M2": {
+            "correct": 1,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 1,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 0,
+            "total": 1
+          },
+          "M0": {
+            "correct": 0,
+            "total": 1
+          },
+          "M2": {
+            "correct": 0,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 0,
+            "total": 1
+          }
+        },
+        "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4": {
+          "native": {
+            "correct": 1,
+            "total": 1
+          },
+          "main_only": {
+            "correct": 1,
+            "total": 1
+          },
+          "M0": {
+            "correct": 1,
+            "total": 1
+          },
+          "M2": {
+            "correct": 1,
+            "total": 1
+          },
+          "text_only": {
+            "correct": 0,
+            "total": 1
+          }
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "ovo:70",
+      "arm": "native",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 291.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:70",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 291.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:70",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 291.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:70",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 291.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:70",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 291.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:71",
+      "arm": "native",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 345.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:71",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 345.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:71",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 345.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:71",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 345.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:71",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 345.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:72",
+      "arm": "native",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:72",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:72",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:72",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:72",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:73",
+      "arm": "native",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 437.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:73",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 437.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:73",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 437.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:73",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 437.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:73",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 437.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:104",
+      "arm": "native",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 51.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:104",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 51.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:104",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 51.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:104",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 51.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:104",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 51.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:105",
+      "arm": "native",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 81.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:105",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 81.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:105",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 81.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:105",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 81.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:105",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 81.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:102",
+      "arm": "native",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "format",
+      "text": "A. Beside the checkout",
+      "prediction": null,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 341.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:102",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 341.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:102",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 341.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:102",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 341.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:102",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 341.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:103",
+      "arm": "native",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:103",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:103",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:103",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:103",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:106",
+      "arm": "native",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 191.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:106",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 191.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:106",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 191.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:106",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 191.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:106",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 191.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:107",
+      "arm": "native",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 251.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:107",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 251.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:107",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 251.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:107",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 251.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:107",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 251.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:108",
+      "arm": "native",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 321.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:108",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 321.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:108",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 321.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:108",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 321.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:108",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 321.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:109",
+      "arm": "native",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 393.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:109",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 393.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:109",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 393.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:109",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 393.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:109",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 393.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:130",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 239.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:130",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 239.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:130",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 239.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:130",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 239.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:130",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 239.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:131",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:131",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:131",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:131",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:131",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:68",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "format",
+      "text": "A. at the living room",
+      "prediction": null,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:68",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:68",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:68",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:68",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:69",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:69",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:69",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:69",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:69",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 277.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:67",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 331.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:67",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 331.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:67",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 331.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:67",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 331.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:67",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 331.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:66",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:66",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:66",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:66",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:66",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:132",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:132",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:132",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:132",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:132",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 373.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:133",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "not_established_at_committed_cutoff",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 471.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:133",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "not_established_at_committed_cutoff",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 471.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:133",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "not_established_at_committed_cutoff",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 471.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:133",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "not_established_at_committed_cutoff",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 471.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:133",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "not_established_at_committed_cutoff",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 471.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:180",
+      "arm": "native",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 59.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:180",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 59.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:180",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 59.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:180",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 59.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:180",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 59.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:181",
+      "arm": "native",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 243.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:181",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 243.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:181",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 243.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:181",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 243.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:181",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 243.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:182",
+      "arm": "native",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 359.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:182",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 359.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:182",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 359.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:182",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 359.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:182",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 359.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:183",
+      "arm": "native",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:183",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:183",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:183",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:183",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 411.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:144",
+      "arm": "native",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 131.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:144",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 131.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:144",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 131.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:144",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 131.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:144",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 1,
+      "correct": false,
+      "available_committed_through_s": 131.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:145",
+      "arm": "native",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 193.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:145",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 193.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:145",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 193.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:145",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 193.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:145",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 193.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:147",
+      "arm": "native",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 195.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:147",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 195.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:147",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 195.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:147",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 195.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:147",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "ambiguous",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 195.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "ovo:146",
+      "arm": "native",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "format",
+      "text": "A. black",
+      "prediction": null,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 211.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:146",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 211.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:146",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 211.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:146",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "format",
+      "text": "A. black",
+      "prediction": null,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 211.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "ovo:146",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "official_OVO_unchanged",
+      "verdict": "supported",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 211.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "native",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 429.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 429.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 429.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 429.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 429.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "native",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 469.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 469.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 469.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 469.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 469.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "native",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 3,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 3,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 3,
+      "correct": false,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "native",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 459.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 459.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 459.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 459.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "B",
+      "prediction": 1,
+      "truth": 1,
+      "correct": true,
+      "available_committed_through_s": 459.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "native",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 0,
+      "correct": true,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "D",
+      "prediction": 3,
+      "truth": 0,
+      "correct": false,
+      "available_committed_through_s": 439.0,
+      "text_control_does_not_see_video": true
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "native",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "main_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "M0",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "M2",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "C",
+      "prediction": 2,
+      "truth": 2,
+      "correct": true,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": false
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "text_only",
+      "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "cohort": "manual_development",
+      "verdict": "single_reviewer_supported_candidate",
+      "status": "answered",
+      "text": "A",
+      "prediction": 0,
+      "truth": 2,
+      "correct": false,
+      "available_committed_through_s": 449.0,
+      "text_control_does_not_see_video": true
+    }
+  ],
+  "actual_records": 170,
+  "expected_records": 170,
+  "limitations": [
+    "development/integration only; six reused sources and single reviewer",
+    "all28 includes12 ambiguous/not-established originals, not a clean accuracy claim",
+    "manual6 separate from original questions; delayed evidence is not a necessity proof",
+    "causal replay is not wall-clock playback; no speed or stable generalization conclusion"
+  ]
+}

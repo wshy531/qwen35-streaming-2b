@@ -1,0 +1,4072 @@
+[
+  {
+    "id": "nextgqa:val:6754608321:6",
+    "dataset": "nextgqa",
+    "source_id": "6754608321",
+    "source_path": "1015/6754608321",
+    "source_group_id": "vidor:6754608321",
+    "task": "TN",
+    "question": "what does the girl do after hugging the baby in the middle",
+    "options": [
+      "bring book closer to baby",
+      "walks away",
+      "remove bib",
+      "touch the baby s stomach",
+      "smile"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        19.2,
+        25.1
+      ]
+    ],
+    "duration_s": 54,
+    "query_time_s": 54,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 28.9,
+    "evidence_span_proxy_s": 5.900000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6754608321:7",
+    "dataset": "nextgqa",
+    "source_id": "6754608321",
+    "source_path": "1015/6754608321",
+    "source_group_id": "vidor:6754608321",
+    "task": "TN",
+    "question": "what did the girl do after she looked at the baby near the end of the video",
+    "options": [
+      "touch man s head",
+      "turn to baby and play",
+      "hug baby",
+      "smiles",
+      "cry"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        45.4,
+        48.9
+      ]
+    ],
+    "duration_s": 54,
+    "query_time_s": 54,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 5.100000000000001,
+    "evidence_span_proxy_s": 3.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6754608321:4",
+    "dataset": "nextgqa",
+    "source_id": "6754608321",
+    "source_path": "1015/6754608321",
+    "source_group_id": "vidor:6754608321",
+    "task": "CW",
+    "question": "why did the girl touched the baby s arm at the beginning of the video",
+    "options": [
+      "carry baby down",
+      "adjusted his shirt",
+      "hug baby",
+      "adjusted his bracelet",
+      "wears watch for the baby"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        1.3,
+        9.2
+      ]
+    ],
+    "duration_s": 54,
+    "query_time_s": 54,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 44.8,
+    "evidence_span_proxy_s": 7.8999999999999995,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:3121571439:5",
+    "dataset": "nextgqa",
+    "source_id": "3121571439",
+    "source_path": "0092/3121571439",
+    "source_group_id": "vidor:3121571439",
+    "task": "TC",
+    "question": "what does the man do as the lady approaches at the start",
+    "options": [
+      "lying on her stomach",
+      "picking",
+      "hold her",
+      "show affection",
+      "lie on floor resting"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        1.9,
+        3.6
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 36.4,
+    "evidence_span_proxy_s": 1.7000000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3121571439:10",
+    "dataset": "nextgqa",
+    "source_id": "3121571439",
+    "source_path": "0092/3121571439",
+    "source_group_id": "vidor:3121571439",
+    "task": "TN",
+    "question": "how is the lady feeling after finishing dancing at the end",
+    "options": [
+      "wave",
+      "get off stage",
+      "excited",
+      "moves backward",
+      "walk away from adult"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        36.6,
+        40
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 3.3999999999999986,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3121571439:7",
+    "dataset": "nextgqa",
+    "source_id": "3121571439",
+    "source_path": "0092/3121571439",
+    "source_group_id": "vidor:3121571439",
+    "task": "TN",
+    "question": "what does the lady do after finishing dancing at the end",
+    "options": [
+      "point to someone",
+      "repeats",
+      "hugs the man",
+      "put on man s shoulder",
+      "jump"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        38.2,
+        39.5
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.5,
+    "evidence_span_proxy_s": 1.2999999999999972,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:11587211476:6",
+    "dataset": "nextgqa",
+    "source_id": "11587211476",
+    "source_path": "0050/11587211476",
+    "source_group_id": "vidor:11587211476",
+    "task": "CH",
+    "question": "how did the dog know that he is free to run through the obstacle course",
+    "options": [
+      "the owner removed the leash",
+      "the owner points at where to go",
+      "follow man s hand",
+      "trained before",
+      "the dog was alone"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.1,
+        8.6
+      ]
+    ],
+    "duration_s": 49,
+    "query_time_s": 49,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 40.4,
+    "evidence_span_proxy_s": 8.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:11587211476:7",
+    "dataset": "nextgqa",
+    "source_id": "11587211476",
+    "source_path": "0050/11587211476",
+    "source_group_id": "vidor:11587211476",
+    "task": "TN",
+    "question": "why is another man preparing to unleash his white dog after the black dog finishes the course",
+    "options": [
+      "waiting for his turn",
+      "running",
+      "jump to bite snow",
+      "focused",
+      "stand there watching"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        47.7,
+        49
+      ]
+    ],
+    "duration_s": 49,
+    "query_time_s": 49,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 1.2999999999999972,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:11587211476:2",
+    "dataset": "nextgqa",
+    "source_id": "11587211476",
+    "source_path": "0050/11587211476",
+    "source_group_id": "vidor:11587211476",
+    "task": "CW",
+    "question": "why did the dog stop for a while on a bench",
+    "options": [
+      "scratch itself",
+      "pee",
+      "searching for something",
+      "to rest",
+      "to sniff the rubbish"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        30.6,
+        37.4
+      ]
+    ],
+    "duration_s": 49,
+    "query_time_s": 49,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 11.600000000000001,
+    "evidence_span_proxy_s": 6.799999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:6300775954:8",
+    "dataset": "nextgqa",
+    "source_id": "6300775954",
+    "source_path": "1130/6300775954",
+    "source_group_id": "vidor:6300775954",
+    "task": "TN",
+    "question": "what did the lady do after she took the dumbbell from the rack",
+    "options": [
+      "sit down",
+      "check documents",
+      "take a few steps back",
+      "hold a cross sign",
+      "showed it to the camera"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.0,
+        3.2
+      ]
+    ],
+    "duration_s": 58,
+    "query_time_s": 58,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 54.8,
+    "evidence_span_proxy_s": 3.2,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6300775954:3",
+    "dataset": "nextgqa",
+    "source_id": "6300775954",
+    "source_path": "1130/6300775954",
+    "source_group_id": "vidor:6300775954",
+    "task": "CH",
+    "question": "how did the man help the lady when she was struggling",
+    "options": [
+      "remote control",
+      "looks at the product",
+      "hold the barbell",
+      "using his hands",
+      "mask"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        50.5,
+        54.8
+      ]
+    ],
+    "duration_s": 58,
+    "query_time_s": 58,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 3.200000000000003,
+    "evidence_span_proxy_s": 4.299999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6300775954:9",
+    "dataset": "nextgqa",
+    "source_id": "6300775954",
+    "source_path": "1130/6300775954",
+    "source_group_id": "vidor:6300775954",
+    "task": "CW",
+    "question": "why did the lady took so long to stand up on her last squat at the end of the video",
+    "options": [
+      "get closer to camera",
+      "scratch forehead",
+      "copy taller girl",
+      "exhausted",
+      "attract the baby girl"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        51.8,
+        55.4
+      ]
+    ],
+    "duration_s": 58,
+    "query_time_s": 58,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.6000000000000014,
+    "evidence_span_proxy_s": 3.6000000000000014,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:3960291106:6",
+    "dataset": "nextgqa",
+    "source_id": "3960291106",
+    "source_path": "1164/3960291106",
+    "source_group_id": "vidor:3960291106",
+    "task": "TN",
+    "question": "what does the man in white do after covering his mouth using his hand",
+    "options": [
+      "on his thighs",
+      "wipe his eyes with towel",
+      "listen",
+      "look into mug",
+      "throws it inside the cage"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        14.7,
+        19.6
+      ]
+    ],
+    "duration_s": 48,
+    "query_time_s": 48,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 28.4,
+    "evidence_span_proxy_s": 4.900000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3960291106:5",
+    "dataset": "nextgqa",
+    "source_id": "3960291106",
+    "source_path": "1164/3960291106",
+    "source_group_id": "vidor:3960291106",
+    "task": "CH",
+    "question": "how did everyone show signs of appreciation at the end of the video",
+    "options": [
+      "clap",
+      "wave and pose for camera",
+      "crawls",
+      "caress his head",
+      "exchange handshakes"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        36.1,
+        47.7
+      ]
+    ],
+    "duration_s": 48,
+    "query_time_s": 48,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.29999999999999716,
+    "evidence_span_proxy_s": 11.600000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3960291106:7",
+    "dataset": "nextgqa",
+    "source_id": "3960291106",
+    "source_path": "1164/3960291106",
+    "source_group_id": "vidor:3960291106",
+    "task": "TN",
+    "question": "what does the woman in black do after putting her hands on her face at the end of the video",
+    "options": [
+      "walk to boy in white",
+      "point at something",
+      "claps",
+      "talks to him",
+      "walk backwards"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        34.7,
+        37.8
+      ]
+    ],
+    "duration_s": 48,
+    "query_time_s": 48,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 10.200000000000003,
+    "evidence_span_proxy_s": 3.0999999999999943,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7308042410:6",
+    "dataset": "nextgqa",
+    "source_id": "7308042410",
+    "source_path": "1010/7308042410",
+    "source_group_id": "vidor:7308042410",
+    "task": "TN",
+    "question": "what did the girl do with the sandpaper after she finished smoothing the pot",
+    "options": [
+      "climb up the broom",
+      "continue feeding",
+      "put it away",
+      "wears clothes",
+      "back into baby s mouth"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        9.8,
+        15.5
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 18.5,
+    "evidence_span_proxy_s": 5.699999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7308042410:8",
+    "dataset": "nextgqa",
+    "source_id": "7308042410",
+    "source_path": "1010/7308042410",
+    "source_group_id": "vidor:7308042410",
+    "task": "CH",
+    "question": "how did the man teach the girl how to hold the tools",
+    "options": [
+      "use rope",
+      "pictures",
+      "demonstrated 1 time",
+      "held her hands",
+      "use hand gestures"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        25.6,
+        31.4
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.6000000000000014,
+    "evidence_span_proxy_s": 5.799999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7308042410:5",
+    "dataset": "nextgqa",
+    "source_id": "7308042410",
+    "source_path": "1010/7308042410",
+    "source_group_id": "vidor:7308042410",
+    "task": "TN",
+    "question": "what did the girl do after she smiled in the middle of the video",
+    "options": [
+      "smiles at the baby",
+      "touch her eyes",
+      "put her head on him",
+      "push green obstacle away",
+      "look around"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        21.5,
+        27.3
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 6.699999999999999,
+    "evidence_span_proxy_s": 5.800000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:8493226484:4",
+    "dataset": "nextgqa",
+    "source_id": "8493226484",
+    "source_path": "1017/8493226484",
+    "source_group_id": "vidor:8493226484",
+    "task": "TN",
+    "question": "what does the lady do after putting her hand behind the head of the boy at the start",
+    "options": [
+      "touches his head",
+      "push baby back",
+      "pin woman s hair",
+      "lean forward",
+      "dance"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        3.6,
+        6.3
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.7,
+    "evidence_span_proxy_s": 2.6999999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:8493226484:6",
+    "dataset": "nextgqa",
+    "source_id": "8493226484",
+    "source_path": "1017/8493226484",
+    "source_group_id": "vidor:8493226484",
+    "task": "TC",
+    "question": "what does the lady do as she is bringing the boy up sitting at the end",
+    "options": [
+      "sitting on the log",
+      "look at boy and listen",
+      "doing the same thing",
+      "points to the flower",
+      "kiss the neck"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        30.3,
+        32
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 1.6999999999999993,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:8493226484:5",
+    "dataset": "nextgqa",
+    "source_id": "8493226484",
+    "source_path": "1017/8493226484",
+    "source_group_id": "vidor:8493226484",
+    "task": "TN",
+    "question": "what does the lady do after the boy attempts to lie down in the middle",
+    "options": [
+      "uncover eyes too",
+      "smiling",
+      "lean forward and pull him",
+      "tickle her",
+      "get up and move around"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        15.8,
+        19.5
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 12.5,
+    "evidence_span_proxy_s": 3.6999999999999993,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:5116088152:6",
+    "dataset": "nextgqa",
+    "source_id": "5116088152",
+    "source_path": "1026/5116088152",
+    "source_group_id": "vidor:5116088152",
+    "task": "TN",
+    "question": "what does the baby do after eating the pear with one hand at the beginning",
+    "options": [
+      "use both hands",
+      "smiling",
+      "suck the spoon",
+      "pour it out",
+      "look at camera"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        5.1,
+        9.1
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 30.9,
+    "evidence_span_proxy_s": 4.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5116088152:9",
+    "dataset": "nextgqa",
+    "source_id": "5116088152",
+    "source_path": "1026/5116088152",
+    "source_group_id": "vidor:5116088152",
+    "task": "TN",
+    "question": "what happens to the banana after the baby holds on loosely to it near the end",
+    "options": [
+      "waves her hands in the air",
+      "break down",
+      "face grimace",
+      "use both hands",
+      "drop"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        34.7,
+        38.5
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 1.5,
+    "evidence_span_proxy_s": 3.799999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5116088152:7",
+    "dataset": "nextgqa",
+    "source_id": "5116088152",
+    "source_path": "1026/5116088152",
+    "source_group_id": "vidor:5116088152",
+    "task": "TN",
+    "question": "how does the baby react after the adult point at the banana",
+    "options": [
+      "move away",
+      "laughing",
+      "close eyes and laugh",
+      "drop",
+      "grab the banana"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        18.6,
+        27.0
+      ]
+    ],
+    "duration_s": 40,
+    "query_time_s": 40,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 13.0,
+    "evidence_span_proxy_s": 8.399999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:10607095936:5",
+    "dataset": "nextgqa",
+    "source_id": "10607095936",
+    "source_path": "1120/10607095936",
+    "source_group_id": "vidor:10607095936",
+    "task": "TN",
+    "question": "what does the lady do after walking to the man in red cape at the start",
+    "options": [
+      "kiss the boy",
+      "turn around",
+      "avoid him",
+      "take his microphone and talk",
+      "stop walking"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        1.8,
+        5.0
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 31.0,
+    "evidence_span_proxy_s": 3.2,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:10607095936:10",
+    "dataset": "nextgqa",
+    "source_id": "10607095936",
+    "source_path": "1120/10607095936",
+    "source_group_id": "vidor:10607095936",
+    "task": "TN",
+    "question": "what does the man in red vest do after the man in red cape raise his hand at the end",
+    "options": [
+      "grab his shoulders",
+      "hi-five him",
+      "count down",
+      "turns and looks at him",
+      "take his phone out"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        30.2,
+        34.4
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 1.6000000000000014,
+    "evidence_span_proxy_s": 4.199999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:10607095936:9",
+    "dataset": "nextgqa",
+    "source_id": "10607095936",
+    "source_path": "1120/10607095936",
+    "source_group_id": "vidor:10607095936",
+    "task": "TN",
+    "question": "what does the lady do after the man in red vest finishes talking at the end",
+    "options": [
+      "happy",
+      "laugh",
+      "look left and right",
+      "pass microphone to red cape man",
+      "move away"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        24.3,
+        28.8
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 7.199999999999999,
+    "evidence_span_proxy_s": 4.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:6239210933:1",
+    "dataset": "nextgqa",
+    "source_id": "6239210933",
+    "source_path": "1150/6239210933",
+    "source_group_id": "vidor:6239210933",
+    "task": "TP",
+    "question": "what does the child look at before drawing on the pink toy",
+    "options": [
+      "book",
+      "phone",
+      "camera",
+      "laptop",
+      "art works"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.1,
+        2.9
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 31.1,
+    "evidence_span_proxy_s": 2.8,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6239210933:4",
+    "dataset": "nextgqa",
+    "source_id": "6239210933",
+    "source_path": "1150/6239210933",
+    "source_group_id": "vidor:6239210933",
+    "task": "CH",
+    "question": "how does the child move the pink toy from the floor to his lap after dropping it",
+    "options": [
+      "pull the side of the pram",
+      "hold the toy",
+      "clap",
+      "stretched out in the air",
+      "using the string and pen"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        28.8,
+        32.5
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 1.5,
+    "evidence_span_proxy_s": 3.6999999999999993,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6239210933:6",
+    "dataset": "nextgqa",
+    "source_id": "6239210933",
+    "source_path": "1150/6239210933",
+    "source_group_id": "vidor:6239210933",
+    "task": "TN",
+    "question": "what does the child do after finishing drawing",
+    "options": [
+      "vacuums the flow",
+      "picks up the present",
+      "bored",
+      "places the vacuum upright",
+      "show off her drawing"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        16.3,
+        20.3
+      ]
+    ],
+    "duration_s": 34,
+    "query_time_s": 34,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 13.7,
+    "evidence_span_proxy_s": 4.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:12392885583:8",
+    "dataset": "nextgqa",
+    "source_id": "12392885583",
+    "source_path": "1001/12392885583",
+    "source_group_id": "vidor:12392885583",
+    "task": "TP",
+    "question": "what did the man wearing the grey jacket do before the baby got the pacifier",
+    "options": [
+      "carry baby up",
+      "turn away",
+      "watch",
+      "swing her arms",
+      "move it closer to the kid"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        0.1,
+        4.6
+      ],
+      [
+        7.8,
+        9.7
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 21.3,
+    "evidence_span_proxy_s": 9.6,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:12392885583:6",
+    "dataset": "nextgqa",
+    "source_id": "12392885583",
+    "source_path": "1001/12392885583",
+    "source_group_id": "vidor:12392885583",
+    "task": "CH",
+    "question": "how does the woman try to protect the baby when the baby approach the end of the bed",
+    "options": [
+      "kiss them",
+      "carry her and support neck",
+      "rock baby",
+      "in her arm",
+      "hand in front of baby s head"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        28.5,
+        31.0
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.0,
+    "evidence_span_proxy_s": 2.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:12392885583:4",
+    "dataset": "nextgqa",
+    "source_id": "12392885583",
+    "source_path": "1001/12392885583",
+    "source_group_id": "vidor:12392885583",
+    "task": "TN",
+    "question": "what did the boy do after he got the pacifier",
+    "options": [
+      "pass toy to baby",
+      "make funny faces",
+      "turn around",
+      "take more food",
+      "smile"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        10.4,
+        16.2
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 14.8,
+    "evidence_span_proxy_s": 5.799999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:6713120511:2",
+    "dataset": "nextgqa",
+    "source_id": "6713120511",
+    "source_path": "1001/6713120511",
+    "source_group_id": "vidor:6713120511",
+    "task": "TC",
+    "question": "what does the first person do with her hands as she slid down",
+    "options": [
+      "playing with sticks",
+      "drinking soup",
+      "pick up shoe",
+      "stretched out",
+      "jumps up"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        8.8,
+        14.8
+      ]
+    ],
+    "duration_s": 56,
+    "query_time_s": 56,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 41.2,
+    "evidence_span_proxy_s": 6.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6713120511:5",
+    "dataset": "nextgqa",
+    "source_id": "6713120511",
+    "source_path": "1001/6713120511",
+    "source_group_id": "vidor:6713120511",
+    "task": "TN",
+    "question": "what did the man in black do after the last lady slid down",
+    "options": [
+      "poke her",
+      "put hands together",
+      "tickle her",
+      "walk over to her",
+      "put arm on hip"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        43.7,
+        51.4
+      ]
+    ],
+    "duration_s": 56,
+    "query_time_s": 56,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 4.600000000000001,
+    "evidence_span_proxy_s": 7.699999999999996,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6713120511:6",
+    "dataset": "nextgqa",
+    "source_id": "6713120511",
+    "source_path": "1001/6713120511",
+    "source_group_id": "vidor:6713120511",
+    "task": "TN",
+    "question": "what did the man in black do after the first lady slide down",
+    "options": [
+      "get up",
+      "stand up and flip the chart",
+      "tickle her",
+      "observe her",
+      "stop playing the guitar"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.0,
+        13.5
+      ]
+    ],
+    "duration_s": 56,
+    "query_time_s": 56,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 42.5,
+    "evidence_span_proxy_s": 13.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4688219212:2",
+    "dataset": "nextgqa",
+    "source_id": "4688219212",
+    "source_path": "1150/4688219212",
+    "source_group_id": "vidor:4688219212",
+    "task": "CH",
+    "question": "how does the coach help the boy to get onto the rings at the start",
+    "options": [
+      "put it back into hole",
+      "by hand gesture",
+      "carry him up",
+      "press button",
+      "reward with food"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        1.4,
+        6.8
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.2,
+    "evidence_span_proxy_s": 5.4,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4688219212:1",
+    "dataset": "nextgqa",
+    "source_id": "4688219212",
+    "source_path": "1150/4688219212",
+    "source_group_id": "vidor:4688219212",
+    "task": "CH",
+    "question": "how did the coach encourage the gymnast boy after the performance",
+    "options": [
+      "clap towards him",
+      "shake hand with him",
+      "to talk to him",
+      "hug him",
+      "socialize"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        28.5,
+        31.6
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.3999999999999986,
+    "evidence_span_proxy_s": 3.1000000000000014,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4688219212:4",
+    "dataset": "nextgqa",
+    "source_id": "4688219212",
+    "source_path": "1150/4688219212",
+    "source_group_id": "vidor:4688219212",
+    "task": "TN",
+    "question": "what does the coach do after pushing the boy up at the start",
+    "options": [
+      "smiles",
+      "put hand inside the toy",
+      "sit on chair",
+      "pushes the box",
+      "watch the boy"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        5.0,
+        11.1
+      ]
+    ],
+    "duration_s": 32,
+    "query_time_s": 32,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 20.9,
+    "evidence_span_proxy_s": 6.1,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2623954636:7",
+    "dataset": "nextgqa",
+    "source_id": "2623954636",
+    "source_path": "1017/2623954636",
+    "source_group_id": "vidor:2623954636",
+    "task": "TN",
+    "question": "where did the ball bounce first after the boy threw it for the first time",
+    "options": [
+      "left",
+      "drop down",
+      "towards camera",
+      "run to boy",
+      "run away"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        2.4,
+        5.2
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.8,
+    "evidence_span_proxy_s": 2.8000000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2623954636:9",
+    "dataset": "nextgqa",
+    "source_id": "2623954636",
+    "source_path": "1017/2623954636",
+    "source_group_id": "vidor:2623954636",
+    "task": "TN",
+    "question": "what did the boy do after the ball rolled under the chair",
+    "options": [
+      "try to take it back",
+      "drink from the lid",
+      "turn around",
+      "picks it up",
+      "walk backwards while watching bowl move"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        28.5,
+        31
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 2.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2623954636:0",
+    "dataset": "nextgqa",
+    "source_id": "2623954636",
+    "source_path": "1017/2623954636",
+    "source_group_id": "vidor:2623954636",
+    "task": "TN",
+    "question": "what did the boy do after he got up from the fall in the middle of the video",
+    "options": [
+      "hug girl",
+      "look at the camera",
+      "walk around",
+      "picks up the helicopter",
+      "pick the ball up"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        9.5,
+        12.4
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 18.6,
+    "evidence_span_proxy_s": 2.9000000000000004,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2885091387:5",
+    "dataset": "nextgqa",
+    "source_id": "2885091387",
+    "source_path": "1104/2885091387",
+    "source_group_id": "vidor:2885091387",
+    "task": "TN",
+    "question": "what happens to the car after it gets into the puddle",
+    "options": [
+      "turn around and walk away",
+      "bend down to pick it",
+      "sink slightly",
+      "break down",
+      "speed up"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        7.7,
+        13.1
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 22.9,
+    "evidence_span_proxy_s": 5.3999999999999995,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2885091387:4",
+    "dataset": "nextgqa",
+    "source_id": "2885091387",
+    "source_path": "1104/2885091387",
+    "source_group_id": "vidor:2885091387",
+    "task": "TC",
+    "question": "How did the man in blue react when the man saw the car almost tilting to fall",
+    "options": [
+      "to catch the car",
+      "relaxed himself",
+      "warm up",
+      "stand up frantically",
+      "help them split the weight"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        34.5,
+        35.6
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.3999999999999986,
+    "evidence_span_proxy_s": 1.1000000000000014,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2885091387:2",
+    "dataset": "nextgqa",
+    "source_id": "2885091387",
+    "source_path": "1104/2885091387",
+    "source_group_id": "vidor:2885091387",
+    "task": "CW",
+    "question": "why did the car tilt at such a great angle after driving til the end of the puddle of water",
+    "options": [
+      "abide to rules",
+      "difference in ground levels",
+      "the car was stuck",
+      "posing",
+      "puddles formed"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        30.2,
+        35.6
+      ]
+    ],
+    "duration_s": 36,
+    "query_time_s": 36,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.3999999999999986,
+    "evidence_span_proxy_s": 5.400000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:5138093706:0",
+    "dataset": "nextgqa",
+    "source_id": "5138093706",
+    "source_path": "1103/5138093706",
+    "source_group_id": "vidor:5138093706",
+    "task": "CH",
+    "question": "how is the baby moving around the place",
+    "options": [
+      "rolling around",
+      "crawling",
+      "sitting in a baby carrier",
+      "jumping",
+      "dancing"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        0.1,
+        5.1
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.9,
+    "evidence_span_proxy_s": 5.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5138093706:3",
+    "dataset": "nextgqa",
+    "source_id": "5138093706",
+    "source_path": "1103/5138093706",
+    "source_group_id": "vidor:5138093706",
+    "task": "CH",
+    "question": "how did the baby tried to support himself to stand up at the end of the video",
+    "options": [
+      "hold handle of stairs",
+      "called for help",
+      "hold the lady's hands",
+      "baby pulled ropes",
+      "pull the strings"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        25.6,
+        28.9
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.1000000000000014,
+    "evidence_span_proxy_s": 3.299999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5138093706:7",
+    "dataset": "nextgqa",
+    "source_id": "5138093706",
+    "source_path": "1103/5138093706",
+    "source_group_id": "vidor:5138093706",
+    "task": "TN",
+    "question": "what did the baby do after he turned to look at the handles of the stairs",
+    "options": [
+      "lick them",
+      "plays with another toy",
+      "stretch hand out",
+      "happy",
+      "crawl towards camera"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        21.2,
+        25.5
+      ]
+    ],
+    "duration_s": 31,
+    "query_time_s": 31,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 5.5,
+    "evidence_span_proxy_s": 4.300000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7453733046:12",
+    "dataset": "nextgqa",
+    "source_id": "7453733046",
+    "source_path": "0074/7453733046",
+    "source_group_id": "vidor:7453733046",
+    "task": "TN",
+    "question": "what did the boy in black do after filling his cup with water",
+    "options": [
+      "walk to playground",
+      "water bottle",
+      "eats the food",
+      "wipe his mouth",
+      "talk with the woman in black"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        3.5,
+        5.3
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 27.7,
+    "evidence_span_proxy_s": 1.7999999999999998,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7453733046:13",
+    "dataset": "nextgqa",
+    "source_id": "7453733046",
+    "source_path": "0074/7453733046",
+    "source_group_id": "vidor:7453733046",
+    "task": "TC",
+    "question": "what is the baby doing as she sat in the pram",
+    "options": [
+      "reading book",
+      "having dinner",
+      "playing with balloon",
+      "drinking milk",
+      "sleeping"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        22.9,
+        30.3
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.6999999999999993,
+    "evidence_span_proxy_s": 7.400000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7453733046:9",
+    "dataset": "nextgqa",
+    "source_id": "7453733046",
+    "source_path": "0074/7453733046",
+    "source_group_id": "vidor:7453733046",
+    "task": "TN",
+    "question": "how does the girl in red react after being splashed in the face by water in the middle",
+    "options": [
+      "look at him",
+      "turns around and cover face",
+      "hold on to stairs in pool",
+      "towards the man in white",
+      "smiles"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        16.6,
+        18.3
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 14.7,
+    "evidence_span_proxy_s": 1.6999999999999993,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:3383804222:2",
+    "dataset": "nextgqa",
+    "source_id": "3383804222",
+    "source_path": "0072/3383804222",
+    "source_group_id": "vidor:3383804222",
+    "task": "TN",
+    "question": "what does the baby panda do after licking the older panda for a while at the start",
+    "options": [
+      "look at the panda touching it",
+      "take the gift from the lady",
+      "turn away",
+      "touch dog s nose",
+      "push dog away"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        14.2,
+        18.2
+      ]
+    ],
+    "duration_s": 42,
+    "query_time_s": 42,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 23.8,
+    "evidence_span_proxy_s": 4.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3383804222:5",
+    "dataset": "nextgqa",
+    "source_id": "3383804222",
+    "source_path": "0072/3383804222",
+    "source_group_id": "vidor:3383804222",
+    "task": "CH",
+    "question": "how does the older panda carry the baby panda up at the end",
+    "options": [
+      "use trunk",
+      "with its trunk",
+      "left and right",
+      "hands",
+      "provide milk"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        35.7,
+        39.4
+      ]
+    ],
+    "duration_s": 42,
+    "query_time_s": 42,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.6000000000000014,
+    "evidence_span_proxy_s": 3.6999999999999957,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3383804222:4",
+    "dataset": "nextgqa",
+    "source_id": "3383804222",
+    "source_path": "0072/3383804222",
+    "source_group_id": "vidor:3383804222",
+    "task": "TN",
+    "question": "what does the older panda do after looking up for a while in the middle",
+    "options": [
+      "stand at the side",
+      "go to woman in blue",
+      "splashing water",
+      "put trunk into mouth",
+      "hug baby panda"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        26.3,
+        30.3
+      ]
+    ],
+    "duration_s": 42,
+    "query_time_s": 42,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 11.7,
+    "evidence_span_proxy_s": 4.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4857781123:5",
+    "dataset": "nextgqa",
+    "source_id": "4857781123",
+    "source_path": "1007/4857781123",
+    "source_group_id": "vidor:4857781123",
+    "task": "TN",
+    "question": "how does the dog react after seeing the toy at the beginning",
+    "options": [
+      "lift head up",
+      "go to the person in sandals",
+      "feed dog",
+      "interested",
+      "biting"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        5.4,
+        14.5
+      ]
+    ],
+    "duration_s": 37,
+    "query_time_s": 37,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 22.5,
+    "evidence_span_proxy_s": 9.1,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4857781123:6",
+    "dataset": "nextgqa",
+    "source_id": "4857781123",
+    "source_path": "1007/4857781123",
+    "source_group_id": "vidor:4857781123",
+    "task": "TN",
+    "question": "what does the dog do after the toy is put away at the end",
+    "options": [
+      "get back up",
+      "continue walking",
+      "play with toy",
+      "turn away",
+      "walked to a bozx before turning back"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        29.4,
+        36.8
+      ]
+    ],
+    "duration_s": 37,
+    "query_time_s": 37,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.20000000000000284,
+    "evidence_span_proxy_s": 7.399999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4857781123:2",
+    "dataset": "nextgqa",
+    "source_id": "4857781123",
+    "source_path": "1007/4857781123",
+    "source_group_id": "vidor:4857781123",
+    "task": "CW",
+    "question": "why did the dog move towards the person with the toy",
+    "options": [
+      "interested in toy car",
+      "to get treats",
+      "interested in white toy",
+      "get food",
+      "show affection to boy"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        8.6,
+        11.3
+      ]
+    ],
+    "duration_s": 37,
+    "query_time_s": 37,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.7,
+    "evidence_span_proxy_s": 2.700000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7533369046:4",
+    "dataset": "nextgqa",
+    "source_id": "7533369046",
+    "source_path": "1007/7533369046",
+    "source_group_id": "vidor:7533369046",
+    "task": "TC",
+    "question": "what was the baby looking at in the middle of the video",
+    "options": [
+      "adult",
+      "black box",
+      "dog",
+      "book",
+      "flower"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        9.3,
+        9.7
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 23.3,
+    "evidence_span_proxy_s": 0.3999999999999986,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7533369046:6",
+    "dataset": "nextgqa",
+    "source_id": "7533369046",
+    "source_path": "1007/7533369046",
+    "source_group_id": "vidor:7533369046",
+    "task": "TC",
+    "question": "what was the baby doing to the white box",
+    "options": [
+      "drop it",
+      "sitting on the box",
+      "hitting the box",
+      "pulling the box",
+      "carry it to the side"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        26.9,
+        30.2
+      ],
+      [
+        31.1,
+        32.2
+      ],
+      [
+        32.7,
+        33
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 6.100000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7533369046:2",
+    "dataset": "nextgqa",
+    "source_id": "7533369046",
+    "source_path": "1007/7533369046",
+    "source_group_id": "vidor:7533369046",
+    "task": "TN",
+    "question": "what did the baby do after she turned away from the black box at the end of the video",
+    "options": [
+      "put the box aside",
+      "look at the white box",
+      "carry baby up",
+      "do a peace sign",
+      "dance with hands"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        22.9,
+        24.6
+      ]
+    ],
+    "duration_s": 33,
+    "query_time_s": 33,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 8.399999999999999,
+    "evidence_span_proxy_s": 1.7000000000000028,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2793806282:2",
+    "dataset": "nextgqa",
+    "source_id": "2793806282",
+    "source_path": "0001/2793806282",
+    "source_group_id": "vidor:2793806282",
+    "task": "TC",
+    "question": "what gesture did the lady in blue made for the dog to catch the blue toy",
+    "options": [
+      "tap her feet",
+      "puts her hand on the toy",
+      "wave hands",
+      "talk to dog",
+      "point"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        21.5,
+        28.0
+      ]
+    ],
+    "duration_s": 64,
+    "query_time_s": 64,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 36.0,
+    "evidence_span_proxy_s": 6.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2793806282:12",
+    "dataset": "nextgqa",
+    "source_id": "2793806282",
+    "source_path": "0001/2793806282",
+    "source_group_id": "vidor:2793806282",
+    "task": "TC",
+    "question": "what did the lady in blue do when she reached the stairs",
+    "options": [
+      "put head on table",
+      "sit on stairs",
+      "goes to get food",
+      "move hands around",
+      "jump down stairs"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        60.8,
+        64
+      ]
+    ],
+    "duration_s": 64,
+    "query_time_s": 64,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 3.200000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2793806282:8",
+    "dataset": "nextgqa",
+    "source_id": "2793806282",
+    "source_path": "0001/2793806282",
+    "source_group_id": "vidor:2793806282",
+    "task": "TN",
+    "question": "what did the man on the land do with the blue toy after the lady gestured to the dog",
+    "options": [
+      "look up",
+      "fidgeting with the object",
+      "throw it",
+      "tried to chase",
+      "observe it"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        34.1,
+        38.6
+      ]
+    ],
+    "duration_s": 64,
+    "query_time_s": 64,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 25.4,
+    "evidence_span_proxy_s": 4.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4518113460:9",
+    "dataset": "nextgqa",
+    "source_id": "4518113460",
+    "source_path": "1017/4518113460",
+    "source_group_id": "vidor:4518113460",
+    "task": "TN",
+    "question": "what does the adult do after the baby starts crawling away",
+    "options": [
+      "crawls away",
+      "follow the baby",
+      "look into camera",
+      "stand up",
+      "push the toy car"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        19.8,
+        28.0
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 34.0,
+    "evidence_span_proxy_s": 8.2,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4518113460:8",
+    "dataset": "nextgqa",
+    "source_id": "4518113460",
+    "source_path": "1017/4518113460",
+    "source_group_id": "vidor:4518113460",
+    "task": "TN",
+    "question": "what does the baby do after holding on to the chair near the end",
+    "options": [
+      "press on laptop",
+      "crawls again",
+      "suck his thumb",
+      "touches the plant",
+      "walks"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        52.8,
+        61.9
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.10000000000000142,
+    "evidence_span_proxy_s": 9.100000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4518113460:3",
+    "dataset": "nextgqa",
+    "source_id": "4518113460",
+    "source_path": "1017/4518113460",
+    "source_group_id": "vidor:4518113460",
+    "task": "CW",
+    "question": "why does the baby hold on to the chair at the end",
+    "options": [
+      "to stand up",
+      "aid him in his movement",
+      "secured to the chair",
+      "dance",
+      "playing"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        47.2,
+        52.5
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 9.5,
+    "evidence_span_proxy_s": 5.299999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2834146886:7",
+    "dataset": "nextgqa",
+    "source_id": "2834146886",
+    "source_path": "0033/2834146886",
+    "source_group_id": "vidor:2834146886",
+    "task": "CH",
+    "question": "how does the white dog engage with the cushion",
+    "options": [
+      "slide down",
+      "smells it",
+      "rubs",
+      "lick using mouth",
+      "lie on it"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        30.8,
+        34.9
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 28.1,
+    "evidence_span_proxy_s": 4.099999999999998,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2834146886:6",
+    "dataset": "nextgqa",
+    "source_id": "2834146886",
+    "source_path": "0033/2834146886",
+    "source_group_id": "vidor:2834146886",
+    "task": "TN",
+    "question": "what does the black dog do after coming out from the bottom of the table",
+    "options": [
+      "comes to the camera",
+      "bark",
+      "starts eating",
+      "chase the brown dog",
+      "played along with him"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        53.8,
+        55.0
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 8.0,
+    "evidence_span_proxy_s": 1.2000000000000028,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2834146886:8",
+    "dataset": "nextgqa",
+    "source_id": "2834146886",
+    "source_path": "0033/2834146886",
+    "source_group_id": "vidor:2834146886",
+    "task": "TN",
+    "question": "what does the white dog do after going to the cushion",
+    "options": [
+      "drink again",
+      "shake its body",
+      "smells the black dog",
+      "wagging tail",
+      "touch lady in blue stripes"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        36.9,
+        44.0
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 19.0,
+    "evidence_span_proxy_s": 7.100000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7416295940:6",
+    "dataset": "nextgqa",
+    "source_id": "7416295940",
+    "source_path": "1009/7416295940",
+    "source_group_id": "vidor:7416295940",
+    "task": "TN",
+    "question": "what does the adult do after adjusting the position of the toy car",
+    "options": [
+      "give to baby",
+      "pat sand away",
+      "walk off",
+      "shake baby",
+      "grab sand on it"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        25.2,
+        29.9
+      ]
+    ],
+    "duration_s": 80,
+    "query_time_s": 80,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 50.1,
+    "evidence_span_proxy_s": 4.699999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7416295940:7",
+    "dataset": "nextgqa",
+    "source_id": "7416295940",
+    "source_path": "1009/7416295940",
+    "source_group_id": "vidor:7416295940",
+    "task": "TN",
+    "question": "what does the dog do after the baby touches and caresses the dog s back",
+    "options": [
+      "smile and wants to pet it",
+      "backed away",
+      "get up and sniff boy",
+      "play with toy",
+      "feeding"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        67.7,
+        75.9
+      ]
+    ],
+    "duration_s": 80,
+    "query_time_s": 80,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 4.099999999999994,
+    "evidence_span_proxy_s": 8.200000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7416295940:2",
+    "dataset": "nextgqa",
+    "source_id": "7416295940",
+    "source_path": "1009/7416295940",
+    "source_group_id": "vidor:7416295940",
+    "task": "TN",
+    "question": "what does the baby do after the man puts some sand on the toy car",
+    "options": [
+      "throw the toy car",
+      "grab more sand",
+      "push the car",
+      "hug the man",
+      "pour the sand out of car"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        29.7,
+        34.0
+      ]
+    ],
+    "duration_s": 80,
+    "query_time_s": 80,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 46.0,
+    "evidence_span_proxy_s": 4.300000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2679130168:0",
+    "dataset": "nextgqa",
+    "source_id": "2679130168",
+    "source_path": "0061/2679130168",
+    "source_group_id": "vidor:2679130168",
+    "task": "CH",
+    "question": "how did the girl learn how to play with the cushion",
+    "options": [
+      "remote control",
+      "use controller outside the machine",
+      "copy the adult",
+      "touching and swing",
+      "played next to him"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        7.0,
+        9.5
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 53.5,
+    "evidence_span_proxy_s": 2.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2679130168:8",
+    "dataset": "nextgqa",
+    "source_id": "2679130168",
+    "source_path": "0061/2679130168",
+    "source_group_id": "vidor:2679130168",
+    "task": "TC",
+    "question": "where did the adult put the toy pumpkin in the end",
+    "options": [
+      "table",
+      "on the bed",
+      "floor",
+      "in plate",
+      "window sill"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        58.1,
+        62.6
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.3999999999999986,
+    "evidence_span_proxy_s": 4.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2679130168:6",
+    "dataset": "nextgqa",
+    "source_id": "2679130168",
+    "source_path": "0061/2679130168",
+    "source_group_id": "vidor:2679130168",
+    "task": "CW",
+    "question": "why is the girl smiling throughout the video",
+    "options": [
+      "there is food",
+      "happy",
+      "someone gave her a ball",
+      "posing for the camera",
+      "dancing to the music"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        31.7,
+        35.5
+      ],
+      [
+        37.2,
+        40.5
+      ]
+    ],
+    "duration_s": 63,
+    "query_time_s": 63,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 22.5,
+    "evidence_span_proxy_s": 8.8,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7536230796:4",
+    "dataset": "nextgqa",
+    "source_id": "7536230796",
+    "source_path": "1102/7536230796",
+    "source_group_id": "vidor:7536230796",
+    "task": "TN",
+    "question": "what does the boy do after approaching the tv at the beginning",
+    "options": [
+      "smile",
+      "play with toy",
+      "switch it on",
+      "look into bag",
+      "kiss baby"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        10.4,
+        14.7
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 59.3,
+    "evidence_span_proxy_s": 4.299999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7536230796:6",
+    "dataset": "nextgqa",
+    "source_id": "7536230796",
+    "source_path": "1102/7536230796",
+    "source_group_id": "vidor:7536230796",
+    "task": "CH",
+    "question": "how does the boy interact with the red toy",
+    "options": [
+      "pass to woman",
+      "roll it on floor",
+      "kiss it",
+      "put head on it",
+      "transform into something else"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        72.5,
+        73.9
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.09999999999999432,
+    "evidence_span_proxy_s": 1.4000000000000057,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7536230796:5",
+    "dataset": "nextgqa",
+    "source_id": "7536230796",
+    "source_path": "1102/7536230796",
+    "source_group_id": "vidor:7536230796",
+    "task": "TN",
+    "question": "what does the boy do after approaching the table near the end",
+    "options": [
+      "blow to the people sitting around him",
+      "plays with red toy",
+      "move away",
+      "stands",
+      "walks away"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        53.2,
+        73.9
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.09999999999999432,
+    "evidence_span_proxy_s": 20.700000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4006608424:0",
+    "dataset": "nextgqa",
+    "source_id": "4006608424",
+    "source_path": "0016/4006608424",
+    "source_group_id": "vidor:4006608424",
+    "task": "CH",
+    "question": "how do the man and the boy get from one side of the playground to the other at the beginning of the video",
+    "options": [
+      "on his belly",
+      "running",
+      "cycling",
+      "swing",
+      "pull boy s toy"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.0,
+        10.8
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 79.2,
+    "evidence_span_proxy_s": 10.8,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4006608424:7",
+    "dataset": "nextgqa",
+    "source_id": "4006608424",
+    "source_path": "0016/4006608424",
+    "source_group_id": "vidor:4006608424",
+    "task": "TN",
+    "question": "what does the boy do after running towards the swing at the end",
+    "options": [
+      "kick it",
+      "passes the ball",
+      "hit the drum",
+      "hold the swing",
+      "prepares swinging again"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        77.8,
+        90.0
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.0,
+    "evidence_span_proxy_s": 12.200000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4006608424:2",
+    "dataset": "nextgqa",
+    "source_id": "4006608424",
+    "source_path": "0016/4006608424",
+    "source_group_id": "vidor:4006608424",
+    "task": "TN",
+    "question": "how did the boy react after the man fell off the swing",
+    "options": [
+      "raise his hand",
+      "lie on man s stomach",
+      "smell the toy",
+      "man pulls him forward",
+      "hold the swing"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        61.8,
+        70.9
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 19.099999999999994,
+    "evidence_span_proxy_s": 9.100000000000009,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:8563398032:5",
+    "dataset": "nextgqa",
+    "source_id": "8563398032",
+    "source_path": "1009/8563398032",
+    "source_group_id": "vidor:8563398032",
+    "task": "TN",
+    "question": "why did the man with plain black shirt stop moving his hands for a while in the middle",
+    "options": [
+      "take a drink",
+      "fall down the net",
+      "show the object",
+      "writing on the ground",
+      "to flip a page"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        31.4,
+        38.6
+      ]
+    ],
+    "duration_s": 82,
+    "query_time_s": 82,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 43.4,
+    "evidence_span_proxy_s": 7.200000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:8563398032:6",
+    "dataset": "nextgqa",
+    "source_id": "8563398032",
+    "source_path": "1009/8563398032",
+    "source_group_id": "vidor:8563398032",
+    "task": "CH",
+    "question": "how does the man in plain shirt direct the attention towards the pictures on the walls near the end",
+    "options": [
+      "use laser pointer",
+      "standing in front of projector",
+      "put thumbs up",
+      "wave",
+      "look at wall"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        71.0,
+        81.6
+      ]
+    ],
+    "duration_s": 82,
+    "query_time_s": 82,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.4000000000000057,
+    "evidence_span_proxy_s": 10.599999999999994,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:8563398032:7",
+    "dataset": "nextgqa",
+    "source_id": "8563398032",
+    "source_path": "1009/8563398032",
+    "source_group_id": "vidor:8563398032",
+    "task": "TN",
+    "question": "how does the man in plain shirt react after the other man put his hand on his arm near the end",
+    "options": [
+      "cross over his right hand",
+      "point at the screen",
+      "touch the pole",
+      "walk towards plane",
+      "look at man"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        54.9,
+        59.3
+      ]
+    ],
+    "duration_s": 82,
+    "query_time_s": 82,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 22.700000000000003,
+    "evidence_span_proxy_s": 4.399999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:3375218204:5",
+    "dataset": "nextgqa",
+    "source_id": "3375218204",
+    "source_path": "1028/3375218204",
+    "source_group_id": "vidor:3375218204",
+    "task": "TN",
+    "question": "what does the girl do after walking for a while at the start",
+    "options": [
+      "hold dog leash",
+      "hold baby",
+      "crawl on the ground",
+      "walk off",
+      "point to her left"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        12.9,
+        21.6
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 53.4,
+    "evidence_span_proxy_s": 8.700000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3375218204:11",
+    "dataset": "nextgqa",
+    "source_id": "3375218204",
+    "source_path": "1028/3375218204",
+    "source_group_id": "vidor:3375218204",
+    "task": "TN",
+    "question": "what do these people do after walking into a corner at the end",
+    "options": [
+      "start running",
+      "walk back into room",
+      "picks up the grey toy",
+      "look at boy",
+      "talks to the lady"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        67.5,
+        70.9
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 4.099999999999994,
+    "evidence_span_proxy_s": 3.4000000000000057,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3375218204:7",
+    "dataset": "nextgqa",
+    "source_id": "3375218204",
+    "source_path": "1028/3375218204",
+    "source_group_id": "vidor:3375218204",
+    "task": "TN",
+    "question": "what do the children do after the man lies down in the middle",
+    "options": [
+      "feed baby",
+      "crawl around",
+      "clap their hands",
+      "put fingers in mouth",
+      "move over him"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        30.3,
+        34.2
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 40.8,
+    "evidence_span_proxy_s": 3.900000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:7114553643:1",
+    "dataset": "nextgqa",
+    "source_id": "7114553643",
+    "source_path": "1009/7114553643",
+    "source_group_id": "vidor:7114553643",
+    "task": "TN",
+    "question": "what did the man in brown vest do after he stood up in the middle of the video",
+    "options": [
+      "put in front of baby",
+      "laugh",
+      "hold the leash and pat dog",
+      "look back at blonde girl",
+      "hold the lady s hand"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        25.2,
+        28.6
+      ]
+    ],
+    "duration_s": 66,
+    "query_time_s": 66,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 37.4,
+    "evidence_span_proxy_s": 3.400000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7114553643:7",
+    "dataset": "nextgqa",
+    "source_id": "7114553643",
+    "source_path": "1009/7114553643",
+    "source_group_id": "vidor:7114553643",
+    "task": "TN",
+    "question": "what did the lady do after she pointed upwards near the end of the video",
+    "options": [
+      "lie down",
+      "walk away from the table",
+      "shake her head",
+      "pick up toy",
+      "moved her hand down slowly"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        52.6,
+        59.8
+      ]
+    ],
+    "duration_s": 66,
+    "query_time_s": 66,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 6.200000000000003,
+    "evidence_span_proxy_s": 7.199999999999996,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:7114553643:4",
+    "dataset": "nextgqa",
+    "source_id": "7114553643",
+    "source_path": "1009/7114553643",
+    "source_group_id": "vidor:7114553643",
+    "task": "TN",
+    "question": "what did the lady do after the man hugged her in the middle of the video",
+    "options": [
+      "touch his head",
+      "put the box aside",
+      "hugs her",
+      "tilt head forward",
+      "dances"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        30.6,
+        49.2
+      ]
+    ],
+    "duration_s": 66,
+    "query_time_s": 66,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 16.799999999999997,
+    "evidence_span_proxy_s": 18.6,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4955723618:1",
+    "dataset": "nextgqa",
+    "source_id": "4955723618",
+    "source_path": "1014/4955723618",
+    "source_group_id": "vidor:4955723618",
+    "task": "TN",
+    "question": "what did the man in grey do after he finished his speech",
+    "options": [
+      "pass microphone to man in black",
+      "laugh",
+      "moves hands",
+      "walk back to table",
+      "talks to the lady"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        16.1,
+        17.8
+      ]
+    ],
+    "duration_s": 61,
+    "query_time_s": 61,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 43.2,
+    "evidence_span_proxy_s": 1.6999999999999993,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4955723618:2",
+    "dataset": "nextgqa",
+    "source_id": "4955723618",
+    "source_path": "1014/4955723618",
+    "source_group_id": "vidor:4955723618",
+    "task": "TC",
+    "question": "what is the lady in black doing with her hands as she spoke into the microphone at the end of the video",
+    "options": [
+      "let lady talk",
+      "smiling",
+      "signing it",
+      "cover her face",
+      "say something"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        46.7,
+        59.5
+      ]
+    ],
+    "duration_s": 61,
+    "query_time_s": 61,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 1.5,
+    "evidence_span_proxy_s": 12.799999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4955723618:6",
+    "dataset": "nextgqa",
+    "source_id": "4955723618",
+    "source_path": "1014/4955723618",
+    "source_group_id": "vidor:4955723618",
+    "task": "TP",
+    "question": "what did the man in black in front of the man in grey do before the man in grey passed him the microphone",
+    "options": [
+      "stands still on the left",
+      "shakes head",
+      "talk into microphone",
+      "put hand in mouth",
+      "look at man in grey"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        14.2,
+        18.1
+      ]
+    ],
+    "duration_s": 61,
+    "query_time_s": 61,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 42.9,
+    "evidence_span_proxy_s": 3.900000000000002,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:2796821016:5",
+    "dataset": "nextgqa",
+    "source_id": "2796821016",
+    "source_path": "1155/2796821016",
+    "source_group_id": "vidor:2796821016",
+    "task": "TN",
+    "question": "what do the boys do after lying down",
+    "options": [
+      "put his arms back up",
+      "play with toy",
+      "talk to camera",
+      "grab the back of his chair",
+      "roll around"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        0.2,
+        8.7
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 53.3,
+    "evidence_span_proxy_s": 8.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2796821016:9",
+    "dataset": "nextgqa",
+    "source_id": "2796821016",
+    "source_path": "1155/2796821016",
+    "source_group_id": "vidor:2796821016",
+    "task": "TC",
+    "question": "what does the boy in white do to get pass the other boy at the end",
+    "options": [
+      "walk away",
+      "climb and move away",
+      "cries",
+      "pulls the boy in red",
+      "filming"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        51.6,
+        57.4
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 4.600000000000001,
+    "evidence_span_proxy_s": 5.799999999999997,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:2796821016:7",
+    "dataset": "nextgqa",
+    "source_id": "2796821016",
+    "source_path": "1155/2796821016",
+    "source_group_id": "vidor:2796821016",
+    "task": "TN",
+    "question": "what does the boy in striped do after getting his leg off the other boy",
+    "options": [
+      "bend his body",
+      "talk to camera",
+      "roll opposite direction",
+      "moving ti around",
+      "walk away"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        31.4,
+        35.8
+      ]
+    ],
+    "duration_s": 62,
+    "query_time_s": 62,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 26.200000000000003,
+    "evidence_span_proxy_s": 4.399999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4087013668:1",
+    "dataset": "nextgqa",
+    "source_id": "4087013668",
+    "source_path": "1010/4087013668",
+    "source_group_id": "vidor:4087013668",
+    "task": "TN",
+    "question": "how did the white shirt woman react after the boy throw the food back into the bowl",
+    "options": [
+      "taking a photo of boy",
+      "hold the cupcake",
+      "not willing to share",
+      "laugh",
+      "pat the boy"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        2.1,
+        6.0
+      ]
+    ],
+    "duration_s": 60,
+    "query_time_s": 60,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 54.0,
+    "evidence_span_proxy_s": 3.9,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4087013668:8",
+    "dataset": "nextgqa",
+    "source_id": "4087013668",
+    "source_path": "1010/4087013668",
+    "source_group_id": "vidor:4087013668",
+    "task": "TN",
+    "question": "what did the lady in pink do after the boy looked at her at the end of the video",
+    "options": [
+      "moves round",
+      "looking at present",
+      "clap hands",
+      "smiles",
+      "touch her knee"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        55.5,
+        59.1
+      ]
+    ],
+    "duration_s": 60,
+    "query_time_s": 60,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.8999999999999986,
+    "evidence_span_proxy_s": 3.6000000000000014,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4087013668:7",
+    "dataset": "nextgqa",
+    "source_id": "4087013668",
+    "source_path": "1010/4087013668",
+    "source_group_id": "vidor:4087013668",
+    "task": "TN",
+    "question": "what did the lady in pink do after the boy threw the peels back into the bowl",
+    "options": [
+      "push food back in the mouth",
+      "put the peels back into bowl",
+      "blow candles",
+      "scoop more food in bowl",
+      "nodding and smiling"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        22.1,
+        30.2
+      ]
+    ],
+    "duration_s": 60,
+    "query_time_s": 60,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 29.8,
+    "evidence_span_proxy_s": 8.099999999999998,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4949582792:5",
+    "dataset": "nextgqa",
+    "source_id": "4949582792",
+    "source_path": "1000/4949582792",
+    "source_group_id": "vidor:4949582792",
+    "task": "TC",
+    "question": "what does the girl do as the baby is lying in the pram at the start",
+    "options": [
+      "watch on and clap",
+      "playing with ball",
+      "unwrap the present",
+      "rock the pram",
+      "dance"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        0.0,
+        2.5
+      ]
+    ],
+    "duration_s": 88,
+    "query_time_s": 88,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 85.5,
+    "evidence_span_proxy_s": 2.5,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4949582792:8",
+    "dataset": "nextgqa",
+    "source_id": "4949582792",
+    "source_path": "1000/4949582792",
+    "source_group_id": "vidor:4949582792",
+    "task": "CH",
+    "question": "how was the pram made to move at the end",
+    "options": [
+      "pushed by man",
+      "rocked by girl",
+      "crawl",
+      "lady in red pulles it",
+      "look all around the rubik once"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        75.1,
+        85.1
+      ]
+    ],
+    "duration_s": 88,
+    "query_time_s": 88,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 2.9000000000000057,
+    "evidence_span_proxy_s": 10.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4949582792:3",
+    "dataset": "nextgqa",
+    "source_id": "4949582792",
+    "source_path": "1000/4949582792",
+    "source_group_id": "vidor:4949582792",
+    "task": "TN",
+    "question": "what did the girl do after putting her head at the pram",
+    "options": [
+      "wears clothes",
+      "lift her head back up",
+      "let go of vacuum",
+      "pick up the seatbelt",
+      "move her left arm"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        30.5,
+        32.4
+      ]
+    ],
+    "duration_s": 88,
+    "query_time_s": 88,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 55.6,
+    "evidence_span_proxy_s": 1.8999999999999986,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:4635309062:5",
+    "dataset": "nextgqa",
+    "source_id": "4635309062",
+    "source_path": "1101/4635309062",
+    "source_group_id": "vidor:4635309062",
+    "task": "TN",
+    "question": "what does the man in white do after adding oil at the beginning",
+    "options": [
+      "stir fry meat",
+      "flip cup for game",
+      "instructs man to raise his hands",
+      "walks away",
+      "head bang"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        0.2,
+        7.6
+      ]
+    ],
+    "duration_s": 69,
+    "query_time_s": 69,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 61.4,
+    "evidence_span_proxy_s": 7.3999999999999995,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4635309062:6",
+    "dataset": "nextgqa",
+    "source_id": "4635309062",
+    "source_path": "1101/4635309062",
+    "source_group_id": "vidor:4635309062",
+    "task": "TN",
+    "question": "what does the man in white do after the man in black picks up the white bowl near the end",
+    "options": [
+      "touch donkey s head",
+      "put bread down",
+      "washing hands",
+      "reads from card",
+      "step back and raise hands"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        60.0,
+        67.7
+      ]
+    ],
+    "duration_s": 69,
+    "query_time_s": 69,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 1.2999999999999972,
+    "evidence_span_proxy_s": 7.700000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:4635309062:11",
+    "dataset": "nextgqa",
+    "source_id": "4635309062",
+    "source_path": "1101/4635309062",
+    "source_group_id": "vidor:4635309062",
+    "task": "TN",
+    "question": "what happens to the red meat in the pan after the man in white stirs it for a while",
+    "options": [
+      "yes",
+      "smiled and nodded",
+      "turns colour",
+      "step back and raise hands",
+      "take out the piece"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        13.6,
+        43.0
+      ]
+    ],
+    "duration_s": 69,
+    "query_time_s": 69,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 26.0,
+    "evidence_span_proxy_s": 29.4,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:3026084730:1",
+    "dataset": "nextgqa",
+    "source_id": "3026084730",
+    "source_path": "1012/3026084730",
+    "source_group_id": "vidor:3026084730",
+    "task": "TN",
+    "question": "what did the man in the middle do after he put the paper into his pocket at the beginning of the video",
+    "options": [
+      "write on book",
+      "started singing again",
+      "button his blazer",
+      "moves his hand away",
+      "look back to keyboard"
+    ],
+    "answer_index": 2,
+    "evidence_intervals": [
+      [
+        4.3,
+        13.2
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 60.8,
+    "evidence_span_proxy_s": 8.899999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3026084730:11",
+    "dataset": "nextgqa",
+    "source_id": "3026084730",
+    "source_path": "1012/3026084730",
+    "source_group_id": "vidor:3026084730",
+    "task": "TN",
+    "question": "what did the three men do after the middle man finished speaking",
+    "options": [
+      "starts playing guitar",
+      "talks to the lady",
+      "drink",
+      "walks away",
+      "lower the camera on his shirt"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        69.6,
+        73.6
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0.4000000000000057,
+    "evidence_span_proxy_s": 4.0,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:3026084730:9",
+    "dataset": "nextgqa",
+    "source_id": "3026084730",
+    "source_path": "1012/3026084730",
+    "source_group_id": "vidor:3026084730",
+    "task": "TN",
+    "question": "what did the man in the middle do with his spectacles after he took it out",
+    "options": [
+      "folds the spectacles",
+      "stand up",
+      "snaps his fingers",
+      "snip of some hair",
+      "press the buttons"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        13.5,
+        15.9
+      ]
+    ],
+    "duration_s": 74,
+    "query_time_s": 74,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 58.1,
+    "evidence_span_proxy_s": 2.4000000000000004,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:6233408665:1",
+    "dataset": "nextgqa",
+    "source_id": "6233408665",
+    "source_path": "1150/6233408665",
+    "source_group_id": "vidor:6233408665",
+    "task": "TN",
+    "question": "what did the girl in green do after the girl in grey put the board near her face",
+    "options": [
+      "other side of table",
+      "raised up both hands",
+      "adjust the girl s clothes",
+      "push the board away",
+      "try to pull it open"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        5.4,
+        7.3
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 67.7,
+    "evidence_span_proxy_s": 1.8999999999999995,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6233408665:8",
+    "dataset": "nextgqa",
+    "source_id": "6233408665",
+    "source_path": "1150/6233408665",
+    "source_group_id": "vidor:6233408665",
+    "task": "TN",
+    "question": "what did the people on the sofa do after the lady in pink finished singing",
+    "options": [
+      "sitting",
+      "give it to the girl",
+      "take music sheet",
+      "clap",
+      "walk in circles"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        64.7,
+        67.9
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 7.099999999999994,
+    "evidence_span_proxy_s": 3.200000000000003,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:6233408665:5",
+    "dataset": "nextgqa",
+    "source_id": "6233408665",
+    "source_path": "1150/6233408665",
+    "source_group_id": "vidor:6233408665",
+    "task": "TN",
+    "question": "what did the lady in pink do after she adjusted her shirt",
+    "options": [
+      "clasp her hands",
+      "turn back",
+      "keeps the frame down",
+      "carry teddy bear",
+      "stop"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        31.6,
+        33.8
+      ]
+    ],
+    "duration_s": 75,
+    "query_time_s": 75,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 41.2,
+    "evidence_span_proxy_s": 2.1999999999999957,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:9256409422:5",
+    "dataset": "nextgqa",
+    "source_id": "9256409422",
+    "source_path": "1011/9256409422",
+    "source_group_id": "vidor:9256409422",
+    "task": "TN",
+    "question": "how did the girl react when she saw the camera after she turned back",
+    "options": [
+      "touch stomach",
+      "cry",
+      "point at herself again",
+      "cover her face",
+      "happy"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        8.7,
+        12.3
+      ]
+    ],
+    "duration_s": 77,
+    "query_time_s": 77,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 64.7,
+    "evidence_span_proxy_s": 3.6000000000000014,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:9256409422:7",
+    "dataset": "nextgqa",
+    "source_id": "9256409422",
+    "source_path": "1011/9256409422",
+    "source_group_id": "vidor:9256409422",
+    "task": "CH",
+    "question": "how did the lady show agreement at the end of the video",
+    "options": [
+      "shake hands",
+      "claps",
+      "high-five",
+      "look at the man and smile",
+      "nod"
+    ],
+    "answer_index": 4,
+    "evidence_intervals": [
+      [
+        73.4,
+        77
+      ]
+    ],
+    "duration_s": 77,
+    "query_time_s": 77,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 3.5999999999999943,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:9256409422:9",
+    "dataset": "nextgqa",
+    "source_id": "9256409422",
+    "source_path": "1011/9256409422",
+    "source_group_id": "vidor:9256409422",
+    "task": "TN",
+    "question": "what did the lady do after she finished talking in front of the camera",
+    "options": [
+      "dances",
+      "nod",
+      "look left and right",
+      "cry",
+      "play with baby"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        72.6,
+        77
+      ]
+    ],
+    "duration_s": 77,
+    "query_time_s": 77,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 0,
+    "evidence_span_proxy_s": 4.400000000000006,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:5889898795:4",
+    "dataset": "nextgqa",
+    "source_id": "5889898795",
+    "source_path": "1001/5889898795",
+    "source_group_id": "vidor:5889898795",
+    "task": "CH",
+    "question": "how does the second man in black put his hands when he ziplines down",
+    "options": [
+      "holds his string",
+      "bend",
+      "stretch hands out",
+      "keep near his body",
+      "touching his shirt"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        42.5,
+        43.3
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 46.7,
+    "evidence_span_proxy_s": 0.7999999999999972,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "early_brief_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5889898795:7",
+    "dataset": "nextgqa",
+    "source_id": "5889898795",
+    "source_path": "1001/5889898795",
+    "source_group_id": "vidor:5889898795",
+    "task": "CH",
+    "question": "how did the third man in white shorts move his legs",
+    "options": [
+      "swing leftwards",
+      "swing forward",
+      "keep it straight",
+      "swing rightwards",
+      "bend"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        79.9,
+        82.6
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 7.400000000000006,
+    "evidence_span_proxy_s": 2.6999999999999886,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "recent_observation_PROXY"
+  },
+  {
+    "id": "nextgqa:val:5889898795:8",
+    "dataset": "nextgqa",
+    "source_id": "5889898795",
+    "source_path": "1001/5889898795",
+    "source_group_id": "vidor:5889898795",
+    "task": "CW",
+    "question": "why does the lady in white face the men s bodies some time before they are ready to jump",
+    "options": [
+      "hit them",
+      "take photo of them",
+      "playing game",
+      "give them instructions",
+      "adjust their shirts"
+    ],
+    "answer_index": 3,
+    "evidence_intervals": [
+      [
+        27.1,
+        38.5
+      ],
+      [
+        54.4,
+        60.5
+      ],
+      [
+        68.0,
+        78.2
+      ]
+    ],
+    "duration_s": 90,
+    "query_time_s": 90,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 11.799999999999997,
+    "evidence_span_proxy_s": 51.1,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "order_or_visible_cause_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:13884293626:6",
+    "dataset": "nextgqa",
+    "source_id": "13884293626",
+    "source_path": "1015/13884293626",
+    "source_group_id": "vidor:13884293626",
+    "task": "CW",
+    "question": "why did the lady in purple touched her hair in the middle of the video",
+    "options": [
+      "want to let down hair",
+      "adjust hair",
+      "pose for camera",
+      "affectionate gesture",
+      "drinking"
+    ],
+    "answer_index": 0,
+    "evidence_intervals": [
+      [
+        50.6,
+        55.5
+      ]
+    ],
+    "duration_s": 180,
+    "query_time_s": 180,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 124.5,
+    "evidence_span_proxy_s": 4.899999999999999,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "long_duration_supplement_PENDING_REVIEW"
+  },
+  {
+    "id": "nextgqa:val:13884293626:7",
+    "dataset": "nextgqa",
+    "source_id": "13884293626",
+    "source_path": "1015/13884293626",
+    "source_group_id": "vidor:13884293626",
+    "task": "TN",
+    "question": "what did the lady in purple do after she let down her hair",
+    "options": [
+      "bend down",
+      "comb fingers through hair",
+      "push the back of car",
+      "put it back on",
+      "hug the lady"
+    ],
+    "answer_index": 1,
+    "evidence_intervals": [
+      [
+        50.0,
+        55.1
+      ]
+    ],
+    "duration_s": 180,
+    "query_time_s": 180,
+    "query_policy": "original_full_clip_end",
+    "evidence_gap_proxy_s": 124.9,
+    "evidence_span_proxy_s": 5.100000000000001,
+    "split": "T_unopened_source_candidate",
+    "media_review_status": "not_acquired_not_viewed",
+    "formal_evaluation_eligible": false,
+    "empirical_difficulty": "not_measured",
+    "old_evidence_necessity_proven": false,
+    "selection_role": "long_duration_supplement_PENDING_REVIEW"
+  }
+]

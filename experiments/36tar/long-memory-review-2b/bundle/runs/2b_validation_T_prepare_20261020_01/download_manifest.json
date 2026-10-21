@@ -1,0 +1,612 @@
+{
+  "status": "all40_integrity_verified_NOT_content_admitted",
+  "files": [
+    {
+      "source_path": "1015/6754608321",
+      "source_id": "6754608321",
+      "source_group_id": "vidor:6754608321",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1015/6754608321.mp4",
+      "bytes": 5637057,
+      "sha256": "7a2f9aa091c791ea98f47ac4f337b587059e1dbf485e0aa97e7e1a052f93720f",
+      "crc32": "271cbf2e",
+      "question_ids": [
+        "nextgqa:val:6754608321:6",
+        "nextgqa:val:6754608321:7",
+        "nextgqa:val:6754608321:4"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0092/3121571439",
+      "source_id": "3121571439",
+      "source_group_id": "vidor:3121571439",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0092/3121571439.mp4",
+      "bytes": 3884124,
+      "sha256": "6c1255a1de4dbd6c81e6f458f11ed23e25c4a6e2ac5fc4ce610549e2264de8d5",
+      "crc32": "59c7d331",
+      "question_ids": [
+        "nextgqa:val:3121571439:5",
+        "nextgqa:val:3121571439:10",
+        "nextgqa:val:3121571439:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0050/11587211476",
+      "source_id": "11587211476",
+      "source_group_id": "vidor:11587211476",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0050/11587211476.mp4",
+      "bytes": 4998961,
+      "sha256": "c1ba3d2382af7630d3a19beaa530c7f0bbb730d2ae18717c556fedf2ba016f06",
+      "crc32": "904f66f8",
+      "question_ids": [
+        "nextgqa:val:11587211476:6",
+        "nextgqa:val:11587211476:7",
+        "nextgqa:val:11587211476:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1130/6300775954",
+      "source_id": "6300775954",
+      "source_group_id": "vidor:6300775954",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1130/6300775954.mp4",
+      "bytes": 6043479,
+      "sha256": "972b4cdbb308203620cda36a7e2398a8c478b83ea81db82480a3edbfd5426294",
+      "crc32": "2c715a84",
+      "question_ids": [
+        "nextgqa:val:6300775954:8",
+        "nextgqa:val:6300775954:3",
+        "nextgqa:val:6300775954:9"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1164/3960291106",
+      "source_id": "3960291106",
+      "source_group_id": "vidor:3960291106",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1164/3960291106.mp4",
+      "bytes": 4966756,
+      "sha256": "6ca5cea816a2079179aeb167de1605d1e7d4d70067bd28781f67e2cba422eedd",
+      "crc32": "f523c06d",
+      "question_ids": [
+        "nextgqa:val:3960291106:6",
+        "nextgqa:val:3960291106:5",
+        "nextgqa:val:3960291106:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1010/7308042410",
+      "source_id": "7308042410",
+      "source_group_id": "vidor:7308042410",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1010/7308042410.mp4",
+      "bytes": 3568858,
+      "sha256": "fb41c606bebc9b22145d3675f9c3075e2775e42fc844a23b93b926ae22bfdeee",
+      "crc32": "e94f4df2",
+      "question_ids": [
+        "nextgqa:val:7308042410:6",
+        "nextgqa:val:7308042410:8",
+        "nextgqa:val:7308042410:5"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1017/8493226484",
+      "source_id": "8493226484",
+      "source_group_id": "vidor:8493226484",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1017/8493226484.mp4",
+      "bytes": 3385385,
+      "sha256": "6a46527e240eab7ca74b62fc247a0018853eb5afca388a4f2a96deb27042b444",
+      "crc32": "5b736e69",
+      "question_ids": [
+        "nextgqa:val:8493226484:4",
+        "nextgqa:val:8493226484:6",
+        "nextgqa:val:8493226484:5"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1026/5116088152",
+      "source_id": "5116088152",
+      "source_group_id": "vidor:5116088152",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1026/5116088152.mp4",
+      "bytes": 4184093,
+      "sha256": "836df2daf82cfcfb8aef30da8e2fecd6f64df48e764af316b6226ef645a5537a",
+      "crc32": "f9b01edf",
+      "question_ids": [
+        "nextgqa:val:5116088152:6",
+        "nextgqa:val:5116088152:9",
+        "nextgqa:val:5116088152:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1120/10607095936",
+      "source_id": "10607095936",
+      "source_group_id": "vidor:10607095936",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1120/10607095936.mp4",
+      "bytes": 3798640,
+      "sha256": "49fa383997587a3509de2501efe9d037dd1cd0a6a24e665fa48d47259a46352f",
+      "crc32": "98f4ae9d",
+      "question_ids": [
+        "nextgqa:val:10607095936:5",
+        "nextgqa:val:10607095936:10",
+        "nextgqa:val:10607095936:9"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1150/6239210933",
+      "source_id": "6239210933",
+      "source_group_id": "vidor:6239210933",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1150/6239210933.mp4",
+      "bytes": 3612001,
+      "sha256": "077f5d26816991add54b5029d22099b382c7c21e54d5f9902d1703352016e28b",
+      "crc32": "97396e88",
+      "question_ids": [
+        "nextgqa:val:6239210933:1",
+        "nextgqa:val:6239210933:4",
+        "nextgqa:val:6239210933:6"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1001/12392885583",
+      "source_id": "12392885583",
+      "source_group_id": "vidor:12392885583",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1001/12392885583.mp4",
+      "bytes": 3170388,
+      "sha256": "21f67f32404b568e8e44306adb26cc0eb61b7ea46a5718541aee5400d47bf168",
+      "crc32": "2948625a",
+      "question_ids": [
+        "nextgqa:val:12392885583:8",
+        "nextgqa:val:12392885583:6",
+        "nextgqa:val:12392885583:4"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1001/6713120511",
+      "source_id": "6713120511",
+      "source_group_id": "vidor:6713120511",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1001/6713120511.mp4",
+      "bytes": 5803780,
+      "sha256": "f5695938357ab4d13d0c5d2a3ece84c32e0d0ec40a2901c29a58819ea695a3b5",
+      "crc32": "576b04d1",
+      "question_ids": [
+        "nextgqa:val:6713120511:2",
+        "nextgqa:val:6713120511:5",
+        "nextgqa:val:6713120511:6"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1150/4688219212",
+      "source_id": "4688219212",
+      "source_group_id": "vidor:4688219212",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1150/4688219212.mp4",
+      "bytes": 3325992,
+      "sha256": "12e5edc5c9435d81d2b5c4307a5c883c72bc16935b8b60cf354367ed8102f801",
+      "crc32": "828a5a4e",
+      "question_ids": [
+        "nextgqa:val:4688219212:2",
+        "nextgqa:val:4688219212:1",
+        "nextgqa:val:4688219212:4"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1017/2623954636",
+      "source_id": "2623954636",
+      "source_group_id": "vidor:2623954636",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1017/2623954636.mp4",
+      "bytes": 3189696,
+      "sha256": "378c083ad48209c50d8f125b6ea1a28444c7e5b83f7e3f8cf57edce544e7c846",
+      "crc32": "750cb8c6",
+      "question_ids": [
+        "nextgqa:val:2623954636:7",
+        "nextgqa:val:2623954636:9",
+        "nextgqa:val:2623954636:0"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1104/2885091387",
+      "source_id": "2885091387",
+      "source_group_id": "vidor:2885091387",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1104/2885091387.mp4",
+      "bytes": 3393865,
+      "sha256": "0d79256aebd441e38f9b0ce558769a9996aeb3767d4205cc3350fabfe55d6905",
+      "crc32": "a1854e1a",
+      "question_ids": [
+        "nextgqa:val:2885091387:5",
+        "nextgqa:val:2885091387:4",
+        "nextgqa:val:2885091387:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1103/5138093706",
+      "source_id": "5138093706",
+      "source_group_id": "vidor:5138093706",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1103/5138093706.mp4",
+      "bytes": 3231279,
+      "sha256": "c83db1b6f40de09efef03df711ee3f42c3088b8c15e972e0663c5b58b340989d",
+      "crc32": "860d598a",
+      "question_ids": [
+        "nextgqa:val:5138093706:0",
+        "nextgqa:val:5138093706:3",
+        "nextgqa:val:5138093706:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0074/7453733046",
+      "source_id": "7453733046",
+      "source_group_id": "vidor:7453733046",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0074/7453733046.mp4",
+      "bytes": 3480350,
+      "sha256": "e4faf37cd1ddc8563b507948bd4708c4124c4e770b677c2583476728c136c249",
+      "crc32": "b724fe5f",
+      "question_ids": [
+        "nextgqa:val:7453733046:12",
+        "nextgqa:val:7453733046:13",
+        "nextgqa:val:7453733046:9"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0072/3383804222",
+      "source_id": "3383804222",
+      "source_group_id": "vidor:3383804222",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0072/3383804222.mp4",
+      "bytes": 4336030,
+      "sha256": "1586e6c0bf156e84e08be9928964a970bb9ccad1627fc2153518dfd10c9dbb1f",
+      "crc32": "fe4e12df",
+      "question_ids": [
+        "nextgqa:val:3383804222:2",
+        "nextgqa:val:3383804222:5",
+        "nextgqa:val:3383804222:4"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1007/4857781123",
+      "source_id": "4857781123",
+      "source_group_id": "vidor:4857781123",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1007/4857781123.mp4",
+      "bytes": 3823085,
+      "sha256": "7efa1c240e4382725ac98184b9f304154451c0d79f09dc4ed5aaa8528e9274ca",
+      "crc32": "7682f5f0",
+      "question_ids": [
+        "nextgqa:val:4857781123:5",
+        "nextgqa:val:4857781123:6",
+        "nextgqa:val:4857781123:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1007/7533369046",
+      "source_id": "7533369046",
+      "source_group_id": "vidor:7533369046",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1007/7533369046.mp4",
+      "bytes": 3512802,
+      "sha256": "3efd9b6576c9d536fe03c0e9bd70d6e49e5ab6ffb511d66852aca28f1b567d31",
+      "crc32": "dc44189b",
+      "question_ids": [
+        "nextgqa:val:7533369046:4",
+        "nextgqa:val:7533369046:6",
+        "nextgqa:val:7533369046:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0001/2793806282",
+      "source_id": "2793806282",
+      "source_group_id": "vidor:2793806282",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0001/2793806282.mp4",
+      "bytes": 6338405,
+      "sha256": "3c3fe1be0d190533edb32057005f2df97acfeaf47f199f3370602bc4a4131d66",
+      "crc32": "0a8961d3",
+      "question_ids": [
+        "nextgqa:val:2793806282:2",
+        "nextgqa:val:2793806282:12",
+        "nextgqa:val:2793806282:8"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1017/4518113460",
+      "source_id": "4518113460",
+      "source_group_id": "vidor:4518113460",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1017/4518113460.mp4",
+      "bytes": 6485200,
+      "sha256": "38209d64c79c95cd6e86af2359e8edeb1564e91dd4e57ef402dbea22020010e1",
+      "crc32": "1db9f4fa",
+      "question_ids": [
+        "nextgqa:val:4518113460:9",
+        "nextgqa:val:4518113460:8",
+        "nextgqa:val:4518113460:3"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0033/2834146886",
+      "source_id": "2834146886",
+      "source_group_id": "vidor:2834146886",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0033/2834146886.mp4",
+      "bytes": 6032364,
+      "sha256": "74f0fb8b0852a5829ebe52f401a9e2d3437f72fee5a0e375af1b6f512ca1be0d",
+      "crc32": "6c778d5a",
+      "question_ids": [
+        "nextgqa:val:2834146886:7",
+        "nextgqa:val:2834146886:6",
+        "nextgqa:val:2834146886:8"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1009/7416295940",
+      "source_id": "7416295940",
+      "source_group_id": "vidor:7416295940",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1009/7416295940.mp4",
+      "bytes": 8314158,
+      "sha256": "e2f083d98ce3c06cedfaf00a07400f48d8f053388f989d2cb37ef1377730602f",
+      "crc32": "81bf3e6b",
+      "question_ids": [
+        "nextgqa:val:7416295940:6",
+        "nextgqa:val:7416295940:7",
+        "nextgqa:val:7416295940:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0061/2679130168",
+      "source_id": "2679130168",
+      "source_group_id": "vidor:2679130168",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0061/2679130168.mp4",
+      "bytes": 6518157,
+      "sha256": "a33d1e9e7219085aad9f8da3ee49600179c671e67e760e21fbb837f9febf0a4e",
+      "crc32": "d7327274",
+      "question_ids": [
+        "nextgqa:val:2679130168:0",
+        "nextgqa:val:2679130168:8",
+        "nextgqa:val:2679130168:6"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1102/7536230796",
+      "source_id": "7536230796",
+      "source_group_id": "vidor:7536230796",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1102/7536230796.mp4",
+      "bytes": 7697128,
+      "sha256": "8b28c4769662bca6268a2a3f98f25f8c2f1a2c0919ab988a50d911a4605b41b6",
+      "crc32": "97219a6d",
+      "question_ids": [
+        "nextgqa:val:7536230796:4",
+        "nextgqa:val:7536230796:6",
+        "nextgqa:val:7536230796:5"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "0016/4006608424",
+      "source_id": "4006608424",
+      "source_group_id": "vidor:4006608424",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/0016/4006608424.mp4",
+      "bytes": 9379940,
+      "sha256": "78fb5aaaa4f481cc316f65169e349eea2fbe55c1266f1d711849d6a192bfd569",
+      "crc32": "ff6e2665",
+      "question_ids": [
+        "nextgqa:val:4006608424:0",
+        "nextgqa:val:4006608424:7",
+        "nextgqa:val:4006608424:2"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1009/8563398032",
+      "source_id": "8563398032",
+      "source_group_id": "vidor:8563398032",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1009/8563398032.mp4",
+      "bytes": 8513722,
+      "sha256": "e6ba44fe7b0b4fa7e63bc2cf1861d55d2eee7a3452ee43ca37e52158c56196fb",
+      "crc32": "b22e8df9",
+      "question_ids": [
+        "nextgqa:val:8563398032:5",
+        "nextgqa:val:8563398032:6",
+        "nextgqa:val:8563398032:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1028/3375218204",
+      "source_id": "3375218204",
+      "source_group_id": "vidor:3375218204",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1028/3375218204.mp4",
+      "bytes": 7787034,
+      "sha256": "867926ab5ff11b7a55a7e399d90a3cef1689718a024328e33778a89dd6ee65bb",
+      "crc32": "18c09005",
+      "question_ids": [
+        "nextgqa:val:3375218204:5",
+        "nextgqa:val:3375218204:11",
+        "nextgqa:val:3375218204:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1009/7114553643",
+      "source_id": "7114553643",
+      "source_group_id": "vidor:7114553643",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1009/7114553643.mp4",
+      "bytes": 6874489,
+      "sha256": "5b8b25c976b719c98be3f285cb63e2a6096f7e3185a7865f1b7c42cc00cae49f",
+      "crc32": "82d7374e",
+      "question_ids": [
+        "nextgqa:val:7114553643:1",
+        "nextgqa:val:7114553643:7",
+        "nextgqa:val:7114553643:4"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1014/4955723618",
+      "source_id": "4955723618",
+      "source_group_id": "vidor:4955723618",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1014/4955723618.mp4",
+      "bytes": 6355374,
+      "sha256": "0b38cf313409b9005e63fe36d038530758f1ee2db8d89ad3fb04452426c27b0a",
+      "crc32": "0184cd4a",
+      "question_ids": [
+        "nextgqa:val:4955723618:1",
+        "nextgqa:val:4955723618:2",
+        "nextgqa:val:4955723618:6"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1155/2796821016",
+      "source_id": "2796821016",
+      "source_group_id": "vidor:2796821016",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1155/2796821016.mp4",
+      "bytes": 7471619,
+      "sha256": "2077eda786f1988ef5dfcb451e3f9fa43d87939be9d28ad31fb7dfb42c5d0f07",
+      "crc32": "497f7b61",
+      "question_ids": [
+        "nextgqa:val:2796821016:5",
+        "nextgqa:val:2796821016:9",
+        "nextgqa:val:2796821016:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1010/4087013668",
+      "source_id": "4087013668",
+      "source_group_id": "vidor:4087013668",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1010/4087013668.mp4",
+      "bytes": 6208696,
+      "sha256": "00c7f3015bf2d05af0e6a58a5e34c6dfe608123c74b39a83601775bb3c6eb097",
+      "crc32": "c8167182",
+      "question_ids": [
+        "nextgqa:val:4087013668:1",
+        "nextgqa:val:4087013668:8",
+        "nextgqa:val:4087013668:7"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1000/4949582792",
+      "source_id": "4949582792",
+      "source_group_id": "vidor:4949582792",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1000/4949582792.mp4",
+      "bytes": 9169085,
+      "sha256": "7dea62c92181c6dbe6d4016717b4b5c80038e2a5c9001c0d784e770c9757b8f6",
+      "crc32": "72b7220a",
+      "question_ids": [
+        "nextgqa:val:4949582792:5",
+        "nextgqa:val:4949582792:8",
+        "nextgqa:val:4949582792:3"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1101/4635309062",
+      "source_id": "4635309062",
+      "source_group_id": "vidor:4635309062",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1101/4635309062.mp4",
+      "bytes": 7212621,
+      "sha256": "e9c1a52ae3125dbef25437d90b5144010ee717540058b8d09c1edab33eee8593",
+      "crc32": "6e09cca8",
+      "question_ids": [
+        "nextgqa:val:4635309062:5",
+        "nextgqa:val:4635309062:6",
+        "nextgqa:val:4635309062:11"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1012/3026084730",
+      "source_id": "3026084730",
+      "source_group_id": "vidor:3026084730",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1012/3026084730.mp4",
+      "bytes": 7660275,
+      "sha256": "ce7e7ad582aa627818e8274132df70a3b348e068cd1cb92853f2a44ef9a349a5",
+      "crc32": "b8da5802",
+      "question_ids": [
+        "nextgqa:val:3026084730:1",
+        "nextgqa:val:3026084730:11",
+        "nextgqa:val:3026084730:9"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1150/6233408665",
+      "source_id": "6233408665",
+      "source_group_id": "vidor:6233408665",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1150/6233408665.mp4",
+      "bytes": 7806177,
+      "sha256": "3910609b3807f547bad0cc2375b471b1a409ef8742c723068bce0e1b48606aff",
+      "crc32": "1e73ed94",
+      "question_ids": [
+        "nextgqa:val:6233408665:1",
+        "nextgqa:val:6233408665:8",
+        "nextgqa:val:6233408665:5"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1011/9256409422",
+      "source_id": "9256409422",
+      "source_group_id": "vidor:9256409422",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1011/9256409422.mp4",
+      "bytes": 8187014,
+      "sha256": "babd83dc687ce22056d9afdfbb63f42ef314c6e76c996c11907917582203093a",
+      "crc32": "5a6c0364",
+      "question_ids": [
+        "nextgqa:val:9256409422:5",
+        "nextgqa:val:9256409422:7",
+        "nextgqa:val:9256409422:9"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1001/5889898795",
+      "source_id": "5889898795",
+      "source_group_id": "vidor:5889898795",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1001/5889898795.mp4",
+      "bytes": 9377246,
+      "sha256": "e95c15ca8d0737364149cd4915b4a484414062d147c7b79284ce668d29f266c7",
+      "crc32": "dca61370",
+      "question_ids": [
+        "nextgqa:val:5889898795:4",
+        "nextgqa:val:5889898795:7",
+        "nextgqa:val:5889898795:8"
+      ],
+      "media_content_reviewed": false
+    },
+    {
+      "source_path": "1015/13884293626",
+      "source_id": "13884293626",
+      "source_group_id": "vidor:13884293626",
+      "media_path": "datasets/2b-memory-eval/T-new40-20261020/1015/13884293626.mp4",
+      "bytes": 18568376,
+      "sha256": "f6c98412a290fd88d3dc5dc8ea9932260344eb0be0be76ada41ccc2d1498c2d8",
+      "crc32": "030fb477",
+      "question_ids": [
+        "nextgqa:val:13884293626:6",
+        "nextgqa:val:13884293626:7"
+      ],
+      "media_content_reviewed": false
+    }
+  ],
+  "bytes_received": 243303701,
+  "seconds": 871.0939999999991,
+  "acquisition_plan_sha256": "afe090c85db555a8f4c354439bc7f65b4c169f4c8481c058b67de2db6b45a645",
+  "candidate_sha256": "6f8c55280432463f40861d3e8e4d2ad9df5bc8d1b0409abd44947edd95b96f90",
+  "GPU_jobs": 0,
+  "cluster_operations": 0,
+  "model_answers": 0,
+  "content_reviews": 0
+}

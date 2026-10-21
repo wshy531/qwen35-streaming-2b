@@ -1,0 +1,77 @@
+{
+  "status": "preregistered_development_integration_NOT_final_benchmark",
+  "questions": 34,
+  "sources": 6,
+  "original28_preserved": true,
+  "original_review": {
+    "supported": 16,
+    "ambiguous": 11,
+    "not_established_at_committed_cutoff": 1
+  },
+  "manual6_separate_development": true,
+  "arms": [
+    "native",
+    "main_only",
+    "M0",
+    "M2",
+    "text_only"
+  ],
+  "pairing": "complete_pair_only_no_query_padding",
+  "sampling_fps": 1,
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "playback": "causal_replay_NOT_wallclock",
+  "generation": "incremental_callback",
+  "max_new_tokens": 8,
+  "main_context_tokens": 2048,
+  "question_reserve": 128,
+  "bank_visual_tokens": 384,
+  "bank_max_nodes": 8,
+  "native_context_guard": 32768,
+  "native_config_max_position_embeddings": 262144,
+  "native_pixel_preprocess": "pair sized, exact ordered concat, original whole visual/language forward",
+  "pretrained_loads_max": 2,
+  "answers_max": 170,
+  "generated_tokens_max": 1360,
+  "partition": "g078t",
+  "comment": "gx_llm",
+  "GPUs": 1,
+  "CPUs": 4,
+  "host_memory_GiB": 24,
+  "wall_seconds": 3600,
+  "worker_native_seconds": 900,
+  "worker_memory_seconds": 2400,
+  "peak_GPU_allocated_guard_GiB": 60,
+  "process_RSS_observed_guard_GiB": 20,
+  "logs_cap_bytes_per_worker": 67108864,
+  "source_seconds_range": [
+    451.93333333333334,
+    480.03333333333336
+  ],
+  "input_sha256": {
+    "sources.json": "b0db31454c2b48817d86f88c5796bb76f612ece4a7786f24456eb025617c7f78",
+    "requests.json": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77",
+    "snapshots.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9",
+    "expected_layout34.json": "af12a5b95d05f0701bf62fe69d9c3e2dedaa7f63d63f272dfde2d09f53208a7d",
+    "local_cpu_proofs.json": "88f07e8f48b623c371a7931c5d6f789ef2aed5f7401aa97acc72c02ced8f6f87",
+    "runtime_lock.json": "faf6322e45b6964caead9bb73ffedcb9ec226e96de8c4cc2abf2cee6c2730e11"
+  },
+  "fairness": "same arrived complete real frames, exact questions/options/QA times; bank arms use only own bank for history answers",
+  "caveats": [
+    "six reused sources, single reviewer; not unseen benchmark",
+    "main_only has different access and reset semantics",
+    "native retains full RGB with all reread costs; candidate has no full feature/RGB archive",
+    "text side-control runs in M0 query branch; do not compare overall arm wall time as pure speed",
+    "late-cue/removal necessity not yet demonstrated; no architecture/prompt sweep"
+  ],
+  "analysis": "all28 original kept; supported16 and manual6 separate; retain errors/format/missing; paired corrections/losses and per-source results",
+  "stop": "one fixed run; no automatic retry, prompt/threshold search or new architecture; review then required1x playback stage",
+  "GPU_authorized": false,
+  "downloads": 0,
+  "training": 0,
+  "revision": 2,
+  "source_lock_scope": "owned experiment sources and inherited frozen dependencies; model package and streaming package, excluding unexecuted tests/scripts",
+  "slurm_script": "experiments/2b-long-stream-v1/run_eval_v2.sh"
+}

@@ -1,0 +1,156 @@
+{
+  "status": "pinned_metadata_selection_NOT_actual_video_admission",
+  "sources": [
+    {
+      "subject": "A1_JAKE",
+      "day": "DAY1",
+      "files": 480,
+      "bytes": 7279829706,
+      "first_file": "A1_JAKE/DAY1/DAY1_A1_JAKE_11094208.mp4",
+      "last_file": "A1_JAKE/DAY1/DAY1_A1_JAKE_18010000.mp4",
+      "nominal_clip_seconds": 30,
+      "nominal_observed_hours": 4,
+      "filename_clock_span_seconds": 24708,
+      "filename_gaps_over31_seconds": [
+        {
+          "before": "A1_JAKE/DAY1/DAY1_A1_JAKE_14183000.mp4",
+          "after": "A1_JAKE/DAY1/DAY1_A1_JAKE_17110116.mp4",
+          "whole_second_difference": 10351
+        }
+      ],
+      "actual_PTS_and_duration_verified": false,
+      "last_two_clock_digits": "opaque pending author/actual media verification",
+      "independence": "different wearer/day; all from same shared household, not4 independent environments"
+    },
+    {
+      "subject": "A2_ALICE",
+      "day": "DAY2",
+      "files": 480,
+      "bytes": 6349383070,
+      "first_file": "A2_ALICE/DAY2/DAY2_A2_ALICE_10434818.mp4",
+      "last_file": "A2_ALICE/DAY2/DAY2_A2_ALICE_17263000.mp4",
+      "nominal_clip_seconds": 30,
+      "nominal_observed_hours": 4,
+      "filename_clock_span_seconds": 24192,
+      "filename_gaps_over31_seconds": [
+        {
+          "before": "A2_ALICE/DAY2/DAY2_A2_ALICE_12090000.mp4",
+          "after": "A2_ALICE/DAY2/DAY2_A2_ALICE_12414300.mp4",
+          "whole_second_difference": 1963
+        },
+        {
+          "before": "A2_ALICE/DAY2/DAY2_A2_ALICE_13133000.mp4",
+          "after": "A2_ALICE/DAY2/DAY2_A2_ALICE_15253012.mp4",
+          "whole_second_difference": 7920
+        }
+      ],
+      "actual_PTS_and_duration_verified": false,
+      "last_two_clock_digits": "opaque pending author/actual media verification",
+      "independence": "different wearer/day; all from same shared household, not4 independent environments"
+    },
+    {
+      "subject": "A3_TASHA",
+      "day": "DAY3",
+      "files": 480,
+      "bytes": 8400208750,
+      "first_file": "A3_TASHA/DAY3/DAY3_A3_TASHA_11441116.mp4",
+      "last_file": "A3_TASHA/DAY3/DAY3_A3_TASHA_20140000.mp4",
+      "nominal_clip_seconds": 30,
+      "nominal_observed_hours": 4,
+      "filename_clock_span_seconds": 30619,
+      "filename_gaps_over31_seconds": [
+        {
+          "before": "A3_TASHA/DAY3/DAY3_A3_TASHA_12410000.mp4",
+          "after": "A3_TASHA/DAY3/DAY3_A3_TASHA_14483508.mp4",
+          "whole_second_difference": 7655
+        },
+        {
+          "before": "A3_TASHA/DAY3/DAY3_A3_TASHA_16040000.mp4",
+          "after": "A3_TASHA/DAY3/DAY3_A3_TASHA_16102802.mp4",
+          "whole_second_difference": 388
+        },
+        {
+          "before": "A3_TASHA/DAY3/DAY3_A3_TASHA_17323000.mp4",
+          "after": "A3_TASHA/DAY3/DAY3_A3_TASHA_18013419.mp4",
+          "whole_second_difference": 1744
+        },
+        {
+          "before": "A3_TASHA/DAY3/DAY3_A3_TASHA_18113000.mp4",
+          "after": "A3_TASHA/DAY3/DAY3_A3_TASHA_20014400.mp4",
+          "whole_second_difference": 6614
+        }
+      ],
+      "actual_PTS_and_duration_verified": false,
+      "last_two_clock_digits": "opaque pending author/actual media verification",
+      "independence": "different wearer/day; all from same shared household, not4 independent environments"
+    },
+    {
+      "subject": "A4_LUCIA",
+      "day": "DAY4",
+      "files": 480,
+      "bytes": 7692039614,
+      "first_file": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_11262317.mp4",
+      "last_file": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_17553000.mp4",
+      "nominal_clip_seconds": 30,
+      "nominal_observed_hours": 4,
+      "filename_clock_span_seconds": 23377,
+      "filename_gaps_over31_seconds": [
+        {
+          "before": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_12433000.mp4",
+          "after": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_13253603.mp4",
+          "whole_second_difference": 2526
+        },
+        {
+          "before": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_13403000.mp4",
+          "after": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_15292800.mp4",
+          "whole_second_difference": 6538
+        },
+        {
+          "before": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_15363000.mp4",
+          "after": "A4_LUCIA/DAY4/DAY4_A4_LUCIA_15373906.mp4",
+          "whole_second_difference": 69
+        }
+      ],
+      "actual_PTS_and_duration_verified": false,
+      "last_two_clock_digits": "opaque pending author/actual media verification",
+      "independence": "different wearer/day; all from same shared household, not4 independent environments"
+    }
+  ],
+  "files": 1920,
+  "bytes": 29721461140,
+  "network_metadata_bytes": 719431,
+  "receipts": [
+    {
+      "subject": "A1_JAKE",
+      "day": "DAY1",
+      "source": "reuse pinned earlier listing",
+      "bytes": 265755,
+      "sha256": "0c8c74abb543359933b328f46a4315df2dd59363a7748b0a56b536afbedbdb9c"
+    },
+    {
+      "subject": "A2_ALICE",
+      "day": "DAY2",
+      "url": "https://huggingface.co/api/datasets/lmms-lab/EgoLife/tree/143fb319be7aa5ae210c936bf4f0f3a86092afb0/A2_ALICE/DAY2?limit=1000",
+      "bytes": 279543,
+      "sha256": "5649a8d7d9675dc9870238d1316b72018c36f487fcd00b78289eec0d3d47c44a"
+    },
+    {
+      "subject": "A3_TASHA",
+      "day": "DAY3",
+      "url": "https://huggingface.co/api/datasets/lmms-lab/EgoLife/tree/143fb319be7aa5ae210c936bf4f0f3a86092afb0/A3_TASHA/DAY3?limit=1000",
+      "bytes": 222209,
+      "sha256": "48002eccfce44852e909bb05ef9b539060025825a89f5e1b803c8552ac71fa76"
+    },
+    {
+      "subject": "A4_LUCIA",
+      "day": "DAY4",
+      "url": "https://huggingface.co/api/datasets/lmms-lab/EgoLife/tree/143fb319be7aa5ae210c936bf4f0f3a86092afb0/A4_LUCIA/DAY4?limit=1000",
+      "bytes": 217679,
+      "sha256": "f62159a0a05382df1b116146b9317ca1f89e7c39a8ddb3b415ac198697971a15"
+    }
+  ],
+  "seconds": 2.0,
+  "video_downloaded_bytes": 0,
+  "GPU_jobs": 0,
+  "media_manifest_sha256": "35740277f9940d56b8b540341e6a2f1eb44d34559fd8130240bfd0a158e844c5"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "independent_strict_counts": {
+    "original_all28": {
+      "M0": 14,
+      "M2": 12,
+      "A06": 14
+    },
+    "original_supported16": {
+      "M0": 10,
+      "M2": 8,
+      "A06": 10
+    },
+    "manual_development6": {
+      "M0": 3,
+      "M2": 3,
+      "A06": 3
+    }
+  },
+  "AST_files": 14,
+  "original_scorer_labels_and_review_locks_unchanged": true,
+  "report_sha256": "85dc355ba27a7e205df588890f3860e523e2cb13d20fec54a7db855a469475b8",
+  "GPU_jobs_added": 0
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-readability-%j.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-readability-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-memory-readability-v1/run_eval.sh"
+  ],
+  "environment_overrides": {},
+  "UTC": "2026-10-20T14:32:38.928173+00:00",
+  "no_auto_retry": true
+}

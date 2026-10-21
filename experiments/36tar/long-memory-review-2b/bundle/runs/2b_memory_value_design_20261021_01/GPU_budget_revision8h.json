@@ -1,0 +1,28 @@
+{
+  "status": "budget_constrained_draft_NOT_GPU_authorization",
+  "basis_job": 217797,
+  "target_sessions": 4,
+  "target_actual_video_hours_each": 4,
+  "target_questions": 96,
+  "questions_each": 24,
+  "fixed_visual_budget": 768,
+  "streaming_policies": [
+    "recent",
+    "recent_plus_existing_fixed_reservoir",
+    "original_M2"
+  ],
+  "raw_pairs": 28800,
+  "linear_GPU_hours": 4.064030480201436,
+  "aggregate_GPU_hours_cap": 8,
+  "GPUs": 1,
+  "model": "same2BFP32",
+  "no_training": true,
+  "no_parameter_sweep": true,
+  "no_BF16_speed_assumption": true,
+  "shared_vision_already_implemented": true,
+  "full_long1x_not_in_budget": true,
+  "available_qualified_hour_sources": 0,
+  "available_qualified_questions": 0,
+  "complete_native_long_prefix_not_guaranteed": true,
+  "old20_session_formal_target_deferred_due_to_user_budget": true
+}

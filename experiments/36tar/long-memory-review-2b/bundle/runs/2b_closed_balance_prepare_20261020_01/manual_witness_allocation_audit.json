@@ -1,0 +1,227 @@
+{
+  "all6_manual_cases_preserved": true,
+  "rows": [
+    {
+      "id": "local_longstream_v1:01",
+      "witness_pair_indices": [
+        103,
+        104,
+        105,
+        113,
+        114
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 102,
+            "last": 157,
+            "depth": 32,
+            "groups": 33,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 56
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 176,
+            "depth": 16,
+            "groups": 93,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 177
+      }
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "witness_pair_indices": [
+        22,
+        25,
+        169,
+        170
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 103,
+            "depth": 30,
+            "groups": 76,
+            "tokens": 48
+          },
+          {
+            "first": 104,
+            "last": 184,
+            "depth": 47,
+            "groups": 48,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 96,
+        "covered_pairs": 185
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 197,
+            "depth": 17,
+            "groups": 135,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 198
+      }
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "witness_pair_indices": [
+        10,
+        57,
+        100
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 111,
+            "depth": 19,
+            "groups": 45,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 112
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 170,
+            "depth": 18,
+            "groups": 86,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 171
+      }
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "witness_pair_indices": [
+        10,
+        24,
+        27,
+        30,
+        35
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 135,
+            "depth": 25,
+            "groups": 43,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 136
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 189,
+            "depth": 20,
+            "groups": 66,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 190
+      }
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "witness_pair_indices": [
+        30,
+        31,
+        32,
+        35
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 120,
+            "depth": 33,
+            "groups": 55,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 121
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 170,
+            "depth": 18,
+            "groups": 80,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 171
+      }
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "witness_pair_indices": [
+        2,
+        3
+      ],
+      "M2": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 110,
+            "depth": 28,
+            "groups": 29,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 111
+      },
+      "A06": {
+        "selected_nodes": [
+          {
+            "first": 0,
+            "last": 117,
+            "depth": 26,
+            "groups": 34,
+            "tokens": 48
+          }
+        ],
+        "visual_tokens": 48,
+        "covered_pairs": 118
+      }
+    }
+  ],
+  "model_calls": 0,
+  "limitations": [
+    "descriptive source allocation, not automatic retrieval or extra counterfactual answers",
+    "more source range in one node is not proof that the target detail was lost",
+    "node depth, partition and merged representation change together; not pure depth causality"
+  ]
+}

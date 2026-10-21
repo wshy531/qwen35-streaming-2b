@@ -1,0 +1,81 @@
+{
+  "status": "fixed_A04_capacity_and_single_S24_development_comparison",
+  "arms": [
+    "M0_384",
+    "M2_384",
+    "M0_768",
+    "M2_768",
+    "S24_384"
+  ],
+  "sources": 6,
+  "questions": 34,
+  "original28_preserved": true,
+  "supported_original": 16,
+  "manual_delayed": 6,
+  "original_ambiguous": 11,
+  "original_not_established": 1,
+  "all_are_open_development": true,
+  "hypothesis": "pair-local spatial reduction may retain more separate old time nodes at equal384 visual tokens",
+  "allocation": {
+    "M0_384": "recent8x48",
+    "M2_384": "recent4x48+open48+closed144",
+    "M0_768": "recent16x48",
+    "M2_768": "recent4x48+open48+closed528",
+    "S24_384": "recent4x48+open24+closed168"
+  },
+  "S24": "existing ToMe48to24 within one promoted raw pair; original surviving xy/time; temporal merging remains",
+  "unchanged": [
+    "causal event flags",
+    "original closed cost",
+    "merge formula",
+    "reader",
+    "question text",
+    "FP32 weights"
+  ],
+  "sampling_fps": 1,
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "pair_rule": "complete real pairs only, no query padding",
+  "shared_causal_vision": true,
+  "shared_main_context_tokens": 2048,
+  "answers_max": 170,
+  "generated_tokens_max": 1360,
+  "vision_calls_max": 1426,
+  "pretrained_loads_max": 1,
+  "partition": "g078t",
+  "comment": "gx_llm",
+  "GPUs": 1,
+  "CPUs": 4,
+  "host_memory_GiB": 24,
+  "wall_seconds": 1800,
+  "worker_seconds": 1500,
+  "process_RSS_guard_bytes": 21474836480,
+  "GPU_allocated_guard_bytes": 34359738368,
+  "log_cap_bytes": 100663296,
+  "no_training": true,
+  "no_download": true,
+  "no_auto_retry": true,
+  "no_full_history_feature_archive": true,
+  "causal_stream_with_midstream_token_callbacks": true,
+  "wallclock_1x": false,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "analysis": "strict frozen parser; all28/supported16/manual6; capacity four first then S24 vs384; corrections/losses; M0/M2 original IDs reproducibility",
+  "stop": "one fixed comparison then analyze; no new budgets/spatial ratios/prompts; larger heldout data required before capability claim",
+  "caveats": [
+    "six reused sources not formal20/160",
+    "S24 may damage small spatial detail",
+    "768 uses twice storage and is capacity control, not algorithm gain",
+    "shared process timings not per-arm speed",
+    "native217776 reference not rerun"
+  ],
+  "input_sha256": {
+    "CPU_policy_proof.json": "895d30a4d4e335e52108fe4db28bfbcfbcdf0fc5d07e75a3dd1bc42dfc73591e",
+    "fixtures.json.gz": "7cfee709a56e1d51d511206934b577fa59ee2a466d1f4faf4e62f99ff33bb9e4",
+    "requests.json": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77",
+    "runtime_lock.json": "8d55cb5866ba00c07ec442426e4af30f77b80b93bc892bdb344bea08f1b25c7e",
+    "snapshots.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9",
+    "sources.json": "b0db31454c2b48817d86f88c5796bb76f612ece4a7786f24456eb025617c7f78"
+  }
+}

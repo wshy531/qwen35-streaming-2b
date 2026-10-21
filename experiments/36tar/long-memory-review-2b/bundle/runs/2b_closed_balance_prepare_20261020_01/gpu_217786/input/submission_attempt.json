@@ -1,0 +1,12 @@
+{
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A06-%j.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b-A06-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-closed-balance-v1/run_eval.sh"
+  ],
+  "environment_overrides": {},
+  "UTC": "2026-10-20T15:08:11.720297+00:00",
+  "no_auto_retry": true
+}

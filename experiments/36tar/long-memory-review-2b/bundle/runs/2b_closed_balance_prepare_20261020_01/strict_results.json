@@ -1,0 +1,1573 @@
+{
+  "summary": {
+    "original_all28": {
+      "scores": {
+        "M0": {
+          "correct": 14,
+          "denominator": 28,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 12,
+          "denominator": 28,
+          "missing": 0,
+          "format_errors": 1
+        },
+        "A06": {
+          "correct": 14,
+          "denominator": 28,
+          "missing": 0,
+          "format_errors": 1
+        }
+      },
+      "paired": {
+        "A06_vs_M0": {
+          "corrections": [
+            "ovo:67",
+            "ovo:183"
+          ],
+          "losses": [
+            "ovo:108",
+            "ovo:146"
+          ]
+        },
+        "A06_vs_M2": {
+          "corrections": [
+            "ovo:67",
+            "ovo:183"
+          ],
+          "losses": []
+        }
+      }
+    },
+    "original_supported16": {
+      "scores": {
+        "M0": {
+          "correct": 10,
+          "denominator": 16,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 8,
+          "denominator": 16,
+          "missing": 0,
+          "format_errors": 1
+        },
+        "A06": {
+          "correct": 10,
+          "denominator": 16,
+          "missing": 0,
+          "format_errors": 1
+        }
+      },
+      "paired": {
+        "A06_vs_M0": {
+          "corrections": [
+            "ovo:67",
+            "ovo:183"
+          ],
+          "losses": [
+            "ovo:108",
+            "ovo:146"
+          ]
+        },
+        "A06_vs_M2": {
+          "corrections": [
+            "ovo:67",
+            "ovo:183"
+          ],
+          "losses": []
+        }
+      }
+    },
+    "manual_development6": {
+      "scores": {
+        "M0": {
+          "correct": 3,
+          "denominator": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "M2": {
+          "correct": 3,
+          "denominator": 6,
+          "missing": 0,
+          "format_errors": 0
+        },
+        "A06": {
+          "correct": 3,
+          "denominator": 6,
+          "missing": 0,
+          "format_errors": 0
+        }
+      },
+      "paired": {
+        "A06_vs_M0": {
+          "corrections": [],
+          "losses": []
+        },
+        "A06_vs_M2": {
+          "corrections": [],
+          "losses": []
+        }
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "ovo:70",
+      "arm": "M0",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:70",
+      "arm": "M2",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:70",
+      "arm": "A06",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:71",
+      "arm": "M0",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:71",
+      "arm": "M2",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:71",
+      "arm": "A06",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:72",
+      "arm": "M0",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:72",
+      "arm": "M2",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:72",
+      "arm": "A06",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:73",
+      "arm": "M0",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:73",
+      "arm": "M2",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:73",
+      "arm": "A06",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:104",
+      "arm": "M0",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:104",
+      "arm": "M2",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:104",
+      "arm": "A06",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:105",
+      "arm": "M0",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:105",
+      "arm": "M2",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:105",
+      "arm": "A06",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:102",
+      "arm": "M0",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:102",
+      "arm": "M2",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:102",
+      "arm": "A06",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:103",
+      "arm": "M0",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:103",
+      "arm": "M2",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:103",
+      "arm": "A06",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:106",
+      "arm": "M0",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:106",
+      "arm": "M2",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:106",
+      "arm": "A06",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:107",
+      "arm": "M0",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:107",
+      "arm": "M2",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:107",
+      "arm": "A06",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:108",
+      "arm": "M0",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:108",
+      "arm": "M2",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:108",
+      "arm": "A06",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:109",
+      "arm": "M0",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:109",
+      "arm": "M2",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:109",
+      "arm": "A06",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:130",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:130",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:130",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:131",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:131",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:131",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:68",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:68",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:68",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:69",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "D",
+      "predicted_index": 3,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        35,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:69",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "D",
+      "predicted_index": 3,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        35,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:69",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "D",
+      "predicted_index": 3,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        35,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:67",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:67",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:67",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:66",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:66",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:66",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:132",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:132",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:132",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:133",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:133",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:133",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:180",
+      "arm": "M0",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:180",
+      "arm": "M2",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:180",
+      "arm": "A06",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:181",
+      "arm": "M0",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:181",
+      "arm": "M2",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:181",
+      "arm": "A06",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:182",
+      "arm": "M0",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:182",
+      "arm": "M2",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:182",
+      "arm": "A06",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 1,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:183",
+      "arm": "M0",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:183",
+      "arm": "M2",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 2,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:183",
+      "arm": "A06",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:144",
+      "arm": "M0",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:144",
+      "arm": "M2",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:144",
+      "arm": "A06",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:145",
+      "arm": "M0",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:145",
+      "arm": "M2",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:145",
+      "arm": "A06",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:147",
+      "arm": "M0",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:147",
+      "arm": "M2",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:147",
+      "arm": "A06",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:146",
+      "arm": "M0",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 0,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:146",
+      "arm": "M2",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A. black",
+      "predicted_index": null,
+      "truth": 0,
+      "correct": false,
+      "status": "format_error",
+      "generated_ids": [
+        32,
+        13,
+        3565,
+        248046
+      ]
+    },
+    {
+      "id": "ovo:146",
+      "arm": "A06",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "A. black",
+      "predicted_index": null,
+      "truth": 0,
+      "correct": false,
+      "status": "format_error",
+      "generated_ids": [
+        32,
+        13,
+        3565,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "M0",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "M2",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "A06",
+      "source": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "M0",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "M2",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "A06",
+      "source": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "M0",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "M2",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "A06",
+      "source": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+      "text": "A",
+      "predicted_index": 0,
+      "truth": 3,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        32,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "M0",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "M2",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "A06",
+      "source": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 1,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "M0",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "D",
+      "predicted_index": 3,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        35,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "M2",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "D",
+      "predicted_index": 3,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        35,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "A06",
+      "source": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+      "text": "B",
+      "predicted_index": 1,
+      "truth": 0,
+      "correct": false,
+      "status": "ok",
+      "generated_ids": [
+        33,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "M0",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "M2",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "A06",
+      "source": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+      "text": "C",
+      "predicted_index": 2,
+      "truth": 2,
+      "correct": true,
+      "status": "ok",
+      "generated_ids": [
+        34,
+        248046
+      ]
+    }
+  ],
+  "old_baseline_generated_ID_replay": {
+    "M0": {
+      "matched": 34,
+      "denominator": 34,
+      "mismatch_ids": []
+    },
+    "M2": {
+      "matched": 34,
+      "denominator": 34,
+      "mismatch_ids": []
+    }
+  },
+  "actual_records": 102,
+  "expected_records": 102,
+  "limits": [
+    "six already-open sources, not formal20/160",
+    "all28 includes ambiguous/not-established questions",
+    "no relaxed rescoring, no speed claim from shared process",
+    "depth reduction alone is not ability",
+    "baseline replay differences must be explained before attribution"
+  ]
+}

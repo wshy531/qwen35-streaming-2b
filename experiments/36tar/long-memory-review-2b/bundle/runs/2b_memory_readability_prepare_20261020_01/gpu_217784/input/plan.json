@@ -1,0 +1,41 @@
+{
+  "status": "fixed_single_round_pre_GPU",
+  "cases": 6,
+  "primary_conditions": [
+    "A_raw_old",
+    "B_compressed_old",
+    "C_raw_old_recent",
+    "D_compressed_old_recent"
+  ],
+  "references": [
+    "E_full_pairwise",
+    "F_bank_reproduction"
+  ],
+  "answers_max": 36,
+  "generated_tokens_max": 288,
+  "question_text_and_labels_unchanged": true,
+  "node_selection": "oracle source overlap with pre-output human witnesses; not model-output-conditioned or automatic retrieval",
+  "A_B_same_old_source_ranges": true,
+  "C_D_same_recent4_pairs": true,
+  "E_reason": "distinguish full native protocol from uncompressed pairwise readout",
+  "F_reason": "check replayed bank gives same six outputs as217776",
+  "hypothesis": "test compressed old readout loss versus interference from recent or other old nodes",
+  "diagnostic_raw_history_is_NOT_bounded_candidate": true,
+  "snapshot_features_are_limited_diagnostic_outputs_NOT_runtime_archive": true,
+  "context_guard": 32768,
+  "visual_guard": 16384,
+  "node_guard": 256,
+  "suffix_guard": 128,
+  "max_new_tokens": 8,
+  "prefill_chunk": 512,
+  "training": false,
+  "download": false,
+  "GPU_authorized": false,
+  "stop": "one fixed36-answer run, no prompt/threshold/node sweep; classify outcomes and stop",
+  "source_locks": {
+    "runs\\2b_long_stream_prepare_20261020_01\\manual6_delayed_questions_LOCAL_ONLY.json": "c962297fe08d25a7efa6851c20bdbd5baa0497fd51a6b9a606a6b483e3cea59d",
+    "runs\\2b_long_stream_prepare_20261020_01\\stream_labels34_LOCAL_ONLY.json": "503e54327338684ea3f263699386576049af8b289ec8a9736a92bf5676cf4e9e",
+    "runs\\2b_long_stream_prepare_20261020_01\\gpu_217776\\memory\\events.jsonl": "b6bb7ea717a5f93d3ccbb14fd285a1c2583ef6eeaa5cc3004ea695eae67059cd",
+    "runs\\2b_long_stream_prepare_20261020_01\\stream_query_snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

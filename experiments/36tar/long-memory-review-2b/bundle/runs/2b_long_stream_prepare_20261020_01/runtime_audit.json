@@ -1,0 +1,513 @@
+{
+  "status": "complete_contracts_passed",
+  "queries": 170,
+  "callback_tokens": 354,
+  "arms": {
+    "native": {
+      "pairs": 1426,
+      "queries": 34,
+      "ends": 6,
+      "resets_max": 0,
+      "main_cache_bytes_max": 0,
+      "bank_feature_tensor_bytes_max": 0,
+      "bank_visual_tokens_max": 0
+    },
+    "main_only": {
+      "pairs": 1426,
+      "queries": 34,
+      "ends": 6,
+      "resets_max": 7,
+      "main_cache_bytes_max": 67338240,
+      "bank_feature_tensor_bytes_max": 0,
+      "bank_visual_tokens_max": 0
+    },
+    "M0": {
+      "pairs": 1426,
+      "queries": 34,
+      "ends": 6,
+      "resets_max": 7,
+      "main_cache_bytes_max": 67338240,
+      "bank_feature_tensor_bytes_max": 3156480,
+      "bank_visual_tokens_max": 384
+    },
+    "text_only": {
+      "pairs": 0,
+      "queries": 34,
+      "ends": 0,
+      "resets_max": 0,
+      "main_cache_bytes_max": 0,
+      "bank_feature_tensor_bytes_max": 0,
+      "bank_visual_tokens_max": 0
+    },
+    "M2": {
+      "pairs": 1426,
+      "queries": 34,
+      "ends": 6,
+      "resets_max": 7,
+      "main_cache_bytes_max": 67338240,
+      "bank_feature_tensor_bytes_max": 3156480,
+      "bank_visual_tokens_max": 384
+    }
+  },
+  "stages": {
+    "native": {
+      "status": "complete",
+      "stage": "native",
+      "records": 34,
+      "generated_tokens": 80,
+      "pretrained_loads": 1,
+      "seconds": 579.8281921169255,
+      "timelines": [
+        {
+          "arm": "native",
+          "answers": 5,
+          "pairs": 226,
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 226,
+            "last_pts": 451.0,
+            "last_frame_id": 13530,
+            "retained_RGB_bytes": 66650112
+          }
+        },
+        {
+          "arm": "native",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "last_pts": 479.0,
+            "last_frame_id": 14370,
+            "retained_RGB_bytes": 70778880
+          }
+        },
+        {
+          "arm": "native",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "last_pts": 479.0,
+            "last_frame_id": 14370,
+            "retained_RGB_bytes": 70778880
+          }
+        },
+        {
+          "arm": "native",
+          "answers": 9,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "last_pts": 479.0,
+            "last_frame_id": 14370,
+            "retained_RGB_bytes": 70778880
+          }
+        },
+        {
+          "arm": "native",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "last_pts": 479.0,
+            "last_frame_id": 14370,
+            "retained_RGB_bytes": 70778880
+          }
+        },
+        {
+          "arm": "native",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "last_pts": 479.0,
+            "last_frame_id": 14370,
+            "retained_RGB_bytes": 70778880
+          }
+        }
+      ],
+      "peak_RSS_observed_bytes": 2848768000,
+      "peak_GPU_allocated_bytes": 24998181376,
+      "protocol_sha256": "a573dfa85b6dbc7de456eae208d2ed9f8762932efe6080edb0ab66666a8beef6",
+      "realtime_playback": false,
+      "note": "causal replay, incremental text callbacks; no wall-clock playback claim"
+    },
+    "memory": {
+      "status": "complete",
+      "stage": "memory",
+      "records": 136,
+      "generated_tokens": 274,
+      "pretrained_loads": 1,
+      "seconds": 1932.734002544079,
+      "timelines": [
+        {
+          "arm": "main_only",
+          "answers": 5,
+          "pairs": 226,
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 226,
+            "resets": 6,
+            "vision_encodings": 226,
+            "last_frame_id": 13530,
+            "last_pts": 451.0,
+            "memory_from_pts": 388.0,
+            "main_seen_tokens": 1859,
+            "main_next_rope": 579,
+            "main_cache_bytes": 66330624,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "main_only",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "main_only",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "main_only",
+          "answers": 9,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "main_only",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "main_only",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 5,
+          "pairs": 226,
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 226,
+            "resets": 6,
+            "vision_encodings": 226,
+            "last_frame_id": 13530,
+            "last_pts": 451.0,
+            "memory_from_pts": 388.0,
+            "main_seen_tokens": 1859,
+            "main_next_rope": 579,
+            "main_cache_bytes": 66330624,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 9,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M0",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 5,
+          "pairs": 226,
+          "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 226,
+            "resets": 6,
+            "vision_encodings": 226,
+            "last_frame_id": 13530,
+            "last_pts": 451.0,
+            "memory_from_pts": 388.0,
+            "main_seen_tokens": 1859,
+            "main_next_rope": 579,
+            "main_cache_bytes": 66330624,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 9,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        },
+        {
+          "arm": "M2",
+          "answers": 5,
+          "pairs": 240,
+          "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+          "peak_RGB_buffers": 2,
+          "final": {
+            "pairs": 240,
+            "resets": 7,
+            "vision_encodings": 240,
+            "last_frame_id": 14370,
+            "last_pts": 479.0,
+            "memory_from_pts": 452.0,
+            "main_seen_tokens": 815,
+            "main_next_rope": 255,
+            "main_cache_bytes": 40673280,
+            "invalid": false
+          }
+        }
+      ],
+      "peak_RSS_observed_bytes": 2405490688,
+      "peak_GPU_allocated_bytes": 9054931456,
+      "protocol_sha256": "a573dfa85b6dbc7de456eae208d2ed9f8762932efe6080edb0ab66666a8beef6",
+      "realtime_playback": false,
+      "note": "causal replay, incremental text callbacks; no wall-clock playback claim"
+    }
+  },
+  "no_future_or_query_padding": true,
+  "callbacks_match_saved_answer_tokens": true,
+  "bank_and_main_counters_isolated": true,
+  "limitations": [
+    "real-run main tensor bitwise isolation not measured at every query; random tiny CPU proof separate",
+    "RSS is event-time observed maximum, not continuous process peak",
+    "cache/bank byte bounds exclude model and transient query/input tensors",
+    "deterministic causal replay; no wall-clock input or drop-rate claim"
+  ]
+}

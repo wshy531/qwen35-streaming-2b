@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "answers": 36,
+  "generated_tokens": 72,
+  "visual_encodings": 1350,
+  "pretrained_loads": 1,
+  "seconds": 524.7635605749674,
+  "peak_RSS_observed_bytes": 2463547392,
+  "peak_GPU_allocated_bytes": 10086989824,
+  "protocol_sha256": "4276c11bb71646fdf20748247c0b1dfa513df4dc42033d6c794b784525ae2537",
+  "candidate_default_unchanged": true,
+  "wallclock_test": false
+}

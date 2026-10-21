@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "catalog_files": 13,
+  "video_files": 182,
+  "static_photos": 6,
+  "official_questions": 519,
+  "question_time_items": 528,
+  "semantic_question_groups": 526,
+  "actual_media_hashes_checked": 188,
+  "pretrained_loads": 0,
+  "GPU_submissions": 0
+}

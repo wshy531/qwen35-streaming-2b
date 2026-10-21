@@ -1,0 +1,274 @@
+{
+  "status": "14_actual_overviews_reviewed_NOT_dense_question_admission",
+  "records": [
+    {
+      "number": 0,
+      "source_path": "Ego4D/clips/3231822a-fc8b-4207-b0b8-5cbb1344cb2f.mp4",
+      "duration_s": 480.0,
+      "media_sha256": "ce9856e9c190e071fe57054ebc973565e8ffebbbc6491d0a12500a6f06dc37d8",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/00-3231822a-fc8b-4207-b0b8-5cbb1344cb2f.png",
+      "sheet_sha256": "dfbfe733feb71cbfc7408640df1ddcde4b1e0630a49ce46e063a30c772ad0436",
+      "actually_viewed_overview": true,
+      "group": "priority_dense_review",
+      "observed_content": "第一视角厨房：0—60秒绿色菜盘，90—120切白色食材，150冰箱，180锅，210—270蘑菇，300—330搅锅，390—420调料。",
+      "limits": "食材精细身份、无剪辑连续性与父拍摄来源仍待密集核验。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:333",
+        "ovo:334"
+      ]
+    },
+    {
+      "number": 1,
+      "source_path": "Ego4D/clips/bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e.mp4",
+      "duration_s": 480.03333333333336,
+      "media_sha256": "b5fbe33b2267c8adbde1cada8d40b90c87c1526ffadf469c5e91cc8c05048243",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/01-bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e.png",
+      "sheet_sha256": "5bd5168971d1296edbfe8340dcecef86e956d513ce80728b943230228b9ec91e",
+      "actually_viewed_overview": true,
+      "group": "priority_dense_review",
+      "observed_content": "第一视角烘焙：30—60刷烤盘点心，120—150清理搅拌碗，180—210盒子，240水槽，330—480面团操作。",
+      "limits": "称重数字、精确计数不能由概览确认；原视频已有黑边。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:396",
+        "ovo:397"
+      ]
+    },
+    {
+      "number": 2,
+      "source_path": "Ego4D/clips/d87b96a7-09f5-419d-84fc-f916bd68ae1b.mp4",
+      "duration_s": 480.0,
+      "media_sha256": "84b0b0053716ba2c801f8741cf778d821cbbea85160e9b43de17eee278999a2a",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/02-d87b96a7-09f5-419d-84fc-f916bd68ae1b.png",
+      "sheet_sha256": "2f0897b9cc4e97d27d038e093b82f2ddc469f741fd4fe5519da0f47072a0452f",
+      "actually_viewed_overview": true,
+      "group": "priority_dense_review",
+      "observed_content": "第一视角：0秒室内圆镜，30窗边，60—420车内行驶，450停车/车库。",
+      "limits": "优先核验短暂早期场景与后续场景关系；不标身份、语音、道路文字题。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:344"
+      ]
+    },
+    {
+      "number": 3,
+      "source_path": "cross_task/0mnuAqJCg5c.mp4",
+      "duration_s": 331.7647666666667,
+      "media_sha256": "5b22c4e3a158ca4e08d006461cfa31d406fb980bfcf8c2e5910896a4c356edb1",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/03-0mnuAqJCg5c.png",
+      "sheet_sha256": "28e69bac57f6acc88a56be595e7f26b996454ce66d3d85c6e4bdb2805b78b408",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "儿童黄围裙厨房教程：60—90切食材，120—210锅，240—270蛋与搅拌，300—330成盘。",
+      "limits": "有镜头剪辑与口述；仅画面支持的步骤，不凭声音标原因。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:506"
+      ]
+    },
+    {
+      "number": 4,
+      "source_path": "cross_task/ysHXDXqi4mc.mp4",
+      "duration_s": 354.354,
+      "media_sha256": "08ed088892d50b6adb782838521cad364a913dec04db03fbf7a49963be730258",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/04-ysHXDXqi4mc.png",
+      "sheet_sha256": "62a8d81ebebc1779bf5f4b8ba4d53b8b092a688fe3b16f8991cd755a106486e1",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "换轮胎教程：0车，30后备箱工具，60轮子，90千斤顶，120—180螺母，210顶升，240拆轮，270—330备胎。",
+      "limits": "剪辑教程，不称未剪辑连续观察；安全与因果措辞需可见证据。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:504"
+      ]
+    },
+    {
+      "number": 5,
+      "source_path": "youcook2/-dh_uGahzYo.mp4",
+      "duration_s": 561.4,
+      "media_sha256": "cf437f811f39825bb734a777ba40fd8dcdd92d9c31f975b65d673f59035000de",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/05--dh_uGahzYo.png",
+      "sheet_sha256": "399bb1680e9406184f8de2b5e10c62f75f2257a9d264625c19ab1e32aa00d9d3",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "红衣厨师：0—30成品，90调料，120红酱，150—180锅，240肉/酱，360与420炖菜，多段讲话。",
+      "limits": "开头成品泄漏；长口述不等于长视觉事件；不使用菜名或温度题。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:564"
+      ]
+    },
+    {
+      "number": 6,
+      "source_path": "youcook2/2heP32bqOV0.mp4",
+      "duration_s": 613.3460666666666,
+      "media_sha256": "4fc7dc0ffd56d684e83eaba41355483dccbb62583e7b2a2185dabc1af5c8a8e8",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/06-2heP32bqOV0.png",
+      "sheet_sha256": "d4715c06e4b58de06a8cb9eb8f419a3727ad496b96ed78f49d45333b16e97d6f",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "俯视炖菜：0标题，30肉包装，120切肉，150洋葱，180—210锅，240—300肉，360蘑菇，420水，540盖，600尝。",
+      "limits": "标题泄漏菜名，有剪辑与时间跳跃。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:546"
+      ]
+    },
+    {
+      "number": 7,
+      "source_path": "youcook2/PYjrGqPHGhY.mp4",
+      "duration_s": 565.9325992659326,
+      "media_sha256": "fd99f1baf84c2046e74a6704fc24ae93abcb16d8af6499bf63b36d874921b50c",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/07-PYjrGqPHGhY.png",
+      "sheet_sha256": "dcec0c9c170c2881dfb6e6da0780ecf8fc13814b044a3005563e99b613be90de",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "煎饼：0成品，30面粉，120—150材料，180倒湿料，210—270混合，300—330锅油，360—420面糊，450黑场，480—510煎，540成品。",
+      "limits": "开头结局泄漏、淡黑与剪辑；视频秒数不是实际烹饪历时。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:560"
+      ]
+    },
+    {
+      "number": 8,
+      "source_path": "youcook2/T_fPNAK5Ecg.mp4",
+      "duration_s": 547.8,
+      "media_sha256": "8aeae40812b34273b9989a37619f930692ece5e69121249c415f441a1c3b0973",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/08-T_fPNAK5Ecg.png",
+      "sheet_sha256": "ce3ec69054322e170ee63265f3712d0ac9a6327d62018cf02df959b1b1952f60",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "白围裙俯视：30土豆，90—120材料碗，150炒洋葱，180面粉，210搅，240—330奶，360调味，390—480土豆泥，510香肠，540成盘。",
+      "limits": "0/60白场或转场，需密集核步骤见证。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:568"
+      ]
+    },
+    {
+      "number": 9,
+      "source_path": "youcook2/bxgdUWKOwtQ.mp4",
+      "duration_s": 600.48,
+      "media_sha256": "1164e96c97d73489924177844b3b26c781d2e600553a0afe7cccaa61fcb7108c",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/09-bxgdUWKOwtQ.png",
+      "sheet_sha256": "f69418cee393c27d6312e6e08ed5460a78c7deac9de36d1c6e6855718ffb705c",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "粉围裙：60碗，90揉面，180—270切菜馅，330—360面团，390擀，420—450成型，540炸，600片尾。",
+      "limits": "剪辑/口述/字幕与片尾；不把字幕识别当视觉记忆收益。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:550"
+      ]
+    },
+    {
+      "number": 10,
+      "source_path": "youcook2/iq7aiv9MPvA.mp4",
+      "duration_s": 590.8666666666667,
+      "media_sha256": "3fdc676b3d4a4c90ba8efbd13e6cf680da083a7825710d8867beeacdb0c4f827",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/10-iq7aiv9MPvA.png",
+      "sheet_sha256": "54f4e57cdd72167bf73bc163e94224fc256554d710e6ae61bcaab18ca3c2f98a",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "慢炖锅分层：0—60奶酪，90—180锅内肉洋葱，210馅，240—300组装，360—420饼层，450奶酪，480盖，510—570切片。",
+      "limits": "剪辑及长烹饪时间跳跃；不从转场推断时长或原因。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:553"
+      ]
+    },
+    {
+      "number": 11,
+      "source_path": "youcook2/luDzsPatsGw.mp4",
+      "duration_s": 580.6,
+      "media_sha256": "1859697ae770652fbb5e0a8ba0b9c61582f3d02e90fbf062c32005f406b52c6d",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/11-luDzsPatsGw.png",
+      "sheet_sha256": "7b3a76ad6b73cd34d93fa292350c5f7f5c43de08214e6fdd635bc5d7dd4f3cdb",
+      "actually_viewed_overview": true,
+      "group": "edited_explicit_timejump",
+      "observed_content": "0鹅肝标题，60—180处理原料，240—300调味，330卷，360“six hours later”，390锅，420/480烤箱，450/510模具，540完成。",
+      "limits": "明确跨六小时；排除未剪辑连续长观察主层，仅保留剪辑操作补充资格。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:558"
+      ]
+    },
+    {
+      "number": 12,
+      "source_path": "youcook2/noS_n5k3oxM.mp4",
+      "duration_s": 537.4535777777778,
+      "media_sha256": "eb1a823d2c64589f1a4b42d23cb229aabaa5fad25824e25ed51c1719b5a2820d",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/12-noS_n5k3oxM.png",
+      "sheet_sha256": "95274d4144e01fa594a41f63a8dad39972ddb70d2925efaa9d114f31649dc34f",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "0辣猪肉标题，30—90材料，120—240香料，270洋葱，300—420肉混合，450炒，480生菜，510片尾。",
+      "limits": "120—210多幅相近，未做逐像素静态判定；标题/片尾泄漏与剪辑。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:570"
+      ]
+    },
+    {
+      "number": 13,
+      "source_path": "youcook2/xPiv3hP5888.mp4",
+      "duration_s": 526.84,
+      "media_sha256": "c222f95863e5ad85f690171fce126966145c2edf05f3a987395713c294c200f3",
+      "sheet": "runs/2b_spatial_time_prepare_20261021_01/overview14/13-xPiv3hP5888.png",
+      "sheet_sha256": "0fb521adf6ae70c38d559fd510315c3412975b059a9ead99cbd6e6fee0acf91e",
+      "actually_viewed_overview": true,
+      "group": "edited_visual_supplement",
+      "observed_content": "俯视一锅：30油，60—90蔬菜，120肉，150—180调味，210—240液体，270豌豆，330—450烤盘，480上层，510红衣人盛。",
+      "limits": "0白场及剪辑；只标可见步骤，不推断声音或完整实际历时。",
+      "source_unseen_status": "not_established; existing acquired pool",
+      "dense_witness_review": false,
+      "newly_admitted_questions": 0,
+      "official_ids_preserved": [
+        "ovo:573"
+      ]
+    }
+  ],
+  "totals": {
+    "sources": 14,
+    "priority_dense_review": 3,
+    "edited_visual_supplement": 10,
+    "edited_explicit_timejump": 1,
+    "overview_frames": 248,
+    "PNG_bytes": 14760263,
+    "sampling_seconds": 252.20300000000134,
+    "sampling_RSS_observed_bytes": 75673600,
+    "newly_admitted_questions": 0,
+    "GPU_jobs": 0
+  },
+  "independence": "parent filming groups unknown; same broad task is not proof of duplicate or independence",
+  "duplicate_check": "new00 and old b01 kitchen overview both viewed; different worktop/sink/stove/clothing, no confirmed near-duplicate",
+  "next": "dense review three Ego4D first; edited tutorials separate stratum; freeze witness/cutoff/answers before model output; existing20-source pool does not meet new holdout20/160"
+}

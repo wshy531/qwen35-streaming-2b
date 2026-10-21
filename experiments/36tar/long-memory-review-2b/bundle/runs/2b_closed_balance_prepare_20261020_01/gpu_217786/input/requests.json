@@ -1,0 +1,436 @@
+[
+  {
+    "id": "ovo:70",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "query_time_s": 292,
+    "question": "Where did  I pick the spatula?",
+    "options": [
+      "from the hanging cabinet",
+      "from the drawer",
+      "from the cupboard",
+      "from the refrigerator"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:71",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "query_time_s": 346,
+    "question": "How much food did I put in the bowl?",
+    "options": [
+      "one spoon",
+      "two spoons",
+      "three spoons",
+      "four spoons"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:72",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "query_time_s": 411,
+    "question": "What color is the towel I wiped hands with?",
+    "options": [
+      "white",
+      "pink",
+      "blue",
+      "green"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:73",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "query_time_s": 438,
+    "question": "What did I pick from the drawer?",
+    "options": [
+      "chopstick",
+      "spoon",
+      "fork",
+      "spatula"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:104",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "query_time_s": 51,
+    "question": "Where did I put the alien toy box?",
+    "options": [
+      "On the floor",
+      "At the toy rack",
+      "In the shopping basket",
+      "On the shelf"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:105",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "query_time_s": 81,
+    "question": "Where did i put the white robot toy",
+    "options": [
+      "On the toy rack",
+      "On the floor",
+      "In the shelf",
+      "In the shopping basket"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:102",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "query_time_s": 341,
+    "question": "Where s shopping cart?",
+    "options": [
+      "Beside the checkout",
+      "Next to the toys",
+      "Beside Duracell",
+      "Near the book section"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:103",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "query_time_s": 439,
+    "question": "What color is the shopping basket?",
+    "options": [
+      "Red",
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:106",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "query_time_s": 192,
+    "question": "Where was the container after I moved it?",
+    "options": [
+      "at the floor",
+      "at the table",
+      "at the ground",
+      "at the cabinet"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:107",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "query_time_s": 251,
+    "question": "How many times did I scoop cement from the container?",
+    "options": [
+      "three times",
+      "four times",
+      "five times",
+      "six times"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:108",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "query_time_s": 322,
+    "question": "What did I put in the container?",
+    "options": [
+      "cement",
+      "water",
+      "mud",
+      "garbage"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:109",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "query_time_s": 394,
+    "question": "Where was the scraper before I picked it?",
+    "options": [
+      "hanging the cabinet",
+      "on the table",
+      "at the ground",
+      "in the bucket"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:130",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 240,
+    "question": "What did I put in the dust bin?",
+    "options": [
+      "beef sauce",
+      "tomato",
+      "garlic"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:131",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 277,
+    "question": "What did I remove from the plastic bag?",
+    "options": [
+      "onion",
+      "green pepper",
+      "cabbage"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:68",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 278,
+    "question": "Where is the red floor pillow?",
+    "options": [
+      "at the living room",
+      "in the bedroom",
+      "in the kitchen",
+      "in the bathroom"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:69",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 278,
+    "question": "Where was the onion before I picked it?",
+    "options": [
+      "nylon",
+      "in the cabinet",
+      "inside the refrigerator",
+      "on the counter"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:67",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 332,
+    "question": "Where was the plastic wrap before I picked it?",
+    "options": [
+      "at the door of refrigerator",
+      "on the counter",
+      "inside the refrigerator",
+      "in the cabinet"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:66",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 373,
+    "question": "Where did I put the remaining onions?",
+    "options": [
+      "on the counter",
+      "at the refrigerator",
+      "inside the refrigerator",
+      "in the cabinet"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:132",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 374,
+    "question": "What did I put in the fridge?",
+    "options": [
+      "onion",
+      "green pepper",
+      "cabbage"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:133",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 472,
+    "question": "What did I pick from the drawer?",
+    "options": [
+      "pan lid",
+      "spatula",
+      "chopsticks"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:180",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "query_time_s": 59,
+    "question": "Where was the blue screwdriver?",
+    "options": [
+      "on the toolbox",
+      "inside the drawer",
+      "beside the toolbox",
+      "near the red drum"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:181",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "query_time_s": 243,
+    "question": "Where did I put the black basin?",
+    "options": [
+      "in top of blue drum",
+      "on the floor",
+      "inside the drawer",
+      "under the blue drum"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:182",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "query_time_s": 360,
+    "question": "where was the grey soldering gun before I picked it?",
+    "options": [
+      "on the floor",
+      "inside the drawer",
+      "on the toolbox",
+      "under the toolbox"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:183",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "query_time_s": 411,
+    "question": "Where was the wrench before I picked it?",
+    "options": [
+      "on the toolbox",
+      "on the floor",
+      "inside the drawer",
+      "under the toolbox"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:144",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "query_time_s": 132,
+    "question": "What color is the car?",
+    "options": [
+      "blue",
+      "white",
+      "black"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:145",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "query_time_s": 194,
+    "question": "Where is the dust bin?",
+    "options": [
+      "beside the door",
+      "beside the tissue paper",
+      "in the middle of the store"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:147",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "query_time_s": 196,
+    "question": "Where is the tissue paper?",
+    "options": [
+      "beside the trashcan",
+      "beside the dustbin",
+      "next to the door"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "ovo:146",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "query_time_s": 211,
+    "question": "What color is my my shirt",
+    "options": [
+      "black",
+      "red",
+      "white"
+    ],
+    "cohort": "official_OVO_unchanged"
+  },
+  {
+    "id": "local_longstream_v1:01",
+    "source_path": "Ego4D/clips/1ff34d9f-1c5a-40d8-98ee-8d3cbf48ebc3.mp4",
+    "query_time_s": 430.0,
+    "question": "Which happened first: taking plastic wrap from the upper cupboard or opening the refrigerator?",
+    "options": [
+      "Opening the refrigerator before taking the wrap",
+      "Neither action occurred",
+      "Taking the wrap before opening the refrigerator",
+      "Only opening the refrigerator occurred"
+    ],
+    "cohort": "manual_development"
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4",
+    "query_time_s": 470.0,
+    "question": "Which order did the wearer follow in the store?",
+    "options": [
+      "Inspecting boxed toys before passing the Duracell battery display",
+      "Passing the Duracell display before inspecting boxed toys",
+      "Inspecting boxed toys without ever passing a battery display",
+      "Passing a battery display without ever inspecting boxed toys"
+    ],
+    "cohort": "manual_development"
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "source_path": "Ego4D/clips/956488d0-1b28-41b5-a13f-7f1b72e1c2c7.mp4",
+    "query_time_s": 450.0,
+    "question": "Which sequence of activities was shown earlier in this clip?",
+    "options": [
+      "Applying mortar to a panel, handling blue buckets, using the orange mixer",
+      "Using the orange mixer, applying mortar to a panel, handling blue buckets",
+      "Handling blue buckets, using the orange mixer, applying mortar to a panel",
+      "Using the orange mixer, handling blue buckets, applying mortar to a panel"
+    ],
+    "cohort": "manual_development"
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "source_path": "Ego4D/clips/b01fdd44-357c-4566-b487-d9ff21e56c2e.mp4",
+    "query_time_s": 460.0,
+    "question": "After cutting the yellow pepper into strips, which ingredient was cut into strips next?",
+    "options": [
+      "Cabbage",
+      "Green pepper",
+      "Onion",
+      "Carrot"
+    ],
+    "cohort": "manual_development"
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "source_path": "Ego4D/clips/c8f4c698-167f-44f8-b624-3fb69660a7ce.mp4",
+    "query_time_s": 440.0,
+    "question": "What color was the first cloth taken out of the tool drawer and used for wiping?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "cohort": "manual_development"
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4",
+    "query_time_s": 450.0,
+    "question": "At the initial road crossing, what small roadside fixture stood beside the pedestrian button pole?",
+    "options": [
+      "Parking meter",
+      "Bicycle rack",
+      "Fire hydrant",
+      "Public trash bin"
+    ],
+    "cohort": "manual_development"
+  }
+]
