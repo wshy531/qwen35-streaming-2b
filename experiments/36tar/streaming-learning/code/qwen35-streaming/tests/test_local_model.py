@@ -1,4 +1,5 @@
 """Small random models validate adaptation, not pretrained quality. No downloads."""
+import gc
 import inspect
 import tempfile
 import unittest
@@ -48,13 +49,19 @@ class LocalModelTests(unittest.TestCase):
             self.assertEqual(Path(inspect.getfile(type(module))).resolve().parent, expected)
         with tempfile.TemporaryDirectory() as directory:
             self.upstream.save_pretrained(directory)
-            loaded, info = Qwen3_5ForConditionalGeneration.from_pretrained(
-                directory, output_loading_info=True, attn_implementation="eager"
-            )
-            for key in ["missing_keys", "unexpected_keys", "mismatched_keys", "error_msgs"]:
-                self.assertFalse(info.get(key), info)
-            for key, value in loaded.state_dict().items():
-                torch.testing.assert_close(value, self.upstream.state_dict()[key])
+            loaded = value = None
+            try:
+                loaded, info = Qwen3_5ForConditionalGeneration.from_pretrained(
+                    directory, output_loading_info=True, attn_implementation="eager"
+                )
+                for key in ["missing_keys", "unexpected_keys", "mismatched_keys", "error_msgs"]:
+                    self.assertFalse(info.get(key), info)
+                for key, value in loaded.state_dict().items():
+                    torch.testing.assert_close(value, self.upstream.state_dict()[key])
+            finally:
+                # Release checkpoint-backed storage before NFS directory cleanup.
+                loaded = value = None
+                gc.collect()
 
     @torch.inference_mode()
     def test_text_logits_and_incremental_cache(self):
