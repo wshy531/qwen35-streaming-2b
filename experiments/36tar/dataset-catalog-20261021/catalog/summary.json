@@ -1,0 +1,184 @@
+{
+  "snapshot_date": "2026-10-21",
+  "unit": "physical video file or question+query-time item; not independent filming",
+  "media": {
+    "videos": 182,
+    "bytes": 2595713895,
+    "min_seconds": 4.0,
+    "max_seconds": 613.3460666666666,
+    "sum_seconds": 19917.146890442276,
+    "duration_bins": {
+      "180to300": 7,
+      "300to600": 18,
+      "30to60": 48,
+      "60to180": 65,
+      "ge600": 2,
+      "lt30": 42
+    }
+  },
+  "unique_media_sha256": 182,
+  "extensions": {
+    ".mkv": 2,
+    ".mp4": 173,
+    ".webm": 7
+  },
+  "video_kinds": {
+    "derived_mechanism_control": {
+      "videos": 3,
+      "bytes": 623640,
+      "min_seconds": 6.0,
+      "max_seconds": 6.5333125,
+      "sum_seconds": 18.5333125,
+      "duration_bins": {
+        "lt30": 3
+      }
+    },
+    "natural_video": {
+      "videos": 167,
+      "bytes": 2511699979,
+      "min_seconds": 8.336,
+      "max_seconds": 613.3460666666666,
+      "sum_seconds": 19138.613577942277,
+      "duration_bins": {
+        "180to300": 6,
+        "300to600": 18,
+        "30to60": 48,
+        "60to180": 61,
+        "ge600": 2,
+        "lt30": 32
+      }
+    },
+    "simulated_3d_environment": {
+      "videos": 4,
+      "bytes": 83250187,
+      "min_seconds": 109.0,
+      "max_seconds": 254.0,
+      "sum_seconds": 596.0,
+      "duration_bins": {
+        "180to300": 1,
+        "60to180": 3
+      }
+    },
+    "synthetic_mechanism_control": {
+      "videos": 8,
+      "bytes": 140089,
+      "min_seconds": 4.0,
+      "max_seconds": 120.0,
+      "sum_seconds": 164.0,
+      "duration_bins": {
+        "60to180": 1,
+        "lt30": 7
+      }
+    }
+  },
+  "static_photos": 6,
+  "static_photo_bytes": 4933408,
+  "official_benchmark_videos": {
+    "videos": 164,
+    "bytes": 2511051723,
+    "min_seconds": 10.9109,
+    "max_seconds": 613.3460666666666,
+    "sum_seconds": 19584.886577942274,
+    "duration_bins": {
+      "180to300": 7,
+      "300to600": 18,
+      "30to60": 47,
+      "60to180": 64,
+      "ge600": 2,
+      "lt30": 26
+    }
+  },
+  "all_question_time_items": 528,
+  "semantic_question_groups": 526,
+  "official_questions": 519,
+  "official_task_counts": {
+    "ASI": 26,
+    "CH": 75,
+    "CW": 129,
+    "EPM": 34,
+    "HLD": 17,
+    "TC": 64,
+    "TN": 164,
+    "TP": 10
+  },
+  "official_duration_bins": {
+    "180to300": 10,
+    "300to600": 47,
+    "30to60": 144,
+    "60to180": 205,
+    "ge600": 2,
+    "lt30": 111
+  },
+  "official_task_by_duration": {
+    "CW": {
+      "180to300": 1,
+      "30to60": 40,
+      "60to180": 41,
+      "lt30": 47
+    },
+    "CH": {
+      "30to60": 28,
+      "60to180": 30,
+      "lt30": 17
+    },
+    "TN": {
+      "180to300": 1,
+      "30to60": 51,
+      "60to180": 82,
+      "lt30": 30
+    },
+    "TP": {
+      "30to60": 3,
+      "60to180": 5,
+      "lt30": 2
+    },
+    "TC": {
+      "30to60": 18,
+      "60to180": 33,
+      "lt30": 13
+    },
+    "EPM": {
+      "180to300": 1,
+      "300to600": 28,
+      "60to180": 5
+    },
+    "ASI": {
+      "180to300": 4,
+      "300to600": 9,
+      "30to60": 4,
+      "60to180": 5,
+      "ge600": 2,
+      "lt30": 2
+    },
+    "HLD": {
+      "180to300": 3,
+      "300to600": 10,
+      "60to180": 4
+    }
+  },
+  "earliest_frozen_natural_checks": 15,
+  "question_rows_not_all_admitted": true,
+  "difficulty": "not re-rated by this catalog; author type and reviewed F/T/C are distinct",
+  "planned": {
+    "status": "paused_not_downloaded",
+    "video_clips": 1920,
+    "bytes": 29721461140,
+    "sessions": 4,
+    "target_questions": 96,
+    "admitted_questions": 0,
+    "actual_duration_verified": false,
+    "note": "4 approximately4h targets with recording gaps, same household; not four uncut independent environments"
+  },
+  "raw_annotation_pool": {
+    "nextgqa_rows": 3358,
+    "invalid_grounding": 3,
+    "ovo_all_tasks": 1640,
+    "ovo_selected_task_rows": 631
+  },
+  "scope": "all source media under project datasets; run thumbnails/source_snapshot copies excluded",
+  "author_query_vs_container_header": {
+    "items_with_positive_rounding_delta": 226,
+    "max_positive_delta_s": 0.48049999999999926,
+    "original_query_times_preserved": true
+  }
+}

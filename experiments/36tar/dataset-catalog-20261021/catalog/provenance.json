@@ -1,0 +1,86 @@
+{
+  "runs/2b_collaboration_sync_20261020_01/media_manifest124_LOCAL.json": {
+    "bytes": 91950,
+    "sha256": "c7e724ae0664ed841e259670559a0c9175dbf5e63694483e98fd6f1ce23ab5d7"
+  },
+  "runs/2b_validation_T_prepare_20261020_01/download_manifest.json": {
+    "bytes": 21541,
+    "sha256": "7e087818765b1a35b2adbbcf21df51f9365b5c893c44c79c86fd112ce98b873f"
+  },
+  "runs/2b_collaboration_sync_20261020_01/candidate_pool385.json": {
+    "bytes": 329713,
+    "sha256": "e465b07a28b6cb10ce21906686cf6acd6c168ba39aed2efb385a8428b71f8cb0"
+  },
+  "runs/2b_validation_T_prepare_20261020_01/candidate_questions119.json": {
+    "bytes": 118569,
+    "sha256": "6f8c55280432463f40861d3e8e4d2ad9df5bc8d1b0409abd44947edd95b96f90"
+  },
+  "experiments/2b-memory-eval/data/candidate_manifest.json": {
+    "bytes": 184707,
+    "sha256": "cd1d888eb0a0c00f300649f41800e60fd02b002e91f41f154b42e041fcc28161"
+  },
+  "runs/2b_natural_eval_20261020_01/scorer_rows_local.json": {
+    "bytes": 757531,
+    "sha256": "819ce7c12102fb6d01d2664456afacf1a6ce6b7aa6ce62410a96e60052cea63e"
+  },
+  "runs/2b_validation_T_prepare_20261020_01/content_dispositions119.json": {
+    "bytes": 525476,
+    "sha256": "9acde9faacfd1a1f3c0de44e5276f94c843466ad72ac60b3ef28fa70551f71f7"
+  },
+  "runs/2b_long_stream_prepare_20261020_01/stream_labels34_LOCAL_ONLY.json": {
+    "bytes": 6081,
+    "sha256": "503e54327338684ea3f263699386576049af8b289ec8a9736a92bf5676cf4e9e"
+  },
+  "runs/2b_long_stream_prepare_20261020_01/stream_requests34.json": {
+    "bytes": 12510,
+    "sha256": "f750bebd7ead50d7d75c963e02ab7392cc43d1632bdfb4aa624e09885dfa7f77"
+  },
+  "experiments/2b-memory-eval/data/upstream/ovo/ovo_bench_new.json": {
+    "bytes": 918444,
+    "sha256": "b0e3bd06f0129e66f61726714d42deb9b42fc9d5a9bb2e9336fa5429d67c956b"
+  },
+  "runs/2b_long_stream_prepare_20261020_01/manual6_delayed_questions_LOCAL_ONLY.json": {
+    "bytes": 10337,
+    "sha256": "c962297fe08d25a7efa6851c20bdbd5baa0497fd51a6b9a606a6b483e3cea59d"
+  },
+  "runs/memory_task_alignment_20261019_01/diagnostic9_cases_scorer_only.json": {
+    "bytes": 10774,
+    "sha256": "7ffc5b9ace91a29f647800064d0837e58224dc0191c6f226dff3bd9e44709f6a"
+  },
+  "runs/2b_validation_T_prepare_20261020_01/scorer_rows_LOCAL_ONLY.json": {
+    "bytes": 454885,
+    "sha256": "1a3ca6c1b980dad280fa993da5eeff46bbc406e3fec69b8281ab0db62436ce2b"
+  },
+  "runs/08b_frozen74_compare_20261019_01/all_questions.json": {
+    "bytes": 162522,
+    "sha256": "e457146094f678f2cb4e594cbf3e995656306a88c16a1b0ca12f15d084d7a926"
+  },
+  "runs/08b_holdout47_compare_20261019_01/all_questions.json": {
+    "bytes": 155856,
+    "sha256": "9b7ce9595c1a555bca7e9e100405f230edc7cbcf3130fc9e31981c939e08eb67"
+  },
+  "runs/08b_causal_memory_dev_20261019_01/all_questions.json": {
+    "bytes": 56029,
+    "sha256": "aecf568af6079966cae913d86fce222b919df83739c812d674638670e8e87287"
+  },
+  "datasets/natural_commons_v1/cases.json": {
+    "bytes": 4778,
+    "sha256": "7ad07d2ddbb94c3a390f7a83fad413a31bb17486d4015af1123e6f0fa81a08fc"
+  },
+  "runs/2b_memory_value_prepare_20261021_01/media_manifest1920.json": {
+    "bytes": 876427,
+    "sha256": "35740277f9940d56b8b540341e6a2f1eb44d34559fd8130240bfd0a158e844c5"
+  },
+  "runs/2b_memory_value_prepare_20261021_01/source_selection_receipt.json": {
+    "bytes": 6082,
+    "sha256": "f17bba29116b4703da889c4fdf20226d6f6322afec08f81cad292a416c2d91ad"
+  },
+  "experiments/2b-memory-eval/data/audit_summary.json": {
+    "bytes": 1618,
+    "sha256": "07dd392b13561ce335a8ffdaec338d763de4d6510cce1ca83c4215957de955e4"
+  },
+  "runs/2b_early9_diagnostic_20261020_01/requests.json": {
+    "bytes": 116598,
+    "sha256": "e3445b59de45500b8171e38a6a87f23fd08d1bb36ecb433a181ac134730e8e32"
+  }
+}

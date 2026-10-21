@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "files": 38,
+  "media_files": 24,
+  "bytes": 91699384,
+  "already_present_assets": 164,
+  "no_large_media_archive_created": true,
+  "no_existing_files_overwritten": true,
+  "GPU_submissions": 0
+}
