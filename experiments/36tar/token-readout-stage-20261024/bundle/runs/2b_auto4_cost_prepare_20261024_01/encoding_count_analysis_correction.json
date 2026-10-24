@@ -1,0 +1,9 @@
+{
+  "reason": "EOF singleton was counted as a pair in protocol budget; actual long stream intentionally leaves it pending",
+  "original_scorer_sha256": "0f319e60b48a517ad3db039318b25422b52d9a4259d3beeb092c411dd59cd9d5",
+  "analysis_v2_sha256": "9e79bb8e0b4488d49e86d07de26258858088ea0f8e7676253c43130ce7c23a49",
+  "original_encodings_budget": 8928,
+  "actual_expected_encodings": 8922,
+  "original_runtime_modified": false,
+  "GPU_retries": 0
+}

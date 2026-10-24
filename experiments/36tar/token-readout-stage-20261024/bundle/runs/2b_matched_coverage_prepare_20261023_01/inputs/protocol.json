@@ -1,0 +1,47 @@
+{
+  "arms": [
+    "full48_8",
+    "odd24_8",
+    "change24_8",
+    "odd24_16",
+    "change24_16"
+  ],
+  "questions": 303,
+  "answers_max": 1515,
+  "generated_tokens_max": 12120,
+  "visual_encodings": 3981,
+  "pretrained_loads": 1,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dtype": "FP32",
+  "max_new_tokens": 8,
+  "context_cap": 2048,
+  "visual_budget_max": 384,
+  "max_nodes": 16,
+  "matched_frame_pairs": 8,
+  "matched_compressed_visual_budget": 192,
+  "expanded_pairs": 16,
+  "selector": "frozen C2/P3 change24, previous complete pair, cold only once per source",
+  "selected_original_values_and_coordinates": true,
+  "no_forest_merges": true,
+  "no_main_language_cache": true,
+  "no_full_history_archive": true,
+  "primary_dataset": "opened269; long supported16/manual6 separate; all303 retained",
+  "contrasts": [
+    "odd24_8 vs full48_8",
+    "change24_8 vs full48_8",
+    "change24_8 vs odd24_8",
+    "odd24_16 vs odd24_8",
+    "change24_16 vs change24_8"
+  ],
+  "stop": "one frozen five-arm comparison; no ratio, anchor or prompt sweep",
+  "limitations": [
+    "fixed coverage does not fix language sequence length or all position offsets",
+    "M0 isolates pair selection; cannot diagnose all LS/M2 fusion losses",
+    "shared quality timings are not isolated end-to-end speed"
+  ],
+  "input_sha256": {
+    "groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

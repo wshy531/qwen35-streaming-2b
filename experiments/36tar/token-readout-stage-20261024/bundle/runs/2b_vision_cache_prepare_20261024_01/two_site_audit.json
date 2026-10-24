@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "receipt_SHA256": {
+    "cluster_CPU_preflight.json": "1938613e50a810375e67d62ef334e9eb82b42b856c7f27fd2ff8c3059ebc70fa",
+    "cluster_CPU_mechanism.json": "64a8cd9e4c73c9d56c08240f2e9491625768c8711fd878bab4dd87c37b9ed4bd",
+    "deployment_check.json": "7c1f237c03cbe21fb1d7ea880ff101e28ec77a985ebd10c54cbdaa2ac8fc4863"
+  },
+  "layouts_identical": 606,
+  "tiny_QA_per_site": 4,
+  "source_identical": true,
+  "GPU_authorization_exists": false
+}

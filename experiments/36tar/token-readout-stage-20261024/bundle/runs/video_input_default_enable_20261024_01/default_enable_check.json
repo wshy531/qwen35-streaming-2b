@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "kind": "long",
+      "mode": "default",
+      "pixels_and_PTS": true,
+      "cancel": true
+    },
+    {
+      "kind": "long",
+      "mode": "slice1",
+      "pixels_and_PTS": true,
+      "cancel": true
+    },
+    {
+      "kind": "short",
+      "mode": "default",
+      "pixels_and_PTS": true,
+      "cancel": true
+    },
+    {
+      "kind": "short",
+      "mode": "slice1",
+      "pixels_and_PTS": true,
+      "cancel": true
+    }
+  ],
+  "default": "auto4",
+  "explicit_single_thread_supported": true,
+  "frozen_runtime_unchanged": true,
+  "adapter_SHA256": "fae7830f4eafbf164c0f94d0ea262f3b0f6103e4a12a9a410a34e59ac7df6a25",
+  "GPU_jobs": 0
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "real_frames": 22,
+  "vision_calls": 33,
+  "QA": [
+    {
+      "arm": "full48_8",
+      "generated_tokens": 8,
+      "input_tokens": 468,
+      "visual_tokens": 384,
+      "post_QA_continuation": true
+    },
+    {
+      "arm": "odd24_8",
+      "generated_tokens": 8,
+      "input_tokens": 276,
+      "visual_tokens": 192,
+      "post_QA_continuation": true
+    },
+    {
+      "arm": "change24_8",
+      "generated_tokens": 8,
+      "input_tokens": 276,
+      "visual_tokens": 192,
+      "post_QA_continuation": true
+    }
+  ],
+  "exact_source_decode_verified": true,
+  "source_profile": {
+    "decode_seconds": 2.949354225769639,
+    "transform_seconds": 0.3148526679724455,
+    "media_integrity_sha_seconds": 0.08896496146917343,
+    "open_seconds": 0.036328887566924095,
+    "decoded_frames": 631,
+    "sampled": 22
+  },
+  "one_active_bank": true,
+  "no_main_language_cache": true,
+  "all_closed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

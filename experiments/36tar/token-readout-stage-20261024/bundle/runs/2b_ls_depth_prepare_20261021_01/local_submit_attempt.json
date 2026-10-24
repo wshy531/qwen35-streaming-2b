@@ -1,0 +1,58 @@
+{
+  "execution_lock_sha256": "600ef2ed8108863d5192aa05ec3bfd6840839f5aab0682a333d91554183ef08a",
+  "authorization": {
+    "approved": true,
+    "execution_lock_sha256": "600ef2ed8108863d5192aa05ec3bfd6840839f5aab0682a333d91554183ef08a",
+    "protocol_sha256": "22f985a8f01dcacd8f7c4369e094f6759171ddedca31fd90617e224dbf31051d",
+    "user_approval": {
+      "approved": true,
+      "user_response": "批准这次组合 GPU 对照",
+      "question_item": "call_2aed01a4bd754cbb808fb3b69fbdd8d1:0",
+      "execution_lock_sha256": "600ef2ed8108863d5192aa05ec3bfd6840839f5aab0682a333d91554183ef08a",
+      "scope": "One fixed LS_depth six-bank 303-question-time comparison, at most1818answers14544generatedTokens3981shared_visual_encodings and oneFP32load",
+      "script": "experiments/2b-ls-depth-v1/run_eval.sh",
+      "project": "/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+      "resources": {
+        "partition": "g078t",
+        "comment": "gx_llm",
+        "GPUs": 1,
+        "CPUs": 4,
+        "host_memory_GiB": 24,
+        "wall_seconds": 3600
+      },
+      "no_training": true,
+      "no_download": true,
+      "no_auto_retry": true,
+      "no_requeue": true
+    },
+    "resources": {
+      "partition": "g078t",
+      "comment": "gx_llm",
+      "GPUs": 1,
+      "CPUs": 4,
+      "host_memory_GiB": 24,
+      "wall_seconds": 3600,
+      "worker_seconds": 3300,
+      "pretrained_loads": 1,
+      "output_bytes_cap": 100663296,
+      "no_training": true,
+      "no_download": true,
+      "no_auto_retry": true
+    },
+    "arms": [
+      "M0",
+      "reservoir4",
+      "M2",
+      "A06",
+      "LS",
+      "LS_depth"
+    ],
+    "questions": 303,
+    "answers_max": 1818,
+    "generated_tokens_max": 14544,
+    "vision_encodings": 3981,
+    "no_auto_retry": true,
+    "no_requeue": true,
+    "UTC": "2026-10-21T14:59:02.057702+00:00"
+  }
+}

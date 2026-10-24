@@ -1,0 +1,1169 @@
+{
+  "status": "passed",
+  "layouts": 114,
+  "legacy_step_regressions": 288,
+  "layout_rows": [
+    {
+      "id": "nextgqa:val:4087013668:1",
+      "arm": "full48_8",
+      "input_tokens": 529,
+      "visual_tokens": 384
+    },
+    {
+      "id": "nextgqa:val:4087013668:7",
+      "arm": "full48_8",
+      "input_tokens": 537,
+      "visual_tokens": 384
+    },
+    {
+      "id": "nextgqa:val:4087013668:8",
+      "arm": "full48_8",
+      "input_tokens": 525,
+      "visual_tokens": 384
+    },
+    {
+      "id": "nextgqa:val:4087013668:1",
+      "arm": "odd24_8",
+      "input_tokens": 337,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:4087013668:7",
+      "arm": "odd24_8",
+      "input_tokens": 345,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:4087013668:8",
+      "arm": "odd24_8",
+      "input_tokens": 333,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:4087013668:1",
+      "arm": "change24_8",
+      "input_tokens": 337,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:4087013668:7",
+      "arm": "change24_8",
+      "input_tokens": 345,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:4087013668:8",
+      "arm": "change24_8",
+      "input_tokens": 333,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:2559262403:4",
+      "arm": "full48_8",
+      "input_tokens": 517,
+      "visual_tokens": 384
+    },
+    {
+      "id": "nextgqa:val:2559262403:4",
+      "arm": "odd24_8",
+      "input_tokens": 325,
+      "visual_tokens": 192
+    },
+    {
+      "id": "nextgqa:val:2559262403:4",
+      "arm": "change24_8",
+      "input_tokens": 325,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:180",
+      "arm": "full48_8",
+      "input_tokens": 512,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:181",
+      "arm": "full48_8",
+      "input_tokens": 523,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:182",
+      "arm": "full48_8",
+      "input_tokens": 524,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:183",
+      "arm": "full48_8",
+      "input_tokens": 521,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "full48_8",
+      "input_tokens": 521,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:180",
+      "arm": "odd24_8",
+      "input_tokens": 320,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:181",
+      "arm": "odd24_8",
+      "input_tokens": 331,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:182",
+      "arm": "odd24_8",
+      "input_tokens": 332,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:183",
+      "arm": "odd24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "odd24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:180",
+      "arm": "change24_8",
+      "input_tokens": 320,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:181",
+      "arm": "change24_8",
+      "input_tokens": 331,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:182",
+      "arm": "change24_8",
+      "input_tokens": 332,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:183",
+      "arm": "change24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:05",
+      "arm": "change24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:70",
+      "arm": "full48_8",
+      "input_tokens": 522,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:71",
+      "arm": "full48_8",
+      "input_tokens": 521,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:72",
+      "arm": "full48_8",
+      "input_tokens": 514,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "full48_8",
+      "input_tokens": 538,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:73",
+      "arm": "full48_8",
+      "input_tokens": 514,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:70",
+      "arm": "odd24_8",
+      "input_tokens": 330,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:71",
+      "arm": "odd24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:72",
+      "arm": "odd24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "odd24_8",
+      "input_tokens": 346,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:73",
+      "arm": "odd24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:70",
+      "arm": "change24_8",
+      "input_tokens": 330,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:71",
+      "arm": "change24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:72",
+      "arm": "change24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:01",
+      "arm": "change24_8",
+      "input_tokens": 346,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:73",
+      "arm": "change24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:104",
+      "arm": "full48_8",
+      "input_tokens": 515,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:105",
+      "arm": "full48_8",
+      "input_tokens": 514,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:102",
+      "arm": "full48_8",
+      "input_tokens": 522,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:103",
+      "arm": "full48_8",
+      "input_tokens": 511,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "full48_8",
+      "input_tokens": 553,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:104",
+      "arm": "odd24_8",
+      "input_tokens": 323,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:105",
+      "arm": "odd24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:102",
+      "arm": "odd24_8",
+      "input_tokens": 330,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:103",
+      "arm": "odd24_8",
+      "input_tokens": 319,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "odd24_8",
+      "input_tokens": 361,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:104",
+      "arm": "change24_8",
+      "input_tokens": 323,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:105",
+      "arm": "change24_8",
+      "input_tokens": 322,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:102",
+      "arm": "change24_8",
+      "input_tokens": 330,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:103",
+      "arm": "change24_8",
+      "input_tokens": 319,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:02",
+      "arm": "change24_8",
+      "input_tokens": 361,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:106",
+      "arm": "full48_8",
+      "input_tokens": 521,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:107",
+      "arm": "full48_8",
+      "input_tokens": 519,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:108",
+      "arm": "full48_8",
+      "input_tokens": 512,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:109",
+      "arm": "full48_8",
+      "input_tokens": 521,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "full48_8",
+      "input_tokens": 567,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:106",
+      "arm": "odd24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:107",
+      "arm": "odd24_8",
+      "input_tokens": 327,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:108",
+      "arm": "odd24_8",
+      "input_tokens": 320,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:109",
+      "arm": "odd24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "odd24_8",
+      "input_tokens": 375,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:106",
+      "arm": "change24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:107",
+      "arm": "change24_8",
+      "input_tokens": 327,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:108",
+      "arm": "change24_8",
+      "input_tokens": 320,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:109",
+      "arm": "change24_8",
+      "input_tokens": 329,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:03",
+      "arm": "change24_8",
+      "input_tokens": 375,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:130",
+      "arm": "full48_8",
+      "input_tokens": 510,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:131",
+      "arm": "full48_8",
+      "input_tokens": 510,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:68",
+      "arm": "full48_8",
+      "input_tokens": 520,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:69",
+      "arm": "full48_8",
+      "input_tokens": 519,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:67",
+      "arm": "full48_8",
+      "input_tokens": 524,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:132",
+      "arm": "full48_8",
+      "input_tokens": 509,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:66",
+      "arm": "full48_8",
+      "input_tokens": 520,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "full48_8",
+      "input_tokens": 523,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:133",
+      "arm": "full48_8",
+      "input_tokens": 511,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:130",
+      "arm": "odd24_8",
+      "input_tokens": 318,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:131",
+      "arm": "odd24_8",
+      "input_tokens": 318,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:68",
+      "arm": "odd24_8",
+      "input_tokens": 328,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:69",
+      "arm": "odd24_8",
+      "input_tokens": 327,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:67",
+      "arm": "odd24_8",
+      "input_tokens": 332,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:132",
+      "arm": "odd24_8",
+      "input_tokens": 317,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:66",
+      "arm": "odd24_8",
+      "input_tokens": 328,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "odd24_8",
+      "input_tokens": 331,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:133",
+      "arm": "odd24_8",
+      "input_tokens": 319,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:130",
+      "arm": "change24_8",
+      "input_tokens": 318,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:131",
+      "arm": "change24_8",
+      "input_tokens": 318,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:68",
+      "arm": "change24_8",
+      "input_tokens": 328,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:69",
+      "arm": "change24_8",
+      "input_tokens": 327,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:67",
+      "arm": "change24_8",
+      "input_tokens": 332,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:132",
+      "arm": "change24_8",
+      "input_tokens": 317,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:66",
+      "arm": "change24_8",
+      "input_tokens": 328,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:04",
+      "arm": "change24_8",
+      "input_tokens": 331,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:133",
+      "arm": "change24_8",
+      "input_tokens": 319,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:144",
+      "arm": "full48_8",
+      "input_tokens": 506,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:145",
+      "arm": "full48_8",
+      "input_tokens": 516,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:147",
+      "arm": "full48_8",
+      "input_tokens": 515,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:146",
+      "arm": "full48_8",
+      "input_tokens": 506,
+      "visual_tokens": 384
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "full48_8",
+      "input_tokens": 527,
+      "visual_tokens": 384
+    },
+    {
+      "id": "ovo:144",
+      "arm": "odd24_8",
+      "input_tokens": 314,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:145",
+      "arm": "odd24_8",
+      "input_tokens": 324,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:147",
+      "arm": "odd24_8",
+      "input_tokens": 323,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:146",
+      "arm": "odd24_8",
+      "input_tokens": 314,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "odd24_8",
+      "input_tokens": 335,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:144",
+      "arm": "change24_8",
+      "input_tokens": 314,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:145",
+      "arm": "change24_8",
+      "input_tokens": 324,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:147",
+      "arm": "change24_8",
+      "input_tokens": 323,
+      "visual_tokens": 192
+    },
+    {
+      "id": "ovo:146",
+      "arm": "change24_8",
+      "input_tokens": 314,
+      "visual_tokens": 192
+    },
+    {
+      "id": "local_longstream_v1:06",
+      "arm": "change24_8",
+      "input_tokens": 335,
+      "visual_tokens": 192
+    }
+  ],
+  "accounting_2048": {
+    "full48_8": {
+      "visual_tokens": 384,
+      "details": {
+        "tokens": 384,
+        "resident_tensor_bytes": 3156480,
+        "nodes": [
+          {
+            "first": 4,
+            "last": 4,
+            "begin": 8.0,
+            "end": 9.0,
+            "center": 8.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              4
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              5
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 6,
+            "last": 6,
+            "begin": 12.0,
+            "end": 13.0,
+            "center": 12.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              6
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 7,
+            "last": 7,
+            "begin": 14.0,
+            "end": 15.0,
+            "center": 14.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              7
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 8,
+            "last": 8,
+            "begin": 16.0,
+            "end": 17.0,
+            "center": 16.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              8
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 9,
+            "last": 9,
+            "begin": 18.0,
+            "end": 19.0,
+            "center": 18.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              9
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 10,
+            "last": 10,
+            "begin": 20.0,
+            "end": 21.0,
+            "center": 20.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              10
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 11,
+            "last": 11,
+            "begin": 22.0,
+            "end": 23.0,
+            "center": 22.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 48,
+            "original_pairs": 1,
+            "mass": 48.0,
+            "surviving_source_pair_ids": [
+              11
+            ],
+            "tensor_bytes": 394560,
+            "exact_pair": true,
+            "span_is_provenance_not_full_detail": true
+          }
+        ]
+      },
+      "resident_tensor_bytes": 3156480,
+      "standalone_persistent_tensor_bytes": 3156480,
+      "standalone_selector_descriptor_bytes": 0
+    },
+    "odd24_8": {
+      "visual_tokens": 192,
+      "details": {
+        "tokens": 192,
+        "resident_tensor_bytes": 1578240,
+        "nodes": [
+          {
+            "first": 4,
+            "last": 4,
+            "begin": 8.0,
+            "end": 9.0,
+            "center": 8.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              4
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              5
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 6,
+            "last": 6,
+            "begin": 12.0,
+            "end": 13.0,
+            "center": 12.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              6
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 7,
+            "last": 7,
+            "begin": 14.0,
+            "end": 15.0,
+            "center": 14.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              7
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 8,
+            "last": 8,
+            "begin": 16.0,
+            "end": 17.0,
+            "center": 16.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              8
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 9,
+            "last": 9,
+            "begin": 18.0,
+            "end": 19.0,
+            "center": 18.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              9
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 10,
+            "last": 10,
+            "begin": 20.0,
+            "end": 21.0,
+            "center": 20.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              10
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 11,
+            "last": 11,
+            "begin": 22.0,
+            "end": 23.0,
+            "center": 22.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              11
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          }
+        ]
+      },
+      "resident_tensor_bytes": 1578240,
+      "standalone_persistent_tensor_bytes": 1578240,
+      "standalone_selector_descriptor_bytes": 0
+    },
+    "change24_8": {
+      "visual_tokens": 192,
+      "details": {
+        "tokens": 192,
+        "resident_tensor_bytes": 1578240,
+        "nodes": [
+          {
+            "first": 4,
+            "last": 4,
+            "begin": 8.0,
+            "end": 9.0,
+            "center": 8.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              4
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              5
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 6,
+            "last": 6,
+            "begin": 12.0,
+            "end": 13.0,
+            "center": 12.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              6
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 7,
+            "last": 7,
+            "begin": 14.0,
+            "end": 15.0,
+            "center": 14.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              7
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 8,
+            "last": 8,
+            "begin": 16.0,
+            "end": 17.0,
+            "center": 16.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              8
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 9,
+            "last": 9,
+            "begin": 18.0,
+            "end": 19.0,
+            "center": 18.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              9
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 10,
+            "last": 10,
+            "begin": 20.0,
+            "end": 21.0,
+            "center": 20.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              10
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          },
+          {
+            "first": 11,
+            "last": 11,
+            "begin": 22.0,
+            "end": 23.0,
+            "center": 22.5,
+            "groups": 1,
+            "depth": 0,
+            "tokens": 24,
+            "original_pairs": 1,
+            "mass": 24.0,
+            "surviving_source_pair_ids": [
+              11
+            ],
+            "tensor_bytes": 197280,
+            "exact_pair": false,
+            "span_is_provenance_not_full_detail": true
+          }
+        ]
+      },
+      "resident_tensor_bytes": 1578240,
+      "standalone_persistent_tensor_bytes": 1971456,
+      "standalone_selector_descriptor_bytes": 393216
+    }
+  },
+  "one_active_bank": true,
+  "no_unused_previous_state": true,
+  "all8_groups_twice_per_arm": true,
+  "all6_jobs_checked": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "seconds": 24.67199999999957,
+  "protocol_sha256": "4a9d50a069c4339969480d11981287742d55a1177e83fe297db252e5b63d79a9"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "runtime_files": 114,
+  "input_SHA_passed": true,
+  "source_unchanged": true,
+  "historical_odd_references": 303,
+  "CPU_both_passed": true,
+  "GPU_submissions": 0,
+  "additional_selector_bytes": 393216,
+  "diagnostic_archive_bytes_320pairs": 315648000,
+  "not_bounded_deployment": true
+}

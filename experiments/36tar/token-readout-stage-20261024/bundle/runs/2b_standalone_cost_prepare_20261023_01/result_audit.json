@@ -1,0 +1,92 @@
+{
+  "status": "pass",
+  "artifact_files": 48,
+  "answers": 909,
+  "pretrained_loads": 9,
+  "measured_encodings": 11943,
+  "warmup_encodings": 72,
+  "warmup_answers": 9,
+  "total_generated_tokens": 1891,
+  "old_rows_reproduced": 909,
+  "one_bank_only": true,
+  "same_per_source_decode_and_encode_counts": true,
+  "cohort_costs": [
+    {
+      "arm": "full48_8",
+      "cohort": "natural171",
+      "pipeline_wall_seconds": 183.38468804815784,
+      "QA_seconds": 51.11355369188823,
+      "decode_seconds": 83.30614078906365,
+      "questions": 171.0
+    },
+    {
+      "arm": "full48_8",
+      "cohort": "T98",
+      "pipeline_wall_seconds": 123.51037441100925,
+      "QA_seconds": 30.25159640284255,
+      "decode_seconds": 53.420693322084844,
+      "questions": 98.0
+    },
+    {
+      "arm": "full48_8",
+      "cohort": "stream34",
+      "pipeline_wall_seconds": 479.9432517129462,
+      "QA_seconds": 10.167939144652337,
+      "decode_seconds": 373.11255280137993,
+      "questions": 34.0
+    },
+    {
+      "arm": "odd24_8",
+      "cohort": "natural171",
+      "pipeline_wall_seconds": 159.95641988771968,
+      "QA_seconds": 29.855419674655423,
+      "decode_seconds": 83.29562543798238,
+      "questions": 171.0
+    },
+    {
+      "arm": "odd24_8",
+      "cohort": "T98",
+      "pipeline_wall_seconds": 108.5961541577708,
+      "QA_seconds": 17.18311305833049,
+      "decode_seconds": 53.36329594440758,
+      "questions": 98.0
+    },
+    {
+      "arm": "odd24_8",
+      "cohort": "stream34",
+      "pipeline_wall_seconds": 475.26116074225865,
+      "QA_seconds": 6.302165191620588,
+      "decode_seconds": 372.4295069919899,
+      "questions": 34.0
+    },
+    {
+      "arm": "change24_8",
+      "cohort": "natural171",
+      "pipeline_wall_seconds": 162.25739673059434,
+      "QA_seconds": 29.740262591047212,
+      "decode_seconds": 83.42384458635934,
+      "questions": 171.0
+    },
+    {
+      "arm": "change24_8",
+      "cohort": "T98",
+      "pipeline_wall_seconds": 109.6170933668036,
+      "QA_seconds": 17.099824086064473,
+      "decode_seconds": 53.25060500996187,
+      "questions": 98.0
+    },
+    {
+      "arm": "change24_8",
+      "cohort": "stream34",
+      "pipeline_wall_seconds": 479.1177447172813,
+      "QA_seconds": 6.334825308993459,
+      "decode_seconds": 374.9966557791922,
+      "questions": 34.0
+    }
+  ],
+  "limitations": [
+    "One workload pass per arm, not three full repetitions.",
+    "A800 FP32 file replay, no edge hardware or paced1x test.",
+    "RSS high-water includes startup/warmup; do not claim runtime host-RAM reduction."
+  ]
+}

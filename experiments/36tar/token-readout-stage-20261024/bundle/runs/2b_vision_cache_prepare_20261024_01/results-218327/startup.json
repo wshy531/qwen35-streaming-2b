@@ -1,0 +1,12 @@
+{
+  "pretrained_loads": 1,
+  "numerical_max_abs_errors": [
+    0.0,
+    0.0
+  ],
+  "numerical_visual_calls": 4,
+  "warmup_visual_calls": 16,
+  "warmup_answers": 2,
+  "warmup_generated_tokens": 16,
+  "startup_load_acceptance_warmup_seconds": 6.893625404220074
+}

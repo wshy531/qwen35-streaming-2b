@@ -1,0 +1,7 @@
+{
+  "reason": "standalone integration imported source before common initialized dependent paths",
+  "original_sha256": "fae7830f4eafbf164c0f94d0ea262f3b0f6103e4a12a9a410a34e59ac7df6a25",
+  "fixed_sha256": "84198abc17169403f8862ced9cd0e956ff78975826e644b53142cf67ae92bbbe",
+  "old_frozen_runtime_modified": false,
+  "GPU_jobs": 0
+}

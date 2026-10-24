@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "all909_layouts_equal": true,
+  "old288_steps_equal": true,
+  "accounting_equal": true,
+  "tiny3_QA_equal_except_source_timing": true,
+  "one_bank_only": true,
+  "local_CPU_seconds": 23.531000000002678,
+  "cluster_CPU_seconds": 35.49102946743369,
+  "CLUSTER_CPU_SHA256": "2cf87d496917d1a753051be41be9de05d763bb08a53cf31a1535e62f83c1d51e",
+  "CLUSTER_tiny_SHA256": "22113826bcf6282f6a43647b1b718da72a5c9d4bd0057fc954d12859e0df1387"
+}

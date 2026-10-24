@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "full_refresh_matches_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "all_positions_update_matches_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "cold_reference_matches_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "repeated_pair_partial_update",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "bypass_is_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "actual_MLP_rows_and_frozen_reference",
+      "rows": [
+        48,
+        48
+      ],
+      "reference_bytes": 196608,
+      "output_tokens": 48
+    },
+    {
+      "name": "periodic_reference_refresh",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "changed_pair_approximation",
+      "feature_max_absolute_error": 8.493289351463318e-05,
+      "is_capability_test": false,
+      "updated_tokens": 48
+    },
+    {
+      "name": "new_source_reset_matches_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "same_size_grid_change_forces_refresh",
+      "shape": [
+        48,
+        32
+      ]
+    },
+    {
+      "name": "invalid_input_clears_reference",
+      "passed": true
+    },
+    {
+      "name": "unregister_restores_native",
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "weights_unchanged_and_duplicate_owner_rejected",
+      "passed": true
+    },
+    {
+      "name": "autograd_rejected",
+      "passed": true
+    }
+  ],
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "random_tiny_vision_only": true,
+  "actual_2B_reference_bytes_FP32": 75497472,
+  "peak_process_RSS_bytes": 651468800,
+  "elapsed_seconds": 0.0390488999983063,
+  "torch": "2.10.0+cu126",
+  "source_SHA256": "c228e90f2c4206d3dc59cfda480f33386f8bdc75aafb7161790f41e1b883a540"
+}

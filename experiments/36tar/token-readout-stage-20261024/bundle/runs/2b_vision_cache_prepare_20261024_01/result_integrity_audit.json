@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "formal_answers": 606,
+  "token_events": 1212,
+  "total_answers": 608,
+  "total_generated_tokens": 1228,
+  "total_visual_calls": 7982,
+  "pretrained_loads": 1,
+  "matched_input_IDs_and_node_metadata": 303,
+  "long_query_prefixes": 34,
+  "long_pair_cache_records": 1426,
+  "runtime_files_SHA_verified": 167,
+  "GPU_state": "COMPLETED 0:0 / 00:13:54, squeue empty"
+}

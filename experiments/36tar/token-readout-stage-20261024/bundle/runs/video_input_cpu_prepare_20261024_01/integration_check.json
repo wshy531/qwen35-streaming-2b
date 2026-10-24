@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "config": "slice1",
+      "cohort": "long",
+      "actual_packet_and_window": true,
+      "cancel_checked": true
+    },
+    {
+      "config": "slice1",
+      "cohort": "short",
+      "actual_packet_and_window": true,
+      "cancel_checked": true
+    },
+    {
+      "config": "auto4",
+      "cohort": "long",
+      "actual_packet_and_window": true,
+      "cancel_checked": true
+    },
+    {
+      "config": "auto4",
+      "cohort": "short",
+      "actual_packet_and_window": true,
+      "cancel_checked": true
+    }
+  ],
+  "packet_contract_SHA256": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+  "adapter_SHA256": "716dee11b24f6cbd2040e36262faa25ea3644aaabe5b1115ce6958dedd318f85",
+  "not_a_model_inference_test": true,
+  "GPU_jobs": 0
+}

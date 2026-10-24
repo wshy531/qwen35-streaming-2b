@@ -1,0 +1,47 @@
+{
+  "arms": [
+    "full48_8",
+    "cache25_8"
+  ],
+  "questions": 303,
+  "sources": 112,
+  "formal_answers": 606,
+  "warmup_answers": 2,
+  "answers_max": 608,
+  "generated_tokens_max": 4864,
+  "formal_visual_calls": 7962,
+  "warmup_visual_calls": 16,
+  "numerical_acceptance_visual_calls": 4,
+  "total_visual_calls": 7982,
+  "pretrained_loads": 1,
+  "max_new_tokens": 8,
+  "context_tokens": 2048,
+  "output_visual_tokens_per_pair": 48,
+  "memory_visual_tokens": 384,
+  "recent_pairs": 8,
+  "update_ratio": 0.25,
+  "refresh_interval": 2,
+  "shared_first_layer_selection": true,
+  "decoder": "auto4",
+  "partial_outputs_approximate": true,
+  "reference_FP32_bytes": 75497472,
+  "no_cuda_graph": true,
+  "no_main_language_cache": true,
+  "no_full_feature_archive": true,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "numerical_acceptance": {
+    "atol": 0.0001,
+    "rtol": 0.0001
+  },
+  "stop": "one fixed first-version comparison; no ratio/interval sweep",
+  "quality_gate": "primary269 and supported_long16 each must not lose net correct answers; paired losses retained",
+  "speed_gate": "candidate total visual seconds must be lower on all sources and long6 aggregates; otherwise no default upgrade",
+  "timing_scope": "shared sequential process and source; descriptive visual timing, not standalone total/edge/1x speed",
+  "readout_copied_from": "experiments\\2b-standalone-cost-v1\\session.py",
+  "input_adapter_copied_from": "experiments/video-input-cpu-v1/source.py",
+  "inputs_SHA256": {
+    "groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

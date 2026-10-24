@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "stdout": "218021\n",
+  "stderr": "",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_div24_prepare_20261023_01/slurm-%j.out",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_div24_prepare_20261023_01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-div24-v1/run_eval.sh"
+  ],
+  "script_sha256": "d8d1ee65d1c39fc924dd082322ec23cb1a0a412baf46a4af4aec12aba28c1d3a",
+  "execution_lock_sha256": "2cd4539bbdc718811f69b4b47c9256e13924ea3ee061ceca8c39f1457656c967",
+  "job_id": "218021"
+}

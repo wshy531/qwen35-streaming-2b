@@ -1,0 +1,196 @@
+{"query_id": "nextgqa:val:4925211209:3", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000423.121898494, "is_stop": false}
+{"query_id": "nextgqa:val:4925211209:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000423.145567801, "is_stop": true}
+{"query_id": "nextgqa:val:4925211209:4", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000423.433782996, "is_stop": false}
+{"query_id": "nextgqa:val:4925211209:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000423.457363114, "is_stop": true}
+{"query_id": "nextgqa:val:7771650716:0", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000426.350066514, "is_stop": false}
+{"query_id": "nextgqa:val:7771650716:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000426.374319051, "is_stop": true}
+{"query_id": "nextgqa:val:7771650716:8", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000426.666417333, "is_stop": false}
+{"query_id": "nextgqa:val:7771650716:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000426.690327876, "is_stop": true}
+{"query_id": "nextgqa:val:3124551255:6", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000429.333687361, "is_stop": false}
+{"query_id": "nextgqa:val:3124551255:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000429.357768671, "is_stop": true}
+{"query_id": "nextgqa:val:5667931404:4", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000430.048442923, "is_stop": false}
+{"query_id": "nextgqa:val:5667931404:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000430.073032999, "is_stop": true}
+{"query_id": "nextgqa:val:5667931404:6", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000430.246060483, "is_stop": false}
+{"query_id": "nextgqa:val:5667931404:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000430.270212809, "is_stop": true}
+{"query_id": "nextgqa:val:4984417707:0", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000431.248557569, "is_stop": false}
+{"query_id": "nextgqa:val:4984417707:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000431.272707051, "is_stop": true}
+{"query_id": "nextgqa:val:4984417707:7", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000431.563487117, "is_stop": false}
+{"query_id": "nextgqa:val:4984417707:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000431.587431374, "is_stop": true}
+{"query_id": "nextgqa:val:3112351937:4", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000432.533512471, "is_stop": false}
+{"query_id": "nextgqa:val:3112351937:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000432.564506224, "is_stop": true}
+{"query_id": "nextgqa:val:3112351937:5", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000432.756374984, "is_stop": false}
+{"query_id": "nextgqa:val:3112351937:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000432.780337189, "is_stop": true}
+{"query_id": "nextgqa:val:3112351937:6", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000433.069364154, "is_stop": false}
+{"query_id": "nextgqa:val:3112351937:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000433.093172322, "is_stop": true}
+{"query_id": "nextgqa:val:13919236672:5", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000438.123052384, "is_stop": false}
+{"query_id": "nextgqa:val:13919236672:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000438.14696833, "is_stop": true}
+{"query_id": "nextgqa:val:13919236672:6", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000438.435911743, "is_stop": false}
+{"query_id": "nextgqa:val:13919236672:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000438.459733832, "is_stop": true}
+{"query_id": "nextgqa:val:13919236672:9", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000438.749054984, "is_stop": false}
+{"query_id": "nextgqa:val:13919236672:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000438.77285033, "is_stop": true}
+{"query_id": "nextgqa:val:5945172741:1", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000441.152993685, "is_stop": false}
+{"query_id": "nextgqa:val:5945172741:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000441.176936683, "is_stop": true}
+{"query_id": "nextgqa:val:5945172741:4", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000441.46510619, "is_stop": false}
+{"query_id": "nextgqa:val:5945172741:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000441.488915666, "is_stop": true}
+{"query_id": "nextgqa:val:5945172741:7", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000441.777511689, "is_stop": false}
+{"query_id": "nextgqa:val:5945172741:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000441.801231768, "is_stop": true}
+{"query_id": "nextgqa:val:5521781780:0", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000445.190443042, "is_stop": false}
+{"query_id": "nextgqa:val:5521781780:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000445.214317146, "is_stop": true}
+{"query_id": "nextgqa:val:5521781780:3", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000445.503112312, "is_stop": false}
+{"query_id": "nextgqa:val:5521781780:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000445.526833596, "is_stop": true}
+{"query_id": "nextgqa:val:5521781780:7", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000445.814900483, "is_stop": false}
+{"query_id": "nextgqa:val:5521781780:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000445.838486385, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:1", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000446.64628739, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000446.670611636, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:10", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000446.861195401, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:10", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000446.884965964, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:11", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000447.074875655, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:11", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000447.098548152, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:2", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000447.288613194, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000447.312681728, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:3", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000447.501902514, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000447.525915831, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:4", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000447.715981804, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000447.739549421, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:5", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000447.930254876, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000447.954085965, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:6", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000448.144179949, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000448.167949202, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:7", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000448.357858075, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000448.38151158, "is_stop": true}
+{"query_id": "nextgqa:val:8594314852:8", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000448.571069761, "is_stop": false}
+{"query_id": "nextgqa:val:8594314852:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000448.594766768, "is_stop": true}
+{"query_id": "nextgqa:val:4147398280:2", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000450.86952939, "is_stop": false}
+{"query_id": "nextgqa:val:4147398280:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000450.893100585, "is_stop": true}
+{"query_id": "nextgqa:val:4147398280:7", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000451.181763845, "is_stop": false}
+{"query_id": "nextgqa:val:4147398280:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000451.205533188, "is_stop": true}
+{"query_id": "nextgqa:val:2435633172:2", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000455.161473712, "is_stop": false}
+{"query_id": "nextgqa:val:2435633172:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000455.185180844, "is_stop": true}
+{"query_id": "nextgqa:val:2435633172:4", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000455.474643783, "is_stop": false}
+{"query_id": "nextgqa:val:2435633172:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000455.501092256, "is_stop": true}
+{"query_id": "nextgqa:val:10030609934:1", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000458.283887089, "is_stop": false}
+{"query_id": "nextgqa:val:10030609934:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000458.307682129, "is_stop": true}
+{"query_id": "nextgqa:val:10030609934:2", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000458.597408188, "is_stop": false}
+{"query_id": "nextgqa:val:10030609934:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000458.621418207, "is_stop": true}
+{"query_id": "nextgqa:val:10030609934:8", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000458.910308691, "is_stop": false}
+{"query_id": "nextgqa:val:10030609934:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000458.934032047, "is_stop": true}
+{"query_id": "nextgqa:val:5801184682:3", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000462.096807056, "is_stop": false}
+{"query_id": "nextgqa:val:5801184682:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000462.120655684, "is_stop": true}
+{"query_id": "nextgqa:val:5801184682:4", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000462.408925111, "is_stop": false}
+{"query_id": "nextgqa:val:5801184682:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000462.432622024, "is_stop": true}
+{"query_id": "nextgqa:val:5801184682:6", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000462.722295474, "is_stop": false}
+{"query_id": "nextgqa:val:5801184682:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000462.746040312, "is_stop": true}
+{"query_id": "nextgqa:val:8547321641:8", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000463.455188387, "is_stop": false}
+{"query_id": "nextgqa:val:8547321641:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000463.480273519, "is_stop": true}
+{"query_id": "nextgqa:val:8547321641:9", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000463.652609253, "is_stop": false}
+{"query_id": "nextgqa:val:8547321641:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000463.677249402, "is_stop": true}
+{"query_id": "nextgqa:val:8428551576:7", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000466.829926733, "is_stop": false}
+{"query_id": "nextgqa:val:8428551576:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000466.853651286, "is_stop": true}
+{"query_id": "nextgqa:val:8428551576:8", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000467.142170206, "is_stop": false}
+{"query_id": "nextgqa:val:8428551576:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000467.165775112, "is_stop": true}
+{"query_id": "nextgqa:val:8428551576:9", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000467.454083128, "is_stop": false}
+{"query_id": "nextgqa:val:8428551576:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000467.477651823, "is_stop": true}
+{"query_id": "ovo:619", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000468.526578015, "is_stop": false}
+{"query_id": "ovo:619", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000468.550385255, "is_stop": true}
+{"query_id": "nextgqa:val:5429688959:0", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000471.903855857, "is_stop": false}
+{"query_id": "nextgqa:val:5429688959:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000471.928701053, "is_stop": true}
+{"query_id": "nextgqa:val:5429688959:1", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000472.217437128, "is_stop": false}
+{"query_id": "nextgqa:val:5429688959:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000472.24113994, "is_stop": true}
+{"query_id": "nextgqa:val:5429688959:3", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000472.529809731, "is_stop": false}
+{"query_id": "nextgqa:val:5429688959:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000472.553483011, "is_stop": true}
+{"query_id": "nextgqa:val:6078524411:2", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000475.086655207, "is_stop": false}
+{"query_id": "nextgqa:val:6078524411:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000475.110431399, "is_stop": true}
+{"query_id": "nextgqa:val:6078524411:5", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000475.399561507, "is_stop": false}
+{"query_id": "nextgqa:val:6078524411:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000475.423515717, "is_stop": true}
+{"query_id": "nextgqa:val:6078524411:8", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000475.712138607, "is_stop": false}
+{"query_id": "nextgqa:val:6078524411:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000475.735768528, "is_stop": true}
+{"query_id": "nextgqa:val:8224492254:0", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000477.692465785, "is_stop": false}
+{"query_id": "nextgqa:val:8224492254:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000477.716534091, "is_stop": true}
+{"query_id": "nextgqa:val:6163877860:0", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000481.432500769, "is_stop": false}
+{"query_id": "nextgqa:val:6163877860:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000481.456262333, "is_stop": true}
+{"query_id": "nextgqa:val:6163877860:5", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000481.744683449, "is_stop": false}
+{"query_id": "nextgqa:val:6163877860:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000481.768519879, "is_stop": true}
+{"query_id": "nextgqa:val:6163877860:6", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000482.057395555, "is_stop": false}
+{"query_id": "nextgqa:val:6163877860:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000482.081050799, "is_stop": true}
+{"query_id": "nextgqa:val:6329077812:9", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000484.849169434, "is_stop": false}
+{"query_id": "nextgqa:val:6329077812:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000484.87288269, "is_stop": true}
+{"query_id": "nextgqa:val:4955723618:1", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000487.845659983, "is_stop": false}
+{"query_id": "nextgqa:val:4955723618:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000487.8693078, "is_stop": true}
+{"query_id": "nextgqa:val:4955723618:6", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000488.15885402, "is_stop": false}
+{"query_id": "nextgqa:val:4955723618:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000488.182826048, "is_stop": true}
+{"query_id": "nextgqa:val:3383804222:4", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000490.148299242, "is_stop": false}
+{"query_id": "nextgqa:val:3383804222:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000490.17201295, "is_stop": true}
+{"query_id": "nextgqa:val:3383804222:5", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000490.459857904, "is_stop": false}
+{"query_id": "nextgqa:val:3383804222:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000490.483560827, "is_stop": true}
+{"query_id": "nextgqa:val:2623954636:0", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000492.235795983, "is_stop": false}
+{"query_id": "nextgqa:val:2623954636:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000492.259608144, "is_stop": true}
+{"query_id": "nextgqa:val:2623954636:9", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000492.550970586, "is_stop": false}
+{"query_id": "nextgqa:val:2623954636:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000492.574723078, "is_stop": true}
+{"query_id": "nextgqa:val:2793806282:2", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000494.961305741, "is_stop": false}
+{"query_id": "nextgqa:val:2793806282:2", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000494.984879268, "is_stop": true}
+{"query_id": "nextgqa:val:7114553643:1", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000498.076331457, "is_stop": false}
+{"query_id": "nextgqa:val:7114553643:1", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000498.100145215, "is_stop": true}
+{"query_id": "nextgqa:val:7114553643:4", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000498.390916562, "is_stop": false}
+{"query_id": "nextgqa:val:7114553643:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000498.41502358, "is_stop": true}
+{"query_id": "nextgqa:val:7114553643:7", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000498.706549057, "is_stop": false}
+{"query_id": "nextgqa:val:7114553643:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000498.730376942, "is_stop": true}
+{"query_id": "nextgqa:val:3960291106:5", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000500.869606119, "is_stop": false}
+{"query_id": "nextgqa:val:3960291106:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000500.893165815, "is_stop": true}
+{"query_id": "nextgqa:val:3960291106:6", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000501.181055809, "is_stop": false}
+{"query_id": "nextgqa:val:3960291106:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000501.204675146, "is_stop": true}
+{"query_id": "nextgqa:val:3960291106:7", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000501.493658515, "is_stop": false}
+{"query_id": "nextgqa:val:3960291106:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000501.517151197, "is_stop": true}
+{"query_id": "nextgqa:val:6754608321:4", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000503.512506091, "is_stop": false}
+{"query_id": "nextgqa:val:6754608321:4", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000503.53607945, "is_stop": true}
+{"query_id": "nextgqa:val:6754608321:6", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000503.823941473, "is_stop": false}
+{"query_id": "nextgqa:val:6754608321:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000503.847459003, "is_stop": true}
+{"query_id": "nextgqa:val:6754608321:7", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000504.135461688, "is_stop": false}
+{"query_id": "nextgqa:val:6754608321:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000504.159050225, "is_stop": true}
+{"query_id": "nextgqa:val:5116088152:6", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000506.061748879, "is_stop": false}
+{"query_id": "nextgqa:val:5116088152:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000506.085462545, "is_stop": true}
+{"query_id": "nextgqa:val:5116088152:7", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000506.373255957, "is_stop": false}
+{"query_id": "nextgqa:val:5116088152:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000506.396829986, "is_stop": true}
+{"query_id": "nextgqa:val:6300775954:8", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000509.388931083, "is_stop": false}
+{"query_id": "nextgqa:val:6300775954:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000509.412592041, "is_stop": true}
+{"query_id": "nextgqa:val:6300775954:9", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000509.700831464, "is_stop": false}
+{"query_id": "nextgqa:val:6300775954:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000509.724592519, "is_stop": true}
+{"query_id": "nextgqa:val:5138093706:0", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000511.351574375, "is_stop": false}
+{"query_id": "nextgqa:val:5138093706:0", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000511.375390177, "is_stop": true}
+{"query_id": "nextgqa:val:5138093706:3", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000511.666662903, "is_stop": false}
+{"query_id": "nextgqa:val:5138093706:3", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000511.691078916, "is_stop": true}
+{"query_id": "nextgqa:val:5138093706:7", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000511.979097912, "is_stop": false}
+{"query_id": "nextgqa:val:5138093706:7", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000512.002756967, "is_stop": true}
+{"query_id": "nextgqa:val:7453733046:13", "arm": "full48_8", "token_index": 0, "token_id": 36, "cumulative_text": "E", "monotonic_s": 2000513.659393541, "is_stop": false}
+{"query_id": "nextgqa:val:7453733046:13", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "E", "monotonic_s": 2000513.683050122, "is_stop": true}
+{"query_id": "nextgqa:val:7453733046:9", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000513.972533097, "is_stop": false}
+{"query_id": "nextgqa:val:7453733046:9", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000513.996385026, "is_stop": true}
+{"query_id": "nextgqa:val:4635309062:11", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000517.465040252, "is_stop": false}
+{"query_id": "nextgqa:val:4635309062:11", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000517.489095477, "is_stop": true}
+{"query_id": "nextgqa:val:4635309062:5", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000517.778433001, "is_stop": false}
+{"query_id": "nextgqa:val:4635309062:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000517.802352826, "is_stop": true}
+{"query_id": "nextgqa:val:4635309062:6", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000518.092416955, "is_stop": false}
+{"query_id": "nextgqa:val:4635309062:6", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000518.116435071, "is_stop": true}
+{"query_id": "nextgqa:val:7308042410:5", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000520.5941415, "is_stop": false}
+{"query_id": "nextgqa:val:7308042410:5", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000520.617693396, "is_stop": true}
+{"query_id": "nextgqa:val:7308042410:8", "arm": "full48_8", "token_index": 0, "token_id": 35, "cumulative_text": "D", "monotonic_s": 2000520.905483319, "is_stop": false}
+{"query_id": "nextgqa:val:7308042410:8", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "D", "monotonic_s": 2000520.929160377, "is_stop": true}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:104", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000529.233384374, "is_stop": false}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:104", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000529.257157132, "is_stop": true}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:105", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000533.866806101, "is_stop": false}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:105", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000533.890703905, "is_stop": true}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:102", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000572.894306886, "is_stop": false}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:102", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000572.918076614, "is_stop": true}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:103", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000586.873664794, "is_stop": false}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "ovo:103", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000586.897886225, "is_stop": true}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "local_longstream_v1:02", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000591.553363177, "is_stop": false}
+{"source_path": "Ego4D/clips/33c3f556-cf99-45ae-9d01-9051b9b1f19e.mp4", "query_id": "local_longstream_v1:02", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000591.577170268, "is_stop": true}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:144", "arm": "full48_8", "token_index": 0, "token_id": 33, "cumulative_text": "B", "monotonic_s": 2000612.311719175, "is_stop": false}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:144", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "B", "monotonic_s": 2000612.336615399, "is_stop": true}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:145", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000621.475999182, "is_stop": false}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:145", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000621.499785739, "is_stop": true}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:147", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000622.068355112, "is_stop": false}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:147", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000622.092040968, "is_stop": true}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:146", "arm": "full48_8", "token_index": 0, "token_id": 32, "cumulative_text": "A", "monotonic_s": 2000624.115557417, "is_stop": false}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "ovo:146", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "A", "monotonic_s": 2000624.139773591, "is_stop": true}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "local_longstream_v1:06", "arm": "full48_8", "token_index": 0, "token_id": 34, "cumulative_text": "C", "monotonic_s": 2000659.254141551, "is_stop": false}
+{"source_path": "Ego4D/clips/f31e8020-1bdb-4885-90f6-a84ad8a392c9.mp4", "query_id": "local_longstream_v1:06", "arm": "full48_8", "token_index": 1, "token_id": 248046, "cumulative_text": "C", "monotonic_s": 2000659.277861195, "is_stop": true}

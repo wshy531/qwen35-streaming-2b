@@ -1,0 +1,8 @@
+{
+  "files": 36,
+  "input_bytes": 3227703,
+  "archive_bytes": 898933,
+  "archive_sha256": "d0bf41fd296821c5d793fefbed6ae91d5bec83967ee62400958c5b9b65222911",
+  "member_SHA_and_CRC_passed": true,
+  "excludes_weights_media_environments_credentials_and_live_GPU_approvals": true
+}

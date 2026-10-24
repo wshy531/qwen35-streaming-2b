@@ -1,0 +1,70 @@
+{
+  "arms": [
+    "M0",
+    "reservoir4",
+    "M2",
+    "A06",
+    "LS",
+    "LS_depth"
+  ],
+  "questions": 303,
+  "primary_development": 269,
+  "separate_stream_regression": 34,
+  "groups": 112,
+  "answers_max": 1818,
+  "generated_tokens_max": 14544,
+  "vision_encodings": 3981,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dtype": "FP32",
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "max_new_tokens": 8,
+  "question_suffix_cap": 128,
+  "context_cap": 2048,
+  "per_bank_visual_cap": 384,
+  "recent_tokens": 192,
+  "LS_shared_history_tokens": 192,
+  "hypothesis": "Does depth-first adjacent overflow selection improve LS shared-history retention?",
+  "changed_variable": "LS overflow selector only: depth then frozen cost then index",
+  "frozen_LS_commit": "4212d2399954f19700b568cc806ed82fece3349f",
+  "frozen_LS_blob": "a1d39e23c0d0feb3cca706a642e336903365ae20",
+  "write_uses_question": false,
+  "full_history_archive": false,
+  "persistent_language_main": false,
+  "event_threshold": 0.047536224126815796,
+  "reservoir_seed": 20261020,
+  "short_odd_tail": "query-only duplicate last real frame; session may not continue",
+  "long_odd_tail": "pending real frame never padded at query; continue to EOF",
+  "bank_readout": "existing readout.context, original destination source coordinates; heuristic compression positions",
+  "historical_costs_not_comparable": "bank-only session has no observation main language state",
+  "scoring": "answer correctness primary; format separate; ambiguous/missing keep denominator",
+  "known_limits": [
+    "opened development data",
+    "not independent filming groups",
+    "long28 has16supported11ambiguous1notestablished; manual6 single review",
+    "independent second content review incomplete",
+    "not 1x wallclock"
+  ],
+  "stop": "one fixed full comparison, no tuning or default promotion; analyze before Div24",
+  "resources": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "host_memory_GiB": 24,
+    "wall_seconds": 3600,
+    "worker_seconds": 3300,
+    "pretrained_loads": 1,
+    "output_bytes_cap": 100663296,
+    "no_training": true,
+    "no_download": true,
+    "no_auto_retry": true
+  },
+  "input_sha256": {
+    "groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

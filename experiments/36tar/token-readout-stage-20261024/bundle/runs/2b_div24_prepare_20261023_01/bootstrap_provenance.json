@@ -1,0 +1,9 @@
+{
+  "experiments/2b-token-compression-v1/common.py": "66e004007cfb0002515ed7e22aa4afeb790f54aa05b9eeaf21aab8042ff722e7",
+  "experiments/2b-token-compression-v1/compression_observer.py": "d8694c5e23d9bc9d1fcd16367c6d453fdc7be9bef9bad5433ddb63c689d0668c",
+  "experiments/2b-token-compression-v1/evaluate.py": "1c93c85a5dd4a20b9e339c33de44f17931b24fa1b4fae60841149191ea1dce8c",
+  "experiments/2b-token-compression-v1/freeze.py": "14966313b2121534eb1e5a1d99f22769a1dc1a7c6a40fc1a6ccf8e990d1c6b19",
+  "experiments/2b-token-compression-v1/run_eval.sh": "9da46530f7d60daf061555588c823a69ba6b4ffd19d6a5b7a1ce42a1e6dbd5b2",
+  "runs/2b_token_compression_prepare_20261021_01/inputs/groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+  "runs/2b_token_compression_prepare_20261021_01/inputs/questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4"
+}

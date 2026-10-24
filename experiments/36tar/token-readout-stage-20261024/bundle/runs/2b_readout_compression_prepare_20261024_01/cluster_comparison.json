@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "CPU_fields": [
+    "status",
+    "layouts",
+    "layout_rows",
+    "protocol_sha256",
+    "legacy_step_regressions",
+    "readout_checks",
+    "M0_equivalence_checks"
+  ],
+  "tiny_QA_equal": true,
+  "CPU_sha256": "d8e4b404ba6e95fc598074bdbca1d62cc9f8e3c7d59d779d077cb7c20e5db058",
+  "tiny_sha256": "238077706aef82f0c23dee314d6afc7e7379f379daa4d59b6dad23e1138ce3a0",
+  "remote_result": "existing remote receipts; no CPU rerun",
+  "cross_platform_random_feature_digests_differ": 1818,
+  "scope": "Exact portable token/layout fields; each platform separately proves exact legacy-bank and QA-isolation equality. Random floating features are not cross-platform bitwise fixtures. Real GPU historical replay remains mandatory."
+}

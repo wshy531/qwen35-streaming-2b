@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "raw_SHA256": {
+    "answers.jsonl": "07c06c77b7ca91fdbcf8744e77ddc1a5bdad48571c382bad14014df267d63be0",
+    "events.jsonl": "29ab22669a5e4658afb7588dcf972358952480f9600f3d0cf14775e07e41d32b",
+    "tokens.jsonl": "e74443e58cdc815453aef47f94dab2f1152a790ca73c7a1991d57260c44390f6",
+    "loaded.json": "d6c4a869dafaea5bbe1cedaed0f78c07803b6e95ba4e20798884c550fd2b0548",
+    "completed.json": "45f4878aa9238095aaa27cf83752f0900f54e891744be7cca4cb5414031b48fa"
+  },
+  "answers": 1515,
+  "token_callbacks": 3155,
+  "source_protocol_groups": 112,
+  "old_generated_ID_matches": 909,
+  "weight_loads": 1,
+  "archive_and_main_isolation_recorded_all": true,
+  "visual_token_counts_all_match": true,
+  "primary269_div24_cluster_delta": {
+    "full48": {
+      "delta_pp": -1.858736059479554,
+      "percentile95_pp": [
+        -5.038759689922481,
+        1.1450381679389312
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    },
+    "odd24": {
+      "delta_pp": -1.1152416356877324,
+      "percentile95_pp": [
+        -4.705882352941177,
+        2.3622047244094486
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    },
+    "grid24": {
+      "delta_pp": -0.7434944237918215,
+      "percentile95_pp": [
+        -3.942652329749104,
+        2.527075812274368
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    },
+    "tome24": {
+      "delta_pp": 0.37174721189591076,
+      "percentile95_pp": [
+        -2.5830258302583027,
+        3.4482758620689653
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    }
+  },
+  "answer_results_SHA256": "3066c62ebf30924edba992d8ccc2022f7db6fa9122203c59da67e56263f8d1fc"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "matched_fields": [
+    "status",
+    "selection_contract",
+    "context_layouts",
+    "questions",
+    "raw48_layouts_equal_existing_reader",
+    "odd_tome_IDs_and_four_axes_equal",
+    "actual_RGB_frames",
+    "actual_main_vision_calls",
+    "snapshot_only_vision_calls",
+    "tiny_QA",
+    "protocol_sha256",
+    "layouts"
+  ],
+  "matched_layouts": 1515,
+  "cluster_seconds": 141.87784896045923,
+  "cluster_RSS_bytes": 997478400,
+  "cluster_CPU_SHA256": "8504936d3be4202fc694fb48f52a7c74088b0f9d85ad955bde43fb3fa444de54",
+  "execution_lock_SHA256": "2cd4539bbdc718811f69b4b47c9256e13924ea3ee061ceca8c39f1457656c967",
+  "GPU_submissions": 0
+}

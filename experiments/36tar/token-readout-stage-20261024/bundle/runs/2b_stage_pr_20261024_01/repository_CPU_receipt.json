@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "tests": 209,
+  "suites": [
+    3,
+    12,
+    186,
+    8
+  ],
+  "GPU_jobs": 0,
+  "pretrained_loads": 0,
+  "earlier_environment_failures": [
+    "sandbox temp cleanup denied",
+    "loopback socket blocked"
+  ],
+  "final_log": "repository_CPU_checks_unrestricted.log",
+  "code_changes_to_pass": false
+}

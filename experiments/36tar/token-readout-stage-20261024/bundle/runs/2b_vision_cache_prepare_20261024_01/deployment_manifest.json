@@ -1,0 +1,31 @@
+{
+  "files": 22,
+  "payload_bytes": 1840453,
+  "archive_bytes": 1884160,
+  "archive_SHA256": "540da0e72569268f9069d65a68fc7e5609e06b437aabc725a559b74b4b20151c",
+  "paths": [
+    "experiments/2b-vision-cache-v1/analyze.py",
+    "experiments/2b-vision-cache-v1/banks.py",
+    "experiments/2b-vision-cache-v1/cacher.py",
+    "experiments/2b-vision-cache-v1/common.py",
+    "experiments/2b-vision-cache-v1/cpu_check.py",
+    "experiments/2b-vision-cache-v1/evaluate.py",
+    "experiments/2b-vision-cache-v1/freeze.py",
+    "experiments/2b-vision-cache-v1/io_source.py",
+    "experiments/2b-vision-cache-v1/preflight.py",
+    "experiments/2b-vision-cache-v1/prepare.py",
+    "experiments/2b-vision-cache-v1/README.md",
+    "experiments/2b-vision-cache-v1/run_eval.sh",
+    "experiments/2b-vision-cache-v1/session.py",
+    "experiments/2b-vision-cache-v1/solo_session.py",
+    "runs/2b_vision_cache_prepare_20261024_01/inputs/execution_lock.json",
+    "runs/2b_vision_cache_prepare_20261024_01/inputs/groups.json",
+    "runs/2b_vision_cache_prepare_20261024_01/inputs/protocol.json",
+    "runs/2b_vision_cache_prepare_20261024_01/inputs/questions.json",
+    "runs/2b_vision_cache_prepare_20261024_01/inputs/snapshots34.json",
+    "runs/2b_vision_cache_prepare_20261024_01/CPU_mechanism_v3.json",
+    "runs/2b_vision_cache_prepare_20261024_01/CPU_preflight.json",
+    "runs/2b_vision_cache_prepare_20261024_01/historical_references_LOCAL_ONLY.json"
+  ],
+  "GPU_jobs": 0
+}

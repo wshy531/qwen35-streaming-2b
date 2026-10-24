@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "execution_lock_sha256": "2cd4539bbdc718811f69b4b47c9256e13924ea3ee061ceca8c39f1457656c967",
+  "original_sources_unchanged": 7,
+  "CPU_receipt_sha256": "bdc83076c059428d1eff900ec76aa0d5489392fa0d4b57b69190914d6d46372c",
+  "old217854_answer_scoring_regression": {
+    "odd24": 162,
+    "tome24": 158,
+    "full48": 164
+  },
+  "old_prediction_SHA256": "c719be79b5eab6fd0112f650a8c342bc7bda38e250b715c5199a8bd21cfbbdef",
+  "no_GPU_authorization": true,
+  "no_remote_deployment_confirmed": true,
+  "new_pretrained_loads": 0,
+  "new_GPU_jobs": 0
+}

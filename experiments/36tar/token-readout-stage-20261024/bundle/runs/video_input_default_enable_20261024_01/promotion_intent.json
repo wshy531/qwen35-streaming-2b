@@ -1,0 +1,8 @@
+{
+  "scope": "fixed canonical file evaluation only",
+  "new_default": "auto4",
+  "explicit_fallback": "slice1",
+  "before_SHA256": "716dee11b24f6cbd2040e36262faa25ea3644aaabe5b1115ce6958dedd318f85",
+  "GPU_jobs": 0,
+  "dataset_owner": "collaborator per direct user instruction"
+}

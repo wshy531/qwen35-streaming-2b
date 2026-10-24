@@ -1,0 +1,72 @@
+{
+  "status": "CPU_preparation_no_GPU_authorization",
+  "arms": [
+    "odd24",
+    "change24",
+    "mix24"
+  ],
+  "questions": 303,
+  "primary_open_development": 269,
+  "separate_midstream_regression": 34,
+  "groups": 112,
+  "answers_max": 909,
+  "generated_tokens_max": 7272,
+  "vision_encodings": 3981,
+  "new_candidate": "causal fixed12 spatial anchors plus12 largest temporal change",
+  "hypothesis": "Does spatial protection help compared with change-only at equal24?",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dtype": "FP32",
+  "canvas_hw": [
+    192,
+    256
+  ],
+  "question_suffix_cap": 128,
+  "max_new_tokens": 8,
+  "context_cap": 20000,
+  "pair_archive_cap": 320,
+  "feature_archive_bytes_cap_at2048": 316032000,
+  "archive": "finite full48 plus three half representations; full48 only observation/layout reference, not fourth QA",
+  "equal_time_labels": true,
+  "equal_odd_tome_positions": false,
+  "no_cross_time_merge": true,
+  "main_tokens": 2048,
+  "main_model_state_not_compressed": true,
+  "causal_question_blind_writes": true,
+  "wallclock_1x": false,
+  "nominal_scope": "single fixed comparison; no ratio/threshold/prompt sweep, no training",
+  "stop": "score all303 and report each cohort/stratum separately; no added variants; no default upgrade or generalization claim",
+  "old_S24_not_rerun": "S24 mixed pair compression with subsequent temporal forest; this isolates a single pair reduction with all times retained",
+  "no_claims": [
+    "no ViT acceleration from projected reduction",
+    "no unbounded memory",
+    "no end-to-end speedup from token count alone"
+  ],
+  "input_sha256": {
+    "groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  },
+  "all_arm_positions_equal": false,
+  "selection_seed": "no learned seed; fixed checkerboard half of odd24 lattice",
+  "ties": "lowest original index",
+  "zero_vectors": "F.normalize eps1e-12",
+  "output_order": "original sorted indices",
+  "method_reference": "local Token压缩.md sections7.3-7.5 DTD; fixed quotas are project adaptation",
+  "spatial12_indices": [
+    1,
+    5,
+    11,
+    15,
+    17,
+    21,
+    27,
+    31,
+    33,
+    37,
+    43,
+    47
+  ],
+  "cold_start": "all three arms identical odd24",
+  "previous_pair_feature_bytes": 393216,
+  "previous_pair_is_question_evidence": false
+}

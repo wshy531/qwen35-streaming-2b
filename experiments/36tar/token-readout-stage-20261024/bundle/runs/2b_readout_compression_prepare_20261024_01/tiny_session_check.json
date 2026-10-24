@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "QA": [
+    {
+      "arm": "M2_full48",
+      "input_tokens": 128,
+      "visual_tokens": 96,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "M2_read24",
+      "input_tokens": 80,
+      "visual_tokens": 48,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "A06_full48",
+      "input_tokens": 128,
+      "visual_tokens": 96,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "A06_read24",
+      "input_tokens": 80,
+      "visual_tokens": 48,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "LS_full48",
+      "input_tokens": 128,
+      "visual_tokens": 96,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "LS_read24",
+      "input_tokens": 80,
+      "visual_tokens": 48,
+      "generated_tokens": 8
+    }
+  ],
+  "vision_calls": 4,
+  "real_frames": 7,
+  "all_closed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "post_QA_continuation": true,
+  "source_profile": {
+    "completed": true,
+    "sampled": 7,
+    "decoded_frames": 145,
+    "peak_application_RGB_buffers": 1,
+    "decode_seconds": 0.04699999999957072,
+    "transform_seconds": 0.016000000000531145,
+    "media_integrity_sha_seconds": 0.0,
+    "open_seconds": 0.015000000000327418,
+    "first_sample_seconds": 0.03099999999994907,
+    "codec": {
+      "codec": "h264",
+      "width": 640,
+      "height": 474,
+      "requested_threads": 4,
+      "thread_type": "ThreadType.AUTO"
+    }
+  }
+}
