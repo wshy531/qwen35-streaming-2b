@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "case": {
+    "index": 8,
+    "group": "stream34:1acc8e7f31f33cc1",
+    "repeat": 0,
+    "config": "slice1"
+  },
+  "source_SHA256": "1acc8e7f31f33cc18056d62a501c71068010fc687eb9f8c5379219f6410e1f92",
+  "source": {
+    "completed": true,
+    "sampled": 480,
+    "decoded_frames": 14400,
+    "peak_application_RGB_buffers": 2,
+    "decode_seconds": 35.259999999914726,
+    "transform_seconds": 5.926000000072236,
+    "media_integrity_sha_seconds": 0.07800000000133878,
+    "open_seconds": 0.014999999999417923,
+    "first_sample_seconds": 0.06199999999807915,
+    "codec": {
+      "codec": "vp9",
+      "width": 1920,
+      "height": 1440,
+      "requested_threads": 1,
+      "thread_type": "ThreadType.SLICE"
+    }
+  },
+  "input_wall_seconds": 42.53100000000268,
+  "query_checks": [
+    {
+      "event": {
+        "kind": "query",
+        "query_id": "ovo:180",
+        "query_time_s": 59,
+        "received_frames": 60,
+        "committed_pairs": 30,
+        "committed_through_s": 59.0,
+        "pending_frame_id": null,
+        "observation_age_s": 0.0,
+        "pair_policy": "complete_pair_only_no_query_padding",
+        "no_visible_pair": false
+      },
+      "committed_frames_sha256": "9bc60b381d8719e3a94d3f4f93576d821333a55ca47814b37f3fb3492eb885ab"
+    },
+    {
+      "event": {
+        "kind": "query",
+        "query_id": "ovo:181",
+        "query_time_s": 243,
+        "received_frames": 244,
+        "committed_pairs": 122,
+        "committed_through_s": 243.0,
+        "pending_frame_id": null,
+        "observation_age_s": 0.0,
+        "pair_policy": "complete_pair_only_no_query_padding",
+        "no_visible_pair": false
+      },
+      "committed_frames_sha256": "c17babc886dcdcc13c843a70d356d52dca57913476acbb78186ee5c3aabff073"
+    },
+    {
+      "event": {
+        "kind": "query",
+        "query_id": "ovo:182",
+        "query_time_s": 360,
+        "received_frames": 361,
+        "committed_pairs": 180,
+        "committed_through_s": 359.0,
+        "pending_frame_id": 10800,
+        "observation_age_s": 1.0,
+        "pair_policy": "complete_pair_only_no_query_padding",
+        "no_visible_pair": false
+      },
+      "committed_frames_sha256": "a879341ba576d66c06d6c46dca6afcf905ffc296188c21da6c4eac4441df5390"
+    },
+    {
+      "event": {
+        "kind": "query",
+        "query_id": "ovo:183",
+        "query_time_s": 411,
+        "received_frames": 412,
+        "committed_pairs": 206,
+        "committed_through_s": 411.0,
+        "pending_frame_id": null,
+        "observation_age_s": 0.0,
+        "pair_policy": "complete_pair_only_no_query_padding",
+        "no_visible_pair": false
+      },
+      "committed_frames_sha256": "d42687fed02d6f23644d6ae55758667afdd0247a66cb2b99f5f328350b1c5cec"
+    },
+    {
+      "event": {
+        "kind": "query",
+        "query_id": "local_longstream_v1:05",
+        "query_time_s": 440.0,
+        "received_frames": 441,
+        "committed_pairs": 220,
+        "committed_through_s": 439.0,
+        "pending_frame_id": 13200,
+        "observation_age_s": 1.0,
+        "pair_policy": "complete_pair_only_no_query_padding",
+        "no_visible_pair": false
+      },
+      "committed_frames_sha256": "191f2d97d640436a04c090b2f4b7a442f29513ab791ec4096b054be2eb7778da"
+    }
+  ],
+  "query_count": 5,
+  "sampled_pixels_and_PTS_all_verified": true,
+  "peak_RSS_bytes": 106422272,
+  "max_observed_threads": 6,
+  "all_buffers_released": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "dependency": {
+    "Python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "decord_available": false
+  }
+}

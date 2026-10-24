@@ -1,0 +1,26 @@
+{
+  "bytes": 634880,
+  "sha256": "bbc5a762881286d73c3e3a599fa356879b60846d666990f22c3ec7c4ef1552ff",
+  "files": {
+    "experiments/2b-auto4-cost-v1/analyze.py": "ebb7e19312b03484dc5006bbd8771c8cd8cc59545ec9928d2df49eed62c414c0",
+    "experiments/2b-auto4-cost-v1/analyze_cost.py": "0f319e60b48a517ad3db039318b25422b52d9a4259d3beeb092c411dd59cd9d5",
+    "experiments/2b-auto4-cost-v1/banks.py": "9a06f671f70bcd274acc7efbace3b2a087d4046f240aa301e25f387dcc09aac0",
+    "experiments/2b-auto4-cost-v1/common.py": "f702a7fa6f3e622b6af70ab381c8260d4be0a18c13b4f8270ac5152c6db65d7a",
+    "experiments/2b-auto4-cost-v1/freeze.py": "00c354be4c12370a2bbf80c3b64c675c6e357dbe3e41dccca817041992f934ff",
+    "experiments/2b-auto4-cost-v1/io_source.py": "e681497d6ee82127810ed5bf8ec346ca98b2fbc380c7187dae81471198a04ee4",
+    "experiments/2b-auto4-cost-v1/orchestrate.py": "91fd863a0f67c638a2af568dc7bf847eb64b2d8250933b252367c83314dd97fe",
+    "experiments/2b-auto4-cost-v1/preflight.py": "f2ed033d824ef5db271a59df80dd14147817fe69cb309efd19bcd851a465d554",
+    "experiments/2b-auto4-cost-v1/README.md": "4a9b011bcf3a458ba6956f1a10d656e1733b9e20de1ef0978ddd9ccfac37e4e9",
+    "experiments/2b-auto4-cost-v1/run_eval.sh": "ffaa3e0ca8bcd14991e2834df2e6f7d9568db0f41c4f8fabf9f597e2300ba129",
+    "experiments/2b-auto4-cost-v1/session.py": "0d5cb17beaa53a623b25712a3c00a53eb08f1b42965867ceeb0a6efee2c02d0e",
+    "experiments/2b-auto4-cost-v1/source.py": "2404f56cffc8ea335069cfc2ae430389a1eaf7e3e8fd71d3b9f91ae6633d3a5f",
+    "experiments/2b-auto4-cost-v1/tiny_session_check.py": "ad775e63920696d9b8cad2df5776aa1ace939e1d893c4eaccfd461674ad65f55",
+    "experiments/2b-auto4-cost-v1/worker.py": "700ecf136d279294e20401aec0705c6ddbca143d7cf81f891b506ded8c99224a",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/execution_lock.json": "080dacb3f990e42aa4b7c4ed59d4136bca1f5b758d25cee233e6aecf0167d4fb",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/groups.json": "7075ce189b347f9af03d829c62ffed67df122e8fd2329ec588e278cc1b72228c",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/jobs.json": "6f84395b3d4a499212b877d58a26757ccb6efa5ad9b2cf05d97f687984abbefe",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/protocol.json": "4a9d50a069c4339969480d11981287742d55a1177e83fe297db252e5b63d79a9",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/questions.json": "14c64b95679cb7d71a33ede3123b7d8e68e61a8dd31d4e82fb001713df637376",
+    "runs/2b_auto4_cost_prepare_20261024_01/inputs/snapshots34.json": "165c039b72f40ff13e5d10c6a68d7b4383fcaf6174ba05e878217f465650c4de"
+  }
+}

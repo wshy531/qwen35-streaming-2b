@@ -1,0 +1,56 @@
+{
+  "status": "pass",
+  "SHA256": {
+    "answers.jsonl": "9fdfc531aa1c3e096282f1ecccdb3efd83c98b047e90a78b4b124b1bf8d83aba",
+    "events.jsonl": "52685fb39d941dc9697d8e05a9947233a9af02bf312dd5bcfbe5fa9f2cf93477",
+    "tokens.jsonl": "12032ae00cfafb6fe48c6b9c0d7c95a149e72f2404c5250d307cc036b136ca2f",
+    "loaded.json": "fc451e2f52b3055cac2d6480a706843ad4aa93a4971c8e3f9f1486aa96c47c41",
+    "completed.json": "dde57a10757979552e48c278f944c80a384822063d2e16c911f73297d8ec9852"
+  },
+  "answers": 1515,
+  "per_arm": {
+    "odd24_16": 303,
+    "change24_16": 303,
+    "full48_8": 303,
+    "odd24_8": 303,
+    "change24_8": 303
+  },
+  "generated_tokens": 3038,
+  "matched_queries": 303,
+  "selection_trace_count": 3981,
+  "groups": 112,
+  "old_M0_replayed_rows": 909,
+  "standalone_persistent_tensor_max_bytes": {
+    "full48_8": 3156480,
+    "odd24_8": 1578240,
+    "change24_8": 1971456,
+    "odd24_16": 3156480,
+    "change24_16": 3549696
+  },
+  "complete": {
+    "status": "complete",
+    "answers": 1515,
+    "generated_tokens": 3038,
+    "cohorts": {
+      "natural171": 855,
+      "T98": 490,
+      "stream34": 170
+    },
+    "vision_encodings": 3981,
+    "pretrained_loads": 1,
+    "seconds": 1186.8725559352897,
+    "peak_GPU_allocated_bytes": 8966164992,
+    "observed_RSS_bytes": 2319708160,
+    "bank_visual_cap": 384,
+    "no_persistent_main_language_state": true,
+    "no_full_history_archive": true,
+    "wallclock_1x": false,
+    "shared_process_timings_not_isolated_speed": true,
+    "execution_lock_sha256": "4e569fa6b45e803b21fbfe6fec13f164b14c04fa437731f8f38daf59870f81b8"
+  },
+  "limitations": [
+    "Node source metadata checked; feature values/xy exactness covered by CPU and pinned code, not a new GPU tensor replay.",
+    "Shared timings are descriptive; not isolated speed evidence.",
+    "All datasets are opened development data."
+  ]
+}

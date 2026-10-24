@@ -1,0 +1,23 @@
+{
+  "job": {
+    "block": 0,
+    "arm": "change24_8",
+    "groups": [
+      "T98:00c7f3015bf2d05a",
+      "natural171:03f2f6257e2ae2bd",
+      "stream34:1acc8e7f31f33cc1",
+      "stream34:65e36b1cfb8a12e4",
+      "stream34:6bc6fb4238943b70",
+      "stream34:b62bf43ba4767f0e",
+      "stream34:c40f7e75f52b86b3",
+      "stream34:d478484be947ae12"
+    ],
+    "questions": 38
+  },
+  "pretrained_loads": 1,
+  "model_load_seconds": 1.8583972342312336,
+  "warmup_seconds": 1.5638763569295406,
+  "warmup_encodings": 8,
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 8
+}

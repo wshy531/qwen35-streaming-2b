@@ -1,0 +1,4 @@
+# Preserve frozen original bytes, including CRLF.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# One historical frozen module includes its original final blank line.
+bundle/experiments/2b-natural-eval-v1/memory384.py whitespace=-blank-at-eof,cr-at-eol

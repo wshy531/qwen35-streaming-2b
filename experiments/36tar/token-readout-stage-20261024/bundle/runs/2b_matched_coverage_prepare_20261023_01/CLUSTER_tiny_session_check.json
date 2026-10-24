@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "real_frames": 38,
+  "vision_calls": 19,
+  "QA": [
+    {
+      "arm": "full48_8",
+      "generated_tokens": 8,
+      "input_tokens": 472,
+      "visual_tokens": 384,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "odd24_8",
+      "generated_tokens": 8,
+      "input_tokens": 280,
+      "visual_tokens": 192,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "change24_8",
+      "generated_tokens": 8,
+      "input_tokens": 280,
+      "visual_tokens": 192,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "odd24_16",
+      "generated_tokens": 8,
+      "input_tokens": 540,
+      "visual_tokens": 384,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "change24_16",
+      "generated_tokens": 8,
+      "input_tokens": 540,
+      "visual_tokens": 384,
+      "bank_and_selector_unchanged": true
+    }
+  ],
+  "post_QA_real_pair_continuation": true,
+  "timing": {
+    "preprocess_seconds": 0.0445927157998085,
+    "vision_seconds": 0.0666656419634819,
+    "selection_banks_seconds": 0.13369033858180046,
+    "pair_total_seconds": 0.24494869634509087
+  },
+  "no_main_language_cache": true,
+  "all_closed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

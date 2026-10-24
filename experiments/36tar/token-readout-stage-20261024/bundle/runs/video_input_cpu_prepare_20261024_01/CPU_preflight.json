@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "configs": [
+    {
+      "config": "slice1",
+      "first_frame_verified": true,
+      "cancel_releases": true,
+      "single_use": true
+    },
+    {
+      "config": "auto4",
+      "first_frame_verified": true,
+      "cancel_releases": true,
+      "single_use": true
+    }
+  ],
+  "cases": 32,
+  "sources": 8,
+  "decord_available": false,
+  "no_model_import": true,
+  "GPU_jobs": 0
+}

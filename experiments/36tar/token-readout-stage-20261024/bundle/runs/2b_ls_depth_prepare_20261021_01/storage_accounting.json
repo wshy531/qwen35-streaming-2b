@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "width": 2048,
+  "synthetic_pairs": 24,
+  "six_bank_persistent_tensor_bytes": 18947072,
+  "per_arm": {
+    "M0": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 0,
+      "serialized_metadata_bytes": 2572,
+      "sum_of_these_payload_bytes": 3159052
+    },
+    "reservoir4": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 0,
+      "serialized_metadata_bytes": 7694,
+      "sum_of_these_payload_bytes": 3164174
+    },
+    "M2": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 8192,
+      "serialized_metadata_bytes": 2891,
+      "sum_of_these_payload_bytes": 3167563
+    },
+    "A06": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 8192,
+      "serialized_metadata_bytes": 2947,
+      "sum_of_these_payload_bytes": 3167619
+    },
+    "LS": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 8192,
+      "serialized_metadata_bytes": 2742,
+      "sum_of_these_payload_bytes": 3167414
+    },
+    "LS_depth": {
+      "feature_mass_coordinate_storage_bytes": 3156480,
+      "standalone_previous_descriptor_bytes": 8192,
+      "serialized_metadata_bytes": 2747,
+      "sum_of_these_payload_bytes": 3167419
+    }
+  },
+  "cleared_storage_bytes": 0,
+  "metadata_is_serialized_payload_not_Python_heap_measurement": true,
+  "source_readout_export_copies_and_append_scratch_are_transient_not_in_this_ledger": true,
+  "descriptor_shared_once_in_six_arm_process_but_charged_to_each_standalone_event_method": true,
+  "pretrained_loads": 0,
+  "GPU_submissions": 0
+}

@@ -1,0 +1,3 @@
+{
+  "remote_stdout": "{\"command\": [\"sbatch\", \"--parsable\", \"--no-requeue\", \"--output\", \"/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_auto4_cost_prepare_20261024_01/slurm-%j.out\", \"--error\", \"/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_auto4_cost_prepare_20261024_01/slurm-%j.err\", \"experiments/2b-auto4-cost-v1/run_eval.sh\"], \"returncode\": 0, \"stdout\": \"218360\", \"stderr\": \"\"}\n"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "kind": "long",
+      "config": "default_auto4",
+      "frames": [
+        0,
+        30
+      ],
+      "cancelled": true
+    },
+    {
+      "kind": "long",
+      "config": "slice1",
+      "frames": [
+        0,
+        30
+      ],
+      "cancelled": true
+    },
+    {
+      "kind": "short",
+      "config": "default_auto4",
+      "frames": [
+        0,
+        24
+      ],
+      "cancelled": true
+    },
+    {
+      "kind": "short",
+      "config": "slice1",
+      "frames": [
+        0,
+        24
+      ],
+      "cancelled": true
+    }
+  ],
+  "GPU_jobs": 0,
+  "Torch_imported": false
+}

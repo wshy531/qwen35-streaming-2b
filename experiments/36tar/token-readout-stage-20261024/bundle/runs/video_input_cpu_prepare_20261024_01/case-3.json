@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "case": {
+    "index": 3,
+    "group": "T98:00c7f3015bf2d05a",
+    "repeat": 1,
+    "config": "slice1"
+  },
+  "source_SHA256": "00c7f3015bf2d05af0e6a58a5e34c6dfe608123c74b39a83601775bb3c6eb097",
+  "source": {
+    "completed": true,
+    "sampled": 60,
+    "decoded_frames": 1416,
+    "peak_application_RGB_buffers": 1,
+    "decode_seconds": 0.7970000000059372,
+    "transform_seconds": 0.04599999999481952,
+    "media_integrity_sha_seconds": 0.0,
+    "open_seconds": 0.01599999999598367,
+    "first_sample_seconds": 0.01599999999598367,
+    "codec": {
+      "codec": "h264",
+      "width": 640,
+      "height": 474,
+      "requested_threads": 1,
+      "thread_type": "ThreadType.SLICE"
+    }
+  },
+  "input_wall_seconds": 1.0,
+  "query_checks": [
+    {
+      "id": "nextgqa:val:4087013668:1",
+      "query_time_s": 60,
+      "pairs": 30,
+      "received": 60,
+      "query_only_tail_padding": false,
+      "no_future_frame_delivered": true
+    },
+    {
+      "id": "nextgqa:val:4087013668:7",
+      "query_time_s": 60,
+      "pairs": 30,
+      "received": 60,
+      "query_only_tail_padding": false,
+      "no_future_frame_delivered": true
+    },
+    {
+      "id": "nextgqa:val:4087013668:8",
+      "query_time_s": 60,
+      "pairs": 30,
+      "received": 60,
+      "query_only_tail_padding": false,
+      "no_future_frame_delivered": true
+    }
+  ],
+  "query_count": 3,
+  "sampled_pixels_and_PTS_all_verified": true,
+  "peak_RSS_bytes": 60596224,
+  "max_observed_threads": 4,
+  "all_buffers_released": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "dependency": {
+    "Python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "decord_available": false
+  }
+}

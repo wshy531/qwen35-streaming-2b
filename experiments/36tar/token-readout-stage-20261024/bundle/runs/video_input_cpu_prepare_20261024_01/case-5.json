@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "case": {
+    "index": 5,
+    "group": "natural171:03f2f6257e2ae2bd",
+    "repeat": 0,
+    "config": "slice1"
+  },
+  "source_SHA256": "03f2f6257e2ae2bde982e12a69ca08ff4a8ced5f5587239e09a8de395e3bd30e",
+  "source": {
+    "completed": true,
+    "sampled": 45,
+    "decoded_frames": 2111,
+    "peak_application_RGB_buffers": 1,
+    "decode_seconds": 0.5480000000025029,
+    "transform_seconds": 0.04499999999825377,
+    "media_integrity_sha_seconds": 0.0,
+    "open_seconds": 0.0,
+    "first_sample_seconds": 0.01600000000325963,
+    "codec": {
+      "codec": "h264",
+      "width": 320,
+      "height": 240,
+      "requested_threads": 1,
+      "thread_type": "ThreadType.SLICE"
+    }
+  },
+  "input_wall_seconds": 0.7810000000026776,
+  "query_checks": [
+    {
+      "id": "nextgqa:val:2559262403:4",
+      "query_time_s": 90,
+      "pairs": 23,
+      "received": 45,
+      "query_only_tail_padding": true,
+      "no_future_frame_delivered": true
+    }
+  ],
+  "query_count": 1,
+  "sampled_pixels_and_PTS_all_verified": true,
+  "peak_RSS_bytes": 54734848,
+  "max_observed_threads": 4,
+  "all_buffers_released": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "dependency": {
+    "Python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "decord_available": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "answers": 1515,
+  "generated_tokens": 3038,
+  "cohorts": {
+    "natural171": 855,
+    "T98": 490,
+    "stream34": 170
+  },
+  "vision_encodings": 3981,
+  "pretrained_loads": 1,
+  "seconds": 1186.8725559352897,
+  "peak_GPU_allocated_bytes": 8966164992,
+  "observed_RSS_bytes": 2319708160,
+  "bank_visual_cap": 384,
+  "no_persistent_main_language_state": true,
+  "no_full_history_archive": true,
+  "wallclock_1x": false,
+  "shared_process_timings_not_isolated_speed": true,
+  "execution_lock_sha256": "4e569fa6b45e803b21fbfe6fec13f164b14c04fa437731f8f38daf59870f81b8"
+}

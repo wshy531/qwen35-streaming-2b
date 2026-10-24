@@ -1,0 +1,6 @@
+{
+  "cases": 32,
+  "max_wall_seconds": 1800,
+  "GPU_jobs": 0,
+  "no_retry": true
+}

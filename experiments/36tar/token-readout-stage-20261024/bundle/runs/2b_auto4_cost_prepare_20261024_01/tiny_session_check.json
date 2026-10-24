@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "real_frames": 22,
+  "vision_calls": 33,
+  "QA": [
+    {
+      "arm": "full48_8",
+      "generated_tokens": 8,
+      "input_tokens": 468,
+      "visual_tokens": 384,
+      "post_QA_continuation": true
+    },
+    {
+      "arm": "odd24_8",
+      "generated_tokens": 8,
+      "input_tokens": 276,
+      "visual_tokens": 192,
+      "post_QA_continuation": true
+    },
+    {
+      "arm": "change24_8",
+      "generated_tokens": 8,
+      "input_tokens": 276,
+      "visual_tokens": 192,
+      "post_QA_continuation": true
+    }
+  ],
+  "exact_source_decode_verified": true,
+  "source_profile": {
+    "completed": true,
+    "sampled": 22,
+    "decoded_frames": 631,
+    "peak_application_RGB_buffers": 1,
+    "decode_seconds": 0.5430000000005748,
+    "transform_seconds": 0.42599999999947613,
+    "media_integrity_sha_seconds": 0.04700000000048021,
+    "open_seconds": 0.04699999999957072,
+    "first_sample_seconds": 0.07799999999951979,
+    "codec": {
+      "codec": "vp9",
+      "width": 1920,
+      "height": 1440,
+      "requested_threads": 4,
+      "thread_type": "ThreadType.AUTO"
+    }
+  },
+  "one_active_bank": true,
+  "no_main_language_cache": true,
+  "all_closed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

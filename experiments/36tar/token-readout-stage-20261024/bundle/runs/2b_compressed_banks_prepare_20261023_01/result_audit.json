@@ -1,0 +1,74 @@
+{
+  "status": "pass",
+  "SHA256": {
+    "answers.jsonl": "61dc3893d95cb4c476aa02f63fc212bae729d8f2139db4c2665961d971b3d797",
+    "events.jsonl": "99f354ccadabb3320178f36315acd3bcc4a9332d628549599f383888efb1d7cb",
+    "tokens.jsonl": "e783fd7343f356265bccff64ce7840b974ed25edc190170587603334b106a877",
+    "loaded.json": "ee570aa1f2af400fb3bab7c706fed5247287f15811af7bff52d467fd997ad409",
+    "completed.json": "d7b9ec457efa240f6de762e403acc800bd844a9cda3c366e2fcb438a909ae362"
+  },
+  "answers": 2727,
+  "generated_tokens": 5541,
+  "per_arm": {
+    "A06_change24": 303,
+    "LS_full48": 303,
+    "LS_change24": 303,
+    "M0_odd24": 303,
+    "M0_full48": 303,
+    "M0_change24": 303,
+    "M2_full48": 303,
+    "M2_change24": 303,
+    "A06_full48": 303
+  },
+  "visual_max": {
+    "A06_change24": 360,
+    "LS_full48": 384,
+    "LS_change24": 384,
+    "M0_odd24": 384,
+    "M0_full48": 384,
+    "M0_change24": 384,
+    "M2_full48": 384,
+    "M2_change24": 360,
+    "A06_full48": 384
+  },
+  "input_max": {
+    "A06_change24": 674,
+    "LS_full48": 601,
+    "LS_change24": 717,
+    "M0_odd24": 647,
+    "M0_full48": 567,
+    "M0_change24": 647,
+    "M2_full48": 592,
+    "M2_change24": 674,
+    "A06_full48": 592
+  },
+  "group_ends": 112,
+  "selection_traces_checked": 3981,
+  "historical_replay_rows": 1212,
+  "complete": {
+    "status": "complete",
+    "answers": 2727,
+    "generated_tokens": 5541,
+    "cohorts": {
+      "natural171": 1539,
+      "T98": 882,
+      "stream34": 306
+    },
+    "vision_encodings": 3981,
+    "pretrained_loads": 1,
+    "seconds": 1757.7072622501291,
+    "peak_GPU_allocated_bytes": 8966165504,
+    "observed_RSS_bytes": 2353459200,
+    "bank_visual_cap": 384,
+    "no_persistent_main_language_state": true,
+    "no_full_history_archive": true,
+    "wallclock_1x": false,
+    "shared_process_timings_not_isolated_speed": true,
+    "execution_lock_sha256": "b071637d61172be493c720850b70f14fad81e95ad242245495434dc9e3f00452"
+  },
+  "limitations": [
+    "Structural integrity does not establish correctness or speed benefit.",
+    "Selection indices checked structurally; no re-encoding or score recomputation.",
+    "Shared-process GPU peak and runtime are not standalone per-arm measurements."
+  ]
+}

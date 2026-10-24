@@ -1,0 +1,22 @@
+{
+  "answers.jsonl": {
+    "bytes": 1828578,
+    "SHA256": "b74d8470fdb5400768c09546b95ad4618b0cf985beb0a8f945ae74ffafd5eaf6"
+  },
+  "completed.json": {
+    "bytes": 1344411,
+    "SHA256": "0b206c09471307009a1c5279b80903e03b2a7fbd26244a0ca20dc23a1ffa398f"
+  },
+  "events.jsonl": {
+    "bytes": 11478781,
+    "SHA256": "43d93677fe98b8ddadccd5e8f9b2da4140275d86e9265bcfc1e4b6446a41e2ac"
+  },
+  "startup.json": {
+    "bytes": 261,
+    "SHA256": "444d7cf8fac1760af809afe3c92ac06ccd03bddc06dfbc160bc82b229b8d72e9"
+  },
+  "tokens.jsonl": {
+    "bytes": 215909,
+    "SHA256": "1830911455317eb40ab2be089b4497b1efd8f298b8fc047fa97f9f8822e37a0c"
+  }
+}

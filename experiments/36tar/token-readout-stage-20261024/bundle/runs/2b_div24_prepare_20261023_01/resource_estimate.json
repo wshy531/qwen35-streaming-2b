@@ -1,0 +1,8 @@
+{
+  "previous_3arm_seconds": 1784.99866557098,
+  "conservative_5over3_seconds": 2974.9977759516332,
+  "worker_limit_seconds": 3300,
+  "same_shared_visual_encodings": 3981,
+  "not_a_runtime_guarantee": true,
+  "submission_extra_flag": "--no-requeue"
+}

@@ -1,0 +1,48 @@
+{
+  "arms": [
+    "M2_full48",
+    "M2_read24",
+    "A06_full48",
+    "A06_read24",
+    "LS_full48",
+    "LS_read24"
+  ],
+  "groups": 112,
+  "questions": 303,
+  "measured_answers": 1818,
+  "measured_visual_encodings": 3981,
+  "warmup_visual_encodings": 8,
+  "warmup_answers": 6,
+  "answers_max": 1824,
+  "generated_tokens_max": 14592,
+  "visual_encodings": 3989,
+  "pretrained_loads": 1,
+  "decoder": "auto4",
+  "bank_visual_budget": 384,
+  "readout_visual_budget": {
+    "full48": 384,
+    "read24": 192
+  },
+  "max_new_tokens": 8,
+  "dtype": "FP32",
+  "no_main_KV": true,
+  "no_full_history_archive": true,
+  "promotion": {
+    "primary269_no_net_loss": true,
+    "supported16_no_net_loss": true,
+    "min_QA_reduction": 0.15,
+    "priority": [
+      "LS",
+      "A06",
+      "M2"
+    ]
+  },
+  "budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "minutes": 45
+  }
+}

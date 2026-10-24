@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "all1515layouts_equal": true,
+  "legacy288_equal": true,
+  "accounting_equal": true,
+  "tiny5_QA_receipt_equal_except_timing": true,
+  "post_QA_continuation": true,
+  "local_CPU_seconds": 38.64099999999962,
+  "cluster_CPU_seconds": 53.75313280709088,
+  "CLUSTER_CPU_SHA256": "cb6c7c6d5959a37aa9b1baeb3ace2c982f2819f7c46c22f0dc69ad9a7a00684a",
+  "CLUSTER_tiny_SHA256": "4a3803d06dfc3dbb8f107f89eda729818af41fb9454a1b89a1e7e9ac4e7fc72d"
+}

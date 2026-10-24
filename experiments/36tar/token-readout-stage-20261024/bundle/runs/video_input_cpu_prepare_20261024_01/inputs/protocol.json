@@ -1,0 +1,39 @@
+{
+  "configs": {
+    "slice1": {
+      "thread_count": 1,
+      "thread_type": "SLICE"
+    },
+    "auto4": {
+      "thread_count": 4,
+      "thread_type": "AUTO"
+    }
+  },
+  "groups": 8,
+  "long_sources": 6,
+  "short_sources": 2,
+  "planned_repeats": 2,
+  "cases": 32,
+  "case_seconds": 240,
+  "total_seconds": 1800,
+  "max_RSS_bytes": 1610612736,
+  "max_log_bytes": 8388608,
+  "max_application_RGB_buffers": 3,
+  "GPU_jobs": 0,
+  "pretrained_loads": 0,
+  "execution": "local CPU, sequential fresh child processes",
+  "first_sample_metric": "after media SHA check, from opening/decoding start to first sampled RGB",
+  "media_SHA_before_decode_warms_OS_file_cache": true,
+  "no_full_RGB_archive": true,
+  "do_not_claim_internal_codec_buffer_is3": true,
+  "fixed_question_count": 38,
+  "decord_policy": "only if already installed; no install or download",
+  "stop": "one fixed paired run; any pixel/causal/buffer mismatch stops candidate; no sampling or conversion tuning",
+  "future_validation": "decoder config only; no inference quality/speed or wallclock1x claim",
+  "input_SHA256": {
+    "cases.json": "d51b652ee2f0019799d2429f8ed5a66627654ca52afb10648b1a3adb65afcdd0",
+    "groups.json": "7075ce189b347f9af03d829c62ffed67df122e8fd2329ec588e278cc1b72228c",
+    "questions.json": "14c64b95679cb7d71a33ede3123b7d8e68e61a8dd31d4e82fb001713df637376",
+    "snapshots34.json": "165c039b72f40ff13e5d10c6a68d7b4383fcaf6174ba05e878217f465650c4de"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "stdout": "218063\n",
+  "stderr": "",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_matched_coverage_prepare_20261023_01/slurm-%j.out",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_matched_coverage_prepare_20261023_01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-matched-coverage-v1/run_eval.sh"
+  ],
+  "script_sha256": "fc03ca56e84361424a6fdf230dc81fc3ad9ef0e142deb2046dd9bb26b96df902",
+  "execution_lock_sha256": "4e569fa6b45e803b21fbfe6fec13f164b14c04fa437731f8f38daf59870f81b8",
+  "job_id": "218063"
+}

@@ -1,0 +1,78 @@
+{
+  "files": {
+    "experiments/2b-ls-depth-v1/analyze.py": {
+      "bytes": 7370,
+      "sha256": "012dbdb2200d3daf27ccd82078c2c963ffc6ccabbf56c63982b1d0fbbd6e0a8d"
+    },
+    "experiments/2b-ls-depth-v1/banks.py": {
+      "bytes": 3153,
+      "sha256": "8e5de589941170b5987280b90936e55c2b516a6d161ff0235cfa54b6fdf4b3f6"
+    },
+    "experiments/2b-ls-depth-v1/common.py": {
+      "bytes": 1161,
+      "sha256": "abcddc0570ea8917443be90985860c437848b077f2b242e0beae90caddbaefdc"
+    },
+    "experiments/2b-ls-depth-v1/evaluate.py": {
+      "bytes": 7615,
+      "sha256": "1e15e4ddd0efc51cd2c2d51bd63bfe16538ac92279353755c911a93b6f92dd64"
+    },
+    "experiments/2b-ls-depth-v1/freeze.py": {
+      "bytes": 1861,
+      "sha256": "143b97db5492a3570be54d1856209b3a5328518045ff3530d9d4a59a6435582c"
+    },
+    "experiments/2b-ls-depth-v1/preflight.py": {
+      "bytes": 10746,
+      "sha256": "ec390186b365293a1905c0751ac7ef2d77f6da45aff7aa48979a67953cb60ac0"
+    },
+    "experiments/2b-ls-depth-v1/prepare.py": {
+      "bytes": 3365,
+      "sha256": "83fd473088ddc18dced4228ef52c470ada42fe8f1f41d50381b03b1f37ed31ec"
+    },
+    "experiments/2b-ls-depth-v1/README.md": {
+      "bytes": 2964,
+      "sha256": "39290ad236cb7ef7691a141d80ab9e9f751553c270e87e3d259f876777056515"
+    },
+    "experiments/2b-ls-depth-v1/reference_shared_4212.py": {
+      "bytes": 3803,
+      "sha256": "519d9395e5f4bd77a4e0b071fbb087f5589c278a092855e996b24ce3a9cdb7f4"
+    },
+    "experiments/2b-ls-depth-v1/run_eval.sh": {
+      "bytes": 705,
+      "sha256": "fc48d243b9aff8b5a898caa5e2400410b9dbaf45a893650d7b897cda101a65ae"
+    },
+    "experiments/2b-ls-depth-v1/session.py": {
+      "bytes": 5654,
+      "sha256": "384679da7eee10bcdc49f357dab1db0ca13b23bbb5c1851300e3b9d8d7b4132e"
+    },
+    "experiments/2b-ls-depth-v1/shared.py": {
+      "bytes": 4125,
+      "sha256": "4cdae0367d12572a74e222d5693c8aedf0d8edc1eded65dafaacf726836401e3"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/inputs/execution_lock.json": {
+      "bytes": 15532,
+      "sha256": "600ef2ed8108863d5192aa05ec3bfd6840839f5aab0682a333d91554183ef08a"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/inputs/groups.json": {
+      "bytes": 1367872,
+      "sha256": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/inputs/protocol.json": {
+      "bytes": 2564,
+      "sha256": "22f985a8f01dcacd8f7c4369e094f6759171ddedca31fd90617e224dbf31051d"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/inputs/questions.json": {
+      "bytes": 122643,
+      "sha256": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/inputs/snapshots34.json": {
+      "bytes": 17331,
+      "sha256": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+    },
+    "runs/2b_ls_depth_prepare_20261021_01/CPU_preflight.json": {
+      "bytes": 294409,
+      "sha256": "56f09eb92edc8d719e14535e6b8541c66fba2c4bc17c8a1f7f248a0515f9d2a3"
+    }
+  },
+  "bytes": 1872873,
+  "GPU_submissions": 0
+}

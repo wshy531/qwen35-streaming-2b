@@ -1,0 +1,10 @@
+{
+  "files": {
+    "experiments/video-input-cpu-v1/common.py": "2ae0a080694f6a6e377af9b137c1ae1595b113fd1cf66e7bc6df8d4c39d88c4d",
+    "experiments/video-input-cpu-v1/source.py": "e681497d6ee82127810ed5bf8ec346ca98b2fbc380c7187dae81471198a04ee4",
+    "experiments/video-input-cpu-v1/integration.py": "fae7830f4eafbf164c0f94d0ea262f3b0f6103e4a12a9a410a34e59ac7df6a25",
+    "experiments/video-input-cpu-v1/README.md": "ac6e73bfafa7b3fe88bcf38166c44c29959174bcbdbb780fb6c075f26eb1ce50"
+  },
+  "archive_SHA256": "92cf2287e7dcaaffe2d63b27c88730db7572ae314c99cbe670dec24c9c121d1b",
+  "bytes": 20480
+}

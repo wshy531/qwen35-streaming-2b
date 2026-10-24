@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "stdout": "218058\n",
+  "stderr": "",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_compressed_banks_prepare_20261023_01/slurm-%j.out",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_compressed_banks_prepare_20261023_01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-compressed-banks-v1/run_eval.sh"
+  ],
+  "script_sha256": "f3ab2c98e49d370fdd91b76414979ba5dec8f24f07e5730a56cacec6e533b51f",
+  "execution_lock_sha256": "b071637d61172be493c720850b70f14fad81e95ad242245495434dc9e3f00452",
+  "job_id": "218058"
+}

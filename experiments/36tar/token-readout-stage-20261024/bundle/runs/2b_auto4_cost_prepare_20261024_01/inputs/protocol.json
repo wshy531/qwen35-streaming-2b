@@ -1,0 +1,35 @@
+{
+  "arms": [
+    "full48_8",
+    "odd24_8",
+    "change24_8"
+  ],
+  "questions": 38,
+  "groups": 8,
+  "measured_answers": 228,
+  "warmup_answers": 6,
+  "answers_max": 234,
+  "generated_tokens_max": 1872,
+  "measured_visual_encodings": 8880,
+  "warmup_visual_encodings": 48,
+  "visual_encodings": 8928,
+  "pretrained_loads": 6,
+  "warmup_group": "T98:00c7f3015bf2d05a",
+  "warmup_frames": 16,
+  "decoder": "auto4",
+  "repeats": 2,
+  "independent_processes": 6,
+  "max_new_tokens": 8,
+  "dtype": "FP32",
+  "max_stream_visual_tokens": 384,
+  "not_wallclock_1x": true,
+  "no_parameter_sweep": true,
+  "budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "minutes": 60
+  }
+}

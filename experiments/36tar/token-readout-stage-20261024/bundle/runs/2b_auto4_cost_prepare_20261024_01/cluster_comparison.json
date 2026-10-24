@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "CPU_fields": [
+    "status",
+    "layouts",
+    "layout_rows",
+    "protocol_sha256",
+    "legacy_step_regressions",
+    "accounting_2048"
+  ],
+  "tiny_QA_equal": true,
+  "CPU_sha256": "16867927ea91d404b6cf9b6688748a7b390d2066a36248ba5cc5a4ef906116bb",
+  "tiny_sha256": "623e646a3ce367db1b02e048fe8e30c3e10d72b196a8faf1a4ac6777d7f8d67a",
+  "remote_result": "{\"status\": \"CPU_passed\", \"seconds\": 52.03585724160075}\n"
+}

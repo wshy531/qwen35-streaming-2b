@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "real_frames": 22,
+  "vision_calls": 11,
+  "QA": [
+    {
+      "arm": "M0_full48",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "M0_change24",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "M2_full48",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "M2_change24",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "A06_full48",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "A06_change24",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "LS_full48",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "LS_change24",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    },
+    {
+      "arm": "M0_odd24",
+      "generated_tokens": 8,
+      "bank_and_selector_unchanged": true
+    }
+  ],
+  "timing": {
+    "preprocess_seconds": 0.01599999999962165,
+    "vision_seconds": 0.030999999999039574,
+    "selection_banks_seconds": 0.09500000000480213,
+    "pair_total_seconds": 0.14200000000346336
+  },
+  "no_main_language_cache": true,
+  "all_closed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

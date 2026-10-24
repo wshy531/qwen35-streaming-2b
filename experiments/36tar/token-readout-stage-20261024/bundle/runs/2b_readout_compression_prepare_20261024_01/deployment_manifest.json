@@ -1,0 +1,23 @@
+{
+  "bytes": 1607680,
+  "sha256": "8cbdb429e96abca36b31bfb284274ec45cced5525c27099d9c5f5d91351555bd",
+  "files": {
+    "experiments/2b-readout-compression-v1/analyze.py": "0ef3c4a321facd30197abcb7021f61632e5c756f5fe04bc4f7feef836a6fbd50",
+    "experiments/2b-readout-compression-v1/audit_and_decide.py": "c438b89f1dadcdf2e2fb5f9c4e2d673358311eddb4b8c98cf335f612767361b6",
+    "experiments/2b-readout-compression-v1/banks.py": "88875f8ec6431a4225179bb3d2f8bf46541cbf715b58dcb4fcbb1b2c6ef96614",
+    "experiments/2b-readout-compression-v1/common.py": "05935779ebb2d8b3b35fb778407317c9a6ae9d774861b2b80277dd0734b9e085",
+    "experiments/2b-readout-compression-v1/evaluate.py": "2c30013f32b143d07e120a6f88e42bf623e8f182c967eff9e9474c4ad884d1c2",
+    "experiments/2b-readout-compression-v1/freeze.py": "d9b79dfd7fe731a586aea768b6f5ee346eb2f67ae19a7fe0f293d3ca797f7cf6",
+    "experiments/2b-readout-compression-v1/io_source.py": "e681497d6ee82127810ed5bf8ec346ca98b2fbc380c7187dae81471198a04ee4",
+    "experiments/2b-readout-compression-v1/preflight.py": "4218a28eace04e8f4c274cc13268062158d4a11cb8997a59365359d60c38d1e0",
+    "experiments/2b-readout-compression-v1/README.md": "5db05783f5251b9641c2a75779c21d8e81939b321734d7e58fa08d65fb3fbe23",
+    "experiments/2b-readout-compression-v1/run_eval.sh": "9edde3163380098f8d16245d009b9cb9eab4c5e50885c3d517805b164946f2a3",
+    "experiments/2b-readout-compression-v1/session.py": "d2e42bc11aa43f3082a3cb015ceeceb6bc5551b852c2a76e0d9748a7534002d9",
+    "experiments/2b-readout-compression-v1/tiny_session_check.py": "c72ae04fefc89bbe96e8112ce85fa97bfa36add8501dd2b1b5b326f6b865b5f8",
+    "runs/2b_readout_compression_prepare_20261024_01/inputs/execution_lock.json": "31a32e089a4631568886c1dc3c8e4d421c003a192a6ffc6ef9469a98e4bb8cc5",
+    "runs/2b_readout_compression_prepare_20261024_01/inputs/groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "runs/2b_readout_compression_prepare_20261024_01/inputs/protocol.json": "bc91d0a80868e01b406b7fd2dabdfea96cb72b5b57272ddd862324e2b9f49901",
+    "runs/2b_readout_compression_prepare_20261024_01/inputs/questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "runs/2b_readout_compression_prepare_20261024_01/inputs/snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

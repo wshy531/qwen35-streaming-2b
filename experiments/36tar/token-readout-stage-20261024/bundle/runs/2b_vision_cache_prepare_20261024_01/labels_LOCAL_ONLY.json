@@ -1,0 +1,1888 @@
+[
+  {
+    "id": "nextgqa:val:2559262403:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5349969207:4",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4925211209:3",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4925211209:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2503404966:1",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2503404966:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3851913128:1",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3851913128:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3851913128:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7771650716:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7771650716:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7442562474:1",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7442562474:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:7442562474:7",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7442562474:8",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6898821807:3",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6898821807:8",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3124551255:6",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4276006683:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4276006683:2",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4276006683:3",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4276006683:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4276006683:5",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4276006683:6",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4276006683:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5333075105:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5333075105:11",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5667931404:4",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5667931404:6",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3066064005:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3066064005:2",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3066064005:5",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3066064005:7",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3066064005:8",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3851961428:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3851961428:2",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3851961428:10",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4984417707:0",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4984417707:7",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4516967897:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2824317018:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2824317018:6",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3112351937:4",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3112351937:5",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3112351937:6",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6964124866:4",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6964124866:2",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:7728559968:7",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7728559968:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:13919236672:6",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:13919236672:9",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:13919236672:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8277866423:8",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4882821564:4",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4882821564:5",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4882821564:3",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:5945172741:1",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5945172741:7",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5945172741:4",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6879924118:2",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6879924118:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6879924118:1",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:7330294814:7",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7330294814:0",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5521781780:0",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5521781780:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5521781780:7",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8797589693:6",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8797589693:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4488066715:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4488066715:0",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8594314852:1",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8594314852:2",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8594314852:3",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8594314852:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8594314852:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8594314852:6",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8594314852:7",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8594314852:8",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8594314852:10",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8594314852:11",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4372494989:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4372494989:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3046900922:8",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3046900922:3",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3046900922:7",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4147398280:2",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4147398280:7",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8457210773:3",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8457210773:5",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8457210773:8",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "ovo:593",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2435633172:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2435633172:2",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6618792571:1",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6618792571:4",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6618792571:6",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6618792571:8",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4336654741:6",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:10030609934:8",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:10030609934:1",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:10030609934:2",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4838113006:0",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4838113006:7",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2599937944:0",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:2599937944:1",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2599937944:2",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2599937944:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5801184682:3",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5801184682:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:5801184682:6",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:2868183184:2",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2868183184:3",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2868183184:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2868183184:5",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2868183184:7",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2868183184:8",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4251505427:6",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8547321641:8",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8547321641:9",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6201488511:8",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6201488511:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3963997053:1",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3963997053:5",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3963997053:4",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8428551576:7",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8428551576:8",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8428551576:9",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:14012319794:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:14012319794:2",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:3846475848:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3846475848:5",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3846475848:7",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "ovo:619",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3477387686:5",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3477387686:4",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3477387686:6",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5498331490:6",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5498331490:7",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5429688959:0",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:5429688959:1",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:5429688959:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:5702201498:3",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4740074365:8",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6078524411:5",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6078524411:8",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6078524411:2",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "ovo:590",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6443512089:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8224492254:0",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4859057828:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4859057828:1",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4859057828:2",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4859057828:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4859057828:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4859057828:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4859057828:6",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6592821115:1",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6592821115:11",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6592821115:6",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6163877860:0",
+    "cohort": "natural171",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6163877860:5",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6163877860:6",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5875535585:0",
+    "cohort": "natural171",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5875535585:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5875535585:4",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3321261856:3",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3321261856:7",
+    "cohort": "natural171",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6329077812:9",
+    "cohort": "natural171",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4013751996:5",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4013751996:3",
+    "cohort": "natural171",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4087013668:1",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4087013668:8",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4087013668:7",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6239210933:1",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6239210933:4",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6239210933:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4955723618:1",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4955723618:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2885091387:5",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2885091387:2",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4688219212:2",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4688219212:1",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4688219212:4",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3383804222:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3383804222:4",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2796821016:5",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2796821016:9",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2796821016:7",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:12392885583:8",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:12392885583:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:12392885583:4",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2623954636:9",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2623954636:0",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4518113460:9",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4518113460:8",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4518113460:3",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:6233408665:1",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6233408665:8",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6233408665:5",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2793806282:2",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7533369046:6",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7533369046:2",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:10607095936:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:10607095936:10",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:10607095936:9",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7114553643:1",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7114553643:7",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7114553643:4",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8493226484:4",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8493226484:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8493226484:5",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3121571439:5",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3121571439:10",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3960291106:6",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3960291106:5",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:3960291106:7",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2834146886:6",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:2834146886:8",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4006608424:0",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4006608424:7",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4006608424:2",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6754608321:6",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6754608321:7",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6754608321:4",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4949582792:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4949582792:8",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:4949582792:3",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4857781123:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4857781123:6",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5116088152:6",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5116088152:7",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3375218204:5",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3375218204:11",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3375218204:7",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7536230796:4",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7536230796:6",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7536230796:5",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6300775954:8",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6300775954:9",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:2679130168:8",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:9256409422:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:9256409422:7",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5138093706:0",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5138093706:3",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5138093706:7",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3026084730:1",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3026084730:11",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:3026084730:9",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7416295940:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7416295940:7",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7416295940:2",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:7453733046:13",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7453733046:9",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:8563398032:5",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:8563398032:6",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:8563398032:7",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:5889898795:4",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5889898795:7",
+    "cohort": "T98",
+    "answer_index": 1,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:5889898795:8",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:4635309062:5",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4635309062:6",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:4635309062:11",
+    "cohort": "T98",
+    "answer_index": 2,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6713120511:2",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:6713120511:5",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:6713120511:6",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "T"
+  },
+  {
+    "id": "nextgqa:val:13884293626:6",
+    "cohort": "T98",
+    "answer_index": 0,
+    "stratum": "C"
+  },
+  {
+    "id": "nextgqa:val:7308042410:8",
+    "cohort": "T98",
+    "answer_index": 3,
+    "stratum": "F"
+  },
+  {
+    "id": "nextgqa:val:7308042410:5",
+    "cohort": "T98",
+    "answer_index": 4,
+    "stratum": "T"
+  },
+  {
+    "id": "ovo:70",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:71",
+    "answer_index": 3,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:72",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:73",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:104",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:105",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:102",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:103",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:106",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:107",
+    "answer_index": 2,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:108",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:109",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:130",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:131",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:68",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:69",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:67",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:66",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:132",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:133",
+    "answer_index": 0,
+    "verdict": "not_established_at_committed_cutoff",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:180",
+    "answer_index": 1,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:181",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:182",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:183",
+    "answer_index": 2,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:144",
+    "answer_index": 1,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:145",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:147",
+    "answer_index": 0,
+    "verdict": "ambiguous",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "ovo:146",
+    "answer_index": 0,
+    "verdict": "supported",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:01",
+    "answer_index": 2,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "answer_index": 0,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "answer_index": 3,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "answer_index": 1,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "answer_index": 0,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "answer_index": 2,
+    "verdict": "single_reviewer_supported_candidate",
+    "independent_second_review": false,
+    "old_evidence_necessity_proven": false,
+    "cohort": "stream34"
+  }
+]

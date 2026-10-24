@@ -1,0 +1,27 @@
+{
+  "files": 702,
+  "stored_bytes": 16916965,
+  "original_bytes": 155497584,
+  "runtime_dependencies": 220,
+  "external_model_metadata": 10,
+  "excluded": [
+    "media",
+    "weights",
+    "environments",
+    "credentials",
+    "tensor snapshots",
+    "reusable GPU_authorization"
+  ],
+  "run_catalog": {
+    "LS_depth": "2b_ls_depth_prepare_20261021_01",
+    "Div24": "2b_div24_prepare_20261023_01",
+    "temporal24": "2b_temporal24_prepare_20261023_01",
+    "bounded_banks": "2b_compressed_banks_prepare_20261023_01",
+    "matched_coverage": "2b_matched_coverage_prepare_20261023_01",
+    "standalone_cost": "2b_standalone_cost_prepare_20261023_01",
+    "input_V0": "video_input_cpu_prepare_20261024_01",
+    "vision_V1": "2b_vision_cache_prepare_20261024_01",
+    "auto4_cost_E1": "2b_auto4_cost_prepare_20261024_01",
+    "readout_E2": "2b_readout_compression_prepare_20261024_01"
+  }
+}

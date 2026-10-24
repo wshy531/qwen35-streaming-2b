@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "stdout": "218029\n",
+  "stderr": "",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_temporal24_prepare_20261023_01/slurm-%j.out",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/2b_temporal24_prepare_20261023_01/slurm-%j.err",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-temporal24-v1/run_eval.sh"
+  ],
+  "script_sha256": "9704531a64f7fcaeec00fef319ca5242946e40ec9488234b798e289696f4c3c7",
+  "execution_lock_sha256": "3f2aa7ed6219eb96d18d476cf680e5ebfd22501432accbc2de75bd5659a33516",
+  "job_id": "218029"
+}

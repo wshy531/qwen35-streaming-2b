@@ -1,0 +1,72 @@
+"""Write a static result explanation from verified records; no model execution."""
+import hashlib
+import json
+from pathlib import Path
+
+HERE=Path(__file__).parent
+
+
+def read(path):return json.loads(path.read_text(encoding='utf-8'))
+
+
+def main():
+    result=read(HERE/'answer_results.json');audit=read(HERE/'independent_audit.json')
+    assert audit['status']=='passed' and result['actual_answers']==1818
+    replay=result['historical_replay']
+    assert replay['expected']==1025 and all(not replay[k] for k in ('generated_ID_mismatches','input_ID_mismatches','node_mismatches'))
+    # An independent direct initial-letter check is only a sanity check on
+    # these actual unambiguous responses, never the general scoring policy.
+    raw=[json.loads(line) for line in (HERE/'results-217894/answers.jsonl').read_text(encoding='utf-8').splitlines()]
+    source={(p['id'],p['arm']):p for p in raw}
+    for row in result['details']:
+        text=source[row['id'],row['arm']]['text'].strip()
+        assert text and text[0].upper() in 'ABCDE'
+        assert ord(text[0].upper())-65==row['choice']
+        assert (row['choice']==row['truth'])==row['answer_correct']
+    complete=audit['complete']
+    text=['# LS 与 A06 深度排序组合：固定对照结果', '', '日期：2026-10-22。作业217894，COMPLETED / ExitCode0:0，Slurm耗时24分06秒。', '',
+        '**结论：组合首版在本轮开发比较中没有净收益。** 它让树变浅，但相对原LS在269题上新增纠正7题、损失15题，净少8题；不能把更浅的结构等同于更好记忆。', '',
+        '## 1. 本轮实际改变', '',
+        '保留LS的192Token近期窗口与192Token共享历史池，只在历史溢出时更换相邻节点的选择顺序。原LS优先最小代价，组合先选合并后深度较小者，再以原代价和索引打破平局。特征融合、事件阈值、问题、采样、位置及FP32权重均不变；没有训练。', '',
+        '```python', 'index = min(range(len(costs)), key=lambda i: (',
+        '    1 + max(history[i].node.depth, history[i + 1].node.depth),',
+        "    costs[i]['total'], i))", '```', '',
+        '这是组合两个管理规则，不是将两个答案投票，也不是事后逐题选择答对者。六个方法共用一次视觉编码；长期只持有有界银行，提问时建立独立语言上下文，回答后释放。没有观察主语言KV或完整历史特征清单。', '',
+        '## 2. 答案正确性', '',
+        '以下均为答案正确数；附加解释不使正确答案失分。格式遵从另列，未与正确性相乘。', '',
+        '| 方法 | 171开发题 | T98 | 合计269 | 长视频支持题16 | 人工题6 |',
+        '|---|---:|---:|---:|---:|---:|']
+    arms=('M0','reservoir4','M2','A06','LS','LS_depth')
+    names=dict(M0='M0近期窗口',reservoir4='固定蓄水池',M2='M2',A06='A06',LS='LS共享历史',LS_depth='LS＋深度优先组合')
+    subsets=('natural171','T98','primary269','stream_supported16','stream_manual6')
+    for arm in arms:
+        text.append('| '+names[arm]+' | '+' | '.join(str(result['tables'][s]['scores'][arm]['correct']) for s in subsets)+' |')
+    text += ['', '长视频原28题包含11个歧义题和1个截点尚未建立答案题，不当作干净准确率；其正确数M0/蓄水池/M2/A06/LS/组合为14/16/13/15/16/15。16支持题也未完成独立二审；6人工题独列。', '',
+        '在269题上，组合相对A06纠正7题、损失13题；相对蓄水池纠正16题、损失16题，总数相同但题目不同。相对LS的7/15亦已逐题保存，失败没有删去。', '',
+        '| 269题分组 | 题数 | LS | 组合 |', '|---|---:|---:|---:|']
+    for kind,label in [('F','事实'),('T','时序'),('C','因果')]:
+        table=result['tables']['primary269_'+kind]['scores']
+        text.append(f"| {label} | {table['LS']['denominator']} | {table['LS']['correct']} | {table['LS_depth']['correct']} |")
+    text += ['', '因果题组有局部增分，时序题下降更多。这只是现有题组的现象，不能据此宣称因果推理能力提升，也不据局部成功改变全量结果。', '',
+        '具体保留的反例：商店中“先看玩具还是先经过电池展架”，LS答A、组合答B；拿起扳手前的位置，LS答C、组合答A。组合也纠正了保鲜膜原位置一题，因此不是每题都变差。题目原标签与审核级别未因结果更改。', '',
+        '## 3. 结构与资源', '',
+        '提问时出现的最大树深，LS为60、组合为19；把EOF等已记录状态也包括在内，组合最大为20。**结构目标确实实现，回答收益没有实现。** 深度优先可能改变事件融合组合，但当前结果不能唯一归因于语义不相近事件被合并；未额外做特征快照或新诊断来验证该因果解释。', '',
+        f"真实运行共1818答、{complete['generated_tokens']}个生成Token、3981次共享视觉编码、1次FP32载入。GPU allocated峰约{complete['peak_GPU_allocated_bytes']/2**30:.2f}GiB，观测进程RSS约{complete['observed_RSS_bytes']/2**30:.2f}GiB（采样值，不是系统总内存精确峰）。", '',
+        '每银行最多384视觉Token；2048维特征/质量权重/坐标最多3156480B，事件描述子另8192B。六臂同进程共享视觉编码，问答阶段约0.26—0.30秒/答的均值不能当独立部署端到端速度比较；本轮也不是1倍速墙钟视频播放。', '',
+        '## 4. 可信度与局限', '',
+        '8个取回文件逐SHA一致。独立审计通过1818答/3666回调Token、112组、1426长视频真实帧对/34原查询前缀/6EOF；全部34问后均继续新真实帧对，问答不改银行，来源时间不超提问时刻。旧171＋34的五方法1025条基线输入IDs、节点特征/元数据摘要与生成IDs全部复现，未见基线漂移。', '',
+        '本次1818回答中10条格式不合规，但均有明确选项；未决0。没有把格式计入主准确率。当前集合全部已打开；34中途问题只有6个长视频来源。独立内容审核与未见来源不足仍然存在，因此不能由本轮分差证明稳定泛化或普遍淘汰深度策略。', '',
+        '## 5. 本轮决定及下一步', '',
+        '本轮首版按预先停止条件结束，不升级组合为默认，也不继续扫深度权重、阈值或提示词。保留LS和A06作为对照；新增T98比较补齐了两者此前缺失的数据，而不是把旧数据变成未见测试。', '',
+        '下一槽仍为已经排期的Div24投影后原值选择：固定48→24，对照full48、odd24、grid24、tome24、Div24，沿原303题先完成CPU适配，真实GPU另列具体预算批准。它先检验读取保真，不直接叠入LS或宣称长期记忆提升。独立旧证据审核与新来源冻结仍是能力结论的缺口，暂停的小时级测试不自动恢复。', '',
+        '原始与复核文件：`results-217894/`、`answer_results.json`、`independent_audit.json`。运行源码：`E:/VIT Model/experiments/2b-ls-depth-v1/`。本文件是静态结果快照，持续进度只看实验总纲。']
+    target=HERE/'LS_depth组合对照结果_20261022.md'
+    with target.open('x',encoding='utf-8') as stream:stream.write('\n'.join(text)+'\n')
+    receipt=dict(status='passed',raw_answer_initial_option_crosscheck=1818,
+        baseline_replay=1025,answer_results_sha256=hashlib.sha256((HERE/'answer_results.json').read_bytes()).hexdigest(),
+        report_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),GPU_submissions_this_analysis=0)
+    with (HERE/'explanation_verification.json').open('x',encoding='utf-8') as stream:json.dump(receipt,stream,indent=2)
+    print(receipt)
+
+
+if __name__=='__main__':main()

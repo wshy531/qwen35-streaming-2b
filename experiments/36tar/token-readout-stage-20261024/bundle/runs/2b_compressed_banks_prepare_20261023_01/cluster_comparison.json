@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "matched_layouts": 2727,
+  "old48_step_regressions": 864,
+  "tiny_QA": 9,
+  "cluster_seconds": 146.6177075970918,
+  "cluster_CPU_SHA256": "d40a6899b8728299c9f0dd98e47057f4488ef160a13320da67ae110ddfeee5e0",
+  "cluster_tiny_SHA256": "c98f2ec6de1e58f46f3d27bbbfb625d88818ab0c8d119a9bc2c83081f2705ab6",
+  "GPU_submissions": 0
+}

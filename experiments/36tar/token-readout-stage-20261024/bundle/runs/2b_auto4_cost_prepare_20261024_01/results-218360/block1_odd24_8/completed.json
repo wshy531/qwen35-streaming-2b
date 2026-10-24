@@ -1,0 +1,1960 @@
+{
+  "status": "complete",
+  "arm": "odd24_8",
+  "block": 1,
+  "measured_answers": 38,
+  "measured_generated_tokens": 76,
+  "measured_encodings": 1479,
+  "cohorts": {
+    "T98": 3,
+    "natural171": 1,
+    "stream34": 34
+  },
+  "measured_block_wall_seconds": 298.4334114845842,
+  "baseline": {
+    "GPU_allocated_bytes": 8862552576,
+    "GPU_reserved_bytes": 8885633024,
+    "host_RSS_bytes": 2050940928
+  },
+  "measured_peak_GPU_allocated_bytes": 8943075840,
+  "measured_peak_GPU_reserved_bytes": 8969519104,
+  "process_lifetime_peak_RSS_bytes": 6231990272,
+  "peak_RSS_includes_loading_and_warmup": true,
+  "profiles": [
+    {
+      "group": "T98:00c7f3015bf2d05a",
+      "cohort": "T98",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 2.6045678108930588,
+      "source": {
+        "completed": true,
+        "sampled": 60,
+        "decoded_frames": 1416,
+        "peak_application_RGB_buffers": 1,
+        "decode_seconds": 0.883920093998313,
+        "transform_seconds": 0.3613233584910631,
+        "media_integrity_sha_seconds": 0.010048432275652885,
+        "open_seconds": 0.008215893059968948,
+        "first_sample_seconds": 0.028826693072915077,
+        "codec": {
+          "codec": "h264",
+          "width": 640,
+          "height": 474,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.06948456354439259,
+        "vision_seconds": 0.6675957720726728,
+        "selection_banks_seconds": 0.04677310399711132,
+        "pair_total_seconds": 0.7838534396141768
+      },
+      "transfer_validate_seconds": 0.019714199006557465,
+      "selection_seconds": 0.00028635188937187195,
+      "bank_update_seconds": 0.02607550099492073,
+      "audit_seconds": 0.012044968083500862,
+      "log_write_seconds": 0.0003670603036880493,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 22,
+              "last": 22,
+              "begin": 44.002291666666665,
+              "end": 45.00329166666667,
+              "center": 44.50279166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                22
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 23,
+              "last": 23,
+              "begin": 46.00429166666667,
+              "end": 47.005291666666665,
+              "center": 46.50479166666666,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                23
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 24,
+              "last": 24,
+              "begin": 48.00629166666667,
+              "end": 49.00729166666667,
+              "center": 48.50679166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                24
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 25,
+              "last": 25,
+              "begin": 50.008291666666665,
+              "end": 51.00929166666667,
+              "center": 50.50879166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                25
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 26,
+              "last": 26,
+              "begin": 52.01029166666667,
+              "end": 53.011291666666665,
+              "center": 52.51079166666666,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                26
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 27,
+              "last": 27,
+              "begin": 54.01229166666667,
+              "end": 55.01329166666667,
+              "center": 54.51279166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                27
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 28,
+              "last": 28,
+              "begin": 56.014291666666665,
+              "end": 57.01529166666667,
+              "center": 56.51479166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                28
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 29,
+              "last": 29,
+              "begin": 58.01629166666667,
+              "end": 59.017291666666665,
+              "center": 58.51679166666666,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                29
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 337,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.00713585689663887,
+          "prefill_seconds": 0.16325779631733894,
+          "decode_seconds": 0.024439780041575432,
+          "QA_total_seconds": 0.19483343325555325,
+          "QA_cache_bytes": 28950528,
+          "first_token_seconds": 0.17059804685413837
+        },
+        {
+          "input_tokens": 345,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.006738385185599327,
+          "prefill_seconds": 0.13644323125481606,
+          "decode_seconds": 0.0238958653062582,
+          "QA_total_seconds": 0.16707748174667358,
+          "QA_cache_bytes": 29147136,
+          "first_token_seconds": 0.14336562901735306
+        },
+        {
+          "input_tokens": 333,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0066549573093652725,
+          "prefill_seconds": 0.13634976372122765,
+          "decode_seconds": 0.023661311715841293,
+          "QA_total_seconds": 0.1666660327464342,
+          "QA_cache_bytes": 28852224,
+          "first_token_seconds": 0.14318468421697617
+        }
+      ],
+      "vision_encodings": 30
+    },
+    {
+      "group": "natural171:03f2f6257e2ae2bd",
+      "cohort": "natural171",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 1.7676577027887106,
+      "source": {
+        "completed": true,
+        "sampled": 45,
+        "decoded_frames": 2111,
+        "peak_application_RGB_buffers": 1,
+        "decode_seconds": 0.8302300423383713,
+        "transform_seconds": 0.1211947500705719,
+        "media_integrity_sha_seconds": 0.011337444186210632,
+        "open_seconds": 0.004640938714146614,
+        "first_sample_seconds": 0.012498775497078896,
+        "codec": {
+          "codec": "h264",
+          "width": 320,
+          "height": 240,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.05747275426983833,
+        "vision_seconds": 0.5124192126095295,
+        "selection_banks_seconds": 0.03560767136514187,
+        "pair_total_seconds": 0.6054996382445097
+      },
+      "transfer_validate_seconds": 0.015090754255652428,
+      "selection_seconds": 0.00022032484412193298,
+      "bank_update_seconds": 0.01975477859377861,
+      "audit_seconds": 0.003975240513682365,
+      "log_write_seconds": 0.00012848339974880219,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 15,
+              "last": 15,
+              "begin": 60.01829166666667,
+              "end": 62.020291666666665,
+              "center": 61.01929166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                15
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 16,
+              "last": 16,
+              "begin": 64.02229166666666,
+              "end": 66.02429166666667,
+              "center": 65.02329166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                16
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 17,
+              "last": 17,
+              "begin": 68.02629166666667,
+              "end": 70.02829166666666,
+              "center": 69.02729166666666,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                17
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 18,
+              "last": 18,
+              "begin": 72.03029166666667,
+              "end": 74.03229166666667,
+              "center": 73.03129166666668,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                18
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 19,
+              "last": 19,
+              "begin": 76.03429166666666,
+              "end": 78.03629166666667,
+              "center": 77.03529166666667,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                19
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 20,
+              "last": 20,
+              "begin": 80.03829166666667,
+              "end": 82.04029166666666,
+              "center": 81.03929166666666,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                20
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 21,
+              "last": 21,
+              "begin": 84.00058333333334,
+              "end": 86.00258333333333,
+              "center": 85.00158333333334,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                21
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 22,
+              "last": 22,
+              "begin": 88.00458333333333,
+              "end": 88.00458333333333,
+              "center": 88.00458333333333,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                22
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 325,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.006598703563213348,
+          "prefill_seconds": 0.1487300582230091,
+          "decode_seconds": 0.02415393851697445,
+          "QA_total_seconds": 0.1794827003031969,
+          "QA_cache_bytes": 28655616,
+          "first_token_seconds": 0.15552981197834015
+        }
+      ],
+      "vision_encodings": 23
+    },
+    {
+      "group": "stream34:1acc8e7f31f33cc1",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 48.612766632810235,
+      "source": {
+        "completed": true,
+        "sampled": 480,
+        "decoded_frames": 14400,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 27.83030609600246,
+        "transform_seconds": 12.857264081016183,
+        "media_integrity_sha_seconds": 0.14048472791910172,
+        "open_seconds": 0.018099188804626465,
+        "first_sample_seconds": 0.06315157189965248,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1440,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6325163599103689,
+        "vision_seconds": 5.510339893400669,
+        "selection_banks_seconds": 0.4146508015692234,
+        "pair_total_seconds": 6.557507054880261
+      },
+      "transfer_validate_seconds": 0.17408736608922482,
+      "selection_seconds": 0.0027010496705770493,
+      "bank_update_seconds": 0.22978437319397926,
+      "audit_seconds": 0.02140643261373043,
+      "log_write_seconds": 0.0007749404758214951,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 232,
+              "last": 232,
+              "begin": 464.0,
+              "end": 465.0,
+              "center": 464.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                232
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 233,
+              "last": 233,
+              "begin": 466.0,
+              "end": 467.0,
+              "center": 466.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                233
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 234,
+              "last": 234,
+              "begin": 468.0,
+              "end": 469.0,
+              "center": 468.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                234
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 235,
+              "last": 235,
+              "begin": 470.0,
+              "end": 471.0,
+              "center": 470.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                235
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 236,
+              "last": 236,
+              "begin": 472.0,
+              "end": 473.0,
+              "center": 472.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                236
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 237,
+              "last": 237,
+              "begin": 474.0,
+              "end": 475.0,
+              "center": 474.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                237
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 238,
+              "last": 238,
+              "begin": 476.0,
+              "end": 477.0,
+              "center": 476.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                238
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 239,
+              "last": 239,
+              "begin": 478.0,
+              "end": 479.0,
+              "center": 478.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                239
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 320,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007395034655928612,
+          "prefill_seconds": 0.16382054798305035,
+          "decode_seconds": 0.02436438761651516,
+          "QA_total_seconds": 0.19557997025549412,
+          "QA_cache_bytes": 28532736,
+          "first_token_seconds": 0.17143698409199715
+        },
+        {
+          "input_tokens": 331,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007683148607611656,
+          "prefill_seconds": 0.16081057488918304,
+          "decode_seconds": 0.02442076988518238,
+          "QA_total_seconds": 0.19291449338197708,
+          "QA_cache_bytes": 28803072,
+          "first_token_seconds": 0.16875627823174
+        },
+        {
+          "input_tokens": 332,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007666785269975662,
+          "prefill_seconds": 0.16078468225896358,
+          "decode_seconds": 0.02429063618183136,
+          "QA_total_seconds": 0.1927421037107706,
+          "QA_cache_bytes": 28827648,
+          "first_token_seconds": 0.16868078894913197
+        },
+        {
+          "input_tokens": 329,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0072770752012729645,
+          "prefill_seconds": 0.16126661747694016,
+          "decode_seconds": 0.024316655471920967,
+          "QA_total_seconds": 0.1928603481501341,
+          "QA_cache_bytes": 28753920,
+          "first_token_seconds": 0.16882922127842903
+        },
+        {
+          "input_tokens": 329,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007631171494722366,
+          "prefill_seconds": 0.15983309596776962,
+          "decode_seconds": 0.023935528472065926,
+          "QA_total_seconds": 0.19139979593455791,
+          "QA_cache_bytes": 28753920,
+          "first_token_seconds": 0.16767671890556812
+        }
+      ],
+      "vision_encodings": 240
+    },
+    {
+      "group": "stream34:65e36b1cfb8a12e4",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 45.8220969196409,
+      "source": {
+        "completed": true,
+        "sampled": 452,
+        "decoded_frames": 13558,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 26.133183274418116,
+        "transform_seconds": 12.133683940395713,
+        "media_integrity_sha_seconds": 0.15374088101089,
+        "open_seconds": 0.022671815007925034,
+        "first_sample_seconds": 0.0682312399148941,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1440,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6399609185755253,
+        "vision_seconds": 5.2177735567092896,
+        "selection_banks_seconds": 0.38963683508336544,
+        "pair_total_seconds": 6.24737131036818
+      },
+      "transfer_validate_seconds": 0.16349911130964756,
+      "selection_seconds": 0.0024641137570142746,
+      "bank_update_seconds": 0.21632033586502075,
+      "audit_seconds": 0.02137129195034504,
+      "log_write_seconds": 0.0007117204368114471,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 218,
+              "last": 218,
+              "begin": 436.0,
+              "end": 437.0,
+              "center": 436.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                218
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 219,
+              "last": 219,
+              "begin": 438.0,
+              "end": 439.0,
+              "center": 438.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                219
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 220,
+              "last": 220,
+              "begin": 440.0,
+              "end": 441.0,
+              "center": 440.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                220
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 221,
+              "last": 221,
+              "begin": 442.0,
+              "end": 443.0,
+              "center": 442.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                221
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 222,
+              "last": 222,
+              "begin": 444.0,
+              "end": 445.0,
+              "center": 444.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                222
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 223,
+              "last": 223,
+              "begin": 446.0,
+              "end": 447.0,
+              "center": 446.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                223
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 224,
+              "last": 224,
+              "begin": 448.0,
+              "end": 449.0,
+              "center": 448.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                224
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 225,
+              "last": 225,
+              "begin": 450.0,
+              "end": 451.0,
+              "center": 450.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                225
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 330,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007684068754315376,
+          "prefill_seconds": 0.15659738890826702,
+          "decode_seconds": 0.024343963712453842,
+          "QA_total_seconds": 0.18862542137503624,
+          "QA_cache_bytes": 28778496,
+          "first_token_seconds": 0.16451997309923172
+        },
+        {
+          "input_tokens": 329,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0072999149560928345,
+          "prefill_seconds": 0.1582472939044237,
+          "decode_seconds": 0.02377120405435562,
+          "QA_total_seconds": 0.18931841291487217,
+          "QA_cache_bytes": 28753920,
+          "first_token_seconds": 0.1657498273998499
+        },
+        {
+          "input_tokens": 322,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007279973477125168,
+          "prefill_seconds": 0.15520124323666096,
+          "decode_seconds": 0.024471962824463844,
+          "QA_total_seconds": 0.18695317953824997,
+          "QA_cache_bytes": 28581888,
+          "first_token_seconds": 0.16269136033952236
+        },
+        {
+          "input_tokens": 346,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007367601618170738,
+          "prefill_seconds": 0.13786363415420055,
+          "decode_seconds": 0.023890549317002296,
+          "QA_total_seconds": 0.1691217850893736,
+          "QA_cache_bytes": 29171712,
+          "first_token_seconds": 0.14542393758893013
+        },
+        {
+          "input_tokens": 322,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007139844819903374,
+          "prefill_seconds": 0.1364585068076849,
+          "decode_seconds": 0.02404993213713169,
+          "QA_total_seconds": 0.16764828376471996,
+          "QA_cache_bytes": 28581888,
+          "first_token_seconds": 0.14379951916635036
+        }
+      ],
+      "vision_encodings": 226
+    },
+    {
+      "group": "stream34:6bc6fb4238943b70",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 44.75420422665775,
+      "source": {
+        "completed": true,
+        "sampled": 480,
+        "decoded_frames": 14400,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 30.63705570809543,
+        "transform_seconds": 5.927320985123515,
+        "media_integrity_sha_seconds": 0.16607139818370342,
+        "open_seconds": 0.025795314460992813,
+        "first_sample_seconds": 0.07616671361029148,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1080,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6685275863856077,
+        "vision_seconds": 5.721684236079454,
+        "selection_banks_seconds": 0.41305586136877537,
+        "pair_total_seconds": 6.8032676838338375
+      },
+      "transfer_validate_seconds": 0.17259098030626774,
+      "selection_seconds": 0.002571307122707367,
+      "bank_update_seconds": 0.22996656596660614,
+      "audit_seconds": 0.027035173028707504,
+      "log_write_seconds": 0.0007128752768039703,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 232,
+              "last": 232,
+              "begin": 464.0,
+              "end": 465.0,
+              "center": 464.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                232
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 233,
+              "last": 233,
+              "begin": 466.0,
+              "end": 467.0,
+              "center": 466.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                233
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 234,
+              "last": 234,
+              "begin": 468.0,
+              "end": 469.0,
+              "center": 468.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                234
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 235,
+              "last": 235,
+              "begin": 470.0,
+              "end": 471.0,
+              "center": 470.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                235
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 236,
+              "last": 236,
+              "begin": 472.0,
+              "end": 473.0,
+              "center": 472.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                236
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 237,
+              "last": 237,
+              "begin": 474.0,
+              "end": 475.0,
+              "center": 474.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                237
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 238,
+              "last": 238,
+              "begin": 476.0,
+              "end": 477.0,
+              "center": 476.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                238
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 239,
+              "last": 239,
+              "begin": 478.0,
+              "end": 479.0,
+              "center": 478.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                239
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 323,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007401397451758385,
+          "prefill_seconds": 0.16330592893064022,
+          "decode_seconds": 0.024581551551818848,
+          "QA_total_seconds": 0.19528887793421745,
+          "QA_cache_bytes": 28606464,
+          "first_token_seconds": 0.17091083899140358
+        },
+        {
+          "input_tokens": 322,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007949339225888252,
+          "prefill_seconds": 0.1597496960312128,
+          "decode_seconds": 0.023980459198355675,
+          "QA_total_seconds": 0.19167949445545673,
+          "QA_cache_bytes": 28581888,
+          "first_token_seconds": 0.16790307685732841
+        },
+        {
+          "input_tokens": 330,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007603028789162636,
+          "prefill_seconds": 0.15539581887423992,
+          "decode_seconds": 0.02396489679813385,
+          "QA_total_seconds": 0.1869637444615364,
+          "QA_cache_bytes": 28778496,
+          "first_token_seconds": 0.16324506886303425
+        },
+        {
+          "input_tokens": 319,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007103990763425827,
+          "prefill_seconds": 0.14331673830747604,
+          "decode_seconds": 0.02386496216058731,
+          "QA_total_seconds": 0.17428569123148918,
+          "QA_cache_bytes": 28508160,
+          "first_token_seconds": 0.15063230879604816
+        },
+        {
+          "input_tokens": 361,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.008891744539141655,
+          "prefill_seconds": 0.1658652126789093,
+          "decode_seconds": 0.024269044399261475,
+          "QA_total_seconds": 0.19902600161731243,
+          "QA_cache_bytes": 29540352,
+          "first_token_seconds": 0.17495796084403992
+        }
+      ],
+      "vision_encodings": 240
+    },
+    {
+      "group": "stream34:b62bf43ba4767f0e",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 57.78514460660517,
+      "source": {
+        "completed": true,
+        "sampled": 481,
+        "decoded_frames": 14401,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 36.22988937422633,
+        "transform_seconds": 13.527601229026914,
+        "media_integrity_sha_seconds": 0.16811093874275684,
+        "open_seconds": 0.030489088967442513,
+        "first_sample_seconds": 0.08827589079737663,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1440,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6783937811851501,
+        "vision_seconds": 5.538575226441026,
+        "selection_banks_seconds": 0.41740741580724716,
+        "pair_total_seconds": 6.634376423433423
+      },
+      "transfer_validate_seconds": 0.1743629351258278,
+      "selection_seconds": 0.0026227477937936783,
+      "bank_update_seconds": 0.2323556002229452,
+      "audit_seconds": 0.021436836570501328,
+      "log_write_seconds": 0.0007269885390996933,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 232,
+              "last": 232,
+              "begin": 464.0,
+              "end": 465.0,
+              "center": 464.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                232
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 233,
+              "last": 233,
+              "begin": 466.0,
+              "end": 467.0,
+              "center": 466.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                233
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 234,
+              "last": 234,
+              "begin": 468.0,
+              "end": 469.0,
+              "center": 468.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                234
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 235,
+              "last": 235,
+              "begin": 470.0,
+              "end": 471.0,
+              "center": 470.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                235
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 236,
+              "last": 236,
+              "begin": 472.0,
+              "end": 473.0,
+              "center": 472.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                236
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 237,
+              "last": 237,
+              "begin": 474.0,
+              "end": 475.0,
+              "center": 474.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                237
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 238,
+              "last": 238,
+              "begin": 476.0,
+              "end": 477.0,
+              "center": 476.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                238
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 239,
+              "last": 239,
+              "begin": 478.0,
+              "end": 479.0,
+              "center": 478.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                239
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 329,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007611872628331184,
+          "prefill_seconds": 0.16316759958863258,
+          "decode_seconds": 0.024343524128198624,
+          "QA_total_seconds": 0.1951229963451624,
+          "QA_cache_bytes": 28753920,
+          "first_token_seconds": 0.1710170991718769
+        },
+        {
+          "input_tokens": 327,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007261656224727631,
+          "prefill_seconds": 0.16026521474123,
+          "decode_seconds": 0.02395807020366192,
+          "QA_total_seconds": 0.19148494116961956,
+          "QA_cache_bytes": 28704768,
+          "first_token_seconds": 0.16772575676441193
+        },
+        {
+          "input_tokens": 320,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007268385961651802,
+          "prefill_seconds": 0.1486787088215351,
+          "decode_seconds": 0.02389412559568882,
+          "QA_total_seconds": 0.17984122037887573,
+          "QA_cache_bytes": 28532736,
+          "first_token_seconds": 0.15615845285356045
+        },
+        {
+          "input_tokens": 329,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0076475590467453,
+          "prefill_seconds": 0.1602510754019022,
+          "decode_seconds": 0.02435978129506111,
+          "QA_total_seconds": 0.1922584157437086,
+          "QA_cache_bytes": 28753920,
+          "first_token_seconds": 0.16813751123845577
+        },
+        {
+          "input_tokens": 375,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007669724524021149,
+          "prefill_seconds": 0.15807896852493286,
+          "decode_seconds": 0.02428567223250866,
+          "QA_total_seconds": 0.19003436528146267,
+          "QA_cache_bytes": 29884416,
+          "first_token_seconds": 0.16594615206122398
+        }
+      ],
+      "vision_encodings": 240
+    },
+    {
+      "group": "stream34:c40f7e75f52b86b3",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 52.84157001040876,
+      "source": {
+        "completed": true,
+        "sampled": 480,
+        "decoded_frames": 14400,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 31.033765260130167,
+        "transform_seconds": 13.07563478127122,
+        "media_integrity_sha_seconds": 0.17345133237540722,
+        "open_seconds": 0.030810918658971786,
+        "first_sample_seconds": 0.08747535198926926,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1440,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6917922254651785,
+        "vision_seconds": 5.532614314928651,
+        "selection_banks_seconds": 0.4151793234050274,
+        "pair_total_seconds": 6.639585863798857
+      },
+      "transfer_validate_seconds": 0.17331994697451591,
+      "selection_seconds": 0.002628568559885025,
+      "bank_update_seconds": 0.23122559301555157,
+      "audit_seconds": 0.03841010853648186,
+      "log_write_seconds": 0.0012570098042488098,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 232,
+              "last": 232,
+              "begin": 464.0,
+              "end": 465.0,
+              "center": 464.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                232
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 233,
+              "last": 233,
+              "begin": 466.0,
+              "end": 467.0,
+              "center": 466.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                233
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 234,
+              "last": 234,
+              "begin": 468.0,
+              "end": 469.0,
+              "center": 468.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                234
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 235,
+              "last": 235,
+              "begin": 470.0,
+              "end": 471.0,
+              "center": 470.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                235
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 236,
+              "last": 236,
+              "begin": 472.0,
+              "end": 473.0,
+              "center": 472.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                236
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 237,
+              "last": 237,
+              "begin": 474.0,
+              "end": 475.0,
+              "center": 474.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                237
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 238,
+              "last": 238,
+              "begin": 476.0,
+              "end": 477.0,
+              "center": 476.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                238
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 239,
+              "last": 239,
+              "begin": 478.0,
+              "end": 479.0,
+              "center": 478.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                239
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 318,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0076905302703380585,
+          "prefill_seconds": 0.15632999129593372,
+          "decode_seconds": 0.04304283671081066,
+          "QA_total_seconds": 0.20706335827708244,
+          "QA_cache_bytes": 28483584,
+          "first_token_seconds": 0.16431626304984093
+        },
+        {
+          "input_tokens": 318,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007382605224847794,
+          "prefill_seconds": 0.1505015790462494,
+          "decode_seconds": 0.023858405649662018,
+          "QA_total_seconds": 0.1817425899207592,
+          "QA_cache_bytes": 28483584,
+          "first_token_seconds": 0.15809943340718746
+        },
+        {
+          "input_tokens": 328,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007178995758295059,
+          "prefill_seconds": 0.1370727550238371,
+          "decode_seconds": 0.023944608867168427,
+          "QA_total_seconds": 0.16819635964930058,
+          "QA_cache_bytes": 28729344,
+          "first_token_seconds": 0.1444472037255764
+        },
+        {
+          "input_tokens": 327,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.006662117317318916,
+          "prefill_seconds": 0.13579932041466236,
+          "decode_seconds": 0.02358218841254711,
+          "QA_total_seconds": 0.1660436261445284,
+          "QA_cache_bytes": 28704768,
+          "first_token_seconds": 0.14264601841568947
+        },
+        {
+          "input_tokens": 332,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.0072883181273937225,
+          "prefill_seconds": 0.1529064066708088,
+          "decode_seconds": 0.024359943345189095,
+          "QA_total_seconds": 0.1845546681433916,
+          "QA_cache_bytes": 28827648,
+          "first_token_seconds": 0.16042654030025005
+        },
+        {
+          "input_tokens": 328,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007263001054525375,
+          "prefill_seconds": 0.15994808077812195,
+          "decode_seconds": 0.02396114356815815,
+          "QA_total_seconds": 0.19117222540080547,
+          "QA_cache_bytes": 28729344,
+          "first_token_seconds": 0.16742246970534325
+        },
+        {
+          "input_tokens": 317,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007120730355381966,
+          "prefill_seconds": 0.12933521904051304,
+          "decode_seconds": 0.02372460439801216,
+          "QA_total_seconds": 0.16018055379390717,
+          "QA_cache_bytes": 28459008,
+          "first_token_seconds": 0.13664661347866058
+        },
+        {
+          "input_tokens": 331,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007666651159524918,
+          "prefill_seconds": 0.15553663671016693,
+          "decode_seconds": 0.02388397976756096,
+          "QA_total_seconds": 0.1870872676372528,
+          "QA_cache_bytes": 28803072,
+          "first_token_seconds": 0.1634261105209589
+        },
+        {
+          "input_tokens": 319,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007150063291192055,
+          "prefill_seconds": 0.1293973419815302,
+          "decode_seconds": 0.023891137912869453,
+          "QA_total_seconds": 0.1604385431855917,
+          "QA_cache_bytes": 28508160,
+          "first_token_seconds": 0.1367548666894436
+        }
+      ],
+      "vision_encodings": 240
+    },
+    {
+      "group": "stream34:d478484be947ae12",
+      "cohort": "stream34",
+      "arm": "odd24_8",
+      "pipeline_wall_seconds": 43.32640588097274,
+      "source": {
+        "completed": true,
+        "sampled": 480,
+        "decoded_frames": 14399,
+        "peak_application_RGB_buffers": 2,
+        "decode_seconds": 29.39842163771391,
+        "transform_seconds": 5.856018887832761,
+        "media_integrity_sha_seconds": 0.16568326950073242,
+        "open_seconds": 0.025420967489480972,
+        "first_sample_seconds": 0.06857258640229702,
+        "codec": {
+          "codec": "vp9",
+          "width": 1920,
+          "height": 1080,
+          "requested_threads": 4,
+          "thread_type": "ThreadType.AUTO"
+        }
+      },
+      "encoding": {
+        "preprocess_seconds": 0.6617829948663712,
+        "vision_seconds": 5.6666853949427605,
+        "selection_banks_seconds": 0.41154723428189754,
+        "pair_total_seconds": 6.740015624091029
+      },
+      "transfer_validate_seconds": 0.17110570706427097,
+      "selection_seconds": 0.0026158951222896576,
+      "bank_update_seconds": 0.23003206588327885,
+      "audit_seconds": 0.02349506877362728,
+      "log_write_seconds": 0.0007222369313240051,
+      "bank": {
+        "visual_tokens": 192,
+        "details": {
+          "tokens": 192,
+          "resident_tensor_bytes": 1578240,
+          "nodes": [
+            {
+              "first": 232,
+              "last": 232,
+              "begin": 464.0,
+              "end": 465.0,
+              "center": 464.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                232
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 233,
+              "last": 233,
+              "begin": 466.0,
+              "end": 467.0,
+              "center": 466.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                233
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 234,
+              "last": 234,
+              "begin": 468.0,
+              "end": 469.0,
+              "center": 468.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                234
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 235,
+              "last": 235,
+              "begin": 470.0,
+              "end": 471.0,
+              "center": 470.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                235
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 236,
+              "last": 236,
+              "begin": 472.0,
+              "end": 473.0,
+              "center": 472.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                236
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 237,
+              "last": 237,
+              "begin": 474.0,
+              "end": 475.0,
+              "center": 474.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                237
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 238,
+              "last": 238,
+              "begin": 476.0,
+              "end": 477.0,
+              "center": 476.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                238
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            },
+            {
+              "first": 239,
+              "last": 239,
+              "begin": 478.0,
+              "end": 479.0,
+              "center": 478.5,
+              "groups": 1,
+              "depth": 0,
+              "tokens": 24,
+              "original_pairs": 1,
+              "mass": 24.0,
+              "surviving_source_pair_ids": [
+                239
+              ],
+              "tensor_bytes": 197280,
+              "exact_pair": false,
+              "span_is_provenance_not_full_detail": true
+            }
+          ]
+        },
+        "resident_tensor_bytes": 1578240,
+        "standalone_persistent_tensor_bytes": 1578240,
+        "standalone_selector_descriptor_bytes": 0
+      },
+      "QA": [
+        {
+          "input_tokens": 314,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.008602885529398918,
+          "prefill_seconds": 0.15395291708409786,
+          "decode_seconds": 0.024348292499780655,
+          "QA_total_seconds": 0.18690409511327744,
+          "QA_cache_bytes": 28385280,
+          "first_token_seconds": 0.16279298067092896
+        },
+        {
+          "input_tokens": 324,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007201801985502243,
+          "prefill_seconds": 0.15459216758608818,
+          "decode_seconds": 0.024265656247735023,
+          "QA_total_seconds": 0.18605962581932545,
+          "QA_cache_bytes": 28631040,
+          "first_token_seconds": 0.1619949471205473
+        },
+        {
+          "input_tokens": 323,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007063506171107292,
+          "prefill_seconds": 0.13902557827532291,
+          "decode_seconds": 0.023501107469201088,
+          "QA_total_seconds": 0.1695901919156313,
+          "QA_cache_bytes": 28606464,
+          "first_token_seconds": 0.1462871115654707
+        },
+        {
+          "input_tokens": 314,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007363801822066307,
+          "prefill_seconds": 0.12981446832418442,
+          "decode_seconds": 0.023853695020079613,
+          "QA_total_seconds": 0.16103196516633034,
+          "QA_cache_bytes": 28385280,
+          "first_token_seconds": 0.13738222792744637
+        },
+        {
+          "input_tokens": 335,
+          "visual_tokens": 192,
+          "context_build_seconds": 0.007862677797675133,
+          "prefill_seconds": 0.1606356967240572,
+          "decode_seconds": 0.024162286892533302,
+          "QA_total_seconds": 0.19266066141426563,
+          "QA_cache_bytes": 28901376,
+          "first_token_seconds": 0.16873941384255886
+        }
+      ],
+      "vision_encodings": 240
+    }
+  ],
+  "no_other_bank": true,
+  "no_main_language_cache": true,
+  "not_wallclock_1x": true
+}

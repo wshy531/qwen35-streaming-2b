@@ -1,0 +1,564 @@
+[
+  {
+    "id": "nextgqa:val:2559262403:4",
+    "group": "natural171:03f2f6257e2ae2bd",
+    "cohort": "natural171",
+    "question": "how do the pugs drink water from the bowl",
+    "options": [
+      "with straw",
+      "by spoon",
+      "with their tongues",
+      "used its tail",
+      "roll around"
+    ],
+    "query_time_s": 90,
+    "pairs": 23
+  },
+  {
+    "id": "nextgqa:val:4087013668:1",
+    "group": "T98:00c7f3015bf2d05a",
+    "cohort": "T98",
+    "question": "how did the white shirt woman react after the boy throw the food back into the bowl",
+    "options": [
+      "taking a photo of boy",
+      "hold the cupcake",
+      "not willing to share",
+      "laugh",
+      "pat the boy"
+    ],
+    "query_time_s": 60,
+    "pairs": 30
+  },
+  {
+    "id": "nextgqa:val:4087013668:8",
+    "group": "T98:00c7f3015bf2d05a",
+    "cohort": "T98",
+    "question": "what did the lady in pink do after the boy looked at her at the end of the video",
+    "options": [
+      "moves round",
+      "looking at present",
+      "clap hands",
+      "smiles",
+      "touch her knee"
+    ],
+    "query_time_s": 60,
+    "pairs": 30
+  },
+  {
+    "id": "nextgqa:val:4087013668:7",
+    "group": "T98:00c7f3015bf2d05a",
+    "cohort": "T98",
+    "question": "what did the lady in pink do after the boy threw the peels back into the bowl",
+    "options": [
+      "push food back in the mouth",
+      "put the peels back into bowl",
+      "blow candles",
+      "scoop more food in bowl",
+      "nodding and smiling"
+    ],
+    "query_time_s": 60,
+    "pairs": 30
+  },
+  {
+    "id": "ovo:70",
+    "group": "stream34:65e36b1cfb8a12e4",
+    "cohort": "stream34",
+    "question": "Where did  I pick the spatula?",
+    "options": [
+      "from the hanging cabinet",
+      "from the drawer",
+      "from the cupboard",
+      "from the refrigerator"
+    ],
+    "query_time_s": 292,
+    "pairs": 146,
+    "committed_frames_sha256": "5377f0588a31afd9c07ee7bbf7856c06a1f844c107a4607f6c13869bf91a7e24"
+  },
+  {
+    "id": "ovo:71",
+    "group": "stream34:65e36b1cfb8a12e4",
+    "cohort": "stream34",
+    "question": "How much food did I put in the bowl?",
+    "options": [
+      "one spoon",
+      "two spoons",
+      "three spoons",
+      "four spoons"
+    ],
+    "query_time_s": 346,
+    "pairs": 173,
+    "committed_frames_sha256": "114e75c9f207ceeed91ffddd2e9a7e938e40d8093b3c66f8f0ef057eedfec18b"
+  },
+  {
+    "id": "ovo:72",
+    "group": "stream34:65e36b1cfb8a12e4",
+    "cohort": "stream34",
+    "question": "What color is the towel I wiped hands with?",
+    "options": [
+      "white",
+      "pink",
+      "blue",
+      "green"
+    ],
+    "query_time_s": 411,
+    "pairs": 206,
+    "committed_frames_sha256": "be66659949293986cd375d67617cd4a42ba7a12fbc1f732e96d3b1f94ca6028f"
+  },
+  {
+    "id": "ovo:73",
+    "group": "stream34:65e36b1cfb8a12e4",
+    "cohort": "stream34",
+    "question": "What did I pick from the drawer?",
+    "options": [
+      "chopstick",
+      "spoon",
+      "fork",
+      "spatula"
+    ],
+    "query_time_s": 438,
+    "pairs": 219,
+    "committed_frames_sha256": "2fdc6c59912b0c3224c34a99b8837299cb44307c577606f5bec12dabb06970ae"
+  },
+  {
+    "id": "local_longstream_v1:01",
+    "group": "stream34:65e36b1cfb8a12e4",
+    "cohort": "stream34",
+    "question": "Which happened first: taking plastic wrap from the upper cupboard or opening the refrigerator?",
+    "options": [
+      "Opening the refrigerator before taking the wrap",
+      "Neither action occurred",
+      "Taking the wrap before opening the refrigerator",
+      "Only opening the refrigerator occurred"
+    ],
+    "query_time_s": 430.0,
+    "pairs": 215,
+    "committed_frames_sha256": "745e9c406f1739310b61abafa7837ed9015bedcf443481d6e1b11c41b0362ff4"
+  },
+  {
+    "id": "ovo:104",
+    "group": "stream34:6bc6fb4238943b70",
+    "cohort": "stream34",
+    "question": "Where did I put the alien toy box?",
+    "options": [
+      "On the floor",
+      "At the toy rack",
+      "In the shopping basket",
+      "On the shelf"
+    ],
+    "query_time_s": 51,
+    "pairs": 26,
+    "committed_frames_sha256": "35e5dcb0f2f73fe84676e40b2526c8b9be1ff27e274c140435f4f9ec0fae0c2d"
+  },
+  {
+    "id": "ovo:105",
+    "group": "stream34:6bc6fb4238943b70",
+    "cohort": "stream34",
+    "question": "Where did i put the white robot toy",
+    "options": [
+      "On the toy rack",
+      "On the floor",
+      "In the shelf",
+      "In the shopping basket"
+    ],
+    "query_time_s": 81,
+    "pairs": 41,
+    "committed_frames_sha256": "9ed8c62d3787edc3e64860ee682ee89209b59c1eb768d7041586159ab6b45c6c"
+  },
+  {
+    "id": "ovo:102",
+    "group": "stream34:6bc6fb4238943b70",
+    "cohort": "stream34",
+    "question": "Where s shopping cart?",
+    "options": [
+      "Beside the checkout",
+      "Next to the toys",
+      "Beside Duracell",
+      "Near the book section"
+    ],
+    "query_time_s": 341,
+    "pairs": 171,
+    "committed_frames_sha256": "1d34922309b41b97d3e4db3bd8c42748afd29eea8986c9eb09e93fa0be5b03aa"
+  },
+  {
+    "id": "ovo:103",
+    "group": "stream34:6bc6fb4238943b70",
+    "cohort": "stream34",
+    "question": "What color is the shopping basket?",
+    "options": [
+      "Red",
+      "Black",
+      "Blue",
+      "White"
+    ],
+    "query_time_s": 439,
+    "pairs": 220,
+    "committed_frames_sha256": "b1eb1ad86835a58ebe6153c89514297b4f820adfb6137abc0fcd67f3ad217eb7"
+  },
+  {
+    "id": "local_longstream_v1:02",
+    "group": "stream34:6bc6fb4238943b70",
+    "cohort": "stream34",
+    "question": "Which order did the wearer follow in the store?",
+    "options": [
+      "Inspecting boxed toys before passing the Duracell battery display",
+      "Passing the Duracell display before inspecting boxed toys",
+      "Inspecting boxed toys without ever passing a battery display",
+      "Passing a battery display without ever inspecting boxed toys"
+    ],
+    "query_time_s": 470.0,
+    "pairs": 235,
+    "committed_frames_sha256": "f9518826b7633356e8404602b25b555726ec5361216d16e547c6606e4131fbd9"
+  },
+  {
+    "id": "ovo:106",
+    "group": "stream34:b62bf43ba4767f0e",
+    "cohort": "stream34",
+    "question": "Where was the container after I moved it?",
+    "options": [
+      "at the floor",
+      "at the table",
+      "at the ground",
+      "at the cabinet"
+    ],
+    "query_time_s": 192,
+    "pairs": 96,
+    "committed_frames_sha256": "dda39edf461493935e22eedcf440e0acc037089bf7071ac30770149e0531b518"
+  },
+  {
+    "id": "ovo:107",
+    "group": "stream34:b62bf43ba4767f0e",
+    "cohort": "stream34",
+    "question": "How many times did I scoop cement from the container?",
+    "options": [
+      "three times",
+      "four times",
+      "five times",
+      "six times"
+    ],
+    "query_time_s": 251,
+    "pairs": 126,
+    "committed_frames_sha256": "14b6208e1909581cd3ededb29e3630eb2a24dc075453947c663e8ce6c0f0a581"
+  },
+  {
+    "id": "ovo:108",
+    "group": "stream34:b62bf43ba4767f0e",
+    "cohort": "stream34",
+    "question": "What did I put in the container?",
+    "options": [
+      "cement",
+      "water",
+      "mud",
+      "garbage"
+    ],
+    "query_time_s": 322,
+    "pairs": 161,
+    "committed_frames_sha256": "b923dcf0b66114e44acbc78d5545caa63bf955bbf1510a9dc54d6a714017c7b6"
+  },
+  {
+    "id": "ovo:109",
+    "group": "stream34:b62bf43ba4767f0e",
+    "cohort": "stream34",
+    "question": "Where was the scraper before I picked it?",
+    "options": [
+      "hanging the cabinet",
+      "on the table",
+      "at the ground",
+      "in the bucket"
+    ],
+    "query_time_s": 394,
+    "pairs": 197,
+    "committed_frames_sha256": "f8e677f154c322b363f2410718496155aed8293561f36360ecb1aea7f0c74361"
+  },
+  {
+    "id": "local_longstream_v1:03",
+    "group": "stream34:b62bf43ba4767f0e",
+    "cohort": "stream34",
+    "question": "Which sequence of activities was shown earlier in this clip?",
+    "options": [
+      "Applying mortar to a panel, handling blue buckets, using the orange mixer",
+      "Using the orange mixer, applying mortar to a panel, handling blue buckets",
+      "Handling blue buckets, using the orange mixer, applying mortar to a panel",
+      "Using the orange mixer, handling blue buckets, applying mortar to a panel"
+    ],
+    "query_time_s": 450.0,
+    "pairs": 225,
+    "committed_frames_sha256": "addc85d0797cd761588c0dfe4924c2fa8f86bd35ccd867e201bde42c913dac3d"
+  },
+  {
+    "id": "ovo:130",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "What did I put in the dust bin?",
+    "options": [
+      "beef sauce",
+      "tomato",
+      "garlic"
+    ],
+    "query_time_s": 240,
+    "pairs": 120,
+    "committed_frames_sha256": "6c28fa5636866a3e6a7657a7d335e230a8440d450c3c755bcba276620090e3b6"
+  },
+  {
+    "id": "ovo:131",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "What did I remove from the plastic bag?",
+    "options": [
+      "onion",
+      "green pepper",
+      "cabbage"
+    ],
+    "query_time_s": 277,
+    "pairs": 139,
+    "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc"
+  },
+  {
+    "id": "ovo:68",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "Where is the red floor pillow?",
+    "options": [
+      "at the living room",
+      "in the bedroom",
+      "in the kitchen",
+      "in the bathroom"
+    ],
+    "query_time_s": 278,
+    "pairs": 139,
+    "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc"
+  },
+  {
+    "id": "ovo:69",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "Where was the onion before I picked it?",
+    "options": [
+      "nylon",
+      "in the cabinet",
+      "inside the refrigerator",
+      "on the counter"
+    ],
+    "query_time_s": 278,
+    "pairs": 139,
+    "committed_frames_sha256": "62c6729cda1cc539824b85b6aba78246c31917993bd2a75d1ce6505b4a1462dc"
+  },
+  {
+    "id": "ovo:67",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "Where was the plastic wrap before I picked it?",
+    "options": [
+      "at the door of refrigerator",
+      "on the counter",
+      "inside the refrigerator",
+      "in the cabinet"
+    ],
+    "query_time_s": 332,
+    "pairs": 166,
+    "committed_frames_sha256": "b332458519bebcee837cb9ba41a97dd9f6fe4d698a53495d32f6fd85c812052b"
+  },
+  {
+    "id": "ovo:66",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "Where did I put the remaining onions?",
+    "options": [
+      "on the counter",
+      "at the refrigerator",
+      "inside the refrigerator",
+      "in the cabinet"
+    ],
+    "query_time_s": 373,
+    "pairs": 187,
+    "committed_frames_sha256": "5b58da8804090ead7f216df02b8a04b6ce795c6dc469161772b7d420051d14b4"
+  },
+  {
+    "id": "ovo:132",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "What did I put in the fridge?",
+    "options": [
+      "onion",
+      "green pepper",
+      "cabbage"
+    ],
+    "query_time_s": 374,
+    "pairs": 187,
+    "committed_frames_sha256": "5b58da8804090ead7f216df02b8a04b6ce795c6dc469161772b7d420051d14b4"
+  },
+  {
+    "id": "ovo:133",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "What did I pick from the drawer?",
+    "options": [
+      "pan lid",
+      "spatula",
+      "chopsticks"
+    ],
+    "query_time_s": 472,
+    "pairs": 236,
+    "committed_frames_sha256": "a9cf6907f8045071d125e11aafe4dd53c03024c665498a4a23d3477ce2508d5f"
+  },
+  {
+    "id": "local_longstream_v1:04",
+    "group": "stream34:c40f7e75f52b86b3",
+    "cohort": "stream34",
+    "question": "After cutting the yellow pepper into strips, which ingredient was cut into strips next?",
+    "options": [
+      "Cabbage",
+      "Green pepper",
+      "Onion",
+      "Carrot"
+    ],
+    "query_time_s": 460.0,
+    "pairs": 230,
+    "committed_frames_sha256": "ab187d3f62497b384f96eac01caa4bf150947d182e0e77dacddef3f6d33e9c39"
+  },
+  {
+    "id": "ovo:180",
+    "group": "stream34:1acc8e7f31f33cc1",
+    "cohort": "stream34",
+    "question": "Where was the blue screwdriver?",
+    "options": [
+      "on the toolbox",
+      "inside the drawer",
+      "beside the toolbox",
+      "near the red drum"
+    ],
+    "query_time_s": 59,
+    "pairs": 30,
+    "committed_frames_sha256": "9bc60b381d8719e3a94d3f4f93576d821333a55ca47814b37f3fb3492eb885ab"
+  },
+  {
+    "id": "ovo:181",
+    "group": "stream34:1acc8e7f31f33cc1",
+    "cohort": "stream34",
+    "question": "Where did I put the black basin?",
+    "options": [
+      "in top of blue drum",
+      "on the floor",
+      "inside the drawer",
+      "under the blue drum"
+    ],
+    "query_time_s": 243,
+    "pairs": 122,
+    "committed_frames_sha256": "c17babc886dcdcc13c843a70d356d52dca57913476acbb78186ee5c3aabff073"
+  },
+  {
+    "id": "ovo:182",
+    "group": "stream34:1acc8e7f31f33cc1",
+    "cohort": "stream34",
+    "question": "where was the grey soldering gun before I picked it?",
+    "options": [
+      "on the floor",
+      "inside the drawer",
+      "on the toolbox",
+      "under the toolbox"
+    ],
+    "query_time_s": 360,
+    "pairs": 180,
+    "committed_frames_sha256": "a879341ba576d66c06d6c46dca6afcf905ffc296188c21da6c4eac4441df5390"
+  },
+  {
+    "id": "ovo:183",
+    "group": "stream34:1acc8e7f31f33cc1",
+    "cohort": "stream34",
+    "question": "Where was the wrench before I picked it?",
+    "options": [
+      "on the toolbox",
+      "on the floor",
+      "inside the drawer",
+      "under the toolbox"
+    ],
+    "query_time_s": 411,
+    "pairs": 206,
+    "committed_frames_sha256": "d42687fed02d6f23644d6ae55758667afdd0247a66cb2b99f5f328350b1c5cec"
+  },
+  {
+    "id": "local_longstream_v1:05",
+    "group": "stream34:1acc8e7f31f33cc1",
+    "cohort": "stream34",
+    "question": "What color was the first cloth taken out of the tool drawer and used for wiping?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "query_time_s": 440.0,
+    "pairs": 220,
+    "committed_frames_sha256": "191f2d97d640436a04c090b2f4b7a442f29513ab791ec4096b054be2eb7778da"
+  },
+  {
+    "id": "ovo:144",
+    "group": "stream34:d478484be947ae12",
+    "cohort": "stream34",
+    "question": "What color is the car?",
+    "options": [
+      "blue",
+      "white",
+      "black"
+    ],
+    "query_time_s": 132,
+    "pairs": 66,
+    "committed_frames_sha256": "3448d08f5b8b97c66b41b0efaece4b4ec3040ed90d417a1a15f13e7c5d826aa4"
+  },
+  {
+    "id": "ovo:145",
+    "group": "stream34:d478484be947ae12",
+    "cohort": "stream34",
+    "question": "Where is the dust bin?",
+    "options": [
+      "beside the door",
+      "beside the tissue paper",
+      "in the middle of the store"
+    ],
+    "query_time_s": 194,
+    "pairs": 97,
+    "committed_frames_sha256": "46263fd8a776d701a49d6a89bad5095e6340a4c73e8dbe81175a85e304a1ec72"
+  },
+  {
+    "id": "ovo:147",
+    "group": "stream34:d478484be947ae12",
+    "cohort": "stream34",
+    "question": "Where is the tissue paper?",
+    "options": [
+      "beside the trashcan",
+      "beside the dustbin",
+      "next to the door"
+    ],
+    "query_time_s": 196,
+    "pairs": 98,
+    "committed_frames_sha256": "c51bc2b471c00e69a5f4d4d4c81c91dbd8209ff744a1bf53d8a2ca99d6e60ddc"
+  },
+  {
+    "id": "ovo:146",
+    "group": "stream34:d478484be947ae12",
+    "cohort": "stream34",
+    "question": "What color is my my shirt",
+    "options": [
+      "black",
+      "red",
+      "white"
+    ],
+    "query_time_s": 211,
+    "pairs": 106,
+    "committed_frames_sha256": "5705c9125b9d3f999f863f09b2f815896f0c86e4e0d62cb383de6bb5f186e890"
+  },
+  {
+    "id": "local_longstream_v1:06",
+    "group": "stream34:d478484be947ae12",
+    "cohort": "stream34",
+    "question": "At the initial road crossing, what small roadside fixture stood beside the pedestrian button pole?",
+    "options": [
+      "Parking meter",
+      "Bicycle rack",
+      "Fire hydrant",
+      "Public trash bin"
+    ],
+    "query_time_s": 450.0,
+    "pairs": 225,
+    "committed_frames_sha256": "a751ab46007c4f1b061624a26df5fa4248031b3fb6cb12330a64c1fe7a0a7f4f"
+  }
+]

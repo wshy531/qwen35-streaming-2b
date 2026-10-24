@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "answers": 1818,
+  "tokens": 3698,
+  "legacy_replay": 909,
+  "main_banks_unchanged": true,
+  "matched_node_coverage": true,
+  "gates": {
+    "M2": {
+      "primary269_full": 161,
+      "primary269_read": 156,
+      "long16_full": 9,
+      "long16_read": 8,
+      "QA_seconds": {
+        "M2_full48": 77.99313577497378,
+        "M2_read24": 51.96763169276528
+      },
+      "QA_reduction": 0.3336896744002886,
+      "quality_gate": false,
+      "engineering_gate": true,
+      "eligible": false
+    },
+    "A06": {
+      "primary269_full": 164,
+      "primary269_read": 156,
+      "long16_full": 11,
+      "long16_read": 7,
+      "QA_seconds": {
+        "A06_full48": 78.36225659726188,
+        "A06_read24": 51.97775998292491
+      },
+      "QA_reduction": 0.3366990405845317,
+      "quality_gate": false,
+      "engineering_gate": true,
+      "eligible": false
+    },
+    "LS": {
+      "primary269_full": 166,
+      "primary269_read": 150,
+      "long16_full": 12,
+      "long16_read": 8,
+      "QA_seconds": {
+        "LS_full48": 89.71126702590846,
+        "LS_read24": 53.90493090893142
+      },
+      "QA_reduction": 0.3991286412958166,
+      "quality_gate": false,
+      "engineering_gate": true,
+      "eligible": false
+    }
+  },
+  "chosen_for_new_source_confirmation": null,
+  "default_enabled": false,
+  "new_source_validation_performed": false,
+  "conclusion": "close this first version; no parameter sweep",
+  "limitations": [
+    "No net loss is not per-question losslessness or statistical noninferiority",
+    "Shared visual execution does not establish independent full-pipeline speed",
+    "Storage stays384 perbank; only temporary readout reduced",
+    "P3 write-time scores are context, not pure placement causal comparison"
+  ]
+}

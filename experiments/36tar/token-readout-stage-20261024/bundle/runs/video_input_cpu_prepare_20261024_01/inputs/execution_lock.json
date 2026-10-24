@@ -1,0 +1,24 @@
+{
+  "runtime_SHA256": {
+    "experiments/video-input-cpu-v1/common.py": "2ae0a080694f6a6e377af9b137c1ae1595b113fd1cf66e7bc6df8d4c39d88c4d",
+    "experiments/video-input-cpu-v1/consume.py": "6f0ffa964f8c2f72320f2301ddb829810c83628cc861a662517c9060f94b8301",
+    "experiments/video-input-cpu-v1/freeze.py": "4d4a2dfb86b4c7a47eab70a147ee1110253e8100a45742abed2cf24b065ab745",
+    "experiments/video-input-cpu-v1/preflight.py": "9e69829e3c45e9bbce896a3d6d7a0b5ebb0fb39fa517aa270806afda65b720fb",
+    "experiments/video-input-cpu-v1/prepare.py": "f431c03beaa7b31df0285fc4b36eee06c7af331ce8b3c25646e5eaf8913ae459",
+    "experiments/video-input-cpu-v1/run.py": "bc825e3ec9a7bd5f91a769bd4600fdcd7d26d618f109aededf40baaf00e85890",
+    "experiments/video-input-cpu-v1/source.py": "e681497d6ee82127810ed5bf8ec346ca98b2fbc380c7187dae81471198a04ee4",
+    "experiments/video-input-cpu-v1/worker.py": "6f160a93260569de12687c125f61ef8d2c6624e22a13e9c2aa9f27d6293b24f8",
+    "experiments/2b-natural-eval-v1/audit_sampling.py": "507ca2e89f664be8b983becd918f6438c2e090b934f0a000660f42da70416505",
+    "experiments/2b-natural-eval-v1/memory_policy.py": "9e42b27f02e693923e85f96919f24216638685ac4af54c2159b78fc8ea5583ae",
+    "experiments/2b-long-stream-v1/schedule.py": "393427f79e387f62fcf05438d04f7178ccd2d07c2caa8c9327192bd7467fea2b"
+  },
+  "input_SHA256": {
+    "cases.json": "d51b652ee2f0019799d2429f8ed5a66627654ca52afb10648b1a3adb65afcdd0",
+    "groups.json": "7075ce189b347f9af03d829c62ffed67df122e8fd2329ec588e278cc1b72228c",
+    "protocol.json": "69ffcde3782c64612329fcb33c0984e97bfb51c064cf89f7410cef4ab3e88940",
+    "questions.json": "14c64b95679cb7d71a33ede3123b7d8e68e61a8dd31d4e82fb001713df637376",
+    "snapshots34.json": "165c039b72f40ff13e5d10c6a68d7b4383fcaf6174ba05e878217f465650c4de"
+  },
+  "CPU_preflight_SHA256": "4e5fe5181b94b3cf1b52be8ecf1498bd317a313da3de2187ea469d07748c7e7c",
+  "GPU_jobs": 0
+}

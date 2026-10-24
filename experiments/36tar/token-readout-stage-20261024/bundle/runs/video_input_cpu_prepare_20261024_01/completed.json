@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "cases": 32,
+  "wall_seconds": 808.6569999999992,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "local_CPU_only": true
+}

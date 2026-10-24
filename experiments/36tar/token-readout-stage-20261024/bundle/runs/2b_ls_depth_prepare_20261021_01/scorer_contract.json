@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "parse_cases": 10,
+  "synthetic_missing_answers": 1818,
+  "synthetic_artifacts_removed": true,
+  "historical_reference_answers": 1025,
+  "GPU_submissions": 0
+}

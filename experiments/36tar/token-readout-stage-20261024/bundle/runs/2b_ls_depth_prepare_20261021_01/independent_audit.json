@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "answers": 1818,
+  "token_callbacks": 3666,
+  "groups": 112,
+  "visual_encodings": 3981,
+  "long_queries": 34,
+  "long_pairs": 1426,
+  "long_EOF": 6,
+  "queries_followed_by_new_real_pairs": 34,
+  "bounded_payload_and_causal_nodes": true,
+  "observed_state_peaks": {
+    "M0": {
+      "tensor_bytes": 3156480,
+      "depth": 0
+    },
+    "reservoir4": {
+      "tensor_bytes": 3156480,
+      "depth": 0
+    },
+    "M2": {
+      "tensor_bytes": 3156480,
+      "depth": 47
+    },
+    "A06": {
+      "tensor_bytes": 3156480,
+      "depth": 35
+    },
+    "LS": {
+      "tensor_bytes": 3156480,
+      "depth": 60
+    },
+    "LS_depth": {
+      "tensor_bytes": 3156480,
+      "depth": 20
+    }
+  },
+  "complete": {
+    "status": "complete",
+    "answers": 1818,
+    "generated_tokens": 3666,
+    "cohorts": {
+      "natural171": 1026,
+      "T98": 588,
+      "stream34": 204
+    },
+    "vision_encodings": 3981,
+    "pretrained_loads": 1,
+    "seconds": 1432.7158544750419,
+    "peak_GPU_allocated_bytes": 8964926464,
+    "observed_RSS_bytes": 2297995264,
+    "bank_visual_cap": 384,
+    "no_persistent_main_language_state": true,
+    "no_full_history_archive": true,
+    "wallclock_1x": false,
+    "shared_process_timings_not_isolated_speed": true,
+    "execution_lock_sha256": "600ef2ed8108863d5192aa05ec3bfd6840839f5aab0682a333d91554183ef08a"
+  },
+  "source_sha256": {
+    "answers.jsonl": "fbeece289199cc7680fc8937a3bd4951fb8896fbe89f7ffa738f5f90df8991df",
+    "completed.json": "d4e96f0fd519d3d8eedea0dfac365aa50b93104c0550e870b00d17e70246edf1",
+    "events.jsonl": "207a9ab54969f72847631a79f333394c441b2b31f35434c9f288454b546159b5",
+    "loaded.json": "3659c9cb2b124c7549d892d1cb60f938143ca39db3eec9de274eb7a04cc35453",
+    "slurm-217894.err": "1efdf70312034aafa5b89c4a3fbab9e909bd5075a93ac1af9cae0b23aa1600ed",
+    "slurm-217894.log": "9df1b15f853f888bc6c3a656d895585373897ec2b9ceaa44bfc1689fa30849f8",
+    "tokens.jsonl": "1c9532f65d7823eed4c508bc166f740ab8da31b146bf4fd9b7de4b1d248e6ebd",
+    "TRANSFER_MANIFEST.json": "050afe7239a52e7dea9fa613b9665f7709cb0879a2378fba2b6b5856f98187f2"
+  },
+  "limitations": [
+    "mechanism audit is separate from answer correctness",
+    "source-range coverage is not preserved visual detail",
+    "one fixed opened-development comparison"
+  ]
+}

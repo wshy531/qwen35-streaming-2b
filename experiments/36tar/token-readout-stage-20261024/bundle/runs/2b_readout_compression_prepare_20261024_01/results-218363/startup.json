@@ -1,0 +1,8 @@
+{
+  "pretrained_loads": 1,
+  "load_seconds": 1.9090081048198044,
+  "warmup_seconds": 3.1695129410363734,
+  "warmup_answers": 6,
+  "warmup_generated_tokens": 48,
+  "warmup_encodings": 8
+}

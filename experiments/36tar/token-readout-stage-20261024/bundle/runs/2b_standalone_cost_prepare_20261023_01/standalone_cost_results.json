@@ -1,0 +1,151 @@
+{
+  "actual_device": "A800 FP32",
+  "quality_replay_equivalent": true,
+  "costs": {
+    "full48_8": {
+      "block_wall_seconds": 798.9059397580568,
+      "source_pipeline_wall_seconds": 786.8383141721133,
+      "model_load_seconds": 6.409524413058534,
+      "warmup_seconds": 4.933467193040997,
+      "source_components": {
+        "decode_seconds": 509.8393869125284,
+        "transform_seconds": 71.34361943835393,
+        "media_integrity_sha_seconds": 1.742020973470062,
+        "open_seconds": 0.5908348108641803
+      },
+      "encoder_components": {
+        "preprocess_seconds": 9.180651863571256,
+        "vision_seconds": 88.2599267999176,
+        "selection_banks_seconds": 8.463320287875831
+      },
+      "nested_bank_components": {
+        "transfer_validate_seconds": 2.903199369320646,
+        "selection_seconds": 0.0,
+        "bank_update_seconds": 5.429800271522254
+      },
+      "audit_seconds": 2.4538725172169507,
+      "nested_log_write_seconds": 0.04460701020434499,
+      "QA_components": {
+        "context_build_seconds": 3.1557705791201442,
+        "prefill_seconds": 81.03357276250608,
+        "decode_seconds": 7.3437458977568895,
+        "QA_total_seconds": 91.53308923938312
+      },
+      "mean_input_tokens": 519.6138613861386,
+      "max_QA_cache_bytes": 34603008,
+      "max_persistent_bank_selector_tensor_bytes": 3156480,
+      "max_measured_GPU_allocated_bytes": 8964646912,
+      "max_measured_GPU_reserved_bytes": 9011462144,
+      "max_process_lifetime_RSS_bytes": 6130561024,
+      "RSS_includes_load_and_warmup": true,
+      "baseline_GPU_allocated_range": [
+        8862552576,
+        8862552576
+      ],
+      "actual_decoded_frames": 254731,
+      "actual_encoded_pairs": 3981
+    },
+    "odd24_8": {
+      "block_wall_seconds": 755.3606490418315,
+      "source_pipeline_wall_seconds": 743.8137347877491,
+      "model_load_seconds": 5.913312198128551,
+      "warmup_seconds": 4.738513831049204,
+      "source_components": {
+        "decode_seconds": 509.0884283743799,
+        "transform_seconds": 71.43305894499645,
+        "media_integrity_sha_seconds": 1.698394640116021,
+        "open_seconds": 0.5952113950625062
+      },
+      "encoder_components": {
+        "preprocess_seconds": 9.092764214379713,
+        "vision_seconds": 88.26417631772347,
+        "selection_banks_seconds": 6.729625486303121
+      },
+      "nested_bank_components": {
+        "transfer_validate_seconds": 2.838566906983033,
+        "selection_seconds": 0.0436242357827723,
+        "bank_update_seconds": 3.7281929741147906
+      },
+      "audit_seconds": 1.270318801747635,
+      "nested_log_write_seconds": 0.040786903351545334,
+      "QA_components": {
+        "context_build_seconds": 2.0922359738033265,
+        "prefill_seconds": 43.81305263796821,
+        "decode_seconds": 7.435409312834963,
+        "QA_total_seconds": 53.3406979246065
+      },
+      "mean_input_tokens": 329.1980198019802,
+      "max_QA_cache_bytes": 29884416,
+      "max_persistent_bank_selector_tensor_bytes": 1578240,
+      "max_measured_GPU_allocated_bytes": 8943075840,
+      "max_measured_GPU_reserved_bytes": 8969519104,
+      "max_process_lifetime_RSS_bytes": 6414647296,
+      "RSS_includes_load_and_warmup": true,
+      "baseline_GPU_allocated_range": [
+        8862552576,
+        8862552576
+      ],
+      "actual_decoded_frames": 254731,
+      "actual_encoded_pairs": 3981
+    },
+    "change24_8": {
+      "block_wall_seconds": 762.7131520081311,
+      "source_pipeline_wall_seconds": 750.9922348146793,
+      "model_load_seconds": 6.069732022937387,
+      "warmup_seconds": 4.777421232080087,
+      "source_components": {
+        "decode_seconds": 511.67110537551343,
+        "transform_seconds": 71.69229437666945,
+        "media_integrity_sha_seconds": 1.710263635031879,
+        "open_seconds": 0.5976728417444974
+      },
+      "encoder_components": {
+        "preprocess_seconds": 9.316683465382084,
+        "vision_seconds": 88.1978117856197,
+        "selection_banks_seconds": 10.809768036939204
+      },
+      "nested_bank_components": {
+        "transfer_validate_seconds": 2.8693766070064157,
+        "selection_seconds": 3.9196251314133406,
+        "bank_update_seconds": 3.892700642812997
+      },
+      "audit_seconds": 1.499685318209231,
+      "nested_log_write_seconds": 0.04421340022236109,
+      "QA_components": {
+        "context_build_seconds": 2.1003433680161834,
+        "prefill_seconds": 43.64667061390355,
+        "decode_seconds": 7.427898004185408,
+        "QA_total_seconds": 53.174911986105144
+      },
+      "mean_input_tokens": 329.1980198019802,
+      "max_QA_cache_bytes": 29884416,
+      "max_persistent_bank_selector_tensor_bytes": 1971456,
+      "max_measured_GPU_allocated_bytes": 8943075840,
+      "max_measured_GPU_reserved_bytes": 8973713408,
+      "max_process_lifetime_RSS_bytes": 6273605632,
+      "RSS_includes_load_and_warmup": true,
+      "baseline_GPU_allocated_range": [
+        8862552576,
+        8862552576
+      ],
+      "actual_decoded_frames": 254731,
+      "actual_encoded_pairs": 3981
+    }
+  },
+  "complete_budget": {
+    "measured_answers": 909,
+    "warmup_answers": 9,
+    "measured_encodings": 11943,
+    "warmup_encodings": 72,
+    "pretrained_loads": 9
+  },
+  "limitations": [
+    "Causal file replay, not paced1x or edge hardware.",
+    "One workload pass per method; blocks rotate order, not full repeated independent trials.",
+    "Wall times include integrity, audits, logging and cleanup; source pipeline and block wall are distinct.",
+    "Bank timing and log writing are nested in other metrics; never add all columns together.",
+    "RSS is process lifetime high-water including load/warmup; CUDA measurement peak reset after warmup.",
+    "Large hashing audits are timed separately, but returned-ID/node digest work is also in wall time.",
+    "Long source open cost remains in wall time, not separately resolved."
+  ]
+}

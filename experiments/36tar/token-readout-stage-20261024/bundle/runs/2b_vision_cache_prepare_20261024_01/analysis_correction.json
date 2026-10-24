@@ -1,0 +1,8 @@
+{
+  "kind": "postrun_analysis_bug_correction",
+  "reason": "OVO IDs occur in natural171 as well; long subset must also require cohort stream34. No changes to labels, answers or runtime.",
+  "original_scorer_SHA256": "8510289373f0b04e602a46ca02d987ea1a408519fc8826ca9dd9c1eb2957f1a1",
+  "corrected_scorer_SHA256": "53e1a1c3997c95f80e17f20fcd0707887dc06946bd6c99d844a291b3ba05a1fa",
+  "labels_SHA256": "bcc6d9d6d3641cba8c609e0b9c9d86b89382bab1b60cc29352c37abf93a4b138",
+  "new_GPU_jobs": 0
+}

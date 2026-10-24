@@ -1,0 +1,16 @@
+{
+  "base_files": {
+    "common.py": "experiments\\2b-standalone-cost-v1\\common.py",
+    "banks.py": "experiments\\2b-standalone-cost-v1\\banks.py",
+    "session.py": "experiments\\2b-standalone-cost-v1\\session.py",
+    "worker.py": "experiments\\2b-standalone-cost-v1\\worker.py",
+    "orchestrate.py": "experiments\\2b-standalone-cost-v1\\orchestrate.py",
+    "preflight.py": "experiments\\2b-standalone-cost-v1\\preflight.py",
+    "tiny_session_check.py": "experiments\\2b-standalone-cost-v1\\tiny_session_check.py",
+    "analyze.py": "experiments\\2b-standalone-cost-v1\\analyze.py"
+  },
+  "input_source": "runs\\video_input_cpu_prepare_20261024_01\\inputs",
+  "old_paths_modified": false,
+  "remote_deployed": false,
+  "GPU_run": false
+}

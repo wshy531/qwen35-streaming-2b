@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "raw_SHA256": {
+    "answers.jsonl": "c59450c7a8ed35c98da13b88815d1bb3b573019e81c6b76daff2452daa0cc303",
+    "events.jsonl": "70931e2ef122847fad4441254711ac743f72475ec0e88bee71874e1c347fda19",
+    "tokens.jsonl": "71d14d2a77963ed6234e354d80d7807bbadec8a78e445467b2ec8faf42c9ccdd",
+    "loaded.json": "51bcb0b297dbe6501f164a3bbad460b2bbd61f44e199ddf68bd67d538b40d6b5",
+    "completed.json": "fd7685d8a851270434a7c266762b90fd8547b25a66ba439fb5f952c84999f96b"
+  },
+  "answers": 909,
+  "token_callbacks": 1922,
+  "source_protocol_groups": 112,
+  "old_generated_ID_matches": 303,
+  "weight_loads": 1,
+  "archive_and_main_isolation_recorded_all": true,
+  "visual_token_counts_all_match": true,
+  "primary269_change24_cluster_delta": {
+    "odd24": {
+      "delta_pp": 1.858736059479554,
+      "percentile95_pp": [
+        -1.8867924528301887,
+        5.426356589147287
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    },
+    "mix24": {
+      "delta_pp": 2.973977695167286,
+      "percentile95_pp": [
+        -0.3875968992248062,
+        6.185567010309279
+      ],
+      "media_SHA_clusters": 106,
+      "note": "media groups, not verified independent filming sessions; opened development only"
+    }
+  },
+  "answer_results_SHA256": "4827efd76f07465cfaf3efd4e7bf1d9eb3f6457e7f5dae96d9aed3e603c4ac1f"
+}

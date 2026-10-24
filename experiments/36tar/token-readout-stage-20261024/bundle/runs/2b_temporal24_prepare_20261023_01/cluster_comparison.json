@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "matched_fields": [
+    "status",
+    "selection_contract",
+    "layouts",
+    "context_layouts",
+    "tiny_QA",
+    "protocol_sha256",
+    "actual_RGB_frames",
+    "actual_main_vision_calls",
+    "snapshot_only_vision_calls"
+  ],
+  "layouts": 909,
+  "cluster_seconds": 60.940442465245724,
+  "cluster_RSS_bytes": 991604736,
+  "cluster_CPU_SHA256": "8f38f15b940e0332d66bc65cb9d9adfd6dcffd0e1b191b2d4a093a5d817a70be",
+  "execution_lock_SHA256": "3f2aa7ed6219eb96d18d476cf680e5ebfd22501432accbc2de75bd5659a33516",
+  "GPU_submissions": 0
+}
