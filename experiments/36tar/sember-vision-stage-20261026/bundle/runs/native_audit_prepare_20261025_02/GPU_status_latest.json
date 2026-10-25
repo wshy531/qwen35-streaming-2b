@@ -1,0 +1,136 @@
+{
+  "job_id": "218645",
+  "queue": "",
+  "accounting": "218645|COMPLETED|0:0|00:16:35|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n218645.batch|COMPLETED|0:0|00:16:35|cpu=4,gres/gpu=1,mem=24G,node=1\n218645.extern|COMPLETED|0:0|00:16:35|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "progress": {
+    "A_official540_default_video": {
+      "answers": 24,
+      "startup": {
+        "condition": "A_official540_default_video",
+        "identity": {
+          "transformers_version": "5.4.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 2.1855782866477966,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "completed": {
+        "status": "complete",
+        "condition": "A_official540_default_video",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 397.543338464573,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 26774478336,
+        "last_RSS_bytes": 2628612096
+      }
+    },
+    "B0_official530_matched_pairs": {
+      "answers": 24,
+      "startup": {
+        "condition": "B0_official530_matched_pairs",
+        "identity": {
+          "transformers_version": "5.3.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/qwen35-2b-fp32/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 1.9900294970721006,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "completed": {
+        "status": "complete",
+        "condition": "B0_official530_matched_pairs",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 272.01699600182474,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 25846082560,
+        "last_RSS_bytes": 2531704832
+      }
+    },
+    "B_official540_matched_pairs": {
+      "answers": 24,
+      "startup": {
+        "condition": "B_official540_matched_pairs",
+        "identity": {
+          "transformers_version": "5.4.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 2.1572907250374556,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "completed": {
+        "status": "complete",
+        "condition": "B_official540_matched_pairs",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 257.9540105778724,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 25845969920,
+        "last_RSS_bytes": 2516267008
+      }
+    }
+  },
+  "parent_completed": {
+    "status": "complete",
+    "job_id": "218645",
+    "conditions": 3,
+    "formal_answers": 72,
+    "warmup_answers": 3,
+    "pretrained_loads": 3
+  },
+  "console_tail": "The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\nLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\nLoading weights:   0%|          | 1/617 [00:01<11:59,  1.17s/it]\nLoading weights:  39%|███▊      | 238/617 [00:01<00:01, 256.02it/s]\nLoading weights:  59%|█████▉    | 364/617 [00:01<00:00, 295.74it/s]\nLoading weights:  80%|████████  | 496/617 [00:01<00:00, 424.75it/s]\nLoading weights:  99%|█████████▉| 610/617 [00:01<00:00, 524.98it/s]\nLoading weights: 100%|██████████| 617/617 [00:01<00:00, 337.19it/s]\nThe fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\nLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\nLoading weights:   0%|          | 1/617 [00:01<12:14,  1.19s/it]\nLoading weights:  39%|███▊      | 238/617 [00:01<00:01, 252.92it/s]\nLoading weights:  60%|██████    | 371/617 [00:01<00:00, 307.83it/s]\nLoading weights:  80%|████████  | 496/617 [00:01<00:00, 427.01it/s]\nLoading weights:  99%|█████████▉| 610/617 [00:01<00:00, 528.11it/s]\nLoading weights: 100%|██████████| 617/617 [00:01<00:00, 337.84it/s]\nThe fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\nLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\nLoading weights:   0%|          | 1/617 [00:01<11:33,  1.13s/it]\nLoading weights:  41%|████      | 252/617 [00:01<00:01, 283.09it/s]\nLoading weights:  65%|██████▍   | 399/617 [00:01<00:00, 359.61it/s]\nLoading weights:  88%|████████▊ | 544/617 [00:01<00:00, 509.10it/s]\nLoading weights: 100%|██████████| 617/617 [00:01<00:00, 368.78it/s]\n"
+}

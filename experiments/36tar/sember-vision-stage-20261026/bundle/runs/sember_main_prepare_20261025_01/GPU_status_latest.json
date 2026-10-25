@@ -1,0 +1,50 @@
+{
+  "job_id": "218526",
+  "queue": "",
+  "accounting": "218526|COMPLETED|0:0|02:34:29|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n218526.batch|COMPLETED|0:0|02:34:29|cpu=4,gres/gpu=1,mem=24G,node=1\n218526.extern|COMPLETED|0:0|02:34:29|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "progress": {
+    "bounded": {
+      "startup": {
+        "mode": "bounded",
+        "pretrained_loads": 1,
+        "load_seconds": 3.859977612271905,
+        "warmup_answers": 11,
+        "warmup_generated_tokens": 141,
+        "warmup_encodings": 1,
+        "media_integrity_seconds": 47.006911220029,
+        "model_baseline_allocated_bytes": 8862552576
+      },
+      "completed": true,
+      "last_complete_source": {
+        "video_id": "991249069761458_start_0.0_end_600.042",
+        "source_index": 128,
+        "answers": 5258,
+        "generated_tokens": 10516,
+        "vision_encodings": 14678,
+        "wall_seconds": 5194.7276894412935
+      }
+    },
+    "reference": {
+      "startup": {
+        "mode": "reference",
+        "pretrained_loads": 1,
+        "load_seconds": 3.886398943141103,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 16,
+        "warmup_encodings": 1,
+        "media_integrity_seconds": 20.037064615637064,
+        "model_baseline_allocated_bytes": 8862552576
+      },
+      "completed": true,
+      "last_complete_source": {
+        "video_id": "991249069761458_start_0.0_end_600.042",
+        "source_index": 128,
+        "answers": 478,
+        "generated_tokens": 956,
+        "vision_encodings": 14678,
+        "wall_seconds": 3969.834448231384
+      }
+    }
+  },
+  "console_tail": "ce', 'completed_sources': 93, 'answers': 339, 'encodings': 10650}\n{'mode': 'reference', 'completed_sources': 94, 'answers': 342, 'encodings': 10796}\n{'mode': 'reference', 'completed_sources': 95, 'answers': 346, 'encodings': 10934}\n{'mode': 'reference', 'completed_sources': 96, 'answers': 351, 'encodings': 11073}\n{'mode': 'reference', 'completed_sources': 97, 'answers': 354, 'encodings': 11176}\n{'mode': 'reference', 'completed_sources': 98, 'answers': 358, 'encodings': 11316}\n{'mode': 'reference', 'completed_sources': 99, 'answers': 362, 'encodings': 11390}\n{'mode': 'reference', 'completed_sources': 100, 'answers': 367, 'encodings': 11509}\n{'mode': 'reference', 'completed_sources': 101, 'answers': 372, 'encodings': 11648}\n{'mode': 'reference', 'completed_sources': 102, 'answers': 377, 'encodings': 11781}\n{'mode': 'reference', 'completed_sources': 103, 'answers': 383, 'encodings': 11899}\n{'mode': 'reference', 'completed_sources': 104, 'answers': 389, 'encodings': 12176}\n{'mode': 'reference', 'completed_sources': 105, 'answers': 392, 'encodings': 12257}\n{'mode': 'reference', 'completed_sources': 106, 'answers': 396, 'encodings': 12400}\n{'mode': 'reference', 'completed_sources': 107, 'answers': 399, 'encodings': 12475}\n{'mode': 'reference', 'completed_sources': 108, 'answers': 405, 'encodings': 12547}\n{'mode': 'reference', 'completed_sources': 109, 'answers': 408, 'encodings': 12637}\n{'mode': 'reference', 'completed_sources': 110, 'answers': 410, 'encodings': 12667}\n{'mode': 'reference', 'completed_sources': 111, 'answers': 413, 'encodings': 12731}\n{'mode': 'reference', 'completed_sources': 112, 'answers': 415, 'encodings': 12804}\n{'mode': 'reference', 'completed_sources': 113, 'answers': 419, 'encodings': 12925}\n{'mode': 'reference', 'completed_sources': 114, 'answers': 424, 'encodings': 13064}\n{'mode': 'reference', 'completed_sources': 115, 'answers': 427, 'encodings': 13116}\n{'mode': 'reference', 'completed_sources': 116, 'answers': 431, 'encodings': 13164}\n{'mode': 'reference', 'completed_sources': 117, 'answers': 437, 'encodings': 13253}\n{'mode': 'reference', 'completed_sources': 118, 'answers': 441, 'encodings': 13342}\n{'mode': 'reference', 'completed_sources': 119, 'answers': 443, 'encodings': 13434}\n{'mode': 'reference', 'completed_sources': 120, 'answers': 448, 'encodings': 13576}\n{'mode': 'reference', 'completed_sources': 121, 'answers': 451, 'encodings': 13709}\n{'mode': 'reference', 'completed_sources': 122, 'answers': 453, 'encodings': 13822}\n{'mode': 'reference', 'completed_sources': 123, 'answers': 455, 'encodings': 13961}\n{'mode': 'reference', 'completed_sources': 124, 'answers': 459, 'encodings': 14034}\n{'mode': 'reference', 'completed_sources': 125, 'answers': 464, 'encodings': 14180}\n{'mode': 'reference', 'completed_sources': 126, 'answers': 470, 'encodings': 14469}\n{'mode': 'reference', 'completed_sources': 127, 'answers': 473, 'encodings': 14565}\n{'mode': 'reference', 'completed_sources': 128, 'answers': 478, 'encodings': 14678}\n"
+}

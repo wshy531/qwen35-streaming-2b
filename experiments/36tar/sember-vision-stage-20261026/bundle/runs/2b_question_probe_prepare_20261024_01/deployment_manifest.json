@@ -1,0 +1,23 @@
+{
+  "bytes": 1617920,
+  "sha256": "4af9ee48e70fccfbdcd556a2d389bcd8ae40f879d2d8a48c3089ebadaa6ade2d",
+  "files": {
+    "experiments/2b-question-probe-v1/analyze.py": "7c53cc4bac4a153404cd55720b752f77cebc9276b8c7514027a404349ab39a91",
+    "experiments/2b-question-probe-v1/audit_and_decide.py": "3181cb02e3ecf62c7027d26bcd25404f6b256615fb3fd65ec09005694ffe3092",
+    "experiments/2b-question-probe-v1/banks.py": "161728db7ac3b2e7901ddc8315b89abb631730203b8e316294de77ecebe5a0ec",
+    "experiments/2b-question-probe-v1/common.py": "9e2e04a839042e9ccae3de4010e9917cc68b339428616cb36eb33648b82fdcba",
+    "experiments/2b-question-probe-v1/evaluate.py": "e0d8d366915e90700efe7ee96e4e6e98d0ec933312ea1c797f7318e74edfe0ac",
+    "experiments/2b-question-probe-v1/freeze.py": "180a544559ca63cbb4001de7c3704e301e92c03cb7c3bf8eab742c7db4132890",
+    "experiments/2b-question-probe-v1/preflight.py": "c37cb8f0e033090a1c3be021af0ae00213418519a6d936b6a0719994f78c7ab2",
+    "experiments/2b-question-probe-v1/probe.py": "813d36118c1b6e49e91678da20177c34aad80fb3258c180deebf3285649dc464",
+    "experiments/2b-question-probe-v1/README.md": "41c9f332faf78a473ff30a71a08766b3098226d2e0a103958ea5f5250bb26d25",
+    "experiments/2b-question-probe-v1/run_eval.sh": "522aa8602aac874d4b9b8561170e8594c017205adcec0d5f2525bfecfa529d9d",
+    "experiments/2b-question-probe-v1/session.py": "eb73316d14f50391fcbd3ee3d5a56b9290ffac6ec163254132b856a0bb2ce66c",
+    "experiments/2b-question-probe-v1/tiny_session_check.py": "46684e5ab92bac2f4c8dd9a8f62d2d441eac894e5733784fbe6aa29d068dbeb5",
+    "runs/2b_question_probe_prepare_20261024_01/inputs/execution_lock.json": "1320401aec52ae9de583568174843306d7166456fa026af12f06f02be2bc3349",
+    "runs/2b_question_probe_prepare_20261024_01/inputs/groups.json": "0d5053b5ce3a0c4d172e98eacafe243f0768ed18f8bda7f824127fec2ff7db16",
+    "runs/2b_question_probe_prepare_20261024_01/inputs/protocol.json": "76377ab485d2dcda0b144efabc873aef91de290b9178490cf65a679f6083c8e5",
+    "runs/2b_question_probe_prepare_20261024_01/inputs/questions.json": "8fd8009f64e2038510179802fd2d606c195fdb4c2161960c9c89c1f66405f3d4",
+    "runs/2b_question_probe_prepare_20261024_01/inputs/snapshots34.json": "67494d1fb9bb347daf49a19eb4ee58d1c17f4f3541a4f11863475611bafb16e9"
+  }
+}

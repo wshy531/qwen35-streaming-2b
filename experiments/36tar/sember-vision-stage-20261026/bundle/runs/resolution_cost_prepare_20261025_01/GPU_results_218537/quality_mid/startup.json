@@ -1,0 +1,23 @@
+{
+  "task": {
+    "name": "quality_mid",
+    "kind": "quality",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "M0_mid108",
+      "M2_mid108",
+      "A06_mid108",
+      "LS_mid108"
+    ],
+    "videos": null
+  },
+  "load_seconds": 4.1119532329030335,
+  "integrity_seconds": 46.29740240890533,
+  "pretrained_loads": 1,
+  "warmup_answers": 4,
+  "warmup_generated_tokens": 64,
+  "warmup_encodings": 1
+}

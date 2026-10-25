@@ -1,0 +1,98 @@
+[
+  {
+    "video_id": "1596617847671078_start_0.0_end_600.128",
+    "fraction": 0.1,
+    "pair_index": 15,
+    "query_time": 62,
+    "first_sample_time": 60,
+    "second_sample_time": 62
+  },
+  {
+    "video_id": "1596617847671078_start_0.0_end_600.128",
+    "fraction": 0.5,
+    "pair_index": 75,
+    "query_time": 302,
+    "first_sample_time": 300,
+    "second_sample_time": 302
+  },
+  {
+    "video_id": "1596617847671078_start_0.0_end_600.128",
+    "fraction": 0.9,
+    "pair_index": 135,
+    "query_time": 542,
+    "first_sample_time": 540,
+    "second_sample_time": 542
+  },
+  {
+    "video_id": "1483653685963589_start_0.0_end_300.0",
+    "fraction": 0.1,
+    "pair_index": 7,
+    "query_time": 30,
+    "first_sample_time": 28,
+    "second_sample_time": 30
+  },
+  {
+    "video_id": "1483653685963589_start_0.0_end_300.0",
+    "fraction": 0.5,
+    "pair_index": 37,
+    "query_time": 150,
+    "first_sample_time": 148,
+    "second_sample_time": 150
+  },
+  {
+    "video_id": "1483653685963589_start_0.0_end_300.0",
+    "fraction": 0.9,
+    "pair_index": 67,
+    "query_time": 270,
+    "first_sample_time": 268,
+    "second_sample_time": 270
+  },
+  {
+    "video_id": "9999393136796400_start_0.0_end_599.969",
+    "fraction": 0.1,
+    "pair_index": 14,
+    "query_time": 58,
+    "first_sample_time": 56,
+    "second_sample_time": 58
+  },
+  {
+    "video_id": "9999393136796400_start_0.0_end_599.969",
+    "fraction": 0.5,
+    "pair_index": 74,
+    "query_time": 298,
+    "first_sample_time": 296,
+    "second_sample_time": 298
+  },
+  {
+    "video_id": "9999393136796400_start_0.0_end_599.969",
+    "fraction": 0.9,
+    "pair_index": 134,
+    "query_time": 538,
+    "first_sample_time": 536,
+    "second_sample_time": 538
+  },
+  {
+    "video_id": "736867785903229_start_0.0_end_300.0",
+    "fraction": 0.1,
+    "pair_index": 7,
+    "query_time": 30,
+    "first_sample_time": 28,
+    "second_sample_time": 30
+  },
+  {
+    "video_id": "736867785903229_start_0.0_end_300.0",
+    "fraction": 0.5,
+    "pair_index": 37,
+    "query_time": 150,
+    "first_sample_time": 148,
+    "second_sample_time": 150
+  },
+  {
+    "video_id": "736867785903229_start_0.0_end_300.0",
+    "fraction": 0.9,
+    "pair_index": 67,
+    "query_time": 270,
+    "first_sample_time": 268,
+    "second_sample_time": 270
+  }
+]

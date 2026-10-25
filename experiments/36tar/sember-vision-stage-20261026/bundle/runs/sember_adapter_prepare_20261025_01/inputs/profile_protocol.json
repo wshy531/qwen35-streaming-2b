@@ -1,0 +1,49 @@
+{
+  "stage": "development_interface_and_cost_profile",
+  "formal_test": false,
+  "queries": 8,
+  "source_videos": 5,
+  "bounded_arms": [
+    "M0_full108_8",
+    "M0_odd54_16",
+    "M0_change54_16",
+    "M2_full108",
+    "M2_change54",
+    "A06_full108",
+    "A06_change54",
+    "LS_full108",
+    "LS_change54",
+    "M0_odd54_8",
+    "M0_change54_8"
+  ],
+  "separate_reference": "R_all_history_stream",
+  "bounded_answers": 88,
+  "reference_answers": 8,
+  "warmup_answers": 12,
+  "answers_upper": 108,
+  "generation_tokens_upper": 1728,
+  "pairs_per_process": 720,
+  "total_vision_encodings_including_warmup": 1442,
+  "pretrained_loads": 2,
+  "canvas": [
+    288,
+    384
+  ],
+  "sampling_FPS": 0.5,
+  "greedy_max_new_tokens": 16,
+  "GPU_budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "system_RAM_GiB": 24,
+    "minutes": 30
+  },
+  "logs_limit_bytes": 67108864,
+  "automatic_retries": false,
+  "GPU_authorized": false,
+  "labels_in_worker": false,
+  "official_selection_lock_SHA": "2a0c2a766f53092fb15a7c8683697a43b4610c8436a835d340274ea6269661d3",
+  "standalone_cost_claim": false,
+  "not_wallclock_1x": true
+}

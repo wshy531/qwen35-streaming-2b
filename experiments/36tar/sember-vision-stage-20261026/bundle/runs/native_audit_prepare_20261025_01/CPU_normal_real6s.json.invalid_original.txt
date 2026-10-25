@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "identity": {
+    "transformers_version": "5.4.0",
+    "model_source": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\models\\qwen3_5\\modeling_qwen3_5.py",
+    "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+    "project_model_or_streaming_imported": false
+  },
+  "input": {
+    "protocol": "official_saved_default_video",
+    "fps": 12.0,
+    "prefix_source_frames": 73,
+    "selected_frame_indices": [
+      0,
+      7,
+      13,
+      20,
+      26,
+      33,
+      39,
+      46,
+      52,
+      59,
+      65,
+      72
+    ],
+    "selected_frames": 12,
+    "frames_sha256_records": [
+      {
+        "frame_id": 0,
+        "pts_s": 0.0,
+        "rgb_sha256": "dbd1bf3b32953662269877ee80f75c6979cf3ff1f32ba76225903468255dc633"
+      },
+      {
+        "frame_id": 7,
+        "pts_s": 0.5833333333333334,
+        "rgb_sha256": "8642737afd39ee927b8d002241f05c8b3e94a1956c8ec14dde9b761d5a3419dd"
+      },
+      {
+        "frame_id": 13,
+        "pts_s": 1.0833333333333333,
+        "rgb_sha256": "929695c537a6251743d5f53d939bdb9a34c260423b217b48b4de0189265d69b3"
+      },
+      {
+        "frame_id": 20,
+        "pts_s": 1.6666666666666667,
+        "rgb_sha256": "7d25cf928a133f936039b72443232f34f539dcf2baf8e79bd1b6c286c6563864"
+      },
+      {
+        "frame_id": 26,
+        "pts_s": 2.1666666666666665,
+        "rgb_sha256": "2fe981ed9d340d7608bea6305a3175610e5a74aeb5cafa49091a37f2495a413b"
+      },
+      {
+        "frame_id": 33,
+        "pts_s": 2.75,
+        "rgb_sha256": "cc44ba9b7cc787203a51033d4e337f6bdec29840c4c3645f4490f07666792dd1"
+      },
+      {
+        "frame_id": 39,
+        "pts_s": 3.25,
+        "rgb_sha256": "f86f0ce02addf8ffb4eccf00c2351a965175bd09b09cd82edad2267a632e853d"
+      },
+      {
+        "frame_id": 46,
+        "pts_s": 3.8333333333333335,
+        "rgb_sha256": "82563e8c5f0b5464735e7fe432f4563568b64ae3f592ade924ef977e1f743ce0"
+      },
+      {
+        "frame_id": 52,
+        "pts_s": 4.333333333333333,
+        "rgb_sha256": "54b453417aac2ccfa5d86bfee8eb9b1829257f0aeafa2d4e3bcffd31c9a84155"
+      },
+      {
+        "frame_id": 59,
+        "pts_s": 4.916666666666667,
+        "rgb_sha256": "f3af96cab9c818c323fe2402d354dc76a83476bac6fac874d6f66ae50972e2b1"
+      },
+      {
+        "frame_id": 65,
+        "pts_s": 5.416666666666667,
+        "rgb_sha256": "9cb4f04a0ebc25c0d4bb90e0001997057448a4d3c542dd60621f20468f23359d"
+      },
+      {
+        "frame_id": 72,
+        "pts_s": 6.0,
+        "rgb_sha256": "4d751003e4b3c936cc2bf88507644313bf7ccdb02b1a25f3520b176763129a96"
+      }
+    ],
+    "input_ids_sha256": "5dd314388910042eee3c067b79d3090373fa8bd30d33dafd16a841b916952085",
+    "pixels_sha256": "2fb99e172e757fbc162ce4803dc66f37ffd16a072c75e0f85a5bcc7593a2f74f",
+    "grid": [
+      [
+        6,
+        60,
+        44
+      ]
+    ],
+    "input_tokens": 4110,
+    "visual_tokens": 3960,
+    "official_sampler_fps": 2,
+    "official_sampler_max_frames": 768,
+    "official_size": 

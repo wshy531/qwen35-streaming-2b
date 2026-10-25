@@ -1,0 +1,188 @@
+{
+  "reports": {
+    "remote_source_preflight.json": {
+      "status": "passed",
+      "runtime_files": 171,
+      "source_files_SHA_verified": 5,
+      "RGB_PTS_prefixes_match_local": true,
+      "decoder_modes_checked": [
+        "auto4",
+        "slice1"
+      ],
+      "pretrained_loads": 0,
+      "GPU_jobs": 0,
+      "media_access": "read-only exact user-provided partner snapshot",
+      "execution_lock_SHA": "93992df9ede4a68924a637b7f9fa066540cfb50ac1239e239087b5e51552c455"
+    },
+    "core_preflight.json": {
+      "status": "passed",
+      "old_48_layout_step_comparisons": 576,
+      "high_resolution_pair_steps": 160,
+      "peaks_visual_tokens": {
+        "M0_full108_8": 864,
+        "M0_odd54_16": 864,
+        "M0_change54_16": 864,
+        "M2_full108": 864,
+        "M2_change54": 810,
+        "A06_full108": 864,
+        "A06_change54": 810,
+        "LS_full108": 864,
+        "LS_change54": 864,
+        "M0_odd54_8": 432,
+        "M0_change54_8": 432
+      },
+      "max_merge_depth_exercised": 32,
+      "export_isolation": true,
+      "zero_vector_stable_selection": true,
+      "dynamic_grid_sort_and_mass": true,
+      "previous_full_pair_bytes_FP32_2048": 884736,
+      "pretrained_loads": 0,
+      "GPU_jobs": 0,
+      "no_capability_or_speed_claim": true,
+      "old_source_SHA": {
+        "experiments/2b-compressed-banks-v1/policy_adapters.py": "05ec4ef7cf5aeac46e96b6e9b60cf585a2dcb22bfe8ce3bd9372123e6b6e54a3",
+        "experiments/2b-natural-eval-v1/forest.py": "7763dfd40a8f6953aed17c79006465d497ba75abaaf8251b549eb9a6bd8c0656",
+        "experiments/2b-ls-depth-v1/shared.py": "4cdae0367d12572a74e222d5693c8aedf0d8edc1eded65dafaacf726836401e3"
+      }
+    },
+    "tiny_session_check.json": {
+      "status": "passed",
+      "real_frames": 7,
+      "grid": [
+        9,
+        12
+      ],
+      "visual_tokens_per_pair": 108,
+      "bounded_answers": 12,
+      "reference_answers": 1,
+      "QA": [
+        {
+          "arm": "M0_full108_8",
+          "input_tokens": 248,
+          "visual_tokens": 216,
+          "generated": [
+            37597,
+            102850
+          ]
+        },
+        {
+          "arm": "M0_odd54_16",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            95280
+          ]
+        },
+        {
+          "arm": "M0_change54_16",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            3824
+          ]
+        },
+        {
+          "arm": "M2_full108",
+          "input_tokens": 248,
+          "visual_tokens": 216,
+          "generated": [
+            37597,
+            102850
+          ]
+        },
+        {
+          "arm": "M2_change54",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            3824
+          ]
+        },
+        {
+          "arm": "A06_full108",
+          "input_tokens": 248,
+          "visual_tokens": 216,
+          "generated": [
+            37597,
+            102850
+          ]
+        },
+        {
+          "arm": "A06_change54",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            3824
+          ]
+        },
+        {
+          "arm": "LS_full108",
+          "input_tokens": 248,
+          "visual_tokens": 216,
+          "generated": [
+            37597,
+            102850
+          ]
+        },
+        {
+          "arm": "LS_change54",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            3824
+          ]
+        },
+        {
+          "arm": "M0_odd54_8",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            95280
+          ]
+        },
+        {
+          "arm": "M0_change54_8",
+          "input_tokens": 140,
+          "visual_tokens": 108,
+          "generated": [
+            122015,
+            3824
+          ]
+        }
+      ],
+      "max_real_question_suffix_tokens": 486,
+      "all_11_arms_stream_callbacks": true,
+      "all_banks_unchanged": true,
+      "post_QA_continuation": true,
+      "bounded_no_main_KV": true,
+      "reference_no_feature_archive": true,
+      "reference_cache_SHA_unchanged": true,
+      "full_bank_and_reference_same_short_answer": true,
+      "EOF_tail_finalizes": true,
+      "pretrained_loads": 0,
+      "random_tiny_model_loads": 1,
+      "GPU_jobs": 0,
+      "no_capability_or_speed_claim": true
+    }
+  },
+  "own_queue": "",
+  "selected_Slurm_environment": {},
+  "SBATCH": [
+    "#SBATCH --job-name=2b-sember-profile",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=00:30:00",
+    "#SBATCH --no-requeue"
+  ]
+}

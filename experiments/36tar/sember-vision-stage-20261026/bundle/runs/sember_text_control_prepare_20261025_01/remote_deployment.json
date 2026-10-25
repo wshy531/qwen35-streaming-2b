@@ -1,0 +1,22 @@
+{
+  "status": "deployed_new_files",
+  "files_sha256": {
+    "experiments/2b-text-control-v1/analyze.py": "b5b05a3ab8f6bf48af08d9eaee5cbba8fd427079db1db4839a9ceead6e432f09",
+    "experiments/2b-text-control-v1/evaluate.py": "96cadd4b787c68a2db7a6dbf0cf9f38d003fdeaf0581272d1fae4fbdd854f9d6",
+    "experiments/2b-text-control-v1/freeze.py": "57f58146dee251940c5c55ed67cf6ab2e6d7273a2bcd5f63ecc5854152af46dd",
+    "experiments/2b-text-control-v1/prepare.py": "d01605a689718729b72c68ba9895de67f864f9ce62a4aa8b6bffe8f271d87d1a",
+    "experiments/2b-text-control-v1/README.md": "ad01fc26c212d46471166dc37415d861ca2aa34ae42122587e056eeca650d086",
+    "experiments/2b-text-control-v1/run_eval.sh": "964a3ef20185862b637a3a6ce0c06273c6dea58e6e640c54e8991468daaf4c13",
+    "experiments/2b-text-control-v1/text_common.py": "51996c2c3bdc67752f741a82e529fa538838efa26a01f79b9aeda5e7c5e71511",
+    "experiments/2b-text-control-v1/text_inference.py": "9154fc7661595f6615750743cb2a73354ecd9f315c6d5fea3407a529aa74776a",
+    "runs/sember_text_control_prepare_20261025_01/inputs/execution_lock.json": "1c4af7d112afdfdd2f901a1e0e79058e9bc8b51de17305f2fbfc42c9de200469",
+    "runs/sember_text_control_prepare_20261025_01/inputs/protocol.json": "d0b403680107a40d7c70bbb1a6ab3face22c97239ecf0bb83d7dcf401d071924",
+    "runs/sember_text_control_prepare_20261025_01/inputs/requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+    "runs/sember_text_control_prepare_20261025_01/inputs/text_specs.json": "9e4452b6631f6885e73c45a27e9868ce0059e5d31229fab0cc90070d0fc60dff",
+    "runs/sember_text_control_prepare_20261025_01/local_CPU_preflight.json": "3d1db013c8f4a8d160108d000272de7c184bb0b6ad23c4a92e17b8c916d72c32",
+    "scripts/analyze_sember_main.py": "8812730e751bb98c9a6a70ae679a5a26dfd5be4e9d38825fe7c963cb88c6b5d2"
+  },
+  "bytes": 1669120,
+  "no_local_tar_copy": true,
+  "GPU_jobs": 0
+}

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "condition": "B0_official530_matched_pairs",
+  "answers": 24,
+  "generated_tokens": 96,
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 6,
+  "pretrained_loads": 1,
+  "wall_seconds": 272.01699600182474,
+  "vision_encodings": 24,
+  "warmup_encodings": 1,
+  "CUDA_peak_allocated_bytes": 25846082560,
+  "last_RSS_bytes": 2531704832
+}

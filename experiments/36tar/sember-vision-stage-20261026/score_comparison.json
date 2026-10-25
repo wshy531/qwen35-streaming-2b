@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "main_and_resolution_conditions": 25,
+  "native_correct": {
+    "A_official540_default_video": 5,
+    "B0_official530_matched_pairs": 9,
+    "B_official540_matched_pairs": 9
+  },
+  "all_content_format_counts_match": true
+}

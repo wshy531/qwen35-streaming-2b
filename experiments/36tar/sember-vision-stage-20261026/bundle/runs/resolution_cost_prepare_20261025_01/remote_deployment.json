@@ -1,0 +1,32 @@
+{
+  "status": "deployed_new_files_only",
+  "files_sha256": {
+    "experiments/2b-resolution-cost-v1/analyze.py": "91bc33cf01b7b99df6f4b202d19d7ff7241bcd9d83b37d05c986b7ae1332eda4",
+    "experiments/2b-resolution-cost-v1/evaluate.py": "70557d86599ec357bc3fa5e56a7156a4c94f4bf27a96b67a660f61ef3d8d1124",
+    "experiments/2b-resolution-cost-v1/freeze.py": "684d1743f658858bc38d8610aad07e9f7f0de780add34a24f764f4b941fefb82",
+    "experiments/2b-resolution-cost-v1/launch.py": "7f44ebca992437ba1b2fda11653b49e183eff78a6d96984e9188874e0bb246bb",
+    "experiments/2b-resolution-cost-v1/preflight.py": "c86a09e76dba1f900990a0949923ce8f24d15bc01068abc0db624c086a7c654b",
+    "experiments/2b-resolution-cost-v1/prepare.py": "89b5e49eeff60fe93be819ea38986166e24ae3afc9773cb248c9dd8add6374e6",
+    "experiments/2b-resolution-cost-v1/README.md": "333468d3d1f5ca70d67c8c6f26c329a5ec40d2fefb5eadb8bd73600421563946",
+    "experiments/2b-resolution-cost-v1/resolution_banks.py": "c216b5ff84de87a4e2b4ba690d8a53f01a1a37eac998c85040a73a9f187ecc9d",
+    "experiments/2b-resolution-cost-v1/resolution_banks_base.py": "3ad15863022964ba65b1a824e546672a3415445021fcbe9b49557216c53d83cd",
+    "experiments/2b-resolution-cost-v1/resolution_common.py": "b46fec98119303adcdc7398fd3cb3e8581f14acc63cd0ea48272ddc52db61322",
+    "experiments/2b-resolution-cost-v1/resolution_nodes.py": "37a3ad5aa63efc9e1bfee9b067898df8ce074ae3627dc9e0d66d0396da1b3a59",
+    "experiments/2b-resolution-cost-v1/resolution_runtime.py": "18f54f851fa2d0cb36e8992218685f6c5cc4a2e719d13043633fe638829e1c83",
+    "experiments/2b-resolution-cost-v1/resolution_session.py": "d366c57cd1a9ac2dd856be87e139be1678495d61fc02e718647c1b498d5ee9b9",
+    "experiments/2b-resolution-cost-v1/resolution_source.py": "e34203dbbb524997e9f77467fd3325db6cd8ae0da86b5a2890321d3e8edbc027",
+    "experiments/2b-resolution-cost-v1/run_eval.sh": "f31d251167d29b038f18d0b6bc9f1d70f147ea8523f4e4af6f889b4cfa037f22",
+    "runs/resolution_cost_prepare_20261025_01/inputs/execution_lock.json": "a1be13d41c7e7a67e794a0477e84522cc32ef04ec6f55c61a603f56a4d9a00d3",
+    "runs/resolution_cost_prepare_20261025_01/inputs/expected_mid_prefixes.json": "951eeca280d2bf401a5cfdb0c021b5bd23d02684ef5c885c0a47c9bef383865f",
+    "runs/resolution_cost_prepare_20261025_01/inputs/protocol.json": "efd44f39817a194fc22cf24653163a294a6e2f624ff0282b7624876d5ce04fd9",
+    "runs/resolution_cost_prepare_20261025_01/inputs/requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+    "runs/resolution_cost_prepare_20261025_01/inputs/tasks.json": "9a62f373d86744fede327c2bc720f9669ca532b750565d8bb4c7d8c7e8aa4ee8",
+    "runs/resolution_cost_prepare_20261025_01/inputs/videos.json": "07c84e5ae7c1a6b9a0b941c0d8e4fa841bab5cacfb9956675f9cb48664b0d236",
+    "runs/resolution_cost_prepare_20261025_01/adapter_derivation.json": "d54ed499c0dd3a00c2d86cb0e9b9a9486d1761c789725ba2aa97a362618fd690",
+    "runs/resolution_cost_prepare_20261025_01/local_CPU_preflight.json": "571e09848ac8176e7dbeb2faf1e3f707e5aa0b3b795a3109dcbd2412185f32e3",
+    "runs/resolution_cost_prepare_20261025_01/selection_receipt.json": "496f4e25071bcbe39c8255eb698b28723ef12c83bbb3e14b2dc6c39603675eb4"
+  },
+  "bundle_bytes": 890880,
+  "no_local_tar_copy": true,
+  "GPU_jobs": 0
+}

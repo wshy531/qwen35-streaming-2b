@@ -1,0 +1,34 @@
+{
+  "method": "component scaling from fixed eight-query dev profile, NOT a time guarantee or confidence interval",
+  "estimated_seconds_by_mode": {
+    "bounded": 5242.953606306441,
+    "reference": 4094.961804959654
+  },
+  "estimated_total_hours": 2.5938653920183596,
+  "components_seconds": {
+    "bounded": {
+      "source": 1419.3549510449325,
+      "preprocess_and_vision": 611.6227851966914,
+      "update": 671.0252251364136,
+      "QA": 2382.4690611143596,
+      "audit": 112.54276431025937,
+      "other": 45.93881950378418
+    },
+    "reference": {
+      "source": 1435.3581112281915,
+      "preprocess_and_vision": 522.4251413811412,
+      "update": 1639.564806129889,
+      "QA": 72.14783705817536,
+      "audit": 381.7843969971873,
+      "other": 43.68151216506958
+    }
+  },
+  "formal_decoded_frames": 703860,
+  "formal_answers": 5736,
+  "formal_vision_calls_with_warmup": 29358,
+  "longest_formal_full_prefix_tokens": 35425,
+  "longest_formal_QA_input_tokens": 35564,
+  "all_formal_generated_16_instead_of_observed_2_extra_bounded_decode_seconds": 1728.9052628073841,
+  "needs_additional_runtime_margin": true,
+  "not_GPU_authorization": true
+}

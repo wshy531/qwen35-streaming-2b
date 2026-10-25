@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "same_random_weights_sha256": "f4557eee4dce5c1ef6ac2292b16995f08c6d517f89fb3cd312a84cb31b0dcb6e",
+  "max_abs_logit_error": 5.960464477539063e-08,
+  "native_argmax": 37597,
+  "stream_argmax": 37597,
+  "grid": [
+    9,
+    12
+  ],
+  "real_frames": 4,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "scope": "random CPU tiny original-native versus continued new-grid path only"
+}

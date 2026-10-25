@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "formal_answers": 909,
+  "probes": 303,
+  "streamed_tokens": 1848,
+  "historical_replay": 606,
+  "QA_seconds": {
+    "LS_full48": 90.76819146797061,
+    "LS_read24": 52.46757480688393,
+    "LS_probe24": 64.96874964050949
+  },
+  "probe_seconds": 9.070190010592341,
+  "quality_gate_vs_full": false,
+  "net_recovery_vs_odd_gate": true,
+  "QA_reduction_including_probe": 0.28423439324077504,
+  "engineering_gate": true,
+  "eligible": false,
+  "default_enabled": false,
+  "independent_test_performed": false,
+  "decision": "close first version; no layer/formula/ratio sweep",
+  "limitations": [
+    "all303 are opened development, not new-source proof",
+    "no net loss does not mean per-question losslessness or statistical noninferiority",
+    "shared vision costs do not establish independent end-to-end speed",
+    "bank storage remains384; no persistent observation-main KV",
+    "ranking cannot recover information lost during bank storage/merging"
+  ]
+}

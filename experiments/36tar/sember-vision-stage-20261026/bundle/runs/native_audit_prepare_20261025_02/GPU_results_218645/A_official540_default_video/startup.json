@@ -1,0 +1,23 @@
+{
+  "condition": "A_official540_default_video",
+  "identity": {
+    "transformers_version": "5.4.0",
+    "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+    "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+    "project_model_or_streaming_imported": false
+  },
+  "load_seconds": 2.1855782866477966,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 6,
+  "pretrained_loads": 1,
+  "FP32": true,
+  "attention": "official SDPA with PyTorch MATH backend, same as current C",
+  "original_generate": true,
+  "project_model_patches": 0
+}

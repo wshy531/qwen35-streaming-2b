@@ -1,0 +1,29 @@
+{
+  "status": "frozen_before_R2_outputs",
+  "all478_reused": true,
+  "cost_panel_membership_unchanged": true,
+  "cost_panel_source_sha": "496f4e25071bcbe39c8255eb698b28723ef12c83bbb3e14b2dc6c39603675eb4",
+  "cost_blocks": [
+    [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1881015629398934_start_0.0_end_578.99",
+      "778842524676728_start_0.0_end_359.915"
+    ],
+    [
+      "1054177859931507_start_0.0_end_1200.308",
+      "2064767457385035_start_0.0_end_409.969",
+      "548060551700833_start_0.0_end_599.972"
+    ],
+    [
+      "1370683007328428_start_0.0_end_311.532",
+      "1848337166005249_start_0.0_end_1199.976",
+      "989098036768628_start_0.0_end_583.962"
+    ],
+    [
+      "1117723430211095_start_0.0_end_493.503",
+      "1441688230351863_start_0.0_end_300.223",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  ],
+  "no_new_predictions_used": true
+}

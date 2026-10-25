@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "mid_old_steps": 384,
+  "high_steps": 160,
+  "max_merge_depth": 34,
+  "high_peaks": {
+    "M0_high192": 1536,
+    "M0_highchange108": 864,
+    "M2_high192": 1536,
+    "M2_highchange108": 864,
+    "A06_high192": 1536,
+    "A06_highchange108": 864,
+    "LS_high192": 1536,
+    "LS_highchange108": 864,
+    "M0_highuniform108": 864
+  },
+  "real_grid_QAs": [
+    {
+      "arm": "M0_mid108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "M2_mid108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "A06_mid108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "LS_mid108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "M0_high192",
+      "visual_tokens": 384,
+      "input_tokens": 416
+    },
+    {
+      "arm": "M0_highchange108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "M2_high192",
+      "visual_tokens": 384,
+      "input_tokens": 416
+    },
+    {
+      "arm": "M2_highchange108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "A06_high192",
+      "visual_tokens": 384,
+      "input_tokens": 416
+    },
+    {
+      "arm": "A06_highchange108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "LS_high192",
+      "visual_tokens": 384,
+      "input_tokens": 416
+    },
+    {
+      "arm": "LS_highchange108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "M0_highuniform108",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    }
+  ],
+  "QA_resume": true,
+  "all_13_QA_branches": true,
+  "high_previous_FP32_2048_bytes": 1572864,
+  "source_RGB_changed_but_pair_times_equal": true,
+  "max_suffix": 486,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true
+}

@@ -1,0 +1,12 @@
+{
+  "original_SHA256": "91bc33cf01b7b99df6f4b202d19d7ff7241bcd9d83b37d05c986b7ae1332eda4",
+  "derived_SHA256": "09867bad9fc988aac0a2eaf0e12e26c993eeaebefb17f19ace8de464c06f251e",
+  "replacements": {
+    "p['state']['banks'][arm]['standalone_persistent_tensor_bytes']": "p['state']['banks']['banks'][arm]['standalone_persistent_tensor_bytes']",
+    "sum(c['load_seconds'] for c in cs)": "sum(read(results/c['task']['name']/'startup.json')['load_seconds'] for c in cs)",
+    "sum(c['integrity_seconds'] for c in cs)": "sum(read(results/c['task']['name']/'startup.json')['integrity_seconds'] for c in cs)"
+  },
+  "scoring_formulas_thresholds_and_questions_unchanged": true,
+  "raw_outputs_unchanged": true,
+  "scope": "nested cost metadata and startup fields only; post-run reader compatibility fix"
+}

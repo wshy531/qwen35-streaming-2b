@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "condition": "A_official540_default_video",
+  "answers": 24,
+  "generated_tokens": 96,
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 6,
+  "pretrained_loads": 1,
+  "wall_seconds": 397.543338464573,
+  "vision_encodings": 24,
+  "warmup_encodings": 1,
+  "CUDA_peak_allocated_bytes": 26774478336,
+  "last_RSS_bytes": 2628612096
+}

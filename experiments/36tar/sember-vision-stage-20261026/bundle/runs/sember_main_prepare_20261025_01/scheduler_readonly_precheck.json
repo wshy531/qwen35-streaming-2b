@@ -1,0 +1,5 @@
+{
+  "partition": "PartitionName=g078t\n   AllowGroups=ALL AllowAccounts=ALL AllowQos=ALL\n   AllocNodes=ALL Default=NO QoS=N/A\n   DefaultTime=1-00:00:00 DisableRootJobs=NO ExclusiveUser=NO GraceTime=0 Hidden=NO\n   MaxNodes=UNLIMITED MaxTime=7-00:00:00 MinNodes=0 LLN=NO MaxCPUsPerNode=UNLIMITED\n   Nodes=gpu[1-6,10-11]\n   PriorityJobFactor=1 PriorityTier=1 RootOnly=NO ReqResv=NO OverSubscribe=NO\n   OverTimeLimit=NONE PreemptMode=OFF\n   State=UP TotalCPUs=512 TotalNodes=8 SelectTypeParameters=NONE\n   JobDefaults=DefCpuPerGPU=8\n   DefMemPerCPU=15360 MaxMemPerNode=UNLIMITED\n   TRES=cpu=512,mem=7.50T,node=8,billing=512,gres/gpu=64\n\n",
+  "own_queue": "",
+  "selected_environment": {}
+}

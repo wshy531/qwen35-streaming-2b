@@ -1,0 +1,317 @@
+[
+  {
+    "video_id": "1032433725619288_start_0.0_end_600.03",
+    "parent_source": "1032433725619288",
+    "split": "formal",
+    "duration_s": 600.03,
+    "bytes": 197670030,
+    "sha256": "0761a76113c9132d6e93000aa8999b1f01cba60ffd47878a3873a3b9a0101a17",
+    "relative_path": "videos/1032433725619288_start_0.0_end_600.03.mp4",
+    "question_ids": [
+      "1e80a30b8119aaeb9c84aeeb9c8b26d0fdd138f268903c330d1ca09dc8ef9e83",
+      "2b4fb856969b5a2ff3607dda3edb64194e80c2bcd309babfae0afcbdf72ef444",
+      "51a1516fd32402bf3fd6a5dc99412d39275f83789a424e6664678df5cf11c4dd",
+      "5ab187281c31261e318888165487b7b427dbb05b19d5f7af16449682fa1f9ce2",
+      "6390bd443f7150d6622ddb44f2fdec8215961aa818f87a7f6d1ca5d2d697b756"
+    ]
+  },
+  {
+    "video_id": "1080931757513668_start_0.0_end_600.032",
+    "parent_source": "1080931757513668",
+    "split": "formal",
+    "duration_s": 600.032,
+    "bytes": 127972979,
+    "sha256": "369feb590d8d98c7f32a8261c2b305252e521be84b9bb6c1d16c566b451d941e",
+    "relative_path": "videos/1080931757513668_start_0.0_end_600.032.mp4",
+    "question_ids": [
+      "35CE84C5A7C2F7197A0669EE1746BFE178A139980B4883555DF0B967AC0D5274",
+      "4286F69FA44556E68F238DD125777B94081A24713400E72C7FFE55B14039FE58",
+      "5D0C78F48D10408479EE759FBC3B213ACCEA7917F024AC354901062D60C6B077",
+      "E95378E17B5750894A1BCB6A49AE007BEE05BA0AA1C26C71B824BDF707DBE642",
+      "EDE91E43C580F77982D3A718B2E6E4576E1E64E9AC13A91F758C0D8088BD36F1"
+    ]
+  },
+  {
+    "video_id": "1081567137493943_start_0.0_end_329.829",
+    "parent_source": "1081567137493943",
+    "split": "formal",
+    "duration_s": 329.829,
+    "bytes": 30520412,
+    "sha256": "c29eb2852fea8f1d30f82587490e8952bbe2a8a4c9db1594b2c5b3bfb2859fac",
+    "relative_path": "videos/1081567137493943_start_0.0_end_329.829.mp4",
+    "question_ids": [
+      "67e7e3bb9237ad6b1d07129c9d8816b303efcad5b810ce07f836cd51aedea011",
+      "83b2866456d0dedc238ba0ad9f649a6ae5426aaddd74a8b688e2de80c021677b"
+    ]
+  },
+  {
+    "video_id": "1090138152674998_start_0.0_end_300.0",
+    "parent_source": "1090138152674998",
+    "split": "formal",
+    "duration_s": 300.0,
+    "bytes": 46315175,
+    "sha256": "481a2ddb79459f27c245fc2a67368d7a4ae06331fd10df8c52411dc1d79d9c6f",
+    "relative_path": "videos/1090138152674998_start_0.0_end_300.0.mp4",
+    "question_ids": [
+      "3ac292b83db513fa5138c9acb3d4e7c110ac07c53111f853b4da9c34b6cf0b71",
+      "4655a650ee5ebc8f2a1d1010d41a1856fd21eb9b789edffb92a288e7db46bf4f"
+    ]
+  },
+  {
+    "video_id": "1117723430211095_start_0.0_end_493.503",
+    "parent_source": "1117723430211095",
+    "split": "formal",
+    "duration_s": 493.503,
+    "bytes": 220473749,
+    "sha256": "71389d5d2bcffbda53a3f87fd1b5693810aca18dccd25a816a884663382656ad",
+    "relative_path": "videos/1117723430211095_start_0.0_end_493.503.mp4",
+    "question_ids": [
+      "001f01afaec81b72818b8a56134d1226c7421b0bde54575f6ffe0e86a9399a0b",
+      "076cc29813e45956153b6de808f2f9be871d473398bfb06d7dc9b630959f31e1",
+      "27c0f95172a92172db502c6f05554ef2db0fe37c07e334db45ef4074a961df8c",
+      "721cc24ff53fd73d3b1fd3ad201b9f0a0b2b305b926ab35da39720768fffce15",
+      "bc8dc92b7bf3e187017e899fa117cd21f18a80157edf2932a796f1d6382e367e"
+    ]
+  },
+  {
+    "video_id": "1280452143789499_start_0.0_end_420.233",
+    "parent_source": "1280452143789499",
+    "split": "formal",
+    "duration_s": 420.233,
+    "bytes": 46937752,
+    "sha256": "ac1b224a5166530bffe0c06ed5cbe661bd81e34bdf24b2deefbba03e456ffe20",
+    "relative_path": "videos/1280452143789499_start_0.0_end_420.233.mp4",
+    "question_ids": [
+      "466c0b74716b8f6fce66a60bc38c47ffd47366a407d8fcbddcfc88f16a53c3f4",
+      "d1c606b23671658111b6d8463fa33fc3b3b1084c1afb84469e8321abaa23b283"
+    ]
+  },
+  {
+    "video_id": "1298576951601471_start_0.0_end_1200.175",
+    "parent_source": "1298576951601471",
+    "split": "formal",
+    "duration_s": 1200.175,
+    "bytes": 247360661,
+    "sha256": "935cb932950cce9c9d4ea6d1422c9f78c6a1b87bf4327bad8a430556cc4bb3c8",
+    "relative_path": "videos/1298576951601471_start_0.0_end_1200.175.mp4",
+    "question_ids": [
+      "238E3A7701DB27E8D4E38E03FBCE31E3A67957955A30AA20A8E5422D67549DBF",
+      "4D9E697B96584F4EF08DA4F83C04AAA511999A914D5D3B2EC96EB8A6D93CC9CA"
+    ]
+  },
+  {
+    "video_id": "1374311663823800_start_0.0_end_599.939",
+    "parent_source": "1374311663823800",
+    "split": "formal",
+    "duration_s": 599.939,
+    "bytes": 178229415,
+    "sha256": "ecbc0b360b818640bcd4676dbcaf24bf29a2b11f9cc83a31ca753017116a7588",
+    "relative_path": "videos/1374311663823800_start_0.0_end_599.939.mp4",
+    "question_ids": [
+      "5463BF8130388DA7225CF7A0911CDBF187769D0C9D159AB9E93DBEFE070159CB",
+      "9244C7B7B327E835A3EDE24D792921EA9FE551EE51F239D8B86E5049B6C7E187",
+      "C769F53AE56BA9DE00EB55CB23FECD37BB2349E46AD99F5397F0585D479F1D42"
+    ]
+  },
+  {
+    "video_id": "1439480783948640_start_0.0_end_319.015",
+    "parent_source": "1439480783948640",
+    "split": "formal",
+    "duration_s": 319.015,
+    "bytes": 106664670,
+    "sha256": "faab1a16a8833c94ac4e1bb40cea2e7c2a86e44f1a5fe1f3bd0333f4364bed3b",
+    "relative_path": "videos/1439480783948640_start_0.0_end_319.015.mp4",
+    "question_ids": [
+      "41e5fc4903deb0d44ea25263a54da094d7b100d4dacf12c1de07fe023785716d",
+      "986fb674abc922d175b59f892413346578ace4dd6d140e87d2e5a0160398b339",
+      "f744f56fc729ac7b1654a7187266212a35dfd97e3defe788830362ee6ab574e6"
+    ]
+  },
+  {
+    "video_id": "1498837531529828_start_0.0_end_369.073",
+    "parent_source": "1498837531529828",
+    "split": "formal",
+    "duration_s": 369.073,
+    "bytes": 92722868,
+    "sha256": "d86a1f74c4d38469601aa7409d73a267449bb84a4bb4bff309dfbc27994691e9",
+    "relative_path": "videos/1498837531529828_start_0.0_end_369.073.mp4",
+    "question_ids": [
+      "28439dbb6c1e2d000d1080178b98d8cba590008fa3905056c39e9851d3e16b6b",
+      "aed11f9663c59ca4151930a2d58286535fa5640adc4fd231875fcf48e4934509",
+      "b436df011262f7135c7b70cca2d20078644802f6e3e3aedcba74362047fa75f5",
+      "c5d8c82f3044d55fb4588863a0934b5149e4d60c2a40a161fcf8b588be075273",
+      "d531f7e03a875f6930e1485eebcdb13f142aad54e97101830d7c0583f236febf"
+    ]
+  },
+  {
+    "video_id": "1660584571270586_start_0.0_end_444.157",
+    "parent_source": "1660584571270586",
+    "split": "formal",
+    "duration_s": 444.157,
+    "bytes": 150622445,
+    "sha256": "907a56a9ef9d68ec4c50e6210ab086543038de7739a76c488d9286be3754e237",
+    "relative_path": "videos/1660584571270586_start_0.0_end_444.157.mp4",
+    "question_ids": [
+      "098195f4c82c8e8ff30cfb044faabd8352e128ee443290ad53e621db260e9698",
+      "3d40cb1ab8cb1569df274894baebf4d22f290a59b8b3e27060a1d8bdef752711",
+      "51d0a245d7ced91b9de2689ecc807209e51793480360fe4ed508be43af6b6901",
+      "530f49c0454522aaf863733c7c2fc967d7ddc68b75c061c2ad26fafab52dbad4",
+      "88f3c87d8f812e4882bc35341c0830921c67924163822e609e16a2e3da754766"
+    ]
+  },
+  {
+    "video_id": "1690383025086038_start_0.0_end_400.284",
+    "parent_source": "1690383025086038",
+    "split": "formal",
+    "duration_s": 400.284,
+    "bytes": 110500189,
+    "sha256": "6e6cfcd0976a37632d70c0b676c39c3f9760bf541e0ca1c421a54561f82424d9",
+    "relative_path": "videos/1690383025086038_start_0.0_end_400.284.mp4",
+    "question_ids": [
+      "2171bdc010f3b815925b80d017db4808ab37165570676afeb745598b70cd7426",
+      "37f0c72d75a8b0d1f2042a59b6c9809b616b176dccf15ab7bcae5872155f2050",
+      "4fa24d14e32a8f351ed93417e613a1ebb33614db517ae0da9220f50373631320",
+      "666d33ad02460048f47de863ea1601434d08cb54f91acc0f13dedfcff0b9303b",
+      "bcfdf97b487d785e8e11350bf60cc2ece7ed1b4e41c8aada46e52e7e65155643",
+      "d0eaa313cea1b8d5542d346222cd39e9a37aad1b609063956c5006223002e17a"
+    ]
+  },
+  {
+    "video_id": "1820455528870642_start_0.0_end_330.175",
+    "parent_source": "1820455528870642",
+    "split": "formal",
+    "duration_s": 330.175,
+    "bytes": 108489284,
+    "sha256": "1642983fc86cc6d05d5c1738ddea46a768054c8c10cce0a67e2cf85ce8748ee5",
+    "relative_path": "videos/1820455528870642_start_0.0_end_330.175.mp4",
+    "question_ids": [
+      "1e7471328dc40582ee34990427c83a5ef0e0a4a13fc82297f61aae74704d33d3",
+      "33332dc860f06ab331bfdec3889ceb461a7a26c79f3accc1e9e47333b3395fa2",
+      "63a458f3380d92e9a084de8c68935f87eeca2c32bb85aba23697bf37798434af",
+      "706c03ad4470e200acc02d08606d338b1b3d6996f241d4d17a773904d344a345",
+      "b1a29282053c7c8acd913197461b27081af1e8a0524205bb527263006cad37cc",
+      "e5cf89cbeff11d60f399b0499501ffa39210c57041fc74c139bbfdba74e83e6e"
+    ]
+  },
+  {
+    "video_id": "1919208672175921_start_0.0_end_510.595",
+    "parent_source": "1919208672175921",
+    "split": "formal",
+    "duration_s": 510.595,
+    "bytes": 202792909,
+    "sha256": "c1401a8aefbfb77f8140b229b4f5effb4334e9f4d3a8c0d6deb4221f5cb29b74",
+    "relative_path": "videos/1919208672175921_start_0.0_end_510.595.mp4",
+    "question_ids": [
+      "5298E371DD9C22059629A088CE1164200CA190A76629F830EAF32CED1C4FD522",
+      "75FFA89740778D6C87F5E71A4BF5B8AA4D87A53167C4C47DFA861831965271AD",
+      "B01CAA5BE3C294E6AF1F68676C0E87496B6B7377478056AD61CCB739AE2C0D1C"
+    ]
+  },
+  {
+    "video_id": "2064767457385035_start_0.0_end_409.969",
+    "parent_source": "2064767457385035",
+    "split": "formal",
+    "duration_s": 409.969,
+    "bytes": 169584870,
+    "sha256": "29ab7e879c189f27e4f9f75b695cbe707ec13fc3923ce7f23cf773b8ed14711f",
+    "relative_path": "videos/2064767457385035_start_0.0_end_409.969.mp4",
+    "question_ids": [
+      "49fca15b3446c624cc8d7ba76fb3ae60ac8e645b1a5bd932a2c0613d2efecec5",
+      "64952dd2591adcac8cbeac67d65985debac962043f65549ccd156e4da815af09",
+      "b55e76198d41f6e0a88df7f8dd590175483e953c888f0708457eff4e4af083d0",
+      "b8e8c67eaf852fc57bd42b4ca9f034ba2712feb7b3f0e323b68554172eecb903",
+      "d6f5f9c23f2eda167c6800f312d868575cecedff99b2bce5afea7827874e1c32"
+    ]
+  },
+  {
+    "video_id": "674636305197314_start_0.0_end_300.047",
+    "parent_source": "674636305197314",
+    "split": "formal",
+    "duration_s": 300.047,
+    "bytes": 100536414,
+    "sha256": "fda1037f7eb08eba7d20699a97175bee1e24295ade3b9bc8696039fb0e328a91",
+    "relative_path": "videos/674636305197314_start_0.0_end_300.047.mp4",
+    "question_ids": [
+      "16347dbeadb379107e88fecef9fe27dc077260f58b7cb7a08fd61f60299514aa",
+      "44c015c077241db4d9368a5cbedf0c942f841ecb5a2db3c36087ee5df2a59d89",
+      "b13115f9aa8e697986088b4a8fcd15c8468bd45bee3a8a03ff95d8f0352cfdfe",
+      "e8e432f89acf9d3113a642390f66c030cb913540375e1d413eeacad4d010bf6c"
+    ]
+  },
+  {
+    "video_id": "677637195018930_start_0.0_end_599.98",
+    "parent_source": "677637195018930",
+    "split": "formal",
+    "duration_s": 599.98,
+    "bytes": 139750497,
+    "sha256": "51c2356ea7b3533caa33014e384066982d78ad64b42fab9b6b5ffea3cffd8fd7",
+    "relative_path": "videos/677637195018930_start_0.0_end_599.98.mp4",
+    "question_ids": [
+      "17d7879e81178e8479616ea17f234b90835b479f976eda0f649773701333db7f",
+      "217160be3550a6a57f41a6ff2376daf953fda7a19714f1c28e84f32c92d2c1fb",
+      "7dd7f0195df8a3b652bf5e681d780e031be6f5ea0edc8c21b695d0ee473847d4",
+      "eaf0abfefe83edece4411ff059c2d184aceb34e90e252df13515b7b68120060a",
+      "faedddfda828b9b48b1bfcd87d72b35231e127757de3acaa2324986c4335a663"
+    ]
+  },
+  {
+    "video_id": "698908082771023_start_0.0_end_571.018",
+    "parent_source": "698908082771023",
+    "split": "formal",
+    "duration_s": 571.018,
+    "bytes": 181899455,
+    "sha256": "bdd5cc6e5302d8ea3071d2a98464f3abb0e1c3694a9f349044d38bbd2c9fa17b",
+    "relative_path": "videos/698908082771023_start_0.0_end_571.018.mp4",
+    "question_ids": [
+      "5f2e23b197c5846711aa06e9e115cb00fd18fa1671044df35dae076ffed59e78",
+      "6ebe84bfbc0fa5bc00404303b9fd5369b1bcc7b207f4cb723d6a4093e6e57e2a",
+      "735311be669cba8e053f28374e2cc53da0dad2d628318c587e4e44e4c9568072",
+      "85d8f2209a20a41644eb9218b76650fbe7cd72e65a57e5a2b135f50d2908c1ef",
+      "c6271eda200669c155f9a07b82396754f3e041bcd0741c2516a4e6f4247f61d5",
+      "d55b3f03a5212ef703f9bca476520429f38735927abab9ee408aa24b62199273"
+    ]
+  },
+  {
+    "video_id": "727459876515585_start_0.0_end_300.043",
+    "parent_source": "727459876515585",
+    "split": "formal",
+    "duration_s": 300.043,
+    "bytes": 91659857,
+    "sha256": "ee8f4710bdf54cc9c3b334c6af80daefb7050610dfd4f29b04124fd9c7f6c18c",
+    "relative_path": "videos/727459876515585_start_0.0_end_300.043.mp4",
+    "question_ids": [
+      "587da3cc3a9a4fc506c3c5f8ef58d773ab9dde5cd952ccdc43e2a0e85f187d87",
+      "d598fcfcddb20e85fe2df32206eca00f99b5940effd993c5de1aee8f5a236ab9",
+      "d792fb31e6dff0f6e77226fd1aa249cf26102cf28bb8240c7cd726c1b685ffe2"
+    ]
+  },
+  {
+    "video_id": "9839009686138388_start_0.0_end_599.989",
+    "parent_source": "9839009686138388",
+    "split": "formal",
+    "duration_s": 599.989,
+    "bytes": 144944802,
+    "sha256": "bbfdd63d46279c10075c8c7d142fcf5df6d744ffa710175c9948a5ec98edfbfb",
+    "relative_path": "videos/9839009686138388_start_0.0_end_599.989.mp4",
+    "question_ids": [
+      "6d49e7ed0e34f0deda2c49825bc5ab3fde30886843dc74639bfd7a7c4173e60d",
+      "94a6ce9baba79f3233fa526bbb3eab4102da24382da6a50b5692fe008edfebc8"
+    ]
+  },
+  {
+    "video_id": "989098036768628_start_0.0_end_583.962",
+    "parent_source": "989098036768628",
+    "split": "formal",
+    "duration_s": 583.962,
+    "bytes": 81564059,
+    "sha256": "9e7377332963ac787bc27ad1bf4dda56a786bad2bf88757496d9502027efcf6c",
+    "relative_path": "videos/989098036768628_start_0.0_end_583.962.mp4",
+    "question_ids": [
+      "124B02C5FC1A9C33FB96E3DE0868C31C999FDD4CED90D42FE26A732318AEDBDC",
+      "4BBBE2C0D38C586412253BA1337244A461E411E75B2E8A325C6F9E660B006909",
+      "A5CA02B7FF41FAD764A8F485AA1CEF9997D213F8950095DDA1067696647A9576",
+      "BD6DA80A92965E0234E73D105057CC8AFFAAF50B8BB49459A028BA799F61500C",
+      "DC7035CD028FA01814E2BD3A9920423308FFA60144E1318EFF14D525EC918909"
+    ]
+  }
+]

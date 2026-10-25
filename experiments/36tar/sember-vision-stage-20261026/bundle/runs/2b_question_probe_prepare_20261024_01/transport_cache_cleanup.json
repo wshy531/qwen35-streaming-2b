@@ -1,0 +1,16 @@
+{
+  "removed": [
+    {
+      "name": "results-218426.tar",
+      "bytes": 3342336,
+      "sha256": "a8fade3cffaf1c78c738fc6960bf8e4a1f17084ce537e28b7a5acc3979f993ed"
+    },
+    {
+      "name": "results-218426.tar.gz",
+      "bytes": 315893,
+      "sha256": "cfde226e1aaac7a6da24fb1b7ee570c167783d65bdcc83c6c5c04235143f9ed4"
+    }
+  ],
+  "raw_evidence_retained": 4,
+  "GPU_work": false
+}

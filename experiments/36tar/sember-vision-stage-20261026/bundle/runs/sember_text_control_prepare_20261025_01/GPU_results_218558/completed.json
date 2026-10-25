@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "answers": 478,
+  "warmup_answers": 1,
+  "generated_tokens": 956,
+  "warmup_generated_tokens": 2,
+  "pretrained_loads": 1,
+  "vision_calls": 0,
+  "video_decodes": 0,
+  "wall_seconds": 69.48738013813272,
+  "CUDA_peak_allocated_bytes": 8962347520,
+  "CUDA_peak_reserved_bytes": 8994684928,
+  "execution_lock_SHA": "1c4af7d112afdfdd2f901a1e0e79058e9bc8b51de17305f2fbfc42c9de200469"
+}

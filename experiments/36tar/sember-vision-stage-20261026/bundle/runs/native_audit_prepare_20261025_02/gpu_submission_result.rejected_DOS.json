@@ -1,0 +1,44 @@
+{
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "sbatch: error: Batch script contains DOS line breaks (\\r\\n)\nsbatch: error: instead of expected UNIX line breaks (\\n).\n",
+  "argv": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--job-name=2b-native-audit-v2",
+    "--partition=g078t",
+    "--comment=gx_llm",
+    "--nodes=1",
+    "--ntasks=1",
+    "--cpus-per-task=4",
+    "--gres=gpu:1",
+    "--mem=24G",
+    "--time=01:00:00",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/native_audit_prepare_20261025_02/native-audit-%j.console.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/native_audit_prepare_20261025_02/native-audit-%j.console.log",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-native-audit-v2/run_profile.sh"
+  ],
+  "prior_accounting": "218537|COMPLETED|0:0|02:59:13\n218537.batch|COMPLETED|0:0|02:59:13\n218537.extern|COMPLETED|0:0|02:59:14\n218629|FAILED|1:0|00:00:31\n218629.batch|FAILED|1:0|00:00:31\n218629.extern|COMPLETED|0:0|00:00:31\n",
+  "queue_before": "218639 wsy-pm-eval RUNNING\n",
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-native-audit",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=01:00:00",
+    "#SBATCH --no-requeue"
+  ],
+  "selected_overrides": {
+    "SBATCH_ACCOUNT": null,
+    "SBATCH_PARTITION": null,
+    "SBATCH_QOS": null,
+    "SBATCH_COMMENT": null,
+    "SLURM_ACCOUNT": null,
+    "SLURM_QOS": null
+  }
+}

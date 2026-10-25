@@ -1,0 +1,23 @@
+{
+  "status": "new_formal_code_deployed",
+  "files_sha256": {
+    "experiments/2b-sember-main-v1/evaluate_main.py": "b0765da5e0c95df32c708e1fc74c9aa5a06c550dc017cec4b471c4ed059b673f",
+    "experiments/2b-sember-main-v1/freeze_main.py": "00f153757b394bf2f5d3a701aedd52590e1fe295437a8bca95ef7f72b7561816",
+    "experiments/2b-sember-main-v1/launch_main.py": "a316fe29cf495855cb54648e7bfab4b54c6990275d3e582958282fe00fad068d",
+    "experiments/2b-sember-main-v1/main_common.py": "e2a57d581801e55641271b4ebd807c9eab5bb45e87a9d6ba6bf6081c5eed98a8",
+    "experiments/2b-sember-main-v1/preflight_main.py": "4f67ed9104ca18aeb809c4ec6299c172626b5e68bbd5ac41473740c4ffe26af4",
+    "experiments/2b-sember-main-v1/prepare_main.py": "6f01ca83521d688f633efe2d4a67793b342b3573ec5a7e86195c56b9940c522b",
+    "experiments/2b-sember-main-v1/README.md": "7d9cb85d9c80bb4421760ff4dbc229e677d54bdf466b421108ea3578a8eec337",
+    "experiments/2b-sember-main-v1/remote_preflight.py": "2c47509f675f69b1a9f6e014b6243ec900c5d391276c98d6c18ddf45720a3246",
+    "experiments/2b-sember-main-v1/run_main.sh": "062d6d66af79206a5450b2f426b02fda3648f048ccf00940b6e8d77846dc9c7a",
+    "runs/sember_main_prepare_20261025_01/inputs/execution_lock.json": "f68448b5c46f019fe7e76cb92ac2a85a98d371882cd6867372c7c918aed45289",
+    "runs/sember_main_prepare_20261025_01/inputs/expected_prefixes.json": "951eeca280d2bf401a5cfdb0c021b5bd23d02684ef5c885c0a47c9bef383865f",
+    "runs/sember_main_prepare_20261025_01/inputs/first_pairs.json": "8e3204d20dad0d6f6525d71f291c6fb6a30cce9ff4d2a2c60d5624f2d49700c0",
+    "runs/sember_main_prepare_20261025_01/inputs/protocol.json": "c506744a10c7e7669c8720bf86a8432f74ae49771ed2cb054a5adb2548fcd131",
+    "runs/sember_main_prepare_20261025_01/inputs/requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+    "runs/sember_main_prepare_20261025_01/inputs/videos.json": "07c84e5ae7c1a6b9a0b941c0d8e4fa841bab5cacfb9956675f9cb48664b0d236",
+    "runs/sember_prepare_20261025_01/selection/selection_lock.json": "2a0c2a766f53092fb15a7c8683697a43b4610c8436a835d340274ea6269661d3"
+  },
+  "GPU_jobs": 0,
+  "bundle_bytes": 890880
+}

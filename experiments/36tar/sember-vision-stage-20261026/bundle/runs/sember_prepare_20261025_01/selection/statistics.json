@@ -1,0 +1,78 @@
+{
+  "development": {
+    "videos": 18,
+    "parent_sources": 18,
+    "questions": 102,
+    "bytes": 1731000015,
+    "video_hours": 2.1743780555555556,
+    "duration_sources": {
+      "5to8min": 10,
+      "8to12min": 8
+    },
+    "duration_questions": {
+      "5to8min": 58,
+      "8to12min": 44
+    },
+    "categories": {
+      "visual_detail_recall": 27,
+      "time_duration": 14,
+      "location_trace": 12,
+      "counting_objects_events": 21,
+      "sequential_action": 9,
+      "spatial_aware_reasoning": 8,
+      "temporal_ordering_recognition": 6,
+      "object_comparison": 5
+    },
+    "end_gap_proxy_bins": {
+      "lt30s": 55,
+      "30to120s": 31,
+      "120to300s": 13,
+      "300plus_s": 3
+    },
+    "min_video_duration_s": 300.0,
+    "max_video_duration_s": 600.22
+  },
+  "formal": {
+    "videos": 128,
+    "parent_sources": 128,
+    "questions": 478,
+    "bytes": 19408181310,
+    "video_hours": 19.431045,
+    "duration_sources": {
+      "8to12min": 51,
+      "5to8min": 61,
+      "12plus_min": 16
+    },
+    "duration_questions": {
+      "8to12min": 195,
+      "5to8min": 222,
+      "12plus_min": 61
+    },
+    "categories": {
+      "time_duration": 85,
+      "location_trace": 56,
+      "counting_objects_events": 68,
+      "spatial_aware_reasoning": 41,
+      "visual_detail_recall": 91,
+      "temporal_ordering_recognition": 35,
+      "sequential_action": 59,
+      "object_comparison": 43
+    },
+    "end_gap_proxy_bins": {
+      "120to300s": 60,
+      "300plus_s": 25,
+      "30to120s": 143,
+      "lt30s": 250
+    },
+    "min_video_duration_s": 300.0,
+    "max_video_duration_s": 1201.513
+  },
+  "total_videos": 146,
+  "total_questions": 580,
+  "total_bytes": 21139181325,
+  "known_partner18_parent_overlap": 0,
+  "prediction_based_selection": false,
+  "content_requalification": false,
+  "global_benchmark_score_claim": false,
+  "participant_independence_known": false
+}

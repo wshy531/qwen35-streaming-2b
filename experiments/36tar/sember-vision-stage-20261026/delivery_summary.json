@@ -1,0 +1,126 @@
+{
+  "status": "checkpoint_not_R2_final_result",
+  "run_catalog": {
+    "QProbe24": "2b_question_probe_prepare_20261024_01",
+    "S_EMBER_dev": "sember_adapter_prepare_20261025_01",
+    "S_EMBER_478": "sember_main_prepare_20261025_01",
+    "text_control": "sember_text_control_prepare_20261025_01",
+    "resolution_cost": "resolution_cost_prepare_20261025_01",
+    "native_v1_failure": "native_audit_prepare_20261025_01",
+    "native_v2": "native_audit_prepare_20261025_02",
+    "midprune_R1": "vision_midprune_prepare_20261025_01",
+    "midprune_R2_checkpoint": "midprune_quality_prepare_20261026_01"
+  },
+  "manifest_files": 546,
+  "reused_files": 132,
+  "runtime_dependencies": 253,
+  "external_assets": 10,
+  "external_inputs": 14,
+  "added_payload_files": 414,
+  "added_payload_bytes": 10731453,
+  "original_bytes": 125156588,
+  "skipped": [
+    {
+      "path": "runs\\2b_question_probe_prepare_20261024_01\\GPU_authorization_receipt.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\2b_question_probe_prepare_20261024_01\\historical_references_LOCAL_ONLY.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_adapter_prepare_20261025_01\\gpu_authorization_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_adapter_prepare_20261025_01\\profile_scored_rows_LOCAL_ONLY.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_main_prepare_20261025_01\\gpu_authorization_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_main_prepare_20261025_01\\scored_rows_LOCAL_ONLY.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_text_control_prepare_20261025_01\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_text_control_prepare_20261025_01\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\sember_text_control_prepare_20261025_01\\text_scored_rows_LOCAL_ONLY.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\resolution_cost_prepare_20261025_01\\authorization_cluster_receipt.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\resolution_cost_prepare_20261025_01\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\resolution_cost_prepare_20261025_01\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\resolution_cost_prepare_20261025_01\\scored_rows_LOCAL_ONLY.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_01\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_01\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_02\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_02\\GPU_authorization.rejected_DOS.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_02\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\native_audit_prepare_20261025_02\\gpu_submission_intent.rejected_DOS.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\vision_midprune_prepare_20261025_01\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\vision_midprune_prepare_20261025_01\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\midprune_quality_prepare_20261026_01\\GPU_authorization.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    },
+    {
+      "path": "runs\\midprune_quality_prepare_20261026_01\\gpu_submission_intent.json",
+      "reason": "authorization_or_duplicate_scored_view"
+    }
+  ],
+  "exclusions": [
+    "weights",
+    "media",
+    "environments",
+    "credentials",
+    "tensor_snapshots",
+    "reusable_GPU_authorization",
+    "official_question_option_answer_files",
+    "duplicate_scored_views"
+  ]
+}

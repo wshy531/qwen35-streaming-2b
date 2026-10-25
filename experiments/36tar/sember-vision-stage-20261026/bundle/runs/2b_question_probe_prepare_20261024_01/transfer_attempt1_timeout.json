@@ -1,0 +1,8 @@
+{
+  "status": "SCP_timeout_120_seconds",
+  "GPU_rerun": false,
+  "partial_bytes": 3342336,
+  "partial_sha256": "a8fade3cffaf1c78c738fc6960bf8e4a1f17084ce537e28b7a5acc3979f993ed",
+  "expected_bytes": 4403200,
+  "expected_sha256": "1440568e3e0c43ad9d32c5523a38428ce03c6f39beb3b1520bfd0e809571350b"
+}

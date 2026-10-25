@@ -1,0 +1,25 @@
+{
+  "status": "complete_resources_released",
+  "job": "218426",
+  "sacct": "218426|COMPLETED|0:0|00:12:27|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "files": {
+    "completed.json": {
+      "bytes": 734666,
+      "sha256": "ddddc5f5b233dc1e6db046ca4c745a8eb58da7be865d08a492d2af8755f6f6ad"
+    },
+    "startup.json": {
+      "bytes": 209,
+      "sha256": "d9734bd3724ad3b2a31c03d62945ee03cbe67a7103f55d1db22e1509b5609dd0"
+    },
+    "answers.jsonl": {
+      "bytes": 3324507,
+      "sha256": "1d58953b583e01d7851c1a5bde8423be4a7721f4cad9783f643aeeeb8ac15119"
+    },
+    "tokens.jsonl": {
+      "bytes": 332716,
+      "sha256": "b1412bb6578027de3d3afade8303ae7dbd216dce84e571ee1c97d1ceec3e8d68"
+    }
+  },
+  "archive_bytes": 4403200,
+  "archive_sha256": "1440568e3e0c43ad9d32c5523a38428ce03c6f39beb3b1520bfd0e809571350b"
+}

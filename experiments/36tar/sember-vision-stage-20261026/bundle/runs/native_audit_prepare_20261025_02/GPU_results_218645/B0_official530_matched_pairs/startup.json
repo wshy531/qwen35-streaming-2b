@@ -1,0 +1,23 @@
+{
+  "condition": "B0_official530_matched_pairs",
+  "identity": {
+    "transformers_version": "5.3.0",
+    "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/qwen35-2b-fp32/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+    "model_source_sha256": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+    "project_model_or_streaming_imported": false
+  },
+  "load_seconds": 1.9900294970721006,
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 6,
+  "pretrained_loads": 1,
+  "FP32": true,
+  "attention": "official SDPA with PyTorch MATH backend, same as current C",
+  "original_generate": true,
+  "project_model_patches": 0
+}

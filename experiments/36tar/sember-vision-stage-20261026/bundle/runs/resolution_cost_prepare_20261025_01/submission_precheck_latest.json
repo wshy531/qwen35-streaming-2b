@@ -1,0 +1,28 @@
+{
+  "status": "all_submission_checks_passed",
+  "queue": "",
+  "prior_accounting": "218526|COMPLETED|0:0|02:34:29\n218526.batch|COMPLETED|0:0|02:34:29\n218526.extern|COMPLETED|0:0|02:34:29\n",
+  "script": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-resolution-cost-v1/run_eval.sh",
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-resolution-cost",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=04:00:00",
+    "#SBATCH --no-requeue"
+  ],
+  "selected_overrides": {
+    "SBATCH_ACCOUNT": null,
+    "SBATCH_PARTITION": null,
+    "SBATCH_QOS": null,
+    "SBATCH_COMMENT": null,
+    "SLURM_ACCOUNT": null,
+    "SLURM_QOS": null
+  },
+  "source_and_input_SHA_verified": true,
+  "prior_result_SHA_verified": 10
+}

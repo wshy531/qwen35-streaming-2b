@@ -1,0 +1,69 @@
+{
+  "primary_question": "Does official one-shot reading outperform the modified full stream?",
+  "profile_questions": 24,
+  "profile_sources": 21,
+  "formal_target_questions": 478,
+  "categories": {
+    "counting_objects_events": 3,
+    "location_trace": 3,
+    "object_comparison": 3,
+    "sequential_action": 3,
+    "spatial_aware_reasoning": 3,
+    "temporal_ordering_recognition": 3,
+    "time_duration": 3,
+    "visual_detail_recall": 3
+  },
+  "prefix_buckets": {
+    "short": 8,
+    "medium": 8,
+    "long": 8
+  },
+  "selected_without_labels_or_previous_answers": true,
+  "independent_test": false,
+  "conditions": [
+    "A_official540_default_video",
+    "B_official540_matched_pairs",
+    "B0_official530_matched_pairs"
+  ],
+  "existing_control": "218526/R_all_history_stream on the identical selected questions",
+  "official_version_bridge_reason": "5.3.0 raw multi-frame API fails; B0 versus B distinguishes the release change",
+  "dtype": "FP32",
+  "do_sample": false,
+  "max_new_tokens": 16,
+  "enable_thinking": false,
+  "attention": "official sdpa forced MATH; matches current C numerical backend",
+  "official_video_fps": 2,
+  "official_video_max_frames": 768,
+  "official_resize": "untouched saved video_preprocessor_config size; no fixed canvas/letterbox",
+  "matched_fps": 0.5,
+  "matched_canvas": [
+    288,
+    384
+  ],
+  "no_future_frames": true,
+  "no_author_evidence_or_answers_in_runtime": true,
+  "no_training_or_prompt_search": true,
+  "no_context_truncation": true,
+  "no_overall_claim_from_profile": true,
+  "profile_only_before_full478_budget": true,
+  "policy": "one fixed profile, preserve all failures; no automatic rerun or candidate sweep",
+  "max_formal_answers": 72,
+  "max_warmup_answers": 3,
+  "max_answers": 75,
+  "max_generated_tokens": 1200,
+  "pretrained_loads": 3,
+  "GPU_authorized": false,
+  "max_vision_encodings": 75,
+  "resource_budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "minutes": 60
+  },
+  "log_limit_bytes": 134217728,
+  "wait_for_218537_to_finish": true,
+  "repair_of_job": "218629",
+  "repair_scope": "logging serialization only"
+}

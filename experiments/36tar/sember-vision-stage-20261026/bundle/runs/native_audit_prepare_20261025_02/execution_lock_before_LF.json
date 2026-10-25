@@ -1,0 +1,54 @@
+{
+  "runtime_sha256": {
+    "experiments/2b-sember-v1/sember_source.py": "5c09cd3757f897401f239eaca8a90d88aec54a2702651ba0363cf0c1ededc4ee",
+    "experiments/2b-sember-v1/sember_protocol.py": "b82c52954ab33c508f001e4c69f0ce98e0656e3e6af31539e30c7b488abb2121",
+    "models/Qwen3.5-2B/config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+    "models/Qwen3.5-2B/tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+    "models/Qwen3.5-2B/video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "models/Qwen3.5-2B/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "models/Qwen3.5-2B/chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+    "experiments/2b-native-audit-v2/analyze.py": "5412f4b161fa4cbfe1ed2811be74c613942c5b2ab8b2a27abafb21be58989872",
+    "experiments/2b-native-audit-v2/audit_common.py": "c33812649394c0204ded03e338db12011f82829be4107f75c8ee59c4c94a0c12",
+    "experiments/2b-native-audit-v2/cpu_logging_regression.py": "335806b49e50a9291c3cdd6897c1ac750e865cf83a9e1f52e086cd2c2fa66449",
+    "experiments/2b-native-audit-v2/cpu_normal.py": "aead02a4b3ea165eee92b804c49566e1db7ba2377e7f81044cc4d6986223a08d",
+    "experiments/2b-native-audit-v2/evaluate.py": "ccabe4e67d11fab571ec4400f83144b5fcc99896766f7a5a1434ec2e4697c8ca",
+    "experiments/2b-native-audit-v2/finalize_preflight.py": "cfa1f9cd039f9dd683252e17606fa39bf2396c5cab80296271fbd25b0aab775b",
+    "experiments/2b-native-audit-v2/launch.py": "abb9b943088dda19a2fe07e9b2e139c21753b791441863e406793bb3772dc91a",
+    "experiments/2b-native-audit-v2/native_inputs.py": "54a25d9080c34e48b00b4545c7309dbf364c22ba05fcbbf1f17c174cb3109cc9",
+    "experiments/2b-native-audit-v2/preflight.py": "5968fb8a4f71ea614c60c101ffc2e2b6ae54b2e716383d7cc8612c1819bce7a5",
+    "experiments/2b-native-audit-v2/prepare.py": "c00216571dd0e729abaff0d7dfe22b71363e983c55a48f11f77446095fba30d7",
+    "experiments/2b-native-audit-v2/prepare_official_env.py": "1ebb2bf62b3e331ad15cc6566d55553c73ec3943cb10f0464df00e428a27eef6",
+    "experiments/2b-native-audit-v2/probe_official.py": "5095a829d204fc59b994fba53bc0dd65a5a5b2dfc8b9f9f9d4bb5422222472c3",
+    "experiments/2b-native-audit-v2/README.md": "880a0b73ae36f537db4f65a408a5e97ec1882c968a38aa90769ad347b438c3dc",
+    "experiments/2b-native-audit-v2/run_profile.sh": "edb1e4b8b078020a2280cd1ebf7f3031d950290dbf9101877c0c3e0c79b5c8e4"
+  },
+  "input_sha256": {
+    "design.json": "d9958e657bc51a6cbd5eb9e1297f50d30a059f00d0d66df4ffee5ec796df0094",
+    "expected_prefixes.json": "39ccd5f84be1fc59d7ed02014f7127266782e73f1d51c3aacb7713f2d630b25c",
+    "formal_requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+    "requests.json": "d397c7aaa08a3f28b29f8813cef090dacd356bdf2f5b54a9eafbc0d9cc5c1c7a",
+    "videos.json": "d17b6fdd4a859b6a61fd356074e814e24d8fd873acf5322063ac38afaedc7062"
+  },
+  "official_package": {
+    "status": "isolated_official_release_installed",
+    "version": "5.4.0",
+    "metadata_url": "https://pypi.org/pypi/transformers/5.4.0/json",
+    "wheel_url": "https://files.pythonhosted.org/packages/0b/a0/0a87883e564e364baab32adcacb4bec2e200b28a568423c8cf7fde316461/transformers-5.4.0-py3-none-any.whl",
+    "wheel_bytes": 10105556,
+    "wheel_sha256": "9fbe50602d2a4e6d0aa8a35a605433dfac72d595ee2192eae192590a6cc2df86",
+    "environment": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0",
+    "identity": {
+      "version": "5.4.0",
+      "path": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\__init__.py"
+    },
+    "heavy_dependencies_shared_from": "E:\\VIT Model\\.venv\\Lib\\site-packages",
+    "original_environment_modified": false,
+    "real_weights_downloaded": false,
+    "GPU_jobs": 0
+  },
+  "original_official_source_SHA": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+  "new_official_source_SHA": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+  "previous_execution_lock_sha256": "20b7fd6eccae5a23f6d09ce3a090af1e6dca5fa9622cce28f9603fcd9c7c1608",
+  "explicit_new_GPU_authorization_required": true,
+  "unchanged_input_model_controls_inherited": true
+}

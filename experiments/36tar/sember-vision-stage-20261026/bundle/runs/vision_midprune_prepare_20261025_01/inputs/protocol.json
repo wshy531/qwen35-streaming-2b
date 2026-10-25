@@ -1,0 +1,55 @@
+{
+  "hypothesis": "fixed group pruning moved inside ViT reduces actual visual cost",
+  "canvas": [
+    288,
+    384
+  ],
+  "groups_full": 108,
+  "groups_retained": 54,
+  "prune_after_layers": 12,
+  "visual_depth": 24,
+  "modes": [
+    "original_full",
+    "post_odd",
+    "mid_odd"
+  ],
+  "pair_count": 12,
+  "source_count": 4,
+  "warmup_repeats": 5,
+  "measured_repeats": 20,
+  "control_forwards": 24,
+  "max_vision_forwards": 924,
+  "QA_answers": 0,
+  "generated_tokens": 0,
+  "pretrained_loads": 1,
+  "source_selection": "development18 video SHA order; first four",
+  "pair_positions": "10/50/90 percent of source duration, aligned to original causal pair grid",
+  "selected_without_labels_or_answers": true,
+  "frame_cache_bytes_limit": 8388608,
+  "benchmarking_preloaded_frames_not_end_to_end": true,
+  "no_capability_claim_from_R1": true,
+  "gate": {
+    "median_pair_time_ratio_max": 0.85,
+    "max_pairs_slower_than_full": 3,
+    "all_kept_gpu_max_abs_error": 1e-05,
+    "all_kept_gpu_rtol": 1e-05
+  },
+  "timing": "CUDA synchronize around each complete vision+selection call; rotation balances order",
+  "budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "minutes": 15
+  },
+  "log_limit_bytes": 16777216,
+  "worker_RSS_limit_bytes": 21474836480,
+  "GPU_allocated_limit_bytes": 34359738368,
+  "no_layer_or_ratio_sweep": true,
+  "training": false,
+  "download": false,
+  "requeue": false,
+  "automatic_retry": false,
+  "GPU_authorized": false
+}

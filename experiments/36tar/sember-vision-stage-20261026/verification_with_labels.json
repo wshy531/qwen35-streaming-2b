@@ -1,0 +1,339 @@
+{
+  "status": "passed",
+  "files": 546,
+  "python_AST": 218,
+  "dependency_SHA_checks": 1326,
+  "raw_answers": 13676,
+  "answer_streams": {
+    "bundle/runs/2b_question_probe_prepare_20261024_01/results-218426/answers.jsonl": 909,
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl": 88,
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/reference/answers.jsonl": 8,
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl": 5258,
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/reference/answers.jsonl": 478,
+    "bundle/runs/sember_text_control_prepare_20261025_01/GPU_results_218558/answers.jsonl": 478,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_high192/answers.jsonl": 16,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_highchange108/answers.jsonl": 16,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_mid108/answers.jsonl": 16,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_high192/answers.jsonl": 21,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_highchange108/answers.jsonl": 21,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_mid108/answers.jsonl": 21,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_high192/answers.jsonl": 20,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_highchange108/answers.jsonl": 20,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_mid108/answers.jsonl": 20,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl": 4302,
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_mid/answers.jsonl": 1912,
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/A_official540_default_video/answers.jsonl": 24,
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/B0_official530_matched_pairs/answers.jsonl": 24,
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/B_official540_matched_pairs/answers.jsonl": 24
+  },
+  "content_answers_recomputed_from_private_labels": 12767,
+  "official_keys_checked": true,
+  "official_input_restore_deferred": 10,
+  "question_options_and_answer_keys_not_redistributed": true,
+  "R2_not_claimed_complete": true,
+  "real_model_loads": 0,
+  "GPU_jobs": 0,
+  "materialized": false,
+  "recomputed_content_format_by_stream_arm": {
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M0_full108_8": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 2
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M0_odd54_16": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M0_change54_16": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 3
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M2_full108": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M2_change54": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 2
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:A06_full108": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:A06_change54": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 2
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:LS_full108": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:LS_change54": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 2
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M0_odd54_8": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/bounded/answers.jsonl:M0_change54_8": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 2
+    },
+    "bundle/runs/sember_adapter_prepare_20261025_01/GPU_results_218517/reference/answers.jsonl:R_all_history_stream": {
+      "answers": 8,
+      "parsed": 8,
+      "format_ok": 8,
+      "correct": 1
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M0_full108_8": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 111
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M0_odd54_16": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 118
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M0_change54_16": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 117
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M2_full108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 113
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M2_change54": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 127
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:A06_full108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 122
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:A06_change54": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 118
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:LS_full108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 118
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:LS_change54": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 125
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M0_odd54_8": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 105
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/bounded/answers.jsonl:M0_change54_8": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 113
+    },
+    "bundle/runs/sember_main_prepare_20261025_01/GPU_results_218526/reference/answers.jsonl:R_all_history_stream": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 135
+    },
+    "bundle/runs/sember_text_control_prepare_20261025_01/GPU_results_218558/answers.jsonl:text_only": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 106
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_high192/answers.jsonl:LS_high192": {
+      "answers": 16,
+      "parsed": 16,
+      "format_ok": 16,
+      "correct": 3
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_highchange108/answers.jsonl:LS_highchange108": {
+      "answers": 16,
+      "parsed": 16,
+      "format_ok": 16,
+      "correct": 2
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b0_LS_mid108/answers.jsonl:LS_mid108": {
+      "answers": 16,
+      "parsed": 16,
+      "format_ok": 16,
+      "correct": 1
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_high192/answers.jsonl:LS_high192": {
+      "answers": 21,
+      "parsed": 21,
+      "format_ok": 21,
+      "correct": 6
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_highchange108/answers.jsonl:LS_highchange108": {
+      "answers": 21,
+      "parsed": 21,
+      "format_ok": 21,
+      "correct": 5
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b1_LS_mid108/answers.jsonl:LS_mid108": {
+      "answers": 21,
+      "parsed": 21,
+      "format_ok": 21,
+      "correct": 7
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_high192/answers.jsonl:LS_high192": {
+      "answers": 20,
+      "parsed": 20,
+      "format_ok": 20,
+      "correct": 7
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_highchange108/answers.jsonl:LS_highchange108": {
+      "answers": 20,
+      "parsed": 20,
+      "format_ok": 20,
+      "correct": 5
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/cost_b2_LS_mid108/answers.jsonl:LS_mid108": {
+      "answers": 20,
+      "parsed": 20,
+      "format_ok": 20,
+      "correct": 5
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:M0_high192": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 115
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:M0_highchange108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 113
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:M2_high192": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 116
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:M2_highchange108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 117
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:A06_high192": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 116
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:A06_highchange108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 114
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:LS_high192": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 128
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:LS_highchange108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 114
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_high/answers.jsonl:M0_highuniform108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 114
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_mid/answers.jsonl:M0_mid108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 111
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_mid/answers.jsonl:M2_mid108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 113
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_mid/answers.jsonl:A06_mid108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 122
+    },
+    "bundle/runs/resolution_cost_prepare_20261025_01/GPU_results_218537/quality_mid/answers.jsonl:LS_mid108": {
+      "answers": 478,
+      "parsed": 478,
+      "format_ok": 478,
+      "correct": 118
+    },
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/A_official540_default_video/answers.jsonl:A_official540_default_video": {
+      "answers": 24,
+      "parsed": 24,
+      "format_ok": 24,
+      "correct": 5
+    },
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/B0_official530_matched_pairs/answers.jsonl:B0_official530_matched_pairs": {
+      "answers": 24,
+      "parsed": 24,
+      "format_ok": 24,
+      "correct": 9
+    },
+    "bundle/runs/native_audit_prepare_20261025_02/GPU_results_218645/B_official540_matched_pairs/answers.jsonl:B_official540_matched_pairs": {
+      "answers": 24,
+      "parsed": 24,
+      "format_ok": 24,
+      "correct": 9
+    }
+  }
+}

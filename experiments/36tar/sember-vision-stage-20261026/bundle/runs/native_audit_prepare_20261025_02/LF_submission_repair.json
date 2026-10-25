@@ -1,0 +1,7 @@
+{
+  "status": "preallocation_LF_repair_complete",
+  "GPU_jobs_created_by_rejected_attempt": 0,
+  "new_execution_lock_sha256": "00219d2849080d5447df6392bd3381df1f2e1898c4a096e6408b2d82b384d135",
+  "same_script_semantics": true,
+  "queue_snapshot": "218639 wsy-pm-eval RUNNING\n"
+}

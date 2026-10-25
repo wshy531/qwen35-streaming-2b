@@ -1,0 +1,23 @@
+{
+  "dataset": "facebook/S-EMBER",
+  "dataset_revision": "897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+  "dataset_url": "https://huggingface.co/datasets/facebook/S-EMBER",
+  "official_content_not_redistributed": true,
+  "model": "Qwen/Qwen3.5-2B",
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "model_and_video_assets_external": true,
+  "base_main": "cb21f3d198c2685736904c91543a8e74dfb769c4",
+  "prior_bundle_reused": "experiments/36tar/token-readout-stage-20261024",
+  "finished_GPU_jobs": [
+    "218426",
+    "218517",
+    "218526",
+    "218558",
+    "218537",
+    "218645",
+    "218664"
+  ],
+  "failed_GPU_job": "218629",
+  "R2_job": "218670",
+  "R2_latest_status_not_refreshed": true
+}

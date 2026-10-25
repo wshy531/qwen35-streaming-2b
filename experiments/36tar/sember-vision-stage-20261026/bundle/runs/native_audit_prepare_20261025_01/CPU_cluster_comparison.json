@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "all24_layouts": true,
+  "three_stages_same_weights_within_each_site": true,
+  "matched_pixels_and_IDs_same_across_sites": true,
+  "cross_platform_random_weight_SHA_equal": false,
+  "note": "Random initialization differs across Windows/Python3.12 and Linux/Python3.11; exact cause unassigned. Each site compares all three implementations with identical local weights; this is not real-weight evidence.",
+  "original_default_real6s_same_pixels_IDs": true,
+  "max_remote_logit_errors": {
+    "official530": 0.0,
+    "official540": 0.0,
+    "stream": 0.0
+  },
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

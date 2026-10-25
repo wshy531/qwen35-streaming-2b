@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "median_pair_ratio": 0.8553818178784731,
+  "pairs_slower_than_original": 0,
+  "per_pair_ratios": [
+    0.8557020472943972,
+    0.8558887532193199,
+    0.8553200522285569,
+    0.8554112751951739,
+    0.8553523605617722,
+    0.8552547484530495,
+    0.8542341311757157,
+    0.8548744971378911,
+    0.8551239546306879,
+    0.8559091089980315,
+    0.855423288828425,
+    0.8561930989056686
+  ],
+  "gate_passed": false,
+  "activate_R2_quality_preparation": false,
+  "question_accuracy_not_measured": true,
+  "end_to_end_not_measured": true,
+  "default_changed": false
+}

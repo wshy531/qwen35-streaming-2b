@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "grid": [
+        12,
+        16
+      ],
+      "all_kept_max_abs_error": 0.0,
+      "post_selection_exact": true,
+      "mid_layer_tokens": [
+        192,
+        192,
+        96,
+        96
+      ],
+      "output_tokens": 24
+    },
+    {
+      "grid": [
+        18,
+        24
+      ],
+      "all_kept_max_abs_error": 0.0,
+      "post_selection_exact": true,
+      "mid_layer_tokens": [
+        432,
+        432,
+        216,
+        216
+      ],
+      "output_tokens": 54
+    }
+  ],
+  "whole2x2_groups_preserved": true,
+  "original_grid_coordinates": true,
+  "A_B_A_no_state": true,
+  "model_parameters_unchanged": true,
+  "tiny_QA_context": true,
+  "QA_released": true,
+  "questions_and_scores_read": 0,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true,
+  "candidate_fixed_real_layers": 12,
+  "candidate_fixed_real_keep_groups": 54
+}

@@ -1,0 +1,22 @@
+{
+  "status": "all_four_SHA_verified",
+  "job_id": "218558",
+  "files": {
+    "answers.jsonl": {
+      "bytes": 365961,
+      "sha256": "e4365dc4d7f8ec0810863b50998650e0a20991462386544c7e9f4f8b3576a2b0"
+    },
+    "tokens.jsonl": {
+      "bytes": 186791,
+      "sha256": "280f1e631c71db2cfd46742eb02ffaabc16e946da2268f7fea2acc51f11e59df"
+    },
+    "startup.json": {
+      "bytes": 163,
+      "sha256": "8d3f6d49f709b1c730c4241eea367af2ab0a6d7ddd65a6c9751c2778e9d96247"
+    },
+    "completed.json": {
+      "bytes": 408,
+      "sha256": "89f3d715392a809e9ed397be66ca6c00e646cb37ed09012038cb69ff4a958612"
+    }
+  }
+}

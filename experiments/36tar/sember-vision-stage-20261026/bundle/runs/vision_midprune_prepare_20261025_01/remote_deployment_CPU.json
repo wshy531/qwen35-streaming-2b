@@ -1,0 +1,96 @@
+{
+  "status": "deployed_CPU_passed",
+  "files_sha256": {
+    "experiments/2b-vision-midprune-v1/analyze.py": "2f365a9366e8caa8b8ab3d460eb9d61a49d40abf2cecef599b391985ec2b2c62",
+    "experiments/2b-vision-midprune-v1/common.py": "37424f177dc74451c7fff55754c6d1689961b8ed3b556d5a6f51bec25d8c37d1",
+    "experiments/2b-vision-midprune-v1/cpu_preflight.py": "82010ffd4975127fb224f2e50488a7014af2cf671f59f554428a89df78c8e3be",
+    "experiments/2b-vision-midprune-v1/evaluate.py": "87037d50769c07ac9c057f7ef2b13f25e145001d984ecc4d252441f7a54350c1",
+    "experiments/2b-vision-midprune-v1/freeze.py": "56dbae04bc9b01cb47bf42991550c34c180933faa1e2c4d78f06ea46c0f29076",
+    "experiments/2b-vision-midprune-v1/midprune.py": "19c62f884ccfc09c88a4553ebd9312d140e4a9c8adaf7f2ee55dea441a889787",
+    "experiments/2b-vision-midprune-v1/prepare.py": "8665a89c3c9d24a575b54665257f612bcd9f6d61955cdc304df19f70c89c4cd6",
+    "experiments/2b-vision-midprune-v1/README.md": "9933f24611208405d2860b6f280e1ee71b9b77139e2a1784ca960725f5572ee1",
+    "experiments/2b-vision-midprune-v1/run_cost.sh": "f213462075148d1b3a6ca7e5bef161bd8b7e5334040f3a9f95cb4aadeaa1ca8e",
+    "experiments/2b-vision-midprune-v1/source_pairs.py": "1c8d89fde3a6260e07f024a33349a8ed0b2e0221065b8fc0da511ad9efaaad18",
+    "runs/vision_midprune_prepare_20261025_01/inputs/execution_lock.json": "584aeedc83ac07310e1d72a532cae3b45460008536a042fdc9e2713ca035ef74",
+    "runs/vision_midprune_prepare_20261025_01/inputs/pairs.json": "b0c1ca2a4616240ec7910a8a4d7cc4e1aa50c14aefdd8cdb94a0b82eeaae7b28",
+    "runs/vision_midprune_prepare_20261025_01/inputs/protocol.json": "5bfbe8a112b7ed01c7e998cbe3262a6f6a8ab686491afaff7abf46d4e139ca85",
+    "runs/vision_midprune_prepare_20261025_01/inputs/videos.json": "724a2e5e9951076a64b87f4659011686df705a13caf196953c159eed337d0a7c"
+  },
+  "CPU_preflight": {
+    "status": "passed",
+    "cases": [
+      {
+        "grid": [
+          12,
+          16
+        ],
+        "all_kept_max_abs_error": 0.0,
+        "post_selection_exact": true,
+        "mid_layer_tokens": [
+          192,
+          192,
+          96,
+          96
+        ],
+        "output_tokens": 24
+      },
+      {
+        "grid": [
+          18,
+          24
+        ],
+        "all_kept_max_abs_error": 0.0,
+        "post_selection_exact": true,
+        "mid_layer_tokens": [
+          432,
+          432,
+          216,
+          216
+        ],
+        "output_tokens": 54
+      }
+    ],
+    "whole2x2_groups_preserved": true,
+    "original_grid_coordinates": true,
+    "A_B_A_no_state": true,
+    "model_parameters_unchanged": true,
+    "tiny_QA_context": true,
+    "QA_released": true,
+    "questions_and_scores_read": 0,
+    "pretrained_loads": 0,
+    "GPU_jobs": 0,
+    "no_capability_or_speed_claim": true,
+    "candidate_fixed_real_layers": 12,
+    "candidate_fixed_real_keep_groups": 54
+  },
+  "bash_LF_passed": true,
+  "unallocated_GPU_refused": true,
+  "media_locations": {
+    "1596617847671078_start_0.0_end_600.128": {
+      "path": "/home/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23/videos/1596617847671078_start_0.0_end_600.128.mp4",
+      "bytes": 139422110
+    },
+    "1483653685963589_start_0.0_end_300.0": {
+      "path": "/home/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23/videos/1483653685963589_start_0.0_end_300.0.mp4",
+      "bytes": 36849395
+    },
+    "9999393136796400_start_0.0_end_599.969": {
+      "path": "/home/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23/videos/9999393136796400_start_0.0_end_599.969.mp4",
+      "bytes": 139886662
+    },
+    "736867785903229_start_0.0_end_300.0": {
+      "path": "/home/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23/videos/736867785903229_start_0.0_end_300.0.mp4",
+      "bytes": 45018895
+    }
+  },
+  "CPU_stdout": "{'status': 'passed', 'cases': [{'grid': [12, 16], 'all_kept_max_abs_error': 0.0, 'post_selection_exact': True, 'mid_layer_tokens': [192, 192, 96, 96], 'output_tokens': 24}, {'grid': [18, 24], 'all_kept_max_abs_error': 0.0, 'post_selection_exact': True, 'mid_layer_tokens': [432, 432, 216, 216], 'output_tokens': 54}], 'whole2x2_groups_preserved': True, 'original_grid_coordinates': True, 'A_B_A_no_state': True, 'model_parameters_unchanged': True, 'tiny_QA_context': True, 'QA_released': True, 'questions_and_scores_read': 0, 'pretrained_loads': 0, 'GPU_jobs': 0, 'no_capability_or_speed_claim': True, 'candidate_fixed_real_layers': 12, 'candidate_fixed_real_keep_groups': 54}\n",
+  "GPU_jobs": 0,
+  "transferred_bytes": 81920,
+  "read_only_preflight": {
+    "root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "exists": {
+      "experiments/2b-vision-midprune-v1": false,
+      "runs/vision_midprune_prepare_20261025_01": false
+    }
+  }
+}

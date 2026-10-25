@@ -1,0 +1,205 @@
+[
+  {
+    "name": "quality",
+    "kind": "quality",
+    "arms": [
+      "full108_8",
+      "post_odd54_8",
+      "post_change54_8",
+      "mid_odd54_8"
+    ],
+    "videos": null
+  },
+  {
+    "name": "cost_b0_full108_8",
+    "kind": "cost",
+    "arms": [
+      "full108_8"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1881015629398934_start_0.0_end_578.99",
+      "778842524676728_start_0.0_end_359.915"
+    ]
+  },
+  {
+    "name": "cost_b0_post_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "post_odd54_8"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1881015629398934_start_0.0_end_578.99",
+      "778842524676728_start_0.0_end_359.915"
+    ]
+  },
+  {
+    "name": "cost_b0_post_change54_8",
+    "kind": "cost",
+    "arms": [
+      "post_change54_8"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1881015629398934_start_0.0_end_578.99",
+      "778842524676728_start_0.0_end_359.915"
+    ]
+  },
+  {
+    "name": "cost_b0_mid_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "mid_odd54_8"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1881015629398934_start_0.0_end_578.99",
+      "778842524676728_start_0.0_end_359.915"
+    ]
+  },
+  {
+    "name": "cost_b1_post_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "post_odd54_8"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "2064767457385035_start_0.0_end_409.969",
+      "548060551700833_start_0.0_end_599.972"
+    ]
+  },
+  {
+    "name": "cost_b1_post_change54_8",
+    "kind": "cost",
+    "arms": [
+      "post_change54_8"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "2064767457385035_start_0.0_end_409.969",
+      "548060551700833_start_0.0_end_599.972"
+    ]
+  },
+  {
+    "name": "cost_b1_mid_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "mid_odd54_8"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "2064767457385035_start_0.0_end_409.969",
+      "548060551700833_start_0.0_end_599.972"
+    ]
+  },
+  {
+    "name": "cost_b1_full108_8",
+    "kind": "cost",
+    "arms": [
+      "full108_8"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "2064767457385035_start_0.0_end_409.969",
+      "548060551700833_start_0.0_end_599.972"
+    ]
+  },
+  {
+    "name": "cost_b2_post_change54_8",
+    "kind": "cost",
+    "arms": [
+      "post_change54_8"
+    ],
+    "videos": [
+      "1370683007328428_start_0.0_end_311.532",
+      "1848337166005249_start_0.0_end_1199.976",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b2_mid_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "mid_odd54_8"
+    ],
+    "videos": [
+      "1370683007328428_start_0.0_end_311.532",
+      "1848337166005249_start_0.0_end_1199.976",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b2_full108_8",
+    "kind": "cost",
+    "arms": [
+      "full108_8"
+    ],
+    "videos": [
+      "1370683007328428_start_0.0_end_311.532",
+      "1848337166005249_start_0.0_end_1199.976",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b2_post_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "post_odd54_8"
+    ],
+    "videos": [
+      "1370683007328428_start_0.0_end_311.532",
+      "1848337166005249_start_0.0_end_1199.976",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b3_mid_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "mid_odd54_8"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1441688230351863_start_0.0_end_300.223",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  },
+  {
+    "name": "cost_b3_full108_8",
+    "kind": "cost",
+    "arms": [
+      "full108_8"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1441688230351863_start_0.0_end_300.223",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  },
+  {
+    "name": "cost_b3_post_odd54_8",
+    "kind": "cost",
+    "arms": [
+      "post_odd54_8"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1441688230351863_start_0.0_end_300.223",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  },
+  {
+    "name": "cost_b3_post_change54_8",
+    "kind": "cost",
+    "arms": [
+      "post_change54_8"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1441688230351863_start_0.0_end_300.223",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  }
+]

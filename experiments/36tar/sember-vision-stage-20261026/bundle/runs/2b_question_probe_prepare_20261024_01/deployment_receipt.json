@@ -1,0 +1,4 @@
+{
+  "stdout": "{\"status\": \"deployed_verified\", \"files\": 17, \"runtime_files\": 152, \"GPU_authorized\": false}\n",
+  "archive_sha256": "4af9ee48e70fccfbdcd556a2d389bcd8ae40f879d2d8a48c3089ebadaa6ade2d"
+}

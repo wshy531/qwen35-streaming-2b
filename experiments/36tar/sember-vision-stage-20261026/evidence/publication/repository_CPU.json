@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "suite_counts": [
+    3,
+    12,
+    186,
+    8
+  ],
+  "total": 209,
+  "seconds": 92.45300000000134,
+  "base": "cb21f3d198c2685736904c91543a8e74dfb769c4",
+  "real_pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "offline": true,
+  "checked_UTC": "2026-10-25T17:02:45.416949+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "aggregate_report_synced",
+  "files": {
+    "native_profile_summary.json": {
+      "bytes": 7350,
+      "sha256": "3b38d39237ccd6fda1a1c4b22faf1d919707d5030dfc290e7974a6086c60be9f"
+    },
+    "native_profile_report.md": {
+      "bytes": 5984,
+      "sha256": "6fc4626536e7b7268f00a32ade56be996bd3ab2f6b925a3d11b7d2b61dfe0522"
+    }
+  },
+  "GPU_jobs": 0
+}

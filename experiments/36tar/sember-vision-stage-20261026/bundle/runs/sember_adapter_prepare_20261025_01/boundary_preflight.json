@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "official_parser_cases": 48,
+  "official_prompt_matches": 580,
+  "content_and_format_separate": true,
+  "future_real_frame_never_submitted": true,
+  "pending_held_across_queries": true,
+  "true_EOF_pads_once": true,
+  "nonzero_source_origin": true,
+  "gapped_source_PTS": true,
+  "backward_query_rejected": true,
+  "source_closed": true,
+  "GPU_jobs": 0,
+  "pretrained_loads": 0,
+  "no_capability_claim": true
+}

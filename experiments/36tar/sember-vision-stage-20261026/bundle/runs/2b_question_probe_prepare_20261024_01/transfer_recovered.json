@@ -1,0 +1,8 @@
+{
+  "status": "retrieved_all_original_SHA_verified",
+  "files": 4,
+  "original_bytes": 4392098,
+  "compressed_bytes": 315893,
+  "engineering_transfer_attempts": 2,
+  "GPU_reruns": 0
+}

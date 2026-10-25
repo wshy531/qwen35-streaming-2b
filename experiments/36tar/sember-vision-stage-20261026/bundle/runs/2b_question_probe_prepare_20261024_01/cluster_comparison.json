@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "layouts": 909,
+  "portable_layout_fields_exact": true,
+  "same_contracts": true,
+  "GPU_jobs": 0,
+  "stdout": "{\"status\": \"CPU_passed\", \"seconds\": 41.96665006689727, \"GPU_jobs\": 0}\n",
+  "random_weights_not_semantic_evidence": true
+}

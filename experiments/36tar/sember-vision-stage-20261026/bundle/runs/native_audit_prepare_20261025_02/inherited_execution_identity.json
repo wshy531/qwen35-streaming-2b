@@ -1,0 +1,112 @@
+{
+  "previous_execution_lock_sha256": "20b7fd6eccae5a23f6d09ce3a090af1e6dca5fa9622cce28f9603fcd9c7c1608",
+  "old_dependencies": {
+    "runtime_sha256": {
+      "experiments/2b-native-audit-v1/analyze.py": "9637a3122f4ea07376aadc2a42e8cd7a54d34255eae9d8257dd681d5a8d9f364",
+      "experiments/2b-native-audit-v1/audit_common.py": "a9287c75908f5e448630b3dfab9f9a66e779cedda03a7cc9d4ef6d298ada2ebd",
+      "experiments/2b-native-audit-v1/cpu_normal.py": "51e9eaccfadbb17bc984570ddbd8dba3b3cecf79822aa6650c1603ec4b0590e9",
+      "experiments/2b-native-audit-v1/evaluate.py": "41715cce4949f6e214bc572f626b736e888fcd5ff3c37eba7ac58d24c3809f06",
+      "experiments/2b-native-audit-v1/finalize_preflight.py": "8e9eca0bf4177fbb4b0e7e6fe49a9e911d80865c85883bdc6fae41d33cf372e7",
+      "experiments/2b-native-audit-v1/launch.py": "49255a5d9cb39fb8a87d03704fc8ab03351a9dab185b53020726a0d3856a7d83",
+      "experiments/2b-native-audit-v1/native_inputs.py": "a8a2043dfca4fdd46b3f9a6de66dac01d0e37e57d9916e7c1da1170c0509ba14",
+      "experiments/2b-native-audit-v1/preflight.py": "0f2339aa771840d1a74702b57f2a33e4d17f9057987f8b70c4870acde0691364",
+      "experiments/2b-native-audit-v1/prepare.py": "2b359211c23d80dd5427204c720f78899eec45fe3369fdf9642af3bd4dc81d61",
+      "experiments/2b-native-audit-v1/prepare_official_env.py": "4a809cef1970713bd6549da9980ff4b71ffaf9a42668cd7605db22589e4ebdd7",
+      "experiments/2b-native-audit-v1/probe_official.py": "77a6b9f5e4a6d63284e2b80f399a072dc4f64a0385d05ba05f8f67733bc780d3",
+      "experiments/2b-native-audit-v1/README.md": "a06637570ae86119420ff310af47b9d96fe058f89534251579872cb1a98dbc6e",
+      "experiments/2b-native-audit-v1/run_profile.sh": "20d941eefbd218c5293e85e40bbc9928c589ac4b3c5e327d393e60be0237c73b",
+      "experiments/2b-sember-v1/sember_source.py": "5c09cd3757f897401f239eaca8a90d88aec54a2702651ba0363cf0c1ededc4ee",
+      "experiments/2b-sember-v1/sember_protocol.py": "b82c52954ab33c508f001e4c69f0ce98e0656e3e6af31539e30c7b488abb2121",
+      "models/Qwen3.5-2B/config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+      "models/Qwen3.5-2B/tokenizer_config.json": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+      "models/Qwen3.5-2B/video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "models/Qwen3.5-2B/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "models/Qwen3.5-2B/chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80"
+    },
+    "input_sha256": {
+      "design.json": "b38c47fedee4ec859b2875f643dc51e0f6ffc7245a0654c5a3eed979255c48f8",
+      "expected_prefixes.json": "39ccd5f84be1fc59d7ed02014f7127266782e73f1d51c3aacb7713f2d630b25c",
+      "formal_requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+      "requests.json": "d397c7aaa08a3f28b29f8813cef090dacd356bdf2f5b54a9eafbc0d9cc5c1c7a",
+      "videos.json": "d17b6fdd4a859b6a61fd356074e814e24d8fd873acf5322063ac38afaedc7062"
+    },
+    "official_package": {
+      "status": "isolated_official_release_installed",
+      "version": "5.4.0",
+      "metadata_url": "https://pypi.org/pypi/transformers/5.4.0/json",
+      "wheel_url": "https://files.pythonhosted.org/packages/0b/a0/0a87883e564e364baab32adcacb4bec2e200b28a568423c8cf7fde316461/transformers-5.4.0-py3-none-any.whl",
+      "wheel_bytes": 10105556,
+      "wheel_sha256": "9fbe50602d2a4e6d0aa8a35a605433dfac72d595ee2192eae192590a6cc2df86",
+      "environment": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0",
+      "identity": {
+        "version": "5.4.0",
+        "path": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\__init__.py"
+      },
+      "heavy_dependencies_shared_from": "E:\\VIT Model\\.venv\\Lib\\site-packages",
+      "original_environment_modified": false,
+      "real_weights_downloaded": false,
+      "GPU_jobs": 0
+    },
+    "original_official_source_SHA": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+    "new_official_source_SHA": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+    "explicit_new_GPU_authorization_required": true
+  },
+  "file_changes": {
+    "analyze.py": {
+      "original_sha256": "9637a3122f4ea07376aadc2a42e8cd7a54d34255eae9d8257dd681d5a8d9f364",
+      "repaired_sha256": "5412f4b161fa4cbfe1ed2811be74c613942c5b2ab8b2a27abafb21be58989872"
+    },
+    "audit_common.py": {
+      "original_sha256": "a9287c75908f5e448630b3dfab9f9a66e779cedda03a7cc9d4ef6d298ada2ebd",
+      "repaired_sha256": "c33812649394c0204ded03e338db12011f82829be4107f75c8ee59c4c94a0c12"
+    },
+    "cpu_normal.py": {
+      "original_sha256": "51e9eaccfadbb17bc984570ddbd8dba3b3cecf79822aa6650c1603ec4b0590e9",
+      "repaired_sha256": "aead02a4b3ea165eee92b804c49566e1db7ba2377e7f81044cc4d6986223a08d"
+    },
+    "evaluate.py": {
+      "original_sha256": "41715cce4949f6e214bc572f626b736e888fcd5ff3c37eba7ac58d24c3809f06",
+      "repaired_sha256": "ccabe4e67d11fab571ec4400f83144b5fcc99896766f7a5a1434ec2e4697c8ca"
+    },
+    "finalize_preflight.py": {
+      "original_sha256": "8e9eca0bf4177fbb4b0e7e6fe49a9e911d80865c85883bdc6fae41d33cf372e7",
+      "repaired_sha256": "cfa1f9cd039f9dd683252e17606fa39bf2396c5cab80296271fbd25b0aab775b"
+    },
+    "launch.py": {
+      "original_sha256": "49255a5d9cb39fb8a87d03704fc8ab03351a9dab185b53020726a0d3856a7d83",
+      "repaired_sha256": "abb9b943088dda19a2fe07e9b2e139c21753b791441863e406793bb3772dc91a"
+    },
+    "native_inputs.py": {
+      "original_sha256": "a8a2043dfca4fdd46b3f9a6de66dac01d0e37e57d9916e7c1da1170c0509ba14",
+      "repaired_sha256": "54a25d9080c34e48b00b4545c7309dbf364c22ba05fcbbf1f17c174cb3109cc9"
+    },
+    "preflight.py": {
+      "original_sha256": "0f2339aa771840d1a74702b57f2a33e4d17f9057987f8b70c4870acde0691364",
+      "repaired_sha256": "5968fb8a4f71ea614c60c101ffc2e2b6ae54b2e716383d7cc8612c1819bce7a5"
+    },
+    "prepare.py": {
+      "original_sha256": "2b359211c23d80dd5427204c720f78899eec45fe3369fdf9642af3bd4dc81d61",
+      "repaired_sha256": "c00216571dd0e729abaff0d7dfe22b71363e983c55a48f11f77446095fba30d7"
+    },
+    "prepare_official_env.py": {
+      "original_sha256": "4a809cef1970713bd6549da9980ff4b71ffaf9a42668cd7605db22589e4ebdd7",
+      "repaired_sha256": "1ebb2bf62b3e331ad15cc6566d55553c73ec3943cb10f0464df00e428a27eef6"
+    },
+    "probe_official.py": {
+      "original_sha256": "77a6b9f5e4a6d63284e2b80f399a072dc4f64a0385d05ba05f8f67733bc780d3",
+      "repaired_sha256": "5095a829d204fc59b994fba53bc0dd65a5a5b2dfc8b9f9f9d4bb5422222472c3"
+    },
+    "README.md": {
+      "original_sha256": "a06637570ae86119420ff310af47b9d96fe058f89534251579872cb1a98dbc6e",
+      "repaired_sha256": "e5cbadf8657ace93679e8002da096020a07014f86052eb8b0786d8433a4bf423"
+    },
+    "run_profile.sh": {
+      "original_sha256": "20d941eefbd218c5293e85e40bbc9928c589ac4b3c5e327d393e60be0237c73b",
+      "repaired_sha256": "edb1e4b8b078020a2280cd1ebf7f3031d950290dbf9101877c0c3e0c79b5c8e4"
+    }
+  },
+  "repair_scope": "only JSON serialization and new independent output paths; no model/input/scoring changes",
+  "previous_job": "218629",
+  "previous_failure": "TypeError: set is not JSON serializable",
+  "GPU_authorized": false
+}

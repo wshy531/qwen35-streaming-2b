@@ -1,0 +1,38 @@
+{
+  "status": "new_files_and_official_environment_ready",
+  "files_sha256": {
+    "experiments/2b-native-audit-v1/analyze.py": "9637a3122f4ea07376aadc2a42e8cd7a54d34255eae9d8257dd681d5a8d9f364",
+    "experiments/2b-native-audit-v1/audit_common.py": "a9287c75908f5e448630b3dfab9f9a66e779cedda03a7cc9d4ef6d298ada2ebd",
+    "experiments/2b-native-audit-v1/cpu_normal.py": "51e9eaccfadbb17bc984570ddbd8dba3b3cecf79822aa6650c1603ec4b0590e9",
+    "experiments/2b-native-audit-v1/evaluate.py": "41715cce4949f6e214bc572f626b736e888fcd5ff3c37eba7ac58d24c3809f06",
+    "experiments/2b-native-audit-v1/finalize_preflight.py": "8e9eca0bf4177fbb4b0e7e6fe49a9e911d80865c85883bdc6fae41d33cf372e7",
+    "experiments/2b-native-audit-v1/launch.py": "49255a5d9cb39fb8a87d03704fc8ab03351a9dab185b53020726a0d3856a7d83",
+    "experiments/2b-native-audit-v1/native_inputs.py": "a8a2043dfca4fdd46b3f9a6de66dac01d0e37e57d9916e7c1da1170c0509ba14",
+    "experiments/2b-native-audit-v1/preflight.py": "0f2339aa771840d1a74702b57f2a33e4d17f9057987f8b70c4870acde0691364",
+    "experiments/2b-native-audit-v1/prepare.py": "2b359211c23d80dd5427204c720f78899eec45fe3369fdf9642af3bd4dc81d61",
+    "experiments/2b-native-audit-v1/prepare_official_env.py": "4a809cef1970713bd6549da9980ff4b71ffaf9a42668cd7605db22589e4ebdd7",
+    "experiments/2b-native-audit-v1/probe_official.py": "77a6b9f5e4a6d63284e2b80f399a072dc4f64a0385d05ba05f8f67733bc780d3",
+    "experiments/2b-native-audit-v1/README.md": "a06637570ae86119420ff310af47b9d96fe058f89534251579872cb1a98dbc6e",
+    "experiments/2b-native-audit-v1/run_profile.sh": "20d941eefbd218c5293e85e40bbc9928c589ac4b3c5e327d393e60be0237c73b",
+    "runs/native_audit_prepare_20261025_01/inputs/design.json": "b38c47fedee4ec859b2875f643dc51e0f6ffc7245a0654c5a3eed979255c48f8",
+    "runs/native_audit_prepare_20261025_01/inputs/execution_lock.json": "20b7fd6eccae5a23f6d09ce3a090af1e6dca5fa9622cce28f9603fcd9c7c1608",
+    "runs/native_audit_prepare_20261025_01/inputs/expected_prefixes.json": "39ccd5f84be1fc59d7ed02014f7127266782e73f1d51c3aacb7713f2d630b25c",
+    "runs/native_audit_prepare_20261025_01/inputs/formal_requests.json": "8b61722995ef82cb110f0b7ab9e05723883f4e0e94b7f0a8c9af6a7baee5a494",
+    "runs/native_audit_prepare_20261025_01/inputs/requests.json": "d397c7aaa08a3f28b29f8813cef090dacd356bdf2f5b54a9eafbc0d9cc5c1c7a",
+    "runs/native_audit_prepare_20261025_01/inputs/videos.json": "d17b6fdd4a859b6a61fd356074e814e24d8fd873acf5322063ac38afaedc7062",
+    "runs/native_audit_prepare_20261025_01/official_package/transformers-5.4.0-py3-none-any.whl": "9fbe50602d2a4e6d0aa8a35a605433dfac72d595ee2192eae192590a6cc2df86"
+  },
+  "official_package_members": 2253,
+  "environment": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0",
+  "shared_dependencies": "/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/qwen35-2b-fp32/lib/python3.11/site-packages",
+  "GPU_jobs": 0,
+  "preflight": {
+    "root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "exists": {
+      "experiments/2b-native-audit-v1": false,
+      "runs/native_audit_prepare_20261025_01": false,
+      "envs/native-audit-transformers-5.4.0": false
+    }
+  },
+  "transferred_bytes": 10629120
+}
