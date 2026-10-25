@@ -16,4 +16,6 @@ jobs:
       - run: python -m pip install -r requirements-cluster.txt
       - run: python scripts/prepare_model.py --model-dir .cache/processor --processor-only
       - run: python scripts/run_cpu_checks.py --model-dir .cache/processor
+      - run: python -I -S -B experiments/wshy/sember-resolution-stage-20261025/verify_delivery.py
+      - run: python -I -S -B -m unittest discover -s experiments/wshy/sember-resolution-stage-20261025/tests -v
       - run: git diff --check

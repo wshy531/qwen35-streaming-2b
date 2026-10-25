@@ -1,0 +1,122 @@
+{
+  "schema": "sember-resolution-v2",
+  "presets": {
+    "low": {
+      "canvas": [
+        192,
+        256
+      ],
+      "grid": [
+        6,
+        8
+      ],
+      "pair_tokens": 48,
+      "recent_tokens": 192,
+      "history_tokens": 192,
+      "total_tokens": 384
+    },
+    "mid": {
+      "canvas": [
+        288,
+        384
+      ],
+      "grid": [
+        9,
+        12
+      ],
+      "pair_tokens": 108,
+      "recent_tokens": 432,
+      "history_tokens": 432,
+      "total_tokens": 864
+    },
+    "high": {
+      "canvas": [
+        384,
+        512
+      ],
+      "grid": [
+        12,
+        16
+      ],
+      "pair_tokens": 192,
+      "recent_tokens": 768,
+      "history_tokens": 768,
+      "total_tokens": 1536
+    }
+  },
+  "arms": [
+    "LS",
+    "A06",
+    "native",
+    "text_only"
+  ],
+  "fps": 1,
+  "shifts": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "precision": "float32",
+  "scope": "same author-evidence frame pairs in all visual arms; oracle diagnostic, not full-stream ranking",
+  "budget": "four recent pairs plus four pair-equivalents of history; grows with resolution",
+  "resize": "historical two-stage letterbox at three 3:4 canvases; no crop/stretch",
+  "native_attention": "FP32 math SDPA, 512-query tiles, full keys/values; no memory compression",
+  "pretrained_loads": 2,
+  "simultaneous_models": 1,
+  "max_new_tokens": 8,
+  "cpus": 4,
+  "RAM_GiB": 48,
+  "GPU_GiB_ceiling": 72,
+  "minimum_free_GPU_GiB": 64,
+  "slurm_minutes": 360,
+  "context_native": 40960,
+  "query_tile": 512,
+  "worker_seconds": 21300,
+  "context_memory": 8192,
+  "automatic_retry": false,
+  "held_out": false,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "schedule": {
+    "questions": 102,
+    "videos": 18,
+    "reused_answers": 1530,
+    "new_native": 510,
+    "new_memory": 3060,
+    "replay_answers": 270,
+    "maximum_new_answers": 3840,
+    "maximum_new_tokens": 30720,
+    "unique_analysis_answers": 5100,
+    "replay_ids": [
+      "sember:1242e4f6ef99c5a6fe2375d0fcda1757dbd38f0d736f8b3add35dcff7427dc08",
+      "sember:2065a6fc8c7a88e25f366700341fa8830799026e940d39ab7abf50a83007117d",
+      "sember:235f589bf0f500391357423585d49be71a7b943f44f28441cd45e0ee5b9a42dd",
+      "sember:3111fd1418ae631a5351b9588a0a7ad7ca182789e0885e499425a2eb001ebfcf",
+      "sember:36f03a0f0c70ffe55d839e3d7bac952f46303e90a57d0b7218048f63bbf5ae3f",
+      "sember:487de019dee8a7545068e5b6893ce8e0c4b7b87fd2e3d683f3e776a9706e7742",
+      "sember:51444a4fa7a0098a9aa9691a6240dbe0278c290d51b68c9ae750707132aebb5a",
+      "sember:532EB2225ADFBB0FA77BFF8F09D20CDCA6F23508B4EC6B57B514FEE09827C706",
+      "sember:682ACF5C4C98C425B900888804920A03C9DC60E76C0B91FE768C1148B121D303",
+      "sember:6d8115b2a85021897c0c68419024778c753bcf66dd6c11f9453e87ee96f04e05",
+      "sember:73d876fe025cd20aeef69e51f5904487e5d63b76d76589365425779416f2480f",
+      "sember:764E07AD491239A8A0D36E5F08B087B852C4EFAED6266AAF1830D346AADDE59C",
+      "sember:89c94117c7dfe658f407d8b09aebaebea449750d6707d417c03cc4d9e2622ada",
+      "sember:927231B3C14799B742391587A7AEC3F4D26F1FE3C55B745C20E4B0FE8B3167B8",
+      "sember:b92ece63595a33b42c2ab59fa4df8d43d267f8ba2ff1bb85c81f085a7dcf7069",
+      "sember:c1f1c7108d60dbe83d22d7db56c11054d6f504c4bc29b161ba4b200ac0932306",
+      "sember:d9912739f1aa962a46b1753fb236579c3b4b54791dba10cfba75548e73ab1b1c",
+      "sember:e2ea033b5a6c8a7f801f250421d865df2fc4821c034fd3633aeabcab8b9c8a89"
+    ]
+  },
+  "historical_sha256": {
+    "gpu/predictions.jsonl": "314cf842ced3b3f0275c5479f702f80237621ff31ff052e827f5662e3bb91e34",
+    "protocol.json": "166664aa1c9f465a8b757c5a05e149349b2b69f28a3a0282cc29a943e29f0d45",
+    "cpu/passed.json": "5ed5bb0e1c01fab439b51071ad98a239b7db946d58f90b1c10e806bff33638af",
+    "gpu/completed.json": "31b3958e097bbfa4625acad9020be5abe51ca2050dd1733372d13c9599240c20"
+  },
+  "requests_sha256": "509b38da065dc5c0fe8d43d23ac6ea75991112936db4a630c1765199501033c6",
+  "source_lock_sha256": "82872ff4f4f03efa1ce0ad2ac6312c64e5e538d34bd190ecf985e63a417b369e",
+  "reuse_sha256": "f12c8a820d1a75ff722e330d9d4d5f7c3257163354bced805170e893723cbc3b",
+  "resources_sha256": "da7e39eabfc365a1f887d67fa942b3e77009151304e47c6de03c4c26ec20a6cd"
+}

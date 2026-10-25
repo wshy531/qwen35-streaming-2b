@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "new_answers": 3840,
+  "new_generated_tokens": 7864,
+  "reused_answers": 1530,
+  "unique_analysis_answers": 5100,
+  "pretrained_loads": 2,
+  "peak_GPU_bytes": {
+    "native_low": 9643977728,
+    "native_mid": 10503753216,
+    "native_none": 8922738176,
+    "native_high": 17607880704,
+    "memory_low": 8966294528,
+    "memory_mid": 8998334464,
+    "memory_high": 9049761792,
+    "overall": 17607880704
+  },
+  "seconds": 6663.89430541289,
+  "visual_forward_calls": 10056,
+  "expected_visual_calls": 10056,
+  "protocol_sha256": "41ee4e530a312c43e433451607055dd19faa47b59f7b6287f6f185b9cbcdd476",
+  "CPU_proof_sha256": "886bc7554d95eb49423357aab016f841d527ed91b478fb6a37c55e59e8e9bdbc",
+  "predictions_sha256": "66fd18b21860662b8a02b1710985ca457c3ed53eacb3f1fab540ea1c7ad2a7ec",
+  "events_sha256": "b7c10167153cef223a5a242b027735fc0b954bc751943278c6cc89f33f311362"
+}

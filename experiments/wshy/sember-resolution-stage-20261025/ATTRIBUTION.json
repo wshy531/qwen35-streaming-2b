@@ -1,0 +1,31 @@
+{
+  "dataset": {
+    "name": "S-EMBER",
+    "owner": "facebook / AI at Meta",
+    "url": "https://huggingface.co/datasets/facebook/S-EMBER",
+    "revision": "897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+    "license": "CC-BY-NC-4.0",
+    "access": "Obtain authorized access separately; no videos, questions/options, or official answer-key file is redistributed here"
+  },
+  "reused_work": [
+    {
+      "author": "36tar",
+      "work": "Frozen visual encoding and event-forest compression; original A06 source is separately credited through the existing online_memory_2b/a06.py provenance",
+      "path": "experiments/36tar/memory-eval-2b/",
+      "PR": "https://github.com/wshy531/qwen35-streaming-2b/pull/2"
+    },
+    {
+      "author": "36tar",
+      "work": "Token compression and isolated readout comparisons",
+      "path": "experiments/36tar/token-readout-stage-20261024/",
+      "PR": "https://github.com/wshy531/qwen35-streaming-2b/pull/4"
+    },
+    {
+      "author": "wshy531",
+      "work": "Existing online memory, independent A06/LS adapters and long-video baseline",
+      "path": "experiments/wshy/memory-review-2b-20261021/",
+      "PR": "https://github.com/wshy531/qwen35-streaming-2b/pull/3"
+    }
+  ],
+  "current_contribution": "S-EMBER input diagnosis, exact historical reuse, resolution-aware LS/A06 and bounded native attention workspace; no new compression formula or trained weights"
+}
