@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "job_id": "218458",
+  "tests": 72,
+  "tiny_answers": 9,
+  "new_answers": 3840,
+  "reused_answers": 1530,
+  "unique_answers": 5100,
+  "reset_checks": 612,
+  "visual_forward_calls": 10056,
+  "generated_tokens": 7864,
+  "protocol_sha256": "41ee4e530a312c43e433451607055dd19faa47b59f7b6287f6f185b9cbcdd476",
+  "completed_sha256": "accfdf450c1de44b6032a17de3cfa26d1d6074c0eadf57ebbb77c355462bc1bd",
+  "score_sha256": "2a4319333ebfd1814608848f10d5e14392b47db4ce3cee39f7269e1e4fef2e9e",
+  "semantic_review": "pending",
+  "held_out": false
+}

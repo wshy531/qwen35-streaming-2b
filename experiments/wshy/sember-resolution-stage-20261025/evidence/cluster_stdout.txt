@@ -1,0 +1,10 @@
+{"stage": "cpu", "resolution": "low", "inputs": 510}
+{"stage": "cpu", "resolution": "mid", "inputs": 1020}
+{"stage": "cpu", "resolution": "high", "inputs": 1530}
+{"stage": "gpu-native", "resolution": "low", "answers": 90}
+{"stage": "gpu-native", "resolution": "mid", "answers": 180}
+{"stage": "gpu-native", "resolution": "none", "answers": 270}
+{"stage": "gpu-native", "resolution": "high", "answers": 780}
+{"stage": "gpu-memory", "resolution": "low", "answers": 1800}
+{"stage": "gpu-memory", "resolution": "mid", "answers": 2820}
+{"stage": "gpu-memory", "resolution": "high", "answers": 3840}

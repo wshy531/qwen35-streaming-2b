@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "pretrained_loads": 0,
+  "environment": {
+    "python": "3.11.9 (main, Jul  2 2024, 20:55:37) [GCC 8.5.0 20210514 (Red Hat 8.5.0-22)]",
+    "torch": "2.10.0+cu128",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "accelerate": "1.12.0",
+    "psutil": "7.2.2"
+  },
+  "tiny_answers": [
+    {
+      "arm": "native",
+      "resolution": "low",
+      "generated_ids": [
+        233576,
+        239676,
+        114945,
+        222812,
+        220991,
+        123343,
+        178786,
+        217636
+      ]
+    },
+    {
+      "arm": "native",
+      "resolution": "mid",
+      "generated_ids": [
+        12189,
+        6554,
+        77255,
+        59958,
+        243739,
+        59204,
+        122514,
+        194919
+      ]
+    },
+    {
+      "arm": "native",
+      "resolution": "high",
+      "generated_ids": [
+        12189,
+        6554,
+        77255,
+        59958,
+        243739,
+        49768,
+        12598,
+        203425
+      ]
+    },
+    {
+      "arm": "LS",
+      "resolution": "low",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        14901,
+        35508,
+        50463,
+        63459,
+        51886
+      ]
+    },
+    {
+      "arm": "A06",
+      "resolution": "low",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        14901,
+        35508,
+        8094,
+        66445,
+        235813
+      ]
+    },
+    {
+      "arm": "LS",
+      "resolution": "mid",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        14901,
+        35508,
+        8094,
+        66445,
+        235813
+      ]
+    },
+    {
+      "arm": "A06",
+      "resolution": "mid",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        14901,
+        35508,
+        8094,
+        66445,
+        235813
+      ]
+    },
+    {
+      "arm": "LS",
+      "resolution": "high",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        30808,
+        86405,
+        77075,
+        2235,
+        184418
+      ]
+    },
+    {
+      "arm": "A06",
+      "resolution": "high",
+      "generated_ids": [
+        92105,
+        187982,
+        115421,
+        221307,
+        185754,
+        106792,
+        67931,
+        157501
+      ]
+    }
+  ],
+  "model_path": "/home/share/czy/wsy/models/Qwen3.5-2B",
+  "model_manifest_sha256": "de76345b3c2722d878f54b90fe51d09eb6b3eef4f4724db03af7f26e500a9525",
+  "protocol_sha256": "41ee4e530a312c43e433451607055dd19faa47b59f7b6287f6f185b9cbcdd476",
+  "hashes": {
+    "contracts.txt": "e2d43305b17da30416a62978293182e7b1baaae047e8fef591df2d9496d8957f",
+    "inputs.json": "79c6c795226fb3cecf63048fbcd8ae94ee9878c072be6df57167f1c5a93d8b62",
+    "selections.json": "9324baada12a27184b7a47d7467cf250baa142cec485519ecd044ca63561ddd8"
+  }
+}

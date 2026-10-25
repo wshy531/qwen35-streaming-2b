@@ -1,0 +1,32 @@
+{
+  "LS": {
+    "cluster_unit": "video",
+    "videos": 18,
+    "draws": 5000,
+    "seed": 218458,
+    "exploratory_percentile_95_interval_pp": [
+      -2.2857142857142856,
+      5.454545454545454
+    ]
+  },
+  "A06": {
+    "cluster_unit": "video",
+    "videos": 18,
+    "draws": 5000,
+    "seed": 218458,
+    "exploratory_percentile_95_interval_pp": [
+      -0.7843137254901961,
+      6.730769230769231
+    ]
+  },
+  "native": {
+    "cluster_unit": "video",
+    "videos": 18,
+    "draws": 5000,
+    "seed": 218458,
+    "exploratory_percentile_95_interval_pp": [
+      -3.1372549019607843,
+      4.528301886792453
+    ]
+  }
+}

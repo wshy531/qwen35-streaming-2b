@@ -1,0 +1,117 @@
+{
+  "files": {
+    "ATTRIBUTION.json": {
+      "sha256": "c7c771188a84d0f461f639c3b3eb44d72f42953ffb40183acfedd983fd94c1fb",
+      "bytes": 1409
+    },
+    "EVIDENCE_MANIFEST.json": {
+      "sha256": "fd6155dd9dfbeec281c0a4dfbe176e3274ab503e19a9970dea49a7ea494ff88c",
+      "bytes": 5760
+    },
+    "README.md": {
+      "sha256": "d211d0a03d030d2b95a39e5693059e48da650240be7bbaa5b03e1848ba44ffa7",
+      "bytes": 6397
+    },
+    "RESULTS.html": {
+      "sha256": "dc5919a8a055a528f817e3ba9e45b08763bbbad0c22c9b60d9c898133627f6ff",
+      "bytes": 9329
+    },
+    "RESULTS.txt": {
+      "sha256": "9ed774914219163c90711f3ec252bee497f2e7f0142693dfe9dd3c3d58215878",
+      "bytes": 6254
+    },
+    "SLURM_RECEIPT.json": {
+      "sha256": "acbe26b2a6facb1898f9b5ac4f7c02ac516b22dd2265956381f03b9c151d440c",
+      "bytes": 623
+    },
+    "SOURCE_BINDINGS.json": {
+      "sha256": "37d7995b0af68b7af22284493fef02b766e587e1e067a36bb3e88b5903f3ab75",
+      "bytes": 34544
+    },
+    "verify_delivery.py": {
+      "sha256": "a267431ea9f99ecd9498f0947a34a7b0a381e1d98539708f16e81cb5a867b0aa",
+      "bytes": 9626
+    },
+    "evidence/cluster_stderr.txt": {
+      "sha256": "36424bc8314045b28f7256aeb5a78c7a92489bf65c2b4eeec2b61fceb0e2f565",
+      "bytes": 2314
+    },
+    "evidence/cluster_stdout.txt": {
+      "sha256": "408b477bcf21845796a537b0bec2adef62e44a99cec55075db218b72ee393fda",
+      "bytes": 594
+    },
+    "evidence/scored_observations.jsonl": {
+      "sha256": "bb982d2df16b2e7fd966141501d367511374a8e169ab888c44999ea13009097f",
+      "bytes": 1731219
+    },
+    "evidence/job218458/historical_reuse.json": {
+      "sha256": "f12c8a820d1a75ff722e330d9d4d5f7c3257163354bced805170e893723cbc3b",
+      "bytes": 1795478
+    },
+    "evidence/job218458/independent_audit.json": {
+      "sha256": "27e9763cfc5999a47eede626970bf79bb63d5a2a2256662c2ab1a96c322f53f4",
+      "bytes": 577
+    },
+    "evidence/job218458/protocol.json": {
+      "sha256": "41ee4e530a312c43e433451607055dd19faa47b59f7b6287f6f185b9cbcdd476",
+      "bytes": 4194
+    },
+    "evidence/job218458/source_lock.json": {
+      "sha256": "82872ff4f4f03efa1ce0ad2ac6312c64e5e538d34bd190ecf985e63a417b369e",
+      "bytes": 32961
+    },
+    "evidence/job218458/video_cluster_uncertainty.json": {
+      "sha256": "4a8b0dbecb9d9227ee6685548d04a8a8010f0961adcdbe6df1068d79a796bd4f",
+      "bytes": 653
+    },
+    "evidence/job218458/cpu/contracts.txt": {
+      "sha256": "e2d43305b17da30416a62978293182e7b1baaae047e8fef591df2d9496d8957f",
+      "bytes": 8139
+    },
+    "evidence/job218458/cpu/inputs.json": {
+      "sha256": "79c6c795226fb3cecf63048fbcd8ae94ee9878c072be6df57167f1c5a93d8b62",
+      "bytes": 857738
+    },
+    "evidence/job218458/cpu/passed.json": {
+      "sha256": "886bc7554d95eb49423357aab016f841d527ed91b478fb6a37c55e59e8e9bdbc",
+      "bytes": 2812
+    },
+    "evidence/job218458/cpu/selections.json": {
+      "sha256": "9324baada12a27184b7a47d7467cf250baa142cec485519ecd044ca63561ddd8",
+      "bytes": 2952096
+    },
+    "evidence/job218458/gpu/completed.json": {
+      "sha256": "accfdf450c1de44b6032a17de3cfa26d1d6074c0eadf57ebbb77c355462bc1bd",
+      "bytes": 893
+    },
+    "evidence/job218458/gpu/events.jsonl": {
+      "sha256": "b7c10167153cef223a5a242b027735fc0b954bc751943278c6cc89f33f311362",
+      "bytes": 1627913
+    },
+    "evidence/job218458/gpu/load_1_started.json": {
+      "sha256": "a8a18738b10ccb2db2c27c04916a027fa49af2146233ad5e92fbd5e2c896dde4",
+      "bytes": 89
+    },
+    "evidence/job218458/gpu/load_2_started.json": {
+      "sha256": "de6b1909e63202d3a527422134fac521437373223c0f7ab77a1a997821e77939",
+      "bytes": 79
+    },
+    "evidence/job218458/gpu/predictions.jsonl": {
+      "sha256": "66fd18b21860662b8a02b1710985ca457c3ed53eacb3f1fab540ea1c7ad2a7ec",
+      "bytes": 9748286
+    },
+    "evidence/job218458/gpu/reuse_enabled.json": {
+      "sha256": "95a810252c28dbad7be53d25ba25334a4fed8c3b3168034276f1c39f84b5c743",
+      "bytes": 62
+    },
+    "evidence/job218458/score/summary.json": {
+      "sha256": "2a4319333ebfd1814608848f10d5e14392b47db4ce3cee39f7269e1e4fef2e9e",
+      "bytes": 668807
+    },
+    "tests/test_delivery.py": {
+      "sha256": "bd11d5707765083e30a1a561a77dabfc66c3d2550b9270bbccc95ca0a22e012b",
+      "bytes": 2016
+    }
+  },
+  "scope": "publication files excluding this self-referential manifest"
+}

@@ -1,0 +1,4 @@
+{
+  "kind": "streaming",
+  "implementation": "qwen35_local.modeling_qwen3_5"
+}

@@ -17,6 +17,8 @@
 
 2026-10-16 本机 CPU 检查：**209 项通过，0 失败/错误/跳过**。使用 2B 官方处理器及微型随机模型，未下载 2B 权重；[机器可读摘要](reports/bootstrap-2b/cpu_summary.json)与[测试输出](reports/bootstrap-2b/cpu_console.txt)。Linux CI 结果以 GitHub Actions 为准。
 
+2026-10-25 wshy阶段成果见[S-EMBER三档分辨率与成本对照](experiments/wshy/sember-resolution-stage-20261025/README.md)：102道开发题、18视频、五种选项轮换，对比LS、A06、原生无记忆和纯文字。作业218458完成且独立复算通过；建议288×384作为效果/成本折中候选，默认策略未变。提供原始回答、226项源码绑定及标准库离线复核入口，继承并注明36tar的冻结算法、A06与读取实验贡献。
+
 ## 开发入口
 
 ```text

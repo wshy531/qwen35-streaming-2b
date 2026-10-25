@@ -1,0 +1,97 @@
+test_answer_duplicate_and_generation_cap (test_contracts.BaselineContracts.test_answer_duplicate_and_generation_cap) ... ok
+test_changed_prefix_is_rejected (test_contracts.BaselineContracts.test_changed_prefix_is_rejected) ... ok
+test_continuous_queries_keep_odd_frame_pending (test_contracts.BaselineContracts.test_continuous_queries_keep_odd_frame_pending) ... ok
+test_duplicate_prediction_does_not_replace_missing_answer (test_contracts.BaselineContracts.test_duplicate_prediction_does_not_replace_missing_answer) ... ok
+test_evidence_proxy_uses_committed_frames_only (test_contracts.BaselineContracts.test_evidence_proxy_uses_committed_frames_only) ... ok
+test_label_index_letter_mismatch_is_rejected (test_contracts.BaselineContracts.test_label_index_letter_mismatch_is_rejected) ... ok
+test_longer_question_allowance_preserves_other_limits (test_contracts.BaselineContracts.test_longer_question_allowance_preserves_other_limits) ... ok
+test_official_gold_produces_full_grid_score (test_contracts.BaselineContracts.test_official_gold_produces_full_grid_score) ... ok
+test_original102_requests_have_no_labels (test_contracts.BaselineContracts.test_original102_requests_have_no_labels) ... ok
+test_paired_gains_and_losses_survive_zero_net (test_contracts.BaselineContracts.test_paired_gains_and_losses_survive_zero_net) ... ok
+test_prepared_gate_binds_sampling_manifest_before_execution (test_contracts.BaselineContracts.test_prepared_gate_binds_sampling_manifest_before_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.098s
+
+OK
+test_all102_plan_excludes_answers (test_contracts.EvidenceContracts.test_all102_plan_excludes_answers) ... ok
+test_future_annotation_rejected (test_contracts.EvidenceContracts.test_future_annotation_rejected) ... ok
+test_interval_keeps_global_pair_boundary (test_contracts.EvidenceContracts.test_interval_keeps_global_pair_boundary) ... ok
+test_no_budget_thinning (test_contracts.EvidenceContracts.test_no_budget_thinning) ... ok
+test_no_future_frame (test_contracts.EvidenceContracts.test_no_future_frame) ... ok
+test_pending_evidence_is_not_padded_or_used (test_contracts.EvidenceContracts.test_pending_evidence_is_not_padded_or_used) ... ok
+test_wrong_video_annotation_rejected (test_contracts.EvidenceContracts.test_wrong_video_annotation_rejected) ... ok
+test_all102_official_options_render_once_without_mutation (test_contracts.PromptContracts.test_all102_official_options_render_once_without_mutation) ... ok
+test_content_prefix_not_recursively_removed (test_contracts.PromptContracts.test_content_prefix_not_recursively_removed) ... ok
+test_mixed_labels_fail (test_contracts.PromptContracts.test_mixed_labels_fail) ... ok
+test_reordered_labels_fail (test_contracts.PromptContracts.test_reordered_labels_fail) ... ok
+test_runtime_installs_corrected_prompt_without_changing_parent (test_contracts.PromptContracts.test_runtime_installs_corrected_prompt_without_changing_parent) ... ok
+test_unlabelled_and_labelled_same_content (test_contracts.PromptContracts.test_unlabelled_and_labelled_same_content) ... ok
+test_duplicate_not_counted (test_contracts.ScoringContracts.test_duplicate_not_counted) ... ok
+test_explanation_is_not_penalized (test_contracts.ScoringContracts.test_explanation_is_not_penalized) ... ok
+test_source_drift_rejected (test_contracts.ScoringContracts.test_source_drift_rejected) ... ok
+test_unparsed_kept_unresolved (test_contracts.ScoringContracts.test_unparsed_kept_unresolved) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.024s
+
+OK
+test_all_positions_and_inverse (test_contracts.Controls.test_all_positions_and_inverse) ... ok
+test_bad_shift (test_contracts.Controls.test_bad_shift) ... ok
+test_canvas_preserves_aspect_and_alignment (test_contracts.Controls.test_canvas_preserves_aspect_and_alignment) ... ok
+test_conflicting_identity (test_contracts.Controls.test_conflicting_identity) ... ok
+test_dense_keeps_anchors_and_bounds (test_contracts.Controls.test_dense_keeps_anchors_and_bounds) ... ok
+test_duplicate_and_bad_mapping_rejected (test_contracts.Controls.test_duplicate_and_bad_mapping_rejected) ... ok
+test_even_union_no_omission (test_contracts.Controls.test_even_union_no_omission) ... ok
+test_mixed_labels (test_contracts.Controls.test_mixed_labels) ... ok
+test_odd_anchors_rejected (test_contracts.Controls.test_odd_anchors_rejected) ... ok
+test_rotated_scoring_uses_content (test_contracts.Controls.test_rotated_scoring_uses_content) ... ok
+test_rotation_identity_and_content (test_contracts.Controls.test_rotation_identity_and_content) ... ok
+test_short_no_fake_frames (test_contracts.Controls.test_short_no_fake_frames) ... ok
+test_unparsed_remains_pending (test_contracts.Controls.test_unparsed_remains_pending) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.025s
+
+OK
+test_all_presets_preserve_aspect (test_contracts.Controls.test_all_presets_preserve_aspect) ... ok
+test_canvas_does_not_mutate_original (test_contracts.Controls.test_canvas_does_not_mutate_original) ... ok
+test_endpoint_pixel_identity (test_contracts.Controls.test_endpoint_pixel_identity) ... ok
+test_geometry_and_budget (test_contracts.Controls.test_geometry_and_budget) ... ok
+test_geometry_unknown (test_contracts.Controls.test_geometry_unknown) ... ok
+test_history_duplicate_rejected (test_contracts.Controls.test_history_duplicate_rejected) ... ok
+test_history_mapping_rejected (test_contracts.Controls.test_history_mapping_rejected) ... ok
+test_history_reuse_counts_and_immutability (test_contracts.Controls.test_history_reuse_counts_and_immutability) ... ok
+test_panel_order_invariant (test_contracts.Controls.test_panel_order_invariant) ... ok
+test_primary_grid_text_not_tripled (test_contracts.Controls.test_primary_grid_text_not_tripled) ... ok
+test_schedule_counts (test_contracts.Controls.test_schedule_counts) ... ok
+test_schedule_rejects_duplicate (test_contracts.Controls.test_schedule_rejects_duplicate) ... ok
+test_schedule_rejects_missing (test_contracts.Controls.test_schedule_rejects_missing) ... ok
+test_score_missing_new_answer_rejected (test_contracts.Controls.test_score_missing_new_answer_rejected) ... ok
+test_score_no_replay_double_count (test_contracts.Controls.test_score_no_replay_double_count) ... ok
+test_score_replay_drift_rejected (test_contracts.Controls.test_score_replay_drift_rejected) ... ok
+test_unresolved_not_silently_scored_correct (test_contracts.Controls.test_unresolved_not_silently_scored_correct) ... ok
+test_long_evidence_budget (test_resources.Resources.test_long_evidence_budget) ... ok
+test_reject_context_overflow (test_resources.Resources.test_reject_context_overflow) ... ok
+test_reject_unexplained_token_delta (test_resources.Resources.test_reject_unexplained_token_delta) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.399s
+
+OK
+test_all_grids_conserve_mass (test_numeric.Numeric.test_all_grids_conserve_mass) ... ok
+test_attention_dispatch_restored_on_failure (test_numeric.Numeric.test_attention_dispatch_restored_on_failure) ... ok
+test_grid_mismatch_rejected (test_numeric.Numeric.test_grid_mismatch_rejected) ... ok
+test_large_stream_bounds_and_reset (test_numeric.Numeric.test_large_stream_bounds_and_reset) ... ok
+test_low_bitwise_equivalence (test_numeric.Numeric.test_low_bitwise_equivalence) ... ok
+test_owned_features (test_numeric.Numeric.test_owned_features) ... ok
+test_repeated_pair_rejected_without_mutation (test_numeric.Numeric.test_repeated_pair_rejected_without_mutation) ... ok
+test_single_token_decode_is_original (test_numeric.Numeric.test_single_token_decode_is_original) ... ok
+test_tiled_attention_cached_explicit_mask (test_numeric.Numeric.test_tiled_attention_cached_explicit_mask) ... ok
+test_tiled_attention_causal_and_masks (test_numeric.Numeric.test_tiled_attention_causal_and_masks) ... ok
+test_tiled_attention_no_future_leak (test_numeric.Numeric.test_tiled_attention_no_future_leak) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 8.203s
+
+OK

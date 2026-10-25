@@ -1,0 +1,16 @@
+{
+  "job_id": "218458",
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed": "02:19:43",
+  "MaxRSS_KiB": 4308016,
+  "GPU_count": 1,
+  "CPUs": 4,
+  "RAM_GiB": 48,
+  "comment": "gx_llm",
+  "submission_attempts": 1,
+  "resubmissions": 0,
+  "monitoring_failure": "Read-only SSH monitor reset before collection; job continued and completed normally",
+  "recovery": "User follow-up authorized state check; complete outputs then collected and independently recomputed",
+  "evidence": "sacct response in local query_recovery_complete.json, plus published stdout and completed.json; no new cluster query during publication"
+}
