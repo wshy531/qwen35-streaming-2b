@@ -3,3 +3,11 @@
 *.md text eol=lf
 *.json text eol=lf
 *.txt text eol=lf
+
+# Preserve exact executed bytes pinned by the S-EMBER historical source locks.
+experiments/wshy/sember_102_2b/gates.py -text -eol
+experiments/wshy/sember_102_2b/gpu.py -text -eol
+experiments/wshy/sember_102_2b/runner.py -text -eol
+experiments/wshy/sember_input_diagnostic/controls.py -text -eol
+scripts/run_2b_sember_102.py -text -eol
+scripts/run_2b_sember_input_diagnostic.py -text -eol
