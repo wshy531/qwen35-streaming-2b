@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "identity": {
+    "transformers_version": "5.4.0",
+    "model_source": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\models\\qwen3_5\\modeling_qwen3_5.py",
+    "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+    "project_model_or_streaming_imported": false
+  },
+  "loading_info_types": {
+    "missing_keys": "set",
+    "unexpected_keys": "set",
+    "mismatched_keys": "set",
+    "error_msgs": "list"
+  },
+  "reproduced_original_JSON_failure": true,
+  "real_from_pretrained_metadata_roundtrip": true,
+  "unsupported_metadata_does_not_leave_partial_file": true,
+  "synthetic_checkpoint_loads": 1,
+  "synthetic_checkpoint_bytes": 478663,
+  "generated_ids": [
+    40,
+    35
+  ],
+  "real_2B_weights_loaded": 0,
+  "GPU_jobs": 0
+}

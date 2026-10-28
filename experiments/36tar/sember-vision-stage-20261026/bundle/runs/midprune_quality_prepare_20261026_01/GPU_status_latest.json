@@ -1,0 +1,101 @@
+{
+  "job_id": "218670",
+  "checked_UTC": "2026-10-25T16:33:54.487597+00:00",
+  "active_queue": [
+    "218670|2b-midprune-quality|RUNNING|0:58|2:00:00|gpu3"
+  ],
+  "accounting": "218670|RUNNING|0:0|00:00:58|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n218670.batch|RUNNING|0:0|00:00:58|cpu=4,gres/gpu=1,mem=24G,node=1\n218670.extern|RUNNING|0:0|00:00:58|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "run_exists": true,
+  "progress": [
+    {
+      "task": "quality",
+      "exists": true,
+      "startup": {
+        "task": {
+          "name": "quality",
+          "kind": "quality",
+          "arms": [
+            "full108_8",
+            "post_odd54_8",
+            "post_change54_8",
+            "mid_odd54_8"
+          ],
+          "videos": null
+        },
+        "load_seconds": 3.9083612002432346,
+        "integrity_seconds": 20.846862679347396,
+        "pretrained_loads": 1,
+        "warmup_answers": 4,
+        "warmup_generated_tokens": 49,
+        "warmup_encodings": 2
+      },
+      "answers_written": 12
+    },
+    {
+      "task": "cost_b0_full108_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b0_post_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b0_post_change54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b0_mid_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b1_post_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b1_post_change54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b1_mid_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b1_full108_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b2_post_change54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b2_mid_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b2_full108_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b2_post_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b3_mid_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b3_full108_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b3_post_odd54_8",
+      "exists": false
+    },
+    {
+      "task": "cost_b3_post_change54_8",
+      "exists": false
+    }
+  ],
+  "completed": null,
+  "console_tail": "The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\rLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\rLoading weights:   0%|          | 1/617 [00:01<10:42,  1.04s/it]\rLoading weights:  42%|████▏     | 258/617 [00:01<00:01, 309.03it/s]\rLoading weights:  65%|██████▌   | 403/617 [00:01<00:00, 406.26it/s]\rLoading weights:  90%|████████▉ | 554/617 [00:01<00:00, 572.87it/s]\rLoading weights: 100%|██████████| 617/617 [00:01<00:00, 405.46it/s]\n"
+}

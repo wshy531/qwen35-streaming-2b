@@ -1,0 +1,38 @@
+{
+  "job_id": "218517",
+  "files": {
+    "bounded/answers.jsonl": {
+      "sha256": "b32ecd99fa6352f103e91fc0130354600711e78a93c9a7a47485eb7051588cb2",
+      "bytes": 422210
+    },
+    "bounded/tokens.jsonl": {
+      "sha256": "71302a85fef33b4245466f084c2ed42163b93747d75b02b8808f9e3018b98ca6",
+      "bytes": 38304
+    },
+    "bounded/startup.json": {
+      "sha256": "963f2a57fd3afe8dbbd865d379cc2567244af758debb30ef4952b95e46d6d6ed",
+      "bytes": 175
+    },
+    "bounded/completed.json": {
+      "sha256": "dd39cadb941b7ceb43303411c9fbf4a5f9fa6cd4d135bacaf60072644eefa6f8",
+      "bytes": 577771
+    },
+    "reference/answers.jsonl": {
+      "sha256": "f1a880974543d9a6aa2c02ef11569708917dec9df835a59d4aea54afc3450b93",
+      "bytes": 9806
+    },
+    "reference/tokens.jsonl": {
+      "sha256": "57e855a2a34f1542764cd453d7db0a06fdc36155b759b320557684e84cc44c28",
+      "bytes": 3618
+    },
+    "reference/startup.json": {
+      "sha256": "8ea5d155d44fce97e77d29853ed2fb8a285a86c5d2caf94372170fe8c74905b9",
+      "bytes": 175
+    },
+    "reference/completed.json": {
+      "sha256": "ed6efe303a1faa05c7b10ef268fa7e31a543f2cab2472b1d220cb78d3b40c59d",
+      "bytes": 5717
+    }
+  },
+  "job_queue_empty": true
+}

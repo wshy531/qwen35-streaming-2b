@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "all_fields_equal": true,
+  "layouts": 1912,
+  "old_storage_steps": 288,
+  "old_context_IDs_equal": 1434,
+  "real_weight_loads": 0,
+  "GPU_jobs": 0
+}

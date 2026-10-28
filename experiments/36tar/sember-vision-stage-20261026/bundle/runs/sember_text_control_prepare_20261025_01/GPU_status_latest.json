@@ -1,0 +1,28 @@
+{
+  "job_id": "218558",
+  "queue": "",
+  "accounting": "218558|COMPLETED|0:0|00:01:23|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n218558.batch|COMPLETED|0:0|00:01:23|cpu=4,gres/gpu=1,mem=24G,node=1\n218558.extern|COMPLETED|0:0|00:01:23|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "startup": {
+    "pretrained_loads": 1,
+    "load_seconds": 3.9210428022779524,
+    "warmup_answers": 1,
+    "warmup_generated_tokens": 2,
+    "vision_calls": 0,
+    "video_decodes": 0
+  },
+  "completed": {
+    "status": "complete",
+    "answers": 478,
+    "warmup_answers": 1,
+    "generated_tokens": 956,
+    "warmup_generated_tokens": 2,
+    "pretrained_loads": 1,
+    "vision_calls": 0,
+    "video_decodes": 0,
+    "wall_seconds": 69.48738013813272,
+    "CUDA_peak_allocated_bytes": 8962347520,
+    "CUDA_peak_reserved_bytes": 8994684928,
+    "execution_lock_SHA": "1c4af7d112afdfdd2f901a1e0e79058e9bc8b51de17305f2fbfc42c9de200469"
+  },
+  "console_tail": "The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\nLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\nLoading weights:   0%|          | 1/617 [00:01<10:38,  1.04s/it]\nLoading weights:  40%|████      | 248/617 [00:01<00:01, 296.25it/s]\nLoading weights:  62%|██████▏   | 380/617 [00:01<00:00, 359.22it/s]\nLoading weights:  82%|████████▏ | 508/617 [00:01<00:00, 491.30it/s]\nLoading weights: 100%|██████████| 617/617 [00:01<00:00, 383.61it/s]\n{'answers': 25, 'generated_tokens': 50}\n{'answers': 50, 'generated_tokens': 100}\n{'answers': 75, 'generated_tokens': 150}\n{'answers': 100, 'generated_tokens': 200}\n{'answers': 125, 'generated_tokens': 250}\n{'answers': 150, 'generated_tokens': 300}\n{'answers': 175, 'generated_tokens': 350}\n{'answers': 200, 'generated_tokens': 400}\n{'answers': 225, 'generated_tokens': 450}\n{'answers': 250, 'generated_tokens': 500}\n{'answers': 275, 'generated_tokens': 550}\n{'answers': 300, 'generated_tokens': 600}\n{'answers': 325, 'generated_tokens': 650}\n{'answers': 350, 'generated_tokens': 700}\n{'answers': 375, 'generated_tokens': 750}\n{'answers': 400, 'generated_tokens': 800}\n{'answers': 425, 'generated_tokens': 850}\n{'answers': 450, 'generated_tokens': 900}\n{'answers': 475, 'generated_tokens': 950}\n"
+}

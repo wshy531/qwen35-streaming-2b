@@ -1,0 +1,83 @@
+{
+  "status": "deployed_CPU_passed",
+  "files_sha256": {
+    "experiments/2b-midprune-quality-v1/analyze.py": "b96f6f803547753f7fbe10f908616973e94e23a0256d76b9094a7261e0831239",
+    "experiments/2b-midprune-quality-v1/cpu_preflight.py": "e1213fd5721925e07f919a8b57e364072c10b83be535c6155dff90679c1eedc0",
+    "experiments/2b-midprune-quality-v1/evaluate.py": "b3391086d0d67030f76308b21d3e333a0ec5ab0b3f35e13098515f443229858e",
+    "experiments/2b-midprune-quality-v1/freeze.py": "757471c0298ffaae85f546c26c69b66f691a923577b15e71292a7b08f15bd144",
+    "experiments/2b-midprune-quality-v1/launch.py": "7d06706c58fcc97c98fe83464b100a316090b63a2db77c7638777236a0dc8f98",
+    "experiments/2b-midprune-quality-v1/prepare.py": "a4b6721fef932857f974ad96d6e3217a2da1c309bff9d8acbdb0e750e4a236fd",
+    "experiments/2b-midprune-quality-v1/quality_banks.py": "f36e1530724350e5f4c46e09d99523c44e31f90ea7e8920d5b4e427249c64195",
+    "experiments/2b-midprune-quality-v1/quality_common.py": "da40edf3f0a096d45be3b852b9f2c608d85a3c3c36565a0d81e0bb653f009796",
+    "experiments/2b-midprune-quality-v1/quality_session.py": "04ce1fe247cd19f10fe3c50c088d58d0f547f67dbfedf82d5f43f53511b279ec",
+    "experiments/2b-midprune-quality-v1/quality_statistics.py": "cbc21a33c920b256d1020830cc85bfb709de7fc029c42b8fa1bb246415d96d18",
+    "experiments/2b-midprune-quality-v1/README.md": "715e79b064b374c2a2c6fc32cf47cf50f6b47974102864d9b708120e514b992b",
+    "experiments/2b-midprune-quality-v1/run_eval.sh": "ca992a610961fd8170f4eb6206caef956d7927e6cf677b296d230a80d275b9f9",
+    "runs/midprune_quality_prepare_20261026_01/inputs/execution_lock.json": "f43f1eef1af1dc7c0d54906861e123b4d1092bfec5fb7b3443f12e248b9ead7e",
+    "runs/midprune_quality_prepare_20261026_01/inputs/expected_layouts.json": "64ac6d4ddb05372f5a7e1a02fb9c144d8d7599e1a9f318a7c2e3cb4a9118f8bb",
+    "runs/midprune_quality_prepare_20261026_01/inputs/expected_prefixes.json": "2d3806c59d96bd314456c2a036f3a5e372d213a010e8878e9b4b5363dc6cc69e",
+    "runs/midprune_quality_prepare_20261026_01/inputs/protocol.json": "b4e2f76fc9aed8ba4b8caae7547ac2576f68e0d78fe6ef1056bd57b279ebf167",
+    "runs/midprune_quality_prepare_20261026_01/inputs/requests.json": "3a0f8003355f8d88c84b19d0102b7abd8e58ef4ac4d621c30931935f0501b739",
+    "runs/midprune_quality_prepare_20261026_01/inputs/tasks.json": "67e4673d5b27f41417592207a105a971b277a119c2ae932c164bcda5e51771ac",
+    "runs/midprune_quality_prepare_20261026_01/inputs/videos.json": "7969c6a6a8683e21f129c03e754048f6582390bb3d321665afffecde553ff31a"
+  },
+  "CPU_preflight": {
+    "status": "passed",
+    "old_storage_steps": 288,
+    "all_formal_layouts": 1912,
+    "old_context_ID_layouts_equal": 1434,
+    "synthetic_old_context_embeddings_positions_exact": true,
+    "all_arms_same_pair_coverage": true,
+    "exact_eight_pair_bound": true,
+    "QA_branches": [
+      {
+        "arm": "full108_8",
+        "visual_tokens": 216,
+        "input_tokens": 248
+      },
+      {
+        "arm": "post_odd54_8",
+        "visual_tokens": 108,
+        "input_tokens": 140
+      },
+      {
+        "arm": "post_change54_8",
+        "visual_tokens": 108,
+        "input_tokens": 140
+      },
+      {
+        "arm": "mid_odd54_8",
+        "visual_tokens": 108,
+        "input_tokens": 140
+      }
+    ],
+    "QA_resume": true,
+    "standalone_mid_no_full_previous": true,
+    "standalone_change_previous_bytes": 884736,
+    "max_suffix": 486,
+    "expected_layouts_SHA": "64ac6d4ddb05372f5a7e1a02fb9c144d8d7599e1a9f318a7c2e3cb4a9118f8bb",
+    "pretrained_loads": 0,
+    "GPU_jobs": 0,
+    "no_capability_or_speed_claim": true
+  },
+  "media_preflight": {
+    "status": "passed",
+    "sources": 128,
+    "all_media_SHA_verified": true,
+    "total_bytes": 19408181310,
+    "seconds": 52.10061443597078,
+    "read_only": true
+  },
+  "unallocated_launch_and_worker_refused": true,
+  "bash_LF_passed": true,
+  "real_weight_loads": 0,
+  "GPU_jobs": 0,
+  "transferred_bytes": 1464320,
+  "before": {
+    "root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "exists": {
+      "experiments/2b-midprune-quality-v1": false,
+      "runs/midprune_quality_prepare_20261026_01": false
+    }
+  }
+}

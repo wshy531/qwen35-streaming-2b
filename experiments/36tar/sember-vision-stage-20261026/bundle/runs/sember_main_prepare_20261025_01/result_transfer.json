@@ -1,0 +1,47 @@
+{
+  "status": "all_ten_files_SHA_verified",
+  "job_id": "218526",
+  "files": {
+    "bounded/answers.jsonl": {
+      "bytes": 24347440,
+      "sha256": "d97732290d9158bf29cfe3fe2d12d4ba4a7bca16bb35fca266f318ac5f98948f"
+    },
+    "bounded/tokens.jsonl": {
+      "bytes": 2288819,
+      "sha256": "ff8d2405df5b3f83693daa70bb829e4d3b4dfb7ba13e25e5c1b8e65b892b8423"
+    },
+    "bounded/startup.json": {
+      "bytes": 262,
+      "sha256": "92e2f009d7dc629a065994d27f41792f23c0d6c8cebeec227d261a87f1254e04"
+    },
+    "bounded/source_checkpoints.jsonl": {
+      "bytes": 22943,
+      "sha256": "d187f2329212252c3f3eb6c5ba19df857ae7db9d9bade0fcc67e05fa3a3fa7d6"
+    },
+    "bounded/completed.json": {
+      "bytes": 14450663,
+      "sha256": "25b38bf14fbd7cf59ffae9e07f6a67bb52cdc0f7401222a9e2a49ef9862f9e7e"
+    },
+    "reference/answers.jsonl": {
+      "bytes": 585351,
+      "sha256": "edf99e491f270a9d5ba4eb8cf26ead25b8a8fe38c565bbbba0ba0f0e31d1f562"
+    },
+    "reference/tokens.jsonl": {
+      "bytes": 216339,
+      "sha256": "2c5585879700ec9e2a73868419b5d61d406c75d7c6781217e89b42b5715edabd"
+    },
+    "reference/startup.json": {
+      "bytes": 265,
+      "sha256": "171b1f17e50185a5f56540bd1df712ab2e84ba6cb707a59457ccfd03133899e5"
+    },
+    "reference/source_checkpoints.jsonl": {
+      "bytes": 22688,
+      "sha256": "39b64f40c4d647dba51c6dad73e66e5177eb3a3080eb8832595d3c99b39f6ac1"
+    },
+    "reference/completed.json": {
+      "bytes": 131011,
+      "sha256": "8d2fce6d006cb9556fed5998faeeeaf627499327cce4ace47dd30a684c4df4e5"
+    }
+  },
+  "no_full_tar_copy": true
+}

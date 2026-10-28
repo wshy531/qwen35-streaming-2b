@@ -1,0 +1,98 @@
+{
+  "799c6213964f223385e42b11dd491f34115307703f4ebcee145f4c96cf77bfaf": {
+    "question_id": "799c6213964f223385e42b11dd491f34115307703f4ebcee145f4c96cf77bfaf",
+    "query_time": 583.0,
+    "real_frames": 292,
+    "pairs": 146,
+    "pending_real_frames": 0,
+    "last_committed_pts": 582.0,
+    "submitted_prefix_sha256": "68de5d0d77d9e2ef58d8643db05942f30c54ff8c1eb1755e623b2d2f213ed969",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 1.0
+  },
+  "805db2086e919efcf6c91645cfe0f0dfb7594867d4f94782389a5486d9887760": {
+    "question_id": "805db2086e919efcf6c91645cfe0f0dfb7594867d4f94782389a5486d9887760",
+    "query_time": 586.0,
+    "real_frames": 294,
+    "pairs": 147,
+    "pending_real_frames": 0,
+    "last_committed_pts": 586.0,
+    "submitted_prefix_sha256": "a6d25e563bddd64798ff501f1dc4a413f28cff2bb0e072cdfe202041673779e0",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 0.0
+  },
+  "acd7901258c888ac9d87252fd8fc4f65bfec445a63dc93c78ffbcd45ed6efcfa": {
+    "question_id": "acd7901258c888ac9d87252fd8fc4f65bfec445a63dc93c78ffbcd45ed6efcfa",
+    "query_time": 276.0,
+    "real_frames": 139,
+    "pairs": 69,
+    "pending_real_frames": 1,
+    "last_committed_pts": 274.0,
+    "submitted_prefix_sha256": "03d89dc14bd1601618388b211c61159b230e4f9edbb6a522ad1a0bfe9a97b3fd",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 2.0
+  },
+  "441041F7A22FAB6BAA533027C1ECD7B8DCE4F3DBCC68AA6ACF0E8AC66E4FE1D7": {
+    "question_id": "441041F7A22FAB6BAA533027C1ECD7B8DCE4F3DBCC68AA6ACF0E8AC66E4FE1D7",
+    "query_time": 521.0,
+    "real_frames": 261,
+    "pairs": 130,
+    "pending_real_frames": 1,
+    "last_committed_pts": 518.0,
+    "submitted_prefix_sha256": "37de6bba9ddf9d65fa73b9ffbd3f35bacc2c1350dac6192058055e307c7ff9d1",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 3.0
+  },
+  "740111B4FC66813D3D509D04BF7BB90CA57BF987A890F5F38E50D361846C224E": {
+    "question_id": "740111B4FC66813D3D509D04BF7BB90CA57BF987A890F5F38E50D361846C224E",
+    "query_time": 581.0,
+    "real_frames": 291,
+    "pairs": 145,
+    "pending_real_frames": 1,
+    "last_committed_pts": 578.0,
+    "submitted_prefix_sha256": "9d40530d8c57010b21f21de7d0e009c73b855f3726dc5dbfac7b2cdfb491ff1f",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 3.0
+  },
+  "a46272ac29468ab0100e5b4a32912c9455639a11baf50e4c608331b7a339301e": {
+    "question_id": "a46272ac29468ab0100e5b4a32912c9455639a11baf50e4c608331b7a339301e",
+    "query_time": 363.0,
+    "real_frames": 182,
+    "pairs": 91,
+    "pending_real_frames": 0,
+    "last_committed_pts": 362.0,
+    "submitted_prefix_sha256": "dcfc0a69113048a630fe0b25da97454682d97a69506edb8fa298b04c3f3c313d",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 1.0
+  },
+  "B3BA08AC78BCD091C4DE22276B90494A19B67AB09A2E3D7D487FD7612654E2B6": {
+    "question_id": "B3BA08AC78BCD091C4DE22276B90494A19B67AB09A2E3D7D487FD7612654E2B6",
+    "query_time": 560.0,
+    "real_frames": 281,
+    "pairs": 140,
+    "pending_real_frames": 1,
+    "last_committed_pts": 558.0,
+    "submitted_prefix_sha256": "f43d21edcc8539ee2bbdc60061f404ca4ddf743535795b86a8b002fc70f162e0",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 2.0
+  },
+  "e0a70d4d080e911afedab52fa5445903e2e86672c4b46a6792db830fc0d57cfb": {
+    "question_id": "e0a70d4d080e911afedab52fa5445903e2e86672c4b46a6792db830fc0d57cfb",
+    "query_time": 569.0,
+    "real_frames": 285,
+    "pairs": 142,
+    "pending_real_frames": 1,
+    "last_committed_pts": 566.0,
+    "submitted_prefix_sha256": "579c991d870983c40b0be558babd21498da760252c9b6c1e41db89b5e6d136da",
+    "true_EOF_tail_padded": false,
+    "maximum_pending_RGB_bytes": 331776,
+    "lag_seconds": 3.0
+  }
+}

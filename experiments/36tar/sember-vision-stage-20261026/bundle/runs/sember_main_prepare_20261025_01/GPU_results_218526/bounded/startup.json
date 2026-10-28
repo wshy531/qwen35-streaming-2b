@@ -1,0 +1,10 @@
+{
+  "mode": "bounded",
+  "pretrained_loads": 1,
+  "load_seconds": 3.859977612271905,
+  "warmup_answers": 11,
+  "warmup_generated_tokens": 141,
+  "warmup_encodings": 1,
+  "media_integrity_seconds": 47.006911220029,
+  "model_baseline_allocated_bytes": 8862552576
+}

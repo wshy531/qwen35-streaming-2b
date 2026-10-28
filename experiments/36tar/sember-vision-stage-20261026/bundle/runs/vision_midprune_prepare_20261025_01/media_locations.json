@@ -1,0 +1,62 @@
+[
+  {
+    "video_id": "1596617847671078_start_0.0_end_600.128",
+    "locations": [
+      {
+        "base": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/datasets/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": false,
+        "size": null
+      },
+      {
+        "base": "/home/u2025010462/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": true,
+        "size": 139422110
+      }
+    ]
+  },
+  {
+    "video_id": "1483653685963589_start_0.0_end_300.0",
+    "locations": [
+      {
+        "base": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/datasets/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": false,
+        "size": null
+      },
+      {
+        "base": "/home/u2025010462/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": true,
+        "size": 36849395
+      }
+    ]
+  },
+  {
+    "video_id": "9999393136796400_start_0.0_end_599.969",
+    "locations": [
+      {
+        "base": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/datasets/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": false,
+        "size": null
+      },
+      {
+        "base": "/home/u2025010462/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": true,
+        "size": 139886662
+      }
+    ]
+  },
+  {
+    "video_id": "736867785903229_start_0.0_end_300.0",
+    "locations": [
+      {
+        "base": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/datasets/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": false,
+        "size": null
+      },
+      {
+        "base": "/home/u2025010462/share/czy/wsy/data/S-EMBER/897886cc967b2d0e6e45f1200605f5d3b0ffbb23",
+        "exists": true,
+        "size": 45018895
+      }
+    ]
+  }
+]

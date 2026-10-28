@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "supplemental_to_frozen_profile_analysis": true,
+  "questions": 24,
+  "sources": 21,
+  "answer_content_agreement": {
+    "parsed_choice": 24,
+    "first_generated_token": 24,
+    "complete_generated_IDs": 0,
+    "stream_IDs_equal_official_prefix": 24,
+    "input_token_count": 24,
+    "same_received_prefix": {
+      "submitted_prefix_sha256": 24,
+      "pairs": 24,
+      "real_frames": 24,
+      "pending_real_frames": 24,
+      "last_committed_pts": 24,
+      "true_EOF_tail_padded": 24
+    }
+  },
+  "existing_same24_text_correct": 4,
+  "same24_text_control_is_supplement_not_new_GPU": true,
+  "official_version_logit_max_abs": 0.0,
+  "stopping_difference": {
+    "stream_stop_token": 248046,
+    "stream_stop_text": "<|im_end|>",
+    "official_stop_token": 248044,
+    "official_stop_text": "<|endoftext|>",
+    "official_all24_pattern": "[choice, 248046, newline_token198, 248044]",
+    "full_generated_IDs_not_equivalent": true,
+    "answer_choice_unchanged": true
+  },
+  "resources": {
+    "A_official540_default_video": {
+      "completed": {
+        "status": "complete",
+        "condition": "A_official540_default_video",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 397.543338464573,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 26774478336,
+        "last_RSS_bytes": 2628612096
+      },
+      "startup": {
+        "condition": "A_official540_default_video",
+        "identity": {
+          "transformers_version": "5.4.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 2.1855782866477966,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "input_tokens": [
+        11630,
+        14488
+      ]
+    },
+    "B_official540_matched_pairs": {
+      "completed": {
+        "status": "complete",
+        "condition": "B_official540_matched_pairs",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 257.9540105778724,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 25845969920,
+        "last_RSS_bytes": 2516267008
+      },
+      "startup": {
+        "condition": "B_official540_matched_pairs",
+        "identity": {
+          "transformers_version": "5.4.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/native-audit-transformers-5.4.0/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 2.1572907250374556,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "input_tokens": [
+        1652,
+        14029
+      ]
+    },
+    "B0_official530_matched_pairs": {
+      "completed": {
+        "status": "complete",
+        "condition": "B0_official530_matched_pairs",
+        "answers": 24,
+        "generated_tokens": 96,
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "wall_seconds": 272.01699600182474,
+        "vision_encodings": 24,
+        "warmup_encodings": 1,
+        "CUDA_peak_allocated_bytes": 25846082560,
+        "last_RSS_bytes": 2531704832
+      },
+      "startup": {
+        "condition": "B0_official530_matched_pairs",
+        "identity": {
+          "transformers_version": "5.3.0",
+          "model_source": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/envs/qwen35-2b-fp32/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+          "model_source_sha256": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+          "project_model_or_streaming_imported": false
+        },
+        "load_seconds": 1.9900294970721006,
+        "loading_info": {
+          "missing_keys": [],
+          "unexpected_keys": [],
+          "mismatched_keys": [],
+          "error_msgs": []
+        },
+        "warmup_answers": 1,
+        "warmup_generated_tokens": 6,
+        "pretrained_loads": 1,
+        "FP32": true,
+        "attention": "official SDPA with PyTorch MATH backend, same as current C",
+        "original_generate": true,
+        "project_model_patches": 0
+      },
+      "input_tokens": [
+        1652,
+        14029
+      ]
+    }
+  },
+  "total_answers": 75,
+  "total_generated_tokens": 306,
+  "total_vision_encodings": 75,
+  "pretrained_loads": 3,
+  "full478_long_input_gap": {
+    "max_input_tokens": 35564,
+    "profile_max_matched_input": 14029,
+    "questions_above_profile_max": 74,
+    "questions_over24000": 20,
+    "need_memory_budget_before_full_run": true,
+    "no_OOM_observed_in_this_profile": true
+  },
+  "no_full478_equivalence_or_native_accuracy_claim": true
+}

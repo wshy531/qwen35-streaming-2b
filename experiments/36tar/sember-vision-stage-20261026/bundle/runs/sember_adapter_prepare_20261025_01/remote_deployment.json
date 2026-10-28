@@ -1,0 +1,45 @@
+{
+  "status": "deployed_new_files_only",
+  "files_sha256": {
+    "experiments/2b-sember-v1/evaluate_profile.py": "ec51d49c18466dd0a51f8028245987dbf7a8e2c506e7f0a7190f1dbd46992f65",
+    "experiments/2b-sember-v1/freeze_profile.py": "1aab17af5e221584fef38be10427a3f7a00d8467dbb2db3f905224d43f523a62",
+    "experiments/2b-sember-v1/preflight_boundaries.py": "dc64152799d1051ca2afadc61c07edb5d97458cc4c9ad2cb745a4ce1873c3803",
+    "experiments/2b-sember-v1/preflight_core.py": "b6f93a1b339821195dc759ec067c208ebdf00482272d198b3df9cba2ead97090",
+    "experiments/2b-sember-v1/preflight_inputs.py": "736d12f89943f1ba5b55d202a7c43897060052c47ab1fdd84233137a8df773b2",
+    "experiments/2b-sember-v1/preflight_layouts.py": "94fb460e2eb35c0863b45f92df62094d583598f93c9d8bed6c257e2038491580",
+    "experiments/2b-sember-v1/prepare_profile.py": "103aaf7666f1720cbf31fb88d79c312674f60f5f3ebd4aaa4937a6137bc879e7",
+    "experiments/2b-sember-v1/README.md": "c60bebecac201b7a251382919427f5e69bc141539ff4dc1bb1956bb7106425a1",
+    "experiments/2b-sember-v1/remote_preflight.py": "e2906a193c8641b1eff6ce41e6022bfe8252f68266c22d10970748aff0b3aa23",
+    "experiments/2b-sember-v1/run_profile.sh": "521a2dd482b0398590ed27ee994cbbf60ca9b082339037142168a890a8b71fb0",
+    "experiments/2b-sember-v1/sember_banks.py": "e74c88d1f5c4ead3e4754745a10422376e9b3c199463808e51ec5c487210ef68",
+    "experiments/2b-sember-v1/sember_common.py": "25bbc24b0ee7a368a250fecd8e749710bbb1d150065899e30f6a5da47f950e36",
+    "experiments/2b-sember-v1/sember_nodes.py": "7722e57b9f400d80a7e021ff04e1a4dc7db8916d4dd16eca4f288ca908eff1b0",
+    "experiments/2b-sember-v1/sember_protocol.py": "b82c52954ab33c508f001e4c69f0ce98e0656e3e6af31539e30c7b488abb2121",
+    "experiments/2b-sember-v1/sember_runtime.py": "5e2ee478aef7818b52d178e2aa3eb532d4523fdfd7676a6040a362b486a084d9",
+    "experiments/2b-sember-v1/sember_session.py": "3679f83b5331cc04dfd27c01a093822b6de06fc2ce6fdfaf7727e1372ebfc20c",
+    "experiments/2b-sember-v1/sember_source.py": "5c09cd3757f897401f239eaca8a90d88aec54a2702651ba0363cf0c1ededc4ee",
+    "experiments/2b-sember-v1/tiny_native_check.py": "e14448731fe49f46ece11aa2150eb9ec1f34a74be1f0dcda354a6a484daf85e4",
+    "experiments/2b-sember-v1/tiny_session_check.py": "1077f00ea394bd1bf938a5b0ca3ea86792072f3def90b25101cd05e9189be5d2",
+    "runs/sember_adapter_prepare_20261025_01/inputs/execution_lock.json": "93992df9ede4a68924a637b7f9fa066540cfb50ac1239e239087b5e51552c455",
+    "runs/sember_adapter_prepare_20261025_01/inputs/expected_prefixes.json": "142c0d2da4c3634a0df89785ccfe27e6b8eaf548dc3e9a180cdbf14935105274",
+    "runs/sember_adapter_prepare_20261025_01/inputs/expected_RGB_prefixes.json": "082fa5da769889119d8ca296305651ffede2df3d515cd7ebd2a75f3187c5c604",
+    "runs/sember_adapter_prepare_20261025_01/inputs/profile_protocol.json": "ee280a297f1fff63ab36474468d752abb83fca83549eb594e7b6eef9ff3b20c8",
+    "runs/sember_adapter_prepare_20261025_01/inputs/requests.json": "89ff5e34edd23a6fcc734e79aea36d8d610f7c5179bdb474dca6fcafc2eb681b",
+    "runs/sember_adapter_prepare_20261025_01/inputs/videos.json": "bcbbaa0b38c9b083128959cb6ac997e6c373944e8ede1d082b6a8ce5f8e68c03",
+    "runs/sember_prepare_20261025_01/profiler_requests.json": "89ff5e34edd23a6fcc734e79aea36d8d610f7c5179bdb474dca6fcafc2eb681b",
+    "runs/sember_prepare_20261025_01/selection/requests.json": "64fc2989eac7c46fcdebb3df1367e8ca63f9606282e31f151f8aa0b299fccb2e",
+    "runs/sember_prepare_20261025_01/selection/videos.json": "e2b67a4186b0c026a315f68694c2bc06fea466093c28a098d72f3b405bfa3bc9",
+    "runs/sember_prepare_20261025_01/upstream/lmms_eval__tasks__sember__utils.py": "346fd46c49f466671c6fea7dd236fb31b3ec697b0489136ce15c2a9b2fdb2bb1"
+  },
+  "remote_root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+  "bundle_bytes": 757760,
+  "read_only_check": {
+    "root": "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar",
+    "targets": {
+      "experiments/2b-sember-v1": false,
+      "runs/sember_adapter_prepare_20261025_01": false,
+      "runs/sember_prepare_20261025_01": false
+    }
+  },
+  "GPU_jobs": 0
+}

@@ -1,0 +1,1 @@
+{'status': 'passed', 'runtime_lock_SHA': 'f68448b5c46f019fe7e76cb92ac2a85a98d371882cd6867372c7c918aed45289', 'source_files': 128, 'transfer_all_SHA_matches': True, 'first_real_pair_RGB_PTS_matches_local': 128, 'full_video_replay_performed': False, 'actual_pretrained_loads': 0, 'GPU_jobs': 0, 'intended_measured_answers': 5736}

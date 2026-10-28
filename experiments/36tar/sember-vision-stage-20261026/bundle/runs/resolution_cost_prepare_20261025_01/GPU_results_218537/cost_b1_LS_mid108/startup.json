@@ -1,0 +1,25 @@
+{
+  "task": {
+    "name": "cost_b1_LS_mid108",
+    "kind": "cost",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "LS_mid108"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1848337166005249_start_0.0_end_1199.976",
+      "1881015629398934_start_0.0_end_578.99",
+      "2064767457385035_start_0.0_end_409.969"
+    ]
+  },
+  "load_seconds": 3.856194857042283,
+  "integrity_seconds": 0.9126148736104369,
+  "pretrained_loads": 1,
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 16,
+  "warmup_encodings": 1
+}

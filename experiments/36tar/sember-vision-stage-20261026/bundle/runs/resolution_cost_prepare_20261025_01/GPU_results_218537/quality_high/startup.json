@@ -1,0 +1,28 @@
+{
+  "task": {
+    "name": "quality_high",
+    "kind": "quality",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "M0_high192",
+      "M0_highchange108",
+      "M2_high192",
+      "M2_highchange108",
+      "A06_high192",
+      "A06_highchange108",
+      "LS_high192",
+      "LS_highchange108",
+      "M0_highuniform108"
+    ],
+    "videos": null
+  },
+  "load_seconds": 3.714161911047995,
+  "integrity_seconds": 19.65569102112204,
+  "pretrained_loads": 1,
+  "warmup_answers": 9,
+  "warmup_generated_tokens": 123,
+  "warmup_encodings": 1
+}

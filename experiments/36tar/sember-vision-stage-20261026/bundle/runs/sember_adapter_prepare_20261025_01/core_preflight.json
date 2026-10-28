@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "old_48_layout_step_comparisons": 576,
+  "high_resolution_pair_steps": 160,
+  "peaks_visual_tokens": {
+    "M0_full108_8": 864,
+    "M0_odd54_16": 864,
+    "M0_change54_16": 864,
+    "M2_full108": 864,
+    "M2_change54": 810,
+    "A06_full108": 864,
+    "A06_change54": 810,
+    "LS_full108": 864,
+    "LS_change54": 864,
+    "M0_odd54_8": 432,
+    "M0_change54_8": 432
+  },
+  "max_merge_depth_exercised": 32,
+  "export_isolation": true,
+  "zero_vector_stable_selection": true,
+  "dynamic_grid_sort_and_mass": true,
+  "previous_full_pair_bytes_FP32_2048": 884736,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true,
+  "old_source_SHA": {
+    "experiments/2b-compressed-banks-v1/policy_adapters.py": "05ec4ef7cf5aeac46e96b6e9b60cf585a2dcb22bfe8ce3bd9372123e6b6e54a3",
+    "experiments/2b-natural-eval-v1/forest.py": "7763dfd40a8f6953aed17c79006465d497ba75abaaf8251b549eb9a6bd8c0656",
+    "experiments/2b-ls-depth-v1/shared.py": "4cdae0367d12572a74e222d5693c8aedf0d8edc1eded65dafaacf726836401e3"
+  }
+}

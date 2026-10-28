@@ -1,0 +1,14 @@
+{
+  "status": "cost_result_report_synced",
+  "files": {
+    "midprune_cost_summary.json": {
+      "bytes": 1001,
+      "sha256": "167bc7ea88143647228f32d3cd6be467e39220f7f7b1972e1cd90541d983a5f5"
+    },
+    "midprune_cost_report.md": {
+      "bytes": 4279,
+      "sha256": "705134a07c064aae3d465be5a07936a400d9dcccc7f5dd88d582db61fe403d20"
+    }
+  },
+  "GPU_jobs": 0
+}

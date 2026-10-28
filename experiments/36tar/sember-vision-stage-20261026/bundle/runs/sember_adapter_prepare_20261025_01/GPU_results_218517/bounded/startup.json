@@ -1,0 +1,8 @@
+{
+  "mode": "bounded",
+  "load_seconds": 9.251701110973954,
+  "warmup_answers": 11,
+  "warmup_generated_tokens": 176,
+  "warmup_vision_encodings": 1,
+  "pretrained_loads": 1
+}

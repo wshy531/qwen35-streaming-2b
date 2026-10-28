@@ -1,0 +1,274 @@
+{
+  "stage": "one_fixed_two_resolution_quality_and_independent_cost_comparison",
+  "questions": 478,
+  "sources": 128,
+  "arms": {
+    "M0_mid108": {
+      "policy": "M0",
+      "view": "mid108",
+      "canvas": [
+        288,
+        384
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "M0_high192": {
+      "policy": "M0",
+      "view": "high192",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 192,
+      "budget": 1536,
+      "recent": 768,
+      "closed": 576
+    },
+    "M0_highchange108": {
+      "policy": "M0",
+      "view": "highchange108",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "M2_mid108": {
+      "policy": "M2",
+      "view": "mid108",
+      "canvas": [
+        288,
+        384
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "M2_high192": {
+      "policy": "M2",
+      "view": "high192",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 192,
+      "budget": 1536,
+      "recent": 768,
+      "closed": 576
+    },
+    "M2_highchange108": {
+      "policy": "M2",
+      "view": "highchange108",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "A06_mid108": {
+      "policy": "A06",
+      "view": "mid108",
+      "canvas": [
+        288,
+        384
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "A06_high192": {
+      "policy": "A06",
+      "view": "high192",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 192,
+      "budget": 1536,
+      "recent": 768,
+      "closed": 576
+    },
+    "A06_highchange108": {
+      "policy": "A06",
+      "view": "highchange108",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "LS_mid108": {
+      "policy": "LS",
+      "view": "mid108",
+      "canvas": [
+        288,
+        384
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "LS_high192": {
+      "policy": "LS",
+      "view": "high192",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 192,
+      "budget": 1536,
+      "recent": 768,
+      "closed": 576
+    },
+    "LS_highchange108": {
+      "policy": "LS",
+      "view": "highchange108",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    },
+    "M0_highuniform108": {
+      "policy": "M0",
+      "view": "highuniform108",
+      "canvas": [
+        384,
+        512
+      ],
+      "keep": 108,
+      "budget": 864,
+      "recent": 432,
+      "closed": 324
+    }
+  },
+  "quality_answers": 6214,
+  "cost_panel_sources": 12,
+  "cost_panel_questions": 57,
+  "cost_blocks": [
+    [
+      "1054177859931507_start_0.0_end_1200.308",
+      "1441688230351863_start_0.0_end_300.223",
+      "778842524676728_start_0.0_end_359.915",
+      "989098036768628_start_0.0_end_583.962"
+    ],
+    [
+      "1117723430211095_start_0.0_end_493.503",
+      "1848337166005249_start_0.0_end_1199.976",
+      "1881015629398934_start_0.0_end_578.99",
+      "2064767457385035_start_0.0_end_409.969"
+    ],
+    [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1370683007328428_start_0.0_end_311.532",
+      "548060551700833_start_0.0_end_599.972",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  ],
+  "cost_views": [
+    "LS_mid108",
+    "LS_highchange108",
+    "LS_high192"
+  ],
+  "cost_answers": 171,
+  "quality_processes": 2,
+  "cost_processes": 9,
+  "pretrained_loads": 11,
+  "warmup_answers": 22,
+  "max_answers": 6407,
+  "max_generated_tokens": 102512,
+  "pairs_per_resolution": 14678,
+  "cost_panel_pairs": 1910,
+  "max_vision_encodings": 35097,
+  "warmup": {
+    "video_id": "10097077943751650_start_0.0_end_596.93",
+    "query_time": 2.0
+  },
+  "dtype": "FP32",
+  "sampling_FPS": 0.5,
+  "max_new_tokens": 16,
+  "prefill_chunk": 512,
+  "canvas_order": [
+    [
+      288,
+      384
+    ],
+    [
+      384,
+      512
+    ]
+  ],
+  "decoder": "auto4",
+  "same_token_comparison": "highchange108 versus mid108: both 864 bank tokens and same per-root size",
+  "expanded_budget_comparison": "high192 versus mid108: same pair-equivalent capacities, 1536 versus 864 tokens",
+  "simple_control": "M0_highuniform108 versus M0_highchange108, identical input and token budgets",
+  "source_identity_keys": [
+    "pairs",
+    "real_frames",
+    "pending_real_frames",
+    "last_committed_pts",
+    "true_EOF_tail_padded"
+  ],
+  "high_RGB_hash_not_equal_to_mid": true,
+  "mid_required_replay": [
+    "M0",
+    "M2",
+    "A06",
+    "LS"
+  ],
+  "prior_job": "218526",
+  "prior_job_must_be_complete": true,
+  "bootstrap_source_resamples": 5000,
+  "bootstrap_seed": 20261025,
+  "decision": {
+    "no_automatic_default": true,
+    "one_round_no_ratio_sweep": true,
+    "admissible_cost_tradeoff": {
+      "all478_no_net_loss": true,
+      "old85_no_net_loss": true,
+      "at_least_one_group_net_gain": true,
+      "independent_LS_walltime_ratio_max": 1.2,
+      "independent_peak_GPU_ratio_max": 1.25
+    },
+    "report_all_frontiers_even_if_gate_fails": true,
+    "small_positive_deltas_not_significance": true
+  },
+  "GPU_authorized": false,
+  "training": false,
+  "download": false,
+  "automatic_retry": false,
+  "resource_budget": {
+    "partition": "g078t",
+    "comment": "gx_llm",
+    "GPUs": 1,
+    "CPUs": 4,
+    "RAM_GiB": 24,
+    "minutes": 240
+  },
+  "worker_RSS_limit_bytes": 21474836480,
+  "GPU_allocated_limit_bytes": 51539607552,
+  "log_limit_bytes": 201326592,
+  "formal_primary_denominator": 478,
+  "labels_on_worker": false,
+  "no_new_data": true,
+  "not_native_full_history_resolution_comparison": true,
+  "not_wallclock_1x_or_edge_measurement": true
+}

@@ -1,0 +1,8 @@
+{
+  "job_id": "218629",
+  "queue": "218629 PENDING 0:00 1:00:00 (Dependency)\n",
+  "accounting": "218629|PENDING|0:0|00:00:00|\n",
+  "progress": {},
+  "parent_completed": null,
+  "console_tail": ""
+}

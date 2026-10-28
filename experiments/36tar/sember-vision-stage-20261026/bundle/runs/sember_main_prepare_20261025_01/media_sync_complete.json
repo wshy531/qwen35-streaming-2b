@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "transferred_files": 128,
+  "transferred_bytes": 19408181310,
+  "skipped_complete_files": 0,
+  "GPU_jobs": 0,
+  "automatic_retries": 0,
+  "no_full_tar_copy": true
+}

@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "answers": 5,
+  "probes": 1,
+  "real_frames": 7,
+  "vision_encodings": 4,
+  "streamed_tokens": 24,
+  "QA": [
+    {
+      "arm": "LS_probe24",
+      "input_tokens": 80,
+      "visual_tokens": 48,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "LS_full48",
+      "input_tokens": 128,
+      "visual_tokens": 96,
+      "generated_tokens": 8
+    },
+    {
+      "arm": "LS_read24",
+      "input_tokens": 80,
+      "visual_tokens": 48,
+      "generated_tokens": 8
+    }
+  ],
+  "full_answer_before_after_probe_exact": true,
+  "banks_unchanged": true,
+  "post_QA_continuation": true,
+  "EOF_tail_closes": true,
+  "all_hooks_removed": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true
+}

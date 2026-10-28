@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "old_storage_steps": 288,
+  "all_formal_layouts": 1912,
+  "old_context_ID_layouts_equal": 1434,
+  "synthetic_old_context_embeddings_positions_exact": true,
+  "all_arms_same_pair_coverage": true,
+  "exact_eight_pair_bound": true,
+  "QA_branches": [
+    {
+      "arm": "full108_8",
+      "visual_tokens": 216,
+      "input_tokens": 248
+    },
+    {
+      "arm": "post_odd54_8",
+      "visual_tokens": 108,
+      "input_tokens": 140
+    },
+    {
+      "arm": "post_change54_8",
+      "visual_tokens": 108,
+      "input_tokens": 140
+    },
+    {
+      "arm": "mid_odd54_8",
+      "visual_tokens": 108,
+      "input_tokens": 140
+    }
+  ],
+  "QA_resume": true,
+  "standalone_mid_no_full_previous": true,
+  "standalone_change_previous_bytes": 884736,
+  "max_suffix": 486,
+  "expected_layouts_SHA": "64ac6d4ddb05372f5a7e1a02fb9c144d8d7599e1a9f318a7c2e3cb4a9118f8bb",
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true
+}

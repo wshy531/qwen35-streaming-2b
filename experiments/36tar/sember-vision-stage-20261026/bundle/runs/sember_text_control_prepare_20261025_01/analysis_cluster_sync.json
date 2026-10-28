@@ -1,0 +1,9 @@
+{
+  "status": "small_analysis_snapshots_synced",
+  "files_sha256": {
+    "text_control_results_summary.json": "d871c1ed0872eb986913bc237164ef67316dd0208b4e82f93e19d844ca64339e",
+    "text_control_report.md": "735aa21b6403c418042f2434657fc7e2061063a1f6bd3c4c18fa9ecb979ef05a",
+    "previous_stage_report_with_text.md": "093886ac532bfc11e2401e1d6052818fc0ce74c5db08720f728d615008570115"
+  },
+  "GPU_jobs": 0
+}

@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "real_frames": 7,
+  "grid": [
+    9,
+    12
+  ],
+  "visual_tokens_per_pair": 108,
+  "bounded_answers": 12,
+  "reference_answers": 1,
+  "QA": [
+    {
+      "arm": "M0_full108_8",
+      "input_tokens": 248,
+      "visual_tokens": 216,
+      "generated": [
+        37597,
+        102850
+      ]
+    },
+    {
+      "arm": "M0_odd54_16",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        95280
+      ]
+    },
+    {
+      "arm": "M0_change54_16",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        3824
+      ]
+    },
+    {
+      "arm": "M2_full108",
+      "input_tokens": 248,
+      "visual_tokens": 216,
+      "generated": [
+        37597,
+        102850
+      ]
+    },
+    {
+      "arm": "M2_change54",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        3824
+      ]
+    },
+    {
+      "arm": "A06_full108",
+      "input_tokens": 248,
+      "visual_tokens": 216,
+      "generated": [
+        37597,
+        102850
+      ]
+    },
+    {
+      "arm": "A06_change54",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        3824
+      ]
+    },
+    {
+      "arm": "LS_full108",
+      "input_tokens": 248,
+      "visual_tokens": 216,
+      "generated": [
+        37597,
+        102850
+      ]
+    },
+    {
+      "arm": "LS_change54",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        3824
+      ]
+    },
+    {
+      "arm": "M0_odd54_8",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        95280
+      ]
+    },
+    {
+      "arm": "M0_change54_8",
+      "input_tokens": 140,
+      "visual_tokens": 108,
+      "generated": [
+        122015,
+        3824
+      ]
+    }
+  ],
+  "max_real_question_suffix_tokens": 486,
+  "all_11_arms_stream_callbacks": true,
+  "all_banks_unchanged": true,
+  "post_QA_continuation": true,
+  "bounded_no_main_KV": true,
+  "reference_no_feature_archive": true,
+  "reference_cache_SHA_unchanged": true,
+  "full_bank_and_reference_same_short_answer": true,
+  "EOF_tail_finalizes": true,
+  "pretrained_loads": 0,
+  "random_tiny_model_loads": 1,
+  "GPU_jobs": 0,
+  "no_capability_or_speed_claim": true
+}

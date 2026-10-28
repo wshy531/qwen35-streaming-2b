@@ -1,0 +1,32 @@
+{
+  "scorer_SHA": "8812730e751bb98c9a6a70ae679a5a26dfd5be4e9d38825fe7c963cb88c6b5d2",
+  "parser_SHA": "b82c52954ab33c508f001e4c69f0ce98e0656e3e6af31539e30c7b488abb2121",
+  "labels_SHA": "139086865ae72f350a3a9c690e7ec899ab766d22f7d272326abf3656e26d07f2",
+  "source_selection_SHA": "2a0c2a766f53092fb15a7c8683697a43b4610c8436a835d340274ea6269661d3",
+  "formal_questions": 478,
+  "primary_denominator": 478,
+  "content_and_format_separate": true,
+  "paired_controls": {
+    "M0_odd54_8": "M0_full108_8",
+    "M0_change54_8": "M0_full108_8",
+    "M0_odd54_16": "M0_full108_8",
+    "M0_change54_16": "M0_full108_8",
+    "M2_change54": "M2_full108",
+    "A06_change54": "A06_full108",
+    "LS_change54": "LS_full108",
+    "M2_full108": "M0_full108_8",
+    "A06_full108": "M0_full108_8",
+    "LS_full108": "M0_full108_8"
+  },
+  "source_cluster_bootstrap_resamples": 5000,
+  "seed": 20261025,
+  "end_gap_proxy_groups": [
+    "all",
+    "ge120s",
+    "ge300s"
+  ],
+  "no_output_based_question_filtering": true,
+  "reference_incorrect_is_not_unanswerable": true,
+  "all_outputs_retained": true,
+  "capability_outputs_observed": false
+}

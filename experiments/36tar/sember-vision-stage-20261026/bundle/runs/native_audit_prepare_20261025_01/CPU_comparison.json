@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "same_weight_SHA": true,
+  "all24_layouts_identical": true,
+  "max_logit_errors": {
+    "official530": 5.960464477539063e-08,
+    "official540": 5.960464477539063e-08,
+    "stream": 0.0
+  },
+  "generated_IDs_identical": true,
+  "official540_default_real6s": true,
+  "real_weights": 0,
+  "GPU_jobs": 0,
+  "no_long_video_capability_claim": true
+}

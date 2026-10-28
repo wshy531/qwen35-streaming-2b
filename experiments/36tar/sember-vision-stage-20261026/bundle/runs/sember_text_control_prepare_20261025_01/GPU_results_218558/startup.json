@@ -1,0 +1,8 @@
+{
+  "pretrained_loads": 1,
+  "load_seconds": 3.9210428022779524,
+  "warmup_answers": 1,
+  "warmup_generated_tokens": 2,
+  "vision_calls": 0,
+  "video_decodes": 0
+}

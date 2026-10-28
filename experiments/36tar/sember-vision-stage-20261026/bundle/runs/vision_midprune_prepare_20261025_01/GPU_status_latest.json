@@ -1,0 +1,33 @@
+{
+  "job_id": "218664",
+  "queue": "",
+  "accounting": "218664|COMPLETED|0:0|00:01:17|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n218664.batch|COMPLETED|0:0|00:01:17|cpu=4,gres/gpu=1,mem=24G,node=1\n218664.extern|COMPLETED|0:0|00:01:17|billing=4,cpu=4,gres/gpu=1,mem=24G,node=1\n",
+  "startup": {
+    "pretrained_loads": 1,
+    "load_seconds": 1.8655647598206997,
+    "selected_pair_preload_seconds": 33.23778763599694,
+    "selected_RGB_bytes": 7962624,
+    "source_count": 4,
+    "pair_count": 12,
+    "QA_answers": 0,
+    "generated_tokens": 0,
+    "input_preload_and_model_load_outside_visual_timer": true,
+    "does_not_measure_end_to_end_or_edge_speed": true
+  },
+  "completed_pairs": 12,
+  "console_tail": "The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d\n\nLoading weights:   0%|          | 0/617 [00:00<?, ?it/s]\nLoading weights:   0%|          | 1/617 [00:00<10:12,  1.01it/s]\nLoading weights:  41%|████      | 252/617 [00:01<00:01, 313.43it/s]\nLoading weights:  63%|██████▎   | 391/617 [00:01<00:00, 381.04it/s]\nLoading weights:  88%|████████▊ | 542/617 [00:01<00:00, 546.51it/s]\nLoading weights: 100%|██████████| 617/617 [00:01<00:00, 403.07it/s]\n",
+  "completed": {
+    "status": "complete",
+    "pretrained_loads": 1,
+    "vision_forwards": 924,
+    "pair_count": 12,
+    "QA_answers": 0,
+    "generated_tokens": 0,
+    "CUDA_peak_allocated_bytes": 8912843264,
+    "last_RSS_bytes": 1948319744,
+    "no_cross_frame_feature_cache": true,
+    "does_not_measure_end_to_end": true,
+    "not_a_quality_or_memory_test": true,
+    "execution_lock_sha256": "584aeedc83ac07310e1d72a532cae3b45460008536a042fdc9e2713ca035ef74"
+  }
+}

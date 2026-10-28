@@ -1,0 +1,190 @@
+[
+  {
+    "name": "quality_mid",
+    "kind": "quality",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "M0_mid108",
+      "M2_mid108",
+      "A06_mid108",
+      "LS_mid108"
+    ],
+    "videos": null
+  },
+  {
+    "name": "quality_high",
+    "kind": "quality",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "M0_high192",
+      "M0_highchange108",
+      "M2_high192",
+      "M2_highchange108",
+      "A06_high192",
+      "A06_highchange108",
+      "LS_high192",
+      "LS_highchange108",
+      "M0_highuniform108"
+    ],
+    "videos": null
+  },
+  {
+    "name": "cost_b0_LS_mid108",
+    "kind": "cost",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "LS_mid108"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "1441688230351863_start_0.0_end_300.223",
+      "778842524676728_start_0.0_end_359.915",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b0_LS_highchange108",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_highchange108"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "1441688230351863_start_0.0_end_300.223",
+      "778842524676728_start_0.0_end_359.915",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b0_LS_high192",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_high192"
+    ],
+    "videos": [
+      "1054177859931507_start_0.0_end_1200.308",
+      "1441688230351863_start_0.0_end_300.223",
+      "778842524676728_start_0.0_end_359.915",
+      "989098036768628_start_0.0_end_583.962"
+    ]
+  },
+  {
+    "name": "cost_b1_LS_highchange108",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_highchange108"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1848337166005249_start_0.0_end_1199.976",
+      "1881015629398934_start_0.0_end_578.99",
+      "2064767457385035_start_0.0_end_409.969"
+    ]
+  },
+  {
+    "name": "cost_b1_LS_high192",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_high192"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1848337166005249_start_0.0_end_1199.976",
+      "1881015629398934_start_0.0_end_578.99",
+      "2064767457385035_start_0.0_end_409.969"
+    ]
+  },
+  {
+    "name": "cost_b1_LS_mid108",
+    "kind": "cost",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "LS_mid108"
+    ],
+    "videos": [
+      "1117723430211095_start_0.0_end_493.503",
+      "1848337166005249_start_0.0_end_1199.976",
+      "1881015629398934_start_0.0_end_578.99",
+      "2064767457385035_start_0.0_end_409.969"
+    ]
+  },
+  {
+    "name": "cost_b2_LS_high192",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_high192"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1370683007328428_start_0.0_end_311.532",
+      "548060551700833_start_0.0_end_599.972",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  },
+  {
+    "name": "cost_b2_LS_mid108",
+    "kind": "cost",
+    "canvas": [
+      288,
+      384
+    ],
+    "arms": [
+      "LS_mid108"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1370683007328428_start_0.0_end_311.532",
+      "548060551700833_start_0.0_end_599.972",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  },
+  {
+    "name": "cost_b2_LS_highchange108",
+    "kind": "cost",
+    "canvas": [
+      384,
+      512
+    ],
+    "arms": [
+      "LS_highchange108"
+    ],
+    "videos": [
+      "1307295240369511_start_0.0_end_1200.017",
+      "1370683007328428_start_0.0_end_311.532",
+      "548060551700833_start_0.0_end_599.972",
+      "9902221866524366_start_0.0_end_1199.959"
+    ]
+  }
+]

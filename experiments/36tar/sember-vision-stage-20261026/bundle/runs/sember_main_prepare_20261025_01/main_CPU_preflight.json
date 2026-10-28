@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "questions": 478,
+  "sources": 128,
+  "measured_answers": 5736,
+  "warmup_answers": 12,
+  "actual_pairs_per_process": 14678,
+  "vision_encodings_including_warmup": 29358,
+  "pretrained_loads_planned": 2,
+  "runtime_classes_identical_to_GPU_profile": true,
+  "roster_unchanged": true,
+  "labels_absent": true,
+  "all_query_prefixes_causal": true,
+  "unallocated_worker_refuses": true,
+  "actual_pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_claim": true
+}

@@ -1,0 +1,103 @@
+{
+  "status": "compatibility_recorded",
+  "transformers_version": "5.4.0",
+  "model_source": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\models\\qwen3_5\\modeling_qwen3_5.py",
+  "model_source_sha256": "159e92f43efef4d8a7ec57c2ec1906387ef9e8d6c5e12878de957aa802ccc751",
+  "project_model_or_streaming_imported": false,
+  "results": [
+    {
+      "case": "official_video_2",
+      "input_tokens": 30,
+      "grid": [
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "input_ids_sha256": "5d6be592ce745b85bc00440871fda7afb773300874b92f577bf5f4c6392c087d",
+      "pixels_sha256": "a5e84dfcca9a1daf5e5f971533e6fed07551156903394bd9a0d90aa29c9aabf4",
+      "status": "passed",
+      "generated_ids": [
+        122015,
+        3824
+      ],
+      "first_score_sha256": "7b8cc3b076ed930f4c1e98bd5b08225ae1e7455f4e8df48e33d4cbcbc166f46c",
+      "finite": true,
+      "seconds": 0.01599999999962165
+    },
+    {
+      "case": "matched_pairs_2",
+      "input_tokens": 30,
+      "grid": [
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "input_ids_sha256": "5d6be592ce745b85bc00440871fda7afb773300874b92f577bf5f4c6392c087d",
+      "pixels_sha256": "a5e84dfcca9a1daf5e5f971533e6fed07551156903394bd9a0d90aa29c9aabf4",
+      "status": "passed",
+      "generated_ids": [
+        122015,
+        3824
+      ],
+      "first_score_sha256": "7b8cc3b076ed930f4c1e98bd5b08225ae1e7455f4e8df48e33d4cbcbc166f46c",
+      "finite": true,
+      "seconds": 0.014999999999417923
+    },
+    {
+      "case": "official_video_4",
+      "input_tokens": 44,
+      "grid": [
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "input_ids_sha256": "3ab1b66bab16a04e0243542e1b57dd80d3dd494fd9773b0ce8817e06ccd7965d",
+      "pixels_sha256": "b0bf03c18105e9d40b3663433cb315c9faa82b0b7c4c087da2ae25459afa7cba",
+      "status": "passed",
+      "generated_ids": [
+        122015,
+        3824
+      ],
+      "first_score_sha256": "ec3cfc1b610084b24ffbb1cf9199206b9393028226762954581c19c4a30c5896",
+      "finite": true,
+      "seconds": 0.01599999999962165
+    },
+    {
+      "case": "matched_pairs_4",
+      "input_tokens": 44,
+      "grid": [
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          1,
+          4,
+          6
+        ]
+      ],
+      "input_ids_sha256": "3ab1b66bab16a04e0243542e1b57dd80d3dd494fd9773b0ce8817e06ccd7965d",
+      "pixels_sha256": "b0bf03c18105e9d40b3663433cb315c9faa82b0b7c4c087da2ae25459afa7cba",
+      "status": "passed",
+      "generated_ids": [
+        122015,
+        3824
+      ],
+      "first_score_sha256": "ec3cfc1b610084b24ffbb1cf9199206b9393028226762954581c19c4a30c5896",
+      "finite": true,
+      "seconds": 0.0
+    }
+  ],
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "model_or_processor_patches": 0,
+  "synthetic_frames": true,
+  "not_capability_evidence": true
+}

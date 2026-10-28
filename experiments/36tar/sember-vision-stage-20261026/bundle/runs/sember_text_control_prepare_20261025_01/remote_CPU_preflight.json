@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "questions": 478,
+  "option_counts": {
+    "5": 478
+  },
+  "literal_video_marker_removal": true,
+  "max_input_tokens": 489,
+  "all_token_IDs_frozen": true,
+  "tiny_QAs": [
+    {
+      "input_tokens": 119,
+      "vision_calls": 0
+    },
+    {
+      "input_tokens": 489,
+      "vision_calls": 0
+    },
+    {
+      "input_tokens": 119,
+      "vision_calls": 0
+    }
+  ],
+  "repeat_first_question_identical": true,
+  "no_vision_or_video_calls": true,
+  "all_questions_without_truncation": true,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0,
+  "no_capability_claim": true
+}

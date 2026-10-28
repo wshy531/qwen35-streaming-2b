@@ -1,0 +1,17 @@
+{
+  "status": "isolated_official_release_installed",
+  "version": "5.4.0",
+  "metadata_url": "https://pypi.org/pypi/transformers/5.4.0/json",
+  "wheel_url": "https://files.pythonhosted.org/packages/0b/a0/0a87883e564e364baab32adcacb4bec2e200b28a568423c8cf7fde316461/transformers-5.4.0-py3-none-any.whl",
+  "wheel_bytes": 10105556,
+  "wheel_sha256": "9fbe50602d2a4e6d0aa8a35a605433dfac72d595ee2192eae192590a6cc2df86",
+  "environment": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0",
+  "identity": {
+    "version": "5.4.0",
+    "path": "E:\\VIT Model\\envs\\native-audit-transformers-5.4.0\\Lib\\site-packages\\transformers\\__init__.py"
+  },
+  "heavy_dependencies_shared_from": "E:\\VIT Model\\.venv\\Lib\\site-packages",
+  "original_environment_modified": false,
+  "real_weights_downloaded": false,
+  "GPU_jobs": 0
+}

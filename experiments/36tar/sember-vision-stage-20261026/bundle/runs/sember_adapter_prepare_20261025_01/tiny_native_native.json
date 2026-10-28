@@ -1,0 +1,10 @@
+{
+  "status": "output_saved_for_comparison",
+  "stage": "native",
+  "seed": 20261025,
+  "state_dict_sha256": "f4557eee4dce5c1ef6ac2292b16995f08c6d517f89fb3cd312a84cb31b0dcb6e",
+  "real_frames": 4,
+  "visual_tokens": 216,
+  "pretrained_loads": 0,
+  "GPU_jobs": 0
+}

@@ -1,0 +1,1 @@
+CPU attempt1 failed during test cleanup: AttributeError: BoundedShared has no attribute clear. Production adapter has no clear method; no numerical check failed before that line. No weights/GPU loaded. Fix test cleanup by dropping its independent reference; retain source and error, then one engineering retry.

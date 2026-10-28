@@ -1,0 +1,3 @@
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol,-blank-at-eof
+# Byte-exact malformed historical JSON ends after a key and its original space.
+bundle/runs/native_audit_prepare_20261025_01/CPU_normal_real6s.json.invalid_original.txt -whitespace

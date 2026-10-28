@@ -1,0 +1,44 @@
+{
+  "returncode": 0,
+  "stdout": "218670\n",
+  "stderr": "",
+  "argv": [
+    "sbatch",
+    "--parsable",
+    "--no-requeue",
+    "--partition=g078t",
+    "--comment=gx_llm",
+    "--nodes=1",
+    "--ntasks=1",
+    "--cpus-per-task=4",
+    "--gres=gpu:1",
+    "--mem=24G",
+    "--time=02:00:00",
+    "--output=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/midprune_quality_prepare_20261026_01/midprune-quality-%j.console.log",
+    "--error=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/midprune_quality_prepare_20261026_01/midprune-quality-%j.console.log",
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-midprune-quality-v1/run_eval.sh"
+  ],
+  "queue_before": "",
+  "SBATCH_lines": [
+    "#SBATCH --job-name=2b-midprune-quality",
+    "#SBATCH --partition=g078t",
+    "#SBATCH --comment=gx_llm",
+    "#SBATCH --nodes=1",
+    "#SBATCH --ntasks=1",
+    "#SBATCH --cpus-per-task=4",
+    "#SBATCH --gres=gpu:1",
+    "#SBATCH --mem=24G",
+    "#SBATCH --time=02:00:00",
+    "#SBATCH --no-requeue"
+  ],
+  "selected_overrides": {
+    "SBATCH_ACCOUNT": null,
+    "SBATCH_PARTITION": null,
+    "SBATCH_QOS": null,
+    "SBATCH_COMMENT": null,
+    "SLURM_ACCOUNT": null,
+    "SLURM_QOS": null
+  },
+  "job_id": "218670",
+  "scontrol": "JobId=218670 JobName=2b-midprune-quality\n   UserId=u2025010462(507005) GroupId=u2025010462(507005) MCS_label=N/A\n   Priority=100 Nice=0 Account=u2025010462 QOS=normal\n   JobState=PENDING Reason=None Dependency=(null)\n   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=00:00:00 TimeLimit=02:00:00 TimeMin=N/A\n   SubmitTime=2026-10-26T00:32:55 EligibleTime=2026-10-26T00:32:55\n   AccrueTime=Unknown\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-26T00:32:55 Scheduler=Main\n   Partition=g078t AllocNode:Sid=workstation:1947506\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1-1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*\n   TRES=cpu=4,mem=24G,node=1,billing=4,gres/gpu=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=4 MinMemoryNode=24G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)\n   Command=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/experiments/2b-midprune-quality-v1/run_eval.sh\n   WorkDir=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar\n   Comment=gx_llm \n   StdErr=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/midprune_quality_prepare_20261026_01/midprune-quality-218670.console.log\n   StdIn=/dev/null\n   StdOut=/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/midprune_quality_prepare_20261026_01/midprune-quality-218670.console.log\n   Power=\n   TresPerNode=gres:gpu:1\n   \n\n"
+}

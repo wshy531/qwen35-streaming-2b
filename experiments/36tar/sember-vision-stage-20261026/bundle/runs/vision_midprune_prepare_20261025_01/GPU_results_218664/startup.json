@@ -1,0 +1,12 @@
+{
+  "pretrained_loads": 1,
+  "load_seconds": 1.8655647598206997,
+  "selected_pair_preload_seconds": 33.23778763599694,
+  "selected_RGB_bytes": 7962624,
+  "source_count": 4,
+  "pair_count": 12,
+  "QA_answers": 0,
+  "generated_tokens": 0,
+  "input_preload_and_model_load_outside_visual_timer": true,
+  "does_not_measure_end_to_end_or_edge_speed": true
+}
