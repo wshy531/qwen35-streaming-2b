@@ -1,0 +1,13 @@
+{
+  ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+  "answers.jsonl": "e642eca65e3a54ca102abc21470387a44fb7a2c4aea98a964f51548669382d2f",
+  "pending_review.md": "8020e1091a326e2944cca875df659ab5c8c8b7b51d56b4413791332e497e653d",
+  "provenance.json": "d7d32e7fdeaf32affa79d35713039c97a7b10af11cae10e1ae3641fb634fa5b5",
+  "README.md": "cb0dae67302832b5d425a574ec93d7e7ebfef07a5899b721d4ac29ca351a6365",
+  "review_report.md": "7ba2f16356d0b7aa600ba10dfe489eaaf8f9ecb9d003aec2b2d44a0d771cb901",
+  "review_validation.json": "65dfb64a6fe0534cbdc922b626348b2b82a43ed79e9438b0eaa6afdc31b26f90",
+  "score_changes.json": "06ab82fd9cf2d10946554637a4b780384e5a9b00487ec24fc96fc4364d23cd6c",
+  "scores.json": "c087f49765b412582bcac964b10d16e7de3fe664bcfa4979819f6fffbc0bd5a7",
+  "scoring_rules.md": "896a53c6a7fa862334e61c8b926d8e7a9511c1565516dd9d08ee0f6e7f759843",
+  "verify.py": "c8ca06b202660a8bfa8fa8b0881c7566a0d704b5dbc3dbe0fb631592de80bc92"
+}
