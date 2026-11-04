@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    220098,
+    220117,
+    220170
+  ],
+  "retained_complete_questions": 141,
+  "complete_questions": 300,
+  "sha256": {
+    "runs/evidence_scale_prepare_20261102_01/panel.json": "7d1aec18eeb503b5b771e5d8d7f0ac6296e90e925dd2d0c4b0e3a8bd4bb2b952",
+    "runs/evidence_scale_prepare_20261102_01/labels_LOCAL_ONLY.json": "bf769b946e3567a887a7d62ca0b93168b7d9dd5c697edb7c3aaef1821aecc38c",
+    "runs/evidence_scale_prepare_20261102_01/auxiliary_panel.json": "bc5ccace428650a97fb50e50633980984462cef11563cabce23ed5894f9d1fc7",
+    "runs/evidence-scale-nextqa-v3-220098/answers.jsonl": "45708488f6a081d8710b7232cb6dd2a20ac8cf7c9673e5a7199e945bebbfbc60",
+    "runs/evidence-scale-stream-tail-220170/answers.jsonl": "3def497dc53a1999db6f8dd3ef92de37b3fd16c4d79e46ca2db7b15199d1a2c7",
+    "runs/evidence-scale-stream-tail-220170/completed.json": "10d759837ad23b27073db70df665ee3936a921d6ec9117b6c36995cebe4fa3d6",
+    "runs/evidence-scale-stream-tail-220170/partial_row_replay.json": "36562be925470afd0d1036d81d72b5e4c79b16d072e025115658173de552d603",
+    "runs/evidence-scale-analysis-20261102-01/integrity.json": "f50691b2e380f54669821d83f75af1ac4955ccd296335776a1ab70d24e1ec4cb",
+    "runs/evidence-scale-nextqa-judge-20261102-01/responses.jsonl": "2eb62305c55ebedc4142aaac2edec604b8f9218cfe52cea91f1ad58e42c5b865",
+    "runs/evidence-scale-nextqa-judge-20261102-01/integrity.json": "c0bc2b5dd20325bfa6da08242f813123362d828004e7f04d8f7574bc0f479c3f"
+  },
+  "verified_unique_images": 4440,
+  "stream_scope": "causal recent eight pairs; v5 input timeout after 141 complete; one partial answer reproduced on resume",
+  "judge_requests": 163,
+  "judge_questions": 23,
+  "judge_cost_upper_cny": 2.524598
+}

@@ -1,0 +1,1075 @@
+{
+  "content": {
+    "NExT-QA": {
+      "full": {
+        "n": 150,
+        "correct": 121,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 4,
+        "input_tokens": 274133,
+        "visual_tokens": 233928,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "fixed12": {
+        "n": 150,
+        "correct": 120,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 5,
+        "input_tokens": 157169,
+        "visual_tokens": 116964,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "heuristic11": {
+        "n": 150,
+        "correct": 118,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 15,
+        "input_tokens": 157169,
+        "visual_tokens": 116964,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "mask_ce": {
+        "n": 150,
+        "correct": 120,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 5,
+        "input_tokens": 157169,
+        "visual_tokens": 116964,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "text_only": {
+        "n": 150,
+        "correct": 54,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 102,
+        "input_tokens": 22211,
+        "visual_tokens": 0,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      }
+    },
+    "StreamingBench": {
+      "full": {
+        "n": 150,
+        "correct": 97,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 29,
+        "input_tokens": 160447,
+        "visual_tokens": 124632,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "fixed12": {
+        "n": 150,
+        "correct": 97,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 30,
+        "input_tokens": 98131,
+        "visual_tokens": 62316,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "heuristic11": {
+        "n": 150,
+        "correct": 101,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 30,
+        "input_tokens": 98131,
+        "visual_tokens": 62316,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "mask_ce": {
+        "n": 150,
+        "correct": 93,
+        "unparsed": 0,
+        "answer_conflicts": 0,
+        "output_cap_reached": 35,
+        "input_tokens": 98131,
+        "visual_tokens": 62316,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      },
+      "text_only": {
+        "n": 150,
+        "correct": 62,
+        "unparsed": 2,
+        "answer_conflicts": 0,
+        "output_cap_reached": 118,
+        "input_tokens": 24603,
+        "visual_tokens": 0,
+        "note": "Unparsed is separate, not evidence of a visual error; original content score retains all 150 questions."
+      }
+    }
+  },
+  "paired": [
+    {
+      "dataset": "NExT-QA",
+      "a": "full",
+      "b": "fixed12",
+      "n": 150,
+      "a_wins": 6,
+      "b_wins": 5,
+      "same": 139,
+      "difference_pp": 0.6666666666666666,
+      "source_bootstrap_95pct_pp": [
+        -3.6509867531765337,
+        5.0
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "full",
+      "b": "heuristic11",
+      "n": 150,
+      "a_wins": 6,
+      "b_wins": 3,
+      "same": 141,
+      "difference_pp": 2.0,
+      "source_bootstrap_95pct_pp": [
+        -1.935483870967742,
+        6.081081081081082
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "full",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 9,
+      "b_wins": 8,
+      "same": 133,
+      "difference_pp": 0.6666666666666666,
+      "source_bootstrap_95pct_pp": [
+        -4.72972972972973,
+        6.122448979591836
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "full",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 74,
+      "b_wins": 7,
+      "same": 69,
+      "difference_pp": 44.666666666666664,
+      "source_bootstrap_95pct_pp": [
+        34.48275862068966,
+        54.67759576122886
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "fixed12",
+      "b": "heuristic11",
+      "n": 150,
+      "a_wins": 5,
+      "b_wins": 3,
+      "same": 142,
+      "difference_pp": 1.3333333333333333,
+      "source_bootstrap_95pct_pp": [
+        -2.5316455696202533,
+        4.965425531914898
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "fixed12",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 8,
+      "b_wins": 8,
+      "same": 134,
+      "difference_pp": 0.0,
+      "source_bootstrap_95pct_pp": [
+        -5.263157894736842,
+        5.263157894736842
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "fixed12",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 72,
+      "b_wins": 6,
+      "same": 72,
+      "difference_pp": 44.0,
+      "source_bootstrap_95pct_pp": [
+        33.98257864296798,
+        54.1681338028169
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "heuristic11",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 8,
+      "b_wins": 10,
+      "same": 132,
+      "difference_pp": -1.3333333333333333,
+      "source_bootstrap_95pct_pp": [
+        -6.452193084242283,
+        3.9215686274509802
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "heuristic11",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 72,
+      "b_wins": 8,
+      "same": 70,
+      "difference_pp": 42.666666666666664,
+      "source_bootstrap_95pct_pp": [
+        32.6350185774947,
+        52.73972602739726
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "NExT-QA",
+      "a": "mask_ce",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 71,
+      "b_wins": 5,
+      "same": 74,
+      "difference_pp": 44.0,
+      "source_bootstrap_95pct_pp": [
+        34.639289678135405,
+        53.691275167785236
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "full",
+      "b": "fixed12",
+      "n": 150,
+      "a_wins": 6,
+      "b_wins": 6,
+      "same": 138,
+      "difference_pp": 0.0,
+      "source_bootstrap_95pct_pp": [
+        -4.635761589403973,
+        4.636534216335543
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "full",
+      "b": "heuristic11",
+      "n": 150,
+      "a_wins": 7,
+      "b_wins": 11,
+      "same": 132,
+      "difference_pp": -2.6666666666666665,
+      "source_bootstrap_95pct_pp": [
+        -8.055051695991294,
+        2.7027027027027026
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "full",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 10,
+      "b_wins": 6,
+      "same": 134,
+      "difference_pp": 2.6666666666666665,
+      "source_bootstrap_95pct_pp": [
+        -2.6490066225165565,
+        8.0
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "full",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 43,
+      "b_wins": 8,
+      "same": 99,
+      "difference_pp": 23.333333333333332,
+      "source_bootstrap_95pct_pp": [
+        14.76510067114094,
+        32.02614379084967
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "fixed12",
+      "b": "heuristic11",
+      "n": 150,
+      "a_wins": 8,
+      "b_wins": 12,
+      "same": 130,
+      "difference_pp": -2.6666666666666665,
+      "source_bootstrap_95pct_pp": [
+        -8.16466312552418,
+        3.3112582781456954
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "fixed12",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 11,
+      "b_wins": 7,
+      "same": 132,
+      "difference_pp": 2.6666666666666665,
+      "source_bootstrap_95pct_pp": [
+        -2.7210884353741496,
+        8.164663125524187
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "fixed12",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 44,
+      "b_wins": 9,
+      "same": 97,
+      "difference_pp": 23.333333333333332,
+      "source_bootstrap_95pct_pp": [
+        14.864864864864865,
+        32.19178082191781
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "heuristic11",
+      "b": "mask_ce",
+      "n": 150,
+      "a_wins": 16,
+      "b_wins": 8,
+      "same": 126,
+      "difference_pp": 5.333333333333333,
+      "source_bootstrap_95pct_pp": [
+        -1.3071895424836601,
+        11.688311688311687
+      ],
+      "auxiliary_trigger": true,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "heuristic11",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 45,
+      "b_wins": 6,
+      "same": 99,
+      "difference_pp": 26.0,
+      "source_bootstrap_95pct_pp": [
+        17.880794701986755,
+        34.0185284640172
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    },
+    {
+      "dataset": "StreamingBench",
+      "a": "mask_ce",
+      "b": "text_only",
+      "n": 150,
+      "a_wins": 41,
+      "b_wins": 10,
+      "same": 99,
+      "difference_pp": 20.666666666666668,
+      "source_bootstrap_95pct_pp": [
+        11.83915607985481,
+        29.411764705882355
+      ],
+      "auxiliary_trigger": false,
+      "trigger_is_not_equivalence_or_significance_claim": true
+    }
+  ],
+  "per_type": [
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "CH",
+      "n": 24,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "CW",
+      "n": 22,
+      "correct": 19
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "DC",
+      "n": 13,
+      "correct": 11
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "DL",
+      "n": 22,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "DO",
+      "n": 22,
+      "correct": 19
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "TC",
+      "n": 22,
+      "correct": 15
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "TN",
+      "n": 21,
+      "correct": 14
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "full",
+      "type": "TP",
+      "n": 4,
+      "correct": 3
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "CH",
+      "n": 24,
+      "correct": 19
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "CW",
+      "n": 22,
+      "correct": 19
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "DC",
+      "n": 13,
+      "correct": 12
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "DL",
+      "n": 22,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "DO",
+      "n": 22,
+      "correct": 19
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "TC",
+      "n": 22,
+      "correct": 15
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "TN",
+      "n": 21,
+      "correct": 13
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "fixed12",
+      "type": "TP",
+      "n": 4,
+      "correct": 3
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "CH",
+      "n": 24,
+      "correct": 21
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "CW",
+      "n": 22,
+      "correct": 18
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "DC",
+      "n": 13,
+      "correct": 12
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "DL",
+      "n": 22,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "DO",
+      "n": 22,
+      "correct": 18
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "TC",
+      "n": 22,
+      "correct": 13
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "TN",
+      "n": 21,
+      "correct": 13
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "heuristic11",
+      "type": "TP",
+      "n": 4,
+      "correct": 3
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "CH",
+      "n": 24,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "CW",
+      "n": 22,
+      "correct": 17
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "DC",
+      "n": 13,
+      "correct": 12
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "DL",
+      "n": 22,
+      "correct": 20
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "DO",
+      "n": 22,
+      "correct": 18
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "TC",
+      "n": 22,
+      "correct": 14
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "TN",
+      "n": 21,
+      "correct": 16
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "mask_ce",
+      "type": "TP",
+      "n": 4,
+      "correct": 3
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "CH",
+      "n": 24,
+      "correct": 14
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "CW",
+      "n": 22,
+      "correct": 9
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "DC",
+      "n": 13,
+      "correct": 3
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "DL",
+      "n": 22,
+      "correct": 9
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "DO",
+      "n": 22,
+      "correct": 7
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "TC",
+      "n": 22,
+      "correct": 5
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "TN",
+      "n": 21,
+      "correct": 7
+    },
+    {
+      "dataset": "NExT-QA",
+      "arm": "text_only",
+      "type": "TP",
+      "n": 4,
+      "correct": 0
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Action Recognition",
+      "n": 18,
+      "correct": 15
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Attribute Recognition",
+      "n": 18,
+      "correct": 15
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Causal Reasoning",
+      "n": 12,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Clips Summarize",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Counting",
+      "n": 12,
+      "correct": 2
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Event Understanding",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Object Recognition",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Prospective Reasoning",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Spatial Understanding",
+      "n": 15,
+      "correct": 8
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "full",
+      "type": "Text-Rich Understanding",
+      "n": 15,
+      "correct": 13
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Action Recognition",
+      "n": 18,
+      "correct": 14
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Attribute Recognition",
+      "n": 18,
+      "correct": 15
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Causal Reasoning",
+      "n": 12,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Clips Summarize",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Counting",
+      "n": 12,
+      "correct": 4
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Event Understanding",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Object Recognition",
+      "n": 15,
+      "correct": 8
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Prospective Reasoning",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Spatial Understanding",
+      "n": 15,
+      "correct": 8
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "fixed12",
+      "type": "Text-Rich Understanding",
+      "n": 15,
+      "correct": 13
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Action Recognition",
+      "n": 18,
+      "correct": 13
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Attribute Recognition",
+      "n": 18,
+      "correct": 16
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Causal Reasoning",
+      "n": 12,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Clips Summarize",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Counting",
+      "n": 12,
+      "correct": 4
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Event Understanding",
+      "n": 15,
+      "correct": 10
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Object Recognition",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Prospective Reasoning",
+      "n": 15,
+      "correct": 11
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Spatial Understanding",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "heuristic11",
+      "type": "Text-Rich Understanding",
+      "n": 15,
+      "correct": 13
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Action Recognition",
+      "n": 18,
+      "correct": 13
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Attribute Recognition",
+      "n": 18,
+      "correct": 15
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Causal Reasoning",
+      "n": 12,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Clips Summarize",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Counting",
+      "n": 12,
+      "correct": 4
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Event Understanding",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Object Recognition",
+      "n": 15,
+      "correct": 8
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Prospective Reasoning",
+      "n": 15,
+      "correct": 11
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Spatial Understanding",
+      "n": 15,
+      "correct": 7
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "mask_ce",
+      "type": "Text-Rich Understanding",
+      "n": 15,
+      "correct": 11
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Action Recognition",
+      "n": 18,
+      "correct": 5
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Attribute Recognition",
+      "n": 18,
+      "correct": 11
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Causal Reasoning",
+      "n": 12,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Clips Summarize",
+      "n": 15,
+      "correct": 9
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Counting",
+      "n": 12,
+      "correct": 1
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Event Understanding",
+      "n": 15,
+      "correct": 7
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Object Recognition",
+      "n": 15,
+      "correct": 5
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Prospective Reasoning",
+      "n": 15,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Spatial Understanding",
+      "n": 15,
+      "correct": 6
+    },
+    {
+      "dataset": "StreamingBench",
+      "arm": "text_only",
+      "type": "Text-Rich Understanding",
+      "n": 15,
+      "correct": 6
+    }
+  ],
+  "API": 0,
+  "training": 0,
+  "complete_datasets": [
+    "NExT-QA",
+    "StreamingBench"
+  ],
+  "expected_datasets": [
+    "NExT-QA",
+    "StreamingBench"
+  ],
+  "status": "complete",
+  "API_automatic_execution": false,
+  "subset_denominator_separate": true
+}

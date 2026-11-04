@@ -1,0 +1,301 @@
+dataset,item,source,type,full,fixed12,heuristic11,mask_ce,text_only
+NExT-QA,b9e308a19b92c37da2e5,bc2299dd6e045f9fb2b8,CH,1,1,1,1,1
+NExT-QA,0a103c81ac4815c0fe5c,e96005417039945bbab2,CH,0,0,0,0,0
+NExT-QA,f83719c09e34817c6f01,47c481660fa9cab078ba,CW,1,0,0,0,0
+NExT-QA,ae0995f3fcfc579bdbb7,0cc3f5b31d03e08b3c08,CW,1,0,0,0,0
+NExT-QA,68922d5802319a3ecfb3,e6d8f00817ad2b1986ab,DC,1,1,1,1,0
+NExT-QA,65750ef9f51387e46c1f,7744667534ccd75a035f,DC,1,1,1,1,1
+NExT-QA,a89a36363320a38afb51,b47c1ec00d7b2f844951,DL,1,1,1,1,0
+NExT-QA,f0af75abf0b86ae1dcb2,9a1e1d4dd4944aceeda5,DL,1,1,1,1,1
+NExT-QA,1e8ec1973255744f857a,0cf44515c7c80a4f663c,DO,1,1,1,1,0
+NExT-QA,fc1eb065a7338fbadd0c,80b3701cbe178e4bd325,DO,1,1,1,1,0
+NExT-QA,1871ef6df15e67e9381e,4ee04089339d94e5b6c4,TC,1,1,1,0,0
+NExT-QA,9159255f71db9f69eb30,9a1e1d4dd4944aceeda5,TC,0,0,0,1,1
+NExT-QA,11165457f9a97927a6e9,6adc2518865e76211eec,TN,0,0,0,0,1
+NExT-QA,c62b16a4d008c270ed8c,b0efbb33bb0a7c68284c,TN,1,1,1,1,1
+NExT-QA,858d092f7713b1c41167,671876a2f87a4a377ba1,TP,0,0,0,0,0
+NExT-QA,169491d6820289811eaf,93a7fc5f921c59a8eeb6,TP,1,1,1,1,0
+NExT-QA,76b62d2764b8750f9eb1,1252ef27612c9091a284,CH,1,1,1,1,1
+NExT-QA,f915a334b2a7a43a606e,f3b27e6a3ef7663c1030,CH,0,1,1,0,1
+NExT-QA,989201e1a527f94b9160,54132e2392495d32b0b0,CW,1,1,1,0,0
+NExT-QA,e4f6a6101963d5c70efc,80b3701cbe178e4bd325,CW,1,1,1,1,0
+NExT-QA,b0c0dc5b7ab42cf660b2,192b1e736a38076975cb,DC,1,1,1,1,0
+NExT-QA,52c3bcccc711b13ef7f7,b0efbb33bb0a7c68284c,DC,1,1,1,1,0
+NExT-QA,f87283e3423e6f119b33,6adc2518865e76211eec,DL,1,1,1,1,0
+NExT-QA,aa446158cdf36446f1c0,93a7fc5f921c59a8eeb6,DL,1,1,1,1,0
+NExT-QA,b434797faca3788338ca,dfb75582d7ccab063e7f,DO,1,1,1,1,0
+NExT-QA,b09fe7d64ed6d805a309,eaad91b0b7e0290037d0,DO,1,1,1,0,0
+NExT-QA,8c50125754ca9a1975c5,c41ad2aed6bee2e20cde,TC,0,0,0,0,0
+NExT-QA,b908c19cca8e061e0f20,eaad91b0b7e0290037d0,TC,0,0,0,0,0
+NExT-QA,d11a9ee93745a3034836,5136cf85ba89a41b978e,TN,0,0,0,1,0
+NExT-QA,64b9a81ed689b5f5118b,0cc3f5b31d03e08b3c08,TN,0,0,0,0,0
+NExT-QA,046d7c5950853c2e92b2,85ec2900e85a466cb05c,CH,1,1,1,1,1
+NExT-QA,3d745a91c14fd59c74e5,153f9bf45db4117db62a,CH,1,1,1,1,1
+NExT-QA,511b6e06f2231cf94f75,5f4dc39a4a54dba2d2e4,CW,1,1,1,1,1
+NExT-QA,4359f6fab5ea07286b12,bf9e1b78b235a38bf3f0,CW,1,1,1,1,1
+NExT-QA,62f658c16a1d5a80492f,bdd68769597100c68f19,DC,1,1,1,1,0
+NExT-QA,93de98a805847874ab45,42770077d7863c85158e,DL,1,1,1,1,1
+NExT-QA,bc42dd78306b71b50fbe,ce7e6707107e6c791bca,DL,1,1,1,1,1
+NExT-QA,b434d942a6918704026a,3cc1c36e8b8b58fe879e,DO,1,1,1,1,0
+NExT-QA,8d3ffcae4cb9366d0f3a,99dfbb3b52ef01c03f5d,DO,1,1,1,1,0
+NExT-QA,878e0d4e021f7e1fd5a5,3e071d11474d248ed6f3,TC,0,0,0,1,0
+NExT-QA,15e769ef1d561bc0b74a,adc85b91a582d0dedfa7,TC,1,1,1,1,0
+NExT-QA,90f61320e9216a53c4e2,991a61245b6893a98f28,TN,1,1,1,1,0
+NExT-QA,3208c944b092419c2f2f,291b2d5ba9b50eb39937,TN,1,1,1,1,0
+NExT-QA,3d04879b4b7437957ed4,ddb703ac3c4d51acfaa5,TP,1,1,1,1,0
+NExT-QA,3080d44d860b60b5242d,291b2d5ba9b50eb39937,TP,1,1,1,1,0
+NExT-QA,9ceceb7e89d4ac42fea8,371ee1a931fda3ef0aeb,CH,1,1,1,1,1
+NExT-QA,a2e5e5e9335de2b625f9,f11ee7a1ad7b5dfc13d6,CH,1,1,1,1,0
+NExT-QA,a6496c1ca76a4e752fd7,4a7df3cf7bb7c6b4f8f9,CW,1,1,1,1,1
+NExT-QA,08a82426bedb3639517b,48b31e9714bc45dd0813,CW,1,1,1,1,1
+NExT-QA,f247c570b93e803f4f70,3055a4e0d962f895c74d,DC,1,1,1,1,0
+NExT-QA,7f31c4fd7c419512e4be,3c60cda4894c1ac4eadb,DL,1,1,1,1,1
+NExT-QA,1de8fc4697ddfbbec7d8,cccfb1f06ebf4a513b3d,DL,0,0,0,0,1
+NExT-QA,6fd2c8acce2e3f1bcaba,a506c22cb862c9d1472c,DO,1,1,1,1,0
+NExT-QA,177e56a0934f62282687,9d1b3bfad0524951423c,DO,1,1,1,1,1
+NExT-QA,7266014796b62b40e65a,594e4edf7774e56a6f6e,TC,1,1,0,1,1
+NExT-QA,da9abcca1a8f4b82a7c7,e1587637d5f493f2cdc4,TC,1,1,1,1,0
+NExT-QA,965dc891eb1ca38f0efe,441d3478340a4a30c11c,TN,1,1,1,1,0
+NExT-QA,f42cd8fcacd684c1ca9d,61a6ac5f3f66336b6021,TN,1,1,1,1,1
+NExT-QA,2b50883195ca24ff2fed,11f3b0911fca24db8d39,CH,1,1,1,1,1
+NExT-QA,e67e019f44d16f36381e,da7fa2186f806956dd94,CH,1,1,1,1,1
+NExT-QA,9308ccbeb3a0e4b2ac17,7a2f653685f6a99848eb,CW,0,0,0,0,0
+NExT-QA,47d4c2eebf4b5ddca820,57caf3db5a3e5d8871a4,CW,1,1,1,1,1
+NExT-QA,04079ee8eeb813b314e8,255dee9dbf4d9b275470,DC,1,1,1,1,0
+NExT-QA,2f6dd6d6ea927ec03339,5a76d2179c2e6e3e886e,DL,1,1,1,1,0
+NExT-QA,6b4e92b566b74fe99c55,99dfbb3b52ef01c03f5d,DL,1,1,1,1,1
+NExT-QA,2c3e5df661b29d865e4f,2da3ce8f1309df208002,DO,1,1,1,1,0
+NExT-QA,450418648d4d099e5328,adc85b91a582d0dedfa7,DO,1,1,1,1,0
+NExT-QA,44d3a33532ac6152628d,940bf74b5be8f9c14a39,TC,1,1,1,0,0
+NExT-QA,9ec539543b831886694c,7744667534ccd75a035f,TC,1,1,1,1,0
+NExT-QA,a61051bbf7917e356455,6665bd919834affd7ec8,TN,1,1,1,1,0
+NExT-QA,e7fc48473b874c71a23f,bf9e1b78b235a38bf3f0,TN,1,1,1,1,0
+NExT-QA,b4a3336a9044cc12c972,2805352612deccde9c88,CH,1,1,1,1,0
+NExT-QA,7e8f4cf5ae8a70ebc902,2a2f2d57a6ea59285c4c,CH,0,0,0,0,0
+NExT-QA,57e2702f0c5420da48dc,f0580488584585a2ad0c,CW,1,1,1,1,1
+NExT-QA,ab0cf7d0177f71096905,cd8563a265b7cc91e1e7,CW,0,1,1,1,0
+NExT-QA,634d4661c326a22f6c1c,e0ebd4595c7b38253270,DC,0,1,1,1,0
+NExT-QA,bb5449ba6d5f9f790ae1,8511fe3a2998cc790d42,DL,1,1,1,1,1
+NExT-QA,2768482857a597d1f1d3,f3b27e6a3ef7663c1030,DL,1,1,1,1,0
+NExT-QA,1c14dcffc5d28f3575ed,8aeb015e256f09089f20,DO,1,1,1,0,0
+NExT-QA,6ef07b0d5ec6e59b3adb,cccfb1f06ebf4a513b3d,DO,1,1,1,1,1
+NExT-QA,d289e01d8fc1629a96e1,cf1b3d54401a67f710f0,TC,0,0,0,0,0
+NExT-QA,3ecbb36acb1baa4bfafe,61a6ac5f3f66336b6021,TC,1,1,1,1,0
+NExT-QA,e7a0a89f2725b56f1139,4dce4c019ff00c925dcf,TN,1,0,1,0,0
+NExT-QA,5e3cab058a6a6a732954,e96005417039945bbab2,TN,1,1,1,1,1
+NExT-QA,664fcf54c3bd18b6f29b,2d567d67e442b02cd47b,CH,1,1,1,1,0
+NExT-QA,67c31a2ae5771eb5373a,e1587637d5f493f2cdc4,CH,1,1,1,1,1
+NExT-QA,40fe897834272eb23ed4,e7b17b2ecb5a4bb92787,CW,0,1,0,0,0
+NExT-QA,992bb05d4b334ddf2f62,57caf3db5a3e5d8871a4,CW,1,1,1,1,0
+NExT-QA,3a36272e922997859aad,671876a2f87a4a377ba1,DC,0,0,0,0,0
+NExT-QA,e4efbfd5e32a0dd9aa75,71b0ec494f9ae9d937d1,DL,1,1,1,1,0
+NExT-QA,03c9ed1796a128d6944c,da7fa2186f806956dd94,DL,1,1,1,1,1
+NExT-QA,de6329fb2afd823aaa9f,e1f6f3c71248b4d0d926,DO,1,1,1,1,0
+NExT-QA,329e6a3116961d928ad7,9d1b3bfad0524951423c,DO,1,1,1,1,1
+NExT-QA,23d382ab4e918400b35f,592a5c23358e288ae9f8,TC,1,1,1,1,0
+NExT-QA,3ed4b41e111d030402c2,48b31e9714bc45dd0813,TC,1,1,1,1,1
+NExT-QA,1ae84c351452ebd261e3,3fd2d48d7284ee9065b2,TN,1,1,1,1,1
+NExT-QA,0673bae0aef99e8462b7,ce7e6707107e6c791bca,TN,1,1,1,1,0
+NExT-QA,e10ca17ce8451b70970f,a231c3e446cd9c18bd4f,CH,1,1,1,1,0
+NExT-QA,2e4d0b1fefc03dd04f28,153f9bf45db4117db62a,CH,1,1,1,1,1
+NExT-QA,538c2f86c4912fe502cc,08a4f0ea259dee606126,CW,1,1,1,1,0
+NExT-QA,b6ea7c6de84b003b0388,f11ee7a1ad7b5dfc13d6,CW,1,1,1,1,1
+NExT-QA,ea21ee7291d2c1c7b034,5136cf85ba89a41b978e,DC,1,1,1,1,0
+NExT-QA,926ad6f31026bd9c3a60,d90f77af4b758533da4a,DL,1,1,1,1,0
+NExT-QA,1860bac6f0dbbf0658f1,0cc3f5b31d03e08b3c08,DL,1,1,1,1,0
+NExT-QA,2a35b84a43cc3ad12ac2,b47c1ec00d7b2f844951,DO,1,1,0,1,0
+NExT-QA,ba33424b652217a739af,b0efbb33bb0a7c68284c,DO,1,1,1,1,0
+NExT-QA,3c63bc6fd90178ecd106,4ee04089339d94e5b6c4,TC,1,1,0,1,1
+NExT-QA,e44da52dbd9d831543a3,80b3701cbe178e4bd325,TC,1,1,1,1,0
+NExT-QA,c3ca1152ea8ecc69ab8d,5a76d2179c2e6e3e886e,TN,0,1,0,1,0
+NExT-QA,570884a9edfd19cdda12,93a7fc5f921c59a8eeb6,TN,1,1,1,1,1
+NExT-QA,a3f207df668913aab5ae,c2ddbea94e55fed717ab,CH,1,1,1,1,1
+NExT-QA,f469dfb3e0bf85e63104,2a2f2d57a6ea59285c4c,CH,1,1,1,1,1
+NExT-QA,18c6b8b0552bda109885,594e4edf7774e56a6f6e,CW,1,1,1,1,0
+NExT-QA,e3f1225547534b50d21a,cd8563a265b7cc91e1e7,CW,1,1,1,1,0
+NExT-QA,6735629828a207e2b944,7a2f653685f6a99848eb,DC,1,1,1,1,0
+NExT-QA,f0e87ddc81675e2a2174,192b1e736a38076975cb,DL,0,0,0,0,0
+NExT-QA,a66daaf5035aef8d0187,291b2d5ba9b50eb39937,DL,1,1,1,1,0
+NExT-QA,bf3ede28f170c684bc0e,5f4dc39a4a54dba2d2e4,DO,1,1,1,1,1
+NExT-QA,9a4990030f4ca963d28c,99dfbb3b52ef01c03f5d,DO,1,1,1,1,0
+NExT-QA,02eb7b9d64ab4e93dfa1,1252ef27612c9091a284,TC,1,1,1,1,0
+NExT-QA,17f673ffbb7de01591d3,bf9e1b78b235a38bf3f0,TC,1,1,1,1,0
+NExT-QA,0e645ca136374959dad7,371ee1a931fda3ef0aeb,TN,1,0,0,1,0
+NExT-QA,27271652c915a81c4de2,f3b27e6a3ef7663c1030,TN,0,0,0,0,0
+NExT-QA,72460f90f4d19dde52a2,0cf44515c7c80a4f663c,CH,0,0,0,0,0
+NExT-QA,735e3103f2777feac46f,eaad91b0b7e0290037d0,CH,1,1,1,1,0
+NExT-QA,9f7a56c44cd64ca9cb45,8aeb015e256f09089f20,CW,1,1,1,1,0
+NExT-QA,69b1e153c1f91f713437,e96005417039945bbab2,CW,1,1,1,1,0
+NExT-QA,fbb069acacd03294a489,85ec2900e85a466cb05c,DC,1,1,1,1,1
+NExT-QA,a9cc0ce1b2161dd32572,dfb75582d7ccab063e7f,DL,1,1,1,1,0
+NExT-QA,e8d3ce9a2ac562b01c8d,61a6ac5f3f66336b6021,DL,1,1,1,1,0
+NExT-QA,805790fc2d58e5034dec,ddb703ac3c4d51acfaa5,DO,0,0,0,0,0
+NExT-QA,03c8eba820597b876816,e1587637d5f493f2cdc4,DO,0,0,0,0,1
+NExT-QA,66b0e65eadeb535020fb,c41ad2aed6bee2e20cde,TC,0,0,0,0,0
+NExT-QA,331139fa766d8b62a538,ce7e6707107e6c791bca,TC,1,1,1,1,0
+NExT-QA,5c86708bf35c005d7cf7,cf1b3d54401a67f710f0,TN,1,1,1,1,0
+NExT-QA,9242faf170d5866dce94,cccfb1f06ebf4a513b3d,TN,0,0,0,1,1
+NExT-QA,c376c33c418b6cf51689,2da3ce8f1309df208002,CH,1,1,1,1,1
+NExT-QA,cac2ef8f45cdb0275c84,7744667534ccd75a035f,CH,1,0,1,1,0
+NExT-QA,eba241cd722a85db0e87,940bf74b5be8f9c14a39,CW,1,1,1,1,1
+NExT-QA,c07dcc2a3f7e8a796003,9a1e1d4dd4944aceeda5,CW,1,1,1,1,1
+NExT-QA,d3c7052645f72eba0917,11f3b0911fca24db8d39,DC,1,1,1,1,1
+NExT-QA,7c5e494f5c2f729e0a7e,3e071d11474d248ed6f3,DL,1,1,1,1,0
+NExT-QA,222eb7a9ed55f639538c,48b31e9714bc45dd0813,DL,1,1,1,1,1
+NExT-QA,2db4de99d694e560b750,8511fe3a2998cc790d42,DO,0,0,0,1,1
+NExT-QA,5395805c585a5444d2f6,adc85b91a582d0dedfa7,DO,1,1,1,1,1
+NExT-QA,7945c1e76ab36824029a,2805352612deccde9c88,TC,1,1,1,0,1
+NExT-QA,83394b8262ffa241e0e5,9d1b3bfad0524951423c,TC,0,0,0,0,0
+NExT-QA,8fb8c8aa6212c8d2a67e,bc2299dd6e045f9fb2b8,TN,0,0,0,0,0
+NExT-QA,bea6687440710a3d83dc,bdd68769597100c68f19,CH,1,1,1,1,1
+NExT-QA,fe3c64348e81890eef80,57caf3db5a3e5d8871a4,CH,1,0,1,1,0
+StreamingBench,2c64d5221edfc484c6f3,a06fd9e2294064093b59,Action Recognition,1,1,1,1,1
+StreamingBench,77aebb992e4a0e9734ba,662c142ca141c0a833e7,Action Recognition,0,0,0,0,0
+StreamingBench,cc6232389bad8a0a8e37,cda4a4dcb51a22ccd982,Action Recognition,1,1,1,1,0
+StreamingBench,a5e4a5b39f25ec7066d2,0a55642e45af2a94a7f8,Attribute Recognition,1,1,1,1,1
+StreamingBench,8d3ef8ef16b62e505f5c,ed60bbb656cece29fc5b,Attribute Recognition,1,1,1,1,1
+StreamingBench,59870eb0eb6fb95a1a5a,f7fb7e5e99a0e8da2afc,Attribute Recognition,1,1,1,1,1
+StreamingBench,518adc1cbaf6c0549bef,51f23c4b085d2da7291b,Causal Reasoning,1,1,1,1,1
+StreamingBench,c7e74581a34de1ef26fe,251866e2cd8381858d09,Causal Reasoning,0,0,0,0,0
+StreamingBench,4ba9dc53ddc8836baac3,4f937700e21fd7cd8500,Causal Reasoning,1,1,1,1,1
+StreamingBench,3ecc052585cb5bb9c630,cae5dfcedbbcf197e8c0,Clips Summarize,0,0,0,0,0
+StreamingBench,8a8b348df698727260b8,10221bf72415d9f2cdad,Clips Summarize,1,1,1,1,1
+StreamingBench,67a7f7387fd4094b4c5f,e6c7f7a5d7bacef1a084,Clips Summarize,0,0,0,0,0
+StreamingBench,afd2dec9524f7e5cf5af,a5dc23c0b3b1f9bc6287,Counting,1,1,1,1,1
+StreamingBench,7b6792a74eba300e45f5,1bd42e9ab99321e76486,Counting,0,0,0,0,0
+StreamingBench,30192317bfa0f9bf7894,a5dc23c0b3b1f9bc6287,Counting,0,0,0,0,0
+StreamingBench,dfea41cc80aa82e89926,001c41de31ef7718f3b4,Event Understanding,0,0,0,0,1
+StreamingBench,0a114455bbb0d57556a9,4d3f0ff3e51619ce829a,Event Understanding,1,1,1,1,1
+StreamingBench,b074ba9287d5e372c52e,de7e40c82b0105b6b2a2,Event Understanding,1,1,1,1,0
+StreamingBench,4051236b73ea3d133bfc,24f06feb384f92986dc0,Object Recognition,1,1,1,0,1
+StreamingBench,e0616767a3fc6f186e47,e535ff029ae82b58e955,Object Recognition,1,1,1,1,1
+StreamingBench,520be7dae6f6417cde13,659b41c24e48def6b1b2,Object Recognition,0,0,1,0,0
+StreamingBench,f3c088c1ed43f71631d0,28b590297b085a677b63,Prospective Reasoning,1,1,1,1,1
+StreamingBench,5c3a748c3ad3f417591f,0134467441979a85aeef,Prospective Reasoning,1,1,1,1,0
+StreamingBench,36f9251f4b3e261345b1,28b590297b085a677b63,Prospective Reasoning,1,1,1,1,1
+StreamingBench,7c51efd0faf14524b0e9,53abcb08d42221837c0d,Spatial Understanding,0,0,0,0,0
+StreamingBench,30923f723eb486abbfde,fc67622146f922b602c2,Spatial Understanding,0,0,0,0,0
+StreamingBench,a2040c20e77c4de4586c,1a85e447000e25ee88ab,Spatial Understanding,1,1,1,1,0
+StreamingBench,8eaa2d37d60bdb4d112d,de7e40c82b0105b6b2a2,Text-Rich Understanding,0,0,0,0,0
+StreamingBench,68feeb8e24d3fe113236,d1e11065939873c198c6,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,37df8294a989b4f922bb,e7ad369302c9354cd938,Text-Rich Understanding,1,1,1,1,0
+StreamingBench,1a95aa097363c607d43b,e4151f19785fdf63dd4c,Action Recognition,1,1,1,1,1
+StreamingBench,b98ee2246a8c89de2faf,e5aeed720b2ae617ea65,Action Recognition,1,1,1,1,0
+StreamingBench,22118c0dfd969bbf994e,3c38f211e35ef26307a4,Action Recognition,0,0,0,0,0
+StreamingBench,d924d296a9ec8bd6099c,75b18d7b2a5e92914d75,Attribute Recognition,1,1,1,1,0
+StreamingBench,faa863b6aae0758f0efe,c18a25a70f5eee383e9f,Attribute Recognition,1,1,1,1,0
+StreamingBench,1e1f586981833e5b406b,12b32ccf21ae39eebfff,Attribute Recognition,1,1,1,1,1
+StreamingBench,c06dd74a5de86f33c2f1,6f038173a1a5c5d3428d,Causal Reasoning,1,1,1,1,1
+StreamingBench,44f9b7c20804d1b89a20,308c3e38d65b55bbe480,Causal Reasoning,0,0,0,0,0
+StreamingBench,8814a77fa5bee21fc64c,e19ab4d9ea45b6d3e8d6,Causal Reasoning,0,0,0,0,0
+StreamingBench,fd43f1234f8c56018072,a783c675c54fdd218def,Clips Summarize,0,0,0,0,0
+StreamingBench,381d80a6b01a23fff4cd,3ee18e3c5ab9743f48d6,Clips Summarize,0,0,0,0,1
+StreamingBench,f893f633a63d6768c212,9ccc4930dec0799a4dc6,Clips Summarize,1,1,1,1,1
+StreamingBench,67fd6005e228347bcce2,be172c77275f43094904,Counting,0,0,0,0,0
+StreamingBench,02451ffd1e9e2b9bfe86,f1a6e81f508538784ffa,Counting,0,0,1,0,0
+StreamingBench,970ab0c5d33c347115aa,2dc7d5db5d4bc357724c,Counting,0,0,0,0,0
+StreamingBench,0bdcbf3eba67eacfac12,8bd4f37529a1e6250fae,Event Understanding,1,1,1,1,1
+StreamingBench,168088256b2885db6011,7b96601bd4f8217fb17f,Event Understanding,0,1,1,1,0
+StreamingBench,a216cdc3a20f10052d70,fa3c333383aa5748c147,Event Understanding,1,1,1,1,0
+StreamingBench,3bac9d11c87068b65eda,d80a27e193c62f402a2b,Object Recognition,0,0,0,0,0
+StreamingBench,648f1339aa76e7993834,7cd49de6670446333788,Object Recognition,1,1,1,1,0
+StreamingBench,11ca469e7149f822ea05,0b5d00990de9c16d6706,Object Recognition,1,1,1,1,1
+StreamingBench,f894cf079134bc49d368,304f30c90bb17380a28a,Prospective Reasoning,0,0,1,0,0
+StreamingBench,19cda5426c308da32f48,8526f44c2c40a4b01202,Prospective Reasoning,0,0,0,0,0
+StreamingBench,ecf15061c1262349e9a0,e91946c80337e7d0ba56,Prospective Reasoning,1,1,1,1,0
+StreamingBench,feb003850dc064674172,25505e20119182964020,Spatial Understanding,1,1,1,1,0
+StreamingBench,07fae3a8562677ab3171,5db6cbddc0f5b6beec0d,Spatial Understanding,1,1,1,1,0
+StreamingBench,3589b86ea957c1309e6c,e182abb6d5d9685b6005,Spatial Understanding,1,1,1,1,1
+StreamingBench,b0ccb76a1993f27bb641,c3d5aa7b25dfc0c5905b,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,320321046fbf8123b105,a8f4921003c420bbe707,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,5357abc98e56c6deeb5c,cc76de0de0285f62a0eb,Text-Rich Understanding,1,1,1,0,0
+StreamingBench,46ed46233db48eabf847,4a179ce44ee4cf62be54,Action Recognition,1,1,1,1,1
+StreamingBench,2e45972d056f963db9cb,e36f4a05aa7fca4e078b,Action Recognition,1,1,1,1,1
+StreamingBench,1c3877885174e49a1acd,5441f58ea216bc73e133,Action Recognition,1,1,0,1,0
+StreamingBench,acb904c38e1cc662643d,65f5312e52ce6fedfaba,Attribute Recognition,1,1,1,1,1
+StreamingBench,92ef1303ec303642a5c1,329a6dcf1361e1335727,Attribute Recognition,0,0,1,0,0
+StreamingBench,e0e8358d4e29fa0b5b8d,26e548782a89f65cc9c4,Attribute Recognition,1,1,1,1,1
+StreamingBench,649a72f47642897584cc,a5d23ee2e9225765b9d7,Causal Reasoning,1,1,1,1,1
+StreamingBench,65a06035829c0b54ab6e,407eab384c406e3cb437,Causal Reasoning,0,0,0,0,0
+StreamingBench,582c7de8ba82622df070,ef73c7e822fb70169888,Clips Summarize,1,1,1,0,1
+StreamingBench,bf45a5c7b4570f954b3d,6bdad56c9980e6558039,Clips Summarize,1,1,1,1,1
+StreamingBench,f3fce38ceeb6659d5883,4bd3b4c0ce087bf213c3,Clips Summarize,1,1,1,1,1
+StreamingBench,3ba057a6001717a366f8,57ad453f64c21355d6fa,Counting,0,0,1,1,0
+StreamingBench,b559433606f1183ef120,dcf09f98b4269154e162,Counting,0,1,0,1,0
+StreamingBench,23897299c47bd893bce6,41cfa0318d33a909915b,Event Understanding,1,1,1,1,0
+StreamingBench,0706db64bf59cbe49fbb,5b2b589437f1323fbe85,Event Understanding,0,0,1,0,0
+StreamingBench,b96fe433a632a95dffc4,8da81397b7a81fb9089f,Event Understanding,0,0,0,0,0
+StreamingBench,52704f808eb9baeb22e4,2988404cbcfbcc5b4e8a,Object Recognition,0,0,0,1,0
+StreamingBench,bd9db194606cb5333847,13a923772988f48c81ce,Object Recognition,0,0,1,0,1
+StreamingBench,2b07facf93243e8bbb4e,8bda6cf89584f8b9ad51,Object Recognition,1,1,1,0,0
+StreamingBench,4296ac7035ab232ada3f,c3df3e69fa99f6434bf9,Prospective Reasoning,0,0,0,0,0
+StreamingBench,7c3a8d6f433bdb812f7c,54a27f78a4839a3628f2,Prospective Reasoning,1,1,1,0,0
+StreamingBench,e506a51d6343f93b7bb9,328fb4b0ac4e4b2855df,Prospective Reasoning,1,0,1,1,1
+StreamingBench,bee0f2b6b1bf460fce6a,1a0c56fc4a465356eb7f,Spatial Understanding,0,0,0,0,1
+StreamingBench,7ca3270114c73318d57d,ab8c1d878d10bcb545ca,Spatial Understanding,0,1,1,0,1
+StreamingBench,2783203fe10697d7a510,ff9e302f269fefc2bdef,Spatial Understanding,0,0,0,0,1
+StreamingBench,70f1343af91df99d800c,92103134e4ae3ab5d62b,Text-Rich Understanding,1,1,1,1,0
+StreamingBench,eba72c05afa056cc36c0,552afa150fa077583566,Text-Rich Understanding,1,1,1,1,0
+StreamingBench,c58f9e373742a7c75925,9f5714bd4bd90895e818,Text-Rich Understanding,1,1,1,1,0
+StreamingBench,676abd3d2bdc2530f2d7,c603a789dcc6cac89b3a,Action Recognition,0,0,0,0,0
+StreamingBench,024d0b640e56de8b9b99,15f04af58e0146b8df6a,Action Recognition,1,1,1,1,0
+StreamingBench,7a0f8efa85db5627e53f,22cdaa72b36c2c415f9f,Action Recognition,1,0,1,1,0
+StreamingBench,3d70d6cd7b8b48c4a68d,fed85e0c2d65baf33375,Attribute Recognition,1,1,1,1,1
+StreamingBench,cb8b36e4f4ea40cd54cf,a46d95edaa3bd2f7cc2f,Attribute Recognition,0,0,0,0,0
+StreamingBench,000c28782c251310f9c9,0c310901d356a909c35b,Attribute Recognition,1,1,1,1,0
+StreamingBench,e5fdacbe01ad2af3458f,d3423cf98ee9c2f98b0e,Causal Reasoning,1,1,1,1,1
+StreamingBench,63e9f6f77eb8000b00a2,e0a3149f1bec37f68961,Causal Reasoning,0,0,0,0,0
+StreamingBench,06ddd17562f6d48849e4,e7bcfb032f002a8e9fe2,Clips Summarize,0,0,0,0,0
+StreamingBench,7e94dd2b86ad53ba3454,eace6d1f68ff123d8c2a,Clips Summarize,1,1,1,1,1
+StreamingBench,326d8daf78abc79797df,d1939e8e1648e0e8c481,Clips Summarize,1,1,1,1,0
+StreamingBench,85ab1a39cb5e6a43b5b4,dc17d18198d745060bf7,Counting,0,0,0,0,0
+StreamingBench,eef0f2d47f94780a68d3,1315c22f3bd1ec15f32d,Counting,1,1,0,1,0
+StreamingBench,ab5c59814a5a27c86b32,9fed011cbb70f30f263c,Event Understanding,0,1,0,0,0
+StreamingBench,2b8cd6371398e171ffaf,e0502d6b10f5a8c85952,Event Understanding,1,0,0,0,1
+StreamingBench,c8d4c346e44a43c8c001,ccceae9530e3e590ab9d,Event Understanding,1,1,1,1,1
+StreamingBench,64475d976911ec706752,e710137fb520f34b71df,Object Recognition,0,0,0,0,0
+StreamingBench,a6bc769d3a1ab0507236,141cb758c83b2cd496ec,Object Recognition,1,0,1,1,0
+StreamingBench,87771111d91f66a65c5f,28f7bda65021ea4d37c8,Object Recognition,0,0,0,0,0
+StreamingBench,d40d45492d6ff766cf73,5d1cbbb1359bf4c42b14,Prospective Reasoning,0,0,0,1,1
+StreamingBench,3245ff28d90baff16b57,ab874b4fe6c900e0920b,Prospective Reasoning,1,0,1,1,0
+StreamingBench,928c6a32564231921735,8b69ecea333a05f7b626,Prospective Reasoning,0,1,0,1,0
+StreamingBench,f3f76bff876fa73107f4,e4fe2b2108fd1dffc58a,Spatial Understanding,1,0,0,0,0
+StreamingBench,67697ce1e0c3c8efcffa,9cb2db01a03072832210,Spatial Understanding,1,1,1,1,1
+StreamingBench,5033b40c16c8d0c54e79,4e0d6551c00ed7a1757e,Spatial Understanding,0,0,0,0,0
+StreamingBench,1ccbff6a688ab8cd5c19,c8de8ac310a17777f157,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,a9b12932214f5579d96f,a713085d47ea8a322f77,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,65c40c8add2fd6d4652a,c9a92afb475851a68e72,Text-Rich Understanding,1,1,1,1,1
+StreamingBench,9ad2b1ebba8cf3f5a1de,e605b1d4497c70510c7d,Action Recognition,1,1,1,0,0
+StreamingBench,2097f301f88fa08fdd68,758ebb27bdf4760e2be6,Action Recognition,1,1,1,1,0
+StreamingBench,a54ab35f9c38b43759c5,021a50e53f50283f0b98,Action Recognition,1,1,1,1,0
+StreamingBench,40142ca37a83052c3fa6,9b6d0cac9fe07f78c559,Attribute Recognition,0,0,0,0,0
+StreamingBench,e977ab282f171ab25638,18682fbfc01f37da44c3,Attribute Recognition,1,1,1,1,1
+StreamingBench,d793696dfcee10db32bb,d1e11065939873c198c6,Attribute Recognition,1,1,1,1,0
+StreamingBench,a87ccc9f9b107eae2923,24112d1b83928edb6c1e,Causal Reasoning,0,0,0,0,0
+StreamingBench,3fda45d9c825bd4d91d7,6348da73cf8616e9e91f,Causal Reasoning,1,1,1,1,1
+StreamingBench,4b2a3c5b23b8796a3b3a,d76ec8892bf5d571f071,Clips Summarize,1,1,1,1,0
+StreamingBench,ed433906f36f0a536a88,e6cd2962355091318ae0,Clips Summarize,1,1,1,1,1
+StreamingBench,739231a519677a4e2574,a783c675c54fdd218def,Clips Summarize,1,1,1,1,1
+StreamingBench,2d545b566fd703d726d2,a27233189847bb532fcd,Counting,0,0,0,0,0
+StreamingBench,fea9937d45c631521813,b119ea4edae5cf8c9474,Counting,0,1,1,0,0
+StreamingBench,acaad931ea9997465242,daf671c7cb58c75e8550,Event Understanding,1,1,1,1,1
+StreamingBench,b43518494e06d32e765f,4f12df353977858267ff,Event Understanding,0,0,0,0,0
+StreamingBench,6bedde86146b45e31d18,e04bff21c40b3c2dee23,Event Understanding,1,1,1,1,1
+StreamingBench,85ea43a194d1cfc4ff45,5349c67ff344e9afe11e,Object Recognition,1,1,0,1,0
+StreamingBench,f6298306320f4dc8c728,4d20113e80f6058e02f0,Object Recognition,1,1,1,1,1
+StreamingBench,157da251fac657dda28e,14056cc80b0b85e290da,Object Recognition,1,1,0,1,0
+StreamingBench,7b31f1497c15413ebebf,ce215362699a9d73e796,Prospective Reasoning,1,1,1,1,0
+StreamingBench,6272e129963d62b846d2,a824835ccdf54d81bca6,Prospective Reasoning,1,1,1,1,1
+StreamingBench,3e360322ebef225592a4,43b099358dc6d5863439,Prospective Reasoning,1,1,1,1,1
+StreamingBench,9810baa4a93eab9a5356,6c0743ef55680cbfe4ba,Spatial Understanding,0,0,1,0,1
+StreamingBench,97e7aea6486ed66b4afb,7f38702b3cfd064066ac,Spatial Understanding,1,1,1,1,0
+StreamingBench,24ea47541f7b93bbb160,9527580c9782c5acb8ee,Spatial Understanding,1,1,1,1,0
+StreamingBench,470969148f9d035874f7,480960c24af011a16baf,Text-Rich Understanding,0,0,0,0,0
+StreamingBench,05e8a62502773cc5303b,c18dd05428699daab24a,Text-Rich Understanding,1,1,1,0,0
+StreamingBench,a4f63a838b9b90b2ad29,f8b61542a6f1f57f6613,Text-Rich Understanding,1,1,1,1,0
+StreamingBench,ead70467f47f2115eab9,a791997c5089fa952d9d,Action Recognition,1,1,0,0,0
+StreamingBench,d72c5be8da8dcfbf0e26,1ec8328f93a0023e56fe,Action Recognition,1,1,1,1,0
+StreamingBench,12a899f155faec462f54,125b1f30ec2af691ec6b,Action Recognition,1,1,1,1,1
+StreamingBench,d54e86c4bdd113a3cab5,81b1f092b16c60d99f5c,Attribute Recognition,1,1,1,1,1
+StreamingBench,d4f14ab99310877230ff,1003e0a8a17c504400d2,Attribute Recognition,1,1,1,1,1
+StreamingBench,f8715038b0dd76a6de86,f7fb7e5e99a0e8da2afc,Attribute Recognition,1,1,1,1,1

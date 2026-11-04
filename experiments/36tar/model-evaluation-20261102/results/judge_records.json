@@ -1,0 +1,807 @@
+[
+  {
+    "item": "b434d942a6918704026a",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ceceb7e89d4ac42fea8",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "511b6e06f2231cf94f75",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "1860bac6f0dbbf0658f1",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "69b1e153c1f91f713437",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "52c3bcccc711b13ef7f7",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "511b6e06f2231cf94f75",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "69b1e153c1f91f713437",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "878e0d4e021f7e1fd5a5",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "9ec539543b831886694c",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "9ec539543b831886694c",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "52c3bcccc711b13ef7f7",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "878e0d4e021f7e1fd5a5",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "046d7c5950853c2e92b2",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f247c570b93e803f4f70",
+    "arm": "heuristic11",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "b434d942a6918704026a",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0af75abf0b86ae1dcb2",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3d745a91c14fd59c74e5",
+    "arm": "heuristic11",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "858d092f7713b1c41167",
+    "arm": "heuristic11",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "62f658c16a1d5a80492f",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "570884a9edfd19cdda12",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "b434d942a6918704026a",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "570884a9edfd19cdda12",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "8d3ffcae4cb9366d0f3a",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "511b6e06f2231cf94f75",
+    "arm": "full",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "4359f6fab5ea07286b12",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0e87ddc81675e2a2174",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "858d092f7713b1c41167",
+    "arm": "full",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "f0e87ddc81675e2a2174",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "9ceceb7e89d4ac42fea8",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3080d44d860b60b5242d",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "4359f6fab5ea07286b12",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "93de98a805847874ab45",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "511b6e06f2231cf94f75",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "1860bac6f0dbbf0658f1",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f247c570b93e803f4f70",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "878e0d4e021f7e1fd5a5",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "570884a9edfd19cdda12",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f247c570b93e803f4f70",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "9ceceb7e89d4ac42fea8",
+    "arm": "text_only",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ceceb7e89d4ac42fea8",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3080d44d860b60b5242d",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "a6496c1ca76a4e752fd7",
+    "arm": "heuristic11",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "3d745a91c14fd59c74e5",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "93de98a805847874ab45",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3d745a91c14fd59c74e5",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "69b1e153c1f91f713437",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "4359f6fab5ea07286b12",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "8d3ffcae4cb9366d0f3a",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "62f658c16a1d5a80492f",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "93de98a805847874ab45",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "1860bac6f0dbbf0658f1",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f915a334b2a7a43a606e",
+    "arm": "heuristic11",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "b434d942a6918704026a",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3080d44d860b60b5242d",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "a6496c1ca76a4e752fd7",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "62f658c16a1d5a80492f",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0af75abf0b86ae1dcb2",
+    "arm": "text_only",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3d745a91c14fd59c74e5",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "4359f6fab5ea07286b12",
+    "arm": "text_only",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f915a334b2a7a43a606e",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "046d7c5950853c2e92b2",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "046d7c5950853c2e92b2",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "62f658c16a1d5a80492f",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ec539543b831886694c",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "570884a9edfd19cdda12",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ec539543b831886694c",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "90f61320e9216a53c4e2",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "1860bac6f0dbbf0658f1",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3080d44d860b60b5242d",
+    "arm": "full",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "570884a9edfd19cdda12",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f915a334b2a7a43a606e",
+    "arm": "full",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "4359f6fab5ea07286b12",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "52c3bcccc711b13ef7f7",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "878e0d4e021f7e1fd5a5",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "a6496c1ca76a4e752fd7",
+    "arm": "fixed12",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "f915a334b2a7a43a606e",
+    "arm": "mask_ce",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "f0af75abf0b86ae1dcb2",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "52c3bcccc711b13ef7f7",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "b434d942a6918704026a",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "3080d44d860b60b5242d",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "858d092f7713b1c41167",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "f0af75abf0b86ae1dcb2",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "3d745a91c14fd59c74e5",
+    "arm": "full",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "90f61320e9216a53c4e2",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0af75abf0b86ae1dcb2",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "8d3ffcae4cb9366d0f3a",
+    "arm": "text_only",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": false
+  },
+  {
+    "item": "858d092f7713b1c41167",
+    "arm": "fixed12",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "8d3ffcae4cb9366d0f3a",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "a6496c1ca76a4e752fd7",
+    "arm": "full",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "046d7c5950853c2e92b2",
+    "arm": "text_only",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ceceb7e89d4ac42fea8",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "858d092f7713b1c41167",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "52c3bcccc711b13ef7f7",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0e87ddc81675e2a2174",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "046d7c5950853c2e92b2",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "62f658c16a1d5a80492f",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "878e0d4e021f7e1fd5a5",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "f0e87ddc81675e2a2174",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  },
+  {
+    "item": "90f61320e9216a53c4e2",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "8d3ffcae4cb9366d0f3a",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f247c570b93e803f4f70",
+    "arm": "full",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "93de98a805847874ab45",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "69b1e153c1f91f713437",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "90f61320e9216a53c4e2",
+    "arm": "fixed12",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f915a334b2a7a43a606e",
+    "arm": "text_only",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f247c570b93e803f4f70",
+    "arm": "mask_ce",
+    "support": "partial",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "1860bac6f0dbbf0658f1",
+    "arm": "mask_ce",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "9ec539543b831886694c",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "a6496c1ca76a4e752fd7",
+    "arm": "mask_ce",
+    "support": "insufficient",
+    "core_error": true,
+    "correct": true
+  },
+  {
+    "item": "511b6e06f2231cf94f75",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "69b1e153c1f91f713437",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "90f61320e9216a53c4e2",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "93de98a805847874ab45",
+    "arm": "full",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": true
+  },
+  {
+    "item": "f0e87ddc81675e2a2174",
+    "arm": "heuristic11",
+    "support": "sufficient",
+    "core_error": false,
+    "correct": false
+  }
+]
