@@ -1,0 +1,114 @@
+{
+  "status": "completed",
+  "train_questions": 1114,
+  "development_questions": 271,
+  "epochs": 20,
+  "source_separated": true,
+  "development_previously_opened": true,
+  "base_updates": 0,
+  "results": {
+    "visible": {
+      "metrics": {
+        "recent": {
+          "correct": 323,
+          "answers": 542,
+          "mean_gold_probability": 0.5155996692438208,
+          "mean_visual_tokens": 432.0
+        },
+        "all": {
+          "correct": 376,
+          "answers": 542,
+          "mean_gold_probability": 0.6120139848739656,
+          "mean_visual_tokens": 864.0
+        },
+        "nearest2": {
+          "correct": 350,
+          "answers": 542,
+          "mean_gold_probability": 0.5588539129636866,
+          "mean_visual_tokens": 648.0
+        },
+        "head": {
+          "correct": 371,
+          "answers": 542,
+          "mean_gold_probability": 0.5992778798348761,
+          "mean_visual_tokens": 735.2767527675277
+        },
+        "matched_count_nearest": {
+          "correct": 368,
+          "answers": 542,
+          "mean_gold_probability": 0.5936323872691569,
+          "mean_visual_tokens": 735.2767527675277
+        },
+        "same_head_binary": {
+          "correct": 373,
+          "answers": 542,
+          "mean_gold_probability": 0.6046937379621552,
+          "mean_visual_tokens": 803.4243542435424
+        },
+        "lexical_rule": {
+          "correct": 363,
+          "answers": 542,
+          "mean_gold_probability": 0.5813153479157,
+          "mean_visual_tokens": 736.4723247232472
+        }
+      },
+      "huber": 0.005635453853756189,
+      "counts_by_node_number": {
+        "4": 176,
+        "0": 38,
+        "1": 57
+      }
+    },
+    "blind": {
+      "metrics": {
+        "recent": {
+          "correct": 323,
+          "answers": 542,
+          "mean_gold_probability": 0.5155996692438208,
+          "mean_visual_tokens": 432.0
+        },
+        "all": {
+          "correct": 376,
+          "answers": 542,
+          "mean_gold_probability": 0.6120139848739656,
+          "mean_visual_tokens": 864.0
+        },
+        "nearest2": {
+          "correct": 350,
+          "answers": 542,
+          "mean_gold_probability": 0.5588539129636866,
+          "mean_visual_tokens": 648.0
+        },
+        "head": {
+          "correct": 373,
+          "answers": 542,
+          "mean_gold_probability": 0.6037786502851391,
+          "mean_visual_tokens": 800.2361623616237
+        },
+        "matched_count_nearest": {
+          "correct": 373,
+          "answers": 542,
+          "mean_gold_probability": 0.6037786502851391,
+          "mean_visual_tokens": 800.2361623616237
+        },
+        "same_head_binary": {
+          "correct": 373,
+          "answers": 542,
+          "mean_gold_probability": 0.6037786502851391,
+          "mean_visual_tokens": 800.2361623616237
+        },
+        "lexical_rule": {
+          "correct": 363,
+          "answers": 542,
+          "mean_gold_probability": 0.5813153479157,
+          "mean_visual_tokens": 736.4723247232472
+        }
+      },
+      "huber": 0.005771738011389971,
+      "counts_by_node_number": {
+        "4": 231,
+        "0": 40
+      }
+    }
+  }
+}

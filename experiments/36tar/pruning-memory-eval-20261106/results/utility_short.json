@@ -1,0 +1,116 @@
+{
+  "status": "completed",
+  "questions": 345,
+  "training_updates": 0,
+  "full_short": {
+    "unpruned_correct": 498,
+    "repaired_prune_correct": 497,
+    "answers": 690
+  },
+  "bounded_LS_heads": {
+    "content_visible": {
+      "metrics": {
+        "recent": {
+          "correct": 466,
+          "answers": 690,
+          "mean_gold_probability": 0.5928531428613444,
+          "mean_visual_tokens": 432.0
+        },
+        "all": {
+          "correct": 494,
+          "answers": 690,
+          "mean_gold_probability": 0.6565399131656876,
+          "mean_visual_tokens": 864.0
+        },
+        "nearest2": {
+          "correct": 482,
+          "answers": 690,
+          "mean_gold_probability": 0.6223291129994112,
+          "mean_visual_tokens": 648.0
+        },
+        "head": {
+          "correct": 495,
+          "answers": 690,
+          "mean_gold_probability": 0.6540060362103943,
+          "mean_visual_tokens": 796.0695652173913
+        },
+        "matched_count_nearest": {
+          "correct": 491,
+          "answers": 690,
+          "mean_gold_probability": 0.6481891851292028,
+          "mean_visual_tokens": 796.0695652173913
+        },
+        "same_head_binary": {
+          "correct": 493,
+          "answers": 690,
+          "mean_gold_probability": 0.6549818223275023,
+          "mean_visual_tokens": 813.9130434782609
+        },
+        "lexical_rule": {
+          "correct": 484,
+          "answers": 690,
+          "mean_gold_probability": 0.6367996700395082,
+          "mean_visual_tokens": 718.7478260869565
+        }
+      },
+      "huber": 0.004519774112850428,
+      "counts_by_node_number": {
+        "4": 286,
+        "0": 40,
+        "1": 19
+      }
+    },
+    "blind_history": {
+      "metrics": {
+        "recent": {
+          "correct": 466,
+          "answers": 690,
+          "mean_gold_probability": 0.5928531428613444,
+          "mean_visual_tokens": 432.0
+        },
+        "all": {
+          "correct": 494,
+          "answers": 690,
+          "mean_gold_probability": 0.6565399131656876,
+          "mean_visual_tokens": 864.0
+        },
+        "nearest2": {
+          "correct": 482,
+          "answers": 690,
+          "mean_gold_probability": 0.6223291129994112,
+          "mean_visual_tokens": 648.0
+        },
+        "head": {
+          "correct": 492,
+          "answers": 690,
+          "mean_gold_probability": 0.6536429167185459,
+          "mean_visual_tokens": 812.6608695652174
+        },
+        "matched_count_nearest": {
+          "correct": 492,
+          "answers": 690,
+          "mean_gold_probability": 0.6536429167185459,
+          "mean_visual_tokens": 812.6608695652174
+        },
+        "same_head_binary": {
+          "correct": 492,
+          "answers": 690,
+          "mean_gold_probability": 0.6536429167185459,
+          "mean_visual_tokens": 812.6608695652174
+        },
+        "lexical_rule": {
+          "correct": 484,
+          "answers": 690,
+          "mean_gold_probability": 0.6367996700395082,
+          "mean_visual_tokens": 718.7478260869565
+        }
+      },
+      "huber": 0.004537596367299557,
+      "counts_by_node_number": {
+        "4": 304,
+        "0": 41
+      }
+    }
+  },
+  "note": "separate full-short pruning comparison and bounded-LS head transfer"
+}

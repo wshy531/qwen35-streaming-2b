@@ -1,0 +1,7 @@
+{
+  "version": "20261105-v1",
+  "unique_questions": 383,
+  "unique_question_ids": 383,
+  "distinct_exact_presentations": 372,
+  "unique_questions_field_semantics": "legacy field counts IDs, not independent annotations"
+}

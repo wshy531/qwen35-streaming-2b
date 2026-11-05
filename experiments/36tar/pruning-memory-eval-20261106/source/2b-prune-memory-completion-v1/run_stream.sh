@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=q35-repair-stream
+#SBATCH --partition=g078t
+#SBATCH --comment=gx_llm
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=48G
+#SBATCH --time=03:00:00
+#SBATCH --no-requeue
+#SBATCH --output=/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/repair-stream-%j.out
+set -euo pipefail
+ROOT=/home/u2025010462/share/czy/swt/my_pape/qwen35-streaming-2b-36tar
+cd "$ROOT"
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false OMP_NUM_THREADS=1 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+ulimit -f 131072
+envs/prune-memory-completion-v1/bin/python experiments/2b-prune-memory-completion-v1/evaluate.py --panel stream --out "runs/repair-stream-$SLURM_JOB_ID"
