@@ -1,0 +1,76 @@
+{
+  "source_unchanged": true,
+  "reviewed_questions": 200,
+  "reviewed_answers": 800,
+  "question_identity_and_answer_text_matched": true,
+  "approved_10_examples_preserved": true,
+  "changes": 19,
+  "pending_questions": [
+    9,
+    13,
+    16,
+    47,
+    60,
+    61,
+    64,
+    100,
+    177,
+    182,
+    198
+  ],
+  "pending_answers": 31,
+  "summary": {
+    "native_prefix": {
+      "common_questions": 189,
+      "score_0": 103,
+      "score_1": 59,
+      "score_2": 27,
+      "points": 113,
+      "max_points": 378,
+      "full_correct_pct": 14.285714285714286,
+      "normalized_score_pct": 29.894179894179896,
+      "previous_points_same_questions": 115,
+      "pending_answers": 7
+    },
+    "LS": {
+      "common_questions": 189,
+      "score_0": 127,
+      "score_1": 46,
+      "score_2": 16,
+      "points": 78,
+      "max_points": 378,
+      "full_correct_pct": 8.465608465608465,
+      "normalized_score_pct": 20.634920634920636,
+      "previous_points_same_questions": 76,
+      "pending_answers": 8
+    },
+    "A06_full": {
+      "common_questions": 189,
+      "score_0": 132,
+      "score_1": 43,
+      "score_2": 14,
+      "points": 71,
+      "max_points": 378,
+      "full_correct_pct": 7.407407407407407,
+      "normalized_score_pct": 18.78306878306878,
+      "previous_points_same_questions": 70,
+      "pending_answers": 8
+    },
+    "text_only": {
+      "common_questions": 189,
+      "score_0": 150,
+      "score_1": 28,
+      "score_2": 11,
+      "points": 50,
+      "max_points": 378,
+      "full_correct_pct": 5.8201058201058204,
+      "normalized_score_pct": 13.227513227513228,
+      "previous_points_same_questions": 47,
+      "pending_answers": 8
+    }
+  },
+  "identical_answers_same_question_consistent": true,
+  "csv_roundtrip_800_records": true,
+  "numeric_score_changes": 14,
+  "new_pending_answers": 5
+}

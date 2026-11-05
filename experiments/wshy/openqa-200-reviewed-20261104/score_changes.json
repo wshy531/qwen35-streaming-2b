@@ -1,0 +1,357 @@
+[
+  {
+    "题号": 24,
+    "题目ID": "2186d368865bd7d29c7acb1b11eff537662f1091a299272cd40244d54d17063b",
+    "模型": "text_only",
+    "问题": "Where can I find the wall clock?",
+    "参考答案": [
+      "Up on the wall in the corner to your right.",
+      "You can find the wall clock hanging between the bookshelf and the window curtains."
+    ],
+    "模型回答": "The wall clock is located on the left side of the dining table. It is positioned directly above the silver coffee mug. You can find it resting against the white wall near the window.",
+    "评分": 1,
+    "依据": "墙面靠窗与窗帘附近部分对应，未答书架之间或右角；餐桌左侧不能直接等同自身左侧。",
+    "状态": "文字复审完成",
+    "review_id": "a1a60238597feef3dd537a0b810522e7d29c6307d769cc68f9c255541ce4ec7d",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 36,
+    "题目ID": "2de9301750b0f672bbb8d13c458cc45885b0ec31c4f9025c990fd69d37532372",
+    "模型": "A06_full",
+    "问题": "What did I do with the first slice of bread right after I took it out of the pan?",
+    "参考答案": [
+      "You put the slice of bread onto the wooden cutting board on the counter, before immediately adding a slice of cheese on top of it.",
+      "You placed the bread on the wooden cutting board to the left of the stove, then placed a slice of cheese on top.",
+      "You put it on the cutting board and put a slice of cheese on it."
+    ],
+    "模型回答": "I placed the first slice of bread on the counter next to the other slices.",
+    "评分": 1,
+    "依据": "参考明确切菜板在台面上；答出台面放置但漏切菜板及加奶酪。",
+    "状态": "文字复审完成",
+    "review_id": "14e60fb816c41ef73a69263f1e7cfe883341fe8f4635859c2a6211857ab6332b",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 36,
+    "题目ID": "2de9301750b0f672bbb8d13c458cc45885b0ec31c4f9025c990fd69d37532372",
+    "模型": "LS",
+    "问题": "What did I do with the first slice of bread right after I took it out of the pan?",
+    "参考答案": [
+      "You put the slice of bread onto the wooden cutting board on the counter, before immediately adding a slice of cheese on top of it.",
+      "You placed the bread on the wooden cutting board to the left of the stove, then placed a slice of cheese on top.",
+      "You put it on the cutting board and put a slice of cheese on it."
+    ],
+    "模型回答": "I placed the first slice of bread on the counter next to the other slices.",
+    "评分": 1,
+    "依据": "答出台面放置，漏切菜板及加奶酪。",
+    "状态": "文字复审完成",
+    "review_id": "72baf2e65e30705fd0d0943799385caf018105bf36a1f0144be7ce2c93615b1a",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 42,
+    "题目ID": "330CEA30BD8A27D6F76DE1D5B5623DC698EB332FF09B9E23AF555F6362FA264A",
+    "模型": "native_prefix",
+    "问题": "Where did I last see the dog?",
+    "参考答案": [
+      "You last saw the dog playing beside its cage in front of the window.",
+      "In the living room.",
+      "The French bulldog was in the living room near the sunny window."
+    ],
+    "模型回答": "The dog was seen in the room with the window and the door.",
+    "评分": 0,
+    "依据": "有窗和门的房间并未说狗靠窗，也未指明客厅，定位不足。",
+    "状态": "文字复审完成",
+    "review_id": "c1f7793cea2dd55316271df620c3244674ea2fda7b9575a632988f2d04b71caa",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 48,
+    "题目ID": "3ec19cc072a133e5e11209423de1098877668343c99b5577f139f105b44f34c1",
+    "模型": "text_only",
+    "问题": "Which cupboard did I take the jug from before?",
+    "参考答案": [
+      "You took the jug from the cupboard that was above the microwave.",
+      "From the cupboard right above the oven.",
+      "You took the jug from the top shelf of the corner cupboard."
+    ],
+    "模型回答": "You took the jug from the kitchen cabinet before. After retrieving it, you moved it to the counter for use.",
+    "评分": 0,
+    "依据": "题干已经给出cupboard，只答厨房柜子未识别是哪一柜；不同于第5题自行答出抽屉。",
+    "状态": "文字复审完成",
+    "review_id": "124312c0fb086cdb8be9c849992e7ceda8a72d6b1bcfdebe579f58b369039608",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 48,
+    "题目ID": "3ec19cc072a133e5e11209423de1098877668343c99b5577f139f105b44f34c1",
+    "模型": "LS",
+    "问题": "Which cupboard did I take the jug from before?",
+    "参考答案": [
+      "You took the jug from the cupboard that was above the microwave.",
+      "From the cupboard right above the oven.",
+      "You took the jug from the top shelf of the corner cupboard."
+    ],
+    "模型回答": "You took the jug from the cupboard on the left side of the kitchen.",
+    "评分": 0,
+    "依据": "左侧未被任何参考支持，未答上方柜或角柜。",
+    "状态": "文字复审完成",
+    "review_id": "4e81047f3b435e085bf7ec88a8be19737f354d43932dcba4a3de03a89caeb556",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 48,
+    "题目ID": "3ec19cc072a133e5e11209423de1098877668343c99b5577f139f105b44f34c1",
+    "模型": "A06_full",
+    "问题": "Which cupboard did I take the jug from before?",
+    "参考答案": [
+      "You took the jug from the cupboard that was above the microwave.",
+      "From the cupboard right above the oven.",
+      "You took the jug from the top shelf of the corner cupboard."
+    ],
+    "模型回答": "The jug was taken from the cupboard on the left side of the kitchen.",
+    "评分": 0,
+    "依据": "左侧未被参考支持，未答上方柜或角柜。",
+    "状态": "文字复审完成",
+    "review_id": "66567dbe6875a1c3bf707ea3aa98147fd47c7454700f49eabaad86f1040981ed",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 48,
+    "题目ID": "3ec19cc072a133e5e11209423de1098877668343c99b5577f139f105b44f34c1",
+    "模型": "native_prefix",
+    "问题": "Which cupboard did I take the jug from before?",
+    "参考答案": [
+      "You took the jug from the cupboard that was above the microwave.",
+      "From the cupboard right above the oven.",
+      "You took the jug from the top shelf of the corner cupboard."
+    ],
+    "模型回答": "You took the jug from the cupboard in the kitchen.",
+    "评分": 0,
+    "依据": "仅重复题干的柜子，未提供有效区分。",
+    "状态": "文字复审完成",
+    "review_id": "ac6ce9b7454b149932e22fa17f036139c46801a86ecb56b76f86b8221ddfbf4a",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 60,
+    "题目ID": "4EC136F007342395C4F8145E48035C94F19C1DBBAF1DB02541F562BB6E97396D",
+    "模型": "LS",
+    "问题": "In what order did I open the three closed car doors?",
+    "参考答案": [
+      "Passenger side front, driver side rear and passenger side rear.",
+      "You first opened the front passenger door of the red car, followed by the rear door on the driver's side. Lastly, you opened the rear passenger door.",
+      "You started with the front passenger door, then you opened the back driver's side door and lastly, you opened the back passenger's side door."
+    ],
+    "模型回答": "1. Front left door\n2. Front right door\n3. Back left door",
+    "评分": null,
+    "依据": "左右车门与驾驶/乘客侧需车型或画面确认，且答了两个前门，保留部分分边界待核对。",
+    "状态": "待人工复核",
+    "review_id": "52128bf3cc2ca5f08b61dde5f7fee883af0dbae046c36473355750826ae26f25",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 96,
+    "题目ID": "6b1d9d053cb25de9437232f9008847a212f4a416ed1e3efcfbae8723fbd3d06d",
+    "模型": "text_only",
+    "问题": "After I drained the water from the sink, what were the next items I washed?",
+    "参考答案": [
+      "Cutlery"
+    ],
+    "模型回答": "After draining the sink, you typically moved on to washing dishes, utensils, or other kitchenware. This sequence makes sense because the sink is often used for both draining water and washing items, so the transition is logical.",
+    "评分": 1,
+    "依据": "utensils包含正确类别，但与dishes等并列猜测，按混合答案给1分。",
+    "状态": "文字复审完成",
+    "review_id": "e0dbbf10c7df9df2c76226e4c11b904cab07ddeed4b78ae68430d6adac929f65",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 103,
+    "题目ID": "7470f07c5eb892e7a0afb09de8f368369909d44796d7e14dd7a26a52af81618d",
+    "模型": "LS",
+    "问题": "Where did I get the paper towel that I wiped down the counter with?",
+    "参考答案": [
+      "From the paper towel roll above the sink.",
+      "The paper towel that you used to wipe down the counter came from the holder above the sink."
+    ],
+    "模型回答": "You obtained the paper towel from a dispenser located on the kitchen counter.",
+    "评分": 1,
+    "依据": "答出纸巾分配器这一承载物，与纸巾架类别接近，但位置错为台面。",
+    "状态": "文字复审完成",
+    "review_id": "d6b3fe9e3b883315d83c279367dbd789b7ed166932fb28b1c40826c3009dc039",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 117,
+    "题目ID": "857996E1BB7D0EC377C422C17FA5B7ED0C75A4FF6FC956144925E5037E414CA4",
+    "模型": "LS",
+    "问题": "What did I do with the transparent measuring cup?",
+    "参考答案": [
+      "You removed the transparent measuring cup from the cabinet, filled it with water, and then placed it in the sink after pouring the water into the machine.",
+      "You pulled it out of a cupboard, used it to pour water, and then placed it on a drying rack over the sink."
+    ],
+    "模型回答": "I placed the transparent measuring cup on the counter next to the sink.",
+    "评分": 1,
+    "依据": "答出放在水槽附近这一后续位置，台面与水槽/晾架不完全一致且漏倒水。",
+    "状态": "文字复审完成",
+    "review_id": "fafe505fe5fdc3c50924c93bfe7ad1074879571e617b79a646b1c262f251d027",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 119,
+    "题目ID": "8F963EF72F9A1C650000CADD41732019C5CE2D2E7B7B65BB8FF8547667607341",
+    "模型": "text_only",
+    "问题": "Where is the gear stick?",
+    "参考答案": [
+      "To the left of the steering wheel.",
+      "The gear stick is to the left of the steering wheel.",
+      "The silver gear stick is to the left of the steering wheel."
+    ],
+    "模型回答": "The gear stick is located on the left side of the steering wheel, positioned between the driver's hands. It is typically found in the center console area, accessible by reaching down from the dashboard. In some vehicles, it may be mounted on the steering column itself for easier access.",
+    "评分": 2,
+    "依据": "明确回答方向盘左侧；后文typically/in some vehicles是一般补充，并非否定本例左侧位置。",
+    "状态": "文字复审完成",
+    "review_id": "af122ba4cb4456a33f21cb5b29c3ed94c1f9916b5ca6593ebe5e0f57e48109e0",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 129,
+    "题目ID": "9ef33d3ce7ae6414d999e60c97664b8e36ebcec57def6347cc9f51aaa9699780",
+    "模型": "text_only",
+    "问题": "Where in the kitchen did I see a pack of bread?",
+    "参考答案": [
+      "On the counter, next to the clock.",
+      "You saw a pack of bread on the countertop to the right of a black-rimmed clock.",
+      "The bread pack is on the kitchen counter to your right. It is behind the tray that holds several containers and on top of a box."
+    ],
+    "模型回答": "You likely saw the pack of bread on the countertop near the sink or on the middle shelf of the pantry. If you are looking for it specifically, check the open door of the refrigerator first, as it is the most common place for fresh loaves.",
+    "评分": 1,
+    "依据": "包含台面这个正确位置，但同时猜储藏柜及冰箱；混合答案至多1分，与第20/96题尺度一致。",
+    "状态": "文字复审完成",
+    "review_id": "872279d43e4662d21fb5c9e57fe70c681d99518710fe41d1c502ebf8f2ce8b8f",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 149,
+    "题目ID": "F4DA72EF33B3EB990092DF017680732FFF76CA5216A5D27F910831452B9DC251",
+    "模型": "A06_full",
+    "问题": "After the woman tried on the first pair of glasses, what did she do next?",
+    "参考答案": [
+      "She looked at herself in the mirror on the table and then removed them. Then she tried them on again, took them off, and folded them.",
+      "After trying on the first pair of glasses, the woman looks at herself in the mirror before taking them off."
+    ],
+    "模型回答": "She put the glasses back on the table and then picked up another pair of glasses.",
+    "评分": 1,
+    "依据": "把已戴上的眼镜放回桌上包含摘下这一正确部分，漏照镜。",
+    "状态": "文字复审完成",
+    "review_id": "8198eea41a58092022510fe41915fa0e888ecb33c8538e9b7e44c36e6b4f6530",
+    "上版评分": 0,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 177,
+    "题目ID": "d6a451eaecdbb6d9b7864d3988749310c3e4c91524abb159fddee62119efc866",
+    "模型": "text_only",
+    "问题": "What did I do with the closet doors before I walked back to the mirror?",
+    "参考答案": [
+      "You closed and then reopened the closet doors before you walked back to the mirror.",
+      "You closed and reopened them.",
+      "You closed the closet doors and opened them again before you walked back to the mirror."
+    ],
+    "模型回答": "You closed the closet doors before you walked back to the mirror. You then opened them again to check your reflection.",
+    "评分": null,
+    "依据": "then opened them again可能接关门或走回镜子，是否符合回镜子前重新打开有语义歧义，留人工复核。",
+    "状态": "待人工复核",
+    "review_id": "e9dc7744db4f7582a25e575c20e094c43427b79689bead83400e2d0adc69c7ab",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 198,
+    "题目ID": "f9a569ed0e137bcba4ad27dfc348e1ff3dde4f15ac41d08f63e1b3ce2cadf8ae",
+    "模型": "A06_full",
+    "问题": "What did I do next with the two plastic bags after I emptied them both?",
+    "参考答案": [
+      "You tossed them on the dresser in front of the wall.",
+      "After emptying both plastic bags, you adjusted the edges, held them up in front of you, put them together, and then tossed them onto the blue folder on top of the storage organizer to your left.",
+      "You tossed them onto the storage unit."
+    ],
+    "模型回答": "I placed the two plastic bags on the table and then picked up the instruction manual.",
+    "评分": null,
+    "依据": "桌子与储物柜是否为相近外观类别需人工确认；不能仅因都有表面就给分，上一版1分暂缓。",
+    "状态": "待人工复核",
+    "review_id": "7212bd9dc69fd1950465f2257edf4f6906a2e95e1622cc622bcb49fad70c9c45",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 198,
+    "题目ID": "f9a569ed0e137bcba4ad27dfc348e1ff3dde4f15ac41d08f63e1b3ce2cadf8ae",
+    "模型": "LS",
+    "问题": "What did I do next with the two plastic bags after I emptied them both?",
+    "参考答案": [
+      "You tossed them on the dresser in front of the wall.",
+      "After emptying both plastic bags, you adjusted the edges, held them up in front of you, put them together, and then tossed them onto the blue folder on top of the storage organizer to your left.",
+      "You tossed them onto the storage unit."
+    ],
+    "模型回答": "I placed the two plastic bags on the table and then picked up the instruction manual.",
+    "评分": null,
+    "依据": "同样的桌子/储物柜类别歧义，暂缓。",
+    "状态": "待人工复核",
+    "review_id": "f25f4f1dfe9b5a2eaa9ca88647b414fbfd1438d1d32714bba38237578e7dca24",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  },
+  {
+    "题号": 198,
+    "题目ID": "f9a569ed0e137bcba4ad27dfc348e1ff3dde4f15ac41d08f63e1b3ce2cadf8ae",
+    "模型": "native_prefix",
+    "问题": "What did I do next with the two plastic bags after I emptied them both?",
+    "参考答案": [
+      "You tossed them on the dresser in front of the wall.",
+      "After emptying both plastic bags, you adjusted the edges, held them up in front of you, put them together, and then tossed them onto the blue folder on top of the storage organizer to your left.",
+      "You tossed them onto the storage unit."
+    ],
+    "模型回答": "I placed the two plastic bags on the table and then picked up the instruction manual.",
+    "评分": null,
+    "依据": "同样的桌子/储物柜类别歧义，暂缓。",
+    "状态": "待人工复核",
+    "review_id": "f6ad25eceaaabeaa14de4421633f2e6ddd8eb2b7e180d424e84ba803045f60ce",
+    "上版评分": 1,
+    "复审版本": "v3",
+    "video_verified": false
+  }
+]
