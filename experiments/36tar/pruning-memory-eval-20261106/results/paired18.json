@@ -1,0 +1,340 @@
+{
+  "panel": "paired",
+  "groups": {
+    "all": {
+      "fixed12_LS": {
+        "correct": 13,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "fixed12_recent8": {
+        "correct": 12,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 432.0
+      },
+      "full_LS": {
+        "correct": 14,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "full_recent8": {
+        "correct": 14,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_LS": {
+        "correct": 12,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_recent8": {
+        "correct": 13,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 432.0
+      },
+      "initial_LS": {
+        "correct": 13,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "initial_recent8": {
+        "correct": 14,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 432.0
+      },
+      "old_CE_LS": {
+        "correct": 11,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 864.0
+      },
+      "old_CE_recent8": {
+        "correct": 14,
+        "unresolved": 0,
+        "total": 18,
+        "mean_visual_tokens": 432.0
+      }
+    },
+    "current": {
+      "fixed12_LS": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "fixed12_recent8": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 432.0
+      },
+      "full_LS": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "full_recent8": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_LS": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_recent8": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 432.0
+      },
+      "initial_LS": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "initial_recent8": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 432.0
+      },
+      "old_CE_LS": {
+        "correct": 6,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 864.0
+      },
+      "old_CE_recent8": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 12,
+        "mean_visual_tokens": 432.0
+      }
+    },
+    "old": {
+      "fixed12_LS": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "fixed12_recent8": {
+        "correct": 4,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 432.0
+      },
+      "full_LS": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "full_recent8": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_LS": {
+        "correct": 4,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "guarded_recent8": {
+        "correct": 4,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 432.0
+      },
+      "initial_LS": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "initial_recent8": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 432.0
+      },
+      "old_CE_LS": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 864.0
+      },
+      "old_CE_recent8": {
+        "correct": 5,
+        "unresolved": 0,
+        "total": 6,
+        "mean_visual_tokens": 432.0
+      }
+    },
+    "same_time_both": {
+      "fixed12_LS": {
+        "correct": 2,
+        "total": 6
+      },
+      "fixed12_recent8": {
+        "correct": 1,
+        "total": 6
+      },
+      "full_LS": {
+        "correct": 3,
+        "total": 6
+      },
+      "full_recent8": {
+        "correct": 2,
+        "total": 6
+      },
+      "guarded_LS": {
+        "correct": 1,
+        "total": 6
+      },
+      "guarded_recent8": {
+        "correct": 1,
+        "total": 6
+      },
+      "initial_LS": {
+        "correct": 2,
+        "total": 6
+      },
+      "initial_recent8": {
+        "correct": 2,
+        "total": 6
+      },
+      "old_CE_LS": {
+        "correct": 0,
+        "total": 6
+      },
+      "old_CE_recent8": {
+        "correct": 2,
+        "total": 6
+      }
+    }
+  },
+  "guarded_paired": {
+    "guarded_LS": {
+      "fixed12_LS": {
+        "gain": 0,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "fixed12_recent8": {
+        "gain": 0,
+        "loss": 0,
+        "unresolved": 0
+      },
+      "full_LS": {
+        "gain": 0,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "full_recent8": {
+        "gain": 0,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "guarded_LS": {
+        "gain": 0,
+        "loss": 0,
+        "unresolved": 0
+      },
+      "guarded_recent8": {
+        "gain": 0,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "initial_LS": {
+        "gain": 1,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "initial_recent8": {
+        "gain": 0,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "old_CE_LS": {
+        "gain": 2,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "old_CE_recent8": {
+        "gain": 1,
+        "loss": 3,
+        "unresolved": 0
+      }
+    },
+    "guarded_recent8": {
+      "fixed12_LS": {
+        "gain": 1,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "fixed12_recent8": {
+        "gain": 1,
+        "loss": 0,
+        "unresolved": 0
+      },
+      "full_LS": {
+        "gain": 1,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "full_recent8": {
+        "gain": 0,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "guarded_LS": {
+        "gain": 1,
+        "loss": 0,
+        "unresolved": 0
+      },
+      "guarded_recent8": {
+        "gain": 0,
+        "loss": 0,
+        "unresolved": 0
+      },
+      "initial_LS": {
+        "gain": 2,
+        "loss": 2,
+        "unresolved": 0
+      },
+      "initial_recent8": {
+        "gain": 0,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "old_CE_LS": {
+        "gain": 3,
+        "loss": 1,
+        "unresolved": 0
+      },
+      "old_CE_recent8": {
+        "gain": 1,
+        "loss": 2,
+        "unresolved": 0
+      }
+    }
+  },
+  "note": "Unresolved answers require separate content review. They are not silently called wrong due to format."
+}

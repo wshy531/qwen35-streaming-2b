@@ -1,0 +1,142 @@
+[
+  {
+    "suite": "D18",
+    "method": "fixed12_LS",
+    "correct": 13,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "fixed12_recent8",
+    "correct": 12,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "full_LS",
+    "correct": 14,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "full_recent8",
+    "correct": 14,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "guarded_LS",
+    "correct": 12,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "guarded_recent8",
+    "correct": 13,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "initial_LS",
+    "correct": 13,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "initial_recent8",
+    "correct": 14,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "old_CE_LS",
+    "correct": 11,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "D18",
+    "method": "old_CE_recent8",
+    "correct": 14,
+    "total": 18,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "complete_history",
+    "correct": 47,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "full_LS",
+    "correct": 47,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "full_recent8",
+    "correct": 47,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "guarded_LS",
+    "correct": 49,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "guarded_recent8",
+    "correct": 47,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "StreamingBench75",
+    "method": "initial_LS",
+    "correct": 50,
+    "total": 75,
+    "unresolved": 0
+  },
+  {
+    "suite": "paired_draft22",
+    "method": "combined",
+    "correct": 19,
+    "total": 22,
+    "unresolved": 0
+  },
+  {
+    "suite": "paired_draft22",
+    "method": "early",
+    "correct": 15,
+    "total": 22,
+    "unresolved": 0
+  },
+  {
+    "suite": "paired_draft22",
+    "method": "recent",
+    "correct": 13,
+    "total": 22,
+    "unresolved": 0
+  },
+  {
+    "suite": "paired_draft22",
+    "method": "text",
+    "correct": 14,
+    "total": 22,
+    "unresolved": 0
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "table": {
+    "recent": {
+      "current": {
+        "correct": 10,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 2
+      },
+      "history": {
+        "correct": 3,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 0
+      },
+      "all": {
+        "correct": 13,
+        "unresolved": 0,
+        "total": 22,
+        "truncated": 2
+      },
+      "both_correct": 3
+    },
+    "early": {
+      "current": {
+        "correct": 7,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 2
+      },
+      "history": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 0
+      },
+      "all": {
+        "correct": 15,
+        "unresolved": 0,
+        "total": 22,
+        "truncated": 2
+      },
+      "both_correct": 4
+    },
+    "combined": {
+      "current": {
+        "correct": 10,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 0
+      },
+      "history": {
+        "correct": 9,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 2
+      },
+      "all": {
+        "correct": 19,
+        "unresolved": 0,
+        "total": 22,
+        "truncated": 2
+      },
+      "both_correct": 8
+    },
+    "text": {
+      "current": {
+        "correct": 8,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 9
+      },
+      "history": {
+        "correct": 6,
+        "unresolved": 0,
+        "total": 11,
+        "truncated": 6
+      },
+      "all": {
+        "correct": 14,
+        "unresolved": 0,
+        "total": 22,
+        "truncated": 15
+      },
+      "both_correct": 4
+    }
+  },
+  "comparisons": {
+    "current": {
+      "combined_gain": [],
+      "combined_loss": [],
+      "early_unreadable": [
+        "sb-draft-sample_202-current",
+        "sb-draft-sample_20-current",
+        "sb-draft-sample_205-current",
+        "sb-draft-sample_52_real-current"
+      ]
+    },
+    "history": {
+      "combined_gain": [
+        "sb-draft-sample_202-history",
+        "sb-draft-sample_20-history",
+        "sb-draft-sample_205-history",
+        "sb-draft-sample_59_real-history",
+        "sb-draft-sample_308_real-history",
+        "sb-draft-sample_52_real-history"
+      ],
+      "combined_loss": [],
+      "early_unreadable": [
+        "sb-draft-sample_67_real-history",
+        "sb-draft-sample_59_real-history",
+        "sb-draft-sample_152_real-history"
+      ]
+    }
+  },
+  "limitations": [
+    "11 correlated source pairs; single assistant annotations",
+    "Human-selected uncompressed evidence; no automatic memory retrieval tested",
+    "Option content correctness; explanations not externally graded",
+    "All draft questions retained, including failures and prior-sensitive cases"
+  ]
+}

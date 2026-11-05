@@ -1,0 +1,593 @@
+{
+  "completion": {
+    "status": "completed",
+    "questions_trained": 2351,
+    "proposals": 270,
+    "accepted": 141,
+    "rejected": 129,
+    "answers": 1774,
+    "check_answers": 4702,
+    "visual_calls": 28809,
+    "regressions": 36,
+    "seconds": 5980.18666424416,
+    "generated_tokens": 0,
+    "base_unchanged": true,
+    "peak_allocated_bytes": 20401410560
+  },
+  "metrics": {
+    "old_development/full_short": {
+      "initial": {
+        "questions": 345,
+        "sources": 40,
+        "answers": 690,
+        "correct": 487,
+        "accuracy": 0.7057971014492753,
+        "both_correct": 202,
+        "content_consistent": 239,
+        "mean_ce": 0.8019065057700283,
+        "by_type": {
+          "C": {
+            "correct": 291,
+            "answers": 404
+          },
+          "T": {
+            "correct": 103,
+            "answers": 176
+          },
+          "D": {
+            "correct": 93,
+            "answers": 110
+          }
+        }
+      },
+      "old_CE": {
+        "questions": 345,
+        "sources": 40,
+        "answers": 690,
+        "correct": 499,
+        "accuracy": 0.7231884057971014,
+        "both_correct": 205,
+        "content_consistent": 235,
+        "mean_ce": 0.7688506466844917,
+        "by_type": {
+          "C": {
+            "correct": 297,
+            "answers": 404
+          },
+          "T": {
+            "correct": 110,
+            "answers": 176
+          },
+          "D": {
+            "correct": 92,
+            "answers": 110
+          }
+        }
+      },
+      "sequential": {
+        "questions": 345,
+        "sources": 40,
+        "answers": 690,
+        "correct": 475,
+        "accuracy": 0.6884057971014492,
+        "both_correct": 192,
+        "content_consistent": 231,
+        "mean_ce": 0.9126452183277844,
+        "by_type": {
+          "C": {
+            "correct": 281,
+            "answers": 404
+          },
+          "T": {
+            "correct": 106,
+            "answers": 176
+          },
+          "D": {
+            "correct": 88,
+            "answers": 110
+          }
+        }
+      },
+      "interleaved": {
+        "questions": 345,
+        "sources": 40,
+        "answers": 690,
+        "correct": 446,
+        "accuracy": 0.6463768115942029,
+        "both_correct": 179,
+        "content_consistent": 221,
+        "mean_ce": 1.0340268970930755,
+        "by_type": {
+          "C": {
+            "correct": 269,
+            "answers": 404
+          },
+          "T": {
+            "correct": 90,
+            "answers": 176
+          },
+          "D": {
+            "correct": 87,
+            "answers": 110
+          }
+        }
+      },
+      "guarded": {
+        "questions": 345,
+        "sources": 40,
+        "answers": 690,
+        "correct": 497,
+        "accuracy": 0.7202898550724638,
+        "both_correct": 208,
+        "content_consistent": 239,
+        "mean_ce": 0.7786450658375806,
+        "by_type": {
+          "C": {
+            "correct": 301,
+            "answers": 404
+          },
+          "T": {
+            "correct": 101,
+            "answers": 176
+          },
+          "D": {
+            "correct": 95,
+            "answers": 110
+          }
+        }
+      }
+    },
+    "long_development/LS": {
+      "initial": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 380,
+        "accuracy": 0.7011070110701108,
+        "both_correct": 154,
+        "content_consistent": 185,
+        "mean_ce": 0.8331332769261501,
+        "by_type": {
+          "C": {
+            "correct": 197,
+            "answers": 272
+          },
+          "T": {
+            "correct": 120,
+            "answers": 196
+          },
+          "D": {
+            "correct": 63,
+            "answers": 74
+          }
+        }
+      },
+      "old_CE": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 355,
+        "accuracy": 0.6549815498154982,
+        "both_correct": 144,
+        "content_consistent": 178,
+        "mean_ce": 0.8684589074857682,
+        "by_type": {
+          "C": {
+            "correct": 184,
+            "answers": 272
+          },
+          "T": {
+            "correct": 110,
+            "answers": 196
+          },
+          "D": {
+            "correct": 61,
+            "answers": 74
+          }
+        }
+      },
+      "sequential": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 328,
+        "accuracy": 0.6051660516605166,
+        "both_correct": 115,
+        "content_consistent": 137,
+        "mean_ce": 1.1381755221747438,
+        "by_type": {
+          "C": {
+            "correct": 173,
+            "answers": 272
+          },
+          "T": {
+            "correct": 96,
+            "answers": 196
+          },
+          "D": {
+            "correct": 59,
+            "answers": 74
+          }
+        }
+      },
+      "interleaved": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 316,
+        "accuracy": 0.5830258302583026,
+        "both_correct": 110,
+        "content_consistent": 134,
+        "mean_ce": 1.2709810650847102,
+        "by_type": {
+          "C": {
+            "correct": 168,
+            "answers": 272
+          },
+          "T": {
+            "correct": 89,
+            "answers": 196
+          },
+          "D": {
+            "correct": 59,
+            "answers": 74
+          }
+        }
+      },
+      "guarded": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 374,
+        "accuracy": 0.6900369003690037,
+        "both_correct": 157,
+        "content_consistent": 192,
+        "mean_ce": 0.8431638467625622,
+        "by_type": {
+          "C": {
+            "correct": 195,
+            "answers": 272
+          },
+          "T": {
+            "correct": 117,
+            "answers": 196
+          },
+          "D": {
+            "correct": 62,
+            "answers": 74
+          }
+        }
+      }
+    },
+    "long_development/recent8": {
+      "initial": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 333,
+        "accuracy": 0.6143911439114391,
+        "both_correct": 125,
+        "content_consistent": 162,
+        "mean_ce": 1.036109513551172,
+        "by_type": {
+          "C": {
+            "correct": 175,
+            "answers": 272
+          },
+          "T": {
+            "correct": 99,
+            "answers": 196
+          },
+          "D": {
+            "correct": 59,
+            "answers": 74
+          }
+        }
+      },
+      "old_CE": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 330,
+        "accuracy": 0.6088560885608856,
+        "both_correct": 123,
+        "content_consistent": 160,
+        "mean_ce": 1.014436643682459,
+        "by_type": {
+          "C": {
+            "correct": 173,
+            "answers": 272
+          },
+          "T": {
+            "correct": 101,
+            "answers": 196
+          },
+          "D": {
+            "correct": 56,
+            "answers": 74
+          }
+        }
+      },
+      "sequential": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 318,
+        "accuracy": 0.5867158671586716,
+        "both_correct": 114,
+        "content_consistent": 150,
+        "mean_ce": 1.1661870710059765,
+        "by_type": {
+          "C": {
+            "correct": 173,
+            "answers": 272
+          },
+          "T": {
+            "correct": 88,
+            "answers": 196
+          },
+          "D": {
+            "correct": 57,
+            "answers": 74
+          }
+        }
+      },
+      "interleaved": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 311,
+        "accuracy": 0.5738007380073801,
+        "both_correct": 105,
+        "content_consistent": 139,
+        "mean_ce": 1.2352079409417331,
+        "by_type": {
+          "C": {
+            "correct": 167,
+            "answers": 272
+          },
+          "T": {
+            "correct": 89,
+            "answers": 196
+          },
+          "D": {
+            "correct": 55,
+            "answers": 74
+          }
+        }
+      },
+      "guarded": {
+        "questions": 271,
+        "sources": 30,
+        "answers": 542,
+        "correct": 340,
+        "accuracy": 0.6273062730627307,
+        "both_correct": 131,
+        "content_consistent": 172,
+        "mean_ce": 0.96919931442985,
+        "by_type": {
+          "C": {
+            "correct": 176,
+            "answers": 272
+          },
+          "T": {
+            "correct": 103,
+            "answers": 196
+          },
+          "D": {
+            "correct": 61,
+            "answers": 74
+          }
+        }
+      }
+    }
+  },
+  "paired_guard_minus_reference": {
+    "old_development/full_short": {
+      "initial": {
+        "gained": 25,
+        "lost": 15,
+        "difference_pp": 1.4492753623188406,
+        "source_bootstrap95_pp": [
+          -0.2890173410404624,
+          3.1348091705722294
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "old_CE": {
+        "gained": 26,
+        "lost": 28,
+        "difference_pp": -0.2898550724637681,
+        "source_bootstrap95_pp": [
+          -2.7696893953465835,
+          2.14072739187418
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "sequential": {
+        "gained": 45,
+        "lost": 23,
+        "difference_pp": 3.1884057971014492,
+        "source_bootstrap95_pp": [
+          0.741839762611276,
+          5.572313137901926
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "interleaved": {
+        "gained": 70,
+        "lost": 19,
+        "difference_pp": 7.391304347826087,
+        "source_bootstrap95_pp": [
+          4.411764705882353,
+          10.541331994645248
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      }
+    },
+    "long_development/LS": {
+      "initial": {
+        "gained": 22,
+        "lost": 28,
+        "difference_pp": -1.107011070110701,
+        "source_bootstrap95_pp": [
+          -3.9622641509433962,
+          1.532567049808429
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "old_CE": {
+        "gained": 40,
+        "lost": 21,
+        "difference_pp": 3.505535055350553,
+        "source_bootstrap95_pp": [
+          -0.3402237183533206,
+          7.353079911209765
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "sequential": {
+        "gained": 75,
+        "lost": 29,
+        "difference_pp": 8.487084870848708,
+        "source_bootstrap95_pp": [
+          4.6330328803638405,
+          12.316243073316283
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "interleaved": {
+        "gained": 87,
+        "lost": 29,
+        "difference_pp": 10.70110701107011,
+        "source_bootstrap95_pp": [
+          6.916484939348508,
+          14.464520676691727
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      }
+    },
+    "long_development/recent8": {
+      "initial": {
+        "gained": 25,
+        "lost": 18,
+        "difference_pp": 1.2915129151291513,
+        "source_bootstrap95_pp": [
+          -0.9471504163775155,
+          3.558718861209965
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "old_CE": {
+        "gained": 29,
+        "lost": 19,
+        "difference_pp": 1.8450184501845017,
+        "source_bootstrap95_pp": [
+          -1.094890510948905,
+          4.838709677419355
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "sequential": {
+        "gained": 48,
+        "lost": 26,
+        "difference_pp": 4.059040590405904,
+        "source_bootstrap95_pp": [
+          0.547395487723955,
+          7.636631016042777
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      },
+      "interleaved": {
+        "gained": 58,
+        "lost": 29,
+        "difference_pp": 5.350553505535055,
+        "source_bootstrap95_pp": [
+          1.7043846483704974,
+          8.778694355522722
+        ],
+        "note": "conditional on this one training seed; option rotations are clustered within sources"
+      }
+    }
+  },
+  "history_vs_recent": {
+    "initial": {
+      "gained": 59,
+      "lost": 12,
+      "difference_pp": 8.671586715867159,
+      "source_bootstrap95_pp": [
+        5.805243445692884,
+        11.538793103448272
+      ],
+      "note": "conditional on this one training seed; option rotations are clustered within sources"
+    },
+    "old_CE": {
+      "gained": 41,
+      "lost": 16,
+      "difference_pp": 4.612546125461255,
+      "source_bootstrap95_pp": [
+        1.509433962264151,
+        7.9787234042553195
+      ],
+      "note": "conditional on this one training seed; option rotations are clustered within sources"
+    },
+    "sequential": {
+      "gained": 43,
+      "lost": 33,
+      "difference_pp": 1.8450184501845017,
+      "source_bootstrap95_pp": [
+        -1.9381730160166497,
+        5.762081784386617
+      ],
+      "note": "conditional on this one training seed; option rotations are clustered within sources"
+    },
+    "interleaved": {
+      "gained": 38,
+      "lost": 33,
+      "difference_pp": 0.9225092250922509,
+      "source_bootstrap95_pp": [
+        -3.042050654121286,
+        5.471766974245971
+      ],
+      "note": "conditional on this one training seed; option rotations are clustered within sources"
+    },
+    "guarded": {
+      "gained": 55,
+      "lost": 21,
+      "difference_pp": 6.273062730627306,
+      "source_bootstrap95_pp": [
+        2.798474846049473,
+        9.896413208502015
+      ],
+      "note": "conditional on this one training seed; option rotations are clustered within sources"
+    }
+  },
+  "training": {
+    "short_train": {
+      "proposals": 150,
+      "questions": 1237,
+      "accepted": 80,
+      "rejected": 70,
+      "accepted_with_changed_selection": 79,
+      "mean_accepted_same_source_ce_delta": -0.023684909411011337,
+      "mean_rejected_same_source_ce_delta": 0.015945752017432833,
+      "note": "local batch acceptance is training-only; not global loss or generalization guarantee"
+    },
+    "long_train": {
+      "proposals": 120,
+      "questions": 1114,
+      "accepted": 61,
+      "rejected": 59,
+      "accepted_with_changed_selection": 61,
+      "mean_accepted_same_source_ce_delta": -0.0387353918719479,
+      "mean_rejected_same_source_ce_delta": 0.042691673124592974,
+      "note": "local batch acceptance is training-only; not global loss or generalization guarantee"
+    }
+  },
+  "limitations": [
+    "one seed and known development",
+    "same proposals/data but fewer accepted optimizer updates",
+    "not proof of unbiased gradient or global descent",
+    "no independent new benchmark or open-answer judge"
+  ]
+}

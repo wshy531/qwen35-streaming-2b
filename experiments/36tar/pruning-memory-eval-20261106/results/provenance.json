@@ -1,0 +1,50 @@
+[
+  {
+    "job": "220559",
+    "raw_answers_sha256": "962f3a9fbd9ef0a0f50b9540c8221a5c11fb968db25729dddd34939ab613172b",
+    "analysis_scope": "Reparsed content choice correctness, not explanation factuality",
+    "answers": 450
+  },
+  {
+    "job": "220558",
+    "raw_answers_sha256": "8173ad13ddc2a11876ce67cc28cfa3b917db65812c102a9b7e7a56e8b921ba8a",
+    "analysis_scope": "Reparsed content choice correctness, not explanation factuality",
+    "answers": 180
+  },
+  {
+    "job": "220931",
+    "raw_answers_sha256": "ebb1739e2459ba7ce1cb9f08f78df5c550166fee2d46e9e034b71ddce6f26f39",
+    "analysis_scope": "Reparsed content choice correctness, not explanation factuality",
+    "answers": 88
+  },
+  {
+    "file": "runs/repair-guard-220499/analysis.json",
+    "sha256": "ef40e1dfc0cecbbc13fb74ef117864efbaa36daa349d33ae2e0e2f68996a6338",
+    "published": "aggregate only"
+  },
+  {
+    "file": "runs/history-utility-fit-220511/completed.json",
+    "sha256": "e8a5d857f01d12f33264632651e4290e96330c05368928ba2ea26eebed862cdb",
+    "published": "aggregate only"
+  },
+  {
+    "file": "runs/history-utility-short-heads-220532/completed.json",
+    "sha256": "3307aff2f6e3779fee99f4e6c882d6a5b04781002816d2d41b163a5187009cda",
+    "published": "aggregate only"
+  },
+  {
+    "file": "runs/repair-stream-220559/analysis.json",
+    "sha256": "eb9a70fddbefa2aa538f57b139c663d1159d767a7ee1ce84a1e58efc6d806a86",
+    "published": "aggregate only"
+  },
+  {
+    "file": "runs/repair-paired-220558/analysis.json",
+    "sha256": "00d145d15f41120ea5a4ad60a7b6b5a4defffb52b6c7df50658a75c71515d922",
+    "published": "aggregate only"
+  },
+  {
+    "file": "runs/diagnosis-readout-220931/analysis_LOCAL_ONLY.json",
+    "sha256": "d89caaaf009f20180b914da27027c3624e271f802b612b6537d0ab00c8530034",
+    "published": "aggregate only"
+  }
+]
