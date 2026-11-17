@@ -1,0 +1,229 @@
+{
+  "tables": [
+    {
+      "suite": "SB150",
+      "method": "LS",
+      "correct": 218,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 1077.0666666666666
+    },
+    {
+      "suite": "SB150",
+      "method": "blind",
+      "correct": 219,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 1023.8666666666667
+    },
+    {
+      "suite": "SB150",
+      "method": "blind_same_count_earliest",
+      "correct": 219,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 1023.8666666666667
+    },
+    {
+      "suite": "SB150",
+      "method": "blind_same_count_latest",
+      "correct": 219,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 1023.8666666666667
+    },
+    {
+      "suite": "SB150",
+      "method": "lexical",
+      "correct": 215,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 785.8666666666667
+    },
+    {
+      "suite": "SB150",
+      "method": "recent",
+      "correct": 215,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 554.4
+    },
+    {
+      "suite": "SB150",
+      "method": "visible",
+      "correct": 220,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 644.9333333333333
+    },
+    {
+      "suite": "SB150",
+      "method": "visible_same_count_earliest",
+      "correct": 220,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 644.9333333333333
+    },
+    {
+      "suite": "SB150",
+      "method": "visible_same_count_latest",
+      "correct": 219,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 644.9333333333333
+    },
+    {
+      "suite": "development",
+      "method": "LS",
+      "correct": 62,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 1120.0
+    },
+    {
+      "suite": "development",
+      "method": "blind",
+      "correct": 62,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 1067.5
+    },
+    {
+      "suite": "development",
+      "method": "blind_same_count_earliest",
+      "correct": 62,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 1067.5
+    },
+    {
+      "suite": "development",
+      "method": "blind_same_count_latest",
+      "correct": 62,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 1067.5
+    },
+    {
+      "suite": "development",
+      "method": "lexical",
+      "correct": 61,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 980.0
+    },
+    {
+      "suite": "development",
+      "method": "recent",
+      "correct": 57,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 560.0
+    },
+    {
+      "suite": "development",
+      "method": "visible",
+      "correct": 60,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 665.0
+    },
+    {
+      "suite": "development",
+      "method": "visible_same_count_earliest",
+      "correct": 60,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 665.0
+    },
+    {
+      "suite": "development",
+      "method": "visible_same_count_latest",
+      "correct": 58,
+      "n": 64,
+      "questions": 32,
+      "mean_visual_tokens": 665.0
+    },
+    {
+      "suite": "short60",
+      "method": "LS",
+      "correct": 116,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 1087.3333333333333
+    },
+    {
+      "suite": "short60",
+      "method": "blind",
+      "correct": 116,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 1029.0
+    },
+    {
+      "suite": "short60",
+      "method": "blind_same_count_earliest",
+      "correct": 116,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 1029.0
+    },
+    {
+      "suite": "short60",
+      "method": "blind_same_count_latest",
+      "correct": 116,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 1029.0
+    },
+    {
+      "suite": "short60",
+      "method": "lexical",
+      "correct": 115,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 900.6666666666666
+    },
+    {
+      "suite": "short60",
+      "method": "recent",
+      "correct": 110,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 560.0
+    },
+    {
+      "suite": "short60",
+      "method": "visible",
+      "correct": 112,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 676.6666666666666
+    },
+    {
+      "suite": "short60",
+      "method": "visible_same_count_earliest",
+      "correct": 112,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 676.6666666666666
+    },
+    {
+      "suite": "short60",
+      "method": "visible_same_count_latest",
+      "correct": 110,
+      "n": 120,
+      "questions": 60,
+      "mean_visual_tokens": 676.6666666666666
+    }
+  ],
+  "protocol": "normalized option-score selection, two permutations; not generation accuracy",
+  "migration": "recipe refitted at new width; not zero-shot old-checkpoint transfer",
+  "train_questions": 144,
+  "development_questions": 32,
+  "evaluation_questions": 210,
+  "excluded_suites": [
+    "S-EMBER-early-candidate",
+    "D18"
+  ]
+}

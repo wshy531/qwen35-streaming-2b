@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "answers": 9590,
+  "merged": true,
+  "raw_runs": [
+    "/home/share/czy/swt/my_pape/qwen35-streaming-2b-36tar/runs/native-memory-eval-stream-224843",
+    "runs/native-memory-eval-tail-224878"
+  ],
+  "regression_answers": 10
+}

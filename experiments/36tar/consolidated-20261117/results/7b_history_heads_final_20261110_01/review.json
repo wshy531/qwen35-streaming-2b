@@ -1,0 +1,790 @@
+{
+  "SB150": {
+    "questions": 150,
+    "sources": 144,
+    "summary": {
+      "recent": {
+        "correct": 215,
+        "n": 300,
+        "accuracy": 0.7166666666666667,
+        "both_orders_correct": 104,
+        "node_counts": {
+          "0": 150
+        },
+        "mean_visual_tokens": 554.4
+      },
+      "LS": {
+        "correct": 218,
+        "n": 300,
+        "accuracy": 0.7266666666666667,
+        "both_orders_correct": 104,
+        "node_counts": {
+          "0": 5,
+          "1": 5,
+          "2": 2,
+          "3": 1,
+          "4": 137
+        },
+        "mean_visual_tokens": 1077.0666666666666
+      },
+      "lexical": {
+        "correct": 215,
+        "n": 300,
+        "accuracy": 0.7166666666666667,
+        "both_orders_correct": 105,
+        "node_counts": {
+          "0": 86,
+          "1": 2,
+          "2": 1,
+          "4": 61
+        },
+        "mean_visual_tokens": 785.8666666666667
+      },
+      "visible": {
+        "correct": 220,
+        "n": 300,
+        "accuracy": 0.7333333333333333,
+        "both_orders_correct": 105,
+        "node_counts": {
+          "0": 53,
+          "1": 97
+        },
+        "mean_visual_tokens": 644.9333333333333
+      },
+      "blind": {
+        "correct": 219,
+        "n": 300,
+        "accuracy": 0.73,
+        "both_orders_correct": 105,
+        "node_counts": {
+          "0": 20,
+          "1": 4,
+          "2": 2,
+          "3": 1,
+          "4": 123
+        },
+        "mean_visual_tokens": 1023.8666666666667
+      }
+    },
+    "pairs": {
+      "visible vs recent": {
+        "gains": 11,
+        "losses": 6,
+        "net": 5,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.0196078431372549,
+          0.053691275167785234
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:05f0c0cfdce445df17e009b8b5e520dffe4846703b29d764c1af34b8a9281315",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:2d44ba52f7d3090c4cff781136352b50ad52516f8f018f18fd6200fdc64af575",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:6bed32d19c3b7548b06f06f313dad3b865f4c33cffbcb77ad79420ccdc02ee95",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:ead9a530aee295c3ddd2ed6e726d74dcd9c3c2481444580f5437b602c1ceda7d",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+            "delta": -2
+          }
+        ]
+      },
+      "visible vs LS": {
+        "gains": 11,
+        "losses": 9,
+        "net": 2,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.026845637583892617,
+          0.04054054054054054
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:1e12d9757ec9bb3de158f9e73ae905ddc3388976fee5fcc766515e3c9ad027c6",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:2d2c985ba87ed330b8d016917426ac312186be3627cc1395f8b45a6f3db98b02",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:324adae35b1be128b1e48cb2e776a74e795a03eed348dfab3794071e4f5ffa38",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:335941a5e0152674f82857a5c3786e04b9c74dff0c24a18a0c36f2561d365d95",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:41dd2ebb4097eafc422a9606f4cdeda680e00f08a7ecbb2190d0309fce99e750",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:772e8d8baa190ead2c6e9683ac6604d15724aa9750cf80a0d79de67a7e6cc49e",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:880775e4ddceb137cf26b13357fc3426dfdcf7f01016cf2a64a9327b3fba1167",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:eee9a8625931aa5b7a67938aa56753d4a8154566de5eb255e7c0829de7d37166",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+            "delta": -2
+          }
+        ]
+      },
+      "visible vs lexical": {
+        "gains": 13,
+        "losses": 8,
+        "net": 5,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.02027027027027027,
+          0.05405405405405406
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:2d2c985ba87ed330b8d016917426ac312186be3627cc1395f8b45a6f3db98b02",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:772e8d8baa190ead2c6e9683ac6604d15724aa9750cf80a0d79de67a7e6cc49e",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:880775e4ddceb137cf26b13357fc3426dfdcf7f01016cf2a64a9327b3fba1167",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:ead9a530aee295c3ddd2ed6e726d74dcd9c3c2481444580f5437b602c1ceda7d",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+            "delta": -2
+          }
+        ]
+      },
+      "visible vs visible_same_count_earliest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      },
+      "visible vs visible_same_count_latest": {
+        "gains": 7,
+        "losses": 6,
+        "net": 1,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.02666666666666667,
+          0.03333333333333333
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:05f0c0cfdce445df17e009b8b5e520dffe4846703b29d764c1af34b8a9281315",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:4590848a31260b69a6584b41779f96ad4b9f36063fd9b50a104904c6ccc6da69",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:6bed32d19c3b7548b06f06f313dad3b865f4c33cffbcb77ad79420ccdc02ee95",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+            "delta": -2
+          }
+        ]
+      },
+      "blind vs recent": {
+        "gains": 16,
+        "losses": 12,
+        "net": 4,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.030405405405405407,
+          0.05921052631578947
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:05f0c0cfdce445df17e009b8b5e520dffe4846703b29d764c1af34b8a9281315",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:2d2c985ba87ed330b8d016917426ac312186be3627cc1395f8b45a6f3db98b02",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:2d44ba52f7d3090c4cff781136352b50ad52516f8f018f18fd6200fdc64af575",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:324adae35b1be128b1e48cb2e776a74e795a03eed348dfab3794071e4f5ffa38",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:335941a5e0152674f82857a5c3786e04b9c74dff0c24a18a0c36f2561d365d95",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:41dd2ebb4097eafc422a9606f4cdeda680e00f08a7ecbb2190d0309fce99e750",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:6bed32d19c3b7548b06f06f313dad3b865f4c33cffbcb77ad79420ccdc02ee95",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:772e8d8baa190ead2c6e9683ac6604d15724aa9750cf80a0d79de67a7e6cc49e",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:880775e4ddceb137cf26b13357fc3426dfdcf7f01016cf2a64a9327b3fba1167",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:ead9a530aee295c3ddd2ed6e726d74dcd9c3c2481444580f5437b602c1ceda7d",
+            "delta": -2
+          },
+          {
+            "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+            "delta": -1
+          }
+        ]
+      },
+      "blind vs LS": {
+        "gains": 2,
+        "losses": 1,
+        "net": 1,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.006756756756756757,
+          0.016129032258064516
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:1e12d9757ec9bb3de158f9e73ae905ddc3388976fee5fcc766515e3c9ad027c6",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:eee9a8625931aa5b7a67938aa56753d4a8154566de5eb255e7c0829de7d37166",
+            "delta": -1
+          }
+        ]
+      },
+      "blind vs lexical": {
+        "gains": 9,
+        "losses": 5,
+        "net": 4,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.016556291390728478,
+          0.043333333333333335
+        ],
+        "changed_questions": [
+          {
+            "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:324adae35b1be128b1e48cb2e776a74e795a03eed348dfab3794071e4f5ffa38",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:335941a5e0152674f82857a5c3786e04b9c74dff0c24a18a0c36f2561d365d95",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:41dd2ebb4097eafc422a9606f4cdeda680e00f08a7ecbb2190d0309fce99e750",
+            "delta": -1
+          },
+          {
+            "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+            "delta": 2
+          },
+          {
+            "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+            "delta": 1
+          },
+          {
+            "id": "streamingbench:ead9a530aee295c3ddd2ed6e726d74dcd9c3c2481444580f5437b602c1ceda7d",
+            "delta": -2
+          }
+        ]
+      },
+      "blind vs blind_same_count_earliest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      },
+      "blind vs blind_same_count_latest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      }
+    }
+  },
+  "short60": {
+    "questions": 60,
+    "sources": 52,
+    "summary": {
+      "recent": {
+        "correct": 110,
+        "n": 120,
+        "accuracy": 0.9166666666666666,
+        "both_orders_correct": 54,
+        "node_counts": {
+          "0": 60
+        },
+        "mean_visual_tokens": 560.0
+      },
+      "LS": {
+        "correct": 116,
+        "n": 120,
+        "accuracy": 0.9666666666666667,
+        "both_orders_correct": 56,
+        "node_counts": {
+          "1": 1,
+          "2": 4,
+          "3": 3,
+          "4": 52
+        },
+        "mean_visual_tokens": 1087.3333333333333
+      },
+      "lexical": {
+        "correct": 115,
+        "n": 120,
+        "accuracy": 0.9583333333333334,
+        "both_orders_correct": 55,
+        "node_counts": {
+          "0": 21,
+          "1": 1,
+          "2": 3,
+          "3": 1,
+          "4": 34
+        },
+        "mean_visual_tokens": 900.6666666666666
+      },
+      "visible": {
+        "correct": 112,
+        "n": 120,
+        "accuracy": 0.9333333333333333,
+        "both_orders_correct": 54,
+        "node_counts": {
+          "0": 10,
+          "1": 50
+        },
+        "mean_visual_tokens": 676.6666666666666
+      },
+      "blind": {
+        "correct": 116,
+        "n": 120,
+        "accuracy": 0.9666666666666667,
+        "both_orders_correct": 56,
+        "node_counts": {
+          "0": 7,
+          "2": 4,
+          "3": 3,
+          "4": 46
+        },
+        "mean_visual_tokens": 1029.0
+      }
+    },
+    "pairs": {
+      "visible vs recent": {
+        "gains": 4,
+        "losses": 2,
+        "net": 2,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.025423728813559324,
+          0.06666666666666667
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-13939850762-7",
+            "delta": -1
+          },
+          {
+            "id": "nextqa-train-3248050019-3-2d6c602966d6",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-4154619533-4-bb335dc59a54",
+            "delta": 2
+          },
+          {
+            "id": "nextqa-train-6311026563-6-9e1ecde15779",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": -1
+          }
+        ]
+      },
+      "visible vs LS": {
+        "gains": 0,
+        "losses": 4,
+        "net": -4,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.08333333333333333,
+          0.0
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-3865085471-7-17a746b1e82a",
+            "delta": -2
+          },
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": -2
+          }
+        ]
+      },
+      "visible vs lexical": {
+        "gains": 0,
+        "losses": 3,
+        "net": -3,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.06557377049180328,
+          0.0
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-3865085471-7-17a746b1e82a",
+            "delta": -2
+          },
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": -1
+          }
+        ]
+      },
+      "visible vs visible_same_count_earliest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      },
+      "visible vs visible_same_count_latest": {
+        "gains": 5,
+        "losses": 3,
+        "net": 2,
+        "exploratory_source_bootstrap_difference_95": [
+          -0.03508771929824561,
+          0.06666666666666667
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-3248050019-3-2d6c602966d6",
+            "delta": -1
+          },
+          {
+            "id": "nextqa-train-4916201843-4",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-5500850753-2",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-6311026563-6-9e1ecde15779",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": -2
+          },
+          {
+            "id": "nextqa-train-8530515192-12-e6758cebd678",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-9113209964-5-19832c985711",
+            "delta": 1
+          }
+        ]
+      },
+      "blind vs recent": {
+        "gains": 7,
+        "losses": 1,
+        "net": 6,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.10833333333333334
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-13939850762-7",
+            "delta": -1
+          },
+          {
+            "id": "nextqa-train-3248050019-3-2d6c602966d6",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-3865085471-7-17a746b1e82a",
+            "delta": 2
+          },
+          {
+            "id": "nextqa-train-4154619533-4-bb335dc59a54",
+            "delta": 2
+          },
+          {
+            "id": "nextqa-train-6311026563-6-9e1ecde15779",
+            "delta": 1
+          },
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": 1
+          }
+        ]
+      },
+      "blind vs LS": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      },
+      "blind vs lexical": {
+        "gains": 1,
+        "losses": 0,
+        "net": 1,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.02631578947368421
+        ],
+        "changed_questions": [
+          {
+            "id": "nextqa-train-7267930490-0-9f127a383b67",
+            "delta": 1
+          }
+        ]
+      },
+      "blind vs blind_same_count_earliest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      },
+      "blind vs blind_same_count_latest": {
+        "gains": 0,
+        "losses": 0,
+        "net": 0,
+        "exploratory_source_bootstrap_difference_95": [
+          0.0,
+          0.0
+        ],
+        "changed_questions": []
+      }
+    }
+  }
+}

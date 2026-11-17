@@ -1,0 +1,613 @@
+{
+  "suite": "stream",
+  "questions": 959,
+  "sources": 192,
+  "table": {
+    "base_ls864": {
+      "n": 959,
+      "content_correct": 686,
+      "unparsed": 2,
+      "single_letter_format": 403
+    },
+    "base_recent432": {
+      "n": 959,
+      "content_correct": 680,
+      "unparsed": 4,
+      "single_letter_format": 313
+    },
+    "base_recent864": {
+      "n": 959,
+      "content_correct": 685,
+      "unparsed": 1,
+      "single_letter_format": 270
+    },
+    "base_text": {
+      "n": 959,
+      "content_correct": 448,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ls_ls864": {
+      "n": 959,
+      "content_correct": 658,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ls_recent864": {
+      "n": 959,
+      "content_correct": 660,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ls_text": {
+      "n": 959,
+      "content_correct": 339,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ordinary_ls864": {
+      "n": 959,
+      "content_correct": 656,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ordinary_recent864": {
+      "n": 959,
+      "content_correct": 651,
+      "unparsed": 0,
+      "single_letter_format": 959
+    },
+    "ordinary_text": {
+      "n": 959,
+      "content_correct": 337,
+      "unparsed": 0,
+      "single_letter_format": 959
+    }
+  },
+  "by_official_type": {
+    "Object Recognition": {
+      "base_ls864": {
+        "n": 100,
+        "content_correct": 74
+      },
+      "base_recent432": {
+        "n": 100,
+        "content_correct": 68
+      },
+      "base_recent864": {
+        "n": 100,
+        "content_correct": 71
+      },
+      "base_text": {
+        "n": 100,
+        "content_correct": 48
+      },
+      "ls_ls864": {
+        "n": 100,
+        "content_correct": 73
+      },
+      "ls_recent864": {
+        "n": 100,
+        "content_correct": 73
+      },
+      "ls_text": {
+        "n": 100,
+        "content_correct": 41
+      },
+      "ordinary_ls864": {
+        "n": 100,
+        "content_correct": 75
+      },
+      "ordinary_recent864": {
+        "n": 100,
+        "content_correct": 71
+      },
+      "ordinary_text": {
+        "n": 100,
+        "content_correct": 41
+      }
+    },
+    "Attribute Recognition": {
+      "base_ls864": {
+        "n": 90,
+        "content_correct": 77
+      },
+      "base_recent432": {
+        "n": 90,
+        "content_correct": 82
+      },
+      "base_recent864": {
+        "n": 90,
+        "content_correct": 80
+      },
+      "base_text": {
+        "n": 90,
+        "content_correct": 45
+      },
+      "ls_ls864": {
+        "n": 90,
+        "content_correct": 76
+      },
+      "ls_recent864": {
+        "n": 90,
+        "content_correct": 78
+      },
+      "ls_text": {
+        "n": 90,
+        "content_correct": 28
+      },
+      "ordinary_ls864": {
+        "n": 90,
+        "content_correct": 78
+      },
+      "ordinary_recent864": {
+        "n": 90,
+        "content_correct": 78
+      },
+      "ordinary_text": {
+        "n": 90,
+        "content_correct": 31
+      }
+    },
+    "Action Recognition": {
+      "base_ls864": {
+        "n": 91,
+        "content_correct": 64
+      },
+      "base_recent432": {
+        "n": 91,
+        "content_correct": 69
+      },
+      "base_recent864": {
+        "n": 91,
+        "content_correct": 65
+      },
+      "base_text": {
+        "n": 91,
+        "content_correct": 44
+      },
+      "ls_ls864": {
+        "n": 91,
+        "content_correct": 62
+      },
+      "ls_recent864": {
+        "n": 91,
+        "content_correct": 59
+      },
+      "ls_text": {
+        "n": 91,
+        "content_correct": 37
+      },
+      "ordinary_ls864": {
+        "n": 91,
+        "content_correct": 61
+      },
+      "ordinary_recent864": {
+        "n": 91,
+        "content_correct": 61
+      },
+      "ordinary_text": {
+        "n": 91,
+        "content_correct": 34
+      }
+    },
+    "Text-Rich Understanding": {
+      "base_ls864": {
+        "n": 108,
+        "content_correct": 78
+      },
+      "base_recent432": {
+        "n": 108,
+        "content_correct": 80
+      },
+      "base_recent864": {
+        "n": 108,
+        "content_correct": 77
+      },
+      "base_text": {
+        "n": 108,
+        "content_correct": 49
+      },
+      "ls_ls864": {
+        "n": 108,
+        "content_correct": 75
+      },
+      "ls_recent864": {
+        "n": 108,
+        "content_correct": 76
+      },
+      "ls_text": {
+        "n": 108,
+        "content_correct": 38
+      },
+      "ordinary_ls864": {
+        "n": 108,
+        "content_correct": 73
+      },
+      "ordinary_recent864": {
+        "n": 108,
+        "content_correct": 75
+      },
+      "ordinary_text": {
+        "n": 108,
+        "content_correct": 34
+      }
+    },
+    "Causal Reasoning": {
+      "base_ls864": {
+        "n": 96,
+        "content_correct": 78
+      },
+      "base_recent432": {
+        "n": 96,
+        "content_correct": 72
+      },
+      "base_recent864": {
+        "n": 96,
+        "content_correct": 74
+      },
+      "base_text": {
+        "n": 96,
+        "content_correct": 59
+      },
+      "ls_ls864": {
+        "n": 96,
+        "content_correct": 64
+      },
+      "ls_recent864": {
+        "n": 96,
+        "content_correct": 62
+      },
+      "ls_text": {
+        "n": 96,
+        "content_correct": 29
+      },
+      "ordinary_ls864": {
+        "n": 96,
+        "content_correct": 59
+      },
+      "ordinary_recent864": {
+        "n": 96,
+        "content_correct": 56
+      },
+      "ordinary_text": {
+        "n": 96,
+        "content_correct": 32
+      }
+    },
+    "Spatial Understanding": {
+      "base_ls864": {
+        "n": 99,
+        "content_correct": 61
+      },
+      "base_recent432": {
+        "n": 99,
+        "content_correct": 67
+      },
+      "base_recent864": {
+        "n": 99,
+        "content_correct": 63
+      },
+      "base_text": {
+        "n": 99,
+        "content_correct": 40
+      },
+      "ls_ls864": {
+        "n": 99,
+        "content_correct": 64
+      },
+      "ls_recent864": {
+        "n": 99,
+        "content_correct": 63
+      },
+      "ls_text": {
+        "n": 99,
+        "content_correct": 38
+      },
+      "ordinary_ls864": {
+        "n": 99,
+        "content_correct": 58
+      },
+      "ordinary_recent864": {
+        "n": 99,
+        "content_correct": 60
+      },
+      "ordinary_text": {
+        "n": 99,
+        "content_correct": 33
+      }
+    },
+    "Event Understanding": {
+      "base_ls864": {
+        "n": 79,
+        "content_correct": 60
+      },
+      "base_recent432": {
+        "n": 79,
+        "content_correct": 58
+      },
+      "base_recent864": {
+        "n": 79,
+        "content_correct": 59
+      },
+      "base_text": {
+        "n": 79,
+        "content_correct": 46
+      },
+      "ls_ls864": {
+        "n": 79,
+        "content_correct": 56
+      },
+      "ls_recent864": {
+        "n": 79,
+        "content_correct": 56
+      },
+      "ls_text": {
+        "n": 79,
+        "content_correct": 43
+      },
+      "ordinary_ls864": {
+        "n": 79,
+        "content_correct": 59
+      },
+      "ordinary_recent864": {
+        "n": 79,
+        "content_correct": 57
+      },
+      "ordinary_text": {
+        "n": 79,
+        "content_correct": 49
+      }
+    },
+    "Counting": {
+      "base_ls864": {
+        "n": 104,
+        "content_correct": 40
+      },
+      "base_recent432": {
+        "n": 104,
+        "content_correct": 34
+      },
+      "base_recent864": {
+        "n": 104,
+        "content_correct": 40
+      },
+      "base_text": {
+        "n": 104,
+        "content_correct": 28
+      },
+      "ls_ls864": {
+        "n": 104,
+        "content_correct": 43
+      },
+      "ls_recent864": {
+        "n": 104,
+        "content_correct": 39
+      },
+      "ls_text": {
+        "n": 104,
+        "content_correct": 13
+      },
+      "ordinary_ls864": {
+        "n": 104,
+        "content_correct": 41
+      },
+      "ordinary_recent864": {
+        "n": 104,
+        "content_correct": 39
+      },
+      "ordinary_text": {
+        "n": 104,
+        "content_correct": 15
+      }
+    },
+    "Clips Summarize": {
+      "base_ls864": {
+        "n": 89,
+        "content_correct": 75
+      },
+      "base_recent432": {
+        "n": 89,
+        "content_correct": 77
+      },
+      "base_recent864": {
+        "n": 89,
+        "content_correct": 77
+      },
+      "base_text": {
+        "n": 89,
+        "content_correct": 45
+      },
+      "ls_ls864": {
+        "n": 89,
+        "content_correct": 71
+      },
+      "ls_recent864": {
+        "n": 89,
+        "content_correct": 75
+      },
+      "ls_text": {
+        "n": 89,
+        "content_correct": 30
+      },
+      "ordinary_ls864": {
+        "n": 89,
+        "content_correct": 73
+      },
+      "ordinary_recent864": {
+        "n": 89,
+        "content_correct": 74
+      },
+      "ordinary_text": {
+        "n": 89,
+        "content_correct": 25
+      }
+    },
+    "Prospective Reasoning": {
+      "base_ls864": {
+        "n": 103,
+        "content_correct": 79
+      },
+      "base_recent432": {
+        "n": 103,
+        "content_correct": 73
+      },
+      "base_recent864": {
+        "n": 103,
+        "content_correct": 79
+      },
+      "base_text": {
+        "n": 103,
+        "content_correct": 44
+      },
+      "ls_ls864": {
+        "n": 103,
+        "content_correct": 74
+      },
+      "ls_recent864": {
+        "n": 103,
+        "content_correct": 79
+      },
+      "ls_text": {
+        "n": 103,
+        "content_correct": 42
+      },
+      "ordinary_ls864": {
+        "n": 103,
+        "content_correct": 79
+      },
+      "ordinary_recent864": {
+        "n": 103,
+        "content_correct": 80
+      },
+      "ordinary_text": {
+        "n": 103,
+        "content_correct": 43
+      }
+    }
+  },
+  "paired": {
+    "base_ls864 vs base_recent864": {
+      "gain": 44,
+      "loss": 43
+    },
+    "base_ls864 vs base_ls864": {
+      "gain": 0,
+      "loss": 0
+    },
+    "base_ls864 vs base_recent432": {
+      "gain": 61,
+      "loss": 55
+    },
+    "base_recent432 vs base_recent864": {
+      "gain": 45,
+      "loss": 50
+    },
+    "base_recent432 vs base_ls864": {
+      "gain": 55,
+      "loss": 61
+    },
+    "base_recent432 vs base_recent432": {
+      "gain": 0,
+      "loss": 0
+    },
+    "base_recent864 vs base_recent864": {
+      "gain": 0,
+      "loss": 0
+    },
+    "base_recent864 vs base_ls864": {
+      "gain": 43,
+      "loss": 44
+    },
+    "base_recent864 vs base_recent432": {
+      "gain": 50,
+      "loss": 45
+    },
+    "base_text vs base_recent864": {
+      "gain": 66,
+      "loss": 303
+    },
+    "base_text vs base_ls864": {
+      "gain": 67,
+      "loss": 305
+    },
+    "base_text vs base_recent432": {
+      "gain": 62,
+      "loss": 294
+    },
+    "ls_ls864 vs base_recent864": {
+      "gain": 78,
+      "loss": 105
+    },
+    "ls_ls864 vs base_ls864": {
+      "gain": 59,
+      "loss": 87
+    },
+    "ls_ls864 vs base_recent432": {
+      "gain": 88,
+      "loss": 110
+    },
+    "ls_recent864 vs base_recent864": {
+      "gain": 70,
+      "loss": 95
+    },
+    "ls_recent864 vs base_ls864": {
+      "gain": 76,
+      "loss": 102
+    },
+    "ls_recent864 vs base_recent432": {
+      "gain": 84,
+      "loss": 104
+    },
+    "ls_text vs base_recent864": {
+      "gain": 63,
+      "loss": 409
+    },
+    "ls_text vs base_ls864": {
+      "gain": 58,
+      "loss": 405
+    },
+    "ls_text vs base_recent432": {
+      "gain": 66,
+      "loss": 407
+    },
+    "ordinary_ls864 vs base_recent864": {
+      "gain": 75,
+      "loss": 104
+    },
+    "ordinary_ls864 vs base_ls864": {
+      "gain": 58,
+      "loss": 88
+    },
+    "ordinary_ls864 vs base_recent432": {
+      "gain": 86,
+      "loss": 110
+    },
+    "ordinary_recent864 vs base_recent864": {
+      "gain": 73,
+      "loss": 107
+    },
+    "ordinary_recent864 vs base_ls864": {
+      "gain": 79,
+      "loss": 114
+    },
+    "ordinary_recent864 vs base_recent432": {
+      "gain": 82,
+      "loss": 111
+    },
+    "ordinary_text vs base_recent864": {
+      "gain": 67,
+      "loss": 415
+    },
+    "ordinary_text vs base_ls864": {
+      "gain": 62,
+      "loss": 411
+    },
+    "ordinary_text vs base_recent432": {
+      "gain": 70,
+      "loss": 413
+    }
+  },
+  "metric": "generated option content accuracy; format reported separately",
+  "opened_development": true
+}

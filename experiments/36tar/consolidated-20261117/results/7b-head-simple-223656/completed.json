@@ -1,0 +1,11 @@
+{
+  "questions": 210,
+  "classifications": 294,
+  "vision": 26965,
+  "references": 12,
+  "states": 210,
+  "reused": 700,
+  "seconds": 6690.71436106693,
+  "generated_tokens": 0,
+  "training_updates": 0
+}

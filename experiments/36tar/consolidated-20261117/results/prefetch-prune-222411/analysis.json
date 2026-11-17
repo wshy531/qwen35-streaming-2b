@@ -1,0 +1,93 @@
+{
+  "status": "complete_cost_panel",
+  "sources": 6,
+  "repeats": 4,
+  "formal_answers": 96,
+  "median_pipeline_by_source": {
+    "serial_full": {
+      "streamingbench:4590848a31260b69a6584b41779f96ad4b9f36063fd9b50a104904c6ccc6da69": 3.7231167228892446,
+      "streamingbench:2a6f60097289656f7729fb9f496cb7e53c7d72815f2bcf486e298c58180c3747": 8.037922798655927,
+      "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f": 19.835259296000004,
+      "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7": 32.752925645560026,
+      "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01": 88.98657216876745,
+      "streamingbench:30ea3b93eb3bd5f930c9905f0ab6ae6127b0992b4c6e064727ffcce2b76f1d50": 99.14646869525313
+    },
+    "prefetch_full": {
+      "streamingbench:4590848a31260b69a6584b41779f96ad4b9f36063fd9b50a104904c6ccc6da69": 3.48942878190428,
+      "streamingbench:2a6f60097289656f7729fb9f496cb7e53c7d72815f2bcf486e298c58180c3747": 7.170832286588848,
+      "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f": 17.389679464511573,
+      "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7": 23.29147881269455,
+      "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01": 79.81946089211851,
+      "streamingbench:30ea3b93eb3bd5f930c9905f0ab6ae6127b0992b4c6e064727ffcce2b76f1d50": 89.7086212625727
+    },
+    "prefetch_fixed": {
+      "streamingbench:4590848a31260b69a6584b41779f96ad4b9f36063fd9b50a104904c6ccc6da69": 3.0456825336441398,
+      "streamingbench:2a6f60097289656f7729fb9f496cb7e53c7d72815f2bcf486e298c58180c3747": 6.293430148623884,
+      "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f": 16.730266480706632,
+      "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7": 23.035701227374375,
+      "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01": 78.90917736571282,
+      "streamingbench:30ea3b93eb3bd5f930c9905f0ab6ae6127b0992b4c6e064727ffcce2b76f1d50": 89.07223511394113
+    },
+    "prefetch_content": {
+      "streamingbench:4590848a31260b69a6584b41779f96ad4b9f36063fd9b50a104904c6ccc6da69": 2.8722611041739583,
+      "streamingbench:2a6f60097289656f7729fb9f496cb7e53c7d72815f2bcf486e298c58180c3747": 5.979087013751268,
+      "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f": 17.02907106280327,
+      "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7": 22.976151779294014,
+      "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01": 79.24527700152248,
+      "streamingbench:30ea3b93eb3bd5f930c9905f0ab6ae6127b0992b4c6e064727ffcce2b76f1d50": 89.15500456374139
+    }
+  },
+  "sum_source_median_pipeline_seconds": {
+    "serial_full": 252.4822653271258,
+    "prefetch_full": 220.86950150039047,
+    "prefetch_fixed": 217.08649287000299,
+    "prefetch_content": 217.25685252528638
+  },
+  "comparisons": [
+    {
+      "baseline": "serial_full",
+      "candidate": "prefetch_full",
+      "reduction_fraction": 0.1252078588006037,
+      "faster_sources": 6,
+      "source_bootstrap_exploratory_95": [
+        0.09689274211707033,
+        0.2189920198726294
+      ],
+      "meets_practical_cost_screen": null
+    },
+    {
+      "baseline": "prefetch_full",
+      "candidate": "prefetch_fixed",
+      "reduction_fraction": 0.017127799921171083,
+      "faster_sources": 6,
+      "source_bootstrap_exploratory_95": [
+        0.010100450985882303,
+        0.05644157668603289
+      ],
+      "meets_practical_cost_screen": false
+    },
+    {
+      "baseline": "prefetch_full",
+      "candidate": "prefetch_content",
+      "reduction_fraction": 0.016356486298755524,
+      "faster_sources": 6,
+      "source_bootstrap_exploratory_95": [
+        0.007926783456670639,
+        0.06377170922744801
+      ],
+      "meets_practical_cost_screen": false
+    },
+    {
+      "baseline": "prefetch_fixed",
+      "candidate": "prefetch_content",
+      "reduction_fraction": -0.0007847547446695469,
+      "faster_sources": 3,
+      "source_bootstrap_exploratory_95": [
+        -0.005552625837809355,
+        0.01078606211560873
+      ],
+      "meets_practical_cost_screen": null
+    }
+  ],
+  "limitation": "No new capability or edge claim. Fixed six opened sources; no cold-cache control; selection overhead included."
+}

@@ -1,0 +1,43 @@
+{
+  "full_recent8": {
+    "gains": 20,
+    "losses": 15,
+    "net": 5,
+    "exploratory_source_bootstrap_95": [
+      -0.030405405405405407,
+      0.06418918918918919
+    ]
+  },
+  "full_LS": {
+    "gains": 15,
+    "losses": 13,
+    "net": 2,
+    "exploratory_source_bootstrap_95": [
+      -0.03666666666666667,
+      0.05067567567567568
+    ]
+  },
+  "fixed_LS": {
+    "gains": 23,
+    "losses": 13,
+    "net": 10,
+    "exploratory_source_bootstrap_95": [
+      -0.013333333333333334,
+      0.08223684210526316
+    ]
+  },
+  "content_recent8": {
+    "gains": 22,
+    "losses": 11,
+    "net": 11,
+    "exploratory_source_bootstrap_95": [
+      -0.006622516556291391,
+      0.08389261744966443
+    ]
+  },
+  "content_recent_or_LS_posthoc_oracle": {
+    "correct": 231,
+    "n": 300,
+    "warning": "Not an automatic method score; same route for both permutations"
+  }
+}

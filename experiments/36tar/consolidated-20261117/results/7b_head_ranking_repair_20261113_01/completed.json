@@ -1,0 +1,20 @@
+{
+  "fits": 9,
+  "updates": 1620,
+  "seconds": 18.85900000000038,
+  "cpu": true,
+  "gpu": 0,
+  "new_qa": 0,
+  "base_updates": 0,
+  "reserve_opened": false,
+  "initial_sha": {
+    "20261104": "d3ccc3e5cb9d821f176af82d6d3f807617a09e152d7765633b8930c1b6467375",
+    "7113": "b70492ba177363c2e27c68426715db406c07cb2121aaf2c0bd1d99d9182625db",
+    "17": "1686cf249686a81da16a66ff359dd93a5a24788409b9ec799ab1bf91c54ad85c"
+  },
+  "batch_order_sha": {
+    "20261104": "fe6ae75248e40331fda0ff65a933fc1e73db673a61d838b7b0098e9478c331d8",
+    "7113": "d2c9edb95c8c19425dd81ce27e90149262c078b3abe4bc77424be918bfd770a3",
+    "17": "26c7264c645d8d3ef9bd50553caa617c76c83a9168b5b38f562ddba0fc1eb333"
+  }
+}
