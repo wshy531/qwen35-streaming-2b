@@ -1,0 +1,12 @@
+{
+  "questions": 210,
+  "classifications": 1680,
+  "vision": 53930,
+  "content_reference_matches": 840,
+  "cpu_synthetic": false,
+  "weight_hash": {
+    "initial": "293f624ebfc4e8ca0c68684dd9e25623c9fb47ef4a708ceb5b0db9a426df4eba",
+    "guard": "f5226b2ce2c14df86fc92fe9b809f70f1b10c24ad5d8dad8cae8ecf4b5b23724"
+  },
+  "seconds": 8556.188959478866
+}

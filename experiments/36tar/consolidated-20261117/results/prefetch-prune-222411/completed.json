@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "answers": 96,
+  "warmup_answers": 4,
+  "tokens": 9633,
+  "vision_calls": 16924,
+  "seconds": 3706.7963253650814,
+  "updates": 0,
+  "base_unchanged": true
+}

@@ -1,0 +1,55 @@
+{
+  "tables": [
+    {
+      "mode": "full",
+      "route": "recent8",
+      "correct": 215,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 554.4
+    },
+    {
+      "mode": "full",
+      "route": "LS",
+      "correct": 218,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 1077.0666666666666
+    },
+    {
+      "mode": "fixed",
+      "route": "recent8",
+      "correct": 209,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 277.2
+    },
+    {
+      "mode": "fixed",
+      "route": "LS",
+      "correct": 210,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 538.5333333333333
+    },
+    {
+      "mode": "content",
+      "route": "recent8",
+      "correct": 209,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 277.2
+    },
+    {
+      "mode": "content",
+      "route": "LS",
+      "correct": 220,
+      "n": 300,
+      "questions": 150,
+      "mean_visual_tokens": 538.5333333333333
+    }
+  ],
+  "duplicates_verified": 24,
+  "comparison": "same frame-pair coverage, different token budgets; option scoring in two permutations",
+  "full_history_audit": "not completed; LS is not full video history"
+}

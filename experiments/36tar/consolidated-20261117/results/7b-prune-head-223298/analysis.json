@@ -1,0 +1,2206 @@
+{
+  "tables": [
+    {
+      "suite": "SB150",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 215,
+      "n": 300,
+      "both_orders_correct": 104,
+      "mean_visual_tokens": 554.4,
+      "mean_read_seconds": 0.5569792087639992,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.5569792087639992
+    },
+    {
+      "suite": "SB150",
+      "mode": "full",
+      "route": "LS",
+      "correct": 218,
+      "n": 300,
+      "both_orders_correct": 104,
+      "mean_visual_tokens": 1077.0666666666666,
+      "mean_read_seconds": 0.9864994714641944,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.9864994714641944
+    },
+    {
+      "suite": "SB150",
+      "mode": "full",
+      "route": "head",
+      "correct": 220,
+      "n": 300,
+      "both_orders_correct": 105,
+      "mean_visual_tokens": 644.9333333333333,
+      "mean_read_seconds": 0.6306228632247075,
+      "mean_selection_seconds": 0.6515221470997979,
+      "mean_QA_component_seconds": 1.2821450103245056
+    },
+    {
+      "suite": "SB150",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 209,
+      "n": 300,
+      "both_orders_correct": 98,
+      "mean_visual_tokens": 277.2,
+      "mean_read_seconds": 0.32694888735190036,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.32694888735190036
+    },
+    {
+      "suite": "SB150",
+      "mode": "content",
+      "route": "LS",
+      "correct": 220,
+      "n": 300,
+      "both_orders_correct": 104,
+      "mean_visual_tokens": 538.5333333333333,
+      "mean_read_seconds": 0.5533305581938476,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.5533305581938476
+    },
+    {
+      "suite": "SB150",
+      "mode": "content",
+      "route": "head",
+      "correct": 213,
+      "n": 300,
+      "both_orders_correct": 100,
+      "mean_visual_tokens": 318.26666666666665,
+      "mean_read_seconds": 0.38509991886870315,
+      "mean_selection_seconds": 0.27561256077451013,
+      "mean_QA_component_seconds": 0.6607124796432132
+    },
+    {
+      "suite": "SB150",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 208,
+      "n": 300,
+      "both_orders_correct": 97,
+      "mean_visual_tokens": 318.26666666666665,
+      "mean_read_seconds": 0.3569651060101266,
+      "mean_selection_seconds": 0.27561256077451013,
+      "mean_QA_component_seconds": 0.6325776667846367
+    },
+    {
+      "suite": "short60",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 110,
+      "n": 120,
+      "both_orders_correct": 54,
+      "mean_visual_tokens": 560.0,
+      "mean_read_seconds": 0.5450956336959886,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.5450956336959886
+    },
+    {
+      "suite": "short60",
+      "mode": "full",
+      "route": "LS",
+      "correct": 116,
+      "n": 120,
+      "both_orders_correct": 56,
+      "mean_visual_tokens": 1087.3333333333333,
+      "mean_read_seconds": 1.000919068205015,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 1.000919068205015
+    },
+    {
+      "suite": "short60",
+      "mode": "full",
+      "route": "head",
+      "correct": 112,
+      "n": 120,
+      "both_orders_correct": 54,
+      "mean_visual_tokens": 676.6666666666666,
+      "mean_read_seconds": 0.6566021392703988,
+      "mean_selection_seconds": 0.6592980007796237,
+      "mean_QA_component_seconds": 1.3159001400500225
+    },
+    {
+      "suite": "short60",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 102,
+      "n": 120,
+      "both_orders_correct": 48,
+      "mean_visual_tokens": 280.0,
+      "mean_read_seconds": 0.3158779890392907,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.3158779890392907
+    },
+    {
+      "suite": "short60",
+      "mode": "content",
+      "route": "LS",
+      "correct": 110,
+      "n": 120,
+      "both_orders_correct": 53,
+      "mean_visual_tokens": 543.6666666666666,
+      "mean_read_seconds": 0.5443121197943886,
+      "mean_selection_seconds": 0.0,
+      "mean_QA_component_seconds": 0.5443121197943886
+    },
+    {
+      "suite": "short60",
+      "mode": "content",
+      "route": "head",
+      "correct": 106,
+      "n": 120,
+      "both_orders_correct": 50,
+      "mean_visual_tokens": 333.6666666666667,
+      "mean_read_seconds": 0.4140673665368619,
+      "mean_selection_seconds": 0.27705193229485303,
+      "mean_QA_component_seconds": 0.691119298831715
+    },
+    {
+      "suite": "short60",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 108,
+      "n": 120,
+      "both_orders_correct": 51,
+      "mean_visual_tokens": 333.6666666666667,
+      "mean_read_seconds": 0.362333525919045,
+      "mean_selection_seconds": 0.27705193229485303,
+      "mean_QA_component_seconds": 0.639385458213898
+    }
+  ],
+  "selection": {
+    "SB150": {
+      "full": {
+        "node_counts": {
+          "1": 97,
+          "0": 53
+        },
+        "subsets": {
+          "[1]": 15,
+          "[0]": 78,
+          "[]": 53,
+          "[2]": 2,
+          "[3]": 2
+        },
+        "mean_seconds": 0.6515221470997979,
+        "norm_means": {
+          "query": 360.75440205891925,
+          "recent": 168.9723114013672,
+          "history": 222.6473578898112,
+          "metadata": 2.8661293172836304
+        }
+      },
+      "content": {
+        "node_counts": {
+          "1": 88,
+          "0": 62
+        },
+        "subsets": {
+          "[1]": 17,
+          "[0]": 59,
+          "[2]": 10,
+          "[]": 62,
+          "[3]": 2
+        },
+        "mean_seconds": 0.27561256077451013,
+        "norm_means": {
+          "query": 361.9953928629557,
+          "recent": 154.94451451619466,
+          "history": 197.07189310709634,
+          "metadata": 2.3269042607148487
+        }
+      },
+      "route_changes": 54
+    },
+    "short60": {
+      "full": {
+        "node_counts": {
+          "1": 50,
+          "0": 10
+        },
+        "subsets": {
+          "[0]": 38,
+          "[2]": 3,
+          "[]": 10,
+          "[1]": 7,
+          "[3]": 2
+        },
+        "mean_seconds": 0.6592980007796237,
+        "norm_means": {
+          "query": 374.5052769978841,
+          "recent": 187.458544921875,
+          "history": 265.10169448852537,
+          "metadata": 2.631378956635793
+        }
+      },
+      "content": {
+        "node_counts": {
+          "1": 46,
+          "0": 14
+        },
+        "subsets": {
+          "[0]": 28,
+          "[1]": 10,
+          "[]": 14,
+          "[2]": 6,
+          "[3]": 2
+        },
+        "mean_seconds": 0.27705193229485303,
+        "norm_means": {
+          "query": 369.78479919433596,
+          "recent": 171.7444300333659,
+          "history": 236.04853541056315,
+          "metadata": 1.9904483646154403
+        }
+      },
+      "route_changes": 29
+    }
+  },
+  "paired": {
+    "SB150 vs full_recent8": {
+      "gains": 16,
+      "losses": 18,
+      "net": -2,
+      "source_bootstrap_95": [
+        -0.05405405405405406,
+        0.04110297590930551
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+          "question": "What are the colors of the juice cartons being handled by the person?",
+          "type": "Attribute Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+          "question": "Why would Mr. Bean buy the things being towed behind his car?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:6bed32d19c3b7548b06f06f313dad3b865f4c33cffbcb77ad79420ccdc02ee95",
+          "question": "What is the best summary of the food preparation process that was just shown?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:34f954abf2e739c96125f2c1e74c05768ac82f0d7f6ff941ef34b71fb8e4aaad",
+          "question": "What best describes the paintings shown in the video?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+          "question": "Which of the following options best summarizes the actions taken by the individual just now?",
+          "type": "Clips Summarize",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:eee9a8625931aa5b7a67938aa56753d4a8154566de5eb255e7c0829de7d37166",
+          "question": "What makes of the yellow car is waiting at the red light right now?",
+          "type": "Object Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:3154dcdd978383dbf725aa8c07f0c99b6af36e1ca91e83e0287aea617af1addd",
+          "question": "Where is the bridge in relation to the rider right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+          "question": "Why does Mr. Bean want to escape?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+          "question": "Which of the following best summarizes the actions performed just now?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:35b1d538d25e042bfdfbf3e36436bbd5990590243e61c6eba6983444fe1b3a3b",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+          "question": "What is the person in the aircraft wearing on his head right now?",
+          "type": "Object Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+          "question": "What is to the right of the cyclist right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:7d048387f2688e2e92e056d9efcb05c8ab4e1e386f7076d56c499cc21deb9664",
+          "question": "What does the person do with the avocado after cutting it?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+          "question": "Why did Mr. Bean drive back to the sofa shop again?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:df3889332a571a0785871451bc40eb08521838c75b624fcb31e94a8867b23fbb",
+          "question": "What is the relationship between the fire hydrant and the two characters standing near the palm tree?",
+          "type": "Spatial Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:ead9a530aee295c3ddd2ed6e726d74dcd9c3c2481444580f5437b602c1ceda7d",
+          "question": "What is located to the right side of the cyclist right now?",
+          "type": "Spatial Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:ef361a6deb4468359f790ef8f132344a1e99c4ae1e23d328055dddedf4e1a7ef",
+          "question": "Which car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+          "question": "What concept will the speaker likely explain next?",
+          "type": "Prospective Reasoning",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:b759bf465060dd7e493b3f2191ae8c8e43b09bcb163c35d95cef2ac39c458629",
+          "question": "What action is the paintbrush performing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01",
+          "question": "What is the van doing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:baf54ab526e585e5820490a807034965babfcd6a4f0e93955ec9a9f0fee36bcb",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f",
+          "question": "What is the woman wearing a mask doing right now?",
+          "type": "Event Understanding",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:5234073c1f375508ad2fda91f175409f5238238736b30aa091c19ff594d470c4",
+          "question": "What ingredients are being cooked in the frying pan?",
+          "type": "Object Recognition",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:2a595d22719fa60f7016268f2f0b901f9ecf3bcdc9e55e0fc355768ec44a9609",
+          "question": "What color is the car driven by Rich Mixon?",
+          "type": "Attribute Recognition",
+          "delta": -2
+        }
+      ]
+    },
+    "SB150 vs full_LS": {
+      "gains": 20,
+      "losses": 25,
+      "net": -5,
+      "source_bootstrap_95": [
+        -0.07432432432432433,
+        0.03948021958870677
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+          "question": "What action is the player performing in the video right now?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+          "question": "What are the colors of the juice cartons being handled by the person?",
+          "type": "Attribute Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+          "question": "Why would Mr. Bean buy the things being towed behind his car?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:34f954abf2e739c96125f2c1e74c05768ac82f0d7f6ff941ef34b71fb8e4aaad",
+          "question": "What best describes the paintings shown in the video?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:2d44ba52f7d3090c4cff781136352b50ad52516f8f018f18fd6200fdc64af575",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:05f0c0cfdce445df17e009b8b5e520dffe4846703b29d764c1af34b8a9281315",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:2d2c985ba87ed330b8d016917426ac312186be3627cc1395f8b45a6f3db98b02",
+          "question": "What might the speaker discuss next?",
+          "type": "Prospective Reasoning",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:3154dcdd978383dbf725aa8c07f0c99b6af36e1ca91e83e0287aea617af1addd",
+          "question": "Where is the bridge in relation to the rider right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:335941a5e0152674f82857a5c3786e04b9c74dff0c24a18a0c36f2561d365d95",
+          "question": "What is the position of the orange car right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:41dd2ebb4097eafc422a9606f4cdeda680e00f08a7ecbb2190d0309fce99e750",
+          "question": "What is the driver doing right now?",
+          "type": "Action Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+          "question": "Why does Mr. Bean want to escape?",
+          "type": "Causal Reasoning",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+          "question": "Which of the following best summarizes the actions performed just now?",
+          "type": "Clips Summarize",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:35b1d538d25e042bfdfbf3e36436bbd5990590243e61c6eba6983444fe1b3a3b",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:7d048387f2688e2e92e056d9efcb05c8ab4e1e386f7076d56c499cc21deb9664",
+          "question": "What does the person do with the avocado after cutting it?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+          "question": "What is the predominant color of the device on the right side of the cockpit?",
+          "type": "Attribute Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+          "question": "Why did Mr. Bean drive back to the sofa shop again?",
+          "type": "Causal Reasoning",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:880775e4ddceb137cf26b13357fc3426dfdcf7f01016cf2a64a9327b3fba1167",
+          "question": "Where does this letter on the ground come from?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+          "question": "Which racing car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:324adae35b1be128b1e48cb2e776a74e795a03eed348dfab3794071e4f5ffa38",
+          "question": "What is the man holding in his right hand while preparing food on the cutting board?",
+          "type": "Object Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:df3889332a571a0785871451bc40eb08521838c75b624fcb31e94a8867b23fbb",
+          "question": "What is the relationship between the fire hydrant and the two characters standing near the palm tree?",
+          "type": "Spatial Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:1e12d9757ec9bb3de158f9e73ae905ddc3388976fee5fcc766515e3c9ad027c6",
+          "question": "What is the track currently displayed in the video made up of?",
+          "type": "Attribute Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:ef361a6deb4468359f790ef8f132344a1e99c4ae1e23d328055dddedf4e1a7ef",
+          "question": "Which car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+          "question": "What is the updated score after the player in number 11 scored a goal?",
+          "type": "Event Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+          "question": "What concept will the speaker likely explain next?",
+          "type": "Prospective Reasoning",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:772e8d8baa190ead2c6e9683ac6604d15724aa9750cf80a0d79de67a7e6cc49e",
+          "question": "What might the speaker explain next?",
+          "type": "Prospective Reasoning",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:b759bf465060dd7e493b3f2191ae8c8e43b09bcb163c35d95cef2ac39c458629",
+          "question": "What action is the paintbrush performing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01",
+          "question": "What is the van doing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:baf54ab526e585e5820490a807034965babfcd6a4f0e93955ec9a9f0fee36bcb",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f",
+          "question": "What is the woman wearing a mask doing right now?",
+          "type": "Event Understanding",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:5234073c1f375508ad2fda91f175409f5238238736b30aa091c19ff594d470c4",
+          "question": "What ingredients are being cooked in the frying pan?",
+          "type": "Object Recognition",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:2a595d22719fa60f7016268f2f0b901f9ecf3bcdc9e55e0fc355768ec44a9609",
+          "question": "What color is the car driven by Rich Mixon?",
+          "type": "Attribute Recognition",
+          "delta": -2
+        }
+      ]
+    },
+    "SB150 vs full_head": {
+      "gains": 13,
+      "losses": 20,
+      "net": -7,
+      "source_bootstrap_95": [
+        -0.07285770025730795,
+        0.02364864864864865
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:104109336f39328678bfb072a545255545dab82b7bae28ed40f0fac395cdf09c",
+          "question": "What action is the player performing in the video right now?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+          "question": "What are the colors of the juice cartons being handled by the person?",
+          "type": "Attribute Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:34f954abf2e739c96125f2c1e74c05768ac82f0d7f6ff941ef34b71fb8e4aaad",
+          "question": "What best describes the paintings shown in the video?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:2d44ba52f7d3090c4cff781136352b50ad52516f8f018f18fd6200fdc64af575",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:05f0c0cfdce445df17e009b8b5e520dffe4846703b29d764c1af34b8a9281315",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:eee9a8625931aa5b7a67938aa56753d4a8154566de5eb255e7c0829de7d37166",
+          "question": "What makes of the yellow car is waiting at the red light right now?",
+          "type": "Object Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:3154dcdd978383dbf725aa8c07f0c99b6af36e1ca91e83e0287aea617af1addd",
+          "question": "Where is the bridge in relation to the rider right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+          "question": "Why does Mr. Bean want to escape?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+          "question": "Which of the following best summarizes the actions performed just now?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:35b1d538d25e042bfdfbf3e36436bbd5990590243e61c6eba6983444fe1b3a3b",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+          "question": "What is the person in the aircraft wearing on his head right now?",
+          "type": "Object Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:7d048387f2688e2e92e056d9efcb05c8ab4e1e386f7076d56c499cc21deb9664",
+          "question": "What does the person do with the avocado after cutting it?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:99b9c6054e4f943d7ad2768d3bc9e4580439475fdda75f91b2cfb1b9c5f2fb7b",
+          "question": "What is the predominant color of the device on the right side of the cockpit?",
+          "type": "Attribute Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:ec28932ea1c6f991b49a73cd2a98b3eba174b571204ba0d448a6f54a186172f7",
+          "question": "Why did Mr. Bean drive back to the sofa shop again?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+          "question": "Which racing car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:df3889332a571a0785871451bc40eb08521838c75b624fcb31e94a8867b23fbb",
+          "question": "What is the relationship between the fire hydrant and the two characters standing near the palm tree?",
+          "type": "Spatial Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:ef361a6deb4468359f790ef8f132344a1e99c4ae1e23d328055dddedf4e1a7ef",
+          "question": "Which car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+          "question": "What concept will the speaker likely explain next?",
+          "type": "Prospective Reasoning",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:b759bf465060dd7e493b3f2191ae8c8e43b09bcb163c35d95cef2ac39c458629",
+          "question": "What action is the paintbrush performing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:fc4caf7cdf2a47c61825ac9a4df98e72f7d09893d828339f8cee7feab30fea01",
+          "question": "What is the van doing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:baf54ab526e585e5820490a807034965babfcd6a4f0e93955ec9a9f0fee36bcb",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:36fa1a391b8d3b225a976a3dc0544d382e0cc6db231c62528d6b74ca5ff5314f",
+          "question": "What is the woman wearing a mask doing right now?",
+          "type": "Event Understanding",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:5234073c1f375508ad2fda91f175409f5238238736b30aa091c19ff594d470c4",
+          "question": "What ingredients are being cooked in the frying pan?",
+          "type": "Object Recognition",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:2a595d22719fa60f7016268f2f0b901f9ecf3bcdc9e55e0fc355768ec44a9609",
+          "question": "What color is the car driven by Rich Mixon?",
+          "type": "Attribute Recognition",
+          "delta": -2
+        }
+      ]
+    },
+    "SB150 vs content_LS": {
+      "gains": 9,
+      "losses": 16,
+      "net": -7,
+      "source_bootstrap_95": [
+        -0.06375838926174497,
+        0.013422818791946308
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:f50ce9a23545af5a177070645b70297862b58a24988f916092dabe453b465e7f",
+          "question": "What are the colors of the juice cartons being handled by the person?",
+          "type": "Attribute Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:cd011e6fd5b9044ac180c4f3cfe6f8a4fe5c9a6fc3bce931bbf3f50cf3b65daf",
+          "question": "Why would Mr. Bean buy the things being towed behind his car?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:34f954abf2e739c96125f2c1e74c05768ac82f0d7f6ff941ef34b71fb8e4aaad",
+          "question": "What best describes the paintings shown in the video?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:2d44ba52f7d3090c4cff781136352b50ad52516f8f018f18fd6200fdc64af575",
+          "question": "How many times in total have movie clips been inserted during this person's explanation so far?",
+          "type": "Counting",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:3154dcdd978383dbf725aa8c07f0c99b6af36e1ca91e83e0287aea617af1addd",
+          "question": "Where is the bridge in relation to the rider right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:335941a5e0152674f82857a5c3786e04b9c74dff0c24a18a0c36f2561d365d95",
+          "question": "What is the position of the orange car right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:41dd2ebb4097eafc422a9606f4cdeda680e00f08a7ecbb2190d0309fce99e750",
+          "question": "What is the driver doing right now?",
+          "type": "Action Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:fd6e20a1142f2668706cdffd31420ec546971250afdf5a29287d66c7b1b1cc9b",
+          "question": "What color is the car directly in front?",
+          "type": "Attribute Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+          "question": "Why does Mr. Bean want to escape?",
+          "type": "Causal Reasoning",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:7d048387f2688e2e92e056d9efcb05c8ab4e1e386f7076d56c499cc21deb9664",
+          "question": "What does the person do with the avocado after cutting it?",
+          "type": "Action Recognition",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:50c26c2da609adf72d211d82427170e8faf0b116ec090cdde2e5cb353aca36f6",
+          "question": "Which racing car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:7f69aad4f33c180788e59820f3634c16edf8b05b220b924d917494d8e2311666",
+          "question": "What is shown entering the scene from the right now?",
+          "type": "Event Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:324adae35b1be128b1e48cb2e776a74e795a03eed348dfab3794071e4f5ffa38",
+          "question": "What is the man holding in his right hand while preparing food on the cutting board?",
+          "type": "Object Recognition",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:df3889332a571a0785871451bc40eb08521838c75b624fcb31e94a8867b23fbb",
+          "question": "What is the relationship between the fire hydrant and the two characters standing near the palm tree?",
+          "type": "Spatial Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:bf46c63b18b83e0e928aa7072f45df7dfb25eccb2658041b6ad64a89bd633c19",
+          "question": "How are the three framed pieces arranged on the wall?",
+          "type": "Spatial Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:ef361a6deb4468359f790ef8f132344a1e99c4ae1e23d328055dddedf4e1a7ef",
+          "question": "Which car won first place in this competition?",
+          "type": "Event Understanding",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:5aa8beba6f414da656bcfa50dbcb8cf6f74305961bd162bc578b93d91c7936ef",
+          "question": "What is the updated score after the player in number 11 scored a goal?",
+          "type": "Event Understanding",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:623b7897a0e014ff87e2610857d5e9a59c76b6f4d75ffb177efdd309ef2f35e2",
+          "question": "What concept will the speaker likely explain next?",
+          "type": "Prospective Reasoning",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:5234073c1f375508ad2fda91f175409f5238238736b30aa091c19ff594d470c4",
+          "question": "What ingredients are being cooked in the frying pan?",
+          "type": "Object Recognition",
+          "delta": -2
+        },
+        {
+          "id": "streamingbench:2a595d22719fa60f7016268f2f0b901f9ecf3bcdc9e55e0fc355768ec44a9609",
+          "question": "What color is the car driven by Rich Mixon?",
+          "type": "Attribute Recognition",
+          "delta": -2
+        }
+      ]
+    },
+    "SB150 vs content_recent8": {
+      "gains": 6,
+      "losses": 2,
+      "net": 4,
+      "source_bootstrap_95": [
+        -0.006711409395973154,
+        0.037162162162162164
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:8e2ce00b581e90960c4d9bdf9f949ec08d16804396579abc7be7017d7ec64031",
+          "question": "Which of the following options best summarizes the actions taken by the individual just now?",
+          "type": "Clips Summarize",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:c97475e07b5c62084506a15997bb22ef62f030ae98e5657ee53ab7d87d57485e",
+          "question": "Why does Mr. Bean want to escape?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:da75ff2436e027b5eafd65d81716296d23d989eacad4297cc575a46adae5e3db",
+          "question": "Which of the following best summarizes the actions performed just now?",
+          "type": "Clips Summarize",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+          "question": "What is the person in the aircraft wearing on his head right now?",
+          "type": "Object Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:11319d749a0692e7124d33a9b9899be533b4e330ee4f0fa8dae595ed34b1996c",
+          "question": "What is to the right of the cyclist right now?",
+          "type": "Spatial Understanding",
+          "delta": -1
+        },
+        {
+          "id": "streamingbench:b759bf465060dd7e493b3f2191ae8c8e43b09bcb163c35d95cef2ac39c458629",
+          "question": "What action is the paintbrush performing right now?",
+          "type": "Action Recognition",
+          "delta": 1
+        }
+      ]
+    },
+    "SB150 vs content_same_count_earliest": {
+      "gains": 5,
+      "losses": 0,
+      "net": 5,
+      "source_bootstrap_95": [
+        0.0,
+        0.0392156862745098
+      ],
+      "changed_questions": [
+        {
+          "id": "streamingbench:c996240a11b2fb60a0cec208836c35f77f86e5380f0d3a54ff2b3da2a344263a",
+          "question": "What is the person in the aircraft wearing on his head right now?",
+          "type": "Object Recognition",
+          "delta": 2
+        },
+        {
+          "id": "streamingbench:880775e4ddceb137cf26b13357fc3426dfdcf7f01016cf2a64a9327b3fba1167",
+          "question": "Where does this letter on the ground come from?",
+          "type": "Causal Reasoning",
+          "delta": 1
+        },
+        {
+          "id": "streamingbench:b759bf465060dd7e493b3f2191ae8c8e43b09bcb163c35d95cef2ac39c458629",
+          "question": "What action is the paintbrush performing right now?",
+          "type": "Action Recognition",
+          "delta": 2
+        }
+      ]
+    },
+    "short60 vs full_recent8": {
+      "gains": 3,
+      "losses": 7,
+      "net": -4,
+      "source_bootstrap_95": [
+        -0.09016393442622951,
+        0.01818181818181818
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-4753059948-2",
+          "question": "how many children are in the video",
+          "type": "DC",
+          "delta": -2
+        },
+        {
+          "id": "nextqa-train-2927552798-7-83a295546ae2",
+          "question": "what does the man in balck jacket do after turning around in the middle",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-5808252980-7-5c7c87f033d0",
+          "question": "what does the baby do after flipping the pages of the book",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-4845474028-7-a9b27e51d28a",
+          "question": "how many puppies are there in this video",
+          "type": "DC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-4154619533-4-bb335dc59a54",
+          "question": "why did the man in jacket put the object near his eyes as he turns around to face the other girl in black hat",
+          "type": "CW",
+          "delta": 2
+        },
+        {
+          "id": "nextqa-train-13939850762-7",
+          "question": "how many times does the dog repeats its shaking ear cycle",
+          "type": "DC",
+          "delta": -1
+        }
+      ]
+    },
+    "short60 vs full_LS": {
+      "gains": 0,
+      "losses": 10,
+      "net": -10,
+      "source_bootstrap_95": [
+        -0.14166666666666666,
+        -0.03333333333333333
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-4753059948-2",
+          "question": "how many children are in the video",
+          "type": "DC",
+          "delta": -2
+        },
+        {
+          "id": "nextqa-train-6311026563-6-9e1ecde15779",
+          "question": "what did the boy in blue do when the girl in white was back facing him",
+          "type": "TC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-2927552798-7-83a295546ae2",
+          "question": "what does the man in balck jacket do after turning around in the middle",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-5808252980-7-5c7c87f033d0",
+          "question": "what does the baby do after flipping the pages of the book",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-4845474028-7-a9b27e51d28a",
+          "question": "how many puppies are there in this video",
+          "type": "DC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-3865085471-7-17a746b1e82a",
+          "question": "what does the baby do after looking at the phone in the middle",
+          "type": "TN",
+          "delta": -2
+        },
+        {
+          "id": "nextqa-train-3248050019-3-2d6c602966d6",
+          "question": "what does the kid do after he touches the snow ball",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-7267930490-0-9f127a383b67",
+          "question": "what is the boy in blue holding",
+          "type": "DO",
+          "delta": -1
+        }
+      ]
+    },
+    "short60 vs full_head": {
+      "gains": 1,
+      "losses": 7,
+      "net": -6,
+      "source_bootstrap_95": [
+        -0.10317460317460317,
+        0.0
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-4753059948-2",
+          "question": "how many children are in the video",
+          "type": "DC",
+          "delta": -2
+        },
+        {
+          "id": "nextqa-train-6311026563-6-9e1ecde15779",
+          "question": "what did the boy in blue do when the girl in white was back facing him",
+          "type": "TC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-2927552798-7-83a295546ae2",
+          "question": "what does the man in balck jacket do after turning around in the middle",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-5808252980-7-5c7c87f033d0",
+          "question": "what does the baby do after flipping the pages of the book",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-4845474028-7-a9b27e51d28a",
+          "question": "how many puppies are there in this video",
+          "type": "DC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-3248050019-3-2d6c602966d6",
+          "question": "what does the kid do after he touches the snow ball",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-7267930490-0-9f127a383b67",
+          "question": "what is the boy in blue holding",
+          "type": "DO",
+          "delta": 1
+        }
+      ]
+    },
+    "short60 vs content_LS": {
+      "gains": 1,
+      "losses": 5,
+      "net": -4,
+      "source_bootstrap_95": [
+        -0.075,
+        0.0
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-4753059948-2",
+          "question": "how many children are in the video",
+          "type": "DC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-2927552798-7-83a295546ae2",
+          "question": "what does the man in balck jacket do after turning around in the middle",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-5808252980-7-5c7c87f033d0",
+          "question": "what does the baby do after flipping the pages of the book",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-4845474028-7-a9b27e51d28a",
+          "question": "how many puppies are there in this video",
+          "type": "DC",
+          "delta": 1
+        },
+        {
+          "id": "nextqa-train-3865085471-7-17a746b1e82a",
+          "question": "what does the baby do after looking at the phone in the middle",
+          "type": "TN",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-7267930490-0-9f127a383b67",
+          "question": "what is the boy in blue holding",
+          "type": "DO",
+          "delta": -1
+        }
+      ]
+    },
+    "short60 vs content_recent8": {
+      "gains": 4,
+      "losses": 0,
+      "net": 4,
+      "source_bootstrap_95": [
+        0.0078125,
+        0.07017543859649122
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-2927552798-7-83a295546ae2",
+          "question": "what does the man in balck jacket do after turning around in the middle",
+          "type": "TN",
+          "delta": 1
+        },
+        {
+          "id": "nextqa-train-3213770181-0-f94e11062f56",
+          "question": "what was the girl doing at the start while the others are at the table",
+          "type": "TC",
+          "delta": 1
+        },
+        {
+          "id": "nextqa-train-7267930490-0-9f127a383b67",
+          "question": "what is the boy in blue holding",
+          "type": "DO",
+          "delta": 1
+        },
+        {
+          "id": "nextqa-train-4916201843-4",
+          "question": "how does the baby feel about being cleaned",
+          "type": "TC",
+          "delta": 1
+        }
+      ]
+    },
+    "short60 vs content_same_count_earliest": {
+      "gains": 0,
+      "losses": 2,
+      "net": -2,
+      "source_bootstrap_95": [
+        -0.0423728813559322,
+        0.0
+      ],
+      "changed_questions": [
+        {
+          "id": "nextqa-train-6311026563-6-9e1ecde15779",
+          "question": "what did the boy in blue do when the girl in white was back facing him",
+          "type": "TC",
+          "delta": -1
+        },
+        {
+          "id": "nextqa-train-7267930490-0-9f127a383b67",
+          "question": "what is the boy in blue holding",
+          "type": "DO",
+          "delta": -1
+        }
+      ]
+    }
+  },
+  "types": [
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 24,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 31,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 15,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 20,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 10,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "full",
+      "route": "LS",
+      "correct": 24,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "full",
+      "route": "LS",
+      "correct": 31,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "full",
+      "route": "LS",
+      "correct": 15,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "full",
+      "route": "LS",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "full",
+      "route": "LS",
+      "correct": 13,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "full",
+      "route": "LS",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "full",
+      "route": "LS",
+      "correct": 24,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "full",
+      "route": "LS",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "full",
+      "route": "LS",
+      "correct": 20,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "full",
+      "route": "LS",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "full",
+      "route": "head",
+      "correct": 25,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "full",
+      "route": "head",
+      "correct": 30,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "full",
+      "route": "head",
+      "correct": 16,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "full",
+      "route": "head",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "full",
+      "route": "head",
+      "correct": 13,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "full",
+      "route": "head",
+      "correct": 23,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "full",
+      "route": "head",
+      "correct": 23,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "full",
+      "route": "head",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "full",
+      "route": "head",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "full",
+      "route": "head",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 26,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 28,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 17,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 18,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 9,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 24,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 20,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "content",
+      "route": "LS",
+      "correct": 27,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "content",
+      "route": "LS",
+      "correct": 28,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "content",
+      "route": "LS",
+      "correct": 18,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "content",
+      "route": "LS",
+      "correct": 20,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "content",
+      "route": "LS",
+      "correct": 11,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "content",
+      "route": "LS",
+      "correct": 22,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "content",
+      "route": "LS",
+      "correct": 24,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "content",
+      "route": "LS",
+      "correct": 26,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "content",
+      "route": "LS",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "content",
+      "route": "LS",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "content",
+      "route": "head",
+      "correct": 27,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "content",
+      "route": "head",
+      "correct": 28,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "content",
+      "route": "head",
+      "correct": 18,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "content",
+      "route": "head",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "content",
+      "route": "head",
+      "correct": 9,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "content",
+      "route": "head",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "content",
+      "route": "head",
+      "correct": 23,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "content",
+      "route": "head",
+      "correct": 24,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "content",
+      "route": "head",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "content",
+      "route": "head",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Action Recognition",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 25,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Attribute Recognition",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 28,
+      "n": 36
+    },
+    {
+      "suite": "SB150",
+      "type": "Causal Reasoning",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 17,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Clips Summarize",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Counting",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 9,
+      "n": 24
+    },
+    {
+      "suite": "SB150",
+      "type": "Event Understanding",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Object Recognition",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 21,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Prospective Reasoning",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 24,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Spatial Understanding",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 19,
+      "n": 30
+    },
+    {
+      "suite": "SB150",
+      "type": "Text-Rich Understanding",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 25,
+      "n": 30
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 30,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 12,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 16,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 20,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "full",
+      "route": "recent8",
+      "correct": 14,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "full",
+      "route": "LS",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "full",
+      "route": "LS",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "full",
+      "route": "LS",
+      "correct": 11,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "full",
+      "route": "LS",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "full",
+      "route": "LS",
+      "correct": 17,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "full",
+      "route": "LS",
+      "correct": 21,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "full",
+      "route": "LS",
+      "correct": 17,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "full",
+      "route": "head",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "full",
+      "route": "head",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "full",
+      "route": "head",
+      "correct": 11,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "full",
+      "route": "head",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "full",
+      "route": "head",
+      "correct": 15,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "full",
+      "route": "head",
+      "correct": 21,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "full",
+      "route": "head",
+      "correct": 15,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 8,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 15,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 18,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "content",
+      "route": "recent8",
+      "correct": 11,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "content",
+      "route": "LS",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "content",
+      "route": "LS",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "content",
+      "route": "LS",
+      "correct": 8,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "content",
+      "route": "LS",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "content",
+      "route": "LS",
+      "correct": 17,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "content",
+      "route": "LS",
+      "correct": 20,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "content",
+      "route": "LS",
+      "correct": 15,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "content",
+      "route": "head",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "content",
+      "route": "head",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "content",
+      "route": "head",
+      "correct": 8,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "content",
+      "route": "head",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "content",
+      "route": "head",
+      "correct": 16,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "content",
+      "route": "head",
+      "correct": 20,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "content",
+      "route": "head",
+      "correct": 12,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "CH",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 8,
+      "n": 8
+    },
+    {
+      "suite": "short60",
+      "type": "CW",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 32,
+      "n": 32
+    },
+    {
+      "suite": "short60",
+      "type": "DC",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 8,
+      "n": 12
+    },
+    {
+      "suite": "short60",
+      "type": "DL",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 10,
+      "n": 10
+    },
+    {
+      "suite": "short60",
+      "type": "DO",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 17,
+      "n": 18
+    },
+    {
+      "suite": "short60",
+      "type": "TC",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 21,
+      "n": 22
+    },
+    {
+      "suite": "short60",
+      "type": "TN",
+      "mode": "content",
+      "route": "same_count_earliest",
+      "correct": 12,
+      "n": 18
+    }
+  ],
+  "checks": {
+    "unique_rows": 2940,
+    "reference_rows": 1860,
+    "full_routes": 210,
+    "checkpoint_unchanged": true
+  },
+  "limits": [
+    "Two permutations are correlated; 210 unique questions.",
+    "QA costs include selection once per hypothetical answer, not independent end-to-end runs.",
+    "LS is bounded saved history, not complete original history.",
+    "No S-EMBER or D18."
+  ]
+}

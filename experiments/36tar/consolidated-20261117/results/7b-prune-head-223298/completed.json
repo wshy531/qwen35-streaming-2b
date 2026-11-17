@@ -1,0 +1,13 @@
+{
+  "questions": 210,
+  "classifications": 2940,
+  "representations": 420,
+  "vision": 53931,
+  "references": 1860,
+  "state_checks": 210,
+  "seconds": 9557.54092471907,
+  "base_updates": 0,
+  "head_updates": 0,
+  "generated_tokens": 0,
+  "standalone_cost": false
+}
